@@ -28,6 +28,195 @@ const ratingScales = {
  * Скрипт сам попытается найти постер через API по названию. */
 
 const tierListData = {
+    '2024': {
+        'S': [
+            {
+                title: "Re:Zero kara Hajimeru Isekai Seikatsu 3 Season",
+                ruTitle: "Re:Zero. Жизнь в другом мире с нуля 3",
+                review: "Это хорошо! Но мы чуть-чуть потерпим и потом как 6-ую арку посмотрим, и ВАУ будет! (обзор/пересказ арок есть в тг-канале)."
+            },
+            {
+                title: "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
+                ruTitle: "Может, я встречу тебя в подземелье? V",
+                review: "По факту это аниме не прям вау, но мне очень нравится. Буду читать ранобэ."
+            },
+        ],
+        'A': [
+            {
+                title: "One Piece",
+                ruTitle: "Ван Пис",
+                review: "Судьба. Судьба. Мечты. Эти непреодолимые идеи хранятся глубоко в сердце человека. Пока есть люди, которые ищут свободы в этой жизни, эти вещи не исчезнут с лица земли."
+            },
+            {
+                title: "Tengen Toppa Gurren Lagann",
+                ruTitle: "Гуррен-Лаганн",
+                review: "Можешь не верить в себя. Верь в меня. Верь в мою веру в тебя!"
+            },
+        ],
+        'B': [
+            {
+                title: "Majo to Yajuu",
+                ruTitle: "Ведьма и чудовище",
+                review: "Очень интерсное аниме с нормальной рисовкой и сюжетом. Заинтересовало."
+            },
+            {
+                title: "Tsuki ga Michibiku Isekai Douchuu 2nd Season",
+                ruTitle: "Лунное путешествие в другой мир 2",
+                review: "Самое дефолтное исекай аниме с имба ГГ. Но мне почему-то нравится."
+            },
+            {
+                title: "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3rd Season",
+                ruTitle: "Добро пожаловать в класс превосходства 3",
+                review: "Рисовка чутка подвела, сюжет держится на уровне первых двух сезонов."
+            },
+            {
+                title: "Kimetsu no Yaiba: Hashira Geiko-hen",
+                ruTitle: "Клинок, Рассекающий Демонов: Тренировка Хашира",
+                review: "Стабилоьно хорошее аниме. Рисовка на высоте."
+            },
+            {
+                title: "Boku no Hero Academia 7th Season",
+                ruTitle: "Моя геройская академия 7",
+                review: "7 сезон?! Я уже устал его смотреть."
+            },
+            {
+                title: "Tsue to Tsurugi no Wistoria",
+                ruTitle: "Меч и жезл Вистории",
+                review: "Прикольно, карсивое аниме. Пошёл читать мангу. Впринципе неплохо."
+            },
+        ],
+        'C': [
+            {
+                title: "Ore dake Level Up na Ken",
+                ruTitle: "Поднятие уровня в одиночку",
+                review: "Начало скучноватое, но потом пошло интереснее. В целом неплохо."
+            },
+            {
+                title: "Lv2 kara Cheat datta Motoyuusha Kouho no Mattari Isekai Life",
+                ruTitle: "Непринуждённая жизнь в другом мире экс-кандидата в герои, оказавшегося читером со 2 уровня",
+                review: "Дефолтный гаремник с имба ГГ."
+            },
+            {
+                title: "Kaii to Otome to Kamikakushi",
+                ruTitle: "Перерождение: Монстр",
+                review: "Прикольное, забавное аниме. До его анонса увидел ранобеху."
+            },
+            {
+                title: "Re:Monster",
+                ruTitle: "Мистика, девы и загадочные исчезновения",
+                review: "Прикольное, забавное аниме."
+            },
+            {
+                title: "Wind Breaker",
+                ruTitle: "Ветролом",
+                review: "Лучше чем Токийские мстители."
+            },
+            {
+                title: "Kenka Dokugaku",
+                ruTitle: "Борьба в прямом эфире",
+                review: "По началу неплохо, потом скучновато."
+            },
+            {
+                title: "Kuroshitsuji: Kishuku Gakkou-hen",
+                ruTitle: "Тёмный дворецкий: Школа-интернат",
+                review: "Это странно. Некоторые сезоны вообще не интересные, а некоторые прям хороши. Этот сезон как раз из таких."
+            },
+            {
+                title: "Kaijuu 8-gou",
+                ruTitle: "Кайдзю номер восемь",
+                review: "По началу было прикольно, но потом мужиик стал слишком имбой и аниме потеряло интерес."
+            },
+            {
+                title: "Bartender: Kami no Glass",
+                ruTitle: "Бармен: Бокал бога",
+                review: "Прикольно видеть как люди интерптируют жизнь через разные сферы. В данном случае - взаимодействие с людьми в баре. Но а баба жёстко бесит."
+            },
+            {
+                title: "Nige Jouzu no Wakagimi",
+                ruTitle: "Юный лорд — мастер побега",
+                review: "Неплохая анимешка. Рисовка красивая, сюжет + - нормальный."
+            },
+            {
+                title: "Kimitachi wa Dou Ikiru ka",
+                ruTitle: "Мальчик и птица",
+                review: "Если знать бекграунд Хаяо Миядзаки, то аниме преобритает очень глубокий смысл + можно сравнить с предыдущими его работами. Я смотрел с другом, поэтому неплохо."
+            },
+            {
+                title: "Kami no Tou 2nd Season",
+                ruTitle: "Башня Бога 2",
+                review: "Хорошее аниме. Рисовка на норм, сюжет тоже. Я пошёл читать манхву... аниме никогда полностью не выйдет."
+            },
+            {
+                title: "Suki demo Kirai na Amanojaku",
+                ruTitle: "Моя подруга — демон",
+                review: "Смотрел с другом, было прикольно. Но в целом дефолтная полнометражка."
+            },
+        ],
+        'D': [
+            {
+                title: "Nozomanu Fushi no Boukensha",
+                ruTitle: "Нежеланно бессмертный авантюрист",
+                review: "Дефолт. Ничего особенного."
+            },
+            {
+                title: "Akuyaku Reijou Level 99: Watashi wa Ura-Boss desu ga Maou dewa Arimasen",
+                ruTitle: "Злодейка девяносто девятого уровня: «Я босс, но не король демонов»",
+                review: "Немного забавное, но в целом дефолное аниме с имба ГГ."
+            },
+            {
+                title: "Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba Ii?",
+                ruTitle: "Я, владыка демонов, взял эльфийку-рабыню в жёны. И как же мне её любить?",
+                review: "Кринж! Еле досмотрел до конца."
+            },
+            {
+                title: "Tensei Kizoku, Kantei Skill de Nariagaru",
+                ruTitle: "Перерождение в аристократа со способностью анализа",
+                review: "Никак"
+            },
+            {
+                title: "The New Gate",
+                ruTitle: "Новые врата",
+                review: "Никак"
+            },
+            {
+                title: "Boku no Hero Academia: Memories",
+                ruTitle: "Моя геройская академия: Воспоминания",
+                review: "Я даже уже забыл про что эти воспоминания."
+            },
+            {
+                title: "Maou gun Saikyou no Majutsushi wa Ningen datta",
+                ruTitle: "Самый сильный волшебник армии повелителя демонов оказался человеком",
+                review: "Дефолтное аниме с имба ГГ."
+            },
+            {
+                title: "Hazurewaku no Joutai Ijou Skill",
+                ruTitle: "Я стал самым сильным с провальным навыком «ненормальное состояние», я разрушу всё",
+                review: "Дефолтное аниме с имба ГГ. Но чуть-чуть чем-то заинтересовало."
+            },
+            {
+                title: "I Parry Everything",
+                ruTitle: "Я парировал всё время, чтобы стать сильнейшим авантюристом",
+                review: "Дефолтное аниме с имба ГГ."
+            },
+            {
+                title: "Atri: My Dear Moments",
+                ruTitle: "Атри: Мои дорогие моменты",
+                review: "Скучное, но красивое аниме."
+            },
+            {
+                title: "Make Heroine ga Oosugiru!",
+                ruTitle: "Слишком много проигравших героинь!",
+                review: "Кринж! Я даже под конец дропнул."
+            },
+            {
+                title: "Sokushi Cheat ga Saikyou sugite, Isekai no Yatsura ga Marude Aite ni Naranai n desu ga.",
+                ruTitle: "Другой мир не может противостоять силе мгновенной смерти",
+                review: "Никак"
+            },
+        ],
+        'E': [],
+        'F': []
+    },
     '2025': {
         'S': [
             {
