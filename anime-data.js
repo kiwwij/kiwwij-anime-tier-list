@@ -28,6 +28,171 @@ const ratingScales = {
  * Скрипт сам попытается найти постер через API по названию. */
 
 const tierListData = {
+    '2022': {
+        'S': [
+            {
+                title: "Fumetsu no Anata e Season 2",
+                ruTitle: "Для тебя, Бессмертный 2",
+                review: "Держит уровень первого сезона. Интересная развилка с хранителями."
+            },
+            {
+                title: "Dungeon ni Deai wo Motomeru no wa Machigatteiru no Darou ka IV",
+                ruTitle: "Может, я встречу тебя в подземелье? IV",
+                review: "Очень милый и крутой сезон. Буду читать ранобэ."
+            },
+            {
+                title: "Cyberpunk: Edgerunners",
+                ruTitle: "Киберпанк: Бегущие по краю",
+                review: "So, get away. Another way to feel what you didn't want yourself to know. And let yourself go."
+            },
+        ],
+        'A': [
+            {
+                title: "One Piece",
+                ruTitle: "Ван Пис",
+                review: "Судьба. Судьба. Мечты. Эти непреодолимые идеи хранятся глубоко в сердце человека. Пока есть люди, которые ищут свободы в этой жизни, эти вещи не исчезнут с лица земли."
+            },
+            
+        ],
+        'B': [
+            {
+                title: "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 2",
+                ruTitle: "Добро пожаловать в класс превосходства 2",
+                review: "Держит уровень первого сезона."
+            },
+            {
+                title: "Vanitas no Carte 2nd Cour",
+                ruTitle: "Мемуары Ванитаса 2",
+                review: "Держит уровень первого сезона."
+            },
+            {
+                title: "Sabikui Bisco",
+                ruTitle: "Биско-ржавоед",
+                review: "Хорошое аниме с интересной идеей. Как я понял оно закончилось."
+            },
+            {
+                title: "Overlord IV",
+                ruTitle: "Повелитель IV",
+                review: "Держит уровень первых трёх сезонов."
+            },
+        ],
+        'C': [
+            {
+                title: "Vanitas no Carte 2nd Cour",
+                ruTitle: "Мемуары Ванитаса 2",
+                review: "Держит уровень первого сезона."
+            },
+        ],
+        'D': [
+            {
+                title: "Sword Art Online: Progressive Movie - Kuraki Yuuyami no Scherzo",
+                ruTitle: "Мастера Меча Онлайн: Прогрессив — Скерцо глубокой ночи",
+                review: "Прикольно, но есть и получше сезоны про САО."
+            },
+        ],
+        'E': [
+            {
+                title: "Bleach",
+                ruTitle: "Блич",
+                review: "Все серии с дубляжом + - норм, но какое же это овер хайповое и нелогичное аниме. Но досмотрел до конца."
+            },
+        ],
+        'F': []
+    },
+    '2023': {
+        'S': [
+            {
+                title: "Vinland Saga 2",
+                ruTitle: "Сага о Винланде 2",
+                review: "Держит уровень первого сезона. Продолжаю читать мангу."
+            },
+            {
+                title: "Dungeon ni Deai wo Motomeru no wa Machigatteiru no Darou ka IV. Part 2",
+                ruTitle: "Может, я встречу тебя в подземелье? IV. Часть 2",
+                review: "Очень милый и крутой сезон. Буду читать ранобэ."
+            },
+        ],
+        'A': [
+            {
+                title: "One Piece",
+                ruTitle: "Ван Пис",
+                review: "Судьба. Судьба. Мечты. Эти непреодолимые идеи хранятся глубоко в сердце человека. Пока есть люди, которые ищут свободы в этой жизни, эти вещи не исчезнут с лица земли."
+            },
+            {
+                title: "Berserk",
+                ruTitle: "Берсерк",
+                review: "Что вершит судьбу человечества в этом мире? Некое незримое существо или закон, подобно Длани Господней парящей над миром? По крайне мере истинно то, что человек не властен даже над своей волей."
+            },
+        ],
+        'B': [
+            {
+                title: "JUJUTSU KAISEN Season 2",
+                ruTitle: "Магическая битва 2",
+                review: "Держит уровень первого сезона."
+            },
+            {
+                title: "Sousou no Frieren",
+                ruTitle: "Провожающая в последний путь Фрирен",
+                review: "Максимально чилловое, но в то же время грустное аниме."
+            },
+            {
+                title: "Kimi wa Houkago Insomnia",
+                ruTitle: "Бессонница после школы",
+                review: "Дефолтная повседневка, но почему-то зацепила. В моменте даже хотел начать разгядывать звёзды."
+            },
+            {
+                title: "Kimetsu no Yaiba: Katanakaji no Sato-hen",
+                ruTitle: "Клинок, Рассекающий Демонов: Деревня Кузнецов",
+                review: "Держит планку."
+            },
+        ],
+        'C': [
+            {
+                title: "GOBLIN SLAYER II",
+                ruTitle: "Убийца Гоблинов 2",
+                review: "Держит уровень первого сезона."
+            },
+            {
+                title: "Undead Girl Murder Farce",
+                ruTitle: "Фарс из убийства девушки-нежити",
+                review: "Не особо нравятся детективы, но это аниме неплохое."
+            },
+            {
+                title: "Mononogatari",
+                ruTitle: "История о мононокэ",
+                review: "Прикольное, но под конец немного скучно."
+            },
+            {
+                title: "Mononogatari 2nd Season",
+                ruTitle: "История о мононокэ 2",
+                review: "Прикольное, но под конец немного скучно."
+            },
+            {
+                title: "Kaminaki Sekai no Kamisama Katsudou",
+                ruTitle: "Деятельность Бога в мире без богов",
+                review: "Прикольное, забавное, местами странное аниме."
+            },
+            {
+                title: "Tengoku Daimakyou",
+                ruTitle: "Великая небесная стена",
+                review: "Прикольное, неординарное аниме. пытался прочитаь мангу, но не осилил."
+            },
+            {
+                title: "Seishun Buta Yarou wa Randoseru Girl no Yume wo Minai",
+                ruTitle: "Этот глупый свин не понимает мечту девочки с рюкзаком",
+                review: "С каждым сезон, фильмом всё скучнее и скучнее. Динамики больше не становится."
+            },
+        ],
+        'D': [
+            {
+                title: "Boku no Kokoro no Yabai Yatsu: Twi-Yaba",
+                ruTitle: "Опасность в моём сердце: Дополнительное время",
+                review: "Даже не помню о чём это."
+            },
+        ],
+        'E': [],
+        'F': []
+    },
     '2024': {
         'S': [
             {

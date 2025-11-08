@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мой Аниме Тир-Лист</title>
+    <meta author="kiwwij">
+    <meta name="description" content="Все мои аниме, собранные в тир-листе с коротким описанием.">
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/53/a0/3d/53a03dfe10d137fe7427b48471e2c5aa.gif">
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -28,17 +31,23 @@
             <div>
                 <label for="year-select" class="block text-sm font-medium text-gray-300 mb-2">Год просмотра:</label>
                 <select id="year-select" class="bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                    <!-- Опции будут добавлены через JS -->
                 </select>
             </div>
             <!-- Выбор шкалы -->
             <div>
                 <label for="scale-select" class="block text-sm font-medium text-gray-300 mb-2">Шкала рейтинга:</label>
                 <select id="scale-select" class="bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                    <!-- Устанавливаем "Стандартную" по умолчанию -->
                     <option value="standard">Стандартная (S-F)</option>
                     <option value="personal">Личная</option>
                 </select>
+            </div>
+             <!-- Ссылка на статистику -->
+            <div>
+                <!-- Пустой label для выравнивания по высоте с другими селектами на MD экранах -->
+                <label class="block text-sm font-medium text-gray-300 mb-2 opacity-0 hidden md:block">Статистика:</label>
+                <a href="stats.html" class="block w-full text-center bg-indigo-600 hover:bg-indigo-700 rounded-lg px-4 py-2 text-white font-medium transition-colors">
+                    Смотреть статистику
+                </a>
             </div>
         </div>
 

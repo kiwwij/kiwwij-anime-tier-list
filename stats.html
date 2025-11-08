@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статистика по моим аниме</title>
+    <meta author="kiwwij">
+    <meta name="description" content="Статистика по моим аниме, включая жанры, рейтинги и просмотры.">
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/00/82/0f/00820fe9b5e5ee5e6deece92054603b3.gif">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white min-h-screen p-4 md:p-8">
+
+    <div class="max-w-6xl mx-auto w-full space-y-8">
+        
+        <!-- Заголовок и ссылка "Назад" -->
+        <div class="flex items-center justify-between my-8">
+            <a href="index.html" class="text-indigo-400 hover:text-indigo-300 transition-colors text-lg">
+                &larr; Назад к тир-листу
+            </a>
+            <h1 class="text-3xl md:text-5xl font-bold text-indigo-400 text-center">
+                Статистика
+            </h1>
+            <!-- Пустой div для выравнивания по центру (ширина = ширине "Назад...") -->
+            <div class="w-48 hidden md:block"></div> 
+        </div>
+
+        <!-- Грид со статистикой -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+            <!-- 1. Статистика по просмотрам (левая карточка) -->
+            <div class="lg:col-span-1 bg-gray-800 rounded-2xl shadow-xl p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-gray-200 mb-6 border-b border-gray-700 pb-4">
+                    Просмотренно
+                </h2>
+                
+                <div class="space-y-4">
+                    <!-- Итого -->
+                    <div class="text-center bg-gray-900 p-6 rounded-lg">
+                        <span class="text-sm font-medium text-gray-400 uppercase tracking-wider">Всего уникальных аниме</span>
+                        <div id="stats-total-unique" class="text-6xl font-extrabold text-indigo-400 my-2">
+                            ...
+                        </div>
+                    </div>
+
+                    <!-- По годам -->
+                    <div id="stats-by-year" class="space-y-2 pt-4">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Статистика по жанрам (правая карточка) -->
+            <div class="lg:col-span-2 bg-gray-800 rounded-2xl shadow-xl p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-gray-200 mb-6">
+                    Топ-15 Жанров
+                </h2>
+                
+                <!-- Индикатор загрузки жанров -->
+                <div id="genre-loading-indicator" class="text-center text-lg text-indigo-300 py-10 min-h-[450px] flex flex-col justify-center items-center">
+                    <svg class="animate-spin h-8 w-8 text-white mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    Загрузка статистики по жанрам...
+                </div>
+
+                <!-- Контейнер для диаграммы -->
+                <div id="genre-chart-container" class="hidden relative h-[450px] w-full">
+                    <canvas id="genreChart"></canvas>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Подключаем библиотеку для диаграмм -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="anime-data.js"></script>
+    <script src="stats.js"></script>
+</body>
+</html>
