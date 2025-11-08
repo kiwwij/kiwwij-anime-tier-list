@@ -28,6 +28,593 @@ const ratingScales = {
  * Скрипт сам попытается найти постер через API по названию. */
 
 const tierListData = {
+    '2008': {
+        'S': [],
+        'A': [],
+        'B': [],
+        'C': [
+            {
+                title: "Тёмный дворецкий",
+                ruTitle: "Kuroshitsuji",
+                review: "Неплохо"
+            },
+        ],
+        'D': [],
+        'E': [],
+        'F': []
+    },
+    '2009': {
+        'S': [],
+        'A': [],
+        'B': [],
+        'C': [],
+        'D': [],
+        'E': [],
+        'F': []
+    },
+    '2010': {
+        'S': [],
+        'A': [
+            {
+                title: "Naruto",
+                ruTitle: "Наруто",
+                review: "Сколько же раз я пересматривал его?"
+            },
+            {
+                title: "Naruto: Shippuuden",
+                ruTitle: "Наруто: Ураганные хроники",
+                review: "Все же знают, что фамили Наруто - Шипуден?"
+            },
+            {
+                title: "Покемоны",
+                ruTitle: "Pocket Monsters",
+                review: "Почти ничего не моню про это аниме, но оно мне нравилось."
+            },
+        ],
+        'B': [],
+        'C': [],
+        'D': [],
+        'E': [],
+        'F': []
+    },
+    '2011': {
+        'S': [],
+        'A': [
+            {
+                title: "Naruto",
+                ruTitle: "Наруто",
+                review: "Сколько же раз я пересматривал его?"
+            },
+            {
+                title: "Naruto: Shippuuden",
+                ruTitle: "Наруто: Ураганные хроники",
+                review: "Все же знают, что фамили Наруто - Шипуден?"
+            },
+            {
+                title: "Покемоны",
+                ruTitle: "Pocket Monsters",
+                review: "Почти ничего не моню про это аниме, но оно мне нравилось."
+            },
+        ],
+        'B': [],
+        'C': [],
+        'D': [],
+        'E': [],
+        'F': []
+    },
+    '2012': {
+        'S': [],
+        'A': [
+            {
+                title: "Мастера меча онлайн",
+                ruTitle: "Sword Art Online",
+                review: "Запомните все! Это НЕ исека!"
+            },
+            {
+                title: "Naruto",
+                ruTitle: "Наруто",
+                review: "Сколько же раз я пересматривал его?"
+            },
+            {
+                title: "Naruto: Shippuuden",
+                ruTitle: "Наруто: Ураганные хроники",
+                review: "Все же знают, что фамили Наруто - Шипуден?"
+            },
+        ],
+        'B': [],
+        'C': [],
+        'D': [],
+        'E': [],
+        'F': []
+    },
+    '2013': {
+        'S': [],
+        'A': [
+            {
+                title: "Naruto",
+                ruTitle: "Наруто",
+                review: "Сколько же раз я пересматривал его?"
+            },
+            {
+                title: "Naruto: Shippuuden",
+                ruTitle: "Наруто: Ураганные хроники",
+                review: "Все же знают, что фамили Наруто - Шипуден?"
+            },
+        ],
+        'B': [],
+        'C': [
+            {
+                title: "Sword Art Online: Extra Edition",
+                ruTitle: "Мастера меча онлайн: Дополнительное издание",
+                review: "Неплохо"
+            },
+            {
+                title: "Watashi ga Motenai no wa Dou Kangaetemo Omaera ga Warui!",
+                ruTitle: "Не моя вина, что я не популярна!",
+                review: "Неплохо"
+            },
+            {
+                title: "Gekijouban Steins;Gate: Fuka Ryouiki no Déjà vu",
+                ruTitle: "Врата Штейна: Зона загрузки дежавю",
+                review: ""
+            },
+        ],
+        'D': [],
+        'E': [],
+        'F': []
+    },
+    '2014': {
+        'S': [],
+        'A': [
+            {
+                title: "Naruto",
+                ruTitle: "Наруто",
+                review: "Сколько же раз я пересматривал его?"
+            },
+            {
+                title: "Naruto: Shippuuden",
+                ruTitle: "Наруто: Ураганные хроники",
+                review: "Все же знают, что фамили Наруто - Шипуден?"
+            },
+        ],
+        'B': [
+            {
+                title: "Sword Art Online II",
+                ruTitle: "Мастера Меча Онлайн 2",
+                review: "Чутка слабее, чем 1-ый сезон. Но в целом неплохо."
+            }
+        ],
+        'C': [
+            {
+                title: "Noragami",
+                ruTitle: "Бездомный бог",
+                review: "Неплохо"
+            },
+        ],
+        'D': [],
+        'E': [],
+        'F': []
+    },
+    '2015': {
+        'S': [
+            {
+                title: "Re: Zero kara Hajimeru Isekai Seikatsu",
+                ruTitle: "Re: Жизнь в другом мире с нуля",
+                review: "С этого всё началось. Я был шакированн идеей возвращения в точку сохранения после смерти. Очень понравилось аниме."
+            }
+        ],
+        'A': [
+            {
+                title: "Naruto",
+                ruTitle: "Наруто",
+                review: "Сколько же раз я пересматривал его?"
+            },
+            {
+                title: "Naruto: Shippuuden",
+                ruTitle: "Наруто: Ураганные хроники",
+                review: "Все же знают, что фамили Наруто - Шипуден?"
+            },
+        ],
+        'B': [
+            {
+                title: "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+                ruTitle: "Может, я встречу тебя в подземелье?",
+                review: "Для того времени было очень круто."
+            },
+            {
+                title: "Owari no Seraph",
+                ruTitle: "Последний Серафим",
+                review: "Это было очень круто."
+            },
+            {
+                title: "Owari no Seraph: Nagoya Kessen-hen",
+                ruTitle: "Последний Серафим 2",
+                review: "Спустя много лет пошёл читать мангу."
+            },
+            {
+                title: "Tokyo Ghoul √A",
+                ruTitle: "Токийский Гуль √A (ТВ-2)",
+                review: "Пока ещё хорошо."
+            },
+        ],
+        'C': [
+            {
+                title: "Monster Musume no Iru Nichijou",
+                ruTitle: "Повседневная Жизнь с Девушкой-Монстром",
+                review: "Без комментариев."
+            },
+            {
+                title: "Noragami Aragoto",
+                ruTitle: "Бездомный бог: Арагото",
+                review: "Держит уровень первого сезона. Жалко что не продолжили."
+            },
+        ],
+        'D': [],
+        'E': [],
+        'F': []
+    },
+    '2016': {
+        'S': [
+            {
+                title: "Re: Zero kara Hajimeru Isekai Seikatsu",
+                ruTitle: "Re: Жизнь в другом мире с нуля",
+                review: "С этого всё началось. Я был шакированн идеей возвращения в точку сохранения после смерти. Очень понравилось аниме."
+            }
+        ],
+        'A': [
+            {
+                title: "One Piece",
+                ruTitle: "Ван Пис",
+                review: "Посмотрел + - 100 серий, но потом почему-то дропнул."
+            },
+            {
+                title: "Naruto",
+                ruTitle: "Наруто",
+                review: "Сколько же раз я пересматривал его?"
+            },
+            {
+                title: "Naruto: Shippuuden",
+                ruTitle: "Наруто: Ураганные хроники",
+                review: "Все же знают, что фамили Наруто - Шипуден?"
+            },
+            {
+                title: "Kimi no Na wa.",
+                ruTitle: "Твоё имя.",
+                review: "Пересмотрел и снова проникся. Великолепное аниме."
+            },
+        ],
+        'B': [
+            {
+                title: "Boku dake ga Inai Machi",
+                ruTitle: "Город, в котором меня нет",
+                review: "Возможно лучший детектив."
+            }
+        ],
+        'C': [
+            {
+                title: "Monster Musume no Iru Nichijou OVA",
+                ruTitle: "Повседневная жизнь с девушкой-монстром OVA",
+                review: "Без комментариев."
+            }
+        ],
+        'D': [],
+        'E': [],
+        'F': []
+    },
+    '2017': {
+        'S': [
+            {
+                title: "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+                ruTitle: "Добро пожаловать в класс превосходства",
+                review: "На этом базируется моя личность."
+            },
+            {
+                title: "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka OVA",
+                ruTitle: "Может, я встречу тебя в подземелье? OVA",
+                review: "Никак"
+            },
+        ],
+        'A': [
+            {
+                title: "Naruto",
+                ruTitle: "Наруто",
+                review: "Сколько же раз я пересматривал его?"
+            },
+            {
+                title: "Naruto: Shippuuden",
+                ruTitle: "Наруто: Ураганные хроники",
+                review: "Все же знают, что фамили Наруто - Шипуден?"
+            },
+        ],
+        'B': [
+            {
+                title: "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?",
+                ruTitle: "Если ты будешь не занят, спасёшь меня от апокалипсиса?",
+                review: "О да, это было хорошо, это было грустно."
+            },
+        ],
+        'C': [],
+        'D': [
+            {
+                title: "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka OVA",
+                ruTitle: "Может, я встречу тебя в подземелье? OVA",
+                review: "Никак"
+            },
+            {
+                title: "Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Gaiden: Sword Oratoria",
+                ruTitle: "Может, я встречу тебя в подземелье? — Меч Оратории",
+                review: "Я даже не помню о чём это."
+            },
+        ],
+        'E': [],
+        'F': []
+    },
+    '2018': {
+        'S': [
+            {
+                title: "Sword Art Online: Alicization",
+                ruTitle: "Мастера Меча Онлайн: Алисизация",
+                review: "Лучшее из САО, ну может после 1-го сезона, на мой взгляд. Очень понравилось аниме."
+            },
+        ],
+        'A': [],
+        'B': [
+            {
+                title: "Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow",
+                ruTitle: "Re: Жизнь в другом мире с нуля - Снежные воспоминания",
+                review: "Очень хороший фильм."
+            },
+            {
+                title: "Darling in the FranXX",
+                ruTitle: "Любимый во Франкcе",
+                review: "Для моего маленького мозга это был пик! Я даже пошёл AMV делать. С этого аниме началась моя деятельность на юутубе."
+            },
+            {
+                title: "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
+                ruTitle: "Этот глупый свин не понимает мечту девочки-зайки",
+                review: "Первое аниме, из-за которого я не спал целую ночь, чтобы досмотреть его. Очень понравилось аниме."
+            },
+            {
+                title: "Overlord II",
+                ruTitle: "Повелитель 2",
+                review: "На уровне первого сезона. Очень понравилось аниме."
+            },
+            {
+                title: "Overlord III",
+                ruTitle: "Повелитель 3",
+                review: "На уровне второго сезона. Очень понравилось аниме."
+            },
+        ],
+        'C': [],
+        'D': [],
+        'E': [],
+        'F': []
+    },
+    '2019': {
+        'S': [
+            {
+                title: "Vinland Saga",
+                ruTitle: "Сага о Винланде",
+                review: "Вау! Великолепное аниме! Очень понравилось. Рисовка, сюжет, персонажи - всё на высоте. Всем советую! Пошёл читать мангу."
+            },
+        ],
+        'A': [
+            {
+                title: "Code Geass: Fukkatsu no Lelouch",
+                ruTitle: "Код Гиасс: Воскрешение Лелуша",
+                review: "Как альтернативная концовка/продолжение оригинального сериала - очень хорошо."
+            },
+        ],
+        'B': [
+            {
+                title: "Gotoubun no Hanayome",
+                ruTitle: "Пять невест",
+                review: "На мой маленький, пубертатный мозг это аниме произвело большое впечатление. Очень милое и романтичное аниме."
+            },
+            {
+                title: "Kimetsu no Yaiba",
+                ruTitle: "Клинок, рассекающий демонов",
+                review: "Сюжет и рисовка на высоте. Очень понравилось аниме."
+            },
+            {
+                title: "Yakusoku no Neverland",
+                ruTitle: "Обещанный Неверленд",
+                review: "Плотный перекус детьми. С элементами детектива и ужасов. Очень понравилось аниме."
+            },
+        ],
+        'C': [
+            {
+                title: "Arifureta Shokugyou de Sekai Saikyou",
+                ruTitle: "Арифурэта: Сильнейший ремесленник в мире",
+                review: "Дефолтный гаремник с имба ГГ. Но в целом неплохо."
+            },
+            {
+                title: "Dungeon ni Deai wo Motomeru no wa Machigatteiru no Darou ka II",
+                ruTitle: "Может, я встречу тебя в подземелье? II",
+                review: "Из-за кринжовго начала не могу поставить выше. Но в целом неплохо."
+            },
+            {
+                title: "Seishun Buta Yaro wa Yumemiru Shoujo no Yume wo Minai",
+                ruTitle: "Этот глупый свин не понимает мечту девочки-зайки. Фильм",
+                review: "Неплохо"
+            },
+            {
+                title: "Shinchou Yuusha: Kono Yuusha ga Ore Tuee Kuse ni Shinchou Sugiru",
+                ruTitle: "Этот герой чересчур осторожен, хоть и бессмертен",
+                review: "Финал удивил."
+            },
+        ],
+        'D': [
+            {
+                title: "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Movie: Orion no Ya",
+                ruTitle: "Может, я встречу тебя в подземелье? Стрела Ориона",
+                review: "Я даже не помню о чём это."
+            },
+            {
+                title: "Seishun buta yarou CD drama",
+                ruTitle: "Этот глупый свин не понимает мечту девочки-зайки. СД Драма",
+                review: "Я даже не помню о чём это."
+            },
+        ],
+        'E': [],
+        'F': []
+    },
+    '2020': {
+        'S': [
+            {
+                title: "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
+                ruTitle: "Re:Zero. Жизнь в другом мире с нуля 2",
+                review: "Хорошое продолжение первого сезона! На пике моего рейтинга чисто из-за сюжета."
+            },
+            {
+                title: "Sword Art Online: Alicization - War of Underworld Part 2",
+                ruTitle: "Мастера Меча Онлайн: Алисизация - Война в Андэрворлде - Часть 2",
+                review: "Самая любима романтика, хоть у этого аниме это и не основной сюжетный фокус. Очень понравилось."
+            },
+            {
+                title: "Dungeon ni Deai wo Motomeru no wa Machigatteiru no Darou ka III",
+                ruTitle: "Может, я встречу тебя в подземелье? III",
+                review: "Этот сезон в разы лучше 2-го. Очень милое аниме."
+            },
+        ],
+        'A': [],
+        'B': [
+            {
+                title: "Jujutsu Kaisen",
+                ruTitle: "Магическая битва",
+                review: "Вау! Я был в восторге от рисовки и сюжета. Но я бы не сказал, что это аниме достойно такого хайпа."
+            },
+            {
+                title: "Kimetsu no Yaiba Movie: Mugen Ressha-hen",
+                ruTitle: "Клинок, Рассекающий Демонов: Бесконечный Поезд",
+                review: "Всё так же круто."
+            },
+        ],
+        'C': [
+            {
+                title: "Kami no Tou: Tower of God",
+                ruTitle: "Башня Бога",
+                review: "Несклько раз начинал смотреть, но потом выкупил прикол и понравилось. Пошёл читать манхву."
+            },
+        ],
+        'D': [],
+        'E': [],
+        'F': []
+    },
+    '2021': {
+        'S': [
+            {
+                title: "Fumetsu no Anata e",
+                ruTitle: "Для тебя, Бессмертный",
+                review: "Начло просто великолепное! Аниме с глубоким смыслом и отличной рисовкой. Всем советую!"
+            },
+        ],
+        'A': [],
+        'B': [
+            {
+                title: "Jujutsu Kaisen 0 Movie",
+                ruTitle: "Магическая битва 0 Фильм",
+                review: "Очень крутой фильм. Подходит для развития сюжета перед 2-ым и 3-ем сезонами."
+            },
+            {
+                title: "Tsuki ga Michibiku Isekai Douchuu",
+                ruTitle: "Лунное путешествие в другой мир",
+                review: "Приятно удивило. Хоть и самый дефолтный исекай с имба ГГ, но мне почему-то нравится."
+            },
+            {
+                title: "86 EIGHTY-SIX",
+                ruTitle: "86 Восемьдесят-шесть",
+                review: "О да! Это было великолепно! Очень понравилось аниме. Рисовка, сюжет, персонажи - всё на высоте. И с долей грустинки."
+            },
+            {
+                title: "86 EIGHTY-SIX 2nd Cour",
+                ruTitle: "86 Восемьдесят-шесть 2",
+                review: "На уровне 1-го сезона."
+            },
+            {
+                title: "Vanitas no Carte",
+                ruTitle: "Мемуары Ванитаса",
+                review: "Приятно удивило. Очень крутое аниме с интересным сюжетом и персонажами."
+            },
+            {
+                title: "Kimetsu no Yaiba: Yuukaku-hen",
+                ruTitle: "Клинок, Рассекающий Демонов: Квартал Красных Фонарей",
+                review: "Всё так же круто."
+            },
+            {
+                title: "Kimetsu no Yaiba: Mugen Ressha-hen (TV)",
+                ruTitle: "Клинок, Рассекающий Демонов: Бесконечный Поезд (ТВ)",
+                review: "Всё так же круто."
+            },
+            {
+                title: "Kumo desu ga, Nani ka?",
+                ruTitle: "Да, я паук, и что?",
+                review: "Рисовка нормальная, но вот 3Д графика... сюжет интересный. Попытался прочитать ранобэ, но чёт не понравилось."
+            },
+        ],
+        'C': [
+            {
+                title: "Jaku-Chara Tomozaki-kun",
+                ruTitle: "Низкоуровневый Томозаки",
+                review: "Неплохо"
+            },
+            {
+                title: "Shaman King (2021)",
+                ruTitle: "Шаман Кинг (2021)",
+                review: "Не самый плохой ремейк. Но оригинал всё равно в сердечке."
+            },
+            {
+                title: "Saihate no Paladin",
+                ruTitle: "Паладин издалека",
+                review: "Неплохое аниме. Но не более того."
+            },
+            {
+                title: "Go-toubun no Hanayome 2",
+                ruTitle: "Пять невест 2",
+                review: "Рисовка стала лучше, но 1-ый сезон был ммм... чутка лучше чтоли? Более романтичный."
+            },
+            {
+                title: "Sword Art Online: Progressive Movie - Hoshi Naki Yoru no Aria",
+                ruTitle: "Мастера Меча Онлайн: Прогрессив — Ария в беззвёздной ночи",
+                review: "Прикольно, но есть и получше сезоны про САО."
+            },
+            {
+                title: "Tensura Nikki: Tensei Shitara Slime Datta Ken",
+                ruTitle: "О моём перерождении в слизь. Дневник слизи-попаданца",
+                review: "На удивление неплохо."
+            },
+            {
+                title: "Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari",
+                ruTitle: "История о пареньке из деревни, расположенной перед сложнейшим подземельем",
+                review: "Самый слабый из самых сильных ГГ. Но в целом неплохо."
+            },
+            {
+                title: "Kaizoku Oujo",
+                ruTitle: "Фена: Принцесса пиратов",
+                review: "Очень милое аниме. Напомнило Пиратов Карибского моря, не удивитильно. После просмотра захотелось поиграть в Sea of Thieves."
+            },
+            {
+                title: "Sentouin, Hakenshimasu!",
+                ruTitle: "Комбатанты будут высланы!",
+                review: "Неплохое, забавное аниме."
+            },
+        ],
+        'D': [
+            {
+                title: "Jaku-Chara Tomozaki-kun Specials",
+                ruTitle: "Низкоуровневый Томозаки OVA",
+                review: "Я даже не помню о чём это."
+            },
+        ],
+        'E': [],
+        'F': [
+            {
+                title: "Yakusoku no Neverland 2nd Season",
+                ruTitle: "Обещанный Неверленд 2",
+                review: "Начало чуть-чуть хорошое, но потом всё скатилось в полную жесть. Еле досмотрел до конца."
+            },
+        ]
+    },
     '2022': {
         'S': [
             {
