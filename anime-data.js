@@ -28,30 +28,6 @@ const ratingScales = {
  * Скрипт сам попытается найти постер через API по названию. */
 
 const tierListData = {
-    '2008': {
-        'S': [],
-        'A': [],
-        'B': [],
-        'C': [
-            {
-                title: "Тёмный дворецкий",
-                ruTitle: "Kuroshitsuji",
-                review: "Неплохо"
-            },
-        ],
-        'D': [],
-        'E': [],
-        'F': []
-    },
-    '2009': {
-        'S': [],
-        'A': [],
-        'B': [],
-        'C': [],
-        'D': [],
-        'E': [],
-        'F': []
-    },
     '2010': {
         'S': [],
         'A': [
@@ -66,13 +42,24 @@ const tierListData = {
                 review: "Все же знают, что фамили Наруто - Шипуден?"
             },
             {
-                title: "Покемоны",
-                ruTitle: "Pocket Monsters",
+                title: "Pocket Monsters",
+                ruTitle: "Покемоны",
                 review: "Почти ничего не моню про это аниме, но оно мне нравилось."
+            },
+            {
+                title: "Death Note",
+                ruTitle: "Тетрадь смерти",
+                review: "База"
             },
         ],
         'B': [],
-        'C': [],
+        'C': [
+            {
+                title: "Kiss x Sis (TV)",
+                ruTitle: "Поцелуй сестёр",
+                review: ""
+            },
+        ],
         'D': [],
         'E': [],
         'F': []
@@ -91,13 +78,29 @@ const tierListData = {
                 review: "Все же знают, что фамили Наруто - Шипуден?"
             },
             {
-                title: "Покемоны",
-                ruTitle: "Pocket Monsters",
+                title: "Pocket Monsters",
+                ruTitle: "Покемоны",
                 review: "Почти ничего не моню про это аниме, но оно мне нравилось."
             },
         ],
         'B': [],
-        'C': [],
+        'C': [
+            {
+                title: "Toradora!: Bentou no Gokui",
+                ruTitle: "Торадора! Секрет приготовления бэнто",
+                review: ""
+            },
+            {
+                title: "Deadman Wonderland",
+                ruTitle: "Страна чудес смертников",
+                review: ""
+            },
+            {
+                title: "Manyuu Hikenchou",
+                ruTitle: "Клинок Маню",
+                review: ""
+            },
+        ],
         'D': [],
         'E': [],
         'F': []
@@ -106,8 +109,8 @@ const tierListData = {
         'S': [],
         'A': [
             {
-                title: "Мастера меча онлайн",
-                ruTitle: "Sword Art Online",
+                title: "Sword Art Online",
+                ruTitle: "Мастера меча онлайн",
                 review: "Запомните все! Это НЕ исека!"
             },
             {
@@ -120,8 +123,19 @@ const tierListData = {
                 ruTitle: "Наруто: Ураганные хроники",
                 review: "Все же знают, что фамили Наруто - Шипуден?"
             },
+            {
+                title: "Fullmetal Alchemist",
+                ruTitle: "Стальной алхимик",
+                review: "Это будет равноценный обмен! Я дам тебе половину своей жизни, а ты мне — половинку своей. — Ну уж эти алхимики и их словечки. Равноценный обмен?"
+            },
         ],
-        'B': [],
+        'B': [
+            {
+                title: "Kuroko no Basket",
+                ruTitle: "Баскетбол Куроко",
+                review: ""
+            },
+        ],
         'C': [],
         'D': [],
         'E': [],
@@ -141,7 +155,13 @@ const tierListData = {
                 review: "Все же знают, что фамили Наруто - Шипуден?"
             },
         ],
-        'B': [],
+        'B': [
+            {
+                title: "Kuroko no Basket 2nd Season",
+                ruTitle: "Баскетбол Куроко 2",
+                review: ""
+            },
+        ],
         'C': [
             {
                 title: "Sword Art Online: Extra Edition",
@@ -154,12 +174,38 @@ const tierListData = {
                 review: "Неплохо"
             },
             {
-                title: "Gekijouban Steins;Gate: Fuka Ryouiki no Déjà vu",
+                title: "Steins Gate",
                 ruTitle: "Врата Штейна: Зона загрузки дежавю",
                 review: ""
             },
+            {
+                title: "Black Butler",
+                ruTitle: "Тёмный дворецкий",
+                review: "Неплохо"
+            },
+            {
+                title: "Kotonoha no Niwa",
+                ruTitle: "Сад изящных слов",
+                review: ""
+            },
+            {
+                title: "Golden Time",
+                ruTitle: "Золотая пора",
+                review: ""
+            },
+            {
+                title: "Date A Live",
+                ruTitle: "Рандеву с Жизнью",
+                review: ""
+            },
         ],
-        'D': [],
+        'D': [
+            {
+                title: "Senran Kagura",
+                ruTitle: "Секретное назначение девушек-ниндзя",
+                review: ""
+            },
+        ],
         'E': [],
         'F': []
     },
@@ -176,19 +222,49 @@ const tierListData = {
                 ruTitle: "Наруто: Ураганные хроники",
                 review: "Все же знают, что фамили Наруто - Шипуден?"
             },
+            {
+                title: "Tokyo Ghoul",
+                ruTitle: "Токийский гуль",
+                review: "На этом аниме строится моя личность"
+            },
+            {
+                title: "Akame ga Kill!",
+                ruTitle: "Убийца Акамэ!",
+                review: "Крутое аниме, концовка зашибись!"
+            },
         ],
         'B': [
             {
                 title: "Sword Art Online II",
                 ruTitle: "Мастера Меча Онлайн 2",
                 review: "Чутка слабее, чем 1-ый сезон. Но в целом неплохо."
-            }
+            },
+            {
+                title: "No Game No Life",
+                ruTitle: "Нет игры - нет жизни",
+                review: ""
+            },
         ],
         'C': [
             {
                 title: "Noragami",
                 ruTitle: "Бездомный бог",
                 review: "Неплохо"
+            },
+            {
+                title: "Date A Live II",
+                ruTitle: "Рандеву с Жизнью 2",
+                review: ""
+            },
+            {
+                title: "Kiseijuu: Sei no Kakuritsu",
+                ruTitle: "Паразит: Учение о жизни",
+                review: ""
+            },
+            {
+                title: "Nanatsu no Taizai",
+                ruTitle: "Семь смертных грехов",
+                review: ""
             },
         ],
         'D': [],
@@ -201,7 +277,12 @@ const tierListData = {
                 title: "Re: Zero kara Hajimeru Isekai Seikatsu",
                 ruTitle: "Re: Жизнь в другом мире с нуля",
                 review: "С этого всё началось. Я был шакированн идеей возвращения в точку сохранения после смерти. Очень понравилось аниме."
-            }
+            },
+            {
+                title: "Charlotte",
+                ruTitle: "Шарлотта",
+                review: "Очень грустное аниме. Частичку в совю личность я забрал."
+            },
         ],
         'A': [
             {
@@ -213,6 +294,11 @@ const tierListData = {
                 title: "Naruto: Shippuuden",
                 ruTitle: "Наруто: Ураганные хроники",
                 review: "Все же знают, что фамили Наруто - Шипуден?"
+            },
+            {
+                title: "Tokyo Ghoul √A",
+                ruTitle: "Токийский гуль √A (2)",
+                review: "На этом аниме строится моя личность"
             },
         ],
         'B': [
@@ -236,6 +322,11 @@ const tierListData = {
                 ruTitle: "Токийский Гуль √A (ТВ-2)",
                 review: "Пока ещё хорошо."
             },
+            {
+                title: "Shinmai Maou no Testament",
+                ruTitle: "По велению адской сестры",
+                review: "Без комментариев."
+            },
         ],
         'C': [
             {
@@ -248,6 +339,41 @@ const tierListData = {
                 ruTitle: "Бездомный бог: Арагото",
                 review: "Держит уровень первого сезона. Жалко что не продолжили."
             },
+            {
+                title: "Kuroko no Basket 3nd Season",
+                ruTitle: "Баскетбол Куроко 3",
+                review: ""
+            },
+            {
+                title: "Ansatsu Kyoushitsu",
+                ruTitle: "Класс убийц",
+                review: ""
+            },
+            {
+                title: "Amagi Brilliant Park",
+                ruTitle: "Великолепный парк Амаги",
+                review: ""
+            },
+            {
+                title: "Maken-Ki!",
+                ruTitle: "Не проиграю!",
+                review: ""
+            },
+            {
+                title: "Maken-Ki! Two",
+                ruTitle: "Не проиграю! 2",
+                review: ""
+            },
+            {
+                title: "Grisaia no Meikyuu: Caprice no Mayu 0",
+                ruTitle: "Лабиринт Грисайи",
+                review: ""
+            },
+            {
+                title: "Shinmai Maou no Testament Burst",
+                ruTitle: "По велению адской сестры: Взрыв",
+                review: "Без комментариев."
+            },
         ],
         'D': [],
         'E': [],
@@ -259,7 +385,12 @@ const tierListData = {
                 title: "Re: Zero kara Hajimeru Isekai Seikatsu",
                 ruTitle: "Re: Жизнь в другом мире с нуля",
                 review: "С этого всё началось. Я был шакированн идеей возвращения в точку сохранения после смерти. Очень понравилось аниме."
-            }
+            },
+            {
+                title: "Koe no Katachi",
+                ruTitle: "Форма голоса",
+                review: "Крутое и немного грустное аниме. Думаю, многие смотрели."
+            },
         ],
         'A': [
             {
@@ -288,14 +419,24 @@ const tierListData = {
                 title: "Boku dake ga Inai Machi",
                 ruTitle: "Город, в котором меня нет",
                 review: "Возможно лучший детектив."
-            }
+            },
+            {
+                title: "Ansatsu Kyoushitsu 2nd Season",
+                ruTitle: "Класс убийц 2",
+                review: "Финал был хорошим"
+            },
         ],
         'C': [
             {
                 title: "Monster Musume no Iru Nichijou OVA",
                 ruTitle: "Повседневная жизнь с девушкой-монстром OVA",
                 review: "Без комментариев."
-            }
+            },
+            {
+                title: "Kono Subarashii Sekai ni Shukufuku wo!",
+                ruTitle: "Этот замечательный мир!",
+                review: "Посмотрел после видоса Коносуба за 15мин"
+            },
         ],
         'D': [],
         'E': [],
@@ -307,11 +448,6 @@ const tierListData = {
                 title: "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
                 ruTitle: "Добро пожаловать в класс превосходства",
                 review: "На этом базируется моя личность."
-            },
-            {
-                title: "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka OVA",
-                ruTitle: "Может, я встречу тебя в подземелье? OVA",
-                review: "Никак"
             },
         ],
         'A': [
@@ -332,8 +468,19 @@ const tierListData = {
                 ruTitle: "Если ты будешь не занят, спасёшь меня от апокалипсиса?",
                 review: "О да, это было хорошо, это было грустно."
             },
+            {
+                title: "No Game No Life: Zero",
+                ruTitle: "Нет игры - нет жизни Фильм",
+                review: ""
+            },
         ],
-        'C': [],
+        'C': [
+            {
+                title: "Kono Subarashii Sekai ni Shukufuku wo! 2",
+                ruTitle: "Этот замечательный мир! 2",
+                review: ""
+            },
+        ],
         'D': [
             {
                 title: "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka OVA",
@@ -345,9 +492,20 @@ const tierListData = {
                 ruTitle: "Может, я встречу тебя в подземелье? — Меч Оратории",
                 review: "Я даже не помню о чём это."
             },
+            {
+                title: "Neon Genesis Evangelion",
+                ruTitle: "Евангелион",
+                review: "На этом аниме строится моя личность"
+            },
         ],
         'E': [],
-        'F': []
+        'F': [
+            {
+                title: "Black Clover",
+                ruTitle: "Чёрный клевер",
+                review: "Я 2 раза пытался посмотеть, но это слишком кал."
+            },
+        ]
     },
     '2018': {
         'S': [
@@ -357,7 +515,18 @@ const tierListData = {
                 review: "Лучшее из САО, ну может после 1-го сезона, на мой взгляд. Очень понравилось аниме."
             },
         ],
-        'A': [],
+        'A': [
+            {
+                title: "Tensei shitara Slime Datta Ken",
+                ruTitle: "О моём перерождении в слизь",
+                review: "Ну база, что ещё добавить?"
+            },
+            {
+                title: "Fullmetal Alchemist",
+                ruTitle: "Стальной алхимик",
+                review: "Это будет равноценный обмен! Я дам тебе половину своей жизни, а ты мне — половинку своей. — Ну уж эти алхимики и их словечки. Равноценный обмен?"
+            },
+        ],
         'B': [
             {
                 title: "Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow",
@@ -385,7 +554,23 @@ const tierListData = {
                 review: "На уровне второго сезона. Очень понравилось аниме."
             },
         ],
-        'C': [],
+        'C': [
+            {
+                title: "Tokyo Ghoul:re",
+                ruTitle: "Токийский Гуль",
+                review: "Хуже, чем 1-ый 2 сезона, но неплохо"
+            },
+            {
+                title: "Nanatsu no Taizai: Imashime no Fukkatsu",
+                ruTitle: "Семь смертных грехов: Возрождение заповедей",
+                review: "Посмотрел 4 сезона и дропнул"
+            },
+            {
+                title: "Sayonara no Asa ni Yakusoku no Hana wo Kazarou",
+                ruTitle: "Укрась прощальное утро цветами обещания",
+                review: "Прикольное, но максимально нелогичное аниме. Смотрел с другом."
+            },
+        ],
         'D': [],
         'E': [],
         'F': []
@@ -442,6 +627,21 @@ const tierListData = {
                 title: "Shinchou Yuusha: Kono Yuusha ga Ore Tuee Kuse ni Shinchou Sugiru",
                 ruTitle: "Этот герой чересчур осторожен, хоть и бессмертен",
                 review: "Финал удивил."
+            },
+            {
+                title: "Date A Live III",
+                ruTitle: "Рандеву с Жизнью 3",
+                review: ""
+            },
+            {
+                title: "Nande Koko ni Sensei ga!?",
+                ruTitle: "Зачем вы здесь, учитель?!",
+                review: ""
+            },
+            {
+                title: "Ore wo Suki nano wa Omae dake ka yo",
+                ruTitle: "ORESUKI. Да как меня можешь любить только ты?",
+                review: ""
             },
         ],
         'D': [
@@ -508,8 +708,29 @@ const tierListData = {
                 ruTitle: "Для тебя, Бессмертный",
                 review: "Начло просто великолепное! Аниме с глубоким смыслом и отличной рисовкой. Всем советую!"
             },
+            {
+                title: "Mushoku Tensei: Isekai Ittara Honki Dasu",
+                ruTitle: "Реинкарнация безработного: История о приключениях в другом мире.",
+                review: "Один из лучших исекаев евер!"
+            },
+            {
+                title: "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2",
+                ruTitle: "Реинкарнация безработного: История о приключениях в другом мире.",
+                review: "Один из лучших исекаев евер!"
+            },
         ],
-        'A': [],
+        'A': [
+            {
+                title: "Tensei shitara Slime Datta Ken 2",
+                ruTitle: "О моём перерождении в слизь 2.1",
+                review: "Ну база, что ещё добавить?"
+            },
+            {
+                title: "Tensei shitara Slime Datta Ken 2nd Season Part 2",
+                ruTitle: "О моём перерождении в слизь 2.2",
+                review: "Ну база, что ещё добавить?"
+            },
+        ],
         'B': [
             {
                 title: "Jujutsu Kaisen 0 Movie",
@@ -597,6 +818,16 @@ const tierListData = {
                 title: "Sentouin, Hakenshimasu!",
                 ruTitle: "Комбатанты будут высланы!",
                 review: "Неплохое, забавное аниме."
+            },
+            {
+                title: "Saihate no Paladin",
+                ruTitle: "Далёкий паладин",
+                review: "Неплохо"
+            },
+            {
+                title: "Shinigami Bocchan to Kuro Maid",
+                ruTitle: "Смертоносный герцог и его чёрная горничная",
+                review: "Неплохо"
             },
         ],
         'D': [
@@ -698,6 +929,11 @@ const tierListData = {
                 ruTitle: "Может, я встречу тебя в подземелье? IV. Часть 2",
                 review: "Очень милый и крутой сезон. Буду читать ранобэ."
             },
+            {
+                title: "Mushoku Tensei: Isekai Ittara Honki Dasu Season 2",
+                ruTitle: "Реинкарнация безработного: История о приключениях в другом мире. 2",
+                review: "Один из лучших исекаев евер!"
+            },
         ],
         'A': [
             {
@@ -731,6 +967,16 @@ const tierListData = {
                 title: "Kimetsu no Yaiba: Katanakaji no Sato-hen",
                 ruTitle: "Клинок, Рассекающий Демонов: Деревня Кузнецов",
                 review: "Держит планку."
+            },
+            {
+                title: "[Oshi no Ko]",
+                ruTitle: "Ребёнок идола",
+                review: "1-ый сезон крутой. Прочитал мангу, и финал удивил, не думал, что закончится именно так."
+            },
+            {
+                title: "Рубеж Шангри-Ла: Любитель игрошлака бросает вызов топ-игре",
+                ruTitle: "Shangri-La Frontier",
+                review: "+ - как САО, только не грустное и динамичнее"
             },
         ],
         'C': [
@@ -769,6 +1015,11 @@ const tierListData = {
                 ruTitle: "Этот глупый свин не понимает мечту девочки с рюкзаком",
                 review: "С каждым сезон, фильмом всё скучнее и скучнее. Динамики больше не становится."
             },
+            {
+                title: "Shinigami Bocchan to Kuro Maid Season 2",
+                ruTitle: "Смертоносный герцог и его чёрная горничная 2",
+                review: "Неплохо"
+            },
         ],
         'D': [
             {
@@ -791,6 +1042,11 @@ const tierListData = {
                 title: "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
                 ruTitle: "Может, я встречу тебя в подземелье? V",
                 review: "По факту это аниме не прям вау, но мне очень нравится. Буду читать ранобэ."
+            },
+            {
+                title: "Рубеж Шангри-Ла: Любитель игрошлака бросает вызов топ-игре 2",
+                ruTitle: "Shangri-La Frontier Season 2",
+                review: "Держит планку"
             },
         ],
         'A': [
@@ -835,6 +1091,16 @@ const tierListData = {
                 title: "Tsue to Tsurugi no Wistoria",
                 ruTitle: "Меч и жезл Вистории",
                 review: "Прикольно, карсивое аниме. Пошёл читать мангу. Впринципе неплохо."
+            },
+            {
+                title: "Рубеж Шангри-Ла: Любитель игрошлака бросает вызов топ-игре — Рекап",
+                ruTitle: "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su Recap",
+                review: ""
+            },
+            {
+                title: "Jigokuraku",
+                ruTitle: "Адский рай",
+                review: "Очень крутая анимешка."
             },
         ],
         'C': [
@@ -966,7 +1232,13 @@ const tierListData = {
                 review: "Никак"
             },
         ],
-        'E': [],
+        'E': [
+            {
+                title: "Blue Lock",
+                ruTitle: "Синяя тюрьма: Блю Лок",
+                review: "1-ый сезон плохой, но то что будет дальше..."
+            },
+        ],
         'F': []
     },
     '2025': {
