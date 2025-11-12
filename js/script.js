@@ -98,19 +98,22 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /**
-     * Главный "роутер" отрисовки. 
-     * Решает, какую логику использовать: API или ЛОКАЛЬНУЮ.
-     */
-    function renderTierList() {
-        if (isLoading) return;
+     * Главный "роутер" отрисовки. 
+     * Решает, какую логику использовать: API или ЛОКАЛЬНУЮ.
+     */
+    function renderTierList() {
+        if (isLoading) return;
 
-        if (currentYear === 'Энергетики') {
-            loadingIndicator.classList.add('hidden'); // Загрузчик не нужен
-            renderTierListLocal();
-        } else {
-            renderTierListAPI(); // Эта функция async
-        }
-    }
+        // Проверяем, является ли `currentYear` числом
+        if (isNaN(parseInt(currentYear))) {
+            // НЕ число (значит это 'Енергетики', 'Re:Zero Ранобэ' и т.д.)
+            loadingIndicator.classList.add('hidden'); 
+            renderTierListLocal();
+        } else {
+            // Это число (год), используем API
+            renderTierListAPI(); 
+        }
+    }
 
     /**
      * ЛОГИКА ДЛЯ АНИМЕ (API + КЭШ)
@@ -208,19 +211,42 @@ document.addEventListener('DOMContentLoaded', () => {
         isLoading = false;
     }
 
-    /* Функция отрисовки для ЭНЕРГЕТИКОВ (использует локальные img) */
+    /* Функция отрисовки для ЭНЕРГЕТИКОВ и РАНОБЭ (использует локальные img) */
     function renderTierListLocal() {
         container.innerHTML = ''; // Очищаем
 
-        const scales = ratingScales[currentScale];
-        const dataForYear = tierListData[currentYear]; // currentYear = 'Енергетики'
+        let scales;
+
+        // Проверяем, какая шкала выбрана
+        if (currentScale === 'personal') {
+            // Если "Личная", проверяем, для какой категории
+            if (currentYear === 'Энергетики' && typeof energyRatingScales !== 'undefined') {
+                scales = energyRatingScales.personal;
+            } 
+            // БЛОК ДЛЯ RE:ZERO
+            else if (currentYear === 'Re:Zero Ранобэ' && typeof rezeroRatingScales !== 'undefined') {
+                scales = rezeroRatingScales.personal;
+            }
+            else {
+                // Если у категории нет своей личной шкалы, ставим S-F по умолчанию
+                scales = ratingScales.standard;
+            }
+        } else {
+            // Если выбрана "Стандартная (S-F)"
+            scales = ratingScales.standard;
+        }
+
+        const dataForYear = tierListData[currentYear]; 
 
         for (let i = 0; i < scales.length; i++) {
+            // 'standardRank' - это S, A, B... (для поиска данных)
             const standardRank = ratingScales.standard[i].rank;
+            // 'displayRank' - это "Шедевр", "Топ вкус" и т.д. (для отображения)
             const displayRank = scales[i].rank;
             const color = scales[i].color;
             
             const itemsInThisTier = dataForYear[standardRank] || [];
+            
             const tierRow = createTierRow(displayRank, color);
             const animeGrid = tierRow.querySelector('.tier-anime-grid');
 
@@ -228,7 +254,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 animeGrid.appendChild(createEmptyText());
             } else {
                 for (const item of itemsInThisTier) {
-                    // item = { title: "...", review: "...", img: "..." }
                     const localImgPath = item.img ? `img/${item.img}` : placeholderUrl;
 
                     const img = document.createElement('img');
@@ -237,11 +262,16 @@ document.addEventListener('DOMContentLoaded', () => {
                     img.title = item.title;
                     img.className = 'w-20 h-28 md:w-24 md:h-36 object-cover rounded-md shadow-md cursor-pointer transition-transform duration-200 hover:scale-105 hover:shadow-xl outline-2 outline-transparent hover:outline-indigo-400';
                     
-                    // Сохраняем данные
-                    img.dataset.type = 'local'; // <-- Указываем тип
+                    img.dataset.type = 'local';
                     img.dataset.review = item.review;
                     img.dataset.title = item.title;
                     img.dataset.poster = localImgPath;
+                    
+                    // Обработчик ошибки, если картинка не найдена
+                    img.onerror = () => {
+                        img.src = placeholderUrl;
+                        img.title = `${item.title} (Изображение не найдено)`;
+                    };
                     
                     img.addEventListener('click', () => showModal(img.dataset));
                     animeGrid.appendChild(img);
