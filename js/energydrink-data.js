@@ -13,7 +13,7 @@ const energyRatingScales = {
         { rank: 'Экзотический', color: 'bg-red-500' },
         { rank: 'Классика', color: 'bg-orange-500' },
         { rank: 'Можно пить', color: 'bg-yellow-400' },
-        { rank: 'Можно попробовать', color: 'bg-green-500' },
+        { rank: 'Стоит попробовать', color: 'bg-green-500' },
         { rank: 'Не моё', color: 'bg-blue-500' },
         { rank: 'Кал', color: 'bg-purple-500' },
         { rank: 'Никогда больше', color: 'bg-gray-600' }
@@ -106,12 +106,22 @@ if (typeof tierListData !== 'undefined') {
                 review: "на удивление почти все энергетики данного бренда одинаковые, кроме оригинального. Он чутка хуже других.", 
                 img: "energydrink/Burn Original.webp"
             },
+            { 
+                title: "Monster Energy Peachy Keen", 
+                review: "Прикольеный, но сладковатый вкус. Чисто на 1 раз.", 
+                img: "energydrink/Monster Energy Peachy Keen.webp"
+            },
         ],
         'D': [
             { 
                 title: "Burn Orange fire", 
                 review: "Горьковатый.", 
                 img: "energydrink/Burn Orange fire.webp"
+            },
+            { 
+                title: "Monster Energy Pacific Punch", 
+                review: "Чисто из-за привкуса вишни, не моё.", 
+                img: "energydrink/Monster Energy Pacific Punch.png"
             },
             ],
         'E': [
