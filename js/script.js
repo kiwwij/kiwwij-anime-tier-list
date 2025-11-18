@@ -1,347 +1,301 @@
-/* Глобальный обработчик 'DOMContentLoaded'. */
-document.addEventListener('DOMContentLoaded', () => {
+// --- НАСТРОЙКИ ---
+const CACHE_KEY_POSTERS = 'anime_posters_cache_v3'; // v3 - сбрасываем кэш, чтобы загрузить новые HQ картинки
+const MAX_CONCURRENT_REQUESTS = 10;
+const REQUEST_DELAY = 90;
 
-    // --- 1. ПРОВЕРКА ДАННЫХ ---
-    if (typeof tierListData === 'undefined' || typeof ratingScales === 'undefined') {
-        console.error("Ошибка: Файлы anime-data.js или energydrink-data.js не загружены!");
-        alert("Ошибка: Не удалось загрузить данные.");
+// --- Элементы интерфейса ---
+const categorySelect = document.getElementById('categorySelect');
+const scaleSelect = document.getElementById('scaleSelect');
+const tierListContainer = document.getElementById('tierListContainer');
+const modal = document.getElementById('detailsModal');
+
+// --- Состояние ---
+let apiCache = JSON.parse(localStorage.getItem(CACHE_KEY_POSTERS) || '{}');
+let requestQueue = [];
+let activeRequests = 0;
+
+// --- Инициализация ---
+document.addEventListener('DOMContentLoaded', () => {
+    if (typeof tierListData === 'undefined') {
+        console.error("ОШИБКА: tierListData не найдена.");
+        tierListContainer.innerHTML = '<p style="color:red; padding:20px;">Ошибка загрузки данных.</p>';
         return;
     }
-
-    // --- 2. ПОЛУЧЕНИЕ DOM ЭЛЕМЕНТОВ ---
-    const yearSelect = document.getElementById('year-select');
-    const scaleSelect = document.getElementById('scale-select');
-    const container = document.getElementById('tier-list-container');
-    const loadingIndicator = document.getElementById('loading-indicator');
-
-    // Модальное окно
-    const modal = document.getElementById('modal');
-    const modalClose = document.getElementById('modal-close');
-    const modalOverlayClose = document.getElementById('modal-overlay-close');
-    const modalPoster = document.getElementById('modal-poster');
-    const modalTitle = document.getElementById('modal-title');
-    const modalRussianTitle = document.getElementById('modal-russian-title');
-    const modalRatingContainer = document.getElementById('modal-rating-container');
-    const modalRating = document.getElementById('modal-rating');
-    const modalReview = document.getElementById('modal-review');
-
-    // --- 3. ГЛОБАЛЬНОЕ СОСТОЯНИЕ ---
-    const animeCache = {};
-    let currentYear = '';
-    let currentScale = 'standard';
-    let isLoading = false;
-    const placeholderUrl = "https://placehold.co/200x280/ef4444/ffffff?text=Not+Found";
-
-    // --- 4. ФУНКЦИИ ---
-
-    /* Инициализация приложения */
-    function init() {
-        // 1. Сортировка ключей для селектора
-        const allKeys = Object.keys(tierListData);
-        const yearKeys = allKeys.filter(key => !isNaN(parseInt(key)));
-        const categoryKeys = allKeys.filter(key => isNaN(parseInt(key)));
-        yearKeys.sort((a, b) => b - a);
-        categoryKeys.sort();
-        const sortedKeys = [...categoryKeys, ...yearKeys];
-
-        if (sortedKeys.length === 0) {
-            console.error("Нет данных в tierListData!");
-            return;
-        }
-
-        // 2. Заполнение селектора
-        sortedKeys.forEach(key => {
-            const option = document.createElement('option');
-            option.value = key;
-            option.textContent = key;
-            yearSelect.appendChild(option);
-        });
-
-        // 3. Установка значения по умолчанию
-        const currentRealYear = new Date().getFullYear().toString();
-        if (tierListData[currentRealYear]) {
-            yearSelect.value = currentRealYear;
-        } else if (yearKeys.length > 0) {
-            yearSelect.value = yearKeys[0];
-        } else {
-            yearSelect.value = sortedKeys[0];
-        }
-        
-        scaleSelect.value = 'standard';
-        currentYear = yearSelect.value;
-        currentScale = scaleSelect.value;
-
-        // 4. Обработчики событий
-        yearSelect.addEventListener('change', handleYearChange);
-        scaleSelect.addEventListener('change', handleScaleChange);
-        modalClose.addEventListener('click', closeModal);
-        modalOverlayClose.addEventListener('click', closeModal);
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
-                closeModal();
-            }
-        });
-
-        // 5. Первая отрисовка
-        renderTierList();
-    }
-
-    /* Обработчики смены */
-    function handleYearChange(e) {
-        currentYear = e.target.value;
-        renderTierList();
-    }
-
-    function handleScaleChange(e) {
-        currentScale = e.target.value;
-        renderTierList();
-    }
-
-    /**
-     * Главный "роутер" отрисовки. 
-     * Решает, какую логику использовать: API или ЛОКАЛЬНУЮ.
-     */
-    function renderTierList() {
-        if (isLoading) return;
-
-        // Проверяем, является ли `currentYear` числом
-        if (isNaN(parseInt(currentYear))) {
-            // НЕ число (значит это 'Енергетики', 'Re:Zero Ранобэ' и т.д.)
-            loadingIndicator.classList.add('hidden'); 
-            renderTierListLocal();
-        } else {
-            // Это число (год), используем API
-            renderTierListAPI(); 
-        }
-    }
-
-    /**
-     * ЛОГИКА ДЛЯ АНИМЕ (API + КЭШ)
-     * Загружает данные аниме из API (Kitsu.io) по названию.
-     */
-    async function fetchAnimeData(title) {
-        if (animeCache[title]) {
-            return animeCache[title]; // Возвращаем из кэша
-        }
-        
-        const encodedTitle = encodeURIComponent(title);
-        const apiUrl = `https://kitsu.io/api/edge/anime?filter[text]=${encodedTitle}&page[limit]=1`;
-
-        try {
-            await new Promise(resolve => setTimeout(resolve, 500)); // Защита от бана
-            const response = await fetch(apiUrl);
-            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-            const json = await response.json();
-            
-            if (json.data && json.data.length > 0) {
-                const anime = json.data[0].attributes;
-                const result = {
-                    title: anime.canonicalTitle,
-                    ruTitle: anime.titles.ru_jp || anime.titles.ja_jp || null, 
-                    poster: anime.posterImage?.medium || placeholderUrl,
-                    averageRating: anime.averageRating ? (parseFloat(anime.averageRating) / 10).toFixed(1) : null
-                };
-                animeCache[title] = result;
-                return result;
-            } else {
-                throw new Error("Anime not found in Kitsu database");
-            }
-        } catch (error) {
-            console.error(`Ошибка загрузки аниме "${title}":`, error.message);
-            const errorResult = {
-                title: title, ruTitle: "(Не найдено)",
-                poster: placeholderUrl, averageRating: null
-            };
-            animeCache[title] = errorResult;
-            return errorResult;
-        }
-    }
-
-    /* Функция отрисовки для АНИМЕ (использует API) */
-    async function renderTierListAPI() {
-        isLoading = true;
-        container.innerHTML = '';
-        loadingIndicator.classList.remove('hidden');
-
-        const scales = ratingScales[currentScale];
-        const dataForYear = tierListData[currentYear];
-
-        const allAnimeForYear = Object.values(dataForYear).flat();
-        const animeDataPromises = allAnimeForYear.map(anime => fetchAnimeData(anime.title));
-        await Promise.all(animeDataPromises);
-
-        loadingIndicator.classList.add('hidden');
-        
-        for (let i = 0; i < scales.length; i++) {
-            const standardRank = ratingScales.standard[i].rank;
-            const displayRank = scales[i].rank;
-            const color = scales[i].color;
-            
-            const animeInThisTier = dataForYear[standardRank] || [];
-            const tierRow = createTierRow(displayRank, color);
-            const animeGrid = tierRow.querySelector('.tier-anime-grid');
-            
-            if (animeInThisTier.length === 0) {
-                animeGrid.appendChild(createEmptyText());
-            } else {
-                for (const anime of animeInThisTier) {
-                    const animeData = animeCache[anime.title]; 
-                    if (!animeData) continue;
-
-                    const img = document.createElement('img');
-                    img.src = animeData.poster;
-                    img.alt = animeData.title;
-                    img.title = `${animeData.title}${animeData.ruTitle ? ` (${animeData.ruTitle})` : ''}`;
-                    img.className = 'w-20 h-28 md:w-24 md:h-36 object-cover rounded-md shadow-md cursor-pointer transition-transform duration-200 hover:scale-105 hover:shadow-xl outline-2 outline-transparent hover:outline-indigo-400';
-                    
-                    // Сохраняем все данные
-                    img.dataset.type = 'api'; // <-- Указываем тип
-                    img.dataset.review = anime.review;
-                    img.dataset.title = animeData.title;
-                    img.dataset.poster = animeData.poster;
-                    img.dataset.ruTitle = anime.ruTitle || animeData.ruTitle || '';
-                    img.dataset.rating = animeData.averageRating || '';
-                    
-                    img.addEventListener('click', () => showModal(img.dataset));
-                    animeGrid.appendChild(img);
-                }
-            }
-            container.appendChild(tierRow);
-        }
-        isLoading = false;
-    }
-
-    /* Функция отрисовки для ЭНЕРГЕТИКОВ и РАНОБЭ (использует локальные img) */
-    function renderTierListLocal() {
-        container.innerHTML = ''; // Очищаем
-
-        let scales;
-
-        // Проверяем, какая шкала выбрана
-        if (currentScale === 'personal') {
-            // Если "Личная", проверяем, для какой категории
-            if (currentYear === 'Энергетики' && typeof energyRatingScales !== 'undefined') {
-                scales = energyRatingScales.personal;
-            } 
-            // БЛОК ДЛЯ RE:ZERO
-            else if (currentYear === 'Re:Zero Ранобэ' && typeof rezeroRatingScales !== 'undefined') {
-                scales = rezeroRatingScales.personal;
-            }
-            else {
-                // Если у категории нет своей личной шкалы, ставим S-F по умолчанию
-                scales = ratingScales.standard;
-            }
-        } else {
-            // Если выбрана "Стандартная (S-F)"
-            scales = ratingScales.standard;
-        }
-
-        const dataForYear = tierListData[currentYear]; 
-
-        for (let i = 0; i < scales.length; i++) {
-            // 'standardRank' - это S, A, B... (для поиска данных)
-            const standardRank = ratingScales.standard[i].rank;
-            // 'displayRank' - это "Шедевр", "Топ вкус" и т.д. (для отображения)
-            const displayRank = scales[i].rank;
-            const color = scales[i].color;
-            
-            const itemsInThisTier = dataForYear[standardRank] || [];
-            
-            const tierRow = createTierRow(displayRank, color);
-            const animeGrid = tierRow.querySelector('.tier-anime-grid');
-
-            if (itemsInThisTier.length === 0) {
-                animeGrid.appendChild(createEmptyText());
-            } else {
-                for (const item of itemsInThisTier) {
-                    const localImgPath = item.img ? `img/${item.img}` : placeholderUrl;
-
-                    const img = document.createElement('img');
-                    img.src = localImgPath;
-                    img.alt = item.title;
-                    img.title = item.title;
-                    img.className = 'w-20 h-28 md:w-24 md:h-36 object-cover rounded-md shadow-md cursor-pointer transition-transform duration-200 hover:scale-105 hover:shadow-xl outline-2 outline-transparent hover:outline-indigo-400';
-                    
-                    img.dataset.type = 'local';
-                    img.dataset.review = item.review;
-                    img.dataset.title = item.title;
-                    img.dataset.poster = localImgPath;
-                    
-                    // Обработчик ошибки, если картинка не найдена
-                    img.onerror = () => {
-                        img.src = placeholderUrl;
-                        img.title = `${item.title} (Изображение не найдено)`;
-                    };
-                    
-                    img.addEventListener('click', () => showModal(img.dataset));
-                    animeGrid.appendChild(img);
-                }
-            }
-            container.appendChild(tierRow);
-        }
-    }
-
-    // --- Вспомогательные функции ---
-
-    /* Создает HTML-структуру ряда тира */
-    function createTierRow(displayRank, color) {
-        const tierRow = document.createElement('div');
-        tierRow.className = 'flex flex-col md:flex-row items-stretch mb-2 shadow-lg rounded-lg overflow-hidden';
-        tierRow.innerHTML = `
-            <div class="tier-label flex items-center justify-center w-full md:w-48 lg:w-60 text-xl md:text-2xl font-bold text-gray-900 p-4 shrink-0 text-center ${color}">
-                <span class="text-shadow">${displayRank}</span>
-            </div>
-            <div class="tier-anime-grid flex flex-wrap items-start gap-2 p-4 bg-gray-800 w-full min-h-[100px]"></div>
-        `;
-        return tierRow;
-    }
-
-    /* Создает текст "Пусто" */
-    function createEmptyText() {
-        const emptyText = document.createElement('span');
-        emptyText.className = 'text-gray-500 italic p-4';
-        emptyText.textContent = 'Пусто';
-        return emptyText;
-    }
-
-
-    /* Показывает модальное окно (адаптивное) */
-    function showModal(data) {
-        modalPoster.src = data.poster;
-        modalTitle.textContent = data.title;
-        modalReview.textContent = data.review;
-
-        // Проверяем тип данных
-        if (data.type === 'api') {
-            // ЛОГИКА АНИМЕ: Показываем рус. название и рейтинг
-            if (data.ruTitle) {
-                modalRussianTitle.textContent = data.ruTitle;
-                modalRussianTitle.classList.remove('hidden');
-            } else {
-                modalRussianTitle.classList.add('hidden');
-            }
-            
-            if (data.rating) {
-                modalRating.textContent = `Рейтинг с Kitsu: ${data.rating} / 10`;
-                modalRatingContainer.classList.remove('hidden');
-            } else {
-                modalRatingContainer.classList.add('hidden');
-            }
-        } else {
-            // ЛОГИКА ЭНЕРГЕТИКОВ: Скрываем ненужные поля
-            modalRussianTitle.classList.add('hidden');
-            modalRatingContainer.classList.add('hidden');
-        }
-        
-        modal.classList.remove('hidden');
-    }
-
-    /* Закрывает модальное окно */
-    function closeModal() {
-        modal.classList.add('hidden');
-    }
-
-    // --- 5. ЗАПУСК ПРИЛОЖЕНИЯ ---
-    init();
-
+    initControls();
 });
+
+function initControls() {
+    // 1. Сортировка категорий
+    const keys = Object.keys(tierListData).sort((a, b) => {
+        const isNumA = !isNaN(a);
+        const isNumB = !isNaN(b);
+        if (isNumA && isNumB) return b - a; 
+        if (!isNumA && !isNumB) return a.localeCompare(b); 
+        return isNumA ? -1 : 1; 
+    });
+
+    keys.forEach(key => {
+        const option = document.createElement('option');
+        option.value = key;
+        option.textContent = key;
+        categorySelect.appendChild(option);
+    });
+
+    // 2. Авто-выбор 2025
+    const currentYear = new Date().getFullYear().toString();
+    if (keys.includes(currentYear)) {
+        categorySelect.value = currentYear;
+    } else if (keys.length > 0) {
+        categorySelect.value = keys[0];
+    }
+
+    // 3. Шкалы
+    const scaleOptions = [
+        { val: 'standard', text: 'Стандарт (S-F)' },
+        { val: 'personal', text: 'Личная' }
+    ];
+    scaleOptions.forEach(opt => {
+        const option = document.createElement('option');
+        option.value = opt.val;
+        option.textContent = opt.text;
+        scaleSelect.appendChild(option);
+    });
+
+    // Слушатели
+    categorySelect.addEventListener('change', renderTierList);
+    scaleSelect.addEventListener('change', renderTierList);
+
+    // Модалка
+    document.getElementById('closeModal').addEventListener('click', () => modal.close());
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) modal.close();
+    });
+
+    renderTierList();
+}
+
+// --- Рендеринг ---
+function renderTierList() {
+    tierListContainer.innerHTML = ''; 
+    
+    const selectedCategory = categorySelect.value;
+    const selectedScaleType = scaleSelect.value;
+    const categoryData = tierListData[selectedCategory];
+    
+    if (!categoryData) return;
+
+    // Выбор шкалы
+    let currentScalesArray = [];
+    if (selectedCategory === 'Энергетики' && typeof energyRatingScales !== 'undefined') {
+        currentScalesArray = energyRatingScales[selectedScaleType];
+    } else if (selectedCategory.includes('Re:Zero') && typeof rezeroRatingScales !== 'undefined') {
+        currentScalesArray = rezeroRatingScales[selectedScaleType];
+    } else if (typeof ratingScales !== 'undefined') {
+        currentScalesArray = ratingScales[selectedScaleType];
+    }
+
+    if (!currentScalesArray || currentScalesArray.length === 0) return;
+
+    currentScalesArray.forEach((scaleItem, index) => {
+        let dataKey = getDataKeyByIndex(scaleItem.rank, index);
+        const items = categoryData[dataKey] || [];
+
+        const row = document.createElement('div');
+        row.className = 'tier-row';
+
+        const label = document.createElement('div');
+        label.className = `tier-label ${scaleItem.color || ''}`; 
+        label.innerHTML = scaleItem.rank; 
+        
+        const content = document.createElement('div');
+        content.className = 'tier-content';
+
+        items.forEach(item => {
+            const card = createCard(item);
+            content.appendChild(card);
+        });
+
+        row.appendChild(label);
+        row.appendChild(content);
+        tierListContainer.appendChild(row);
+    });
+}
+
+function getDataKeyByIndex(rankLabel, index) {
+    const standardKeys = ['S', 'A', 'B', 'C', 'D', 'E', 'F'];
+    if (standardKeys.includes(rankLabel)) return rankLabel;
+    if (index >= 0 && index < standardKeys.length) return standardKeys[index];
+    return 'Unknown';
+}
+
+// --- Создание карточки ---
+function createCard(item) {
+    const card = document.createElement('div');
+    card.className = 'card';
+    
+    const loader = document.createElement('div');
+    loader.className = 'card-loader';
+    loader.textContent = item.ruTitle || item.title; 
+    card.appendChild(loader);
+
+    const img = document.createElement('img');
+    img.style.display = 'none';
+    img.alt = item.title;
+
+    // 1. Локальная
+    if (item.img) {
+        img.src = "img/" + item.img; 
+        img.onload = () => { loader.style.display = 'none'; img.style.display = 'block'; };
+        // Если локальная, передаем один и тот же путь и как превью, и как фулл
+        setupCardClick(card, item, img.src, img.src);
+    } 
+    // 2. API
+    else {
+        // Проверка кэша
+        if (apiCache[item.title]) {
+            const cached = apiCache[item.title];
+            if (cached.posterSmall) {
+                img.src = cached.posterSmall;
+                img.onload = () => { loader.style.display = 'none'; img.style.display = 'block'; };
+            }
+            // Передаем cached (в нем есть и posterSmall, и posterLarge)
+            setupCardClick(card, item, cached.posterSmall, cached.posterLarge, cached);
+        } else {
+            // Добавление в очередь
+            fetchKitsuData(item.title).then(apiData => {
+                if (apiData && apiData.posterSmall) {
+                    img.src = apiData.posterSmall;
+                    img.onload = () => { loader.style.display = 'none'; img.style.display = 'block'; };
+                }
+                // Передаем полученные ссылки
+                const large = apiData ? apiData.posterLarge : null;
+                const small = apiData ? apiData.posterSmall : null;
+                setupCardClick(card, item, small, large, apiData);
+            });
+        }
+    }
+
+    card.appendChild(img);
+    return card;
+}
+
+// --- API Logic (С сохранением двух версий картинок) ---
+function fetchKitsuData(query) {
+    if (apiCache[query]) return Promise.resolve(apiCache[query]);
+
+    return new Promise((resolve) => {
+        requestQueue.push({ query, resolve });
+        processQueue();
+    });
+}
+
+async function processQueue() {
+    if (requestQueue.length === 0 || activeRequests >= MAX_CONCURRENT_REQUESTS) return;
+
+    activeRequests++;
+    const { query, resolve } = requestQueue.shift();
+
+    try {
+        const url = `https://kitsu.io/api/edge/anime?filter[text]=${encodeURIComponent(query)}&page[limit]=1`;
+        const response = await fetch(url);
+        
+        if (!response.ok) throw new Error(response.status);
+
+        const data = await response.json();
+        let result = { posterSmall: null, posterLarge: null, originalTitle: null, rating: null };
+
+        if (data.data && data.data.length > 0) {
+            const anime = data.data[0].attributes;
+            const posters = anime.posterImage || {};
+            
+            result = {
+                // Маленькая для сетки (быстрая)
+                posterSmall: posters.small || posters.medium || posters.original || null,
+                // Большая для модалки (качественная)
+                posterLarge: posters.original || posters.large || posters.medium || null,
+                
+                originalTitle: anime.titles.en_jp || anime.titles.ja_jp || anime.canonicalTitle,
+                rating: anime.averageRating,
+            };
+        }
+        
+        apiCache[query] = result;
+        saveCache();
+        resolve(result);
+
+    } catch (error) {
+        console.warn("API Error:", query, error);
+        const empty = { posterSmall: null, posterLarge: null, originalTitle: null, rating: null };
+        apiCache[query] = empty; 
+        resolve(empty);
+    } finally {
+        activeRequests--;
+        setTimeout(processQueue, REQUEST_DELAY);
+        processQueue();
+    }
+}
+
+function saveCache() {
+    try { localStorage.setItem(CACHE_KEY_POSTERS, JSON.stringify(apiCache)); } catch(e){}
+}
+
+// --- Модальное окно ---
+// Теперь принимает posterSmall (для фолбека) и posterLarge (для качества)
+function setupCardClick(card, itemData, posterSmall, posterLarge, apiDetails = null) {
+    card.addEventListener('click', () => {
+        const modalImg = document.getElementById('modalImg');
+        
+        // Логика картинки: пробуем большую, если нет - маленькую
+        const finalImg = posterLarge || posterSmall;
+        
+        if (finalImg) {
+            modalImg.src = finalImg;
+            modalImg.parentElement.style.display = 'block';
+        } else {
+            modalImg.parentElement.style.display = 'none';
+        }
+
+        document.getElementById('modalTitle').textContent = itemData.ruTitle || itemData.title;
+        
+        let altTitle = itemData.title;
+        if (apiDetails && apiDetails.originalTitle) altTitle = apiDetails.originalTitle;
+        document.getElementById('modalAltTitle').textContent = altTitle;
+        
+        // Рейтинг
+        const ratingEl = document.getElementById('modalRating');
+        ratingEl.innerHTML = '';
+        ratingEl.className = ''; 
+
+        if (apiDetails && apiDetails.rating) {
+            const score = parseFloat(apiDetails.rating);
+            const score10 = (score / 10).toFixed(1);
+            
+            ratingEl.className = 'rating-badge';
+            ratingEl.innerHTML = `<span class="rating-star">★ Рейтинг с Kitsu</span> ${score10} / 10`;
+            ratingEl.style.display = 'inline-flex';
+        } else {
+            ratingEl.style.display = 'none';
+        }
+
+        // Отзыв (Исправлена проблема дублирования и пробелов)
+        // 1. Берем отзыв или пустую строку
+        let rawReview = itemData.review || "";
+        // 2. Убираем пробелы по краям
+        let cleanReview = rawReview.trim();
+        
+        const reviewEl = document.getElementById('modalReview');
+        
+        if (cleanReview) {
+            // Вставляем заголовок и текст (без лишнего пробела перед текстом)
+            reviewEl.innerHTML = `<strong>МОЙ ОТЗЫВ:</strong>${cleanReview}`;
+        } else {
+            reviewEl.innerHTML = "<em>Отзыва пока нет.</em>";
+        }
+        
+        modal.showModal();
+        
+        modal.onclick = (e) => {
+            if (e.target === modal) modal.close();
+        }
+    });
+}
