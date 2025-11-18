@@ -8,82 +8,73 @@
     <meta name="description" content="Статистика по моим аниме, включая жанры, рейтинги и просмотры.">
     <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/00/82/0f/00820fe9b5e5ee5e6deece92054603b3.gif">
 
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bg-gray-900 text-white min-h-screen p-4 md:p-8">
+<body>
+    <header>
+        <h1>Статистика просмотров</h1>
+        <div class="controls">
+            <a href="index.html" class="btn btn-link">Назад к Тир-Листу</a>
+        </div>
+    </header>
 
-    <div class="max-w-6xl mx-auto w-full space-y-8">
-        
-        <!-- Заголовок и ссылка "Назад" -->
-        <div class="flex items-center justify-between my-8">
-            <a href="index.html" class="text-indigo-400 hover:text-indigo-300 transition-colors text-lg">
-                &larr; Назад к тир-листу
-            </a>
-            <h1 class="text-3xl md:text-5xl font-bold text-indigo-400 text-center">
-                Статистика
-            </h1>
-            <!-- Пустой div для выравнивания по центру (ширина = ширине "Назад...") -->
-            <div class="w-48 hidden md:block"></div> 
+    <main class="stats-container">
+        <div class="stats-summary">
+            <div class="stat-card">
+                <h3>Всего аниме</h3>
+                <span class="stat-number" id="totalCount">0</span>
+                <small class="text-muted">Без дубликатов</small>
+            </div>
+            <div class="stat-card">
+                <h3>Обработано тайтлов</h3>
+                <span class="stat-number" id="processedCount">0</span>
+            </div>
         </div>
 
-        <!-- Грид со статистикой -->
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-
-            <!-- 1. Статистика по просмотрам (левая карточка) -->
-            <div class="lg:col-span-1 bg-gray-800 rounded-2xl shadow-xl p-6 md:p-8">
-                <h2 class="text-2xl font-bold text-gray-200 mb-6 border-b border-gray-700 pb-4">
-                    Просмотренно <!-- <br>(очень много аниме не записаны из-за того что мне лень) -->
-                </h2>
-                
-                <div class="space-y-4">
-                    <!-- Итого -->
-                    <div class="text-center bg-gray-900 p-6 rounded-lg">
-                        <span class="text-sm font-medium text-gray-400 uppercase tracking-wider">Всего уникальных аниме</span>
-                        <div id="stats-total-unique" class="text-6xl font-extrabold text-indigo-400 my-2">
-                            ...
-                        </div>
-                    </div>
-
-                    <!-- По годам -->
-                    <div id="stats-by-year" class="space-y-2 pt-4">
-                    </div>
-                </div>
+        <div class="progress-container" id="progressContainer">
+            <p>Ализ жанров через Kitsu API <span id="loadingPercent">0%</span></p>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressBar"></div>
             </div>
+            <small class="text-muted">Это займет время, чтобы избежать блокировки API.</small>
+        </div>
 
-            <!-- 2. Статистика по жанрам (правая карточка) -->
-            <div class="lg:col-span-2 bg-gray-800 rounded-2xl shadow-xl p-6 md:p-8">
-                <h2 class="text-2xl font-bold text-gray-200 mb-6">
-                    Топ-15 Жанров
-                </h2>
-                
-                <!-- Индикатор загрузки жанров -->
-                <div id="genre-loading-indicator" class="text-center text-lg text-indigo-300 py-10 min-h-[450px] flex flex-col justify-center items-center">
-                    <svg class="animate-spin h-8 w-8 text-white mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+        <div class="chart-section">
+            <h2>Топ-15 Жанров</h2>
+            <div class="chart-wrapper">
+                <canvas id="genresChart"></canvas>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <span class="footer-logo">kiwwij</span>
+                <p class="footer-copyright">© 2025. No Copyright.</p>
+            </div>
+            
+            <div class="footer-socials">
+                <a href="https://kiwwij.github.io/kiwwij-social-links/" target="_blank" aria-label="Social Media Links" class="social-link">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.71.82-1z"/>
+                        <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
                     </svg>
-                    Загрузка статистики по жанрам...
-                </div>
-
-                <!-- Контейнер для диаграммы -->
-                <div id="genre-chart-container" class="hidden relative h-[450px] w-full">
-                    <canvas id="genreChart"></canvas>
-                </div>
+                </a>
             </div>
-
         </div>
+    </footer>
 
-    </div>
+    <script src="data/anime-data.js"></script>
+    <script src="data/rezero-data.js"></script>
+    <script src="data/energydrink-data.js"></script>
 
-    <!-- Подключаем библиотеку для диаграмм -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="js/anime-data.js"></script>
     <script src="js/stats.js"></script>
 </body>
 </html>
