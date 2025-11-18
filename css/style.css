@@ -500,6 +500,17 @@ dialog::backdrop {
     border-color: rgb(55 65 81 / var(--tw-border-opacity, 1));
 }
 
+.site-footer-music {
+    width: 100%;
+    max-width: 1355px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    background-color: transparent; 
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: rgb(55 65 81 / var(--tw-border-opacity, 1));
+}
+
 .footer-content {
     max-width: 1400px;
     margin: 0 auto;
@@ -561,37 +572,217 @@ dialog::backdrop {
     height: 24px;
 }
 
-/* 9. АДАПТИВНОСТЬ (ОБЩАЯ) */
-@media (max-width: 600px) {
+/* 9. СТИЛИ ДЛЯ МУЗЫКИ (ФИНАЛ) */
+
+/* --- БЛОК ПЛЕЙЛИСТОВ --- */
+.playlist-container {
+    background-color: var(--bg-card);
+    border-radius: 1rem;
+    border: 1px solid var(--border-color);
+    padding: 1.25rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    
+    grid-column: 1 / -1; 
+}
+
+.playlist-links {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    margin-top: 0;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.btn-playlist {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    flex-grow: 1;
+    max-width: 300px;
+    
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+}
+
+.btn-yt:hover {
+    background-color: #ef4444;
+    border-color: #ef4444;
+    color: white;
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.4);
+    transform: translateY(-2px);
+}
+
+.btn-japan:hover {
+    background-color: #f472b6;
+    border-color: #f472b6;
+    color: white;
+    box-shadow: 0 0 15px rgba(244, 114, 182, 0.4);
+    transform: translateY(-2px);
+}
+
+/* --- ТОП АРТИСТ (НОВЫЙ СТИЛЬ: NEON GLOW) --- */
+.top-artist-card {
+    background: linear-gradient(145deg, #1f2937 0%, #111827 100%);
+    border: 1px solid rgba(139, 92, 246, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Эффект подсветки снизу */
+.top-artist-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #818cf8, #c084fc);
+    box-shadow: 0 -5px 15px rgba(139, 92, 246, 0.3);
+}
+
+.top-artist-card h3 {
+    color: #a5b4fc;
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.25rem;
+}
+
+.artist-name {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 0.25rem;
+    
+    color: #ffffff;
+    /* text-shadow: 0 0 20px rgba(139, 92, 246, 0.5); Фиолетовая тень-свечение */
+    
+    word-break: break-word; 
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --- Кнопка "Музыка" в хедере --- */
+.btn-music-nav {
+    background-color: var(--accent);
+    border: 1px solid var(--accent);
+    color: white;
+}
+
+.btn-music-nav:hover {
+    background-color: var(--accent-hover);
+    border-color: var(--accent-hover);
+}
+
+/* 10. АДАПТИВНОСТЬ (МОБИЛЬНЫЕ УСТРОЙСТВА) */
+@media (max-width: 640px) {
+    /* --- Тир-лист --- */
     .tier-row {
         flex-direction: column;
+        border-radius: 8px;
     }
 
     .tier-label {
         width: 100%;
         flex-direction: row;
-        justify-content: space-between;
-        padding: 0.75rem 1rem;
-        font-size: 1.5rem;
+        justify-content: center;
+        gap: 1rem;
+        padding: 0.5rem;
+        font-size: 1.3rem;
     }
 
     .tier-content {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 0.5rem;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 0.75rem;
+        padding: 0.75rem;
     }
     
     .card {
-        border-radius: 4px;
+        border-radius: 6px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     }
 
+    /* --- Хедер и Управление --- */
+    header {
+        padding: 1rem;
+        align-items: stretch;
+    }
+
+    .controls {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    select, .btn, .btn-link {
+        width: 100%;
+        justify-content: center;
+        padding: 0.8rem;
+    }
+
+    /* --- Модальное окно --- */
     dialog {
         width: 95%;
-        max-height: 90vh;
+        max-height: 85vh;
+        border-radius: 12px;
     }
     
+    .modal-content {
+        flex-direction: column;
+        max-height: 85vh;
+    }
+
+    .modal-header {
+        height: 250px;
+        width: 100%;
+    }
+
+    .modal-body {
+        padding: 1.25rem;
+    }
+
+    .modal-title {
+        font-size: 1.5rem;
+    }
+
     .close-modal {
         top: 10px;
         right: 10px;
+        width: 32px;
+        height: 32px;
         background-color: rgba(0,0,0,0.7);
+    }
+
+    /* --- Статистика и Музыка --- */
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .playlist-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn-playlist {
+        width: 100%;
+        max-width: none;
+    }
+    
+    .artist-name {
+        font-size: 1.8rem;
     }
 }
