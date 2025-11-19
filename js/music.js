@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error("Music data not found");
         return;
     }
-
     initMusicStats();
 });
 
@@ -17,19 +16,25 @@ function initMusicStats() {
     // 1. Базовая статистика
     totalSongsEl.textContent = musicData.length;
 
-    // 2. Считаем артистов
+    // 2. Считаем артистов (Улучшенная логика: разделяем фиты)
     const artistCounts = {};
     
     musicData.forEach(song => {
-        // Убираем "feat." и лишние пробелы для чистоты
-        let artist = song.artist.trim();
-        if (artistCounts[artist]) {
-            artistCounts[artist]++;
-        } else {
-            artistCounts[artist] = 1;
-        }
+        // Разбиваем строку
+        const rawArtists = song.artist.split(/,|&| x | feat\. | ft\. /i);
 
-        // Добавляем в список (для красоты)
+        rawArtists.forEach(a => {
+            let artistName = a.trim(); // Убираем лишние пробелы
+            if (!artistName) return;
+
+            if (artistCounts[artistName]) {
+                artistCounts[artistName]++;
+            } else {
+                artistCounts[artistName] = 1;
+            }
+        });
+
+        // Добавляем в список внизу страницы
         const li = document.createElement('li');
         li.style.padding = "0.5rem";
         li.style.borderBottom = "1px solid #374151";
@@ -46,21 +51,29 @@ function initMusicStats() {
         .sort((a, b) => b[1] - a[1]) // Сортировка по убыванию
         .slice(0, 10); // Берем топ 10
 
-    // Топ-1
+    // --- ВЫВОД ТОП-1 ---
     if (sortedArtists.length > 0) {
-        topArtistEl.textContent = sortedArtists[0][0] + ` (${sortedArtists[0][1]} треков)`;
+        const name = sortedArtists[0][0];
+        const count = sortedArtists[0][1];
+
+        topArtistEl.innerHTML = `
+            <span>${name}</span>
+            <span style="font-size: 1.3rem; margin-top: 5px;">
+                (${count} треков)
+            </span>
+        `;
     }
 
-    // 4. Рисуем график (Bar Chart - Столбцы лучше для имен)
+    // 4. Рисуем график
     const labels = sortedArtists.map(item => item[0]);
     const data = sortedArtists.map(item => item[1]);
 
     new Chart(ctx, {
-        type: 'bar', // Столбчатая диаграмма
+        type: 'bar',
         data: {
             labels: labels,
             datasets: [{
-                label: 'Количество треков',
+                label: 'Треков',
                 data: data,
                 backgroundColor: '#6366f1',
                 borderRadius: 4,
@@ -70,7 +83,7 @@ function initMusicStats() {
         options: {
             responsive: true,
             maintainAspectRatio: false,
-            indexAxis: 'y', // Делаем график горизонтальным (имена лучше читаются)
+            indexAxis: 'y', // Горизонтальный график
             plugins: {
                 legend: { display: false },
                 tooltip: {
