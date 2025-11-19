@@ -1,0 +1,37 @@
+name: Update Music Data
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Каждый день в 00:00 UTC
+  workflow_dispatch: # Кнопка ручного запуска
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        # Указываем путь к requirements.txt в папке scripts
+        run: |
+          pip install -r scripts/requirements.txt
+
+      - name: Run music scraper
+        # Запускаем скрипт из папки scripts
+        run: python scripts/update_music.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          # Добавляем файл, который изменился (путь data/music-data.js остается прежним)
+          git add data/music-data.js
+          git commit -m "Auto-update music playlist" || exit 0
+          git push
