@@ -111,6 +111,16 @@ if (typeof tierListData !== 'undefined') {
                 review: "Прикольеный, но сладковатый вкус. Чисто на 1 раз.", 
                 img: "energydrink/Monster Energy Peachy Keen.webp"
             },
+            { 
+                title: "Non Stop Zoom", 
+                review: "Прикольный арбузный вкус с мятным послевкусием.", 
+                img: "energydrink/Non Stop Zoom.webp"
+            },
+            { 
+                title: "Non Stop Boost", 
+                review: "", 
+                img: "energydrink/Non Stop Boost.webp"
+            },
         ],
         'D': [
             { 
