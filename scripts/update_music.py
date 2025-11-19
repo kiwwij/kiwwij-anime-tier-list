@@ -16,7 +16,7 @@ yt = YTMusic()
 # Плейлисты
 playlists = [
     {"id": "PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C", "name": "Main"},
-    {"id": "PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ", "name": "Japan"}
+    # {"id": "PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ", "name": "Japan"}
 ]
 
 all_tracks = []
