@@ -415,8 +415,13 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Проспал",
-        "artist": "Порез На Собаке",
+        "title": "Girlfriend (Official Video)",
+        "artist": "Avril Lavigne",
+        "playlist": "Main"
+    },
+    {
+        "title": "Деревья, сгнившие до ствола",
+        "artist": "Violetta Sokolova",
         "playlist": "Main"
     }
 ];
