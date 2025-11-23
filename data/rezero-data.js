@@ -190,6 +190,11 @@ if (typeof tierListData !== 'undefined') {
                 review: "Битва за город.", 
                 img: "rezero/30.webp"
             },
+            { 
+                title: "Re:Zero Ранобэ Том 34", 
+                review: "Отступление. Воссоединение сестёр.", 
+                img: "rezero/34.webp"
+            },
             ],
         'D': [
             { 

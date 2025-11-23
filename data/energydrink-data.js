@@ -12,8 +12,8 @@ const energyRatingScales = {
     personal: [
         { rank: 'Очень вкусно', color: 'bg-red-500' },
         { rank: 'Классика', color: 'bg-orange-500' },
-        { rank: 'Можно пить', color: 'bg-yellow-400' },
-        { rank: 'Стоит попробовать', color: 'bg-green-500' },
+        { rank: 'Пить можно', color: 'bg-yellow-400' },
+        { rank: 'Можно попробовать', color: 'bg-green-500' },
         { rank: 'Не моё', color: 'bg-blue-500' },
         { rank: 'Кал', color: 'bg-purple-500' },
         { rank: 'Никогда больше', color: 'bg-gray-600' }
@@ -89,6 +89,11 @@ if (typeof tierListData !== 'undefined') {
                 review: "Как и говорил, почти все вкусны похожи друг на друга, поэтому хз чё добавить.", 
                 img: "energydrink/Burn Guava.webp"
             },
+            { 
+                title: "Non Stop Zoom", 
+                review: "Прикольный арбузный вкус с мятным послевкусием.", 
+                img: "energydrink/Non Stop Zoom.webp"
+            },
             ],
         'C': [
             { 
@@ -112,14 +117,9 @@ if (typeof tierListData !== 'undefined') {
                 img: "energydrink/Monster Energy Peachy Keen.webp"
             },
             { 
-                title: "Non Stop Zoom", 
-                review: "Прикольный арбузный вкус с мятным послевкусием.", 
-                img: "energydrink/Non Stop Zoom.webp"
-            },
-            { 
-                title: "Non Stop Boost", 
-                review: "", 
-                img: "energydrink/Non Stop Boost.webp"
+                title: "Non Stop Stalker Green", 
+                review: "Вот уже реально вкус лайма.", 
+                img: "energydrink/Non Stop Stalker Green.webp"
             },
         ],
         'D': [
@@ -142,6 +142,11 @@ if (typeof tierListData !== 'undefined') {
                 title: "Non Stop", 
                 review: "Ровно такой же как и Джангл. Горьковатый.", 
                 img: "energydrink/Non Stop.webp"
+            },
+            { 
+                title: "Non Stop Boost", 
+                review: "Вкус ананас, гуава. А по факту как обічный и джангл, только менее горький. Меня это даже уже бесит.", 
+                img: "energydrink/Non Stop Boost.webp"
             },
             ],
         'E': [
