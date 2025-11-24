@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-    if (typeof musicData === 'undefined') {
-        console.error("Music data not found");
+    // Проверяем наличие обеих переменных
+    if (typeof musicData === 'undefined' || typeof musicStats === 'undefined') {
+        console.error("Music data or stats not found");
         return;
     }
     initMusicStats();
@@ -11,22 +12,36 @@ function initMusicStats() {
     const uniqueArtistsEl = document.getElementById('uniqueArtists');
     const topArtistEl = document.getElementById('topArtist');
     const songListEl = document.getElementById('songList');
+    
+    // Новые элементы
+    const playlistViewsEl = document.getElementById('playlistViews');
+    const totalDurationEl = document.getElementById('totalDuration');
+
     const ctx = document.getElementById('artistsChart').getContext('2d');
 
-    // 1. Базовая статистика
+    // 1. Базовая статистика (Треки)
     totalSongsEl.textContent = musicData.length;
 
-    // 2. Считаем артистов (Улучшенная логика: разделяем фиты)
+    // --- НОВАЯ ЛОГИКА: Просмотры и Длительность ---
+    
+    // 1.1 Просмотры (Форматируем число с пробелами: 1 234 567)
+    playlistViewsEl.textContent = musicStats.totalViews.toLocaleString('ru-RU');
+
+    // 1.2 Длительность (Переводим секунды в часы и минуты)
+    const hours = Math.floor(musicStats.totalDurationSec / 3600);
+    const minutes = Math.floor((musicStats.totalDurationSec % 3600) / 60);
+    totalDurationEl.textContent = `${hours} ч. ${minutes} мин.`;
+    
+    // --------------------------------------------------
+
+    // 2. Считаем артистов (существующий код)
     const artistCounts = {};
     
     musicData.forEach(song => {
-        // Разбиваем строку
         const rawArtists = song.artist.split(/,|&| x | feat\. | ft\. /i);
-
         rawArtists.forEach(a => {
-            let artistName = a.trim(); // Убираем лишние пробелы
+            let artistName = a.trim();
             if (!artistName) return;
-
             if (artistCounts[artistName]) {
                 artistCounts[artistName]++;
             } else {
@@ -34,7 +49,6 @@ function initMusicStats() {
             }
         });
 
-        // Добавляем в список внизу страницы
         const li = document.createElement('li');
         li.style.padding = "0.5rem";
         li.style.borderBottom = "1px solid #374151";
@@ -46,16 +60,14 @@ function initMusicStats() {
     const uniqueArtists = Object.keys(artistCounts);
     uniqueArtistsEl.textContent = uniqueArtists.length;
 
-    // 3. Сортируем Топ Артистов
+    // 3. Топ Артистов (существующий код)
     const sortedArtists = Object.entries(artistCounts)
-        .sort((a, b) => b[1] - a[1]) // Сортировка по убыванию
-        .slice(0, 10); // Берем топ 10
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 10);
 
-    // --- ВЫВОД ТОП-1 ---
     if (sortedArtists.length > 0) {
         const name = sortedArtists[0][0];
         const count = sortedArtists[0][1];
-
         topArtistEl.innerHTML = `
             <span>${name}</span>
             <span style="font-size: 1.3rem; margin-top: 5px;">
@@ -64,7 +76,7 @@ function initMusicStats() {
         `;
     }
 
-    // 4. Рисуем график
+    // 4. График (существующий код)
     const labels = sortedArtists.map(item => item[0]);
     const data = sortedArtists.map(item => item[1]);
 
@@ -83,7 +95,7 @@ function initMusicStats() {
         options: {
             responsive: true,
             maintainAspectRatio: false,
-            indexAxis: 'y', // Горизонтальный график
+            indexAxis: 'y',
             plugins: {
                 legend: { display: false },
                 tooltip: {
