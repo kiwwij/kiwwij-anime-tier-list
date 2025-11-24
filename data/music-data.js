@@ -1,3 +1,4 @@
+
 const musicData = [
     {
         "title": "гладиатор/рыцарь",
@@ -425,3 +426,7 @@ const musicData = [
         "playlist": "Main"
     }
 ];
+const musicStats = {
+    "totalViews": 12,
+    "totalDurationSec": 11613
+};
