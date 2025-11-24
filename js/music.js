@@ -12,8 +12,6 @@ function initMusicStats() {
     const uniqueArtistsEl = document.getElementById('uniqueArtists');
     const topArtistEl = document.getElementById('topArtist');
     const songListEl = document.getElementById('songList');
-    
-    // Новые элементы
     const playlistViewsEl = document.getElementById('playlistViews');
     const totalDurationEl = document.getElementById('totalDuration');
 
@@ -22,8 +20,7 @@ function initMusicStats() {
     // 1. Базовая статистика (Треки)
     totalSongsEl.textContent = musicData.length;
 
-    // --- НОВАЯ ЛОГИКА: Просмотры и Длительность ---
-    
+    // --- Просмотры и Длительность ---
     // 1.1 Просмотры (Форматируем число с пробелами: 1 234 567)
     playlistViewsEl.textContent = musicStats.totalViews.toLocaleString('ru-RU');
 
@@ -31,8 +28,6 @@ function initMusicStats() {
     const hours = Math.floor(musicStats.totalDurationSec / 3600);
     const minutes = Math.floor((musicStats.totalDurationSec % 3600) / 60);
     totalDurationEl.textContent = `${hours} ч. ${minutes} мин.`;
-    
-    // --------------------------------------------------
 
     // 2. Считаем артистов (существующий код)
     const artistCounts = {};

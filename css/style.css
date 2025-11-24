@@ -786,3 +786,9 @@ dialog::backdrop {
         font-size: 1.8rem;
     }
 }
+
+@media (min-width: 600px) {
+    .wide-card {
+        grid-column: span 2; /* Растянуть на 2 столбика */
+    }
+}
