@@ -424,14 +424,9 @@ const musicData = [
         "title": "Деревья, сгнившие до ствола",
         "artist": "Violetta Sokolova",
         "playlist": "Main"
-    },
-    {
-        "title": "SPIT IN MY FACE!",
-        "artist": "ThxSoMch",
-        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 12,
-    "totalDurationSec": 11761
+    "totalDurationSec": 11613
 };
