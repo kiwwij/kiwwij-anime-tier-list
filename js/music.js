@@ -21,8 +21,14 @@ function initMusicStats() {
     totalSongsEl.textContent = musicData.length;
 
     // --- Просмотры и Длительность ---
-    // 1.1 Просмотры (Форматируем число с пробелами: 1 234 567)
-    playlistViewsEl.textContent = musicStats.totalViews.toLocaleString('ru-RU');
+    // 1.1 Просмотры
+    // Если просмотров меньше 1000 (например 11), дописываем "тыс."
+    if (musicStats.totalViews < 1000) {
+        playlistViewsEl.textContent = musicStats.totalViews + ' тыс.';
+    } else {
+        // Если вдруг придет полное число (11500), показываем как есть
+        playlistViewsEl.textContent = musicStats.totalViews.toLocaleString('ru-RU');
+    }
 
     // 1.2 Длительность (Переводим секунды в часы и минуты)
     const hours = Math.floor(musicStats.totalDurationSec / 3600);
