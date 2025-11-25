@@ -590,50 +590,84 @@ dialog::backdrop {
     grid-column: 1 / -1; 
 }
 
+/* --- БЛОК ПЛЕЙЛИСТОВ --- */
 .playlist-links {
     display: flex;
-    gap: 0.75rem;
+    gap: 1.5rem;
     justify-content: center;
     margin-top: 0;
     flex-wrap: wrap;
     width: 100%;
+    margin-bottom: 24px;
 }
 
 .btn-playlist {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
-    padding: 0.75rem 1.5rem;
-    border-radius: 0.5rem;
-    font-weight: 600;
-    text-decoration: none;
-    transition: all 0.2s ease;
-    flex-grow: 1;
-    max-width: 300px;
+    gap: 0.8rem;
+    padding: 1rem 2rem;
     
-    background-color: rgba(255, 255, 255, 0.05);
-    border: 1px solid var(--border-color);
+    background-color: rgba(31, 41, 55, 0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    
     color: var(--text-main);
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    flex-grow: 1;
+    max-width: 350px;
+    position: relative;
+    overflow: hidden;
 }
 
+/* Эффект блика при наведении */
+.btn-playlist::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+    transition: 0.5s;
+}
+
+.btn-playlist:hover::before {
+    left: 100%;
+}
+
+.btn-playlist:hover {
+    transform: translateY(-4px);
+    color: white;
+    border-color: transparent;
+}
+
+/* СТИЛЬ ДЛЯ ОСНОВНОГО ПЛЕЙЛИСТА (Красный/Оранжевый градиент YouTube) */
 .btn-yt:hover {
-    background-color: #ef4444;
-    border-color: #ef4444;
-    color: white;
-    box-shadow: 0 0 15px rgba(239, 68, 68, 0.4);
-    transform: translateY(-2px);
+    background: linear-gradient(135deg, #ef4444 0%, #b91c1c 100%);
+    box-shadow: 0 10px 20px -5px rgba(239, 68, 68, 0.4);
 }
 
+/* СТИЛЬ ДЛЯ JAPAN VIBE (Розовый/Сакура градиент) */
 .btn-japan:hover {
-    background-color: #f472b6;
-    border-color: #f472b6;
+    background: linear-gradient(135deg, #f472b6 0%, #db2777 100%);
+    box-shadow: 0 10px 20px -5px rgba(244, 114, 182, 0.4);
+}
+
+.btn-link:hover {
+    background-color: var(--accent);
     color: white;
-    box-shadow: 0 0 15px rgba(244, 114, 182, 0.4);
     transform: translateY(-2px);
 }
 
-/* --- ТОП АРТИСТ (НОВЫЙ СТИЛЬ: NEON GLOW) --- */
+/* --- ТОП АРТИСТ (СТИЛЬ: NEON GLOW) --- */
 .top-artist-card {
     background: linear-gradient(145deg, #1f2937 0%, #111827 100%);
     border: 1px solid rgba(139, 92, 246, 0.3);
@@ -789,6 +823,117 @@ dialog::backdrop {
 
 @media (min-width: 600px) {
     .wide-card {
-        grid-column: span 2; /* Растянуть на 2 столбика */
+        grid-column: span 2;
     }
 }
+
+/* --- 11 СЕКЦИЯ ВАЙБА --- */
+.vibe-section {
+    background: linear-gradient(180deg, rgba(31, 41, 55, 0.5) 0%, rgba(17, 24, 39, 0) 100%);
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+/* Декоративная подсветка сверху */
+.vibe-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    box-shadow: 0 0 15px var(--accent);
+}
+
+.vibe-header h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    background: -webkit-linear-gradient(45deg, #fff, #a5b4fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.vibe-description {
+    color: var(--text-muted);
+    max-width: 700px;
+    margin: 0 auto 1.5rem auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Облако тегов */
+.vibe-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.tag {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.tag:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Цвета для разных жанров */
+.tag-hyper {
+    background: rgba(236, 72, 153, 0.15);
+    color: #f472b6;
+    border-color: rgba(236, 72, 153, 0.3);
+}
+.tag-hyper:hover { box-shadow: 0 0 10px rgba(244, 114, 182, 0.4); }
+
+.tag-emo {
+    background: rgba(107, 114, 128, 0.2);
+    color: #d1d5db;
+    border-color: rgba(107, 114, 128, 0.4);
+}
+.tag-emo:hover { box-shadow: 0 0 10px rgba(209, 213, 219, 0.2); }
+
+.tag-punk {
+    background: rgba(139, 92, 246, 0.15);
+    color: #a78bfa;
+    border-color: rgba(139, 92, 246, 0.3);
+}
+.tag-punk:hover { box-shadow: 0 0 10px rgba(167, 139, 250, 0.4); }
+
+.tag-glitch {
+    background: rgba(16, 185, 129, 0.15);
+    color: #34d399;
+    border-color: rgba(16, 185, 129, 0.3);
+}
+.tag-glitch:hover { box-shadow: 0 0 10px rgba(52, 211, 153, 0.4); }
+
+.tag-indie {
+    background: rgba(245, 158, 11, 0.15);
+    color: #fbbf24;
+    border-color: rgba(245, 158, 11, 0.3);
+}
+.tag-indie:hover { box-shadow: 0 0 10px rgba(251, 191, 36, 0.4); }
+
+.tag-alt {
+    background: rgba(59, 130, 246, 0.15);
+    color: #60a5fa;
+    border-color: rgba(59, 130, 246, 0.3);
+}
+.tag-alt:hover { box-shadow: 0 0 10px rgba(96, 165, 250, 0.4); }
