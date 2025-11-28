@@ -424,9 +424,39 @@ const musicData = [
         "title": "Деревья, сгнившие до ствола",
         "artist": "Violetta Sokolova",
         "playlist": "Main"
+    },
+    {
+        "title": "СВЕТЛАНА!",
+        "artist": "NEXTIME",
+        "playlist": "Main"
+    },
+    {
+        "title": "Невесомость",
+        "artist": "тянка",
+        "playlist": "Main"
+    },
+    {
+        "title": "Sodikken - Misery Meat",
+        "artist": "S T A R G A Z E",
+        "playlist": "Main"
+    },
+    {
+        "title": "дайте выпилиться тут",
+        "artist": "лиззз",
+        "playlist": "Main"
+    },
+    {
+        "title": "Виріжу очі",
+        "artist": "Апатія",
+        "playlist": "Main"
+    },
+    {
+        "title": "Придурок",
+        "artist": "тянка",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 12,
-    "totalDurationSec": 11613
+    "totalDurationSec": 12446
 };
