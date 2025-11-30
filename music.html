@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моя Музыка</title>
+    <title>Мой основной плейлист</title>
     <meta name="author" content="kiwwij">
     <meta name="description" content="Статистика моего музыкального плейлиста.">
     <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/c6/13/87/c61387bddb1dcf7f3445f687ea56f67e.gif">
@@ -17,8 +17,9 @@
 </head>
 <body>
     <header>
-        <h1>Статистика муз. плейлиста</h1>
+        <h1>Статистика основного плейлиста</h1>
         <div class="controls">
+            <a href="all_music.html" class="btn btn-link btn-music-nav">Статистика про все плейлисты</a>
             <a href="index.html" class="btn btn-link">Назад к Тир-Листам</a>
         </div>
     </header>
@@ -55,32 +56,31 @@
             <div class="vibe-header">
                 <h2>Музыкальный Вайб</h2>
                 <p class="vibe-description">
-                    Digital Melancholy & Hyper-Chaos. <br>
-                    Смесь искаженных цифровых ритмов и искренней думерской грусти. 
-                    От агрессивного гиперпопа до лампового инди. 
-                    Музыка для тех, кто живёт в сети и чувствует слишком много.
-                    <!-- Чуть-чуть поменять описание. Кринжеватое. -->
+                    <!-- Digital Melancholy & Hyper-Chaos. <br> -->
+                    Вайб человека, который застрял где-то между реальностью серых панельных домов и кислотным цифровым миром интернета. 
+                    Здесь агрессивный, ломаный ритм с перегруженным басом резко сменяется тихой, интимной акустикой.
+                    Это музыка бессонницы и бесконечных самокопаний, которая звучит как попытка собрать себя заново из обрывков воспоминаний и удаленных сообщений.
                 </p>
             </div>
             
             <div class="vibe-tags">
-                <a href="https://www.google.com/search?q=что+такое+Hyperpop+жанр" target="_blank" class="tag tag-hyper">
-                    ⚡ Hyperpop
+                <a href="https://www.google.com/search?q=%D1%87%D1%82%D0%BE+%D1%82%D0%B0%D0%BA%D0%BE%D0%B5+Hyperpop+%2F+Glitchcore+Hip-Hop+%D0%B2+%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B5&client=firefox-b-d&sca_esv=c1e0efabc0246387&sxsrf=AE3TifNODYrfb-XsfyYPvyP-C3_MtrUjIg%3A1764508453665&ei=JUMsaYqeKLWK7NYP67inmQo&ved=0ahUKEwjKxNWc-pmRAxU1BdsEHWvcKaMQ4dUDCBE&uact=5&oq=%D1%87%D1%82%D0%BE+%D1%82%D0%B0%D0%BA%D0%BE%D0%B5+Hyperpop+%2F+Glitchcore+Hip-Hop+%D0%B2+%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B5&gs_lp=Egxnd3Mtd2l6LXNlcnAiP9GH0YLQviDRgtCw0LrQvtC1IEh5cGVycG9wIC8gR2xpdGNoY29yZSBIaXAtSG9wINCyINC80YPQt9GL0LrQtTIFEAAY7wUyBRAAGO8FMgUQABjvBTIFEAAY7wVI4gZQf1h_cAF4AZABAJgBfaABfaoBAzAuMbgBA8gBAPgBAvgBAZgCAqAChgHCAgoQABiwAxjWBBhHmAMAiAYBkAYIkgcDMS4xoAe8ArIHAzAuMbgHgAHCBwUwLjEuMcgHBg&sclient=gws-wiz-serp" target="_blank" class="tag tag-hyper">
+                    💊 Hyperpop
                 </a>
-                <a href="https://www.google.com/search?q=что+такое+Emo+Rap" target="_blank" class="tag tag-emo">
-                    🥀 Emo Rap
+                <a href="https://www.google.com/search?q=%D1%87%D1%82%D0%BE+%D1%82%D0%B0%D0%BA%D0%BE%D0%B5+Emo+Rap+%2F+Alternative+Hip-Hop+%D0%B2+%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B5&client=firefox-b-d&sca_esv=c1e0efabc0246387&sxsrf=AE3TifP9m2eeM0q4xJVAj6c2ndguv0cRpQ%3A1764508418055&ei=AkMsacWWA7eH7NYP8OuNiQ4&ved=0ahUKEwjFn9iL-pmRAxW3A9sEHfB1I-EQ4dUDCBE&uact=5&oq=%D1%87%D1%82%D0%BE+%D1%82%D0%B0%D0%BA%D0%BE%D0%B5+Emo+Rap+%2F+Alternative+Hip-Hop+%D0%B2+%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B5&gs_lp=Egxnd3Mtd2l6LXNlcnAiP9GH0YLQviDRgtCw0LrQvtC1IEVtbyBSYXAgLyBBbHRlcm5hdGl2ZSBIaXAtSG9wINCyINC80YPQt9GL0LrQtTIEECMYJzIFEAAY7wUyCBAAGIAEGKIEMgUQABjvBTIFEAAY7wUyCBAAGIAEGKIESJ0GUGZYZnABeAGQAQCYAWKgAWKqAQExuAEDyAEA-AEC-AEBmAICoAJtwgIKEAAYsAMY1gQYR5gDAIgGAZAGCJIHAzEuMaAHjQayBwMwLjG4B2fCBwMyLTLIBwc&sclient=gws-wiz-serp" target="_blank" class="tag tag-emo">
+                    ⛓️ Emo Rap
                 </a>
-                <a href="https://www.google.com/search?q=что+такое+Post-Punk" target="_blank" class="tag tag-punk">
-                    🎸 Post-Punk
+                <a href="https://www.google.com/search?q=%D1%87%D1%82%D0%BE+%D1%82%D0%B0%D0%BA%D0%BE%D0%B5+Post-Punk+%2F+Darkwave+%D0%B2+%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B5&client=firefox-b-d&sca_esv=c1e0efabc0246387&sxsrf=AE3TifNNu64YuuV0_ho9miE7c4UurtflCw%3A1764508390808&ei=5kIsaaWCMbCUxc8Ph8XogA0&ved=0ahUKEwiljdn--ZmRAxUwSvEDHYciGtAQ4dUDCBE&uact=5&oq=%D1%87%D1%82%D0%BE+%D1%82%D0%B0%D0%BA%D0%BE%D0%B5+Post-Punk+%2F+Darkwave+%D0%B2+%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B5&gs_lp=Egxnd3Mtd2l6LXNlcnAiNtGH0YLQviDRgtCw0LrQvtC1IFBvc3QtUHVuayAvIERhcmt3YXZlINCyINC80YPQt9GL0LrQtTIFEAAY7wUyBRAAGO8FMgUQABjvBTIFEAAY7wVIsRBQiAFYxwpwAXgBkAEAmAGnAaAB5QKqAQMyLjG4AQPIAQD4AQL4AQGYAgSgAvkCwgIKEAAYsAMY1gQYR8ICBhAhGAoYKpgDAIgGAZAGCJIHAzIuMqAH8wqyBwMxLjK4B_MCwgcFMC4xLjPIBww&sclient=gws-wiz-serp" target="_blank" class="tag tag-punk">
+                    🌃 Post-Punk
                 </a>
-                <a href="https://www.google.com/search?q=что+такое+Glitchcore" target="_blank" class="tag tag-glitch">
-                    👾 Glitchcore
+                <a href="https://www.google.com/search?q=%D1%87%D1%82%D0%BE+%D1%82%D0%B0%D0%BA%D0%BE%D0%B5+Pop-Punk+%2F+Pop-Rock+Revival+%D0%B2+%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B5&client=firefox-b-d&sca_esv=c1e0efabc0246387&sxsrf=AE3TifMgMSmPtuB9TKNOmiaAxK_NM2JKDw%3A1764508468457&ei=NEMsaevLG9qNxc8Pv4Ob6AQ&ved=0ahUKEwjrtdyj-pmRAxXaRvEDHb_BBk0Q4dUDCBE&uact=5&oq=%D1%87%D1%82%D0%BE+%D1%82%D0%B0%D0%BA%D0%BE%D0%B5+Pop-Punk+%2F+Pop-Rock+Revival+%D0%B2+%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B5&gs_lp=Egxnd3Mtd2l6LXNlcnAiPdGH0YLQviDRgtCw0LrQvtC1IFBvcC1QdW5rIC8gUG9wLVJvY2sgUmV2aXZhbCDQsiDQvNGD0LfRi9C60LUyBRAAGO8FMgUQABjvBTIFEAAY7wUyBRAAGO8FSLcXUJEBWOEVcAF4AZABAJgBiAGgAYoEqgEDMi4zuAEDyAEA-AEB-AECmAIFoAK1A8ICChAAGLADGNYEGEfCAgYQABgNGB7CAggQABiABBiiBJgDAIgGAZAGCJIHAzIuM6AHwRCyBwMxLjO4B64DwgcFMC4zLjLIBw0&sclient=gws-wiz-serp" target="_blank" class="tag tag-glitch">
+                    🤘 Pop-Punk
                 </a>
-                <a href="https://www.google.com/search?q=что+такое+Indie+музыка" target="_blank" class="tag tag-indie">
-                    🧸 Indie
+                <a href="https://www.google.com/search?q=%D1%87%D1%82%D0%BE+%D1%82%D0%B0%D0%BA%D0%BE%D0%B5+Digicore+%2F+Webcore+%D0%B2+%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B5&client=firefox-b-d&sca_esv=c1e0efabc0246387&sxsrf=AE3TifMt0aiF2ZNAGfB0LeBow9kE8JsL3Q%3A1764508492677&ei=TEMsaaj9KKOGxc8P7sLJ2AY&ved=0ahUKEwio06Kv-pmRAxUjQ_EDHW5hEmsQ4dUDCBE&uact=5&oq=%D1%87%D1%82%D0%BE+%D1%82%D0%B0%D0%BA%D0%BE%D0%B5+Digicore+%2F+Webcore+%D0%B2+%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B5&gs_lp=Egxnd3Mtd2l6LXNlcnAiNNGH0YLQviDRgtCw0LrQvtC1IERpZ2ljb3JlIC8gV2ViY29yZSDQsiDQvNGD0LfRi9C60LUyBRAAGO8FMggQABiABBiiBDIIEAAYgAQYogRIhQhQYVirAnABeAGQAQCYAXugAdYBqgEDMS4xuAEDyAEA-AEB-AECmAIDoALlAcICChAAGLADGNYEGEfCAgYQABgHGB6YAwCIBgGQBgiSBwMyLjGgB6wJsgcDMS4xuAffAcIHBTAuMS4yyAcK&sclient=gws-wiz-serp" target="_blank" class="tag tag-indie">
+                    💿 Webcore
                 </a>
-                <a href="https://www.google.com/search?q=что+такое+Alternative+Rock" target="_blank" class="tag tag-alt">
-                    🔥 Alt Rock
+                <a href="https://www.google.com/search?q=%D1%87%D1%82%D0%BE+%D1%82%D0%B0%D0%BA%D0%BE%D0%B5+Acoustic+Lo-Fi+%2F+Bard-pop+%D0%B2+%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B5&client=firefox-b-d&sca_esv=c1e0efabc0246387&sxsrf=AE3TifOnOTvFHsvHVYb4NctvDzpWpasYDA%3A1764508535972&ei=d0MsafuPO7iI7NYPsaSMiA4&ved=0ahUKEwi7p_XD-pmRAxU4BNsEHTESA-EQ4dUDCBE&uact=5&oq=%D1%87%D1%82%D0%BE+%D1%82%D0%B0%D0%BA%D0%BE%D0%B5+Acoustic+Lo-Fi+%2F+Bard-pop+%D0%B2+%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B5&gs_lp=Egxnd3Mtd2l6LXNlcnAiO9GH0YLQviDRgtCw0LrQvtC1IEFjb3VzdGljIExvLUZpIC8gQmFyZC1wb3Ag0LIg0LzRg9C30YvQutC1MggQABiABBiiBDIFEAAY7wUyBRAAGO8FMgUQABjvBTIFEAAY7wVI7_4BUJP5AViT-QFwAngAkAEAmAGhAaABoQGqAQMwLjG4AQPIAQD4AQL4AQGYAgOgAq0BwgIIEAAYsAMY7wXCAgsQABiABBiwAxiiBJgDAIgGAZAGA5IHAzIuMaAHqQOyBwMwLjG4B6YBwgcFMC4xLjLIBwg&sclient=gws-wiz-serp" target="_blank" class="tag tag-alt">
+                    🕯️ Acoustic Lo-Fi
                 </a>
             </div>
         </div>

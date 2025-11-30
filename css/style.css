@@ -937,3 +937,136 @@ dialog::backdrop {
     border-color: rgba(59, 130, 246, 0.3);
 }
 .tag-alt:hover { box-shadow: 0 0 10px rgba(96, 165, 250, 0.4); }
+
+/* 11. ВСЕ ПЛЕЙЛИСТЫ */
+/* --- СЕТКА (GRID) --- */
+.hub-grid {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    /* Мобилки: авто */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* --- РАСКЛАДКА 1-1-1 / 0-1-0 (Только для ПК) --- */
+@media (min-width: 1024px) {
+    .hub-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    /* 4-й элемент ставим по центру (2-я колонка) */
+    .playlist-card:nth-child(4) {
+        grid-column: 2; 
+    }
+}
+
+/* --- КАРТОЧКА ПЛЕЙЛИСТА (БАЗОВЫЙ СТИЛЬ) --- */
+.playlist-card {
+    position: relative;
+    
+    /* ЦВЕТ ПОД ТЕМУ САЙТА (Серый) */
+    background-color: #1f2937; 
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    
+    border-radius: 1.5rem;
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    min-height: 220px;
+    
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* ГРАДИЕНТНАЯ ПОДЛОЖКА (По умолчанию СКРЫТА) */
+.playlist-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0; /* Невидима в обычном состоянии */
+    transition: opacity 0.4s ease;
+    z-index: 1;
+}
+
+/* Контент поверх фона */
+.playlist-card > * {
+    z-index: 2;
+    position: relative;
+}
+
+/* --- ЛОГИКА HOVER (ЦВЕТА) --- */
+        
+/* 1. Main (Red) */
+.hover-fire:hover::before {
+    opacity: 1;
+    background: linear-gradient(135deg, rgba(220, 38, 38, 0.8) 0%, rgba(153, 27, 27, 0.95) 100%);
+}
+.hover-fire:hover { border-color: #ef4444; box-shadow: 0 10px 30px -5px rgba(220, 38, 38, 0.4); }
+
+/* 2. Japan (Pink) */
+.hover-sakura:hover::before {
+    opacity: 1;
+    background: linear-gradient(135deg, rgba(219, 39, 119, 0.8) 0%, rgba(190, 24, 93, 0.95) 100%);
+}
+.hover-sakura:hover { border-color: #ec4899; box-shadow: 0 10px 30px -5px rgba(219, 39, 119, 0.4); }
+
+/* 3. Chill (Blue) */
+.hover-ocean:hover::before {
+    opacity: 1;
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.8) 0%, rgba(30, 64, 175, 0.95) 100%);
+}
+.hover-ocean:hover { border-color: #3b82f6; box-shadow: 0 10px 30px -5px rgba(37, 99, 235, 0.4); }
+
+/* 4. Dead Inside (Dark Purple) */
+.hover-void:hover::before {
+    opacity: 1;
+    background: linear-gradient(135deg, rgba(88, 28, 135, 0.9) 0%, rgba(17, 24, 39, 0.98) 100%);
+}
+.hover-void:hover { border-color: #8b5cf6; box-shadow: 0 10px 30px -5px rgba(139, 92, 246, 0.3); }
+
+/* --- ОБЩИЕ ЭФФЕКТЫ ПРИ НАВЕДЕНИИ --- */
+.playlist-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Иконка */
+.playlist-icon {
+    font-size: 3.5rem;
+    margin-bottom: 0.8rem;
+    color: #9ca3af; /* Сначала серая */
+    transition: all 0.3s ease;
+}
+
+.playlist-card:hover .playlist-icon {
+    color: #fff; /* Белая при наведении */
+    transform: scale(1.15) rotate(5deg);
+    filter: drop-shadow(0 0 10px rgba(255,255,255,0.5));
+}
+
+/* Тексты */
+.playlist-card h3 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.playlist-card p {
+    color: #9ca3af;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.playlist-card:hover p { color: #e5e7eb; }
+
+.hub-section {
+    border: none; 
+    background: transparent; 
+    padding: 0; 
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Все мои плейлист</title>
+    <meta name="author" content="kiwwij">
+    <meta name="description" content="Общая статистика всех моих плейлистов.">
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/0f/1b/a3/0f1ba3323de4711a314119a80205c0bf.gif">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Статистика всех плейлистов</h1>
+        <div class="controls">
+            <a href="music.html" class="btn btn-link">Вернуться к основному плейлисту</a>
+            <a href="index.html" class="btn btn-link">Назад к Тир-Листам</a>
+        </div>
+    </header>
+
+    <main class="stats-container">
+        <div class="stats-summary">
+            <div class="stat-card">
+                <h3>Всего треков</h3>
+                <span class="stat-number" id="totalSongs">0</span>
+            </div>
+
+            <div class="stat-card">
+                <h3>Уникальных артистов</h3>
+                <span class="stat-number" id="uniqueArtists">0</span>
+            </div>
+            <div class="stat-card">
+                <h3>Топ-1 Артист</h3>
+                <span class="stat-number artist-name" id="topArtist">-</span>
+            </div>
+            
+            <div class="stat-card">
+                <h3>Просмотры плейлиста</h3>
+                <span class="stat-number" id="playlistViews">0</span>
+            </div>
+
+            <div class="stat-card wide-card"> <h3>Общая длительность</h3>
+                <span class="stat-number" id="totalDuration">0 ч. 0 мин.</span>
+            </div>
+        </div>
+
+        <div class="chart-section hub-section">
+            <h2 style="color: white; font-size: 2rem; margin-bottom: 1.5rem; text-align: center;">Мои Плейлисты</h2>
+            
+            <div class="hub-grid">
+                
+                <a href="https://music.youtube.com/playlist?list=PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C" class="playlist-card hover-fire" target="_blank">
+                    <span class="playlist-icon">🔥</span>
+                    <h3>Main Playlist</h3>
+                    <p>Основной плейлист</p>
+                </a>
+
+                <a href="https://music.youtube.com/playlist?list=PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ" class="playlist-card hover-sakura" target="_blank">
+                    <span class="playlist-icon">🌸</span>
+                    <h3>Japan Vibe</h3>
+                    <p>Anime openings</p>
+                </a>
+
+                <a href="https://music.youtube.com/playlist?list=PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ" class="playlist-card hover-ocean" target="_blank">
+                    <span class="playlist-icon">🌊</span>
+                    <h3>Chill</h3>
+                    <p>Спокойная музыка для фона</p>
+                </a>
+
+                <a href="https://music.youtube.com/playlist?list=PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2" class="playlist-card hover-void" target="_blank">
+                    <span class="playlist-icon">🤡</span>
+                    <h3>Dead inside</h3>
+                    <p>Всё что есть</p>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="chart-section">
+            <h2>Топ-20 Исполнителей</h2>
+            <div class="chart-wrapper">
+                <canvas id="artistsChart"></canvas>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="site-footer-music">
+        <div class="footer-content">
+            <div class="footer-info">
+                <span class="footer-logo">kiwwij</span>
+                <p class="footer-copyright">© 2025. No Copyright.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://kiwwij.github.io/kiwwij-social-links/" target="_blank" aria-label="Social Media Links" class="social-link">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.71.82-1z"/>
+                        <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data/all_music-data.js"></script>
+    <script src="js/music.js"></script>
+</body>
+</html>

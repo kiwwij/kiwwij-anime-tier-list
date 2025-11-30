@@ -37,8 +37,18 @@ if (typeof tierListData !== 'undefined') {
             },
             { 
                 title: "Burn Apple Kiwi", 
-                review: "Самый лучгий вкус бёрна, который я пробовал.", 
+                review: "Самый лучший вкус бёрна, который я пробовал.", 
                 img: "energydrink/Burn Apple Kiwi.webp"
+            },
+            { 
+                title: "Mojo м'ята-лайм", 
+                review: "Хоть это и не энергетик, но зато это вкусная химозная херня.", 
+                img: "energydrink/Mojo м'ята-лайм.png"
+            },
+            { 
+                title: "«Моршинська» сильногазована", 
+                review: "Напиток Богов.", 
+                img: "energydrink/Моршинська.webp"
             },
         ],
         'A': [
