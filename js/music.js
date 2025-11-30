@@ -1,42 +1,49 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Проверяем, загрузились ли данные (musicData и musicStats должны быть объявлены в подключенном .js файле)
+    // 1. Проверяем, загрузились ли данные
     if (typeof musicData === 'undefined' || typeof musicStats === 'undefined') {
-        console.error("❌ Ошибка: Файл с данными (music-data.js или all-music-data.js) не загружен или поврежден.");
+        console.error("❌ Ошибка: Файл с данными не загружен.");
         return;
     }
     
-    console.log(`✅ Данные загружены. Источник содержит ${musicData.length} треков.`);
+    console.log(`✅ Данные загружены. Треков: ${musicData.length}`);
     initMusicStats();
 });
 
 function initMusicStats() {
-    // Получаем элементы (могут отсутствовать на некоторых страницах)
     const totalSongsEl = document.getElementById('totalSongs');
     const uniqueArtistsEl = document.getElementById('uniqueArtists');
     const topArtistEl = document.getElementById('topArtist');
     const playlistViewsEl = document.getElementById('playlistViews');
     const totalDurationEl = document.getElementById('totalDuration');
     
-    // Элементы, которые есть не везде (например, список песен есть только на главной)
     const songListEl = document.getElementById('songList'); 
     const chartCanvas = document.getElementById('artistsChart');
 
-    // --- 1. ЗАПОЛНЕНИЕ БАЗОВОЙ СТАТИСТИКИ ---
+    // --- 1. БАЗОВАЯ СТАТИСТИКА ---
     
-    // Всего треков
-    if (totalSongsEl) {
-        totalSongsEl.textContent = musicData.length;
-    }
+    if (totalSongsEl) totalSongsEl.textContent = musicData.length;
 
-    // Просмотры
+    // === ПРОСМОТРЫ (С ПОМЕТКОЙ) ===
     if (playlistViewsEl) {
         const views = musicStats.totalViews;
-        // Возвращаем логику "тысяч":
+        let viewText = '';
+
         if (views < 1000) {
-            playlistViewsEl.textContent = views + ' тыс.';
+            viewText = views + ' тыс.';
         } else {
-            playlistViewsEl.textContent = views.toLocaleString('ru-RU');
+            viewText = views.toLocaleString('ru-RU');
         }
+
+        // Добавляем пометку о неточных данных
+        // Делаем текст очень тонким, мелким и полупрозрачным
+        playlistViewsEl.innerHTML = `
+            <div style="display: flex; flex-direction: column; align-items: center; line-height: 1.1;">
+                <span>${viewText}</span>
+                <span style="color: rgba(156, 163, 175, 0.4); font-size: 11px; font-weight: 400; margin-top: 4px; letter-spacing: 0.02em;">
+                    (возможно неточное отображение просмотров)
+                </span>
+            </div>
+        `;
     }
 
     // Длительность
@@ -48,76 +55,73 @@ function initMusicStats() {
 
     // --- 2. АНАЛИЗ АРТИСТОВ ---
     const artistCounts = {};
+
+    // ПРОВЕРКА: Есть ли в списке разные плейлисты?
+    // Если все треки из одного плейлиста (например "Main"), size будет 1 -> false
+    // Если есть "Main", "Japan" и т.д., size > 1 -> true
+    const uniquePlaylists = new Set(musicData.map(s => s.playlist));
+    const showBadges = uniquePlaylists.size > 1;
     
     musicData.forEach(song => {
-        // Разбиваем фиты (feat., &, x) для более точного подсчета
         const rawArtists = song.artist.split(/,|&| x | feat\. | ft\. /i);
-        
         rawArtists.forEach(a => {
             let artistName = a.trim();
             if (!artistName) return;
             artistCounts[artistName] = (artistCounts[artistName] || 0) + 1;
         });
 
-        // --- ЗАПОЛНЕНИЕ СПИСКА ПЕСЕН (ТОЛЬКО ЕСЛИ ЕСТЬ БЛОК songList) ---
-        // Это сработает только на странице music.html, на all_music.html этот блок пропустится
+        // Список песен
         if (songListEl) {
             const li = document.createElement('li');
             li.style.padding = "0.5rem";
             li.style.borderBottom = "1px solid #374151";
             li.style.color = "#9ca3af";
             
-            // --- ЛОГИКА ЦВЕТОВ ДЛЯ ПЛЕЙЛИСТОВ ---
-            let badgeColor = '#9ca3af'; // Стандартный серый
-            
-            // Назначаем цвета в зависимости от названия плейлиста
-            if (song.playlist === 'Main') badgeColor = '#ef4444';       // Красный
-            else if (song.playlist === 'Japan') badgeColor = '#f472b6'; // Розовый (Сакура)
-            else if (song.playlist === 'Chill') badgeColor = '#3b82f6'; // Синий (Океан)
-            else if (song.playlist === 'Dead inside') badgeColor = '#a78bfa'; // Фиолетовый
-            
-            // Формируем значок плейлиста с нужным цветом
-            const plBadge = song.playlist ? `<span style="font-size:0.75em; font-weight:bold; opacity:0.9; margin-left:10px; color: ${badgeColor};">[${song.playlist}]</span>` : '';
+            // Формируем бейджик ТОЛЬКО если у нас сборная солянка (showBadges === true)
+            let plBadge = '';
+
+            if (showBadges && song.playlist) {
+                let badgeColor = '#9ca3af'; 
+                if (song.playlist === 'Main') badgeColor = '#ef4444';
+                else if (song.playlist === 'Japan') badgeColor = '#f472b6';
+                else if (song.playlist === 'Chill') badgeColor = '#3b82f6';
+                else if (song.playlist === 'Dead inside') badgeColor = '#a78bfa';
+
+                // СТИЛЬ: Более незаметный (без скобок, тонкий шрифт, прозрачность)
+                plBadge = `<span style="font-size:0.7em; font-weight:normal; opacity:0.6; margin-left:8px; color: ${badgeColor}; letter-spacing: 0.03em;">${song.playlist}</span>`;
+            }
             
             li.innerHTML = `<strong style="color: #f3f4f6">${song.artist}</strong> - ${song.title} ${plBadge}`;
             songListEl.appendChild(li);
         }
     });
 
-    // Уникальные артисты
-    if (uniqueArtistsEl) {
-        uniqueArtistsEl.textContent = Object.keys(artistCounts).length;
-    }
+    if (uniqueArtistsEl) uniqueArtistsEl.textContent = Object.keys(artistCounts).length;
 
     // --- 3. ТОП АРТИСТ ---
     const sortedArtists = Object.entries(artistCounts)
         .sort((a, b) => b[1] - a[1])
-        .slice(0, 20); // Берем топ-20 для графика
+        .slice(0, 20);
 
     if (topArtistEl && sortedArtists.length > 0) {
-        const name = sortedArtists[0][0];
-        const count = sortedArtists[0][1];
         topArtistEl.innerHTML = `
-            <span>${name}</span>
+            <span>${sortedArtists[0][0]}</span>
             <span style="font-size: 1.3rem; margin-top: 5px; display:block; color: #9ca3af;">
-                (${count} треков)
+                (${sortedArtists[0][1]} треков)
             </span>
         `;
     }
 
-    // --- 4. ГРАФИК (ТОЛЬКО ЕСЛИ ЕСТЬ CANVAS) ---
+    // --- 4. ГРАФИК ---
     if (chartCanvas && sortedArtists.length > 0) {
         const ctx = chartCanvas.getContext('2d');
-        const labels = sortedArtists.map(item => item[0]);
-        const data = sortedArtists.map(item => item[1]);
-
         new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: labels,
+                labels: sortedArtists.map(i => i[0]),
                 datasets: [{
                     label: 'Треков',
-                    data: data,
+                    data: sortedArtists.map(i => i[1]),
                     backgroundColor: '#6366f1',
                     borderRadius: 4,
                     hoverBackgroundColor: '#818cf8'
@@ -126,30 +130,11 @@ function initMusicStats() {
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
-                indexAxis: 'y', // Горизонтальный бар (имена слева)
-                plugins: {
-                    legend: { display: false },
-                    tooltip: {
-                        backgroundColor: '#1f2937',
-                        titleColor: '#fff',
-                        bodyColor: '#cbd5e1',
-                        borderColor: '#374151',
-                        borderWidth: 1
-                    }
-                },
+                indexAxis: 'y',
+                plugins: { legend: { display: false } },
                 scales: {
-                    x: {
-                        grid: { color: '#374151' },
-                        ticks: { color: '#9ca3af' }
-                    },
-                    y: {
-                        grid: { display: false },
-                        ticks: { 
-                            color: '#f3f4f6', 
-                            font: { size: 12 },
-                            autoSkip: false // Показываем всех артистов, не пропуская имена
-                        }
-                    }
+                    x: { grid: { color: '#374151' }, ticks: { color: '#9ca3af' } },
+                    y: { grid: { display: false }, ticks: { color: '#f3f4f6', font: { size: 12 }, autoSkip: false } }
                 }
             }
         });
