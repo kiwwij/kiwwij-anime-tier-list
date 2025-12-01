@@ -68,7 +68,7 @@ stats_obj = {
     "totalDurationSec": total_duration_seconds
 }
 
-js_content = f"""
+js_content = f"""// Этот файл сгенерирован автоматически скриптом update_music.py
 const musicData = {json.dumps(all_tracks, ensure_ascii=False, indent=4)};
 const musicStats = {json.dumps(stats_obj, ensure_ascii=False, indent=4)};
 """

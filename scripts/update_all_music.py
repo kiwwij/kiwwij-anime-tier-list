@@ -83,9 +83,9 @@ def main():
         "lastUpdated": "Auto-generated"
     }
 
-    # ВАЖНО: Мы сохраняем переменные с теми же именами (musicData, musicStats),
-    # потому что они загружаются на РАЗНЫХ html страницах.
-    js_content = f"""// AUTO-GENERATED (ALL PLAYLISTS)
+    # Мы сохраняем переменные с теми же именами (musicData, musicStats),
+    # т.к. они загружаются на РАЗНЫХ html страницах.
+    js_content = f"""// Этот файл сгенерирован автоматически скриптом update_all_music.py
 const musicData = {json.dumps(all_tracks, ensure_ascii=False, indent=4)};
 const musicStats = {json.dumps(stats_obj, ensure_ascii=False, indent=4)};
 """

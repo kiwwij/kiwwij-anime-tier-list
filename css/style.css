@@ -590,77 +590,6 @@ dialog::backdrop {
     grid-column: 1 / -1; 
 }
 
-/* --- БЛОК ПЛЕЙЛИСТОВ --- */
-.playlist-links {
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
-    margin-top: 0;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-bottom: 24px;
-}
-
-.btn-playlist {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.8rem;
-    padding: 1rem 2rem;
-    
-    background-color: rgba(31, 41, 55, 0.6);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    
-    color: var(--text-main);
-    font-weight: 700;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    text-decoration: none;
-    
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    flex-grow: 1;
-    max-width: 350px;
-    position: relative;
-    overflow: hidden;
-}
-
-/* Эффект блика при наведении */
-.btn-playlist::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
-    transition: 0.5s;
-}
-
-.btn-playlist:hover::before {
-    left: 100%;
-}
-
-.btn-playlist:hover {
-    transform: translateY(-4px);
-    color: white;
-    border-color: transparent;
-}
-
-/* СТИЛЬ ДЛЯ ОСНОВНОГО ПЛЕЙЛИСТА (Красный/Оранжевый градиент YouTube) */
-.btn-yt:hover {
-    background: linear-gradient(135deg, #ef4444 0%, #b91c1c 100%);
-    box-shadow: 0 10px 20px -5px rgba(239, 68, 68, 0.4);
-}
-
-/* СТИЛЬ ДЛЯ JAPAN VIBE (Розовый/Сакура градиент) */
-.btn-japan:hover {
-    background: linear-gradient(135deg, #f472b6 0%, #db2777 100%);
-    box-shadow: 0 10px 20px -5px rgba(244, 114, 182, 0.4);
-}
-
 .btn-link:hover {
     background-color: var(--accent);
     color: white;
@@ -1069,4 +998,232 @@ dialog::backdrop {
     background: transparent; 
     padding: 0; 
     margin-bottom: 3rem;
+}
+
+/* 11. СТИМ */
+.btn-steam {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #171a21;
+    border-color: #171a21;
+}
+.btn-steam:hover {
+    background-color: #0e0f12;
+    border-color: #66c0f4;
+}
+/* Стиль для картинки логотипа */
+.btn-steam img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+/* --- Стили, специфичные для Steam страницы --- */
+/* Шапка профиля */
+.steam-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    /* Темно-синий градиент в стиле Steam */
+    background: linear-gradient(135deg, #171a21 0%, #1b2838 100%);
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    border: 1px solid rgba(102, 192, 244, 0.2);
+    margin-bottom: 2.5rem;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+/* Рамка аватара */
+.avatar-frame {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(180deg, #66c0f4 0%, rgba(27, 40, 56, 0) 100%);
+    z-index: 2;
+}
+
+.avatar-frame img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #171a21;
+    background-color: #171a21;
+}
+
+/* Информация профиля */
+.profile-info {
+    z-index: 2;
+    flex-grow: 1;
+}
+
+.profile-info h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    line-height: 1;
+}
+
+.profile-link {
+    color: #66c0f4;
+    font-size: 0.9rem;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.profile-link:hover { opacity: 1; text-decoration: underline; }
+
+/* Статус (Online/Offline/In-Game) */
+.status-badge {
+    display: inline-block;
+    margin-top: 0.8rem;    
+    padding: 0.4rem 1rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    background-color: #374151;
+    color: #9ca3af;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.status-online { background-color: rgba(16, 185, 129, 0.15);
+    color: #34d399; 
+    border: 1px solid rgba(16, 185, 129, 0.2); }
+        
+.status-game { background-color: rgba(199, 213, 224, 0.15); 
+    color: #fff; border: 1px solid rgba(199, 213, 224, 0.3); 
+    animation: pulse 2s infinite; }
+        
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(102, 192, 244, 0.4); }
+    70% { box-shadow: 0 0 0 10px rgba(102, 192, 244, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(102, 192, 244, 0); }
+}
+
+/* Сетка игр */
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/* Карточка игры */
+.game-card {
+    background-color: #1f2937;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    border-color: #66c0f4;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.game-cover {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    background-color: #111;
+}
+
+.game-info {
+    padding: 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+        .game-title {
+    font-weight: 700;
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+}
+
+.game-hours {
+    color: #9ca3af;
+        font-size: 0.85rem;
+}
+
+.game-price {
+    margin-top: auto;
+    align-self: flex-start;
+    background-color: rgba(0,0,0,0.3);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: #cbd5e1;
+}
+
+/* Блок общей статистики (вместо вишлиста) */
+.total-stats-card {
+    background-color: #1f2937;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    margin-top: 2rem;
+    margin-top: 0;
+}
+        
+.total-stats-grid {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: -1rem;
+}
+        
+.total-stat-item span {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #fff;
+}
+        
+.total-stat-item p {
+    color: #9ca3af;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Адаптив для мобильных */
+@media (max-width: 600px) {
+    .steam-header {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+.games-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+.game-title { font-size: 0.9rem; }
+            
+.total-stats-grid {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
 }
