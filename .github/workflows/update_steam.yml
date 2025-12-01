@@ -1,4 +1,4 @@
-name: Update Steam (Hourly)
+name: Update Steam Data
 
 on:
   schedule:
@@ -38,5 +38,5 @@ jobs:
           git add data/steam-profile-data.js
           
           # Если изменений нет (например, не играл), не падаем
-          git commit -m "Hourly Steam update" || exit 0
+          git commit -m "Auto-update Steam profile info" || exit 0
           git push
