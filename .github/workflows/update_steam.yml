@@ -1,0 +1,42 @@
+name: Update Steam (Hourly)
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Запуск каждый час (в 0 минут)
+  workflow_dispatch: # Кнопка ручного запуска
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/requirements.txt
+
+      - name: Run Steam script
+        env:
+          # Передаем секреты из настроек репозитория
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+          STEAM_ID: ${{ secrets.STEAM_ID }}
+        run: python scripts/update_steam_profile.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          
+          # Добавляем только файл стима
+          git add data/steam-profile-data.js
+          
+          # Если изменений нет (например, не играл), не падаем
+          git commit -m "Hourly Steam update" || exit 0
+          git push
