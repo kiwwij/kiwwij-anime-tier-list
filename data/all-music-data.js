@@ -1,4 +1,4 @@
-// AUTO-GENERATED (ALL PLAYLISTS)
+// Этот файл сгенерирован автоматически скриптом update_all_music.py
 const musicData = [
     {
         "title": "гладиатор/рыцарь",
@@ -521,12 +521,6 @@ const musicData = [
         "artist": "тянка",
         "playlist": "Main",
         "duration": "2:34"
-    },
-    {
-        "title": "Sodikken - Misery Meat",
-        "artist": "S T A R G A Z E",
-        "playlist": "Main",
-        "duration": "1:05"
     },
     {
         "title": "дайте выпилиться тут",
@@ -1802,7 +1796,7 @@ const musicData = [
     },
     {
         "title": "NLO – Танцы | Ты такая классная, крутишься в пространстве (Текст песни, премьера трека 2023)",
-        "artist": "mwl music",
+        "artist": "mwl media",
         "playlist": "Dead inside",
         "duration": "3:00"
     },
@@ -5809,6 +5803,18 @@ const musicData = [
         "duration": "2:26"
     },
     {
+        "title": "Sodikken - Misery Meat",
+        "artist": "S T A R G A Z E",
+        "playlist": "Dead inside",
+        "duration": "1:05"
+    },
+    {
+        "title": "Вороны",
+        "artist": "Нервы",
+        "playlist": "Dead inside",
+        "duration": "4:01"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -5931,6 +5937,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 352,
-    "totalDurationSec": 159478,
+    "totalDurationSec": 159719,
     "lastUpdated": "Auto-generated"
 };

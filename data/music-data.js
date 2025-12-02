@@ -1,4 +1,4 @@
-
+// Этот файл сгенерирован автоматически скриптом update_music.py
 const musicData = [
     {
         "title": "гладиатор/рыцарь",
@@ -436,11 +436,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Sodikken - Misery Meat",
-        "artist": "S T A R G A Z E",
-        "playlist": "Main"
-    },
-    {
         "title": "дайте выпилиться тут",
         "artist": "лиззз",
         "playlist": "Main"
@@ -458,5 +453,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 12,
-    "totalDurationSec": 12446
+    "totalDurationSec": 12381
 };
