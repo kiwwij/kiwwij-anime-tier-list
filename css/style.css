@@ -1318,3 +1318,24 @@ dialog::backdrop {
     opacity: 0.7;
 }
 .holiday-toast-close:hover { opacity: 1; }
+
+.status {
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 4px;
+
+    /* Меняется только цвет */
+    color: var(--status-color);
+    background-color: color-mix(in srgb, var(--status-color) 12%, transparent);
+}

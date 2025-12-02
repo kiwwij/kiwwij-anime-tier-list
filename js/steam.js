@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Проверка наличия данных
     if (typeof steamData === 'undefined') {
         console.error("❌ Ошибка: Файл data/steam-profile-data.js не найден.");
         document.getElementById('steamNick').textContent = "Ошибка данных";
@@ -23,22 +24,16 @@ function renderProfile() {
     nickEl.textContent = p.nickname;
     linkEl.href = p.profileUrl;
 
-    // --- ЛОГИКА СТАТУСОВ ---
-    // Если есть информация об игре, пишем просто "In-Game" без названия
-    if (p.game_extrainfo) {
-        statusEl.textContent = "In-Game"; 
-        statusEl.className = 'status-badge status-online'; // Зеленый цвет
-    } 
-    // Иначе показываем обычный статус (Online, Offline...)
-    else {
-        statusEl.textContent = p.status; 
-        
-        if (p.status === 'Online') {
-            statusEl.className = 'status-badge status-online';
-        } else {
-            statusEl.className = 'status-badge'; 
-        }
+    // --- СТАТУС ---
+    statusEl.textContent = p.status;
+
+    // Единый стиль + цвет от Python
+    statusEl.className = 'status-badge';
+
+    if (p.statusColor) {
+        statusEl.style.setProperty('--status-color', p.statusColor);
     }
+
 }
 
 function renderGames() {
@@ -87,7 +82,7 @@ function createGameCard(game, type) {
         <div class="game-info">
             <div class="game-title">${game.name}</div>
             <div class="game-hours">${metaText}</div>
-        </div>
+        </div = 'status-badge';v>
     `;
 
     return a;

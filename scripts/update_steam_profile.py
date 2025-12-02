@@ -4,8 +4,8 @@ import requests
 
 # --- НАСТРОЙКИ ---
 # Для GitHub Actions используем os.environ.get
-STEAM_API_KEY = os.environ.get('STEAM_API_KEY',)
-STEAM_ID = os.environ.get('STEAM_ID',)
+STEAM_API_KEY = os.environ.get('STEAM_API_KEY', '845A1E57F37366F8C00B596458377DFF')
+STEAM_ID = os.environ.get('STEAM_ID', '76561199023917285')
 
 # Имя файла, которое мы подключили в HTML
 OUTPUT_FILENAME = 'steam-profile-data.js'
@@ -14,42 +14,56 @@ project_root = os.path.dirname(script_dir)
 output_path = os.path.join(project_root, 'data', OUTPUT_FILENAME)
 
 def get_profile_data():
-    """Получает аватар, ник, статус и текущую игру"""
+    """Получает аватар, ник, статус и цвет"""
     url = f"http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key={STEAM_API_KEY}&steamids={STEAM_ID}"
     try:
         r = requests.get(url)
         data = r.json()['response']['players'][0]
         
-        # Статусы на английском
+        # Текст статусов
         status_map = {
             0: 'Offline',
             1: 'Online',
             2: 'Busy',
             3: 'Away',
             4: 'Snooze',
+            5: 'In Game',
+        }
+
+        # Цвета статусов (любой будешь использовать одинаковым стилем)
+        status_colors = {
+            0: '#9E9E9E',
+            1: '#4CAF50',
+            2: '#F44336',
+            3: '#FFC107',
+            4: '#673AB7',
+            5: '#4CAF50',  
         }
         
-        # Базовый статус
-        status_text = status_map.get(data.get('personastate', 0), 'Offline')
-        
-        # Проверяем, запущена ли игра
-        game_name = data.get('game_extrainfo')
-        
-        # --- ОТЛАДКА (Покажет в консоли, что видит скрипт) ---
-        print(f"🔍 DEBUG: Статус ID: {data.get('personastate')}")
-        print(f"🔍 DEBUG: Игра (game_extrainfo): {game_name}")
-        # -----------------------------------------------------
+        personastate = data.get('personastate', 0)
 
-        if game_name:
-            # Если игра запущена, ставим фиксированный статус "In Game"
-            status_text = "In Game"
+        # Проверка "просто в игре" без названия игры
+        is_in_game = bool(data.get('gameextrainfo') or data.get('game_extrainfo'))
+
+        if is_in_game:
+            current_state_id = 5
+        else:
+            current_state_id = 1 if personastate in [5, 6] else personastate
+
+        status_text = status_map.get(current_state_id, 'Offline')
+        status_color = status_colors.get(current_state_id, '#9E9E9E')
+
+        # DEBUG
+        print(f"🔍 DEBUG: Steam State: {personastate}")
+        print(f"🔍 DEBUG: In Game: {is_in_game}")
+        print(f"🔍 DEBUG: Final Status: {status_text} (Color: {status_color})")
 
         return {
             "nickname": data.get('personaname'),
-            "avatar": data.get('avatarfull'), 
+            "avatar": data.get('avatarfull'),
             "profileUrl": data.get('profileurl'),
-            "status": status_text,
-            "game_extrainfo": game_name 
+            "status": status_text,      # Только текст
+            "statusColor": status_color # Только цвет
         }
     except Exception as e:
         print(f"❌ Ошибка получения профиля: {e}")
@@ -125,7 +139,7 @@ def main():
         "top_games": all_games[:20]
     }
 
-    js_content = f"""// Этот файл сгенерирован автоматически скриптом update_steam_profile.py
+    js_content = f"""// AUTO-GENERATED STEAM DATA
 const steamData = {json.dumps(steam_data, ensure_ascii=False, indent=4)};
 """
     
@@ -135,8 +149,8 @@ const steamData = {json.dumps(steam_data, ensure_ascii=False, indent=4)};
         
     print(f"✅ УСПЕХ! Данные сохранены в {OUTPUT_FILENAME}")
     print(f"   👤 Ник: {profile['nickname']}")
-    # Выводим финальный статус, который записался в файл
-    print(f"   ℹ️  Финальный статус: {profile['status']}")
+    print(f"   ℹ️  Статус: {profile['status']}")
+    print(f"   🎨 Цвет: {profile['statusColor']}")
 
 if __name__ == "__main__":
     main()

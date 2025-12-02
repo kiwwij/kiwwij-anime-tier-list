@@ -131,6 +131,11 @@ if (typeof tierListData !== 'undefined') {
                 review: "Вот уже реально вкус лайма.", 
                 img: "energydrink/Non Stop Stalker Green.webp"
             },
+            { 
+                title: "Monster Energy Mega Lo-Carb", 
+                review: "Этот энергети мне подарил одногрупник на День Рождения, и скажем так, бессплатно всегда вкусно. Но если по факту, запах очень странный, а вкус самый дефолтный. Какой у глюкозу вкус? Вску сахара?", 
+                img: "energydrink/Monster Energy Mega Lo-Carb.png"
+            },
         ],
         'D': [
             { 
