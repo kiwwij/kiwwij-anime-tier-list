@@ -4,13 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function checkHolidays() {
     const today = new Date();
-    const month = today.getMonth() + 1; // Месяцы от 0 до 11
+    const month = today.getMonth() + 1; 
     const day = today.getDate();
 
     // --- НАСТРОЙКИ ДАТ ---
-    // День рождения: 2 декабря
+    // День рождения: 02.12
     const myBirthday = { month: 12, day: 2 }; 
-    const birthYear = 2006; // Год рождения
+    const birthYear = 2006; 
     
     // Новый год: с 24 декабря по 7 января
     const isNewYear = (month === 12 && day >= 24) || (month === 1 && day <= 7);
@@ -26,31 +26,36 @@ function checkHolidays() {
 
 function activateBirthdayMode(age) {
     console.log(`🎉 С Днём Рождения! Исполнилось ${age} лет.`);
+    
+    // Эффекты (работают на всех страницах)
     createParticles('confetti', true); 
     addHat('🥳', true); 
+    
+    // Уведомление (только на главной)
     showToast("🎉 С Днём Рождения меня!", `Сегодня мне исполнилось ${age} лет!`);
 }
 
 function activateNewYearMode(month, day) {
     console.log("🎄 С Новым Годом!");
-    createParticles('snow', false); // Снег
-    addHat('🎅', false); // Шапка
     
-    // ЛОГИКА СООБЩЕНИЙ
+    // Эффекты (работают на всех страницах)
+    createParticles('snow', false); 
+    addHat('🎅', false); 
+    
+    // Уведомление (только на главной)
     if (month === 1 && day === 1) {
-        showToast("🎄 С Новым Годом!", "Пусть этот год принесет новые победы и аниме!");
+        showToast("🎄 С Новым Годом!", "Пусть этот год принесет новые победы!");
     } else {
         if (month === 12) {
              showToast("🎄 С наступающим Новым Годом!", "Праздничное настроение активировано.");
         } else {
-             showToast("🎄 С Новым Годом!", "Желаю всем отличного нового гоад!");
+             showToast("🎄 С Новым Годом!", "Желаю всего наилучшего в новом году!");
         }
     }
 }
 
 // --- ФУНКЦИЯ СОЗДАНИЯ ЧАСТИЦ ---
 function createParticles(type, autoRemove = true) {
-    // Удаляем старый контейнер
     const oldContainer = document.getElementById('holiday-container');
     if (oldContainer) oldContainer.remove();
 
@@ -60,13 +65,19 @@ function createParticles(type, autoRemove = true) {
     container.style.top = '0';
     container.style.left = '0';
     container.style.width = '100%';
-    container.style.height = '100%';
+    container.style.height = '100vh'; // На всю высоту экрана
     container.style.pointerEvents = 'none';
     container.style.zIndex = '9999';
     container.style.overflow = 'hidden';
+    container.style.opacity = '0'; // Для анимации появления
     container.style.transition = 'opacity 2s ease-out';
     
     document.body.appendChild(container);
+
+    // Анимация появления
+    requestAnimationFrame(() => {
+        container.style.opacity = '1';
+    });
 
     if (autoRemove) {
         setTimeout(() => {
@@ -119,6 +130,7 @@ function addHat(emoji, autoRemove = true) {
         const hat = document.createElement('div');
         hat.classList.add('holiday-hat');
         hat.textContent = emoji;
+        hat.style.opacity = '0'; // Для анимации
         hat.style.transition = 'opacity 2s ease-out';
         
         if (emoji === '🎅') {
@@ -127,6 +139,11 @@ function addHat(emoji, autoRemove = true) {
         }
         
         headerTitle.appendChild(hat);
+
+        // Анимация появления
+        requestAnimationFrame(() => {
+            hat.style.opacity = '1';
+        });
 
         if (autoRemove) {
             setTimeout(() => {
@@ -139,38 +156,54 @@ function addHat(emoji, autoRemove = true) {
 
 // --- ВСЛЫВАЮЩЕЕ СООБЩЕНИЕ ---
 function showToast(title, message) {
+    // ПРОВЕРКА: Показываем ТОЛЬКО на главной странице
+    // Ищем элемент, который есть только на главной (tierListContainer)
+    if (!document.getElementById('tierListContainer')) return;
+
     const oldToast = document.querySelector('.holiday-toast');
     if (oldToast) oldToast.remove();
 
     const toast = document.createElement('div');
     toast.className = 'holiday-toast';
     
-    toast.style.padding = '1rem 2rem';
+    // Стили окна (Адаптивные)
+    toast.style.padding = '1.5rem';
     toast.style.width = 'auto';          
-    toast.style.minWidth = '400px';      
-    toast.style.maxWidth = '90vw';       
+    toast.style.minWidth = '300px';      // Поменьше для мобилок
+    toast.style.maxWidth = '90vw';       // Чтобы не вылезало за экран
     toast.style.display = 'flex';        
-    toast.style.alignItems = 'center';
+    toast.style.alignItems = 'flex-start'; // Выравнивание по верху
     toast.style.justifyContent = 'space-between';
-    toast.style.gap = '20px';
-    toast.style.transition = 'opacity 1s ease-out, transform 1s ease-out';
+    toast.style.gap = '15px';
+    
+    // Анимация
+    toast.style.opacity = '0';
+    toast.style.transform = 'translateY(20px)';
+    toast.style.transition = 'opacity 0.5s ease-out, transform 0.5s ease-out';
     
     toast.innerHTML = `
-        <div style="display: flex; flex-direction: column; gap: 5px;">
-            <div style="font-weight:bold; font-size:1.2em;">${title}</div>
-            <div style="font-size:1.1em; opacity:0.9;">${message}</div>
+        <div style="display: flex; flex-direction: column; gap: 6px;">
+            <div style="font-weight:bold; font-size:1.2em; line-height: 1.2;">${title}</div>
+            <div style="font-size:1.05em; opacity:0.9; line-height: 1.4;">${message}</div>
         </div>
-        <div class="holiday-toast-close" onclick="this.parentElement.style.opacity='0'; setTimeout(()=>this.parentElement.remove(), 1000)" style="font-size: 1.5em; cursor: pointer;">✕</div>
+        <div class="holiday-toast-close" onclick="this.parentElement.style.opacity='0'; setTimeout(()=>this.parentElement.remove(), 500)" style="font-size: 1.5em; cursor: pointer; line-height: 1;">✕</div>
     `;
     document.body.appendChild(toast);
     
+    // Анимация появления
+    requestAnimationFrame(() => {
+        toast.style.opacity = '1';
+        toast.style.transform = 'translateY(0)';
+    });
+    
+    // Автоскрытие через 10 секунд
     setTimeout(() => {
         if (toast && document.body.contains(toast)) {
             toast.style.opacity = '0';
-            toast.style.transform = 'translateY(20px)'; 
+            toast.style.transform = 'translateY(20px)'; // Уезжает вниз
             setTimeout(() => {
                 if (document.body.contains(toast)) toast.remove();
-            }, 1000);
+            }, 500);
         }
     }, 10000);
 }
