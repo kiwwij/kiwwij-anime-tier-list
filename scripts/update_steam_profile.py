@@ -4,8 +4,8 @@ import requests
 
 # --- НАСТРОЙКИ ---
 # Для GitHub Actions используем os.environ.get
-STEAM_API_KEY = os.environ.get('STEAM_API_KEY', '845A1E57F37366F8C00B596458377DFF')
-STEAM_ID = os.environ.get('STEAM_ID', '76561199023917285')
+STEAM_API_KEY = os.environ.get('STEAM_API_KEY')
+STEAM_ID = os.environ.get('STEAM_ID')
 
 # Имя файла, которое мы подключили в HTML
 OUTPUT_FILENAME = 'steam-profile-data.js'
@@ -153,4 +153,5 @@ const steamData = {json.dumps(steam_data, ensure_ascii=False, indent=4)};
     print(f"   🎨 Цвет: {profile['statusColor']}")
 
 if __name__ == "__main__":
+
     main()
