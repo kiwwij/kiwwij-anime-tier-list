@@ -1339,3 +1339,355 @@ dialog::backdrop {
     color: var(--status-color);
     background-color: color-mix(in srgb, var(--status-color) 12%, transparent);
 }
+
+/* 12. СТИЛИ ДЛЯ СТРАНИЦЫ "ОБО МНЕ" */
+/* --- 1. ОСНОВНАЯ СЕТКА (LAYOUT) --- */
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Мобильная версия: 1 колонка */
+    gap: 2rem;
+}
+
+@media (min-width: 900px) {
+    .about-grid {
+        /* ПК версия: 2 колонки */
+        /* Слева - Steam, Справа - обертка right-column (Сетап + Инфа) */
+        grid-template-columns: 1fr 1fr; 
+    }
+}
+
+/* Обертка для правой колонки (Сетап + Инфа) */
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Отступ между блоком Сетапа и Инфой */
+}
+
+
+/* --- 2. ПРОФИЛЬ (ВЕРХНЯЯ ЧАСТЬ) --- */
+.profile-card {
+    grid-column: 1 / -1; /* Растягиваем на всю ширину */
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-avatar-large {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--accent);
+    margin-bottom: 1rem;
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+}
+
+.profile-bio {
+    max-width: 600px;
+    color: var(--text-muted);
+    margin: 1rem 0;
+}
+
+
+/* --- 3. TWITCH СЕКЦИЯ --- */
+.twitch-section {
+    grid-column: 1 / -1; /* Растягиваем на всю ширину */
+    background-color: #1f2937;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    border: 1px solid #9146ff;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Фоновый логотип Twitch (Отзеркален и в правом углу) */
+.twitch-section::before {
+    content: '';
+    position: absolute;
+    top: -30px;   
+    right: -30px; 
+    width: 180px;
+    height: 180px;
+    
+    background-image: url('https://static.twitchcdn.net/assets/favicon-32-e29e246c157142c94346.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.05;
+    
+    /* scaleX(-1) зеркалит, rotate наклоняет */
+    transform: scaleX(-1) rotate(15deg); 
+    pointer-events: none;
+}
+
+.twitch-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/* --- 4. STEAM & SETUP КАРТОЧКИ --- */
+.setup-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 1.5rem;
+    padding: 2rem;
+}
+
+/* Списки характеристик (для Сетапа и Инфы) */
+.setup-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.setup-list li:last-child {
+    border-bottom: none;
+}
+
+.setup-label {
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.setup-value {
+    color: #fff;
+    font-weight: 700;
+    text-align: right;
+}
+
+/* Стили для заголовков годов в Steam */
+.steam-year-section {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 1rem;
+}
+.steam-year-section:first-of-type {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.steam-year-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.steam-year-title {
+    color: #66c0f4;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.steam-year-link {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    text-decoration: none;
+    border-bottom: 1px dashed #94a3b8;
+    transition: all 0.2s;
+}
+.steam-year-link:hover { color: #fff; border-bottom-color: #fff; }
+
+
+/* --- 5. ГАЛЕРЕЯ (ОБЩИЕ СТИЛИ) --- */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.gallery-item {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.02);
+    border-color: var(--accent);
+    z-index: 2;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+}
+
+/* Компактная сетка специально для Steam */
+.steam-compact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Строго 3 колонки */
+    gap: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.steam-compact-grid .gallery-item {
+    height: 160px; /* Фиксированная небольшая высота */
+}
+
+/* Адаптив для маленьких экранов */
+@media (max-width: 500px) {
+    .steam-compact-grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}
+
+/* --- 6. МОДАЛЬНОЕ ОКНО (LIGHTBOX) --- */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+}
+
+.lightbox-content {
+    max-width: 95%;
+    max-height: 85vh;
+    border-radius: 4px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    object-fit: contain;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10001;
+    transition: color 0.2s;
+}
+.lightbox-close:hover { color: var(--accent); }
+
+.lightbox-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255,255,255,0.7);
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 20px;
+    user-select: none;
+    transition: color 0.3s, background 0.3s;
+    border-radius: 8px;
+}
+.lightbox-nav:hover { 
+    color: #fff; 
+    background: rgba(255,255,255,0.1);
+}
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.lightbox-caption {
+    margin-top: 15px;
+    color: #e5e7eb;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Ограничиваем блок Steam по высоте и включаем скролл */
+.setup-card.steam-card {
+    max-height: 1100px; /* примерно высота для 4-х лет */
+    overflow-y: auto;
+    padding-right: 10px; /* чтобы скролл не "резал" контент */
+
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 1.5rem;
+    padding: 2rem;
+
+}
+
+/* Общий стиль скролла для Webkit-браузеров (Chrome, Edge, Safari) */
+.setup-card.steam-card::-webkit-scrollbar {
+    width: 8px;             /* толщина вертикальной полосы */
+    height: 8px;            /* толщина горизонтальной полосы, если есть */
+}
+
+.setup-card.steam-card::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05); /* фон "дорожки" */
+    border-radius: 4px;                     /* скругление дорожки */
+}
+
+.setup-card.steam-card::-webkit-scrollbar-thumb {
+    background-color: var(--accent); /* цвет ползунка */
+    border-radius: 4px;
+    border: 2px solid rgba(0,0,0,0.1); /* отступы внутри дорожки */
+}
+
+.setup-card.steam-card::-webkit-scrollbar-thumb:hover {
+    background-color: var(--accent-dark); /* цвет при наведении */
+}
+
+/* Для Firefox */
+.setup-card.steam-card {
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent) rgba(255,255,255,0.05);
+}
+
+/* 13 СКРОЛЛ ТУТ ТОП */
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    background-color: rgba(255,255,255,0);
+    color: var(--accent);
+    border: 2px solid var(--accent);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 36px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.2s, color 0.2s, opacity 0.3s;
+    opacity: 0;           /* изначально скрыта */
+    pointer-events: none; /* чтобы нельзя было кликнуть */
+}
+
+#scrollTopBtn:hover {
+    background-color: var(--accent);
+    color: white;
+}
+
+/* Показываем кнопку только на мобилках и планшетах */
+@media (max-width: 1024px) {
+    #scrollTopBtn {
+        opacity: 0; /* начальное состояние */
+        pointer-events: none;
+    }
+
+    #scrollTopBtn.show {
+        opacity: 1;           /* JS добавляет этот класс после 200px */
+        pointer-events: auto; /* чтобы можно было кликнуть */
+    }
+}

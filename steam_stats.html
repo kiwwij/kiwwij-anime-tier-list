@@ -18,7 +18,7 @@
     <header>
         <h1>Игровая статистика</h1>
         <div class="controls">
-            <a href="index.html" class="btn btn-link">Назад к Тир-Листам</a>
+            <a href="index.html" class="btn btn-link">← На главную</a>
         </div>
     </header>
 
@@ -87,5 +87,22 @@
 
     <script src="js/steam.js"></script>
     <script src="js/holidays.js"></script>
+
+    <button id="scrollTopBtn" title="Наверх">↑</button>
 </body>
+    <script>
+        const btn = document.getElementById("scrollTopBtn");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                btn.classList.add("show");
+            } else {
+                btn.classList.remove("show");
+            }
+        });
+
+        btn.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
 </html>

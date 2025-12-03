@@ -153,5 +153,4 @@ const steamData = {json.dumps(steam_data, ensure_ascii=False, indent=4)};
     print(f"   🎨 Цвет: {profile['statusColor']}")
 
 if __name__ == "__main__":
-
     main()

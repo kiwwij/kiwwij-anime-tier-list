@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заметки</title>
+    <meta name="description" content="Личные заметки kiwwij.">
+
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/1e/28/50/1e28507cdc5bfc16e9b2c575501216b4.gif">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Заметки</h1>
+    <div class="controls">
+        <a href="aboutme.html" class="btn btn-link">Обо мне</a>
+        <a href="index.html" class="btn btn-link">← На главную</a>
+    </div>
+</header>
+
+<main class="stats-container" style="max-width: 900px;">
+
+    <!-- Запись 1 -->
+    <div class="setup-card" style="margin-bottom: 20px;">
+        <h2 style="border-left: 4px solid var(--accent); padding-left: 15px;">Запись #1</h2>
+
+        <p style="color: #94a3b8; font-size: 0.85rem; margin-bottom: 5px; margin-top: 15px;">
+            Дата: <span class="setup-value">03.12.2025</span>
+        </p>
+
+        <p style="color: #e2e8f0; line-height: 1.6;">
+            Во-первых, вчера у меня было ДР. Самое грустное чтоли, т.к. не было света и я не мог пообщаться с друзьями.<br><br>
+            Во-вторых, хочу ответить на вопрос (если конечно вы вообще нашли данную вкладку): "Почему главная страница это страница с тир-листами аниме, а не с инфой про меня?".
+            Потому что... потому что когда я только начинал делать сайт, я не думал что буду развивать его дальше чем просто тир-лист аниме.
+            А сейчас мне лень переделывать структуру файлов, так что оставил так.<br><br>
+            Что же я сюда буду записывать? Наверное всякие мысли, планы на будущее и т.д. Посмотрим как пойдёт. Возможно я
+            вообще заброшу эту страницу. Какой от неё толк если, во-первых, я никому не нужен и НИКТО не будет сюда заходить,
+            а во-вторых, у меня есть тгк, ну и в-третих, я сам вряд ли буду сюда часто заглядывать?<br><br>
+            Хотя может это и к лучшему? Сюда буду писать всякие мысли, которые я не смогу вот так просто рассказать?..<br><br>
+            Вот, например, я решил, что на это странице не будет конфети и снега на разные праздники. Чисто мои мысли и ничего лишнего.<br><br>
+            Если тут будет много записей, то надо будет их загружать через массив и делать прогрузку страницу. Ну это потом.
+            Как будто хочется написать что-то ещё, но ладно хватит. Пойду себе кушать погрею и скоро уже будет премия SLAY. Пойду смотреть. Всем пока!
+        </p>
+    </div>
+
+    <!-- Запись 2 -->
+    <div class="setup-card" style="margin-bottom: 20px;">
+        <h2 style="border-left: 4px solid var(--accent); padding-left: 15px;">Запись #2</h2>
+
+        <p style="color: #94a3b8; font-size: 0.85rem; margin-bottom: 5px; margin-top: 15px;">
+            Дата: <span class="setup-value">00.00.20xx</span>
+        </p>
+
+        <p style="color: #e2e8f0; line-height: 1.6;">
+            Автор пока ничего не написал.
+        </p>
+    </div>
+
+</main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <span class="footer-logo">kiwwij</span>
+                <p class="footer-copyright">© 2025. No Copyright.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://kiwwij.github.io/kiwwij-social-links/" target="_blank" aria-label="Social Media Links" class="social-link">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.71.82-1z"/>
+                        <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollTopBtn" title="Наверх">↑</button>
+</body>
+    <script>
+        const btn = document.getElementById("scrollTopBtn");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                btn.classList.add("show");
+            } else {
+                btn.classList.remove("show");
+            }
+        });
+
+        btn.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+</html>

@@ -77,5 +77,24 @@
 
     <script src="js/stats.js"></script>
     <script src="js/holidays.js"></script>
+
+    <button id="scrollTopBtn" title="Наверх">↑</button>
 </body>
+    <script>
+        const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+        // Появление кнопки после прокрутки вниз
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) { // после 200px прокрутки
+                scrollTopBtn.style.display = "block";
+            } else {
+                scrollTopBtn.style.display = "none";
+            }
+        });
+
+        // Скролл к верху при клике
+        scrollTopBtn.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
 </html>

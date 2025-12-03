@@ -83,5 +83,22 @@
 
     <script src="js/script.js"></script>
     <script src="js/holidays.js"></script>
+
+    <button id="scrollTopBtn" title="Наверх">↑</button>
 </body>
+    <script>
+        const btn = document.getElementById("scrollTopBtn");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                btn.classList.add("show");
+            } else {
+                btn.classList.remove("show");
+            }
+        });
+
+        btn.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
 </html>

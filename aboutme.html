@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне</title>
+    <meta name="description" content="Страница обо мне kiwwij. Мой сетап, итоги Twitch и Steam, сетап.">
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/98/9c/dd/989cdd572beea3f96451a16c92c60798.gif">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Обо мне</h1>
+        <div class="controls">
+            <a href="notes.html" class="btn btn-link">Заметки</a>
+            <a href="index.html" class="btn btn-link">← На главную</a>
+        </div>
+    </header>
+
+    <main class="stats-container about-grid">
+        
+        <!-- 1. ПРОФИЛЬ -->
+        <div class="profile-card">
+            <img src="https://via.placeholder.com/150" alt="Avatar" class="profile-avatar-large" id="aboutAvatar">
+            <h2 style="font-size: 2rem; margin-bottom: 0.5rem;">kiwwij</h2>
+            <p class="profile-bio">
+                Люблю поиграть в 
+                <a href="steam_stats.html" target="_blank" style="text-decoration: underline;">игры</a>, 
+                послушать 
+                <a href="all_music.html" target="_blank" style="text-decoration: underline;">музыку</a>, 
+                посмотреть 
+                <a href="index.html" target="_blank" style="text-decoration: underline;">аниме</a> 
+                и почитать мангу / ранобэ. Учусь на программиста, делаю разные 
+                <a href="https://github.com/kiwwij" target="_blank" style="text-decoration: underline;">сайтики</a> 
+                для себя.<br>
+                Мечта – встретиться с моим лучшим другом и вместе посетить Японию!
+                <br>
+                <span id="infoAge" style="color: var(--accent); font-weight: bold;"></span>
+            </p>
+        </div>
+
+        <!-- 2. TWITCH RECAP (2023-20xx) -->
+        <div class="twitch-section">
+            <h2 style="color: #9146ff; margin-bottom: 1rem; border-left: 4px solid #9146ff; padding-left: 15px;">
+                Twitch Recap
+            </h2>
+            <p style="color: #cbd5e1; font-size: 0.9rem;">Мои итоги года на Твиче.</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" onclick="openLightbox(0, 'twitch')">
+                    <img src="img/about me/twitch23.png" alt="Twitch 2023">
+                    <p style="text-align: center; color: #a5b4fc; padding: 5px; font-size: 0.9rem;">2023</p>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(1, 'twitch')">
+                    <img src="img/about me/twitch24.png" alt="Twitch 2024">
+                    <p style="text-align: center; color: #a5b4fc; padding: 5px; font-size: 0.9rem;">2024</p>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(2, 'twitch')">
+                    <img src="img/about me/twitch25.png" alt="Twitch 2025">
+                    <p style="text-align: center; color: #a5b4fc; padding: 5px; font-size: 0.9rem;">2025</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. STEAM RECAP (2022-20xx) -->
+        <div class="setup-card steam-card" style="border-color: #66c0f4;">
+            <h2 style="color: #66c0f4; border-left: 4px solid #66c0f4; padding-left: 15px; margin-bottom: 0.5rem;">
+                Steam Итоги
+            </h2>
+            <p style="color: #cbd5e1; font-size: 0.9rem; margin-bottom: 1.5rem;">Моя статистика:</p>
+
+            <!-- 2025 -->
+            <div class="steam-year-section">
+                <div class="steam-year-header">
+                    <span class="steam-year-title">2025</span>
+                    <a href="https://store.steampowered.com/replay/76561199023917285/2025" target="_blank" class="steam-year-link">Итоги 2025 ↗</a>
+                </div>
+                <div class="steam-compact-grid">
+                    <div class="gallery-item" onclick="openLightbox(9, 'steam')">
+                        <img src="img/about me/steam25.1.png" alt="Steam 2025 - 1">
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(10, 'steam')">
+                        <img src="img/about me/steam25.2.png" alt="Steam 2025 - 2">
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(11, 'steam')">
+                        <img src="img/about me/steam25.3.png" alt="Steam 2025 - 3">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2024 -->
+            <div class="steam-year-section">
+                <div class="steam-year-header">
+                    <span class="steam-year-title">2024</span>
+                    <a href="https://store.steampowered.com/replay/76561199023917285/2024" target="_blank" class="steam-year-link">Итоги 2024 ↗</a>
+                </div>
+                <div class="steam-compact-grid">
+                    <div class="gallery-item" onclick="openLightbox(6, 'steam')">
+                        <img src="img/about me/steam24.1.png" alt="Steam 2024 - 1">
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(7, 'steam')">
+                        <img src="img/about me/steam24.2.png" alt="Steam 2024 - 2">
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(8, 'steam')">
+                        <img src="img/about me/steam24.3.png" alt="Steam 2024 - 3">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2023 -->
+            <div class="steam-year-section">
+                <div class="steam-year-header">
+                    <span class="steam-year-title">2023</span>
+                    <a href="https://store.steampowered.com/replay/76561199023917285/2023" target="_blank" class="steam-year-link">Итоги 2023 ↗</a>
+                </div>
+                <div class="steam-compact-grid">
+                    <div class="gallery-item" onclick="openLightbox(3, 'steam')">
+                        <img src="img/about me/steam23.1.png" alt="Steam 2023 - 1">
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(4, 'steam')">
+                        <img src="img/about me/steam23.2.png" alt="Steam 2023 - 2">
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(5, 'steam')">
+                        <img src="img/about me/steam23.3.png" alt="Steam 2023 - 3">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2022 -->
+            <div class="steam-year-section" style="border-top: none; padding-top: 0; margin-top: 0;">
+                <div class="steam-year-header">
+                    <span class="steam-year-title">2022</span>
+                    <a href="https://store.steampowered.com/yearinreview/2022" target="_blank" class="steam-year-link">Итоги 2022 ↗</a>
+                </div>
+                <div class="steam-compact-grid">
+                    <div class="gallery-item" onclick="openLightbox(0, 'steam')">
+                        <img src="img/about me/steam22.1.png" alt="Steam 2022 - 1">
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(1, 'steam')">
+                        <img src="img/about me/steam22.2.png" alt="Steam 2022 - 2">
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(2, 'steam')">
+                        <img src="img/about me/steam22.3.png" alt="Steam 2022 - 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. СЕТАП И ИНФА ПРО МЕНЯ -->
+        <div class="right-column">
+            <div class="setup-card">
+                <h2 style="margin-bottom: 1.5rem; border-left: 4px solid #10b981; padding-left: 15px; margin-bottom: 8px;">Мой Сетап 💻</h2>
+                <p style="color: #cbd5e1; font-size: 0.9rem; margin-bottom: 1.5rem;">Ноутбук: Katana GF66 11UE</p>
+                <ul class="setup-list">
+                    <li><span class="setup-label">CPU</span> <span class="setup-value">Intel Core i7-11800H</span></li>
+                    <li><span class="setup-label">GPU</span> <span class="setup-value">RTX 3060 Laptop</span></li>
+                    <li><span class="setup-label">RAM</span> <span class="setup-value">16 GB DDR4</span></li>
+                    <li><span class="setup-label">Monitor</span> <span class="setup-value">144Hz</span></li>
+                    <li><span class="setup-label">Mouse</span> <span class="setup-value">Razer Basilisk V3</span></li>
+                    <li><span class="setup-label">Keyboard</span> <span class="setup-value">HATOR Icefall Mecha</span></li>
+                    <li><span class="setup-label">Headset</span> <span class="setup-value">Razer Blackshark V2 X</span></li>
+                </ul>
+            </div>
+
+            <div class="setup-card" style="border-color: #f43f5e;">
+                <h2 style="margin-bottom: 1.5rem; border-left: 4px solid #b23ff4; padding-left: 15px; margin-bottom: 8px;">
+                    Инфа про меня 👤
+                </h2>
+
+                <p style="color: #cbd5e1; font-size: 0.9rem; margin-bottom: 0; margin-top: 20px;">
+                    Личные параметры:
+                </p>
+                <ul class="setup-list">
+                    <li><span class="setup-label">Возраст</span> <span class="setup-value" id="infoAgeCard"></span></li>
+                    <li><span class="setup-label">Рост</span> <span class="setup-value">~180 см</span></li>
+                    <li><span class="setup-label">Вес</span> <span class="setup-value">~60 кг</span></li>
+                </ul>
+
+                <p style="color: #cbd5e1; font-size: 0.9rem; margin-bottom: 0; margin-top: 20px;">
+                    Базовая инфа:
+                </p>
+                <ul class="setup-list">
+                    <li><span class="setup-label">Страна</span> <span class="setup-value">Украина 🇺🇦</span></span></li>
+                    <li><span class="setup-label">Часовой пояс</span> <span class="setup-value">GMT+2</span></li>
+                    <li><span class="setup-label">Знак зодиака</span> <span class="setup-value">Стрелец ♐</span></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- МОДАЛЬНОЕ ОКНО -->
+    <div id="lightbox" class="lightbox" onclick="if(event.target === this) closeLightbox()">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+        <a class="lightbox-nav prev" onclick="changeImage(-1)">&#10094;</a>
+        <a class="lightbox-nav next" onclick="changeImage(1)">&#10095;</a>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <span class="footer-logo">kiwwij</span>
+                <p class="footer-copyright">© 2025. No Copyright.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://kiwwij.github.io/kiwwij-social-links/" target="_blank" aria-label="Social Media Links" class="social-link">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.71.82-1z"/>
+                        <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data/steam-profile-data.js"></script>
+
+    <script src="js/aboutme.js"></script>
+    <script src="js/holidays.js"></script>
+
+    <button id="scrollTopBtn" title="Наверх">↑</button>
+</body>
+    <script>
+        const btn = document.getElementById("scrollTopBtn");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                btn.classList.add("show");
+            } else {
+                btn.classList.remove("show");
+            }
+        });
+
+        btn.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+</html>
