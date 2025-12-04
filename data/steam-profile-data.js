@@ -36,6 +36,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/431960"
         },
         {
+            "appid": 1421250,
+            "name": "Tiny Bunny",
+            "playtime_2weeks": 0.2,
+            "hours": 19.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1421250/header.jpg",
+            "url": "https://store.steampowered.com/app/1421250"
+        },
+        {
             "appid": 920490,
             "name": "Driver Booster for Steam",
             "playtime_2weeks": 0.2,
