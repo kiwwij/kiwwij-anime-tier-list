@@ -1,4 +1,4 @@
-// AUTO-GENERATED (ALL PLAYLISTS)
+// Этот файл сгенерирован автоматически скриптом update_all_music.py
 const musicData = [
     {
         "title": "гладиатор/рыцарь",
@@ -523,12 +523,6 @@ const musicData = [
         "duration": "2:34"
     },
     {
-        "title": "Sodikken - Misery Meat",
-        "artist": "S T A R G A Z E",
-        "playlist": "Main",
-        "duration": "1:05"
-    },
-    {
         "title": "дайте выпилиться тут",
         "artist": "лиззз",
         "playlist": "Main",
@@ -547,22 +541,22 @@ const musicData = [
         "duration": "2:19"
     },
     {
-        "title": "Yasuha - Flyday Chinatown",
-        "artist": "Musical Collection",
-        "playlist": "Japan",
-        "duration": "3:30"
+        "title": "twenty four",
+        "artist": "overtonight",
+        "playlist": "Main",
+        "duration": "2:06"
     },
     {
-        "title": "黄昏のBAY CITY",
-        "artist": "八神純子",
-        "playlist": "Japan",
-        "duration": "4:11"
+        "title": "Демоны",
+        "artist": "Три дня дождя",
+        "playlist": "Main",
+        "duration": "3:25"
     },
     {
-        "title": "Miki Matsubara - Stay With Me HD (Club Mix)",
-        "artist": "KAMACHI PEACH",
-        "playlist": "Japan",
-        "duration": "5:43"
+        "title": "Так прикро",
+        "artist": "Апатія",
+        "playlist": "Main",
+        "duration": "3:00"
     },
     {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
@@ -577,8 +571,8 @@ const musicData = [
         "duration": "3:59"
     },
     {
-        "title": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai ED Part SectionFukashigi no Cart Theme",
-        "artist": "RØNIN 私",
+        "title": "Fukashigi no Carte",
+        "artist": "Bunny Girl",
         "playlist": "Japan",
         "duration": "4:00"
     },
@@ -589,16 +583,16 @@ const musicData = [
         "duration": "1:30"
     },
     {
-        "title": "TVアニメ『シャングリラ・フロンティア』2nd Season 第2クールノンクレジットED映像｜CVLTE「realitYhurts.」",
-        "artist": "TVアニメ「シャングリラ・フロンティア」公式",
-        "playlist": "Japan",
-        "duration": "1:31"
-    },
-    {
-        "title": "Fire Force Opening 1 | Inferno by Mrs.GREEN APPLE",
+        "title": "Shangri-la Frontier Season 2 Ending 2 | RealitYhurts",
         "artist": "Crunchyroll",
         "playlist": "Japan",
-        "duration": "1:30"
+        "duration": "1:41"
+    },
+    {
+        "title": "インフェルノ - Inferno",
+        "artist": "Mrs. GREEN APPLE",
+        "playlist": "Japan",
+        "duration": "3:42"
     },
     {
         "title": "Naruto - Opening 4 (v2) (HD - 60 fps)",
@@ -607,22 +601,22 @@ const musicData = [
         "duration": "1:31"
     },
     {
-        "title": "Naruto | Opening 2 - Haruka Kanata | VIZ",
-        "artist": "vizmedia",
+        "title": "Haruka Kanata",
+        "artist": "ASIAN KUNG-FU GENERATION",
         "playlist": "Japan",
-        "duration": "1:35"
+        "duration": "4:07"
     },
     {
-        "title": "Your Lie in April OP/Opening Theme - Hikaru Nara",
-        "artist": "AniClipsCollection",
+        "title": "光るなら-TV size- - Hikarunara TV Size",
+        "artist": "Goose house",
         "playlist": "Japan",
-        "duration": "2:03"
+        "duration": "1:33"
     },
     {
-        "title": "Black Clover Opening 10 | Black Catcher",
-        "artist": "Crunchyroll",
+        "title": "ビッケブランカ - Black Catcher / Vicke Blanka - Black Catcher",
+        "artist": "VK Blanka ",
         "playlist": "Japan",
-        "duration": "1:41"
+        "duration": "3:19"
     },
     {
         "title": "Stay Alive",
@@ -631,10 +625,10 @@ const musicData = [
         "duration": "4:28"
     },
     {
-        "title": "Mirai Nikki/Future Diary - Opening 1 - HD - With Lyrics",
-        "artist": "StrawberryMilk",
+        "title": "空想メソロギヰ",
+        "artist": "妖精帝國",
         "playlist": "Japan",
-        "duration": "1:29"
+        "duration": "4:00"
     },
     {
         "title": "椎名もた(siinamota) - Young Girl A / 少女A",
@@ -649,10 +643,10 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "Hunter X Hunter Opening 1 | Departure!",
-        "artist": "Crunchyroll",
+        "title": "departure!",
+        "artist": "Masatoshi Ono",
         "playlist": "Japan",
-        "duration": "1:31"
+        "duration": "4:18"
     },
     {
         "title": "ろん -「おちゃめ機能」FUKKIRETA 【HD.256k.Kara】",
@@ -661,16 +655,10 @@ const musicData = [
         "duration": "1:31"
     },
     {
-        "title": "Code Geass R2 Opening 1 Orange Range O2",
-        "artist": "Science Emperor Asagi Setsuyo Seeker of Knowledge (Emperor Setsuyo Asagi)",
+        "title": "Ｏ2 - O2",
+        "artist": "ORANGE RANGE",
         "playlist": "Japan",
-        "duration": "1:31"
-    },
-    {
-        "title": "＜エンディング映像フル＞「The 1」muque／TVアニメ「ONE PIECE」",
-        "artist": "ONE PIECE Official YouTube Channel",
-        "playlist": "Japan",
-        "duration": "1:31"
+        "duration": "3:58"
     },
     {
         "title": "阿修羅ちゃん - Ashura-chan",
@@ -679,16 +667,16 @@ const musicData = [
         "duration": "3:19"
     },
     {
-        "title": "Mushoku Tensei ED / Ending 4 - Creditless | 4K | 60fps | Lyrics",
-        "artist": "Animeke Channel",
+        "title": "ムスビメ",
+        "artist": "大原ゆい子",
         "playlist": "Japan",
-        "duration": "2:03"
+        "duration": "4:51"
     },
     {
-        "title": "「Creditless」Mushoku Tensei Season 2 OP / Opening 1「UHD 60FPS」",
-        "artist": "TriaxFx",
+        "title": "spiral",
+        "artist": "LONGMAN",
         "playlist": "Japan",
-        "duration": "1:58"
+        "duration": "3:52"
     },
     {
         "title": "Please Mr.Lostman",
@@ -739,10 +727,10 @@ const musicData = [
         "duration": "1:27"
     },
     {
-        "title": "STEP - Mio Honda / ЗАТКНИСЬ (для вп)",
-        "artist": "Очумелая Инес",
+        "title": "ステップ！ (GAME VERSION) - Step! (Game Version)",
+        "artist": "Mio Honda (CV: Sayuri Hara)",
         "playlist": "Japan",
-        "duration": "1:44"
+        "duration": "2:11"
     },
     {
         "title": "Marshmallow (feat. Hatsune Miku)",
@@ -755,6 +743,54 @@ const musicData = [
         "artist": "Ado",
         "playlist": "Japan",
         "duration": "3:19"
+    },
+    {
+        "title": "ぼうやの夢よ",
+        "artist": "エミリア（CV:高橋李依）",
+        "playlist": "Japan",
+        "duration": "3:31"
+    },
+    {
+        "title": "Wishing",
+        "artist": "レム（CV:水瀬いのり）",
+        "playlist": "Japan",
+        "duration": "6:01"
+    },
+    {
+        "title": "Amusement Park",
+        "artist": "Keigo Hoashi",
+        "playlist": "Japan",
+        "duration": "6:20"
+    },
+    {
+        "title": "エミール/犠牲 - Emil / Sacrifice",
+        "artist": "MONACA",
+        "playlist": "Japan",
+        "duration": "3:28"
+    },
+    {
+        "title": "Wasteland (from the series Arcane League of Legends)",
+        "artist": "Royal & the Serpent",
+        "playlist": "Japan",
+        "duration": "2:42"
+    },
+    {
+        "title": "Feel",
+        "artist": "Lies of P",
+        "playlist": "Japan",
+        "duration": "3:58"
+    },
+    {
+        "title": "Goodbye (from the series Arcane League of Legends)",
+        "artist": "Ramsey",
+        "playlist": "Japan",
+        "duration": "3:51"
+    },
+    {
+        "title": "マシュマロ - Marshmallow",
+        "artist": "DECO*27",
+        "playlist": "Japan",
+        "duration": "2:52"
     },
     {
         "title": "Лёд",
@@ -1802,7 +1838,7 @@ const musicData = [
     },
     {
         "title": "NLO – Танцы | Ты такая классная, крутишься в пространстве (Текст песни, премьера трека 2023)",
-        "artist": "mwl music",
+        "artist": "mwl media",
         "playlist": "Dead inside",
         "duration": "3:00"
     },
@@ -3649,7 +3685,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О, Боже, какой мужчина!",
+        "title": "О боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -3871,8 +3907,8 @@ const musicData = [
         "duration": "2:00"
     },
     {
-        "title": "6arelyhuman - Faster N Harder (Official Lyric Video)",
-        "artist": "Odetari",
+        "title": "Faster n Harder",
+        "artist": "6arelyhuman",
         "playlist": "Dead inside",
         "duration": "2:03"
     },
@@ -5809,6 +5845,54 @@ const musicData = [
         "duration": "2:26"
     },
     {
+        "title": "Sodikken - Misery Meat",
+        "artist": "S T A R G A Z E",
+        "playlist": "Dead inside",
+        "duration": "1:05"
+    },
+    {
+        "title": "Вороны",
+        "artist": "Нервы",
+        "playlist": "Dead inside",
+        "duration": "4:01"
+    },
+    {
+        "title": "Fly-day Chinatown",
+        "artist": "Yasuha",
+        "playlist": "Dead inside",
+        "duration": "3:31"
+    },
+    {
+        "title": "黄昏のBAY CITY",
+        "artist": "八神純子",
+        "playlist": "Dead inside",
+        "duration": "4:11"
+    },
+    {
+        "title": "真夜中のドア/Stay With Me (Original club mix) - Mayonaka no Door / Stay With Me",
+        "artist": "Miki Matsubara",
+        "playlist": "Dead inside",
+        "duration": "5:47"
+    },
+    {
+        "title": "Naruto | Opening 2 - Haruka Kanata | VIZ",
+        "artist": "vizmedia",
+        "playlist": "Dead inside",
+        "duration": "1:35"
+    },
+    {
+        "title": "＜エンディング映像フル＞「The 1」muque／TVアニメ「ONE PIECE」",
+        "artist": "ONE PIECE Official YouTube Channel",
+        "playlist": "Dead inside",
+        "duration": "1:31"
+    },
+    {
+        "title": "Mushoku Tensei ED / Ending 4 - Creditless | 4K | 60fps | Lyrics",
+        "artist": "Animeke Channel",
+        "playlist": "Dead inside",
+        "duration": "2:03"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -5927,10 +6011,16 @@ const musicData = [
         "artist": "Cavetown",
         "playlist": "Chill",
         "duration": "3:24"
+    },
+    {
+        "title": "Goodbye (from the series Arcane League of Legends)",
+        "artist": "Ramsey",
+        "playlist": "Chill",
+        "duration": "3:51"
     }
 ];
 const musicStats = {
-    "totalViews": 352,
-    "totalDurationSec": 159478,
+    "totalViews": 363,
+    "totalDurationSec": 163783,
     "lastUpdated": "Auto-generated"
 };
