@@ -133,8 +133,18 @@ if (typeof tierListData !== 'undefined') {
             },
             { 
                 title: "Monster Energy Mega Lo-Carb", 
-                review: "Этот энергети мне подарил одногрупник на День Рождения, и скажем так, бессплатно всегда вкусно. Но если по факту, запах очень странный, а вкус самый дефолтный. Какой у глюкозу вкус? Вску сахара?", 
-                img: "energydrink/Monster Energy Mega Lo-Carb.png"
+                review: "Этот энергети мне подарил одногрупник на День Рождения, и скажем так, бессплатно всегда вкусно. Но если по факту, запах очень странный, а вкус самый дефолтный. Какой у глюкозу вкус? Вску сахара? Есть ароматизатор женьшеня.", 
+                img: "energydrink/Monster Energy Mega Lo-Carb.webp"
+            },
+            { 
+                title: "Non Stop 20 Years", 
+                review: "Вишнёвый вкус, а если быть точнее, то смесь ягод: вишня, малина, ежевика, черника. Как обычно горькое послевкусие. А между глотком и послевкусием вкус какой-то конфеты, не могу понять какой. Нет маленькой баночки.", 
+                img: "energydrink/Non Stop 20 Years.webp"
+            },
+            {
+                title: "Non Stop Spark",
+                review: "",
+                img: "energydrink/Non Stop Spark.webp"
             },
         ],
         'D': [
@@ -147,7 +157,7 @@ if (typeof tierListData !== 'undefined') {
                 title: "Monster Energy Pacific Punch", 
                 review: "Чисто из-за привкуса вишни, не моё.", 
                 img: "energydrink/Monster Energy Pacific Punch.png"
-            },
+            },
             { 
                 title: "Non Stop Jungle Evolution Fresh", 
                 review: "Зёлная баночка, но вкус лимонный (там нет лайма), для меня это странно. Горьковатый.", 

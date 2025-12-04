@@ -9,13 +9,13 @@ document.addEventListener('DOMContentLoaded', () => {
         age--;
     }
 
-    // Вывод в оба элемента, если они есть
+    // Вывод возраста
     const ageMain = document.getElementById('infoAge');
     const ageCard = document.getElementById('infoAgeCard');
 
     if (ageMain) ageMain.textContent = `${age} лет`;
     if (ageCard) ageCard.textContent = `${age} лет`;
-    
+
     // Steam данные
     if (typeof steamData !== 'undefined') {
         if (steamData.profile && steamData.profile.avatar) {
@@ -35,40 +35,28 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// --- ГАЛЕРЕЯ ---
-const galleryData = {
-    'twitch': [
-        { src: 'img/about me/twitch23.png', caption: 'Twitch Recap 2023' },
-        { src: 'img/about me/twitch24.png', caption: 'Twitch Recap 2024' },
-        { src: 'img/about me/twitch25.png', caption: 'Twitch Recap 2025' }
-    ],
-    'steam': [
-        // 2022
-        { src: 'img/about me/steam22.1.png', caption: 'Steam 2022 (1)' },
-        { src: 'img/about me/steam22.2.png', caption: 'Steam 2022 (2)' },
-        { src: 'img/about me/steam22.3.png', caption: 'Steam 2022 (3)' },
-        // 2023
-        { src: 'img/about me/steam23.1.png', caption: 'Steam 2023 (1)' },
-        { src: 'img/about me/steam23.2.png', caption: 'Steam 2023 (2)' },
-        { src: 'img/about me/steam23.3.png', caption: 'Steam 2023 (3)' },
-        // 2024
-        { src: 'img/about me/steam24.1.png', caption: 'Steam 2024 (1)' },
-        { src: 'img/about me/steam24.2.png', caption: 'Steam 2024 (2)' },
-        { src: 'img/about me/steam24.3.png', caption: 'Steam 2024 (3)' },
-        // 2025
-        { src: 'img/about me/steam25.1.png', caption: 'Steam 2025 (1)' },
-        { src: 'img/about me/steam25.2.png', caption: 'Steam 2025 (2)' },
-        { src: 'img/about me/steam25.3.png', caption: 'Steam 2025 (3)' },
-    ]
-};
 
-let currentGroup = [];
+// --- ГАЛЕРЕЯ STEAM ---
+const steamGallery = [
+    { year: 2022, src: 'img/about me/steam22.1.png' },
+    { year: 2023, src: 'img/about me/steam23.1.png' },
+    { year: 2024, src: 'img/about me/steam24.1.png' },
+    { year: 2025, src: 'img/about me/steam25.1.png' }
+];
+
+// Автосортировка старые → новые
+steamGallery.sort((a, b) => a.year - b.year);
+
+
 let currentIndex = 0;
 
-function openLightbox(index, groupName) {
-    currentGroup = galleryData[groupName];
-    currentIndex = index;
-    updateLightbox();
+// Находим индекс года в массиве
+function openSteamYear(year) {
+    currentIndex = steamGallery.findIndex(item => item.year === year);
+
+    if (currentIndex === -1) return;
+
+    updateSteamLightbox();
     document.getElementById('lightbox').style.display = 'flex';
 }
 
@@ -78,18 +66,23 @@ function closeLightbox() {
 
 function changeImage(n) {
     currentIndex += n;
-    if (currentIndex >= currentGroup.length) currentIndex = 0;
-    if (currentIndex < 0) currentIndex = currentGroup.length - 1;
-    updateLightbox();
+
+    if (currentIndex >= steamGallery.length) currentIndex = 0;
+    if (currentIndex < 0) currentIndex = steamGallery.length - 1;
+
+    updateSteamLightbox();
 }
 
-function updateLightbox() {
+function updateSteamLightbox() {
     const img = document.getElementById('lightbox-img');
     const caption = document.getElementById('lightbox-caption');
-    img.src = currentGroup[currentIndex].src;
-    caption.textContent = currentGroup[currentIndex].caption;
+
+    img.src = steamGallery[currentIndex].src;
+    caption.textContent = `Steam ${steamGallery[currentIndex].year}`;
 }
-        
+
+
+// Управление с клавиатуры
 document.addEventListener('keydown', function(event) {
     if (event.key === "Escape") closeLightbox();
     if (event.key === "ArrowRight") changeImage(1);
