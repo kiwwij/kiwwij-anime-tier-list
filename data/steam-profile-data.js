@@ -22,10 +22,18 @@ const steamData = {
         {
             "appid": 2215430,
             "name": "Ghost of Tsushima DIRECTOR'S CUT",
-            "playtime_2weeks": 1.2,
-            "hours": 7.7,
+            "playtime_2weeks": 1.6,
+            "hours": 8.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2215430/header.jpg",
             "url": "https://store.steampowered.com/app/2215430"
+        },
+        {
+            "appid": 1421250,
+            "name": "Tiny Bunny",
+            "playtime_2weeks": 0.8,
+            "hours": 20.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1421250/header.jpg",
+            "url": "https://store.steampowered.com/app/1421250"
         },
         {
             "appid": 431960,
@@ -34,14 +42,6 @@ const steamData = {
             "hours": 17.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 1421250,
-            "name": "Tiny Bunny",
-            "playtime_2weeks": 0.2,
-            "hours": 19.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1421250/header.jpg",
-            "url": "https://store.steampowered.com/app/1421250"
         },
         {
             "appid": 920490,
