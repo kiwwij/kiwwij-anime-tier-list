@@ -336,21 +336,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Ослепительна",
-        "artist": "KSB muzic",
-        "playlist": "Main"
-    },
-    {
-        "title": "Я вытащу тебя со дна",
-        "artist": "KSB muzic",
-        "playlist": "Main"
-    },
-    {
-        "title": "Lonely Day (Official HD Video)",
-        "artist": "System Of A Down",
-        "playlist": "Main"
-    },
-    {
         "title": "Я схожу с ума",
         "artist": "CUPSIZE",
         "playlist": "Main"
@@ -388,11 +373,6 @@ const musicData = [
     {
         "title": "целуй меня",
         "artist": "cardinparis",
-        "playlist": "Main"
-    },
-    {
-        "title": "Нервы",
-        "artist": "Нервы",
         "playlist": "Main"
     },
     {
@@ -464,9 +444,14 @@ const musicData = [
         "title": "Так прикро",
         "artist": "Апатія",
         "playlist": "Main"
+    },
+    {
+        "title": "Серед хаосу",
+        "artist": "BaWN",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 12,
-    "totalDurationSec": 12892
+    "totalDurationSec": 12354
 };

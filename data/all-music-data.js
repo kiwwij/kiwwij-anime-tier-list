@@ -403,24 +403,6 @@ const musicData = [
         "duration": "2:32"
     },
     {
-        "title": "Ослепительна",
-        "artist": "KSB muzic",
-        "playlist": "Main",
-        "duration": "3:00"
-    },
-    {
-        "title": "Я вытащу тебя со дна",
-        "artist": "KSB muzic",
-        "playlist": "Main",
-        "duration": "3:00"
-    },
-    {
-        "title": "Lonely Day (Official HD Video)",
-        "artist": "System Of A Down",
-        "playlist": "Main",
-        "duration": "2:52"
-    },
-    {
         "title": "Я схожу с ума",
         "artist": "CUPSIZE",
         "playlist": "Main",
@@ -467,12 +449,6 @@ const musicData = [
         "artist": "cardinparis",
         "playlist": "Main",
         "duration": "1:16"
-    },
-    {
-        "title": "Нервы",
-        "artist": "Нервы",
-        "playlist": "Main",
-        "duration": "2:39"
     },
     {
         "title": "Confess Your Love (feat. ola.wav)",
@@ -557,6 +533,12 @@ const musicData = [
         "artist": "Апатія",
         "playlist": "Main",
         "duration": "3:00"
+    },
+    {
+        "title": "Серед хаосу",
+        "artist": "BaWN",
+        "playlist": "Main",
+        "duration": "2:33"
     },
     {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
@@ -6020,7 +6002,7 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 363,
-    "totalDurationSec": 163783,
+    "totalViews": 393,
+    "totalDurationSec": 163245,
     "lastUpdated": "Auto-generated"
 };
