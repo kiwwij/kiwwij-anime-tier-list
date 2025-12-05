@@ -1351,7 +1351,6 @@ dialog::backdrop {
 @media (min-width: 900px) {
     .about-grid {
         /* ПК версия: 2 колонки */
-        /* Слева - Steam, Справа - обертка right-column (Сетап + Инфа) */
         grid-template-columns: 1fr 1fr; 
     }
 }
@@ -1360,13 +1359,12 @@ dialog::backdrop {
 .right-column {
     display: flex;
     flex-direction: column;
-    gap: 2rem; /* Отступ между блоком Сетапа и Инфой */
+    gap: 2rem; 
 }
-
 
 /* --- 2. ПРОФИЛЬ (ВЕРХНЯЯ ЧАСТЬ) --- */
 .profile-card {
-    grid-column: 1 / -1; /* Растягиваем на всю ширину */
+    grid-column: 1 / -1; 
     background-color: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: 1.5rem;
@@ -1393,10 +1391,9 @@ dialog::backdrop {
     margin: 1rem 0;
 }
 
-
-/* --- 3. TWITCH СЕКЦИЯ --- */
+/* --- 3. TWITCH СЕКЦИЯ (ОБЩИЙ КОНТЕЙНЕР) --- */
 .twitch-section {
-    grid-column: 1 / -1; /* Растягиваем на всю ширину */
+    grid-column: 1 / -1; 
     background-color: #1f2937;
     border-radius: 1.5rem;
     padding: 2rem;
@@ -1405,7 +1402,7 @@ dialog::backdrop {
     overflow: hidden;
 }
 
-/* Фоновый логотип Twitch (Отзеркален и в правом углу) */
+/* Фоновый логотип Twitch */
 .twitch-section::before {
     content: '';
     position: absolute;
@@ -1419,16 +1416,22 @@ dialog::backdrop {
     background-repeat: no-repeat;
     opacity: 0.05;
     
-    /* scaleX(-1) зеркалит, rotate наклоняет */
     transform: scaleX(-1) rotate(15deg); 
     pointer-events: none;
 }
 
-.twitch-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin-top: 1.5rem;
+/* Логотип Discord (перебивает Twitch при наличии класса discord-section) */
+.twitch-section.discord-section::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 127.14 96.36'%3E%3Cpath fill='%235865F2' d='M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.11,77.11,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22c1.24-23.28-5.83-47.95-18.9-72.15ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z'/%3E%3C/svg%3E");
+    transform: rotate(-15deg) !important; 
+    width: 140px;
+    height: 140px;
+    top: -15px;
+    right: -15px;
+    opacity: 0.1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
 }
 
 /* --- 4. STEAM & SETUP КАРТОЧКИ --- */
@@ -1439,7 +1442,6 @@ dialog::backdrop {
     padding: 2rem;
 }
 
-/* Списки характеристик (для Сетапа и Инфы) */
 .setup-list li {
     display: flex;
     justify-content: space-between;
@@ -1462,7 +1464,7 @@ dialog::backdrop {
     text-align: right;
 }
 
-/* Стили для заголовков годов в Steam */
+/* Steam Годы */
 .steam-year-section {
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
@@ -1498,15 +1500,7 @@ dialog::backdrop {
 }
 .steam-year-link:hover { color: #fff; border-bottom-color: #fff; }
 
-
-/* --- 5. ГАЛЕРЕЯ (ОБЩИЕ СТИЛИ) --- */
-.gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
+/* --- 5. ЭЛЕМЕНТ ГАЛЕРЕИ (Используется в Steam) --- */
 .gallery-item {
     cursor: pointer;
     position: relative;
@@ -1530,26 +1524,107 @@ dialog::backdrop {
     display: block;
 }
 
-/* Компактная сетка специально для Steam */
-.steam-compact-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Строго 3 колонки */
-    gap: 0.8rem;
-    margin-top: 0.5rem;
+/* --- 6. ГОРИЗОНТАЛЬНЫЙ СКРОЛЛ (Общий для Twitch и Discord) --- */
+.horizontal-scroll {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding-bottom: 15px; 
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
 
-.steam-compact-grid .gallery-item {
-    height: 160px; /* Фиксированная небольшая высота */
+/* Скроллбар для горизонтального блока */
+.horizontal-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+.horizontal-scroll::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+}
+.horizontal-scroll::-webkit-scrollbar-thumb {
+    background-color: #5865F2;
+    border-radius: 4px;
+}
+.horizontal-scroll::-webkit-scrollbar-thumb:hover {
+    background-color: #4752c4;
 }
 
-/* Адаптив для маленьких экранов */
-@media (max-width: 500px) {
-    .steam-compact-grid {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+/* Карточки DISCORD */
+.discord-card {
+    flex: 0 0 auto;
+    width: 280px; 
+    height: 160px; 
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    position: relative;
+}
+
+.discord-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.discord-card:hover {
+    transform: translateY(-5px);
+    border-color: #5865F2;
+    box-shadow: 0 5px 15px rgba(88, 101, 242, 0.2);
+}
+
+/* Карточки TWITCH */
+.twitch-scroll-card {
+    flex: 0 0 auto;
+    width: 300px;  
+    height: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    background-color: #000;
+}
+
+.twitch-scroll-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.twitch-scroll-card:hover {
+    transform: translateY(-5px);
+    border-color: #9146ff;
+    box-shadow: 0 5px 15px rgba(145, 70, 255, 0.2);
+}
+
+.twitch-year-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+    color: #a5b4fc;
+    text-align: center;
+    padding: 15px 0 5px 0;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Адаптив для карточек */
+@media (max-width: 600px) {
+    .discord-card {
+        width: 200px;
+        height: 120px;
     }
 }
 
-/* --- 6. МОДАЛЬНОЕ ОКНО (LIGHTBOX) --- */
+/* --- 7. МОДАЛЬНОЕ ОКНО (LIGHTBOX) --- */
 .lightbox {
     display: none;
     position: fixed;
@@ -1612,47 +1687,36 @@ dialog::backdrop {
     font-weight: 500;
 }
 
-/* Ограничиваем блок Steam по высоте и включаем скролл */
+
+/* --- 8. ВЕРТИКАЛЬНЫЙ СКРОЛЛ ДЛЯ STEAM --- */
 .setup-card.steam-card {
-    max-height: 1100px; /* примерно высота для 4-х лет */
+    max-height: 1100px; 
     overflow-y: auto;
-    padding-right: 10px; /* чтобы скролл не "резал" контент */
-
-    background-color: var(--bg-card);
-    border: 1px solid var(--border-color);
-    border-radius: 1.5rem;
-    padding: 2rem;
-
-}
-
-/* Общий стиль скролла для Webkit-браузеров (Chrome, Edge, Safari) */
-.setup-card.steam-card::-webkit-scrollbar {
-    width: 8px;             /* толщина вертикальной полосы */
-    height: 8px;            /* толщина горизонтальной полосы, если есть */
-}
-
-.setup-card.steam-card::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.05); /* фон "дорожки" */
-    border-radius: 4px;                     /* скругление дорожки */
-}
-
-.setup-card.steam-card::-webkit-scrollbar-thumb {
-    background-color: var(--accent); /* цвет ползунка */
-    border-radius: 4px;
-    border: 2px solid rgba(0,0,0,0.1); /* отступы внутри дорожки */
-}
-
-.setup-card.steam-card::-webkit-scrollbar-thumb:hover {
-    background-color: var(--accent-dark); /* цвет при наведении */
-}
-
-/* Для Firefox */
-.setup-card.steam-card {
-    scrollbar-width: thin;
+    padding-right: 10px;
+    
+    /* Скроллбар (Chrome/Safari) */
+    scrollbar-width: thin; /* Firefox */
     scrollbar-color: var(--accent) rgba(255,255,255,0.05);
 }
 
-/* 13 СКРОЛЛ ТУТ ТОП */
+.setup-card.steam-card::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+.setup-card.steam-card::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+}
+.setup-card.steam-card::-webkit-scrollbar-thumb {
+    background-color: var(--accent);
+    border-radius: 4px;
+    border: 2px solid rgba(0,0,0,0.1);
+}
+.setup-card.steam-card::-webkit-scrollbar-thumb:hover {
+    background-color: var(--accent-dark);
+}
+
+/* --- 9. КНОПКА "НАВЕРХ" --- */
 #scrollTopBtn {
     position: fixed;
     bottom: 20px;
@@ -1670,8 +1734,8 @@ dialog::backdrop {
     line-height: 36px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     transition: background-color 0.2s, color 0.2s, opacity 0.3s;
-    opacity: 0;           /* изначально скрыта */
-    pointer-events: none; /* чтобы нельзя было кликнуть */
+    opacity: 0;
+    pointer-events: none;
 }
 
 #scrollTopBtn:hover {
@@ -1679,15 +1743,13 @@ dialog::backdrop {
     color: white;
 }
 
-/* Показываем кнопку только на мобилках и планшетах */
 @media (max-width: 1024px) {
     #scrollTopBtn {
-        opacity: 0; /* начальное состояние */
+        opacity: 0; 
         pointer-events: none;
     }
-
     #scrollTopBtn.show {
-        opacity: 1;           /* JS добавляет этот класс после 200px */
-        pointer-events: auto; /* чтобы можно было кликнуть */
+        opacity: 1;
+        pointer-events: auto;
     }
 }

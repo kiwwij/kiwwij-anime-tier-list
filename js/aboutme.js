@@ -46,16 +46,48 @@ const twitchGallery = [
     { year: 2025, src: 'img/about me/twitch25.png' }
 ];
 
-// Автосортировка старые → новые
+const discordGallery2025 = [
+    { year: 2025, src: 'img/about me/discrod 2025/1.png' },
+    { year: 2025, src: 'img/about me/discrod 2025/2.png' },
+    { year: 2025, src: 'img/about me/discrod 2025/3.png' },
+    { year: 2025, src: 'img/about me/discrod 2025/4.png' },
+    { year: 2025, src: 'img/about me/discrod 2025/5.png' },
+    { year: 2025, src: 'img/about me/discrod 2025/6.png' },
+    { year: 2025, src: 'img/about me/discrod 2025/7.png' },
+    { year: 2025, src: 'img/about me/discrod 2025/8.png' },
+    { year: 2025, src: 'img/about me/discrod 2025/9.png' }
+];
+
+const discordGallery2026 = [
+    { year: 2025, src: 'img/about me/discrod 2026/1.png' },
+    { year: 2025, src: 'img/about me/discrod 2026/2.png' },
+    { year: 2025, src: 'img/about me/discrod 2026/3.png' },
+    { year: 2025, src: 'img/about me/discrod 2026/4.png' },
+    { year: 2025, src: 'img/about me/discrod 2026/5.png' },
+    { year: 2025, src: 'img/about me/discrod 2026/6.png' },
+    { year: 2025, src: 'img/about me/discrod 2026/7.png' },
+    { year: 2025, src: 'img/about me/discrod 2026/8.png' },
+    { year: 2025, src: 'img/about me/discrod 2026/9.png' }
+];
+
+// Автосортировка для Twitch и Steam (Discord сортировать не надо, там порядок важен)
 steamGallery.sort((a, b) => a.year - b.year);
 twitchGallery.sort((a, b) => a.year - b.year);
 
 // --- МОДАЛКА ---
 let currentIndex = 0;
-let currentGallery = 'steam'; // 'steam' или 'twitch'
+let currentGalleryType = 'steam'; // 'steam', 'twitch', 'discord'
+
+function getCurrentGalleryArray() {
+    if (currentGalleryType === 'steam') return steamGallery;
+    if (currentGalleryType === 'twitch') return twitchGallery;
+    if (currentGalleryType === 'discord2025') return discordGallery2025;
+    if (currentGalleryType === 'discord2026') return discordGallery2026;
+    return [];
+}
 
 function openLightbox(index, type) {
-    currentGallery = type;
+    currentGalleryType = type;
     currentIndex = index;
     updateLightbox();
     document.getElementById('lightbox').style.display = 'flex';
@@ -64,16 +96,31 @@ function openLightbox(index, type) {
 function updateLightbox() {
     const img = document.getElementById('lightbox-img');
     const caption = document.getElementById('lightbox-caption');
-    let gallery = currentGallery === 'steam' ? steamGallery : twitchGallery;
+    const gallery = getCurrentGalleryArray();
 
-    img.src = gallery[currentIndex].src;
-    caption.textContent = `${currentGallery === 'steam' ? 'Steam' : 'Twitch'} ${gallery[currentIndex].year}`;
+    if (gallery.length > 0 && gallery[currentIndex]) {
+        img.src = gallery[currentIndex].src;
+        
+        // Красивая подпись
+        let label = '';
+        if (currentGalleryType === 'steam') label = 'Steam';
+        else if (currentGalleryType === 'twitch') label = 'Twitch';
+        else if (currentGalleryType === 'discord') label = 'Discord';
+
+        // Если это Discord, добавляем счетчик (1/9)
+        if (currentGalleryType === 'discord') {
+             caption.textContent = `${label} ${gallery[currentIndex].year} (${currentIndex + 1} из ${gallery.length})`;
+        } else {
+             caption.textContent = `${label} ${gallery[currentIndex].year}`;
+        }
+    }
 }
 
 function changeImage(n) {
-    let gallery = currentGallery === 'steam' ? steamGallery : twitchGallery;
+    const gallery = getCurrentGalleryArray();
     currentIndex += n;
 
+    // Циклическая прокрутка
     if (currentIndex >= gallery.length) currentIndex = 0;
     if (currentIndex < 0) currentIndex = gallery.length - 1;
 

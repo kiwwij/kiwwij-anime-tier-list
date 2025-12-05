@@ -23,9 +23,8 @@
         </div>
     </header>
 
-    <main class="stats-container about-grid">
+<main class="stats-container about-grid">
         
-        <!-- 1. ПРОФИЛЬ -->
         <div class="profile-card">
             <img src="https://via.placeholder.com/150" alt="Avatar" class="profile-avatar-large" id="aboutAvatar">
             <h2 style="font-size: 2rem; margin-bottom: 0.5rem;">kiwwij</h2>
@@ -45,37 +44,38 @@
             </p>
         </div>
 
-        <!-- 2. TWITCH RECAP (2023-20xx) -->
         <div class="twitch-section">
             <h2 style="color: #9146ff; margin-bottom: 1rem; border-left: 4px solid #9146ff; padding-left: 15px;">
                 Twitch Recap
             </h2>
-            <p style="color: #cbd5e1; font-size: 0.9rem;">Мои итоги года на Твиче.</p>
+            <p style="color: #cbd5e1; font-size: 0.9rem; margin-bottom: 1rem;">Мои итоги года на Твиче:</p>
             
-            <div class="gallery-grid">
-                <div class="gallery-item" onclick="openLightbox(0, 'twitch')">
-                    <img src="img/about me/twitch23.png" alt="Twitch 2023">
-                    <p style="text-align: center; color: #a5b4fc; padding: 5px; font-size: 0.9rem;">2023</p>
-                </div>
-                <div class="gallery-item" onclick="openLightbox(1, 'twitch')">
-                    <img src="img/about me/twitch24.png" alt="Twitch 2024">
-                    <p style="text-align: center; color: #a5b4fc; padding: 5px; font-size: 0.9rem;">2024</p>
-                </div>
-                <div class="gallery-item" onclick="openLightbox(2, 'twitch')">
+            <div class="horizontal-scroll">
+                
+                <div class="twitch-scroll-card" onclick="openLightbox(2, 'twitch')">
                     <img src="img/about me/twitch25.png" alt="Twitch 2025">
-                    <p style="text-align: center; color: #a5b4fc; padding: 5px; font-size: 0.9rem;">2025</p>
+                    <div class="twitch-year-label">2025</div>
                 </div>
+
+                <div class="twitch-scroll-card" onclick="openLightbox(1, 'twitch')">
+                    <img src="img/about me/twitch24.png" alt="Twitch 2024">
+                    <div class="twitch-year-label">2024</div>
+                </div>
+
+                <div class="twitch-scroll-card" onclick="openLightbox(0, 'twitch')">
+                    <img src="img/about me/twitch23.png" alt="Twitch 2023">
+                    <div class="twitch-year-label">2023</div>
+                </div>
+
             </div>
         </div>
 
-        <!-- 3. STEAM RECAP (2022-20xx) -->
         <div class="setup-card steam-card" style="border-color: #66c0f4;">
             <h2 style="color: #66c0f4; border-left: 4px solid #66c0f4; padding-left: 15px; margin-bottom: 0.5rem;">
-                Steam Итоги
+                Steam Recap
             </h2>
             <p style="color: #cbd5e1; font-size: 0.9rem; margin-bottom: 1.5rem;">Моя статистика:</p>
 
-            <!-- 2025 -->
             <div class="steam-year-section">
                 <div class="steam-year-header">
                     <span class="steam-year-title">2025</span>
@@ -86,7 +86,6 @@
                 </div>
             </div>
 
-            <!-- 2024 -->
             <div class="steam-year-section">
                 <div class="steam-year-header">
                     <span class="steam-year-title">2024</span>
@@ -97,7 +96,6 @@
                 </div>
             </div>
 
-            <!-- 2023 -->
             <div class="steam-year-section">
                 <div class="steam-year-header">
                     <span class="steam-year-title">2023</span>
@@ -108,7 +106,6 @@
                 </div>
             </div>
 
-            <!-- 2022 -->
             <div class="steam-year-section">
                 <div class="steam-year-header">
                     <span class="steam-year-title">2022</span>
@@ -120,7 +117,6 @@
             </div>
         </div>
 
-        <!-- 4. СЕТАП И ИНФА ПРО МЕНЯ -->
         <div class="right-column">
             <div class="setup-card">
                 <h2 style="margin-bottom: 1.5rem; border-left: 4px solid #10b981; padding-left: 15px; margin-bottom: 8px;">Мой Сетап 💻</h2>
@@ -157,10 +153,55 @@
                     <li><span class="setup-label">Страна</span> <span class="setup-value">Украина 🇺🇦</span></span></li>
                     <li><span class="setup-label">Часовой пояс</span> <span class="setup-value">GMT+2</span></li>
                     <li><span class="setup-label">Знак зодиака</span> <span class="setup-value">Стрелец ♐</span></li>
-                    <li><span class="setup-label">Тип личности</span> <span class="setup-value">№</span></li>
+                    <li><span class="setup-label">Любимое время года</span> <span class="setup-value">Весна 🌸</span></li>
                 </ul>
             </div>
         </div>
+        
+        <div class="twitch-section discord-section" style="border-color: #5865F2;">
+            
+            <h2 style="color: #5865F2; border-left: 4px solid #5865F2; padding-left: 15px; margin-bottom: 0.5rem;">
+                Discord Recap
+            </h2>
+            <p style="color: #cbd5e1; font-size: 0.9rem; margin-bottom: 1rem;">История общения и звонков:</p>
+
+            <div class="year-block">
+                <div style="margin-bottom: 10px;">
+                    <span style="color: #a5b4fc; font-weight: bold; font-size: 1.1rem; background: rgba(88, 101, 242, 0.2); padding: 4px 12px; border-radius: 6px;">
+                        2025
+                    </span>
+                </div>
+
+                <div class="horizontal-scroll">
+                    <div class="discord-card" onclick="openLightbox(0, 'discord2025')">
+                        <img src="img/about me/discrod 2025/1.png" alt="Discord 1">
+                    </div>
+                    <div class="discord-card" onclick="openLightbox(1, 'discord2025')">
+                        <img src="img/about me/discrod 2025/2.png" alt="Discord 2">
+                    </div>
+                    <div class="discord-card" onclick="openLightbox(2, 'discord2025')">
+                        <img src="img/about me/discrod 2025/3.png" alt="Discord 3">
+                    </div>
+                    <div class="discord-card" onclick="openLightbox(3, 'discord2025')">
+                        <img src="img/about me/discrod 2025/4.png" alt="Discord 4">
+                    </div>
+                    <div class="discord-card" onclick="openLightbox(4, 'discord2025')">
+                        <img src="img/about me/discrod 2025/5.png" alt="Discord 5">
+                    </div>
+                    <div class="discord-card" onclick="openLightbox(5, 'discord2025')">
+                        <img src="img/about me/discrod 2025/6.png" alt="Discord 6">
+                    </div>
+                    <div class="discord-card" onclick="openLightbox(6, 'discord2025')">
+                        <img src="img/about me/discrod 2025/7.png" alt="Discord 7">
+                    </div>
+                    <div class="discord-card" onclick="openLightbox(7, 'discord2025')">
+                        <img src="img/about me/discrod 2025/8.png" alt="Discord 8">
+                    </div>
+                    <div class="discord-card" onclick="openLightbox(8, 'discord2025')">
+                        <img src="img/about me/discrod 2025/9.png" alt="Discord 9">
+                    </div>
+                </div>
+            </div>
     </main>
 
     <!-- МОДАЛЬНОЕ ОКНО -->
