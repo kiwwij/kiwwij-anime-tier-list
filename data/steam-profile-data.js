@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 25.9,
-            "hours": 3027.2,
+            "playtime_2weeks": 26.4,
+            "hours": 3027.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -23,15 +23,15 @@ const steamData = {
             "appid": 1421250,
             "name": "Tiny Bunny",
             "playtime_2weeks": 6.7,
-            "hours": 26.3,
+            "hours": 26.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1421250/header.jpg",
             "url": "https://store.steampowered.com/app/1421250"
         },
         {
             "appid": 2444750,
             "name": "Shape of Dreams",
-            "playtime_2weeks": 2.0,
-            "hours": 2.0,
+            "playtime_2weeks": 2.3,
+            "hours": 2.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
             "url": "https://store.steampowered.com/app/2444750"
         },
