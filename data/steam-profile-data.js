@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 26.4,
+            "playtime_2weeks": 25.9,
             "hours": 3027.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -34,6 +34,14 @@ const steamData = {
             "hours": 8.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2215430/header.jpg",
             "url": "https://store.steampowered.com/app/2215430"
+        },
+        {
+            "appid": 2444750,
+            "name": "Shape of Dreams",
+            "playtime_2weeks": 1.0,
+            "hours": 1.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
+            "url": "https://store.steampowered.com/app/2444750"
         },
         {
             "appid": 431960,
