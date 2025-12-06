@@ -143,7 +143,7 @@ if (typeof tierListData !== 'undefined') {
             },
             {
                 title: "Non Stop Spark",
-                review: "",
+                review: "Сладкий вкус ананаса, даже без горького послевкусия, как обычно. Нет маленькой баночки.",
                 img: "energydrink/Non Stop Spark.webp"
             },
         ],
@@ -170,7 +170,7 @@ if (typeof tierListData !== 'undefined') {
             },
             { 
                 title: "Non Stop Boost", 
-                review: "Вкус ананас, гуава. А по факту как обічный и джангл, только менее горький. Меня это даже уже бесит.", 
+                review: "Вкус ананас, гуава. А по факту как обычный и джангл, только менее горький. Меня это даже уже бесит.", 
                 img: "energydrink/Non Stop Boost.webp"
             },
             ],

@@ -289,6 +289,10 @@ if (typeof tierListData !== 'undefined') {
                     title: "Valorant",
                     review: "Играл с другом, даже не с одним, было весело.",
                 },
+                {
+                    title: "Shape of Dreams: Prologue",
+                    review: "Играл с другом, что-то по типу RoR2. (название игры в стиме без 'Prologue')",
+                },
             ],
             'C': [
                 { 

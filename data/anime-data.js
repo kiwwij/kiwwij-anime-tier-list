@@ -2034,6 +2034,11 @@ const tierListData = {
                 ruTitle: "Твоё имя.",
                 review: "Пересмотрел и снова проникся. Великолепное аниме."
             },
+            {
+                title: "Boku no Hero Academia: Final Season",
+                ruTitle: "Моя геройская академия: Финал",
+                review: "Рисовка удивила. Наконец-то финал. Круто!"
+            },
         ],
         'A': [
             {
@@ -2063,11 +2068,6 @@ const tierListData = {
             },
         ],
         'B': [
-            {
-                title: "Boku no Hero Academia: Final Season",
-                ruTitle: "Моя геройская академия: Финал",
-                review: "Рисовка удивила. Наконец-то финал. Круто!"
-            },
             {
                 title: "Gachiakuta",
                 ruTitle: "Гачиакута",
