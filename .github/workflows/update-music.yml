@@ -2,44 +2,53 @@ name: Update Music Data
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Запуск каждый день в 00:00 UTC
-  workflow_dispatch: # Кнопка ручного запуска в интерфейсе GitHub
+    # update_music.py — каждый час
+    - cron: "0 * * * *"
+
+    # update_all_music.py — каждый час + 10 минут
+    - cron: "10 * * * *"
+
+  workflow_dispatch:
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.9'
 
       - name: Install dependencies
-        # Устанавливаем библиотеки из requirements.txt (там должен быть ytmusicapi)
         run: |
           pip install -r scripts/requirements.txt
 
-      - name: Run Single Playlist scraper
-        # Обновляет только основной плейлист (music_data.js)
-        run: python scripts/update_music.py
-
-      - name: Run All Playlists scraper
-        # Обновляет страницу с 4 плейлистами (all_music_data.js)
-        run: python scripts/update_all_music.py
+      # Запускаем оба скрипта, но только один из них будет выполняться
+      # (в зависимости от того, какой cron-триггер сработал)
+      - name: Run scrapers
+        run: |
+          echo "Triggered at $(date -u)"
+          
+          if [ "$(date -u +%M)" = "00" ]; then
+            echo "Running: update_music.py"
+            python scripts/update_music.py
+          fi
+          
+          if [ "$(date -u +%M)" = "10" ]; then
+            echo "Running: update_all_music.py"
+            python scripts/update_all_music.py
+          fi
 
       - name: Commit and Push changes
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          
-          # Добавляем оба сгенерированных файла
+
           git add data/music-data.js data/all-music-data.js
-          
-          # Если изменений нет (плейлисты не поменялись), exit 0 предотвратит ошибку пайплайна
+
           git commit -m "Auto-update music playlists" || exit 0
-          
           git push

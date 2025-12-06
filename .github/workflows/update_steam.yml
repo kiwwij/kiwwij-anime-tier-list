@@ -2,8 +2,8 @@ name: Update Steam Data
 
 on:
   schedule:
-    - cron: '0 * * * *' # Запуск каждый час (в 0 минут)
-  workflow_dispatch: # Кнопка ручного запуска
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
 
 jobs:
   build:
@@ -24,7 +24,6 @@ jobs:
 
       - name: Run Steam script
         env:
-          # Передаем секреты из настроек репозитория
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
           STEAM_ID: ${{ secrets.STEAM_ID }}
         run: python scripts/update_steam_profile.py
@@ -34,9 +33,7 @@ jobs:
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           
-          # Добавляем только файл стима
           git add data/steam-profile-data.js
           
-          # Если изменений нет (например, не играл), не падаем
           git commit -m "Auto-update Steam profile info" || exit 0
           git push
