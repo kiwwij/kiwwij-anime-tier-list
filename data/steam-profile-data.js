@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 2444750,
             "name": "Shape of Dreams",
-            "playtime_2weeks": 3.4,
-            "hours": 3.4,
+            "playtime_2weeks": 3.9,
+            "hours": 3.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
             "url": "https://store.steampowered.com/app/2444750"
         },
