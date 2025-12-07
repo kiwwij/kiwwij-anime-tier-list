@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 23.4,
+            "playtime_2weeks": 22.9,
             "hours": 3028.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -22,8 +22,8 @@ const steamData = {
         {
             "appid": 1421250,
             "name": "Tiny Bunny",
-            "playtime_2weeks": 8.2,
-            "hours": 27.9,
+            "playtime_2weeks": 9.4,
+            "hours": 29.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1421250/header.jpg",
             "url": "https://store.steampowered.com/app/1421250"
         },
@@ -38,7 +38,7 @@ const steamData = {
         {
             "appid": 2215430,
             "name": "Ghost of Tsushima DIRECTOR'S CUT",
-            "playtime_2weeks": 0.6,
+            "playtime_2weeks": 0.5,
             "hours": 8.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2215430/header.jpg",
             "url": "https://store.steampowered.com/app/2215430"
