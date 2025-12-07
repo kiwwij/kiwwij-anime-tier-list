@@ -775,6 +775,18 @@ const musicData = [
         "duration": "2:52"
     },
     {
+        "title": "Believe in you",
+        "artist": "nonoc",
+        "playlist": "Japan",
+        "duration": "4:40"
+    },
+    {
+        "title": "STYX HELIX",
+        "artist": "MYTH & ROID",
+        "playlist": "Japan",
+        "duration": "4:50"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -5875,6 +5887,12 @@ const musicData = [
         "duration": "2:03"
     },
     {
+        "title": "Мы Ебались ПЕРВЫЙ РАЗ - Красная Плесень",
+        "artist": "The_Smile",
+        "playlist": "Dead inside",
+        "duration": "2:39"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6003,6 +6021,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 408,
-    "totalDurationSec": 163245,
+    "totalDurationSec": 163974,
     "lastUpdated": "Auto-generated"
 };
