@@ -1988,7 +1988,7 @@ const musicData = [
     },
     {
         "title": "GLICHERY - SEA OF PROBLEMS   ( EDIT PHONK )",
-        "artist": "Kaiser Z",
+        "artist": "KaiserZ",
         "playlist": "Dead inside",
         "duration": "1:51"
     },
@@ -3679,7 +3679,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О боже, какой мужчина!",
+        "title": "О, Боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -4531,7 +4531,7 @@ const musicData = [
         "duration": "3:39"
     },
     {
-        "title": "Caramelldansen 2018",
+        "title": "Caramella Girls - Caramelldansen (Official English Version)",
         "artist": "Caramella Girls",
         "playlist": "Dead inside",
         "duration": "2:59"
