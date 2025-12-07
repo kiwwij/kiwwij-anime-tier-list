@@ -3307,8 +3307,8 @@ const musicData = [
         "duration": "2:45"
     },
     {
-        "title": "Phonk Racing Drift Sigma by Infraction [No Copyright Music] / Boss Mode",
-        "artist": "Emerel Gray",
+        "title": "Boss Mode",
+        "artist": "Infraction",
         "playlist": "Dead inside",
         "duration": "1:57"
     },
