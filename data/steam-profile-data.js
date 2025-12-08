@@ -20,20 +20,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/570"
         },
         {
+            "appid": 2444750,
+            "name": "Shape of Dreams",
+            "playtime_2weeks": 9.9,
+            "hours": 9.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
+            "url": "https://store.steampowered.com/app/2444750"
+        },
+        {
             "appid": 1421250,
             "name": "Tiny Bunny",
             "playtime_2weeks": 9.8,
             "hours": 29.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1421250/header.jpg",
             "url": "https://store.steampowered.com/app/1421250"
-        },
-        {
-            "appid": 2444750,
-            "name": "Shape of Dreams",
-            "playtime_2weeks": 9.4,
-            "hours": 9.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
-            "url": "https://store.steampowered.com/app/2444750"
         },
         {
             "appid": 2215430,
