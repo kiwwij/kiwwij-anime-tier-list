@@ -787,6 +787,12 @@ const musicData = [
         "duration": "4:50"
     },
     {
+        "title": "Sing My Pleasure",
+        "artist": "Vivy (Vo.Kairi Yagi)",
+        "playlist": "Japan",
+        "duration": "4:50"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -6020,7 +6026,7 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 408,
-    "totalDurationSec": 163974,
+    "totalViews": 409,
+    "totalDurationSec": 164264,
     "lastUpdated": "Auto-generated"
 };
