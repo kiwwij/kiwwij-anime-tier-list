@@ -2,13 +2,17 @@ name: Update Music Data
 
 on:
   schedule:
-    # update_music.py — каждый час
+    # update_music.py — каждый час (в 00 минут)
     - cron: "0 * * * *"
-
     # update_all_music.py — каждый час + 10 минут
     - cron: "10 * * * *"
-
+  
+  # Возможность запустить вручную кнопку
   workflow_dispatch:
+
+# Даем права на запись в репозиторий
+permissions:
+  contents: write
 
 jobs:
   update:
@@ -24,22 +28,29 @@ jobs:
           python-version: '3.9'
 
       - name: Install dependencies
+        # Устанавливаем ytmusicapi напрямую, чтобы не зависеть от наличия файла requirements.txt
         run: |
-          pip install -r scripts/requirements.txt
+          pip install ytmusicapi
 
-      # Запускаем оба скрипта, но только один из них будет выполняться
-      # (в зависимости от того, какой cron-триггер сработал)
       - name: Run scrapers
         run: |
-          echo "Triggered at $(date -u)"
+          # Получаем текущую минуту
+          CURRENT_MINUTE=$(date -u +%1M) 
+          # %1M убирает ведущий ноль (например, "05" станет "5"), чтобы bash не думал, что это восьмеричная система
           
-          if [ "$(date -u +%M)" = "00" ]; then
-            echo "Running: update_music.py"
+          echo "Triggered at $(date -u). Current minute: $CURRENT_MINUTE"
+          
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "Manual trigger: Running BOTH scripts"
             python scripts/update_music.py
-          fi
+            python scripts/update_all_music.py
           
-          if [ "$(date -u +%M)" = "10" ]; then
-            echo "Running: update_all_music.py"
+          elif [ "$CURRENT_MINUTE" -lt 9 ]; then
+            echo "Schedule match (approx 00): Running update_music.py"
+            python scripts/update_music.py
+            
+          else
+            echo "Schedule match (approx 10): Running update_all_music.py"
             python scripts/update_all_music.py
           fi
 
@@ -48,7 +59,11 @@ jobs:
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
 
-          git add data/music-data.js data/all-music-data.js
+          # Добавляем все измененные JS файлы
+          git add data/*.js
 
-          git commit -m "Auto-update music playlists" || exit 0
+          # Если изменений нет, git commit вернет ошибку. 
+          # Конструкция "|| echo..." предотвращает падение скрипта, если обновлять нечего.
+          git commit -m "Auto-update music playlists [skip ci]" || echo "No changes to commit"
+          
           git push
