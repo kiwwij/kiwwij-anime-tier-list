@@ -10,7 +10,64 @@ const steamData = {
     "stats": {
         "total_games": 238
     },
-    "recent_games": [],
+    "recent_games": [
+        {
+            "appid": 570,
+            "name": "Dota 2",
+            "playtime_2weeks": 24.6,
+            "hours": 3031.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
+            "url": "https://store.steampowered.com/app/570"
+        },
+        {
+            "appid": 2444750,
+            "name": "Shape of Dreams",
+            "playtime_2weeks": 9.9,
+            "hours": 9.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
+            "url": "https://store.steampowered.com/app/2444750"
+        },
+        {
+            "appid": 1421250,
+            "name": "Tiny Bunny",
+            "playtime_2weeks": 9.8,
+            "hours": 29.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1421250/header.jpg",
+            "url": "https://store.steampowered.com/app/1421250"
+        },
+        {
+            "appid": 2215430,
+            "name": "Ghost of Tsushima DIRECTOR'S CUT",
+            "playtime_2weeks": 0.5,
+            "hours": 8.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2215430/header.jpg",
+            "url": "https://store.steampowered.com/app/2215430"
+        },
+        {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.4,
+            "hours": 17.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 920490,
+            "name": "Driver Booster for Steam",
+            "playtime_2weeks": 0.2,
+            "hours": 14.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
+            "url": "https://store.steampowered.com/app/920490"
+        },
+        {
+            "appid": 1905180,
+            "name": "OBS Studio",
+            "playtime_2weeks": 0.1,
+            "hours": 182.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
+            "url": "https://store.steampowered.com/app/1905180"
+        }
+    ],
     "top_games": [
         {
             "appid": 730,
