@@ -5923,6 +5923,12 @@ const musicData = [
         "duration": "2:39"
     },
     {
+        "title": "2hollis - promise u that",
+        "artist": "hollisball",
+        "playlist": "Dead inside",
+        "duration": "2:47"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6051,6 +6057,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 418,
-    "totalDurationSec": 164921,
+    "totalDurationSec": 165088,
     "lastUpdated": "Auto-generated"
 };
