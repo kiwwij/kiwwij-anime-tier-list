@@ -541,6 +541,12 @@ const musicData = [
         "duration": "2:33"
     },
     {
+        "title": "Stephanie",
+        "artist": "Nafeesisboujee",
+        "playlist": "Main",
+        "duration": "2:21"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -793,6 +799,24 @@ const musicData = [
         "duration": "4:50"
     },
     {
+        "title": "NOX LUX",
+        "artist": "MYTH & ROID",
+        "playlist": "Japan",
+        "duration": "4:34"
+    },
+    {
+        "title": "アニメ「コードギアス 反逆のルルーシュ」オープニング／FLOW「COLORS」（Another ver.）",
+        "artist": "コードギアスチャンネル CODEGEASS Channel",
+        "playlist": "Japan",
+        "duration": "1:31"
+    },
+    {
+        "title": "TVアニメ『この素晴らしい世界に爆焔を！』 ノンクレジットED",
+        "artist": "KADOKAWAanime",
+        "playlist": "Japan",
+        "duration": "1:31"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -1013,12 +1037,6 @@ const musicData = [
         "artist": "KOSMONAVTOV NET",
         "playlist": "Dead inside",
         "duration": "2:43"
-    },
-    {
-        "title": "ノンテロップスペシャル版　TVアニメ「東京喰種トーキョーグール」オープニング映像 TK from 凛として時雨/unravel",
-        "artist": "TokyoGhoulAnimation",
-        "playlist": "Dead inside",
-        "duration": "1:30"
     },
     {
         "title": "Tokyo Ghoul OP  / Опенинг Токийский Гуль cover by Ai Mori",
@@ -1841,6 +1859,12 @@ const musicData = [
         "artist": "mwl media",
         "playlist": "Dead inside",
         "duration": "3:00"
+    },
+    {
+        "title": "Мам, я умираю",
+        "artist": "Автостопом по фазе сна",
+        "playlist": "Dead inside",
+        "duration": "2:30"
     },
     {
         "title": "Лизогуб - ДЕВОЧКА УЭНСДЕЙ (Премьера клипа 2023)",
@@ -3685,7 +3709,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О, Боже, какой мужчина!",
+        "title": "О боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -5143,7 +5167,7 @@ const musicData = [
         "duration": "1:56"
     },
     {
-        "title": "We Fell Apart (Slowed)",
+        "title": "Bubblegum Bitch (Slowed)",
         "artist": "ANGUISH",
         "playlist": "Dead inside",
         "duration": "2:38"
@@ -6026,7 +6050,7 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 409,
-    "totalDurationSec": 164264,
+    "totalViews": 418,
+    "totalDurationSec": 164921,
     "lastUpdated": "Auto-generated"
 };

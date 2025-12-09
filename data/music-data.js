@@ -449,9 +449,14 @@ const musicData = [
         "title": "Серед хаосу",
         "artist": "BaWN",
         "playlist": "Main"
+    },
+    {
+        "title": "Stephanie",
+        "artist": "Nafeesisboujee",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 12,
-    "totalDurationSec": 12354
+    "totalDurationSec": 12495
 };
