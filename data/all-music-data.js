@@ -2581,12 +2581,6 @@ const musicData = [
         "duration": "4:39"
     },
     {
-        "title": "леди баг - ведь быть леди баг, призвание твоё",
-        "artist": "dora",
-        "playlist": "Dead inside",
-        "duration": "2:37"
-    },
-    {
         "title": "NBA (Slowed)",
         "artist": "RSAC",
         "playlist": "Dead inside",
@@ -6051,6 +6045,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 418,
-    "totalDurationSec": 164860,
+    "totalDurationSec": 164703,
     "lastUpdated": "Auto-generated"
 };
