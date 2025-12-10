@@ -396,11 +396,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Girlfriend (Official Video)",
-        "artist": "Avril Lavigne",
-        "playlist": "Main"
-    },
-    {
         "title": "Деревья, сгнившие до ствола",
         "artist": "Violetta Sokolova",
         "playlist": "Main"
@@ -458,5 +453,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 12,
-    "totalDurationSec": 12495
+    "totalDurationSec": 12267
 };
