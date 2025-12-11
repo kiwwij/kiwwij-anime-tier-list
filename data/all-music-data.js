@@ -5551,7 +5551,7 @@ const musicData = [
         "duration": "1:31"
     },
     {
-        "title": "I Don't Know (Radio Mix)",
+        "title": "I Don't Know (radio mix)",
         "artist": "Erika de Bonis",
         "playlist": "Dead inside",
         "duration": "3:17"
