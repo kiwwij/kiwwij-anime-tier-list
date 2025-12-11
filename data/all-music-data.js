@@ -4483,12 +4483,6 @@ const musicData = [
         "duration": "3:51"
     },
     {
-        "title": "A New Kind Of Love (Demo)",
-        "artist": "Frou Frou",
-        "playlist": "Dead inside",
-        "duration": "4:20"
-    },
-    {
         "title": "11:11",
         "artist": "Кишлак",
         "playlist": "Dead inside",
@@ -5155,10 +5149,10 @@ const musicData = [
         "duration": "1:56"
     },
     {
-        "title": "Bubblegum Bitch (Slowed)",
-        "artist": "ANGUISH",
+        "title": "We Fell Apart (Slowed)",
+        "artist": "ANGUISH, AmbVsh, & ily",
         "playlist": "Dead inside",
-        "duration": "2:38"
+        "duration": "2:36"
     },
     {
         "title": "Зайчик шнуфель   Послушай",
@@ -5989,12 +5983,6 @@ const musicData = [
         "duration": "1:56"
     },
     {
-        "title": "A New Kind Of Love (Demo)",
-        "artist": "Frou Frou",
-        "playlist": "Chill",
-        "duration": "4:20"
-    },
-    {
         "title": "𝙫𝙞𝙙𝙚𝙤𝙘𝙡𝙪𝙗 - 𝙍𝙊𝙄 | 𝙄𝙉𝙎𝙏𝙍𝙐𝙈𝙀𝙉𝙏𝘼𝙇 | 𝘼𝙨𝙪𝙠𝙖 - 𝙀𝙫𝙖𝙣𝙜𝙚𝙡𝙞𝙤𝙣 [𝙏𝙞𝙠𝙏𝙤𝙠 𝙀𝙙𝙞𝙩]",
         "artist": "𝕻𝖚𝖒𝖕",
         "playlist": "Chill",
@@ -6057,6 +6045,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 418,
-    "totalDurationSec": 165046,
+    "totalDurationSec": 164524,
     "lastUpdated": "Auto-generated"
 };
