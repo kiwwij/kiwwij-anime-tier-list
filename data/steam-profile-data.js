@@ -22,8 +22,8 @@ const steamData = {
         {
             "appid": 2444750,
             "name": "Shape of Dreams",
-            "playtime_2weeks": 9.9,
-            "hours": 9.9,
+            "playtime_2weeks": 10.4,
+            "hours": 10.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
             "url": "https://store.steampowered.com/app/2444750"
         },
@@ -54,7 +54,7 @@ const steamData = {
         {
             "appid": 1905180,
             "name": "OBS Studio",
-            "playtime_2weeks": 0.1,
+            "playtime_2weeks": 0.0,
             "hours": 182.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
