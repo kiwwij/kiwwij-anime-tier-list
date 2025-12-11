@@ -5545,7 +5545,7 @@ const musicData = [
         "duration": "1:31"
     },
     {
-        "title": "I Don't Know (radio mix)",
+        "title": "I Don't Know (Radio Mix)",
         "artist": "Erika de Bonis",
         "playlist": "Dead inside",
         "duration": "3:17"
@@ -5923,6 +5923,12 @@ const musicData = [
         "duration": "2:27"
     },
     {
+        "title": "ЛАБУБУ",
+        "artist": "YUNG FIMOZ",
+        "playlist": "Dead inside",
+        "duration": "2:00"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6045,6 +6051,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 418,
-    "totalDurationSec": 164524,
+    "totalDurationSec": 164644,
     "lastUpdated": "Auto-generated"
 };
