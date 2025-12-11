@@ -5917,6 +5917,18 @@ const musicData = [
         "duration": "2:47"
     },
     {
+        "title": "Tiny Bunny OST Episode 5 - There Is Nothing",
+        "artist": "zzz.",
+        "playlist": "Dead inside",
+        "duration": "3:16"
+    },
+    {
+        "title": "Tiny Bunny (Зайчик) OST - Маскарад",
+        "artist": "Saikono Joker",
+        "playlist": "Dead inside",
+        "duration": "2:27"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6045,6 +6057,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 418,
-    "totalDurationSec": 164703,
+    "totalDurationSec": 165046,
     "lastUpdated": "Auto-generated"
 };
