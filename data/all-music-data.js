@@ -3146,7 +3146,7 @@ const musicData = [
     },
     {
         "title": "Музыка нас связала",
-        "artist": "Mirage - Topic",
+        "artist": "Мираж",
         "playlist": "Dead inside",
         "duration": "4:27"
     },
