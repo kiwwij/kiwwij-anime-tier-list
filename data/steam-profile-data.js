@@ -52,20 +52,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/431960"
         },
         {
-            "appid": 920490,
-            "name": "Driver Booster for Steam",
-            "playtime_2weeks": 0.2,
-            "hours": 14.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
-            "url": "https://store.steampowered.com/app/920490"
-        },
-        {
             "appid": 1905180,
             "name": "OBS Studio",
             "playtime_2weeks": 0.1,
             "hours": 182.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
+        },
+        {
+            "appid": 920490,
+            "name": "Driver Booster for Steam",
+            "playtime_2weeks": 0.1,
+            "hours": 14.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
+            "url": "https://store.steampowered.com/app/920490"
         }
     ],
     "top_games": [
