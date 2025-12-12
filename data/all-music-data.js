@@ -5233,14 +5233,14 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "Гроза лесных крипов",
-        "artist": "youraifu",
+        "title": "Гроза Лесных Крипов",
+        "artist": "AICOVERGIRL",
         "playlist": "Dead inside",
         "duration": "2:37"
     },
     {
-        "title": "Белочка с Армлетом (ROCK VERSION)",
-        "artist": "youraifu",
+        "title": "Белочка с Армлетом (Rock Version)",
+        "artist": "AICOVERGIRL",
         "playlist": "Dead inside",
         "duration": "1:55"
     },
