@@ -449,9 +449,19 @@ const musicData = [
         "title": "Stephanie",
         "artist": "Nafeesisboujee",
         "playlist": "Main"
+    },
+    {
+        "title": "Шиншиллы",
+        "artist": "ЛСП",
+        "playlist": "Main"
+    },
+    {
+        "title": "Що з тобою",
+        "artist": "Апатія",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 12,
-    "totalDurationSec": 12267
+    "totalDurationSec": 12622
 };
