@@ -547,6 +547,12 @@ const musicData = [
         "duration": "2:28"
     },
     {
+        "title": "Що з тобою",
+        "artist": "Апатія",
+        "playlist": "Main",
+        "duration": "3:27"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6057,6 +6063,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 418,
-    "totalDurationSec": 164792,
+    "totalDurationSec": 164999,
     "lastUpdated": "Auto-generated"
 };
