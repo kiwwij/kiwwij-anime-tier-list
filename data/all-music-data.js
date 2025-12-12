@@ -4783,7 +4783,7 @@ const musicData = [
         "duration": "3:43"
     },
     {
-        "title": "Animal I Have Become",
+        "title": "Animal I Have Become (Official Video)",
         "artist": "Three Days Grace",
         "playlist": "Dead inside",
         "duration": "3:51"
