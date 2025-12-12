@@ -2695,6 +2695,12 @@ const musicData = [
         "duration": "4:25"
     },
     {
+        "title": "I sang the NTR song",
+        "artist": "Miori Celesta",
+        "playlist": "Dead inside",
+        "duration": "3:05"
+    },
+    {
         "title": "Nightcore - Suzume",
         "artist": "Plume",
         "playlist": "Dead inside",
@@ -5545,7 +5551,7 @@ const musicData = [
         "duration": "1:31"
     },
     {
-        "title": "I Don't Know (Radio Mix)",
+        "title": "I Don't Know (radio mix)",
         "artist": "Erika de Bonis",
         "playlist": "Dead inside",
         "duration": "3:17"
@@ -6051,6 +6057,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 418,
-    "totalDurationSec": 164607,
+    "totalDurationSec": 164792,
     "lastUpdated": "Auto-generated"
 };
