@@ -553,6 +553,12 @@ const musicData = [
         "duration": "3:27"
     },
     {
+        "title": "Сайт",
+        "artist": "Раковая Выхухоль",
+        "playlist": "Main",
+        "duration": "2:26"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -827,6 +833,30 @@ const musicData = [
         "artist": "ASIAN KUNG-FU GENERATION",
         "playlist": "Japan",
         "duration": "1:30"
+    },
+    {
+        "title": "花になって - Be a flower",
+        "artist": "Ryokuoushoku Shakai",
+        "playlist": "Japan",
+        "duration": "3:20"
+    },
+    {
+        "title": "アニメ「負けヒロインが多すぎる！」オープニング映像【毎週土曜24:30~放送/配信中】",
+        "artist": "アニプレックス チャンネル",
+        "playlist": "Japan",
+        "duration": "1:30"
+    },
+    {
+        "title": "Akame ga Kill! Opening 2 | Liar Mask by Rika Mayama",
+        "artist": "Crunchyroll",
+        "playlist": "Japan",
+        "duration": "1:41"
+    },
+    {
+        "title": "LiSA「crossing field」／「ソードアート・オンライン」第1期1stクール ノンクレジットOP",
+        "artist": "アニプレックス チャンネル",
+        "playlist": "Japan",
+        "duration": "1:31"
     },
     {
         "title": "Лёд",
@@ -6069,6 +6099,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 419,
-    "totalDurationSec": 165089,
+    "totalDurationSec": 165717,
     "lastUpdated": "Auto-generated"
 };
