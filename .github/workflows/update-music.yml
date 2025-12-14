@@ -64,6 +64,6 @@ jobs:
 
           # Если изменений нет, git commit вернет ошибку. 
           # Конструкция "|| echo..." предотвращает падение скрипта, если обновлять нечего.
-          git commit -m "Auto-update music playlists [skip ci]" || echo "No changes to commit"
+          git commit -m "Auto-update music playlists" || echo "No changes to commit"
           
           git push
