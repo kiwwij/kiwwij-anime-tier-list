@@ -823,6 +823,12 @@ const musicData = [
         "duration": "1:31"
     },
     {
+        "title": "Re:Re: (Anime Size)",
+        "artist": "ASIAN KUNG-FU GENERATION",
+        "playlist": "Japan",
+        "duration": "1:30"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -2699,12 +2705,6 @@ const musicData = [
         "artist": "ZAMination",
         "playlist": "Dead inside",
         "duration": "4:25"
-    },
-    {
-        "title": "I sang the NTR song",
-        "artist": "Miori Celesta",
-        "playlist": "Dead inside",
-        "duration": "3:05"
     },
     {
         "title": "Nightcore - Suzume",
@@ -6063,6 +6063,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 419,
-    "totalDurationSec": 164999,
+    "totalDurationSec": 164904,
     "lastUpdated": "Auto-generated"
 };
