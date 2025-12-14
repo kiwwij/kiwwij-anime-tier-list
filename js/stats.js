@@ -1,43 +1,44 @@
 // --- НАСТРОЙКИ ---
-const CACHE_KEY = 'anime_genres_cache_v1'; // Ключ для сохранения данных в браузере
-const BATCH_SIZE = 50; // Сколько запросов отправлять одновременно (3 - безопасно для Kitsu)
-const BATCH_DELAY = 400; // Пауза между пакетами (мс)
+const CACHE_KEY = 'anime_stats_cache_v4'; // Меняем версию, чтобы обновить логику
+const BATCH_SIZE = 50; 
+const BATCH_DELAY = 450; 
 
 // Переводы жанров
 const genreTranslations = {
-    "Action": "Экшен",
-    "Adventure": "Приключения",
-    "Comedy": "Комедия",
+    "Action": "Экшен", 
+    "Adventure": "Приключения", 
+    "Comedy": "Комедия", 
     "Drama": "Драма",
-    "Fantasy": "Фэнтези",
-    "Sci-Fi": "Научная фантастика",
+    "Fantasy": "Фэнтези", 
+    "Sci-Fi": "Научная фантастика", 
     "Slice of Life": "Повседневность",
-    "Romance": "Романтика",
-    "Supernatural": "Сверхъестественное",
+    "Romance": "Романтика", 
+    "Supernatural": "Сверхъестественное", 
     "Mystery": "Детектив",
-    "Horror": "Ужасы",
-    "Psychological": "Психология",
-    "Thriller": "Триллер",
+    "Horror": "Ужасы", 
+    "Psychological": "Психология", 
+    "Thriller": "Триллер", 
     "Mecha": "Меха",
-    "Music": "Музыка",
-    "Sports": "Спорт",
-    "School": "Школа",
+    "Music": "Музыка", 
+    "Sports": "Спорт", 
+    "School": "Школа", 
     "Isekai": "Исекай",
-    "Shounen": "Сёнен",
-    "Seinen": "Сэйнэн",
-    "Shoujo": "Сёдзё",
+    "Shounen": "Сёнен", 
+    "Seinen": "Сэйнэн", 
+    "Shoujo": "Сёдзё", 
     "Josei": "Дзёсэй",
-    "Harem": "Гарем",
-    "Ecchi": "Этти",
-    "Martial Arts": "Боевые искусства",
+    "Harem": "Гарем", 
+    "Ecchi": "Этти", 
+    "Martial Arts": 
+    "Боевые искусства", 
     "Game": "Игры",
-    "Vampire": "Вампиры",
-    "Magic": "Магия",
-    "Friendship": "Дружба",
+    "Vampire": "Вампиры", 
+    "Magic": "Магия", 
+    "Friendship": "Дружба", 
     "Military": "Военное",
-    "Political": "Политика",
-    "Super Power": "Супер сила",
-    "Demons": "Демоны",
+    "Political": "Политика", 
+    "Super Power": "Супер сила", 
+    "Demons": "Демоны", 
     "Historical": "Историческое"
 };
 
@@ -47,15 +48,37 @@ const processedCountEl = document.getElementById('processedCount');
 const progressBar = document.getElementById('progressBar');
 const loadingPercent = document.getElementById('loadingPercent');
 const ctx = document.getElementById('genresChart').getContext('2d');
+const yearsGridEl = document.getElementById('yearsGrid');
+
+// Модальное окно
+const yearModal = document.getElementById('yearModal');
+const closeYearModalBtn = document.getElementById('closeYearModal');
+const modalYearTitle = document.getElementById('modalYearTitle');
+const yearAnimeList = document.getElementById('yearAnimeList');
 
 // Состояние
-let uniqueTitles = new Set();
+let uniqueTitles = new Set(); 
 let genreCounts = {};
+// Структура: { "2010": [ {title: "Naruto", image: "url"}, ... ], "2023": [] }
+let animeByYear = {}; 
 let myChart = null;
-// Загружаем кэш из памяти браузера сразу при старте
 let apiCache = JSON.parse(localStorage.getItem(CACHE_KEY) || '{}');
 
 document.addEventListener('DOMContentLoaded', () => {
+    // Настройка модального окна
+    if(closeYearModalBtn) {
+        closeYearModalBtn.addEventListener('click', () => {
+            yearModal.close();
+            document.body.style.overflow = '';
+        });
+    }
+    yearModal.addEventListener('click', (event) => {
+        if (event.target === yearModal) {
+            yearModal.close();
+            document.body.style.overflow = '';
+        }
+    });
+
     setTimeout(() => {
         if (typeof tierListData === 'undefined') {
             console.error("Данные не загружены.");
@@ -66,112 +89,221 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 async function startAnalysis() {
-    // 1. Сбор уникальных названий
-    collectUniqueTitles();
+    // 1. Сначала распределяем аниме по годам НА ОСНОВЕ ТВОЕГО СПИСКА
+    mapAnimeToUserYears();
+    
+    // Считаем уникальные тайтлы для статистики загрузки
+    collectUniqueTitles(); 
     totalCountEl.textContent = uniqueTitles.size;
     
-    // Инициализируем пустой график
     initChart();
-
+    
     const allTitles = Array.from(uniqueTitles);
     const titlesToFetch = [];
     let processedCounter = 0;
 
-    // 2. Сначала обрабатываем данные из КЭША (это мгновенно)
+    // 2. Обработка кэша (чтобы достать картинки и жанры)
     allTitles.forEach(title => {
         if (apiCache[title]) {
-            // Если есть в кэше - сразу считаем жанры
-            processGenresData(apiCache[title]);
+            processStatsData(apiCache[title], title);
             processedCounter++;
         } else {
-            // Если нет - добавляем в очередь на загрузку
             titlesToFetch.push(title);
         }
     });
 
-    // Обновляем график данными из кэша
     processedCountEl.textContent = processedCounter;
     updateProgress(processedCounter, allTitles.length);
     updateChart();
-
-    console.log(`Кэш: найдено ${processedCounter}, нужно загрузить ${titlesToFetch.length}`);
+    renderYearsStats(); // Рисуем года сразу (они уже заполнены названиями из mapAnimeToUserYears)
 
     if (titlesToFetch.length === 0) {
         finishLoading();
         return;
     }
 
-    // 3. Загружаем недостающие данные ПАКЕТАМИ (параллельно)
+    // 3. Загрузка недостающих данных (картинки + жанры)
     for (let i = 0; i < titlesToFetch.length; i += BATCH_SIZE) {
-        // Берем кусочек массива (например, 3 тайтла)
         const batch = titlesToFetch.slice(i, i + BATCH_SIZE);
         
-        // Запускаем их загрузку одновременно
-        await Promise.all(batch.map(title => fetchGenresForTitle(title)));
+        await Promise.all(batch.map(title => fetchStatsForTitle(title)));
         
-        // Обновляем счетчики
         processedCounter += batch.length;
         const currentDisplay = Math.min(processedCounter, allTitles.length);
         
         processedCountEl.textContent = currentDisplay;
         updateProgress(currentDisplay, allTitles.length);
         
-        // Сохраняем прогресс в память и обновляем график
         saveCache();
         updateChart();
-
-        // Пауза между пакетами, чтобы не забанили IP
+        renderYearsStats(); // Обновляем картинки в реальном времени
         await wait(BATCH_DELAY);
     }
     
     finishLoading();
 }
 
-// Функция обработки полученных жанров (добавление в статистику)
-function processGenresData(genres) {
-    genres.forEach(originalGenre => {
-        const ruGenre = genreTranslations[originalGenre] || originalGenre;
-        genreCounts[ruGenre] = (genreCounts[ruGenre] || 0) + 1;
+// ГЛАВНАЯ НОВАЯ ФУНКЦИЯ: Берет года из твоей структуры данных
+function mapAnimeToUserYears() {
+    // Очищаем
+    animeByYear = {};
+
+    Object.keys(tierListData).forEach(key => {
+        // Проверяем, похож ли ключ на год (4 цифры)
+        // Если у тебя папка называется '2010', она пройдет. Если 'Энергетики' - нет.
+        if (key.match(/^\d{4}$/)) {
+            const year = parseInt(key);
+            if (!animeByYear[year]) {
+                animeByYear[year] = [];
+            }
+
+            const category = tierListData[key];
+            // Пробегаем по рангам S, A, B, C...
+            Object.values(category).forEach(rankList => {
+                if (Array.isArray(rankList)) {
+                    rankList.forEach(item => {
+                        if (item.title) {
+                            // Добавляем аниме в этот год.
+                            // Картинки пока нет, она подтянется позже из API/Кэша
+                            animeByYear[year].push({
+                                title: item.title.trim(),
+                                image: null 
+                            });
+                        }
+                    });
+                }
+            });
+        }
     });
 }
 
-// Функция загрузки одного тайтла
-async function fetchGenresForTitle(title) {
+function processStatsData(data, title) {
+    if (!data) return;
+
+    // 1. Считаем жанры (общая статистика)
+    if (data.genres && Array.isArray(data.genres)) {
+        data.genres.forEach(originalGenre => {
+            const ruGenre = genreTranslations[originalGenre] || originalGenre;
+            genreCounts[ruGenre] = (genreCounts[ruGenre] || 0) + 1;
+        });
+    }
+
+    // 2. Обновляем картинки в уже существующей структуре годов
+    // Мы НЕ добавляем года сюда, мы только ищем тайтл в animeByYear и даем ему картинку
+    Object.keys(animeByYear).forEach(year => {
+        const list = animeByYear[year];
+        const animeRef = list.find(a => a.title === title);
+        if (animeRef && data.image) {
+            animeRef.image = data.image;
+        }
+    });
+}
+
+async function fetchStatsForTitle(title) {
     try {
         const url = `https://kitsu.io/api/edge/anime?filter[text]=${encodeURIComponent(title)}&include=genres&page[limit]=1`;
         const response = await fetch(url);
         
         if (!response.ok) {
-            console.warn(`Ошибка API (${response.status}) для: ${title}`);
-            // Записываем пустой массив в кэш, чтобы не долбить этот тайтл снова при перезагрузке
-            apiCache[title] = []; 
+            apiCache[title] = { genres: [], image: null }; 
             return;
         }
         
         const data = await response.json();
-        const foundGenres = [];
+        
+        let foundGenres = [];
+        let foundImage = null;
 
-        if (data.included) {
-            data.included.forEach(item => {
-                if (item.type === 'genres') {
-                    foundGenres.push(item.attributes.name);
-                }
-            });
+        if (data.data && data.data.length > 0) {
+            const attrs = data.data[0].attributes;
+            
+            // Картинка
+            if (attrs && attrs.posterImage) {
+                foundImage = attrs.posterImage.small || attrs.posterImage.original;
+            }
+
+            // Жанры
+            if (data.included) {
+                data.included.forEach(item => {
+                    if (item.type === 'genres') {
+                        foundGenres.push(item.attributes.name);
+                    }
+                });
+            }
         }
 
-        // Сохраняем в кэш и обрабатываем
-        apiCache[title] = foundGenres;
-        processGenresData(foundGenres);
+        const statsObject = {
+            genres: foundGenres,
+            image: foundImage
+            // year: foundYear -- Убрали сохранение года из API
+        };
+
+        apiCache[title] = statsObject;
+        processStatsData(statsObject, title);
 
     } catch (error) {
         console.warn(`Сбой сети для ${title}:`, error);
     }
 }
 
+function renderYearsStats() {
+    if (!yearsGridEl) return;
+    yearsGridEl.innerHTML = '';
+    
+    // Получаем список лет из твоих данных и сортируем по убыванию
+    const years = Object.keys(animeByYear).map(Number).sort((a, b) => b - a);
+
+    years.forEach(y => {
+        const animeList = animeByYear[y] || [];
+        const count = animeList.length;
+        
+        const card = document.createElement('div');
+        card.className = 'year-card';
+        // Если вдруг список пуст (технически), делаем прозрачным
+        if (count === 0) card.classList.add('empty');
+        
+        card.onclick = () => openYearModal(y);
+
+        card.innerHTML = `
+            <span class="year-label">${y}</span>
+            <span class="year-count">${count}</span>
+        `;
+        
+        yearsGridEl.appendChild(card);
+    });
+}
+
+function openYearModal(year) {
+    modalYearTitle.textContent = `${year} год`;
+    yearAnimeList.innerHTML = '';
+    
+    const list = animeByYear[year];
+    
+    if (list && list.length > 0) {
+        list.forEach(anime => {
+            // Если картинка еще не загрузилась (или ее нет), ставим заглушку
+            const imgSrc = anime.image ? anime.image : 'https://via.placeholder.com/150x220/1f2937/9ca3af?text=Loading...';
+
+            const card = document.createElement('div');
+            card.className = 'year-anime-card';
+            card.innerHTML = `
+                <img src="${imgSrc}" alt="${anime.title}" class="year-anime-poster" loading="lazy">
+                <span class="year-anime-title">${anime.title}</span>
+            `;
+            yearAnimeList.appendChild(card);
+        });
+    } else {
+        yearAnimeList.innerHTML = '<p class="text-muted">Ничего не найдено.</p>';
+    }
+
+    yearModal.showModal();
+    document.body.style.overflow = 'hidden';
+}
+
 function collectUniqueTitles() {
+    uniqueTitles.clear();
     Object.keys(tierListData).forEach(key => {
         if (key === 'Энергетики') return;
-        
         const category = tierListData[key];
         Object.values(category).forEach(rankList => {
             if (Array.isArray(rankList)) {
@@ -186,19 +318,18 @@ function collectUniqueTitles() {
 }
 
 function updateChart() {
+    if (!myChart) return;
     const sortedGenres = Object.entries(genreCounts)
         .sort((a, b) => b[1] - a[1])
         .slice(0, 15);
-
-    const labels = sortedGenres.map(item => item[0]);
-    const data = sortedGenres.map(item => item[1]);
-
-    myChart.data.labels = labels;
-    myChart.data.datasets[0].data = data;
+    
+    myChart.data.labels = sortedGenres.map(item => item[0]);
+    myChart.data.datasets[0].data = sortedGenres.map(item => item[1]);
     myChart.update();
 }
 
 function initChart() {
+    if (!ctx) return;
     myChart = new Chart(ctx, {
         type: 'doughnut',
         data: {
@@ -213,67 +344,48 @@ function initChart() {
                 ],
                 borderWidth: 2, 
                 borderColor: '#1f2937', 
-                hoverOffset: 15, // Насколько увеличивается сегмент
-                hoverBorderColor: '#ffffff', 
-                hoverBorderWidth: 3 
+                hoverOffset: 15
             }]
         },
         options: {
             responsive: true,
             maintainAspectRatio: false,
-            layout: {
-                padding: 20 // <--- ДОБАВЛЕН ОТСТУП, ЧТОБЫ НЕ ОБРЕЗАЛОСЬ
-            },
+            layout: { padding: 20 },
             plugins: {
                 legend: {
                     position: 'right',
                     labels: { 
                         color: '#f3f4f6', 
-                        font: { size: 16, family: "'Inter', sans-serif", weight: '500' },
-                        padding: 20,
+                        font: { size: 14, family: "'Inter', sans-serif" },
                         boxWidth: 15
                     }
-                },
-                tooltip: {
-                    callbacks: {
-                        label: function(context) {
-                            let label = context.label || '';
-                            if (label) {
-                                label += ': ';
-                            }
-                            let value = context.raw;
-                            let total = context.chart._metasets[context.datasetIndex].total;
-                            let percentage = Math.round((value / total) * 100) + '%';
-                            return label + value + ' (' + percentage + ')';
-                        }
-                    }
                 }
-            },
-            animation: {
-                animateScale: true,
-                animateRotate: true
             }
         }
     });
 }
 
 function updateProgress(current, total) {
+    if (!progressBar) return;
     const percent = Math.round((current / total) * 100);
     progressBar.style.width = `${percent}%`;
     loadingPercent.textContent = `${percent}%`;
 }
 
 function finishLoading() {
-    document.getElementById('progressContainer').style.opacity = '0.5';
-    loadingPercent.textContent = "Готово!";
-    saveCache(); // Финальное сохранение
+    const pContainer = document.getElementById('progressContainer');
+    if (pContainer) {
+        pContainer.style.opacity = '0.5';
+        loadingPercent.textContent = "Готово!";
+    }
+    saveCache();
 }
 
 function saveCache() {
     try {
         localStorage.setItem(CACHE_KEY, JSON.stringify(apiCache));
     } catch (e) {
-        console.warn('Кэш переполнен (Quota exceeded)');
+        console.warn('Кэш переполнен');
     }
 }
 

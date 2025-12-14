@@ -481,6 +481,11 @@ const tierListData = {
                 ruTitle: "Когда плачут цикады OVA-1",
                 review: ""
             },
+            {
+                title: "Himouto! Umaru-chan",
+                ruTitle: "Двуличная сестренка Умару",
+                review: ""
+            },
         ],
         'E': [],
         'F': []
@@ -1399,6 +1404,16 @@ const tierListData = {
                 ruTitle: "Игра, более реальная, чем сама реальность",
                 review: ""
             },
+            {
+                title: "Meikyuu Black Company",
+                ruTitle: "Тяжкий труд в подземелье",
+                review: ""
+            },
+            {
+                title: "Senpai ga Uzai Kouhai no Hanashi",
+                ruTitle: "Мой сэмпай раздражает!",
+                review: ""
+            },
         ],
         'D': [
             {
@@ -2012,6 +2027,11 @@ const tierListData = {
                 ruTitle: "Низкоуровневый Томозаки 2",
                 review: ""
             },
+            {
+                title: "Shinmai Ossan Boukensha",
+                ruTitle: "Невероятный новичок средних лет, прошедший тренировки на грани смерти",
+                review: ""
+            },
         ],
         'E': [
             {
@@ -2092,6 +2112,11 @@ const tierListData = {
                 title: "Sanda",
                 ruTitle: "Санда",
                 review: "Хорошая, необычная анимешка с затигивающим сюжетом и красивой рисовкой."
+            },
+            {
+                title: "Ragna Crimson",
+                ruTitle: "Рагна Багровый",
+                review: "Вроде аниме про имба гг, вроде зражается против невероятно сильных противников, но смотреть почему-то интересно. 17-ая серия удивила, но ненадолго. После просмотра было чувство дежавю. Как будто я смотрел это аниме раньше... странно."
             },
         ],
         'C': [

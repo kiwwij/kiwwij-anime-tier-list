@@ -20,7 +20,7 @@
     <header>
         <h1>Статистика просмотренных аниме</h1>
         <div class="controls">
-            <a href="index.html" class="btn btn-link">Назад к Тир-Листам</a>
+            <a href="index.html" class="btn btn-link">← Назад к Тир-Листам</a>
         </div>
     </header>
 
@@ -51,6 +51,35 @@
                 <canvas id="genresChart"></canvas>
             </div>
         </div>
+        
+        <div class="years-section">
+    <h2>Хронология релизов</h2>
+    <p class="text-muted" style="text-align: center; margin-bottom: 2rem;">
+        Нажмите на год, чтобы увидеть список тайтлов.
+    </p>
+    <div class="years-grid" id="yearsGrid">
+        </div>
+</div>
+
+<dialog id="yearModal">
+    <div class="modal-content year-modal-content">
+        <button class="close-modal" id="closeYearModal">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+        
+        <div class="year-modal-header">
+            <h2 id="modalYearTitle">2023</h2>
+            <p class="text-muted">Тайтлы, просмотренные в этом году</p>
+        </div>
+
+        <div class="year-modal-body">
+            <div class="year-anime-grid" id="yearAnimeList">
+                </div>
+        </div>
+    </div>
+</dialog>
     </main>
 
     <footer class="site-footer">

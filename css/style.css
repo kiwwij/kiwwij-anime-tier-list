@@ -1753,3 +1753,292 @@ dialog::backdrop {
         pointer-events: auto;
     }
 }
+
+/* Секция годов */
+.years-section {
+    margin-top: 0rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+.years-section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #f3f4f6;
+}
+
+.years-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 1rem;
+}
+
+.year-card {
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.year-card:hover {
+    transform: translateY(-3px);
+    border-color: #6366f1;
+}
+
+.year-card .year-label {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #9ca3af;
+    margin-bottom: 0.5rem;
+}
+
+.year-card .year-count {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #f3f4f6;
+}
+
+/* Подсветка для текущего года или топа */
+.year-card.highlight {
+    background-color: rgba(99, 102, 241, 0.1);
+    border-color: #6366f1;
+}
+.year-card.highlight .year-count {
+    color: #818cf8;
+}
+
+/* --- СТИЛИ ДЛЯ ХРОНОЛОГИИ --- */
+
+.years-section {
+    margin-top: 4rem;
+    width: 100%;
+    /* Центрируем блок */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.years-section h2 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.years-grid {
+    display: grid;
+    /* Адаптивная сетка */
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.year-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.year-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent);
+    box-shadow: 0 10px 20px -5px rgba(99, 102, 241, 0.3);
+}
+
+/* Если год пустой (0 аниме) - делаем его бледным */
+.year-card.empty {
+    opacity: 0.3;
+    pointer-events: none;
+    border-style: dashed;
+}
+
+.year-label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    margin-bottom: 0.25rem;
+}
+
+.year-count {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--text-main);
+}
+
+.year-card:hover .year-label { color: #fff; }
+.year-card:hover .year-count { color: var(--accent); }
+
+/* --- МОДАЛЬНОЕ ОКНО ГОДА (Специфичные стили) --- */
+.year-modal-content {
+    /* Переопределяем Flex layout обычного модального окна, 
+       нам тут нужен просто блок с прокруткой */
+    flex-direction: column !important; 
+    height: 80vh !important;
+    max-width: 1000px;
+    background-color: var(--bg-body);
+}
+
+.year-modal-header {
+    padding: 2rem 2rem 1rem 2rem;
+    background-color: var(--bg-card);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.year-modal-body {
+    padding: 2rem;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+/* Сетка аниме внутри модалки */
+.year-anime-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1.5rem;
+}
+
+.year-anime-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.year-anime-card:hover {
+    transform: translateY(-5px);
+}
+
+.year-anime-poster {
+    width: 100%;
+    aspect-ratio: 2/3;
+    border-radius: 8px;
+    object-fit: cover;
+    background-color: #000;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.year-anime-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #e5e7eb;
+    text-align: center;
+    
+    /* Обрезка текста до 2 строк */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Адаптив для мобилок */
+@media (max-width: 640px) {
+    .year-anime-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
+
+/* ================================== */
+/* --- Стили для навигации на главной странице (index.html) --- */
+/* ================================== */
+
+/* Общий вид кнопок-ссылок */
+.tierlist-page .controls .btn-link {
+    /* Наследуем базовые стили из body/a, но добавляем оформление */
+    background-color: var(--bg-card); 
+    color: var(--text-main);
+    padding: 0.5rem 0.9rem; 
+    border: 1px solid var(--border-color, #4b5563); /* Используем переменную бордера, или жесткий цвет */
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    white-space: nowrap; 
+    font-size: 0.95rem;
+    line-height: 1; /* Для выравнивания текста */
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem; /* Расстояние для иконок */
+}
+
+/* Эффект при наведении */
+.tierlist-page .controls .btn-link:hover {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Стили для ссылок с иконками (Steam) */
+.tierlist-page .controls .btn-steam img {
+    height: 1.25rem;
+    width: 1.25rem;
+    filter: invert(1); /* Сделает Steam лого белым */
+    transition: none;
+}
+
+/* Стили для SELECT-ов (чтобы они выглядели как кнопки) */
+.tierlist-page .controls select {
+    background-color: var(--bg-card);
+    color: var(--text-main);
+    border: 1px solid var(--border-color, #4b5563);
+    border-radius: 8px;
+    padding: 0.5rem 2rem 0.5rem 0.9rem; /* Отступ справа для стрелки */
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    appearance: none; /* Убираем стандартную стрелку */
+    /* Добавляем свою стрелку (SVG, закодированный) */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%239ca3af'%3e%3cpath fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    background-size: 1.25rem;
+    transition: border-color 0.2s;
+}
+
+.tierlist-page .controls select:hover {
+    border-color: var(--accent);
+}
+
+/* Адаптивность для мобильных устройств, если навигация выстраивается в столбец */
+@media (max-width: 640px) {
+    .tierlist-page header .controls {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .tierlist-page .controls .btn-link, 
+    .tierlist-page .controls select {
+        width: 100%;
+        text-align: center;
+        justify-content: center; /* Центрируем содержимое, включая иконку */
+    }
+    .tierlist-page .controls .btn-link {
+        padding: 0.75rem 1rem;
+    }
+    .tierlist-page .controls select {
+        padding-left: 1rem;
+    }
+}
+
+/* Иконка - ОРИГИНАЛЬНЫЙ ЦВЕТ */
+.tierlist-page .controls .btn-steam img {
+    height: 1.35rem;
+    width: 1.35rem;
+    filter: none; 
+    transition: all 0.3s ease;
+}
