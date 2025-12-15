@@ -932,7 +932,7 @@ const musicData = [
     },
     {
         "title": "showdown",
-        "artist": "Shadowraze - Topic",
+        "artist": "shadowraze",
         "playlist": "Dead inside",
         "duration": "2:01"
     },
