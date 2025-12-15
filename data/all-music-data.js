@@ -4093,7 +4093,7 @@ const musicData = [
         "duration": "1:35"
     },
     {
-        "title": "Гена Букин (feat. ХЛЕБ, DK, MORGENSHTERN & Young P&H)",
+        "title": "Джарахов, Тилэкс, Big Russian Boss, Young P&H, DK, MORGENSHTERN & ХЛЕБ — Гена Букин",
         "artist": "ДЖАРАХОВ",
         "playlist": "Dead inside",
         "duration": "7:29"
