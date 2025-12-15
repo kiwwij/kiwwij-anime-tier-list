@@ -38,8 +38,8 @@ const steamData = {
         {
             "appid": 2215430,
             "name": "Ghost of Tsushima DIRECTOR'S CUT",
-            "playtime_2weeks": 6.9,
-            "hours": 14.6,
+            "playtime_2weeks": 7.9,
+            "hours": 15.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2215430/header.jpg",
             "url": "https://store.steampowered.com/app/2215430"
         },
