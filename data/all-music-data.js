@@ -4825,8 +4825,8 @@ const musicData = [
         "duration": "3:51"
     },
     {
-        "title": "LELY45 - Моя душа",
-        "artist": "MG Music",
+        "title": "Моя душа",
+        "artist": "Lely45",
         "playlist": "Dead inside",
         "duration": "2:50"
     },
