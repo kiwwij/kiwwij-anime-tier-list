@@ -1880,7 +1880,7 @@ const musicData = [
     },
     {
         "title": "Винтаж-Ева я любила тебя(HARD REMIX) ремикс  с тик тока",
-        "artist": "Dimas",
+        "artist": "Fly Music",
         "playlist": "Dead inside",
         "duration": "3:00"
     },
