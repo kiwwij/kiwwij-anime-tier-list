@@ -29,7 +29,7 @@ if (typeof tierListData !== 'undefined') {
             'S': [
                 { 
                     title: "The Elder Scrolls V: Skyrim",
-                    review: "Играл в Скайрим всё детство, прошёл всего лишь несколько раз. Наиграл +-7к часов, да на пиратке, но всё же. Огромный мир, бесконечные возможности, разные билды, секреты мира + моды делают эту игру вечной классикой. Прошёл на платину.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/489830/",
                     // img: "games/my_game.jpg" Если не найдет в API, возьмет это
                 },
                 { 
@@ -38,11 +38,11 @@ if (typeof tierListData !== 'undefined') {
                 },
                 { 
                     title: "Baldur's Gate III",
-                    review: "Игра затянула с первых минут. Великолепный сюжет с развилками, персонажи, атмосфера и геймплей, билды + моды дают повод несколько раз перепройти. Прошёл на платину.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1086940/",
                 },
                 { 
                     title: "Elden Ring",
-                    review: "1ая солус лайк игра от Бабадзаки. После того как я прошёл все ДСы, я понял, что по факту соулс лайки игры не такие уж и сложные. Прошёл на платину + все DLC.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1245620/",
                 },
                 { 
                     title: "Minecraft",
@@ -54,7 +54,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 { 
                     title: "Tiny Bunny",
-                    review: "Невероятная визуальная новелла. Прошёл на платину.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1421250/",
                 },
                 { 
                     title: "Sea of Thieves",
@@ -64,11 +64,11 @@ if (typeof tierListData !== 'undefined') {
             'A': [
                 { 
                     title: "The Last of Us Part I",
-                    review: "Невероятная графика, атмосфера, сюжет и персонажи.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1888930/",
                 },
                 { 
                     title: "Atomic Heart",
-                    review: "Отличная графика, атмосфера, музыка, неплохой сюжет и некоторые персонажи.",
+                    review: "Ревью - https://steamcommunity.com/profiles/76561199512523461/recommended/668580/",
                 },
                 { 
                     title: "Cyberpunk 2077",
@@ -76,23 +76,23 @@ if (typeof tierListData !== 'undefined') {
                 },
                 { 
                     title: "Dark Souls: Remastered",
-                    review: "Самая простая, но самая атмосферная часть серии. Прошёл на платину + все DLC.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/570940/",
                 },
                 { 
                     title: "Dark Souls II: Scholar of the First Sin",
-                    review: "Самая сложная часть серии. Прошёл на платину + все DLC.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/335300/",
                 },
                 { 
                     title: "Dark Souls III",
-                    review: "По атмосфере топ, но не дотягивает до 1ой части. Прошёл на платину + все DLC.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/374320/",
                 },
                 { 
                     title: "FINAL FANTASY VII REMAKE INTERGRADE",
-                    review: "Отличная графика, оптимизация, музыка могла бы быть лучше. Милые персонажи. Прошёл на платину.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1462040/",
                 },
                 { 
                     title: "Hollow Knight: Silksong",
-                    review: "Кайфовая метроидвания с атмосферой. Прошёл на платину.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1030300/",
                 },
                 { 
                     title: "It takes two",
@@ -100,11 +100,11 @@ if (typeof tierListData !== 'undefined') {
                 },
                 { 
                     title: "Lies of P",
-                    review: "Дарк соул про Пиноккио. Прошёл на платину. 1ое DLC было очень интересным, жду 2ое.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1627720/",
                 },
                 { 
                     title: "Raft",
-                    review: "Кайфовая игра на выживание с друзьями. Прошёл на платину.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/648800/",
                 },
                 { 
                     title: "Tomb Raider (2013)",
@@ -126,7 +126,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 { 
                     title: "Elden Ring NIGHTREIGN",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/2622380/",
                 },
                 { 
                     title: "Escape the Backrooms",
@@ -162,7 +162,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 { 
                     title: "MiSide",
-                    review: "Прикольная игрушка. Прошёл на платину. Жду продолжение.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/2527500/",
                 },
                 { 
                     title: "My Therapy",
@@ -174,11 +174,11 @@ if (typeof tierListData !== 'undefined') {
                 },
                 { 
                     title: "Resident Evil 4 Remake",
-                    review: "Отличная графика, атмосфера, музыка и персонажи. Но бывали вилеты, хард сложность - просто больше хп и кол-во мобов. Прошёл на платину.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/2050650/",
                 },
                 { 
                     title: "Resident Evil Village",
-                    review: "Чутка лучше, чем 4ая часть. Прошёл на платину.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1196590/",
                 },
                 { 
                     title: "Rise of the Tomb Raider",
@@ -186,7 +186,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 { 
                     title: "Sekiro: shadows die twice",
-                    review: "Кайфовая игра, но что-то не моё, не могу поставить на уровень ДСов. Прошёл бы на платину, если была бы на моём аккаунте.",
+                    review: "Ревью - https://steamcommunity.com/profiles/76561199512523461/recommended/814380/",
                 },
                 { 
                     title: "Ship of Fools",
@@ -295,7 +295,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Ghost of Tsushima",
-                    review: "Прикольная, красивая и оптимизированная игра. Единственная проблема - это немного скучный сюжет, в котором нет возможно скипать кат-сцены, а они занимают ну оч много времени. Основная квестовая линия, то есть сам сюжет игры, очень короткая. Я проходил только те доп квесты, за которые давали шёлк. По другому его не получить. Меня ещё бесят стелс мисси, в которых из-за одной ошибки ты будешь делать ВСЁ сначала. Слушать диалоги, идти доточки и т.д.",
+                    review: "Ревью - ",
                 },
             ],
             'C': [
@@ -361,7 +361,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 { 
                     title: "The Quarry",
-                    review: "Кайфовая игрушка, была бы, если бы выборы роляли, а не иллюзия выбора. Прошёл на платину.",
+                    review: "Ревбю - https://steamcommunity.com/id/serhiosergey/recommended/1577120/",
                 },
                 { 
                     title: "Sally Face",
@@ -379,7 +379,7 @@ if (typeof tierListData !== 'undefined') {
             'D': [
                 { 
                     title: "The Dark Queen of Mortholme",
-                    review: "Прикольная игра, но слишком короткая. Платина. Концепт 10/10, Реализация 4/10, Диалоги 4/10.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/3587610/",
                 },
                 { 
                     title: "Knock-knock",
@@ -477,7 +477,7 @@ if (typeof tierListData !== 'undefined') {
             'F': [
                 { 
                     title: "Counter-Strike 2",
-                    review: "1к часов в пустую.",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/730/",
                 },
                 { 
                     title: "The Witcher 3: Wild Hunt",
