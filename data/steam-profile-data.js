@@ -52,6 +52,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/750920"
         },
         {
+            "appid": 435150,
+            "name": "Divinity: Original Sin 2",
+            "playtime_2weeks": 0.5,
+            "hours": 27.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/435150/header.jpg",
+            "url": "https://store.steampowered.com/app/435150"
+        },
+        {
             "appid": 1905180,
             "name": "OBS Studio",
             "playtime_2weeks": 0.3,
