@@ -8,7 +8,7 @@ const steamData = {
         "statusColor": "#4CAF50"
     },
     "stats": {
-        "total_games": 240
+        "total_games": 241
     },
     "recent_games": [
         {
