@@ -3187,12 +3187,6 @@ const musicData = [
         "duration": "3:19"
     },
     {
-        "title": "Банкомат",
-        "artist": "Dead Blonde",
-        "playlist": "Dead inside",
-        "duration": "3:20"
-    },
-    {
         "title": "Музыка нас связала",
         "artist": "Мираж",
         "playlist": "Dead inside",
@@ -6099,6 +6093,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 453,
-    "totalDurationSec": 165717,
+    "totalDurationSec": 165517,
     "lastUpdated": "Auto-generated"
 };
