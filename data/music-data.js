@@ -42,7 +42,7 @@ const musicData = [
     },
     {
         "title": "Эскапист",
-        "artist": "Кишлак",
+        "artist": "Kishlak - Topic",
         "playlist": "Main"
     },
     {
@@ -57,7 +57,7 @@ const musicData = [
     },
     {
         "title": "держаться за руки",
-        "artist": "кариолемма",
+        "artist": "кариолемма - Topic",
         "playlist": "Main"
     },
     {
@@ -137,7 +137,7 @@ const musicData = [
     },
     {
         "title": "The Love I Lost",
-        "artist": "Fried By Fluoride",
+        "artist": "Fried By Fluoride - Topic",
         "playlist": "Main"
     },
     {
@@ -147,7 +147,7 @@ const musicData = [
     },
     {
         "title": "стало похуй",
-        "artist": "kurokov",
+        "artist": "kurokov - Topic",
         "playlist": "Main"
     },
     {
@@ -312,7 +312,7 @@ const musicData = [
     },
     {
         "title": "machine",
-        "artist": "auratoshi",
+        "artist": "auratoshi - Topic",
         "playlist": "Main"
     },
     {
@@ -372,12 +372,12 @@ const musicData = [
     },
     {
         "title": "целуй меня",
-        "artist": "cardinparis",
+        "artist": "cardinparis - Topic",
         "playlist": "Main"
     },
     {
-        "title": "Confess Your Love (feat. ola.wav)",
-        "artist": "Jiandro",
+        "title": "Jiandro - Confess your love (Audio) ft. ola.wav",
+        "artist": "jiandro",
         "playlist": "Main"
     },
     {
@@ -427,7 +427,7 @@ const musicData = [
     },
     {
         "title": "twenty four",
-        "artist": "overtonight",
+        "artist": "overtonight - Topic",
         "playlist": "Main"
     },
     {
@@ -437,7 +437,7 @@ const musicData = [
     },
     {
         "title": "Так прикро",
-        "artist": "Апатія",
+        "artist": "Апатія - Topic",
         "playlist": "Main"
     },
     {
