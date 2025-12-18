@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 1421250,
             "name": "Tiny Bunny",
-            "playtime_2weeks": 9.7,
+            "playtime_2weeks": 9.6,
             "hours": 29.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1421250/header.jpg",
             "url": "https://store.steampowered.com/app/1421250"
@@ -52,20 +52,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/750920"
         },
         {
+            "appid": 1501750,
+            "name": "Lords of the Fallen",
+            "playtime_2weeks": 1.3,
+            "hours": 1.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
+            "url": "https://store.steampowered.com/app/1501750"
+        },
+        {
             "appid": 435150,
             "name": "Divinity: Original Sin 2",
             "playtime_2weeks": 0.9,
             "hours": 27.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/435150/header.jpg",
             "url": "https://store.steampowered.com/app/435150"
-        },
-        {
-            "appid": 1501750,
-            "name": "Lords of the Fallen",
-            "playtime_2weeks": 0.8,
-            "hours": 0.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
-            "url": "https://store.steampowered.com/app/1501750"
         },
         {
             "appid": 1905180,
