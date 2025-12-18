@@ -44,20 +44,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2215430"
         },
         {
+            "appid": 1501750,
+            "name": "Lords of the Fallen",
+            "playtime_2weeks": 2.8,
+            "hours": 2.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
+            "url": "https://store.steampowered.com/app/1501750"
+        },
+        {
             "appid": 750920,
             "name": "Shadow of the Tomb Raider",
             "playtime_2weeks": 2.5,
             "hours": 2.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg",
             "url": "https://store.steampowered.com/app/750920"
-        },
-        {
-            "appid": 1501750,
-            "name": "Lords of the Fallen",
-            "playtime_2weeks": 2.3,
-            "hours": 2.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
-            "url": "https://store.steampowered.com/app/1501750"
         },
         {
             "appid": 435150,
