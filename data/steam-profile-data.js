@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/8d5162a8c1cfe4f6a85d17c5930549734b62935b_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "Online",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 240
@@ -38,7 +38,7 @@ const steamData = {
         {
             "appid": 2215430,
             "name": "Ghost of Tsushima DIRECTOR'S CUT",
-            "playtime_2weeks": 8.4,
+            "playtime_2weeks": 8.3,
             "hours": 16.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2215430/header.jpg",
             "url": "https://store.steampowered.com/app/2215430"
