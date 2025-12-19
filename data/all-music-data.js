@@ -2737,6 +2737,12 @@ const musicData = [
         "duration": "4:25"
     },
     {
+        "title": "I sang the NTR song",
+        "artist": "Miori Celesta",
+        "playlist": "Dead inside",
+        "duration": "3:05"
+    },
+    {
         "title": "Nightcore - Suzume",
         "artist": "Plume",
         "playlist": "Dead inside",
@@ -5383,12 +5389,6 @@ const musicData = [
         "duration": "1:54"
     },
     {
-        "title": "Код Гиасс",
-        "artist": "dabbackwood",
-        "playlist": "Dead inside",
-        "duration": "2:27"
-    },
-    {
         "title": "забери",
         "artist": "MADAMA",
         "playlist": "Dead inside",
@@ -6087,6 +6087,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 465,
-    "totalDurationSec": 165332,
+    "totalDurationSec": 165370,
     "lastUpdated": "Auto-generated"
 };
