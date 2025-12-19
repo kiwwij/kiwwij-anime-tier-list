@@ -46,7 +46,7 @@ const steamData = {
         {
             "appid": 1421250,
             "name": "Tiny Bunny",
-            "playtime_2weeks": 6.7,
+            "playtime_2weeks": 6.3,
             "hours": 29.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1421250/header.jpg",
             "url": "https://store.steampowered.com/app/1421250"
