@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/8d5162a8c1cfe4f6a85d17c5930549734b62935b_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -28,6 +28,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2444750"
         },
         {
+            "appid": 1501750,
+            "name": "Lords of the Fallen",
+            "playtime_2weeks": 8.2,
+            "hours": 8.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
+            "url": "https://store.steampowered.com/app/1501750"
+        },
+        {
             "appid": 2215430,
             "name": "Ghost of Tsushima DIRECTOR'S CUT",
             "playtime_2weeks": 7.9,
@@ -36,17 +44,9 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2215430"
         },
         {
-            "appid": 1501750,
-            "name": "Lords of the Fallen",
-            "playtime_2weeks": 7.7,
-            "hours": 7.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
-            "url": "https://store.steampowered.com/app/1501750"
-        },
-        {
             "appid": 1421250,
             "name": "Tiny Bunny",
-            "playtime_2weeks": 6.9,
+            "playtime_2weeks": 6.7,
             "hours": 29.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1421250/header.jpg",
             "url": "https://store.steampowered.com/app/1421250"
