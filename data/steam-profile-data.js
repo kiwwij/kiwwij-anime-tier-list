@@ -52,14 +52,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/750920"
         },
         {
-            "appid": 1421250,
-            "name": "Tiny Bunny",
-            "playtime_2weeks": 1.5,
-            "hours": 29.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1421250/header.jpg",
-            "url": "https://store.steampowered.com/app/1421250"
-        },
-        {
             "appid": 435150,
             "name": "Divinity: Original Sin 2",
             "playtime_2weeks": 0.9,
@@ -74,6 +66,14 @@ const steamData = {
             "hours": 182.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
+        },
+        {
+            "appid": 1421250,
+            "name": "Tiny Bunny",
+            "playtime_2weeks": 0.1,
+            "hours": 29.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1421250/header.jpg",
+            "url": "https://store.steampowered.com/app/1421250"
         },
         {
             "appid": 431960,
