@@ -22,8 +22,8 @@ const steamData = {
         {
             "appid": 1501750,
             "name": "Lords of the Fallen",
-            "playtime_2weeks": 9.3,
-            "hours": 9.3,
+            "playtime_2weeks": 9.8,
+            "hours": 9.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
             "url": "https://store.steampowered.com/app/1501750"
         },
@@ -38,7 +38,7 @@ const steamData = {
         {
             "appid": 2444750,
             "name": "Shape of Dreams",
-            "playtime_2weeks": 6.2,
+            "playtime_2weeks": 6.0,
             "hours": 12.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
             "url": "https://store.steampowered.com/app/2444750"
