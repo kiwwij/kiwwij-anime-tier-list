@@ -28,20 +28,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1501750"
         },
         {
-            "appid": 2444750,
-            "name": "Shape of Dreams",
-            "playtime_2weeks": 8.3,
-            "hours": 12.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
-            "url": "https://store.steampowered.com/app/2444750"
-        },
-        {
             "appid": 2215430,
             "name": "Ghost of Tsushima DIRECTOR'S CUT",
             "playtime_2weeks": 7.9,
             "hours": 16.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2215430/header.jpg",
             "url": "https://store.steampowered.com/app/2215430"
+        },
+        {
+            "appid": 2444750,
+            "name": "Shape of Dreams",
+            "playtime_2weeks": 7.7,
+            "hours": 12.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
+            "url": "https://store.steampowered.com/app/2444750"
         },
         {
             "appid": 750920,
