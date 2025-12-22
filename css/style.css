@@ -2042,3 +2042,39 @@ dialog::backdrop {
     filter: none; 
     transition: all 0.3s ease;
 }
+
+/* Эффект для Breakcore (Cyan/Glitch) */
+.hover-glitch:hover::before {
+    opacity: 1;
+    background: linear-gradient(135deg, rgba(20, 184, 166, 0.8) 0%, rgba(13, 148, 136, 0.95) 100%);
+}
+.hover-glitch:hover { 
+    border-color: #14b8a6; 
+    box-shadow: 0 10px 30px -5px rgba(20, 184, 166, 0.4); 
+}
+
+/* Центрирование элементов во втором ряду (для 5 элементов) */
+@media (min-width: 1024px) {
+    .hub-grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr); /* Сетка на 6 колонок для гибкости */
+        gap: 1.5rem;
+    }
+
+    /* Первые три карточки занимают по 2 колонки каждая (итого 6) */
+    .playlist-card:nth-child(1),
+    .playlist-card:nth-child(2),
+    .playlist-card:nth-child(3) {
+        grid-column: span 2;
+    }
+
+    /* 4-я карточка: отступает на 1 колонку и занимает 2 (центрируется снизу) */
+    .playlist-card:nth-child(4) {
+        grid-column: 2 / span 2;
+    }
+
+    /* 5-я карточка: просто занимает следующие 2 колонки */
+    .playlist-card:nth-child(5) {
+        grid-column: 4 / span 2;
+    }
+}

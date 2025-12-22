@@ -19,7 +19,7 @@
 <header>
     <h1>Заметки</h1>
     <div class="controls">
-        <a href="aboutme.html" class="btn btn-link">Обо мне</a>
+        <a href="aboutme.html" class="btn btn-link">👤 Обо мне</a>
         <a href="index.html" class="btn btn-link">← На главную</a>
     </div>
 </header>
@@ -92,6 +92,31 @@
         <h2 style="border-left: 4px solid var(--accent); padding-left: 15px;">Запись #3</h2>
 
         <p style="color: #94a3b8; font-size: 0.85rem; margin-bottom: 5px; margin-top: 15px;">
+            Дата: <span class="setup-value">22.12.2025</span>
+        </p>
+
+        <p style="color: #e2e8f0; line-height: 1.6;">
+            Короче, сегодня писали тест по БЗВП, и это был такой бред. На столько неподготовленный тест я ещё не видел.
+            В том плане, что в вопросах были ошибки, по типу: одинаковые варианты ответов, или ответы, придуманные на абум,
+            что не так уж и плохо. Но вот отсутсвия на вопроса, но наличие ответов вообще убило. Типа вопроса нет, а ответы есть.<br><br>
+
+            Ладно, на самом деле я пишу эту запись не из-за теста. Просто хочу рассказать про одну посхалку на сайте. Если прожать
+            комбинацию клавиш "↑ ↑ ↓ ↓ ← → ← → B A" на любой странице, то кое-что произойдёт. Не буду говорить что именно,
+            проверьте сами. И таких поскалок несколько, некоторые легко найти, некоторые трудно. Я дал только 1 подсказку.
+            Кто найдёт ещё что-то, то пишите мне.<br><br>
+
+            Ну и для отвода глах надо что-то ещё написать сюда. Например, завтра я буду писать КР и колоквиум по высшей математике.
+            Вроде готов, но как обычно сдлеаю ошибки в самых елементарных заданиях. Вот НГ хз как буду отмечать. Меня пожет позвать
+            одногрупник, но у него там своя компания, так что не особо хочется с ней тусоваться. Надеюсь будет как обычно: с Максом в доте.
+            Ладно, думаю для отвода глаз нормально написал. Всем пока!
+        </p>
+    </div>
+
+    <!-- Запись 4 -->
+    <div class="setup-card" style="margin-bottom: 20px;">
+        <h2 style="border-left: 4px solid var(--accent); padding-left: 15px;">Запись #4</h2>
+
+        <p style="color: #94a3b8; font-size: 0.85rem; margin-bottom: 5px; margin-top: 15px;">
             Дата: <span class="setup-value">00.00.20xx</span>
         </p>
 
@@ -120,6 +145,7 @@
     </footer>
 
     <button id="scrollTopBtn" title="Наверх">↑</button>
+    <script src="js/holidays.js"></script>
 </body>
     <script>
         const btn = document.getElementById("scrollTopBtn");
@@ -135,5 +161,28 @@
         btn.addEventListener("click", () => {
             window.scrollTo({ top: 0, behavior: "smooth" });
         });
+
+        const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+        let currentInput = [];
+
+        document.addEventListener('keydown', (e) => {
+            currentInput.push(e.key);
+            currentInput = currentInput.slice(-konamiCode.length);
+
+            if (currentInput.join('') === konamiCode.join('')) {
+                activateGlitchMode();
+            }
+        });
+
+        function activateGlitchMode() {
+            document.body.style.filter = 'invert(1) hue-rotate(180deg)';
+            document.body.style.transition = 'all 0.5s ease';
+            alert('СЕКРЕТНЫЙ РЕЖИМ: Активирован визуальный глитч!');
+            
+            // Через 5 секунд возвращаем всё как было
+            setTimeout(() => {
+                document.body.style.filter = 'none';
+            }, 5000);
+        }
     </script>
 </html>

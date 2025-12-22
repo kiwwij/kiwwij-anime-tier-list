@@ -295,6 +295,10 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Ghost of Tsushima",
+                    review: "Ревью - https://steamcommunity.com/profiles/76561199512523461/recommended/2215430/",
+                },
+                {
+                    title: "Lords of the Fallen",
                     review: "Ревью - ",
                 },
             ],

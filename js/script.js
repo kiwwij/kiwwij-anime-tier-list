@@ -318,3 +318,35 @@ function setupCardClick(card, itemData, posterSmall, posterLarge, apiDetails = n
         modal.showModal();
     });
 }
+
+const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+let currentInput = [];
+
+document.addEventListener('keydown', (e) => {
+    currentInput.push(e.key);
+    currentInput = currentInput.slice(-konamiCode.length);
+
+    if (currentInput.join('') === konamiCode.join('')) {
+        activateGlitchMode();
+    }
+});
+
+function activateGlitchMode() {
+    document.body.style.filter = 'invert(1) hue-rotate(180deg)';
+    document.body.style.transition = 'all 0.5s ease';
+    alert('СЕКРЕТНЫЙ РЕЖИМ: Активирован визуальный глитч!');
+    
+    // Через 5 секунд возвращаем всё как было
+    setTimeout(() => {
+        document.body.style.filter = 'none';
+    }, 5000);
+}
+
+console.log("%ckiwwij-os v2.12.06", "color: #6366f1; font-weight: bold; font-size: 18px;");
+console.log("%cДоступ разрешен. Статус: В поиске идеального аниме...", "color: #9ca3af;");
+console.log("%cПопробуй ввести команду: %chelpMe()", "color: #9ca3af;", "color: #fbbf24; font-weight: bold;");
+
+function helpMe() {
+    console.log("Тайный код для главной страницы: ↑ ↑ ↓ ↓ ← → ← → B A");
+    return "Удачи, путник.";
+}

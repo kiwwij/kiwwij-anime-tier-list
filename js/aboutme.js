@@ -139,3 +139,48 @@ document.addEventListener('keydown', function(event) {
         if (event.key === "ArrowLeft") changeImage(-1);
     }
 });
+
+const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+let currentInput = [];
+
+document.addEventListener('keydown', (e) => {
+    currentInput.push(e.key);
+    currentInput = currentInput.slice(-konamiCode.length);
+
+    if (currentInput.join('') === konamiCode.join('')) {
+        activateGlitchMode();
+    }
+});
+
+function activateGlitchMode() {
+    document.body.style.filter = 'invert(1) hue-rotate(180deg)';
+    document.body.style.transition = 'all 0.5s ease';
+    alert('СЕКРЕТНЫЙ РЕЖИМ: Активирован визуальный глитч!');
+    
+    // Через 5 секунд возвращаем всё как было
+    setTimeout(() => {
+        document.body.style.filter = 'none';
+    }, 5000);
+}
+
+const avatar = document.getElementById('aboutAvatar');
+let clickCount = 0;
+
+if (avatar) {
+    avatar.style.cursor = 'pointer';
+    avatar.addEventListener('click', () => {
+        clickCount++;
+        
+        // Эффект тряски при клике
+        avatar.style.transform = 'scale(1.1) rotate(5deg)';
+        setTimeout(() => avatar.style.transform = 'scale(1)', 100);
+
+        if (clickCount === 10) {
+            // Меняем на Йошимуру, про которого ты писал в заметке #2
+            avatar.src = 'https://kiwwij.github.io/kiwwij-anime-tier-list/img/about%20me/secret_avatar.png'; 
+            avatar.style.border = '3px solid red';
+            avatar.style.boxShadow = '0 0 20px rgba(255, 0, 0, 0.5)';
+            console.log('Пасхалка: Йошимура активирован!');
+        }
+    });
+}

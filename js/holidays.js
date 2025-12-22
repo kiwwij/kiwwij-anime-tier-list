@@ -207,3 +207,60 @@ function showToast(title, message) {
         }
     }, 10000);
 }
+
+const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+let currentInput = [];
+
+document.addEventListener('keydown', (e) => {
+    currentInput.push(e.key);
+    currentInput = currentInput.slice(-konamiCode.length);
+
+    if (currentInput.join('') === konamiCode.join('')) {
+        activateGlitchMode();
+    }
+});
+
+function activateGlitchMode() {
+    document.body.style.filter = 'invert(1) hue-rotate(180deg)';
+    document.body.style.transition = 'all 0.5s ease';
+    alert('СЕКРЕТНЫЙ РЕЖИМ: Активирован визуальный глитч!');
+    
+    // Через 5 секунд возвращаем всё как было
+    setTimeout(() => {
+        document.body.style.filter = 'none';
+    }, 5000);
+}
+
+(function() {
+    // 1. Настройка шансов
+    const hour = new Date().getHours();
+    // Ночь считается с 00:00 до 05:00
+    const isNight = hour >= 0 && hour < 5; 
+    
+    // Шанс 5% ночью, 1% днем
+    const chance = isNight ? 0.05 : 0.01; 
+
+    // 2. Проверка текущей страницы
+    const currentPath = decodeURI(window.location.pathname);
+    
+    // Не редиректим, если мы уже в безумии или на 404
+    const isExcludedPage = currentPath.includes('madness.html') || 
+                           currentPath.includes('404.html');
+
+    if (!isExcludedPage) {
+        if (Math.random() < chance) {
+            console.log("%cSYSTEM_GLITCH: Попытка разрыва цикла...", "color: red;");
+
+            // 3. Визуальный эффект перед вылетом
+            // Делаем экран контрастным и темным
+            document.body.style.transition = "all 0.4s ease";
+            document.body.style.filter = "contrast(3) brightness(0.2) grayscale(1) invert(1)";
+            
+            // 4. Переход
+            setTimeout(() => {
+                // Используем относительный путь, чтобы работало и на GitHub Pages
+                window.location.href = 'madness.html';
+            }, 600);
+        }
+    }
+})();
