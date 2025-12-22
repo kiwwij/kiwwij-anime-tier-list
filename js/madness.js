@@ -1,5 +1,3 @@
-/* madness.js */
-
 const canvas = document.getElementById('madCanvas');
 const ctx = canvas.getContext('2d');
 const blackout = document.getElementById('blackout');

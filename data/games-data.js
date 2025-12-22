@@ -299,7 +299,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Lords of the Fallen",
-                    review: "Ревью - ",
+                    review: "Ревью - пока нет",
                 },
             ],
             'C': [
@@ -325,11 +325,11 @@ if (typeof tierListData !== 'undefined') {
                 },
                 { 
                     title: "Higurashi When They Cry Hou - Ch.3",
-                    review: "",
+                    review: "https://kiwwij.github.io/kiwwij-anime-tier-list/terminal.html",
                 },
                 { 
                     title: "Higurashi When They Cry Hou - Ch.4",
-                    review: "",
+                    review: "https://kiwwij.github.io/kiwwij-anime-tier-list/naebalova.net",
                 },
                 { 
                     title: "Higurashi When They Cry Hou - Ch.5",
