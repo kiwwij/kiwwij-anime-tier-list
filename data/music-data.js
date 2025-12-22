@@ -459,14 +459,9 @@ const musicData = [
         "title": "Що з тобою",
         "artist": "Апатія",
         "playlist": "Main"
-    },
-    {
-        "title": "Сайт",
-        "artist": "Раковая Выхухоль",
-        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 13,
-    "totalDurationSec": 12768
+    "totalDurationSec": 12622
 };

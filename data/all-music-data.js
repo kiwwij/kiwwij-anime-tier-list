@@ -553,12 +553,6 @@ const musicData = [
         "duration": "3:27"
     },
     {
-        "title": "Сайт",
-        "artist": "Раковая Выхухоль",
-        "playlist": "Main",
-        "duration": "2:26"
-    },
-    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6087,6 +6081,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 465,
-    "totalDurationSec": 165370,
+    "totalDurationSec": 165224,
     "lastUpdated": "Auto-generated"
 };
