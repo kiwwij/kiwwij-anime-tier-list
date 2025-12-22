@@ -5959,6 +5959,12 @@ const musicData = [
         "duration": "2:00"
     },
     {
+        "title": "Stupid Never Dies - Official Reveal Trailer | The Game Awards 2025",
+        "artist": "IGN",
+        "playlist": "Dead inside",
+        "duration": "2:11"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6081,6 +6087,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 465,
-    "totalDurationSec": 165224,
+    "totalDurationSec": 165355,
     "lastUpdated": "Auto-generated"
 };
