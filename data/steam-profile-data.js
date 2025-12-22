@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 39.5,
-            "hours": 3068.4,
+            "playtime_2weeks": 40.0,
+            "hours": 3068.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2215430"
         },
         {
-            "appid": 2444750,
-            "name": "Shape of Dreams",
-            "playtime_2weeks": 4.0,
-            "hours": 12.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
-            "url": "https://store.steampowered.com/app/2444750"
-        },
-        {
             "appid": 750920,
             "name": "Shadow of the Tomb Raider",
             "playtime_2weeks": 3.9,
             "hours": 4.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg",
             "url": "https://store.steampowered.com/app/750920"
+        },
+        {
+            "appid": 2444750,
+            "name": "Shape of Dreams",
+            "playtime_2weeks": 3.6,
+            "hours": 12.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
+            "url": "https://store.steampowered.com/app/2444750"
         },
         {
             "appid": 435150,
