@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/8d5162a8c1cfe4f6a85d17c5930549734b62935b_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "Online",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 240
@@ -62,8 +62,8 @@ const steamData = {
         {
             "appid": 1905180,
             "name": "OBS Studio",
-            "playtime_2weeks": 0.3,
-            "hours": 182.5,
+            "playtime_2weeks": 0.4,
+            "hours": 182.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
         },
@@ -82,6 +82,14 @@ const steamData = {
             "hours": 88.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620"
+        },
+        {
+            "appid": 920490,
+            "name": "Driver Booster for Steam",
+            "playtime_2weeks": 0.0,
+            "hours": 14.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
+            "url": "https://store.steampowered.com/app/920490"
         }
     ],
     "top_games": [
