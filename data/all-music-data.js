@@ -2059,6 +2059,18 @@ const musicData = [
         "duration": "1:51"
     },
     {
+        "title": "разъедаешь мне нутро",
+        "artist": "конец солнечных дней",
+        "playlist": "Dead inside",
+        "duration": "3:47"
+    },
+    {
+        "title": "Секрет",
+        "artist": "The Limba",
+        "playlist": "Dead inside",
+        "duration": "2:48"
+    },
+    {
         "title": "5opka, OTURRO - ОБЕРЕГ (КЛИП 2023)",
         "artist": "ФУГА TV",
         "playlist": "Dead inside",
@@ -2083,10 +2095,34 @@ const musicData = [
         "duration": "2:02"
     },
     {
+        "title": "а я рыба | meme",
+        "artist": "iuliya morison",
+        "playlist": "Dead inside",
+        "duration": "0:33"
+    },
+    {
         "title": "enveel-2:00 (speed up & reverb)",
         "artist": "ниkak",
         "playlist": "Dead inside",
         "duration": "1:40"
+    },
+    {
+        "title": "Круглая песня из передачи \"Смешные праздники\" (канал Теленяня)",
+        "artist": "Теленяня, Бибигон, Карусель",
+        "playlist": "Dead inside",
+        "duration": "3:34"
+    },
+    {
+        "title": "🎵 Melham_Music for Лололошка - НОВОЕ ПОКОЛЕНИЕ 🔥",
+        "artist": "MrLololoshka (Роман Фильченков)",
+        "playlist": "Dead inside",
+        "duration": "3:40"
+    },
+    {
+        "title": "Bumble bee - speed up",
+        "artist": "FawSongs",
+        "playlist": "Dead inside",
+        "duration": "2:44"
     },
     {
         "title": "Скучно",
@@ -2101,10 +2137,28 @@ const musicData = [
         "duration": "3:26"
     },
     {
+        "title": "Клип на песню 'За тебя калым отдам'",
+        "artist": "BUL LET",
+        "playlist": "Dead inside",
+        "duration": "3:24"
+    },
+    {
         "title": "MUPP, prompto - Gotham",
         "artist": "DUPkY",
         "playlist": "Dead inside",
         "duration": "1:51"
+    },
+    {
+        "title": "БЕЛАЯ НОЧЬ (Cover) | Анимация",
+        "artist": "Planya Channel",
+        "playlist": "Dead inside",
+        "duration": "3:52"
+    },
+    {
+        "title": "NBSPLV - The lost soul down X Lost soul  [ Chainsaw Man Girls ]  ART: Inoitoh",
+        "artist": "taisynara",
+        "playlist": "Dead inside",
+        "duration": "2:15"
     },
     {
         "title": "Neco Arc - Young Girl A / 少女A [AI cover]",
@@ -2113,10 +2167,22 @@ const musicData = [
         "duration": "4:03"
     },
     {
+        "title": "Зеркало, скажи мне кто прекраснее всех... | Кирукиру Амо | Аниме клип",
+        "artist": "LinaFil",
+        "playlist": "Dead inside",
+        "duration": "2:25"
+    },
+    {
         "title": "𝐂𝐡𝐚𝐢𝐧𝐬𝐚𝐰 𝐌𝐚𝐧 𝐆𝐢𝐫𝐥𝐬 𝐄𝐝𝐢𝐭 ││ 𝐓𝐡𝐞 𝐥𝐨𝐬𝐭 𝐬𝐨𝐮𝐥 𝐝𝐨𝐰𝐧 𝐗 𝐋𝐨𝐬𝐭 𝐬𝐨𝐮𝐥 - 𝐍𝐁𝐒𝐏𝐋𝐕",
         "artist": "Hilli",
         "playlist": "Dead inside",
         "duration": "2:15"
+    },
+    {
+        "title": "skyline ryodan x Cats",
+        "artist": "Rossi",
+        "playlist": "Dead inside",
+        "duration": "1:38"
     },
     {
         "title": "Танцуй",
@@ -2125,10 +2191,40 @@ const musicData = [
         "duration": "2:26"
     },
     {
+        "title": "Гуляли",
+        "artist": "KOZAK SIROMAHA",
+        "playlist": "Dead inside",
+        "duration": "2:38"
+    },
+    {
+        "title": "Don't Go Wasting Your Emotion ~ mmv",
+        "artist": "CrazyLajla",
+        "playlist": "Dead inside",
+        "duration": "0:43"
+    },
+    {
+        "title": "Alexander Rybak - Fairytale (LIVE) | Norway 🇳🇴 | Grand Final | Winner of Eurovision 2009",
+        "artist": "Eurovision Song Contest",
+        "playlist": "Dead inside",
+        "duration": "3:14"
+    },
+    {
+        "title": "Butterfly",
+        "artist": "Nenadid",
+        "playlist": "Dead inside",
+        "duration": "3:06"
+    },
+    {
         "title": "cmh - айм сорри (speed up)",
         "artist": "naspidaxxx",
         "playlist": "Dead inside",
         "duration": "1:48"
+    },
+    {
+        "title": "Лето",
+        "artist": "MellSher",
+        "playlist": "Dead inside",
+        "duration": "1:36"
     },
     {
         "title": "NECO ARC - БАЛАМУТ И ОБОРМОТ (AI COVER)",
@@ -2137,10 +2233,52 @@ const musicData = [
         "duration": "2:46"
     },
     {
+        "title": "CMH X DEAD BLONDE - Моя младшая сестра (SPEED UP)",
+        "artist": "HC0R3",
+        "playlist": "Dead inside",
+        "duration": "3:04"
+    },
+    {
+        "title": "ℂ𝕙𝕒𝕚𝕟𝕤𝕒𝕨 𝕄𝕒𝕟 𝔾𝕚𝕣𝕝𝕤 [ 𝟰𝗸 ] ℝ𝕖𝕒𝕝 𝕃𝕚𝕗𝕖 𝕍𝕖𝕣𝕤𝕚𝕠𝕟",
+        "artist": "Modelli AI",
+        "playlist": "Dead inside",
+        "duration": "2:15"
+    },
+    {
+        "title": "Wine Pon You (Official Audio)",
+        "artist": "Doja Cat",
+        "playlist": "Dead inside",
+        "duration": "3:41"
+    },
+    {
         "title": "Little Dark Age (Official Video)",
         "artist": "MGMT",
         "playlist": "Dead inside",
         "duration": "5:11"
+    },
+    {
+        "title": "Government Hooker D00nik Remix [Slowed down] [Fushiguro Toji Edit]",
+        "artist": "DandySong🎼",
+        "playlist": "Dead inside",
+        "duration": "1:56"
+    },
+    {
+        "title": "5opka - ЖРАК ЛУНИ",
+        "artist": "ФУГА TV",
+        "playlist": "Dead inside",
+        "duration": "2:28"
+    },
+    {
+        "title": "NKEEEI x UNIQЕ x ARTEM SHILOVETS — «ТОЛПЫ КРИЧАТ» | TOASTER LIVE",
+        "artist": "TOASTER",
+        "playlist": "Dead inside",
+        "duration": "2:06"
+    },
+    {
+        "title": "TeddyLoid feat. daoko - ME!ME!ME! part 1",
+        "artist": "Fortisia",
+        "playlist": "Dead inside",
+        "duration": "1:34"
     },
     {
         "title": "Mirèle - Кошечки хорошие лишнего не скажут",
@@ -2153,6 +2291,18 @@ const musicData = [
         "artist": "Alex Christensen",
         "playlist": "Dead inside",
         "duration": "3:43"
+    },
+    {
+        "title": "ПЛАНКА - На грани болевого порога (official remix)",
+        "artist": "PLANKAofficial",
+        "playlist": "Dead inside",
+        "duration": "3:17"
+    },
+    {
+        "title": "I Love It (feat. Adele Givens Emulation)",
+        "artist": "Kanye West",
+        "playlist": "Dead inside",
+        "duration": "2:11"
     },
     {
         "title": "Сектор Газа - БОМЖ",
@@ -2173,16 +2323,40 @@ const musicData = [
         "duration": "2:35"
     },
     {
+        "title": "Реквием Играет Тихо",
+        "artist": "GONE.Fludd",
+        "playlist": "Dead inside",
+        "duration": "2:34"
+    },
+    {
+        "title": "Зашей",
+        "artist": "IROH",
+        "playlist": "Dead inside",
+        "duration": "3:18"
+    },
+    {
         "title": "МАМБЛ",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "2:36"
     },
     {
+        "title": "КУБИК ЛЬДА",
+        "artist": "GONE.Fludd",
+        "playlist": "Dead inside",
+        "duration": "0:10"
+    },
+    {
         "title": "БАНАНОВЫЙ СОК",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "3:40"
+    },
+    {
+        "title": "ДРИПСЭТ",
+        "artist": "GONE.Fludd",
+        "playlist": "Dead inside",
+        "duration": "2:48"
     },
     {
         "title": "САХАРНЫЙ ЧЕЛОВЕК",
@@ -2201,6 +2375,18 @@ const musicData = [
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "3:15"
+    },
+    {
+        "title": "ВТОРНИК",
+        "artist": "GONE.Fludd",
+        "playlist": "Dead inside",
+        "duration": "1:53"
+    },
+    {
+        "title": "BOYS DON'T CRY",
+        "artist": "GONE.Fludd",
+        "playlist": "Dead inside",
+        "duration": "2:28"
     },
     {
         "title": "СЕТИ",
@@ -2239,6 +2425,12 @@ const musicData = [
         "duration": "1:50"
     },
     {
+        "title": "раздевайся",
+        "artist": "семьсот семь & Кишлак",
+        "playlist": "Dead inside",
+        "duration": "2:41"
+    },
+    {
         "title": "Винтаж - Плохая девочка(speed + nightcore)",
         "artist": "Briaxin",
         "playlist": "Dead inside",
@@ -2257,10 +2449,22 @@ const musicData = [
         "duration": "3:37"
     },
     {
+        "title": "enveel - 2:00 [время на часах уже два,девочка танцует одна.]",
+        "artist": "shg’j’kkks’j’d’bз",
+        "playlist": "Dead inside",
+        "duration": "1:35"
+    },
+    {
         "title": "скинь котиков - кошечки хорошие лишнего не скажут🤍😺 (speed up)",
         "artist": "twix1",
         "playlist": "Dead inside",
         "duration": "2:10"
+    },
+    {
+        "title": "Танцы в труселях",
+        "artist": "Мирби",
+        "playlist": "Dead inside",
+        "duration": "0:34"
     },
     {
         "title": "Nujabes - Aruarian Dance (Homework Edit)",
@@ -2275,6 +2479,12 @@ const musicData = [
         "duration": "1:23"
     },
     {
+        "title": "[AMV]   Little Dark Age「Neon Genesis Evangelion」",
+        "artist": "Václav Tomeš",
+        "playlist": "Dead inside",
+        "duration": "1:37"
+    },
+    {
         "title": "Пепел",
         "artist": "билборды",
         "playlist": "Dead inside",
@@ -2287,10 +2497,22 @@ const musicData = [
         "duration": "2:34"
     },
     {
+        "title": "nolik-CRANKI",
+        "artist": "AURORAX",
+        "playlist": "Dead inside",
+        "duration": "1:47"
+    },
+    {
         "title": "реквием",
         "artist": "zxcshade",
         "playlist": "Dead inside",
         "duration": "0:31"
+    },
+    {
+        "title": "КОЖНУ НОЧЬ ПЕРЕД СНОМ",
+        "artist": "YOXDEN",
+        "playlist": "Dead inside",
+        "duration": "1:46"
     },
     {
         "title": "Почему котикам компьютеры не нравятся",
@@ -2305,10 +2527,58 @@ const musicData = [
         "duration": "1:37"
     },
     {
+        "title": "СМН, Рома Жёлудь - Люби меня (секс, панк и разъеб)//speed up🌙",
+        "artist": "speed up♡",
+        "playlist": "Dead inside",
+        "duration": "2:10"
+    },
+    {
+        "title": "emoslut666-я люблю тебя (speed up)",
+        "artist": "sqrt",
+        "playlist": "Dead inside",
+        "duration": "1:19"
+    },
+    {
+        "title": "Moonlight (Official Music Video)",
+        "artist": "Kali Uchis",
+        "playlist": "Dead inside",
+        "duration": "3:08"
+    },
+    {
+        "title": "🔥MZLFF & LIDA - КАК ДЕЛА (prod. by DK)🔥",
+        "artist": "СОБРАННЫЙ ПЕНАЛ🎒",
+        "playlist": "Dead inside",
+        "duration": "1:26"
+    },
+    {
         "title": "《Powerful wind, Slicked-back hair》【Real Challenge ,The Latest Craze! Reality!】",
         "artist": "SUSHI RAMEN【Riku】",
         "playlist": "Dead inside",
         "duration": "2:17"
+    },
+    {
+        "title": "Засвіт встали козаченьки",
+        "artist": "KOZAK SIROMAHA",
+        "playlist": "Dead inside",
+        "duration": "2:53"
+    },
+    {
+        "title": "Я взлетаю вверх",
+        "artist": "Серега Пират",
+        "playlist": "Dead inside",
+        "duration": "2:39"
+    },
+    {
+        "title": "DAGames - It's Time To Die [RUS] (Remake by SayMaxWell) - FIVE NIGHTS AT FREDDY'S 3 SONG",
+        "artist": "SayMaxWell",
+        "playlist": "Dead inside",
+        "duration": "3:27"
+    },
+    {
+        "title": "Shingeki no Putin",
+        "artist": "dyproductions",
+        "playlist": "Dead inside",
+        "duration": "1:32"
     },
     {
         "title": "MMM YEA Meme | SDR2",
@@ -2321,6 +2591,12 @@ const musicData = [
         "artist": "レネさん",
         "playlist": "Dead inside",
         "duration": "0:55"
+    },
+    {
+        "title": "Hatsune Miku -  Boom, Boom, Boom, Boom!! (Cover)",
+        "artist": "Pinkcat",
+        "playlist": "Dead inside",
+        "duration": "2:35"
     },
     {
         "title": "EKATZE — Потрачено (Official Music Video)",
@@ -2341,10 +2617,34 @@ const musicData = [
         "duration": "2:15"
     },
     {
+        "title": "RdnStrider - Раскрою Паруса",
+        "artist": "RdnStrider",
+        "playlist": "Dead inside",
+        "duration": "4:39"
+    },
+    {
         "title": "NBA (Slowed)",
         "artist": "RSAC",
         "playlist": "Dead inside",
         "duration": "2:11"
+    },
+    {
+        "title": "Открываю пивко",
+        "artist": "Василий Дидляков",
+        "playlist": "Dead inside",
+        "duration": "3:10"
+    },
+    {
+        "title": "Все мои друзья",
+        "artist": "Valentin Strykalo",
+        "playlist": "Dead inside",
+        "duration": "2:54"
+    },
+    {
+        "title": "Lalis Dream - Последний день лета",
+        "artist": "Aug 30, 2020",
+        "playlist": "Dead inside",
+        "duration": "2:30"
     },
     {
         "title": "Солнышко",
@@ -5787,6 +6087,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 465,
-    "totalDurationSec": 158033,
+    "totalDurationSec": 165355,
     "lastUpdated": "Auto-generated"
 };
