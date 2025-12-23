@@ -1,6 +1,558 @@
 // Этот файл сгенерирован автоматически скриптом update_all_music.py
 const musicData = [
     {
+        "title": "гладиатор/рыцарь",
+        "artist": "fallen777angel",
+        "playlist": "Main",
+        "duration": "1:45"
+    },
+    {
+        "title": "пускают стрелы",
+        "artist": "fallen777angel",
+        "playlist": "Main",
+        "duration": "2:00"
+    },
+    {
+        "title": "типичная ситуация",
+        "artist": "madk1d",
+        "playlist": "Main",
+        "duration": "2:11"
+    },
+    {
+        "title": "мило материшься",
+        "artist": "volhey",
+        "playlist": "Main",
+        "duration": "2:01"
+    },
+    {
+        "title": "Лиза",
+        "artist": "Матис",
+        "playlist": "Main",
+        "duration": "1:54"
+    },
+    {
+        "title": "Самый лучший день",
+        "artist": "Кишлак",
+        "playlist": "Main",
+        "duration": "1:34"
+    },
+    {
+        "title": "Грязный Кайф",
+        "artist": "Kishlak",
+        "playlist": "Main",
+        "duration": "2:47"
+    },
+    {
+        "title": "madk1d - питер паркер(unrelease mood video)",
+        "artist": "ньюген",
+        "playlist": "Main",
+        "duration": "2:17"
+    },
+    {
+        "title": "Эскапист",
+        "artist": "Кишлак",
+        "playlist": "Main",
+        "duration": "3:41"
+    },
+    {
+        "title": "Они все такие вау",
+        "artist": "рэйчи & madk1d",
+        "playlist": "Main",
+        "duration": "2:26"
+    },
+    {
+        "title": "рехаб",
+        "artist": "madk1d",
+        "playlist": "Main",
+        "duration": "1:32"
+    },
+    {
+        "title": "держаться за руки",
+        "artist": "кариолемма",
+        "playlist": "Main",
+        "duration": "1:34"
+    },
+    {
+        "title": "greyrock, tewiq, madk1d – распять (Сингл, 2025)",
+        "artist": "Mentrez Music",
+        "playlist": "Main",
+        "duration": "2:00"
+    },
+    {
+        "title": "таблетки",
+        "artist": "Голодный",
+        "playlist": "Main",
+        "duration": "1:38"
+    },
+    {
+        "title": "ты че обиделась",
+        "artist": "madk1d",
+        "playlist": "Main",
+        "duration": "1:30"
+    },
+    {
+        "title": "улыбка",
+        "artist": "volhey",
+        "playlist": "Main",
+        "duration": "1:50"
+    },
+    {
+        "title": "слова",
+        "artist": "Violetta Sokolova",
+        "playlist": "Main",
+        "duration": "2:45"
+    },
+    {
+        "title": "Anor Londo",
+        "artist": "auratoshi",
+        "playlist": "Main",
+        "duration": "1:46"
+    },
+    {
+        "title": "так похуй",
+        "artist": "madk1d",
+        "playlist": "Main",
+        "duration": "1:48"
+    },
+    {
+        "title": "возьму гитару",
+        "artist": "schastlivj",
+        "playlist": "Main",
+        "duration": "2:14"
+    },
+    {
+        "title": "Виолетта",
+        "artist": "рэйчи",
+        "playlist": "Main",
+        "duration": "1:46"
+    },
+    {
+        "title": "болен",
+        "artist": "dope17",
+        "playlist": "Main",
+        "duration": "1:29"
+    },
+    {
+        "title": "Круче чем вы (feat. CUPSIZE)",
+        "artist": "madk1d",
+        "playlist": "Main",
+        "duration": "1:40"
+    },
+    {
+        "title": "МОЙ БАТЯ",
+        "artist": "ПОЛАРОЙД",
+        "playlist": "Main",
+        "duration": "1:59"
+    },
+    {
+        "title": "Cupsize - люби меня алина",
+        "artist": "𓆩hikxdfe𓆪",
+        "playlist": "Main",
+        "duration": "1:38"
+    },
+    {
+        "title": "Болею тобой",
+        "artist": "Кишлак",
+        "playlist": "Main",
+        "duration": "2:23"
+    },
+    {
+        "title": "общага",
+        "artist": "диссоциативное расстройство",
+        "playlist": "Main",
+        "duration": "1:48"
+    },
+    {
+        "title": "The Love I Lost",
+        "artist": "Fried By Fluoride",
+        "playlist": "Main",
+        "duration": "1:53"
+    },
+    {
+        "title": "НЕ СКУЧАЙ",
+        "artist": "ТРОЕТОЧИЕ",
+        "playlist": "Main",
+        "duration": "2:26"
+    },
+    {
+        "title": "стало похуй",
+        "artist": "kurokov",
+        "playlist": "Main",
+        "duration": "1:45"
+    },
+    {
+        "title": "крестики-нолики",
+        "artist": "Zhanulka",
+        "playlist": "Main",
+        "duration": "2:10"
+    },
+    {
+        "title": "let me go",
+        "artist": "otuka",
+        "playlist": "Main",
+        "duration": "2:22"
+    },
+    {
+        "title": "Nope your too late i already died",
+        "artist": "wifiskeleton",
+        "playlist": "Main",
+        "duration": "1:31"
+    },
+    {
+        "title": "tuborosho, Anonymous Ember - europa fm",
+        "artist": "suenushka",
+        "playlist": "Main",
+        "duration": "1:53"
+    },
+    {
+        "title": "Экзотик-мама не узнает",
+        "artist": "EKB_BASED",
+        "playlist": "Main",
+        "duration": "1:21"
+    },
+    {
+        "title": "KRISTIEE — Reverie",
+        "artist": "idk secret channel",
+        "playlist": "Main",
+        "duration": "2:10"
+    },
+    {
+        "title": "Слёзы",
+        "artist": "Кишлак",
+        "playlist": "Main",
+        "duration": "2:38"
+    },
+    {
+        "title": "интернет любовь",
+        "artist": "fallen777angel",
+        "playlist": "Main",
+        "duration": "1:56"
+    },
+    {
+        "title": "Як тебе цілував",
+        "artist": "teeNsad",
+        "playlist": "Main",
+        "duration": "2:47"
+    },
+    {
+        "title": "Baby Melo, FADE031 - Сломана",
+        "artist": "SmokeSipper",
+        "playlist": "Main",
+        "duration": "2:24"
+    },
+    {
+        "title": "Не забывай",
+        "artist": "sqaute",
+        "playlist": "Main",
+        "duration": "2:15"
+    },
+    {
+        "title": "Do Sliz - Але якщо ти...",
+        "artist": "Dosliz",
+        "playlist": "Main",
+        "duration": "3:14"
+    },
+    {
+        "title": "web 2.0",
+        "artist": "тёмный принц & silver gloria",
+        "playlist": "Main",
+        "duration": "1:24"
+    },
+    {
+        "title": "У батарей",
+        "artist": "nyan.mp3",
+        "playlist": "Main",
+        "duration": "1:46"
+    },
+    {
+        "title": "fallen777angel, dope17 – suka business class (Official Audio + lyrics) / eclipse media",
+        "artist": "eclipse media",
+        "playlist": "Main",
+        "duration": "1:47"
+    },
+    {
+        "title": "1-800",
+        "artist": "​bbno$",
+        "playlist": "Main",
+        "duration": "3:28"
+    },
+    {
+        "title": "Ліпший день",
+        "artist": "СТРУКТУРА ЩАСТЯ",
+        "playlist": "Main",
+        "duration": "2:37"
+    },
+    {
+        "title": "Естафета страждань",
+        "artist": "Апатія",
+        "playlist": "Main",
+        "duration": "3:02"
+    },
+    {
+        "title": "цена",
+        "artist": "madk1d",
+        "playlist": "Main",
+        "duration": "2:19"
+    },
+    {
+        "title": "с тобой",
+        "artist": "kouru",
+        "playlist": "Main",
+        "duration": "1:52"
+    },
+    {
+        "title": "madk1d, greyrock & tewiq — MARTINE ROSE",
+        "artist": "Eclypse_me",
+        "playlist": "Main",
+        "duration": "1:51"
+    },
+    {
+        "title": "Seventh Heaven",
+        "artist": "INOHA",
+        "playlist": "Main",
+        "duration": "3:55"
+    },
+    {
+        "title": "Ручной Рептилоид – Я хочу быть 2D",
+        "artist": "Ручной Рептилоид",
+        "playlist": "Main",
+        "duration": "1:52"
+    },
+    {
+        "title": "Good Kid - From The Start (Laufey Cover)",
+        "artist": "Good Kid",
+        "playlist": "Main",
+        "duration": "2:31"
+    },
+    {
+        "title": "У моєму тихому вирі",
+        "artist": "Сметана band",
+        "playlist": "Main",
+        "duration": "4:18"
+    },
+    {
+        "title": "Не прокинусь",
+        "artist": "BaWN",
+        "playlist": "Main",
+        "duration": "3:22"
+    },
+    {
+        "title": "ELF",
+        "artist": "Violetta Sokolova",
+        "playlist": "Main",
+        "duration": "4:10"
+    },
+    {
+        "title": "mirrors demo",
+        "artist": "overtonight throwaways",
+        "playlist": "Main",
+        "duration": "1:46"
+    },
+    {
+        "title": "слон",
+        "artist": "Violetta Sokolova",
+        "playlist": "Main",
+        "duration": "2:18"
+    },
+    {
+        "title": "Гештальт",
+        "artist": "Апатія",
+        "playlist": "Main",
+        "duration": "2:40"
+    },
+    {
+        "title": "скинь",
+        "artist": "яшенька",
+        "playlist": "Main",
+        "duration": "1:53"
+    },
+    {
+        "title": "твои пальцы",
+        "artist": "fallen777angel",
+        "playlist": "Main",
+        "duration": "1:22"
+    },
+    {
+        "title": "machine",
+        "artist": "auratoshi",
+        "playlist": "Main",
+        "duration": "1:56"
+    },
+    {
+        "title": "5opka, EVEN CUTE - Даже если (Вредные советы)",
+        "artist": "ФУГА TV",
+        "playlist": "Main",
+        "duration": "2:27"
+    },
+    {
+        "title": "Демон",
+        "artist": "Чучело",
+        "playlist": "Main",
+        "duration": "2:38"
+    },
+    {
+        "title": "Листівки",
+        "artist": "Electrobirds",
+        "playlist": "Main",
+        "duration": "4:01"
+    },
+    {
+        "title": "CUPSIZE - вирус",
+        "artist": "CupsizeArchive",
+        "playlist": "Main",
+        "duration": "2:32"
+    },
+    {
+        "title": "Я схожу с ума",
+        "artist": "CUPSIZE",
+        "playlist": "Main",
+        "duration": "3:08"
+    },
+    {
+        "title": "аромат цветов",
+        "artist": "PLUSIX",
+        "playlist": "Main",
+        "duration": "2:18"
+    },
+    {
+        "title": "раздевайся",
+        "artist": "семьсот семь & Кишлак",
+        "playlist": "Main",
+        "duration": "2:41"
+    },
+    {
+        "title": "Бякибуки",
+        "artist": "Чучело",
+        "playlist": "Main",
+        "duration": "2:21"
+    },
+    {
+        "title": "Социально болен",
+        "artist": "Ручной рептилоид",
+        "playlist": "Main",
+        "duration": "2:24"
+    },
+    {
+        "title": "pedobear›⩊‹",
+        "artist": "тёмный принц",
+        "playlist": "Main",
+        "duration": "1:24"
+    },
+    {
+        "title": "усну навсегда",
+        "artist": "яшенька",
+        "playlist": "Main",
+        "duration": "1:28"
+    },
+    {
+        "title": "целуй меня",
+        "artist": "cardinparis",
+        "playlist": "Main",
+        "duration": "1:16"
+    },
+    {
+        "title": "Confess Your Love (feat. ola.wav)",
+        "artist": "Jiandro",
+        "playlist": "Main",
+        "duration": "2:12"
+    },
+    {
+        "title": "на небесах",
+        "artist": "kouru",
+        "playlist": "Main",
+        "duration": "2:29"
+    },
+    {
+        "title": "ПАПА",
+        "artist": "тёмный принц",
+        "playlist": "Main",
+        "duration": "1:43"
+    },
+    {
+        "title": "face vlone remix - salem slut",
+        "artist": "soundcloud mixtape",
+        "playlist": "Main",
+        "duration": "2:11"
+    },
+    {
+        "title": "Деревья, сгнившие до ствола",
+        "artist": "Violetta Sokolova",
+        "playlist": "Main",
+        "duration": "2:11"
+    },
+    {
+        "title": "СВЕТЛАНА!",
+        "artist": "NEXTIME",
+        "playlist": "Main",
+        "duration": "1:36"
+    },
+    {
+        "title": "Невесомость",
+        "artist": "тянка",
+        "playlist": "Main",
+        "duration": "2:34"
+    },
+    {
+        "title": "дайте выпилиться тут",
+        "artist": "лиззз",
+        "playlist": "Main",
+        "duration": "3:16"
+    },
+    {
+        "title": "Виріжу очі",
+        "artist": "Апатія",
+        "playlist": "Main",
+        "duration": "3:03"
+    },
+    {
+        "title": "Придурок",
+        "artist": "тянка",
+        "playlist": "Main",
+        "duration": "2:19"
+    },
+    {
+        "title": "twenty four",
+        "artist": "overtonight",
+        "playlist": "Main",
+        "duration": "2:06"
+    },
+    {
+        "title": "Демоны",
+        "artist": "Три дня дождя",
+        "playlist": "Main",
+        "duration": "3:25"
+    },
+    {
+        "title": "Так прикро",
+        "artist": "Апатія",
+        "playlist": "Main",
+        "duration": "3:00"
+    },
+    {
+        "title": "Серед хаосу",
+        "artist": "BaWN",
+        "playlist": "Main",
+        "duration": "2:33"
+    },
+    {
+        "title": "Stephanie",
+        "artist": "Nafeesisboujee",
+        "playlist": "Main",
+        "duration": "2:21"
+    },
+    {
+        "title": "Шиншиллы",
+        "artist": "ЛСП",
+        "playlist": "Main",
+        "duration": "2:28"
+    },
+    {
+        "title": "Що з тобою",
+        "artist": "Апатія",
+        "playlist": "Main",
+        "duration": "3:27"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -1507,18 +2059,6 @@ const musicData = [
         "duration": "1:51"
     },
     {
-        "title": "разъедаешь мне нутро",
-        "artist": "конец солнечных дней",
-        "playlist": "Dead inside",
-        "duration": "3:47"
-    },
-    {
-        "title": "Секрет",
-        "artist": "The Limba",
-        "playlist": "Dead inside",
-        "duration": "2:48"
-    },
-    {
         "title": "5opka, OTURRO - ОБЕРЕГ (КЛИП 2023)",
         "artist": "ФУГА TV",
         "playlist": "Dead inside",
@@ -1543,34 +2083,10 @@ const musicData = [
         "duration": "2:02"
     },
     {
-        "title": "а я рыба | meme",
-        "artist": "iuliya morison",
-        "playlist": "Dead inside",
-        "duration": "0:33"
-    },
-    {
         "title": "enveel-2:00 (speed up & reverb)",
         "artist": "ниkak",
         "playlist": "Dead inside",
         "duration": "1:40"
-    },
-    {
-        "title": "Круглая песня из передачи \"Смешные праздники\" (канал Теленяня)",
-        "artist": "Теленяня, Бибигон, Карусель",
-        "playlist": "Dead inside",
-        "duration": "3:34"
-    },
-    {
-        "title": "🎵 Melham_Music for Лололошка - НОВОЕ ПОКОЛЕНИЕ 🔥",
-        "artist": "MrLololoshka (Роман Фильченков)",
-        "playlist": "Dead inside",
-        "duration": "3:40"
-    },
-    {
-        "title": "Bumble bee - speed up",
-        "artist": "FawSongs",
-        "playlist": "Dead inside",
-        "duration": "2:44"
     },
     {
         "title": "Скучно",
@@ -1585,28 +2101,10 @@ const musicData = [
         "duration": "3:26"
     },
     {
-        "title": "Клип на песню 'За тебя калым отдам'",
-        "artist": "BUL LET",
-        "playlist": "Dead inside",
-        "duration": "3:24"
-    },
-    {
         "title": "MUPP, prompto - Gotham",
         "artist": "DUPkY",
         "playlist": "Dead inside",
         "duration": "1:51"
-    },
-    {
-        "title": "БЕЛАЯ НОЧЬ (Cover) | Анимация",
-        "artist": "Planya Channel",
-        "playlist": "Dead inside",
-        "duration": "3:52"
-    },
-    {
-        "title": "NBSPLV - The lost soul down X Lost soul  [ Chainsaw Man Girls ]  ART: Inoitoh",
-        "artist": "taisynara",
-        "playlist": "Dead inside",
-        "duration": "2:15"
     },
     {
         "title": "Neco Arc - Young Girl A / 少女A [AI cover]",
@@ -1615,22 +2113,10 @@ const musicData = [
         "duration": "4:03"
     },
     {
-        "title": "Зеркало, скажи мне кто прекраснее всех... | Кирукиру Амо | Аниме клип",
-        "artist": "LinaFil",
-        "playlist": "Dead inside",
-        "duration": "2:25"
-    },
-    {
         "title": "𝐂𝐡𝐚𝐢𝐧𝐬𝐚𝐰 𝐌𝐚𝐧 𝐆𝐢𝐫𝐥𝐬 𝐄𝐝𝐢𝐭 ││ 𝐓𝐡𝐞 𝐥𝐨𝐬𝐭 𝐬𝐨𝐮𝐥 𝐝𝐨𝐰𝐧 𝐗 𝐋𝐨𝐬𝐭 𝐬𝐨𝐮𝐥 - 𝐍𝐁𝐒𝐏𝐋𝐕",
         "artist": "Hilli",
         "playlist": "Dead inside",
         "duration": "2:15"
-    },
-    {
-        "title": "skyline ryodan x Cats",
-        "artist": "Rossi",
-        "playlist": "Dead inside",
-        "duration": "1:38"
     },
     {
         "title": "Танцуй",
@@ -1639,40 +2125,10 @@ const musicData = [
         "duration": "2:26"
     },
     {
-        "title": "Гуляли",
-        "artist": "KOZAK SIROMAHA",
-        "playlist": "Dead inside",
-        "duration": "2:38"
-    },
-    {
-        "title": "Don't Go Wasting Your Emotion ~ mmv",
-        "artist": "CrazyLajla",
-        "playlist": "Dead inside",
-        "duration": "0:43"
-    },
-    {
-        "title": "Alexander Rybak - Fairytale (LIVE) | Norway 🇳🇴 | Grand Final | Winner of Eurovision 2009",
-        "artist": "Eurovision Song Contest",
-        "playlist": "Dead inside",
-        "duration": "3:14"
-    },
-    {
-        "title": "Butterfly",
-        "artist": "Nenadid",
-        "playlist": "Dead inside",
-        "duration": "3:06"
-    },
-    {
         "title": "cmh - айм сорри (speed up)",
         "artist": "naspidaxxx",
         "playlist": "Dead inside",
         "duration": "1:48"
-    },
-    {
-        "title": "Лето",
-        "artist": "MellSher",
-        "playlist": "Dead inside",
-        "duration": "1:36"
     },
     {
         "title": "NECO ARC - БАЛАМУТ И ОБОРМОТ (AI COVER)",
@@ -1681,52 +2137,10 @@ const musicData = [
         "duration": "2:46"
     },
     {
-        "title": "CMH X DEAD BLONDE - Моя младшая сестра (SPEED UP)",
-        "artist": "HC0R3",
-        "playlist": "Dead inside",
-        "duration": "3:04"
-    },
-    {
-        "title": "ℂ𝕙𝕒𝕚𝕟𝕤𝕒𝕨 𝕄𝕒𝕟 𝔾𝕚𝕣𝕝𝕤 [ 𝟰𝗸 ] ℝ𝕖𝕒𝕝 𝕃𝕚𝕗𝕖 𝕍𝕖𝕣𝕤𝕚𝕠𝕟",
-        "artist": "Modelli AI",
-        "playlist": "Dead inside",
-        "duration": "2:15"
-    },
-    {
-        "title": "Wine Pon You (Official Audio)",
-        "artist": "Doja Cat",
-        "playlist": "Dead inside",
-        "duration": "3:41"
-    },
-    {
         "title": "Little Dark Age (Official Video)",
         "artist": "MGMT",
         "playlist": "Dead inside",
         "duration": "5:11"
-    },
-    {
-        "title": "Government Hooker D00nik Remix [Slowed down] [Fushiguro Toji Edit]",
-        "artist": "DandySong🎼",
-        "playlist": "Dead inside",
-        "duration": "1:56"
-    },
-    {
-        "title": "5opka - ЖРАК ЛУНИ",
-        "artist": "ФУГА TV",
-        "playlist": "Dead inside",
-        "duration": "2:28"
-    },
-    {
-        "title": "NKEEEI x UNIQЕ x ARTEM SHILOVETS — «ТОЛПЫ КРИЧАТ» | TOASTER LIVE",
-        "artist": "TOASTER",
-        "playlist": "Dead inside",
-        "duration": "2:06"
-    },
-    {
-        "title": "TeddyLoid feat. daoko - ME!ME!ME! part 1",
-        "artist": "Fortisia",
-        "playlist": "Dead inside",
-        "duration": "1:34"
     },
     {
         "title": "Mirèle - Кошечки хорошие лишнего не скажут",
@@ -1739,18 +2153,6 @@ const musicData = [
         "artist": "Alex Christensen",
         "playlist": "Dead inside",
         "duration": "3:43"
-    },
-    {
-        "title": "ПЛАНКА - На грани болевого порога (official remix)",
-        "artist": "PLANKAofficial",
-        "playlist": "Dead inside",
-        "duration": "3:17"
-    },
-    {
-        "title": "I Love It (feat. Adele Givens Emulation)",
-        "artist": "Kanye West",
-        "playlist": "Dead inside",
-        "duration": "2:11"
     },
     {
         "title": "Сектор Газа - БОМЖ",
@@ -1771,40 +2173,16 @@ const musicData = [
         "duration": "2:35"
     },
     {
-        "title": "Реквием Играет Тихо",
-        "artist": "GONE.Fludd",
-        "playlist": "Dead inside",
-        "duration": "2:34"
-    },
-    {
-        "title": "Зашей",
-        "artist": "IROH",
-        "playlist": "Dead inside",
-        "duration": "3:18"
-    },
-    {
         "title": "МАМБЛ",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "2:36"
     },
     {
-        "title": "КУБИК ЛЬДА",
-        "artist": "GONE.Fludd",
-        "playlist": "Dead inside",
-        "duration": "0:10"
-    },
-    {
         "title": "БАНАНОВЫЙ СОК",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "3:40"
-    },
-    {
-        "title": "ДРИПСЭТ",
-        "artist": "GONE.Fludd",
-        "playlist": "Dead inside",
-        "duration": "2:48"
     },
     {
         "title": "САХАРНЫЙ ЧЕЛОВЕК",
@@ -1823,18 +2201,6 @@ const musicData = [
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "3:15"
-    },
-    {
-        "title": "ВТОРНИК",
-        "artist": "GONE.Fludd",
-        "playlist": "Dead inside",
-        "duration": "1:53"
-    },
-    {
-        "title": "BOYS DON'T CRY",
-        "artist": "GONE.Fludd",
-        "playlist": "Dead inside",
-        "duration": "2:28"
     },
     {
         "title": "СЕТИ",
@@ -1873,12 +2239,6 @@ const musicData = [
         "duration": "1:50"
     },
     {
-        "title": "раздевайся",
-        "artist": "семьсот семь & Кишлак",
-        "playlist": "Dead inside",
-        "duration": "2:41"
-    },
-    {
         "title": "Винтаж - Плохая девочка(speed + nightcore)",
         "artist": "Briaxin",
         "playlist": "Dead inside",
@@ -1897,22 +2257,10 @@ const musicData = [
         "duration": "3:37"
     },
     {
-        "title": "enveel - 2:00 [время на часах уже два,девочка танцует одна.]",
-        "artist": "shg’j’kkks’j’d’bз",
-        "playlist": "Dead inside",
-        "duration": "1:35"
-    },
-    {
         "title": "скинь котиков - кошечки хорошие лишнего не скажут🤍😺 (speed up)",
         "artist": "twix1",
         "playlist": "Dead inside",
         "duration": "2:10"
-    },
-    {
-        "title": "Танцы в труселях",
-        "artist": "Мирби",
-        "playlist": "Dead inside",
-        "duration": "0:34"
     },
     {
         "title": "Nujabes - Aruarian Dance (Homework Edit)",
@@ -1927,12 +2275,6 @@ const musicData = [
         "duration": "1:23"
     },
     {
-        "title": "[AMV]   Little Dark Age「Neon Genesis Evangelion」",
-        "artist": "Václav Tomeš",
-        "playlist": "Dead inside",
-        "duration": "1:37"
-    },
-    {
         "title": "Пепел",
         "artist": "билборды",
         "playlist": "Dead inside",
@@ -1945,22 +2287,10 @@ const musicData = [
         "duration": "2:34"
     },
     {
-        "title": "nolik-CRANKI",
-        "artist": "AURORAX",
-        "playlist": "Dead inside",
-        "duration": "1:47"
-    },
-    {
         "title": "реквием",
         "artist": "zxcshade",
         "playlist": "Dead inside",
         "duration": "0:31"
-    },
-    {
-        "title": "КОЖНУ НОЧЬ ПЕРЕД СНОМ",
-        "artist": "YOXDEN",
-        "playlist": "Dead inside",
-        "duration": "1:46"
     },
     {
         "title": "Почему котикам компьютеры не нравятся",
@@ -1975,58 +2305,10 @@ const musicData = [
         "duration": "1:37"
     },
     {
-        "title": "СМН, Рома Жёлудь - Люби меня (секс, панк и разъеб)//speed up🌙",
-        "artist": "speed up♡",
-        "playlist": "Dead inside",
-        "duration": "2:10"
-    },
-    {
-        "title": "emoslut666-я люблю тебя (speed up)",
-        "artist": "sqrt",
-        "playlist": "Dead inside",
-        "duration": "1:19"
-    },
-    {
-        "title": "Moonlight (Official Music Video)",
-        "artist": "Kali Uchis",
-        "playlist": "Dead inside",
-        "duration": "3:08"
-    },
-    {
-        "title": "🔥MZLFF & LIDA - КАК ДЕЛА (prod. by DK)🔥",
-        "artist": "СОБРАННЫЙ ПЕНАЛ🎒",
-        "playlist": "Dead inside",
-        "duration": "1:26"
-    },
-    {
         "title": "《Powerful wind, Slicked-back hair》【Real Challenge ,The Latest Craze! Reality!】",
         "artist": "SUSHI RAMEN【Riku】",
         "playlist": "Dead inside",
         "duration": "2:17"
-    },
-    {
-        "title": "Засвіт встали козаченьки",
-        "artist": "KOZAK SIROMAHA",
-        "playlist": "Dead inside",
-        "duration": "2:53"
-    },
-    {
-        "title": "Я взлетаю вверх",
-        "artist": "Серега Пират",
-        "playlist": "Dead inside",
-        "duration": "2:39"
-    },
-    {
-        "title": "DAGames - It's Time To Die [RUS] (Remake by SayMaxWell) - FIVE NIGHTS AT FREDDY'S 3 SONG",
-        "artist": "SayMaxWell",
-        "playlist": "Dead inside",
-        "duration": "3:27"
-    },
-    {
-        "title": "Shingeki no Putin",
-        "artist": "dyproductions",
-        "playlist": "Dead inside",
-        "duration": "1:32"
     },
     {
         "title": "MMM YEA Meme | SDR2",
@@ -2039,12 +2321,6 @@ const musicData = [
         "artist": "レネさん",
         "playlist": "Dead inside",
         "duration": "0:55"
-    },
-    {
-        "title": "Hatsune Miku -  Boom, Boom, Boom, Boom!! (Cover)",
-        "artist": "Pinkcat",
-        "playlist": "Dead inside",
-        "duration": "2:35"
     },
     {
         "title": "EKATZE — Потрачено (Official Music Video)",
@@ -2065,34 +2341,10 @@ const musicData = [
         "duration": "2:15"
     },
     {
-        "title": "RdnStrider - Раскрою Паруса",
-        "artist": "RdnStrider",
-        "playlist": "Dead inside",
-        "duration": "4:39"
-    },
-    {
         "title": "NBA (Slowed)",
         "artist": "RSAC",
         "playlist": "Dead inside",
         "duration": "2:11"
-    },
-    {
-        "title": "Открываю пивко",
-        "artist": "Василий Дидляков",
-        "playlist": "Dead inside",
-        "duration": "3:10"
-    },
-    {
-        "title": "Все мои друзья",
-        "artist": "Valentin Strykalo",
-        "playlist": "Dead inside",
-        "duration": "2:54"
-    },
-    {
-        "title": "Lalis Dream - Последний день лета",
-        "artist": "Aug 30, 2020",
-        "playlist": "Dead inside",
-        "duration": "2:30"
     },
     {
         "title": "Солнышко",
@@ -5534,7 +5786,7 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 452,
-    "totalDurationSec": 152733,
+    "totalViews": 465,
+    "totalDurationSec": 158033,
     "lastUpdated": "Auto-generated"
 };
