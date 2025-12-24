@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/e2fea6387457d42f0114dcbcb466b290c273d907_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -38,8 +38,8 @@ const steamData = {
         {
             "appid": 750920,
             "name": "Shadow of the Tomb Raider",
-            "playtime_2weeks": 4.4,
-            "hours": 4.6,
+            "playtime_2weeks": 4.6,
+            "hours": 4.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg",
             "url": "https://store.steampowered.com/app/750920"
         },
