@@ -5383,6 +5383,12 @@ const musicData = [
         "duration": "1:54"
     },
     {
+        "title": "Код Гиасс",
+        "artist": "dabbackwood",
+        "playlist": "Dead inside",
+        "duration": "2:27"
+    },
+    {
         "title": "забери",
         "artist": "MADAMA",
         "playlist": "Dead inside",
@@ -6087,6 +6093,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 465,
-    "totalDurationSec": 165355,
+    "totalDurationSec": 165502,
     "lastUpdated": "Auto-generated"
 };
