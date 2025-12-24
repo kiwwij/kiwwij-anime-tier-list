@@ -65,17 +65,22 @@ def get_last_youtube_video(channel_id: str) -> str | None:
 
 
 # TELEGRAM
-def get_last_telegram_post() -> int | None:
+def get_last_telegram_post() -> Optional[int]:
     url = f"https://t.me/s/{TG_CHANNEL_NAME}"
     try:
         response = requests.get(url, timeout=10)
         response.raise_for_status()
 
         matches = re.findall(
-            rf'href="https://t.me/{TG_CHANNEL_NAME}/(\d+)"',
+            rf't.me/{TG_CHANNEL_NAME}/(\d+)',
             response.text
         )
-        return max(map(int, matches)) if matches else None
+        
+        if not matches:
+            print(f"⚠️ Посты в канале {TG_CHANNEL_NAME} не найдены. Проверьте, не пуст ли канал.")
+            return None
+            
+        return max(map(int, matches))
 
     except Exception as e:
         print(f"❌ Ошибка Telegram: {e}")
