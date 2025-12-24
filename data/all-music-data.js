@@ -2258,7 +2258,7 @@ const musicData = [
     },
     {
         "title": "Government Hooker D00nik Remix [Slowed down] [Fushiguro Toji Edit]",
-        "artist": "DandySong🎼",
+        "artist": "D4NDY :)",
         "playlist": "Dead inside",
         "duration": "1:56"
     },
