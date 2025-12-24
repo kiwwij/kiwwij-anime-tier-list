@@ -176,7 +176,6 @@ if (avatar) {
         setTimeout(() => avatar.style.transform = 'scale(1)', 100);
 
         if (clickCount === 10) {
-            // Меняем на Йошимуру, про которого ты писал в заметке #2
             avatar.src = 'https://kiwwij.github.io/kiwwij-anime-tier-list/img/about%20me/secret_avatar.png'; 
             avatar.style.border = '3px solid red';
             avatar.style.boxShadow = '0 0 20px rgba(255, 0, 0, 0.5)';
@@ -184,3 +183,48 @@ if (avatar) {
         }
     });
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    if (typeof socialData === "undefined") {
+        console.warn("socialData не найден");
+        return;
+    }
+
+    /* YOUTUBE */
+    const ytBox = document.getElementById("yt-video-container");
+
+    if (ytBox && socialData.youtube && socialData.youtube.lastVideoId) {
+        const videoId = socialData.youtube.lastVideoId;
+        const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`; // превью
+
+        ytBox.innerHTML = `
+            <a href="https://www.youtube.com/watch?v=${videoId}" target="_blank" class="yt-preview-link">
+                <img src="${thumbnailUrl}" alt="YouTube видео" class="yt-preview-img">
+                <div class="yt-play-icon">▶</div>
+            </a>
+        `;
+    } else if (ytBox) {
+        ytBox.innerHTML = `<p style="color:#94a3b8">Видео не найдено</p>`;
+    }
+
+    /* TELEGRAM */
+    const tgBox = document.getElementById("tg-post-container");
+
+    if (tgBox && socialData.telegram && socialData.telegram.lastPostId) {
+        tgBox.innerHTML = "";
+
+        const script = document.createElement("script");
+        script.async = true;
+        script.src = "https://telegram.org/js/telegram-widget.js?22";
+        script.setAttribute(
+            "data-telegram-post",
+            `${socialData.telegram.channelName}/${socialData.telegram.lastPostId}`
+        );
+        script.setAttribute("data-width", "100%");
+        script.setAttribute("data-dark", "1");
+
+        tgBox.appendChild(script);
+    } else if (tgBox) {
+        tgBox.innerHTML = `<p style="color:#94a3b8">Пост не найден</p>`;
+    }
+});

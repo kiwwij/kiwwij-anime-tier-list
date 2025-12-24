@@ -15,6 +15,23 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="quick-nav-container">
+        <button class="quick-nav-toggle" id="navToggle" title="Список записей">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </button>
+        
+        <div class="quick-nav-menu" id="navMenu">
+            <div class="quick-nav-header">Архив заметок</div>
+            <div class="quick-nav-links" id="notesNavLinks">
+                </div>
+            <div class="nav-divider"></div>
+            <a href="index.html" class="nav-item" style="color: var(--accent);">🏠 На главную</a>
+        </div>
+    </div>
 
 <header>
     <h1>Заметки</h1>
@@ -27,7 +44,7 @@
 <main class="stats-container" style="max-width: 900px;">
 
     <!-- Запись 1 -->
-    <div class="setup-card" style="margin-bottom: 20px;">
+    <div id="note1" class="setup-card" style="margin-bottom: 20px;">
         <h2 style="border-left: 4px solid var(--accent); padding-left: 15px;">Запись #1</h2>
 
         <p style="color: #94a3b8; font-size: 0.85rem; margin-bottom: 5px; margin-top: 15px;">
@@ -50,7 +67,7 @@
     </div>
 
     <!-- Запись 2 -->
-    <div class="setup-card" style="margin-bottom: 20px;">
+    <div id="note2" class="setup-card" style="margin-bottom: 20px;">
         <h2 style="border-left: 4px solid var(--accent); padding-left: 15px;">Запись #2</h2>
 
         <p style="color: #94a3b8; font-size: 0.85rem; margin-bottom: 5px; margin-top: 15px;">
@@ -88,7 +105,7 @@
     </div>
 
     <!-- Запись 3 -->
-    <div class="setup-card" style="margin-bottom: 20px;">
+    <div id="note3" class="setup-card" style="margin-bottom: 20px;">
         <h2 style="border-left: 4px solid var(--accent); padding-left: 15px;">Запись #3</h2>
 
         <p style="color: #94a3b8; font-size: 0.85rem; margin-bottom: 5px; margin-top: 15px;">
@@ -113,7 +130,7 @@
     </div>
 
     <!-- Запись 4 -->
-    <div class="setup-card" style="margin-bottom: 20px;">
+    <div id="note4" class="setup-card" style="margin-bottom: 20px;">
         <h2 style="border-left: 4px solid var(--accent); padding-left: 15px;">Запись #4</h2>
 
         <p style="color: #94a3b8; font-size: 0.85rem; margin-bottom: 5px; margin-top: 15px;">
@@ -124,7 +141,7 @@
             Автор пока ничего не написал.
         </p>
     </div>
-
+    
 </main>
 
     <footer class="site-footer">
@@ -148,41 +165,65 @@
     <script src="js/holidays.js"></script>
 </body>
     <script>
-        const btn = document.getElementById("scrollTopBtn");
+        document.addEventListener('DOMContentLoaded', () => {
+            const navToggle = document.getElementById('navToggle');
+            const navMenu = document.getElementById('navMenu');
+            const notesLinksContainer = document.getElementById('notesNavLinks');
 
-        window.addEventListener("scroll", () => {
-            if (window.scrollY > 200) {
-                btn.classList.add("show");
-            } else {
-                btn.classList.remove("show");
-            }
+            // 1. Кнопка "Наверх"
+            const scrollBtn = document.getElementById("scrollTopBtn");
+            window.addEventListener("scroll", () => {
+                scrollBtn.classList.toggle("show", window.scrollY > 200);
+            });
+            scrollBtn.addEventListener("click", () => {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            });
+
+            // 2. Генерация списка заметок
+            document.querySelectorAll('.setup-card').forEach((card) => {
+                const header = card.querySelector('h2');
+                if (header && card.id) {
+                    const link = document.createElement('a');
+                    link.href = `#${card.id}`;
+                    link.className = 'nav-item';
+                    link.innerHTML = `<span>📝</span> ${header.innerText}`;
+                    link.onclick = () => {
+                        navMenu.classList.remove('active');
+                        navToggle.classList.remove('active');
+                    };
+                    notesLinksContainer.appendChild(link);
+                }
+            });
+
+            // 3. Открытие/закрытие меню
+            navToggle.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const isActive = navMenu.classList.toggle('active');
+                navToggle.classList.toggle('active', isActive);
+            });
+
+            document.addEventListener('click', (e) => {
+                if (!navMenu.contains(e.target) && e.target !== navToggle) {
+                    navMenu.classList.remove('active');
+                    navToggle.classList.remove('active');
+                }
+            });
+
+            navMenu.addEventListener('click', (e) => e.stopPropagation());
+
+            // 4. Konami Code
+            const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+            let currentInput = [];
+            document.addEventListener('keydown', (e) => {
+                currentInput.push(e.key);
+                currentInput = currentInput.slice(-konamiCode.length);
+                if (currentInput.join('') === konamiCode.join('')) {
+                    document.body.style.filter = 'invert(1) hue-rotate(180deg)';
+                    document.body.style.transition = 'all 0.5s ease';
+                    alert('СЕКРЕТНЫЙ РЕЖИМ!');
+                    setTimeout(() => { document.body.style.filter = 'none'; }, 5000);
+                }
+            });
         });
-
-        btn.addEventListener("click", () => {
-            window.scrollTo({ top: 0, behavior: "smooth" });
-        });
-
-        const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
-        let currentInput = [];
-
-        document.addEventListener('keydown', (e) => {
-            currentInput.push(e.key);
-            currentInput = currentInput.slice(-konamiCode.length);
-
-            if (currentInput.join('') === konamiCode.join('')) {
-                activateGlitchMode();
-            }
-        });
-
-        function activateGlitchMode() {
-            document.body.style.filter = 'invert(1) hue-rotate(180deg)';
-            document.body.style.transition = 'all 0.5s ease';
-            alert('СЕКРЕТНЫЙ РЕЖИМ: Активирован визуальный глитч!');
-            
-            // Через 5 секунд возвращаем всё как было
-            setTimeout(() => {
-                document.body.style.filter = 'none';
-            }, 5000);
-        }
     </script>
 </html>
