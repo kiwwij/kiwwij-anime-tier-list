@@ -2,6 +2,7 @@ import json
 import os
 import re
 import requests
+from typing import Optional
 
 YT_HANDLE = "@serhiosergey"
 TG_CHANNEL_NAME = "kiwwijs"
@@ -129,3 +130,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
