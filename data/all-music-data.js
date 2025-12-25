@@ -5048,7 +5048,7 @@ const musicData = [
     },
     {
         "title": "Катя Самбука - Пати \"Black Batterfly\" [ Julie Sigtuna Edit ]",
-        "artist": "DandySong🎼",
+        "artist": "D4NDY :)",
         "playlist": "Dead inside",
         "duration": "1:50"
     },
