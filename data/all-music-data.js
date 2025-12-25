@@ -2083,7 +2083,7 @@ const musicData = [
         "duration": "3:50"
     },
     {
-        "title": "2:00 (Speed Up)",
+        "title": "2:00 (speed up)",
         "artist": "enveel",
         "playlist": "Dead inside",
         "duration": "1:41"
