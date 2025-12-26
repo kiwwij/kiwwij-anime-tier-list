@@ -5965,6 +5965,18 @@ const musicData = [
         "duration": "2:11"
     },
     {
+        "title": "shotgun.",
+        "artist": "overtonight",
+        "playlist": "Dead inside",
+        "duration": "1:52"
+    },
+    {
+        "title": "h4rtbrkr - i hate you",
+        "artist": "sick-sayu",
+        "playlist": "Dead inside",
+        "duration": "1:34"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6087,6 +6099,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 465,
-    "totalDurationSec": 165355,
+    "totalDurationSec": 165561,
     "lastUpdated": "Auto-generated"
 };
