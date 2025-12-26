@@ -3968,7 +3968,7 @@ const musicData = [
     },
     {
         "title": "ЗАХОТЕЛ",
-        "artist": "НАВЕРНОЕ ПОЭТ",
+        "artist": "НАВЕРНОЕ ПОЭТ - Topic",
         "playlist": "Dead inside",
         "duration": "1:40"
     },
@@ -3991,8 +3991,8 @@ const musicData = [
         "duration": "3:14"
     },
     {
-        "title": "TiK ToK (Official HD Video)",
-        "artist": "Ke$ha",
+        "title": "Ke$ha - TiK ToK (Official HD Video)",
+        "artist": "keshaVEVO",
         "playlist": "Dead inside",
         "duration": "3:36"
     },
@@ -4111,7 +4111,7 @@ const musicData = [
         "duration": "2:37"
     },
     {
-        "title": "Я на Аппарате",
+        "title": "Twinky - Я на Аппарате",
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:39"
