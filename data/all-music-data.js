@@ -5132,7 +5132,7 @@ const musicData = [
     },
     {
         "title": "Мефистофель",
-        "artist": "5mewmet",
+        "artist": "5mewmet - Topic",
         "playlist": "Dead inside",
         "duration": "1:27"
     },
@@ -5294,7 +5294,7 @@ const musicData = [
     },
     {
         "title": "Закричу на весь мир",
-        "artist": "ТРАВМА",
+        "artist": "Травма - Topic",
         "playlist": "Dead inside",
         "duration": "2:38"
     },
@@ -5353,7 +5353,7 @@ const musicData = [
         "duration": "1:32"
     },
     {
-        "title": "IKIZAMA",
+        "title": "East Of Eden / IKIZAMA [OFFICIAL MUSIC VIDEO]",
         "artist": "East Of Eden",
         "playlist": "Dead inside",
         "duration": "3:52"
@@ -5396,7 +5396,7 @@ const musicData = [
     },
     {
         "title": "улыбка",
-        "artist": "volhey",
+        "artist": "volhey - Topic",
         "playlist": "Dead inside",
         "duration": "1:50"
     },
@@ -5480,7 +5480,7 @@ const musicData = [
     },
     {
         "title": "FALLING IN LOVE",
-        "artist": "xxtristanxo",
+        "artist": "xxtristanxo - Topic",
         "playlist": "Dead inside",
         "duration": "1:52"
     },
@@ -5504,7 +5504,7 @@ const musicData = [
     },
     {
         "title": "The Love I Lost",
-        "artist": "Fried By Fluoride",
+        "artist": "Fried By Fluoride - Topic",
         "playlist": "Dead inside",
         "duration": "1:53"
     },
@@ -5522,7 +5522,7 @@ const musicData = [
     },
     {
         "title": "НЕ СКУЧАЙ",
-        "artist": "ТРОЕТОЧИЕ",
+        "artist": "Release - Topic",
         "playlist": "Dead inside",
         "duration": "2:26"
     },
@@ -5558,7 +5558,7 @@ const musicData = [
     },
     {
         "title": "Альтушка",
-        "artist": "Neverlove",
+        "artist": "Neverlove - Topic",
         "playlist": "Dead inside",
         "duration": "3:47"
     },
