@@ -38,8 +38,8 @@ const steamData = {
         {
             "appid": 750920,
             "name": "Shadow of the Tomb Raider",
-            "playtime_2weeks": 5.3,
-            "hours": 5.6,
+            "playtime_2weeks": 6.3,
+            "hours": 6.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg",
             "url": "https://store.steampowered.com/app/750920"
         },
