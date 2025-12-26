@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/e999ef2e2e39a77fde5a3b901348679eea74ba6f_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50"
+        "status": "Offline",
+        "statusColor": "#9E9E9E"
     },
     "stats": {
         "total_games": 240
@@ -22,8 +22,8 @@ const steamData = {
         {
             "appid": 1501750,
             "name": "Lords of the Fallen",
-            "playtime_2weeks": 13.2,
-            "hours": 13.2,
+            "playtime_2weeks": 14.6,
+            "hours": 14.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
             "url": "https://store.steampowered.com/app/1501750"
         },
