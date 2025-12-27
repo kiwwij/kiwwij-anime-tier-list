@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/e999ef2e2e39a77fde5a3b901348679eea74ba6f_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
-        "statusColor": "#4CAF50"
+        "status": "Away",
+        "statusColor": "#FFC107"
     },
     "stats": {
         "total_games": 240
@@ -76,20 +76,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/431960"
         },
         {
+            "appid": 1168280,
+            "name": "Resident Evil 2 \"R.P.D. Demo\"",
+            "playtime_2weeks": 0.1,
+            "hours": 0.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1168280/header.jpg",
+            "url": "https://store.steampowered.com/app/1168280"
+        },
+        {
             "appid": 1172620,
             "name": "Sea of Thieves",
             "playtime_2weeks": 0.0,
             "hours": 88.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620"
-        },
-        {
-            "appid": 920490,
-            "name": "Driver Booster for Steam",
-            "playtime_2weeks": 0.0,
-            "hours": 14.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
-            "url": "https://store.steampowered.com/app/920490"
         }
     ],
     "top_games": [
