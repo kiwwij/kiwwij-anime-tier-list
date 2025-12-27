@@ -4460,13 +4460,13 @@ const musicData = [
     },
     {
         "title": "Самое грустное лето",
-        "artist": "Чучело",
+        "artist": "Чучело - Topic",
         "playlist": "Dead inside",
         "duration": "2:58"
     },
     {
-        "title": "Батареи",
-        "artist": "Nervy",
+        "title": "Нервы - Батареи",
+        "artist": "StarPro",
         "playlist": "Dead inside",
         "duration": "2:53"
     },
@@ -4639,7 +4639,7 @@ const musicData = [
         "duration": "3:04"
     },
     {
-        "title": "did i tell u that i miss u - slowed",
+        "title": "adore - \"did i tell u that i miss u\" (lyric video)",
         "artist": "adore",
         "playlist": "Dead inside",
         "duration": "1:56"
@@ -4958,7 +4958,7 @@ const musicData = [
     },
     {
         "title": "It's Going Down Now",
-        "artist": "Azumi Takahashi",
+        "artist": "Azumi Takahashi - Topic",
         "playlist": "Dead inside",
         "duration": "3:07"
     },
