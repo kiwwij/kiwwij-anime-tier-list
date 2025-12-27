@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 39.6,
+            "playtime_2weeks": 39.3,
             "hours": 3074.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -28,20 +28,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1501750"
         },
         {
-            "appid": 2215430,
-            "name": "Ghost of Tsushima DIRECTOR'S CUT",
-            "playtime_2weeks": 6.8,
-            "hours": 16.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2215430/header.jpg",
-            "url": "https://store.steampowered.com/app/2215430"
-        },
-        {
             "appid": 750920,
             "name": "Shadow of the Tomb Raider",
             "playtime_2weeks": 6.4,
             "hours": 6.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg",
             "url": "https://store.steampowered.com/app/750920"
+        },
+        {
+            "appid": 2215430,
+            "name": "Ghost of Tsushima DIRECTOR'S CUT",
+            "playtime_2weeks": 6.2,
+            "hours": 16.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2215430/header.jpg",
+            "url": "https://store.steampowered.com/app/2215430"
         },
         {
             "appid": 2444750,
