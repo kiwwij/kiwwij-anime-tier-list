@@ -2401,3 +2401,36 @@ dialog::backdrop {
     }
 }
 
+#scrollDownBtn {
+    position: fixed;
+    bottom: 80px; /* Чуть выше кнопки "наверх" */
+    right: 20px;
+    background: var(--accent, #10b981);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s;
+}
+
+/* Скрываем кнопку, когда пользователь доскроллил до конца */
+#scrollDownBtn.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+body {
+    transition: transform 1s ease-in-out; /* Плавная анимация 1 секунда */
+    min-height: 100vh; /* Чтобы при повороте не было белых полос */
+}
+
+/* Класс для переворота */
+body.flipped {
+    transform: rotate(180deg);
+}

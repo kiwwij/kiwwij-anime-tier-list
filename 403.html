@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>403 — Табу</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            /* Более мрачный градиент: черный и темно-фиолетовый (цвет Ведьмы Зависти) */
+            background: radial-gradient(circle at center, #2e001f 0%, #000000 90%);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .error-page {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            animation: shakeIn 2s ease-out;
+        }
+
+        /* 403 чуть более "зловещий" */
+        .error-code {
+            font-size: clamp(5rem, 15vw, 10rem);
+            font-weight: 900;
+            color: #a100ff; /* Фиолетовый неон */
+            text-shadow: 0 0 25px rgba(138, 43, 226, 0.6);
+            position: relative;
+            margin-bottom: -20px;
+            letter-spacing: -5px;
+        }
+
+        h2 {
+            font-family: 'Inter', sans-serif;
+            color: #e2e8f0;
+            margin-top: 20px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px rgba(161, 0, 255, 0.5);
+        }
+
+        .error-quote {
+            color: #a8a29e;
+            font-style: italic;
+            margin: 20px auto;
+            max-width: 600px;
+            line-height: 1.6;
+            font-size: 1.1rem;
+            border-left: 3px solid #a100ff;
+            padding-left: 15px;
+        }
+
+        /* Кнопка "отступления" */
+        .btn-return {
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: transparent;
+            border: 2px solid #a100ff;
+            color: #a100ff;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-return:hover {
+            background: #a100ff;
+            color: #fff;
+            box-shadow: 0 0 25px #a100ff;
+        }
+
+        /* Эффект виньетки (сгущающаяся тьма по краям) */
+        .shadow-bg {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: radial-gradient(transparent 50%, #000 100%), 
+                        url('https://www.transparenttextures.com/patterns/black-scales.png');
+            opacity: 0.6;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        /* Эффект "Незримых рук" - легкая пульсация */
+        @keyframes shadowPulse {
+            0% { box-shadow: inset 0 0 50px #000; }
+            50% { box-shadow: inset 0 0 150px #2e001f; }
+            100% { box-shadow: inset 0 0 50px #000; }
+        }
+        
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            animation: shadowPulse 4s infinite;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        @keyframes shakeIn {
+            0% { opacity: 0; transform: scale(0.9); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="shadow-bg"></div>
+
+    <main class="error-page">
+        <div class="error-code">403</div>
+
+        <h2>Ведьма наблюдает</h2>
+        
+        <p class="error-quote">
+            «Ты коснулся того, что не предназначено для твоих глаз.<br>
+            Если сделаешь еще шаг — тьма поглотит тебя».
+        </p>
+
+        <p style="color: #c084fc; font-weight: bold; margin-bottom: 20px; font-size: 0.9rem;">
+            Доступ запрещен, НН-кун. Это Табу.
+        </p>
+
+        <a href="index.html" class="btn btn-link btn-return">Отступить назад</a>
+    </main>
+</body>
+</html>

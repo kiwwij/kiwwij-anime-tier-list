@@ -108,7 +108,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 { 
                     title: "Tomb Raider (2013)",
-                    review: "Кайфовая игра про Лару Крофт. Прошёл на платину.",
+                    review: "Ревью - ",
                 },
                 { 
                     title: "Slime Rancher",
@@ -182,7 +182,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 { 
                     title: "Rise of the Tomb Raider",
-                    review: "Кайфовая игра про Лару Крофт в горах, но чутка кучнее 1ой части. Прошёл на платину.",
+                    review: "Ревью - . Чутка кучнее 1ой части.",
                 },
                 { 
                     title: "Sekiro: shadows die twice",
@@ -299,6 +299,10 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Lords of the Fallen",
+                    review: "Ревью - пока нет",
+                },
+                {
+                    title: "Shadow of the Tomb Raider",
                     review: "Ревью - пока нет",
                 },
             ],
