@@ -44,20 +44,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2215430"
         },
         {
-            "appid": 2444750,
-            "name": "Shape of Dreams",
-            "playtime_2weeks": 1.1,
-            "hours": 12.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
-            "url": "https://store.steampowered.com/app/2444750"
-        },
-        {
             "appid": 435150,
             "name": "Divinity: Original Sin 2",
             "playtime_2weeks": 0.9,
             "hours": 27.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/435150/header.jpg",
             "url": "https://store.steampowered.com/app/435150"
+        },
+        {
+            "appid": 2444750,
+            "name": "Shape of Dreams",
+            "playtime_2weeks": 0.7,
+            "hours": 12.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
+            "url": "https://store.steampowered.com/app/2444750"
         },
         {
             "appid": 1905180,
