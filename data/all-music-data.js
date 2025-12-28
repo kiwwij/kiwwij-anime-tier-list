@@ -853,6 +853,12 @@ const musicData = [
         "duration": "1:31"
     },
     {
+        "title": "Weight of the World/壊レタ世界ノ歌 - Weight of the World Kowaretasekainouta - Marina Kawano",
+        "artist": "Keiichi Okabe",
+        "playlist": "Japan",
+        "duration": "5:45"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -5977,6 +5983,12 @@ const musicData = [
         "duration": "1:34"
     },
     {
+        "title": "エミール/ショップ - Emil's Shop",
+        "artist": "Kuniyuki Takahashi",
+        "playlist": "Dead inside",
+        "duration": "5:29"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6099,6 +6111,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 465,
-    "totalDurationSec": 165561,
+    "totalDurationSec": 166235,
     "lastUpdated": "Auto-generated"
 };
