@@ -30,15 +30,15 @@ const steamData = {
         {
             "appid": 750920,
             "name": "Shadow of the Tomb Raider",
-            "playtime_2weeks": 8.7,
-            "hours": 8.9,
+            "playtime_2weeks": 9.3,
+            "hours": 9.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg",
             "url": "https://store.steampowered.com/app/750920"
         },
         {
             "appid": 2215430,
             "name": "Ghost of Tsushima DIRECTOR'S CUT",
-            "playtime_2weeks": 1.9,
+            "playtime_2weeks": 1.1,
             "hours": 16.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2215430/header.jpg",
             "url": "https://store.steampowered.com/app/2215430"
