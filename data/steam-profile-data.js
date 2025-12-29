@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/750920"
         },
         {
-            "appid": 2215430,
-            "name": "Ghost of Tsushima DIRECTOR'S CUT",
-            "playtime_2weeks": 1.1,
-            "hours": 16.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2215430/header.jpg",
-            "url": "https://store.steampowered.com/app/2215430"
-        },
-        {
             "appid": 435150,
             "name": "Divinity: Original Sin 2",
             "playtime_2weeks": 0.9,
             "hours": 27.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/435150/header.jpg",
             "url": "https://store.steampowered.com/app/435150"
+        },
+        {
+            "appid": 2215430,
+            "name": "Ghost of Tsushima DIRECTOR'S CUT",
+            "playtime_2weeks": 0.8,
+            "hours": 16.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2215430/header.jpg",
+            "url": "https://store.steampowered.com/app/2215430"
         },
         {
             "appid": 431960,
