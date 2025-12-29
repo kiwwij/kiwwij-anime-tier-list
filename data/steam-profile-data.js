@@ -22,8 +22,8 @@ const steamData = {
         {
             "appid": 1501750,
             "name": "Lords of the Fallen",
-            "playtime_2weeks": 17.5,
-            "hours": 17.5,
+            "playtime_2weeks": 18.0,
+            "hours": 18.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
             "url": "https://store.steampowered.com/app/1501750"
         },
