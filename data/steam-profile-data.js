@@ -52,14 +52,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/431960"
         },
         {
-            "appid": 2215430,
-            "name": "Ghost of Tsushima DIRECTOR'S CUT",
-            "playtime_2weeks": 0.2,
-            "hours": 16.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2215430/header.jpg",
-            "url": "https://store.steampowered.com/app/2215430"
-        },
-        {
             "appid": 1905180,
             "name": "OBS Studio",
             "playtime_2weeks": 0.1,
