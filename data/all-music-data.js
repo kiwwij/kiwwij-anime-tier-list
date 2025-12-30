@@ -1753,8 +1753,8 @@ const musicData = [
         "duration": "4:22"
     },
     {
-        "title": "Miyagi & Эндшпиль feat. Рем Дигга - I Got Love (Official Video)",
-        "artist": "Hajime",
+        "title": "I Got Love (feat. Rem Digga)",
+        "artist": "Miyagi & Andy Panda",
         "playlist": "Dead inside",
         "duration": "4:35"
     },
@@ -2735,6 +2735,12 @@ const musicData = [
         "artist": "ZAMination",
         "playlist": "Dead inside",
         "duration": "4:25"
+    },
+    {
+        "title": "I sang the NTR song",
+        "artist": "Miori Celesta",
+        "playlist": "Dead inside",
+        "duration": "3:05"
     },
     {
         "title": "Nightcore - Suzume",
@@ -6111,6 +6117,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 465,
-    "totalDurationSec": 166111,
+    "totalDurationSec": 166296,
     "lastUpdated": "Auto-generated"
 };
