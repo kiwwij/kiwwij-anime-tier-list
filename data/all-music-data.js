@@ -5989,6 +5989,12 @@ const musicData = [
         "duration": "5:29"
     },
     {
+        "title": "Лягушка Дота2, Frog dota 2",
+        "artist": "Rem",
+        "playlist": "Dead inside",
+        "duration": "1:01"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6111,6 +6117,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 465,
-    "totalDurationSec": 166235,
+    "totalDurationSec": 166296,
     "lastUpdated": "Auto-generated"
 };
