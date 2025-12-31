@@ -44,14 +44,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2909400"
         },
         {
-            "appid": 435150,
-            "name": "Divinity: Original Sin 2",
-            "playtime_2weeks": 0.6,
-            "hours": 27.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/435150/header.jpg",
-            "url": "https://store.steampowered.com/app/435150"
-        },
-        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.4,
@@ -82,6 +74,14 @@ const steamData = {
             "hours": 88.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620"
+        },
+        {
+            "appid": 435150,
+            "name": "Divinity: Original Sin 2",
+            "playtime_2weeks": 0.0,
+            "hours": 27.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/435150/header.jpg",
+            "url": "https://store.steampowered.com/app/435150"
         },
         {
             "appid": 920490,
