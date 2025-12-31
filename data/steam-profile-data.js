@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/e999ef2e2e39a77fde5a3b901348679eea74ba6f_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
-        "statusColor": "#4CAF50"
+        "status": "Away",
+        "statusColor": "#FFC107"
     },
     "stats": {
         "total_games": 240
@@ -66,22 +66,6 @@ const steamData = {
             "hours": 0.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1168280/header.jpg",
             "url": "https://store.steampowered.com/app/1168280"
-        },
-        {
-            "appid": 1172620,
-            "name": "Sea of Thieves",
-            "playtime_2weeks": 0.0,
-            "hours": 88.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
-            "url": "https://store.steampowered.com/app/1172620"
-        },
-        {
-            "appid": 435150,
-            "name": "Divinity: Original Sin 2",
-            "playtime_2weeks": 0.0,
-            "hours": 27.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/435150/header.jpg",
-            "url": "https://store.steampowered.com/app/435150"
         },
         {
             "appid": 920490,
