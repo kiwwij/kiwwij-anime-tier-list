@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/e999ef2e2e39a77fde5a3b901348679eea74ba6f_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "Online",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 240
@@ -46,7 +46,7 @@ const steamData = {
         {
             "appid": 435150,
             "name": "Divinity: Original Sin 2",
-            "playtime_2weeks": 0.8,
+            "playtime_2weeks": 0.6,
             "hours": 27.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/435150/header.jpg",
             "url": "https://store.steampowered.com/app/435150"
