@@ -46,8 +46,8 @@ const steamData = {
         {
             "appid": 2767030,
             "name": "Marvel Rivals",
-            "playtime_2weeks": 0.5,
-            "hours": 149.2,
+            "playtime_2weeks": 1.0,
+            "hours": 149.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030"
         },
@@ -114,18 +114,18 @@ const steamData = {
             "url": "https://store.steampowered.com/app/105600"
         },
         {
+            "appid": 2767030,
+            "name": "Marvel Rivals",
+            "hours": 149.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
+            "url": "https://store.steampowered.com/app/2767030"
+        },
+        {
             "appid": 489830,
             "name": "The Elder Scrolls V: Skyrim Special Edition",
             "hours": 149.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/489830/header.jpg",
             "url": "https://store.steampowered.com/app/489830"
-        },
-        {
-            "appid": 2767030,
-            "name": "Marvel Rivals",
-            "hours": 149.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
-            "url": "https://store.steampowered.com/app/2767030"
         },
         {
             "appid": 335300,
