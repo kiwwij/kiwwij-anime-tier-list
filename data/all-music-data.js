@@ -860,7 +860,7 @@ const musicData = [
     },
     {
         "title": "Лёд",
-        "artist": "WENARO & LXNER",
+        "artist": "WENARO",
         "playlist": "Dead inside",
         "duration": "2:33"
     },
@@ -2735,12 +2735,6 @@ const musicData = [
         "artist": "ZAMination",
         "playlist": "Dead inside",
         "duration": "4:25"
-    },
-    {
-        "title": "I sang the NTR song",
-        "artist": "Miori Celesta",
-        "playlist": "Dead inside",
-        "duration": "3:05"
     },
     {
         "title": "Nightcore - Suzume",
@@ -6117,6 +6111,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 475,
-    "totalDurationSec": 166296,
+    "totalDurationSec": 166111,
     "lastUpdated": "Auto-generated"
 };
