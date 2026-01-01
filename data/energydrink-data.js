@@ -146,6 +146,11 @@ if (typeof tierListData !== 'undefined') {
                 review: "Сладкий вкус ананаса, даже без горького послевкусия, как обычно. Нет маленькой баночки.",
                 img: "energydrink/Non Stop Spark.webp"
             },
+            { 
+                title: "Monster Energy 300 Java French Vanilla Triple Shot",
+                review: "Прикольный монстр со вкусом... какао, хоть и написано что кофе. Советую пить горячем. Не понимаю, почему цена такая дорогая? 200 грн! Ужас просто!",
+                img: "energydrink/Monster Energy 300 Java French Vanilla Triple Shot.png"
+            },
         ],
         'D': [
             { 

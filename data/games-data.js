@@ -108,7 +108,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 { 
                     title: "Tomb Raider (2013)",
-                    review: "Ревью - ",
+                    review: "Частичное ревью - https://steamcommunity.com/id/serhiosergey/recommended/750920/",
                 },
                 { 
                     title: "Slime Rancher",
@@ -182,7 +182,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 { 
                     title: "Rise of the Tomb Raider",
-                    review: "Ревью - . Чутка кучнее 1ой части.",
+                    review: "Частичное ревью - https://steamcommunity.com/id/serhiosergey/recommended/750920/",
                 },
                 { 
                     title: "Sekiro: shadows die twice",
@@ -298,12 +298,8 @@ if (typeof tierListData !== 'undefined') {
                     review: "Ревью - https://steamcommunity.com/profiles/76561199512523461/recommended/2215430/",
                 },
                 {
-                    title: "Lords of the Fallen",
-                    review: "Ревью - пока нет",
-                },
-                {
                     title: "Shadow of the Tomb Raider",
-                    review: "Ревью - пока нет",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/750920/",
                 },
             ],
             'C': [
@@ -503,6 +499,10 @@ if (typeof tierListData !== 'undefined') {
                 { 
                     title: "Rust",
                     review: "",
+                },
+                {
+                    title: "Lords of the Fallen",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1501750/",
                 },
             ]
         }
