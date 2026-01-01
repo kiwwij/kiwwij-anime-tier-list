@@ -22,7 +22,7 @@ const steamData = {
         {
             "appid": 1501750,
             "name": "Lords of the Fallen",
-            "playtime_2weeks": 16.6,
+            "playtime_2weeks": 16.1,
             "hours": 19.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
             "url": "https://store.steampowered.com/app/1501750"
@@ -42,6 +42,14 @@ const steamData = {
             "hours": 1.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
+        },
+        {
+            "appid": 2767030,
+            "name": "Marvel Rivals",
+            "playtime_2weeks": 0.5,
+            "hours": 149.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
+            "url": "https://store.steampowered.com/app/2767030"
         },
         {
             "appid": 431960,
@@ -115,7 +123,7 @@ const steamData = {
         {
             "appid": 2767030,
             "name": "Marvel Rivals",
-            "hours": 148.7,
+            "hours": 149.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030"
         },
