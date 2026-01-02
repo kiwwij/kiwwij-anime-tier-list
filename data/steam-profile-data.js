@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/750920"
         },
         {
+            "appid": 2909400,
+            "name": "FINAL FANTASY VII REBIRTH",
+            "playtime_2weeks": 1.9,
+            "hours": 1.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
+            "url": "https://store.steampowered.com/app/2909400"
+        },
+        {
             "appid": 2767030,
             "name": "Marvel Rivals",
             "playtime_2weeks": 1.9,
             "hours": 150.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030"
-        },
-        {
-            "appid": 2909400,
-            "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 1.4,
-            "hours": 1.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
-            "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 431960,
