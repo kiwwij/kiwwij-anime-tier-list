@@ -4676,7 +4676,7 @@ const musicData = [
     },
     {
         "title": "понад хмарами - tartak (feat. katia chill) (текст пісні)",
-        "artist": "Українська нота",
+        "artist": "душа, що шукає щастя ",
         "playlist": "Dead inside",
         "duration": "4:27"
     },
