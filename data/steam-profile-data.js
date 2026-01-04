@@ -14,15 +14,15 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 29.0,
-            "hours": 3096.9,
+            "playtime_2weeks": 29.5,
+            "hours": 3097.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1501750,
             "name": "Lords of the Fallen",
-            "playtime_2weeks": 10.8,
+            "playtime_2weeks": 10.3,
             "hours": 19.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
             "url": "https://store.steampowered.com/app/1501750"
