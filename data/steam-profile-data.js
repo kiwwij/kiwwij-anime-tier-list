@@ -22,7 +22,7 @@ const steamData = {
         {
             "appid": 1501750,
             "name": "Lords of the Fallen",
-            "playtime_2weeks": 9.8,
+            "playtime_2weeks": 9.4,
             "hours": 19.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
             "url": "https://store.steampowered.com/app/1501750"
@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/750920"
         },
         {
+            "appid": 2767030,
+            "name": "Marvel Rivals",
+            "playtime_2weeks": 2.7,
+            "hours": 151.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
+            "url": "https://store.steampowered.com/app/2767030"
+        },
+        {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
             "playtime_2weeks": 2.3,
             "hours": 2.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
-        },
-        {
-            "appid": 2767030,
-            "name": "Marvel Rivals",
-            "playtime_2weeks": 2.2,
-            "hours": 150.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
-            "url": "https://store.steampowered.com/app/2767030"
         },
         {
             "appid": 431960,
@@ -116,7 +116,7 @@ const steamData = {
         {
             "appid": 2767030,
             "name": "Marvel Rivals",
-            "hours": 150.9,
+            "hours": 151.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030"
         },
