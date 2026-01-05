@@ -4,33 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мой Аниме Тир-Лист</title>
-    <meta name="author" content="kiwwij">
-    <meta name="description" content="Все мои аниме, собранные в тир-листе с коротким описанием.">
     <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/53/a0/3d/53a03dfe10d137fe7427b48471e2c5aa.gif">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/main-layout.css">
+    <link rel="stylesheet" href="css/tierlist-styles.css">
 </head>
 <body class="tierlist-page">
 
     <header>
-        <h1>Тир-листы Аниме & Всего другого</h1>
-        <div class="controls">
-            <select id="categorySelect"></select>
-            <select id="scaleSelect"></select>
-            
-            <a href="steam_stats.html" class="btn btn-link btn-steam">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" alt="Steam Logo">
-                Steam
-            </a>
-            <a href="music.html" class="btn btn-link btn-music-nav">🎵 Музыка</a>
-            <a href="imdb+hdrezka_list.html" class="btn btn-link">🎬 Фильмы</a>
-            <a href="stats.html" class="btn btn-link">📊Статистика</a>
-            <a href="aboutme.html" class="btn btn-link">👤Обо мне</a>
-            
+        <div class="header-content">
+            <div class="top-row">
+                <h1 class="logo-text">Тир листы</h1>
+                <label class="switch">
+                    <input type="checkbox" id="themeToggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div class="controls-wrapper">
+                <select id="categorySelect" class="category-dropdown"></select>
+
+                <div class="scale-tabs" id="scaleTabs">
+                    <button class="tab-btn active" data-scale="standard">Стандартная</button>
+                    <button class="tab-btn" data-scale="personal">Личная</button>
+                </div>
+            </div>
+
+            <nav class="nav-links">
+                <a href="steamstats.html" class="btn-link"><i class='bx bxl-steam'></i> Steam</a>
+                <a href="movies.html" class="btn-link"><i class='bx bx-movie-play'></i> Фильмы</a>
+                <a href="music.html" class="btn-link"><i class='bx bx-music'></i> Музыка</a>
+                <a href="stats.html" class="btn-link"><i class='bx bx-bar-chart-alt-2'></i> Статистика</a>
+                <a href="aboutme.html" class="btn-link"><i class='bx bx-user'></i> Обо мне</a>
+            </nav>
         </div>
     </header>
 
@@ -38,23 +47,18 @@
 
     <dialog id="detailsModal">
         <div class="modal-content">
-            <button class="close-modal" id="closeModal" aria-label="Закрыть">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
+            <button class="close-modal" id="closeModal">
+                <i class='bx bx-x'></i>
             </button>
-
             <div class="modal-header">
                 <img src="" alt="" class="modal-img" id="modalImg">
             </div>
-
             <div class="modal-body">
-                <h2 class="modal-title" id="modalTitle"></h2>
-                <span class="modal-subtitle" id="modalAltTitle"></span>
-                <div class="modal-meta">
-                    <span id="modalRating"></span>
-                </div>
-                <div class="modal-review">
+                <h2 id="modalTitle"></h2>
+                <p id="modalAltTitle" class="modal-subtitle"></p>
+                <div id="modalRating" class="modal-meta"></div>
+                <div class="modal-review-box">
+                    <h3>Мой отзыв:</h3>
                     <p id="modalReview"></p>
                 </div>
             </div>
@@ -67,40 +71,18 @@
                 <span class="footer-logo">kiwwij</span>
                 <p class="footer-copyright">© 2025. No Copyright.</p>
             </div>
-            <div class="footer-socials">
-                <a href="https://kiwwij.github.io/kiwwij-social-links/" target="_blank" aria-label="Social Media Links" class="social-link">
-                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.71.82-1z"/>
-                        <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
-                    </svg>
-                </a>
-            </div>
+            <nav class="footer-socials">
+                <a href="https://github.com/kiwwij" class="social-link" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://kiwwij.github.io/kiwwij-social-links/" class="social-link" target="_blank"><i class='bx bx-link-alt'></i></a>
+            </nav>
         </div>
     </footer>
 
-    <script src="data/anime-data.js"></script>
-    <script src="data/rezero-data.js"></script>
-    <script src="data/energydrink-data.js"></script>
-    <script src="data/games-data.js"></script>
-
-    <script src="js/script.js"></script>
-    <script src="js/holidays.js"></script>
-
-    <button id="scrollTopBtn" title="Наверх">↑</button>
+    <script src="data/anime-data.js" defer></script>
+    <script src="data/rezero-data.js" defer></script>
+    <script src="data/energydrink-data.js" defer></script>
+    <script src="data/games-data.js" defer></script>
+    <script src="js/index.js" defer></script>
+    <script src="js/holidays.js" defer></script>
 </body>
-    <script>
-        const btn = document.getElementById("scrollTopBtn");
-
-        window.addEventListener("scroll", () => {
-            if (window.scrollY > 200) {
-                btn.classList.add("show");
-            } else {
-                btn.classList.remove("show");
-            }
-        });
-
-        btn.addEventListener("click", () => {
-            window.scrollTo({ top: 0, behavior: "smooth" });
-        });
-    </script>
 </html>

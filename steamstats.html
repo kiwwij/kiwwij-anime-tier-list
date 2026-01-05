@@ -3,83 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Музыкальная Статистика | kiwwij</title>
-    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/c6/13/87/c61387bddb1dcf7f3445f687ea56f67e.gif">
+    <title>Игровая статистика | kiwwij</title>
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/be/73/3e/be733ee15fd11eabeb5dfa107f32f11e.gif">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="css/main-layout.css">
-    <link rel="stylesheet" href="css/music.css">
+    <link rel="stylesheet" href="css/steamstats.css"> 
 </head>
-<body class="tierlist-page"> <header>
+<body class="tierlist-page">
+
+    <header>
         <div class="header-content">
             <div class="top-row">
-                <h1 class="logo-text">Статистика основного плейлиста</h1>
+                <h1 class="logo-text">Игровая статистика</h1>
                 <label class="switch">
                     <input type="checkbox" id="themeToggle">
                     <span class="slider"></span>
                 </label>
             </div>
-
             <nav class="nav-links">
-                <a href="allmusic.html" class="btn-link"><i class='bx bxs-playlist'></i> Все плейлисты</a>
                 <a href="index.html" class="btn-link"><i class='bx bx-home-alt'></i> На главную</a>
             </nav>
         </div>
     </header>
 
     <main class="stats-container">
-    <div class="stats-summary">
-        <div class="stat-card">
-            <h3>Всего треков</h3>
-            <span class="stat-number" id="totalSongs">0</span>
-        </div>
-        <div class="stat-card">
-            <h3>Артистов</h3>
-            <span class="stat-number" id="uniqueArtists">0</span>
-        </div>
-        <div class="stat-card top-artist-card">
-            <h3>Топ-1 Артист</h3>
-            <span class="stat-number artist-name" id="topArtist">-</span>
-        </div>
-        <div class="stat-card">
-            <h3>Длительность</h3>
-            <span class="stat-number" id="totalDuration">0ч</span>
-        </div>
-    </div>
-
-    <div class="vibe-glass-section">
-        <div class="vibe-content">
-            <h2>Музыкальный Вайб</h2>
-            <p>Меланхолия серых панелек и кислотный цифровой мир. Музыка бессонницы и самокопаний.</p>
-        </div>
-        <div class="vibe-tags">
-            <span class="tag tag-hyper">💊 Hyperpop</span>
-            <span class="tag tag-emo">⛓️ Emo Rap</span>
-            <span class="tag tag-punk">🌃 Post-Punk</span>
-            <span class="tag tag-indie">💿 Webcore</span>
-            <span class="tag tag-indie">🕯️ Acoustic Lo-Fi</span>
-        </div>
-    </div>
-
-    <div class="music-main-grid">
-        <div class="glass-panel chart-panel">
-            <h2 class="panel-title">Топ исполнителей</h2>
-            <div class="chart-wrapper">
-                <canvas id="artistsChart"></canvas>
+        <div class="glass-panel profile-section">
+            <div class="steam-header">
+                <div class="avatar-frame">
+                    <img src="https://via.placeholder.com/150" alt="Avatar" id="steamAvatar">
+                </div>
+                <div class="profile-info">
+                    <h2 id="steamNick" class="panel-title">Загрузка...</h2>
+                    <a href="#" target="_blank" id="steamLink" class="profile-link">Профиль Steam ↗</a>
+                    <div id="statusContainer">
+                        <span id="steamStatus" class="status-badge">...</span>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="glass-panel list-panel">
-            <h2 class="panel-title">Плейлист</h2>
-            <div class="scrollable-list">
-                <ul id="songList" class="music-list-detailed"></ul>
-            </div>
+        <div class="glass-panel" id="recentSection">
+            <h2 class="panel-title-accent blue-accent">Недавно запускал</h2>
+            <div class="games-grid compact-grid" id="recentGames"></div>
         </div>
-    </div>
-</main>
+
+        <div class="glass-panel">
+            <div class="panel-header-info">
+                <h2 class="panel-title-accent purple-accent">Топ 20 по времени</h2>
+                <p class="text-muted-small">*Dota 2 не отображается из-за настроек Valve.</p>
+            </div>
+            <div class="games-grid compact-grid" id="topGames"></div>
+        </div>
+    </main>
 
     <footer class="site-footer">
         <div class="footer-content">
@@ -94,15 +72,16 @@
         </div>
     </footer>
 
-    <script src="data/music-data.js" defer></script>
-    <script src="js/music.js" defer></script>
+    <script src="data/steam-profile-data.js"></script>
+    <script src="js/steamstats.js"></script>
     <script src="js/holidays.js" defer></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const themeToggle = document.getElementById('themeToggle');
             const body = document.body;
-            const savedTheme = localStorage.getItem('theme') || 'dark';
+            const scrollBtn = document.getElementById("scrollTopBtn");
 
+            const savedTheme = localStorage.getItem('theme') || 'dark';
             if (savedTheme === 'light') {
                 body.classList.add('light-theme');
                 themeToggle.checked = false;

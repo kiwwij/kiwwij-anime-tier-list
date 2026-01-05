@@ -3,227 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Заметки</title>
-    <meta name="description" content="Личные заметки kiwwij.">
-
+    <title>Заметки | kiwwij</title>
     <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/1e/28/50/1e28507cdc5bfc16e9b2c575501216b4.gif">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/main-layout.css">
+    <link rel="stylesheet" href="css/notes.css">
 </head>
-<body>
-    <div class="quick-nav-container">
-        <button class="quick-nav-toggle" id="navToggle" title="Список записей">
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="3" y1="12" x2="21" y2="12"></line>
-                <line x1="3" y1="6" x2="21" y2="6"></line>
-                <line x1="3" y1="18" x2="21" y2="18"></line>
-            </svg>
-        </button>
-        
-        <div class="quick-nav-menu" id="navMenu">
-            <div class="quick-nav-header">Архив заметок</div>
-            <div class="quick-nav-links" id="notesNavLinks">
-                </div>
-            <div class="nav-divider"></div>
-            <a href="index.html" class="nav-item" style="color: var(--accent);">🏠 На главную</a>
-        </div>
-    </div>
+
+<body class="tierlist-page">
 
 <header>
-    <h1>Заметки</h1>
-    <div class="controls">
-        <a href="aboutme.html" class="btn btn-link">👤 Обо мне</a>
-        <a href="index.html" class="btn btn-link">← На главную</a>
+    <div class="header-content">
+        <div class="top-row">
+            <h1 class="logo-text">Заметки</h1>
+            <label class="switch">
+                <input type="checkbox" id="themeToggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <nav class="nav-links">
+            <a href="aboutme.html" class="btn-link"><i class='bx bx-user'></i> Обо мне</a>
+            <a href="index.html" class="btn-link"><i class='bx bx-home-alt'></i> На главную</a>
+        </nav>
     </div>
 </header>
 
-<main class="stats-container" style="max-width: 900px;">
-
-    <!-- Запись 1 -->
-    <div id="note1" class="setup-card" style="margin-bottom: 20px;">
-        <h2 style="border-left: 4px solid var(--accent); padding-left: 15px;">Запись #1</h2>
-
-        <p style="color: #94a3b8; font-size: 0.85rem; margin-bottom: 5px; margin-top: 15px;">
-            Дата: <span class="setup-value">03.12.2025</span>
-        </p>
-
-        <p style="color: #e2e8f0; line-height: 1.6;">
-            Во-первых, вчера у меня было ДР. Самое грустное чтоли, т.к. не было света и я не мог пообщаться с друзьями.<br><br>
-            Во-вторых, хочу ответить на вопрос (если конечно вы вообще нашли данную вкладку): "Почему главная страница это страница с тир-листами аниме, а не с инфой про меня?".
-            Потому что... потому что когда я только начинал делать сайт, я не думал что буду развивать его дальше чем просто тир-лист аниме.
-            А сейчас мне лень переделывать структуру файлов, так что оставил так.<br><br>
-            Что же я сюда буду записывать? Наверное всякие мысли, планы на будущее и т.д. Посмотрим как пойдёт. Возможно я
-            вообще заброшу эту страницу. Какой от неё толк если, во-первых, я никому не нужен и НИКТО не будет сюда заходить,
-            а во-вторых, у меня есть тгк, ну и в-третих, я сам вряд ли буду сюда часто заглядывать?<br><br>
-            Хотя может это и к лучшему? Сюда буду писать всякие мысли, которые я не смогу вот так просто рассказать?..<br><br>
-            Вот, например, я решил, что на это странице не будет конфети и снега на разные праздники. Чисто мои мысли и ничего лишнего.<br><br>
-            Если тут будет много записей, то надо будет их загружать через массив и делать прогрузку страницу. Ну это потом.
-            Как будто хочется написать что-то ещё, но ладно хватит. Пойду себе кушать погрею и скоро уже будет премия SLAY. Пойду смотреть. Всем пока!
-        </p>
-    </div>
-
-    <!-- Запись 2 -->
-    <div id="note2" class="setup-card" style="margin-bottom: 20px;">
-        <h2 style="border-left: 4px solid var(--accent); padding-left: 15px;">Запись #2</h2>
-
-        <p style="color: #94a3b8; font-size: 0.85rem; margin-bottom: 5px; margin-top: 15px;">
-            Дата: <span class="setup-value">11.12.2025</span>
-        </p>
-
-        <p style="color: #e2e8f0; line-height: 1.6;">
-            Начну с самой важной информации. Я сейчас Обаму из белого дома выпускаю, так сказать. Теперь по фактам.<br><br>
-
-            Посмотрел я 10ую серию "Для тебя бессмертный", такой дикий кайф ловлю. Жалею о том, что до выхода 3го сезона
-            не пересмотрел 1ые 2 сезона. Обидно, что с теми, с кем я общаюсь, вкусы отличаются, а выговориться хочется. Просто
-            меня могут не понять, а тут есть микро шанс, что кто-то испытывает такие же чувства.<br><br>
-
-            Теперь плавно перейду до аватарок в моих соц сетях. Как многие знают, у меня всякая анимешная хня стоит. И я никогда
-            не могу определиться что поставить на аву. Красивых аватарок много, но поставить можно только одну. Ну и я определил
-            для себя... тайтлы, с которых можно брать авы. Естественно ре: зеро, время приключений, для тебя бессмертный, но тут проблема в том,
-            что оч мало контента, а тот который есть... ну, гейский. Но авы с гг оч прикольные. Дальше можно выделить код гиасс
-            и токийский гуль, но не канаки или ризе, а мне нравится ставить на аву йошимуру.
-
-            По стим авам всё просто. Мне нравится ставить разные мили фотки девушек. Бля, это странно... но пох. Вот ссылка на все
-            стим авы за последний год или 2 - https://lnk.ua/Men0R3QNg. Хз сработает ли она. Ну пох.<br><br>
-
-            Я очень устал от выключения света. У меня по 17 часов в день нет света. Завтра, точнее через 5-7 часов, будет TGA, который я
-            не смогу посмотреть на стриме. Придётся нарезки смотреть и самым последним инфу узнавать. Сейчас видосы скачиваю, буду ночью смотреть
-            ибо спать вообще не хочу, выспался.<br><br>
-
-            Сессия у меня закрыта. Осталось с проектом разобраться, выш мат закрыть и ещё 1 предмет, и всё. Правда 2 недели каникул и потом снова
-            в этот политех.<br><br>
-
-            По поводу НГ. Из-за отключения света скорее всего я буду его отмечать соло. Меня, конечно, пригласил одногрупник, но у него там
-            своя компания, так что не кайф.<br><br>
-
-            Я что-то ещё хотел написать, но уже забыл. Поэтому на этом всё. Всем пока!
-        </p>
-    </div>
-
-    <!-- Запись 3 -->
-    <div id="note3" class="setup-card" style="margin-bottom: 20px;">
-        <h2 style="border-left: 4px solid var(--accent); padding-left: 15px;">Запись #3</h2>
-
-        <p style="color: #94a3b8; font-size: 0.85rem; margin-bottom: 5px; margin-top: 15px;">
-            Дата: <span class="setup-value">22.12.2025</span>
-        </p>
-
-        <p style="color: #e2e8f0; line-height: 1.6;">
-            Короче, сегодня писали тест по БЗВП, и это был такой бред. На столько неподготовленный тест я ещё не видел.
-            В том плане, что в вопросах были ошибки, по типу: одинаковые варианты ответов, или ответы, придуманные на абум,
-            что не так уж и плохо. Но вот отсутсвия на вопроса, но наличие ответов вообще убило. Типа вопроса нет, а ответы есть.<br><br>
-
-            Ладно, на самом деле я пишу эту запись не из-за теста. Просто хочу рассказать про одну посхалку на сайте. Если прожать
-            комбинацию клавиш "↑ ↑ ↓ ↓ ← → ← → B A" на любой странице, то кое-что произойдёт. Не буду говорить что именно,
-            проверьте сами. И таких поскалок несколько, некоторые легко найти, некоторые трудно. Я дал только 1 подсказку.
-            Кто найдёт ещё что-то, то пишите мне.<br><br>
-
-            Ну и для отвода глах надо что-то ещё написать сюда. Например, завтра я буду писать КР и колоквиум по высшей математике.
-            Вроде готов, но как обычно сдлеаю ошибки в самых елементарных заданиях. Вот НГ хз как буду отмечать. Меня пожет позвать
-            одногрупник, но у него там своя компания, так что не особо хочется с ней тусоваться. Надеюсь будет как обычно: с Максом в доте.
-            Ладно, думаю для отвода глаз нормально написал. Всем пока!
-        </p>
-    </div>
-
-    <!-- Запись 4 -->
-    <div id="note4" class="setup-card" style="margin-bottom: 20px;">
-        <h2 style="border-left: 4px solid var(--accent); padding-left: 15px;">Запись #4</h2>
-
-        <p style="color: #94a3b8; font-size: 0.85rem; margin-bottom: 5px; margin-top: 15px;">
-            Дата: <span class="setup-value">00.00.20xx</span>
-        </p>
-
-        <p style="color: #e2e8f0; line-height: 1.6;">
-            Автор пока ничего не написал.
-        </p>
-    </div>
-    
+<main class="stats-container">
+    <div id="notesContainer" class="notes-list"></div>
 </main>
 
-    <footer class="site-footer">
-        <div class="footer-content">
-            <div class="footer-info">
-                <span class="footer-logo">kiwwij</span>
-                <p class="footer-copyright">© 2025. No Copyright.</p>
-            </div>
-            <div class="footer-socials">
-                <a href="https://kiwwij.github.io/kiwwij-social-links/" target="_blank" aria-label="Social Media Links" class="social-link">
-                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.71.82-1z"/>
-                        <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
-                    </svg>
-                </a>
-            </div>
+<footer class="site-footer">
+    <div class="footer-content">
+        <div class="footer-info">
+            <span class="footer-logo">kiwwij</span>
+            <p class="footer-copyright">© 2025. No Copyright.</p>
         </div>
-    </footer>
+        <nav class="footer-socials">
+            <a href="https://github.com/kiwwij" class="social-link" target="_blank">
+                <i class='bx bxl-github'></i>
+            </a>
+            <a href="https://kiwwij.github.io/kiwwij-social-links/" class="social-link" target="_blank">
+                <i class='bx bx-link-alt'></i>
+            </a>
+        </nav>
+    </div>
+</footer>
 
-    <button id="scrollTopBtn" title="Наверх">↑</button>
-    <script src="js/holidays.js"></script>
-</body>
-    <script>
+<script src="data/notes-data.js"></script>
+<script src="js/notes.js"></script>
+<script src="js/holidays.js"></script>
+<script>
         document.addEventListener('DOMContentLoaded', () => {
-            const navToggle = document.getElementById('navToggle');
-            const navMenu = document.getElementById('navMenu');
-            const notesLinksContainer = document.getElementById('notesNavLinks');
+            const themeToggle = document.getElementById('themeToggle');
+            const body = document.body;
+            const btn = document.getElementById("scrollTopBtn");
 
-            // 1. Кнопка "Наверх"
-            const scrollBtn = document.getElementById("scrollTopBtn");
-            window.addEventListener("scroll", () => {
-                scrollBtn.classList.toggle("show", window.scrollY > 200);
-            });
-            scrollBtn.addEventListener("click", () => {
-                window.scrollTo({ top: 0, behavior: "smooth" });
-            });
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            if (savedTheme === 'light') {
+                body.classList.add('light-theme');
+                themeToggle.checked = false;
+            } else {
+                themeToggle.checked = true;
+            }
 
-            // 2. Генерация списка заметок
-            document.querySelectorAll('.setup-card').forEach((card) => {
-                const header = card.querySelector('h2');
-                if (header && card.id) {
-                    const link = document.createElement('a');
-                    link.href = `#${card.id}`;
-                    link.className = 'nav-item';
-                    link.innerHTML = `<span>📝</span> ${header.innerText}`;
-                    link.onclick = () => {
-                        navMenu.classList.remove('active');
-                        navToggle.classList.remove('active');
-                    };
-                    notesLinksContainer.appendChild(link);
-                }
-            });
-
-            // 3. Открытие/закрытие меню
-            navToggle.addEventListener('click', (e) => {
-                e.stopPropagation();
-                const isActive = navMenu.classList.toggle('active');
-                navToggle.classList.toggle('active', isActive);
-            });
-
-            document.addEventListener('click', (e) => {
-                if (!navMenu.contains(e.target) && e.target !== navToggle) {
-                    navMenu.classList.remove('active');
-                    navToggle.classList.remove('active');
-                }
-            });
-
-            navMenu.addEventListener('click', (e) => e.stopPropagation());
-
-            // 4. Konami Code
-            const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
-            let currentInput = [];
-            document.addEventListener('keydown', (e) => {
-                currentInput.push(e.key);
-                currentInput = currentInput.slice(-konamiCode.length);
-                if (currentInput.join('') === konamiCode.join('')) {
-                    document.body.style.filter = 'invert(1) hue-rotate(180deg)';
-                    document.body.style.transition = 'all 0.5s ease';
-                    alert('СЕКРЕТНЫЙ РЕЖИМ!');
-                    setTimeout(() => { document.body.style.filter = 'none'; }, 5000);
+            themeToggle.addEventListener('change', () => {
+                if (themeToggle.checked) {
+                    body.classList.remove('light-theme');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.classList.add('light-theme');
+                    localStorage.setItem('theme', 'light');
                 }
             });
         });
     </script>
+
+    <button class="notes-nav-toggle" id="notesNavToggle" title="Архив заметок">
+        ☰
+    </button>
+
+    <nav class="notes-nav" id="notesNav">
+        <div class="notes-nav-title">Архив</div>
+        <div id="notesNavLinks"></div>
+    </nav>
+
+</body>
 </html>
