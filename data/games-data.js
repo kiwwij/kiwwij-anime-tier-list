@@ -11,7 +11,7 @@ const gameRatingScales = {
     ],
     personal: [
         { rank: 'Могу играть бесконечно', color: 'bg-red-500' },
-        { rank: 'Хороший сюжет', color: 'bg-orange-500' },
+        { rank: 'Дикий кайф', color: 'bg-orange-500' },
         { rank: 'Крепкий проект', color: 'bg-yellow-400' },
         { rank: 'Прошёл и забыл', color: 'bg-green-500' },
         { rank: 'В этом что-то есть', color: 'bg-blue-500' },
@@ -113,6 +113,10 @@ if (typeof tierListData !== 'undefined') {
                 { 
                     title: "Slime Rancher",
                     review: "Прикольная игра на расслабон. Проходил очень много раз.Прошёл на платину.",
+                },
+                { 
+                    title: "FINAL FANTASY VII REBIRTH",
+                    review: "Ревью - ",
                 },
             ],
             'B': [

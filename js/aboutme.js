@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const birthDate = new Date(2006, 11, 2); // 2 декабря 2006
+    const birthDate = new Date(2006, 11, 2);
     const today = new Date();
 
     let age = today.getFullYear() - birthDate.getFullYear();
@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (ageMain) ageMain.textContent = `${age} лет`;
     if (ageCard) ageCard.textContent = `${age} лет`;
 
-    // --- STEAM ДАННЫЕ ---
     if (typeof steamData !== 'undefined') {
         if (steamData.profile && steamData.profile.avatar) {
             document.getElementById('aboutAvatar').src = steamData.profile.avatar;
@@ -32,18 +31,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// --- ГАЛЕРЕИ ---
 const steamGallery = [
-    { year: 2022, src: 'img/about me/steam22.1.png' },
-    { year: 2023, src: 'img/about me/steam23.1.png' },
+    { year: 2025, src: 'img/about me/steam25.1.png' },
     { year: 2024, src: 'img/about me/steam24.1.png' },
-    { year: 2025, src: 'img/about me/steam25.1.png' }
+    { year: 2023, src: 'img/about me/steam23.1.png' },
+    { year: 2022, src: 'img/about me/steam22.1.png' }
 ];
 
 const twitchGallery = [
-    { year: 2023, src: 'img/about me/twitch23.png' },
+    { year: 2025, src: 'img/about me/twitch25.png' },
     { year: 2024, src: 'img/about me/twitch24.png' },
-    { year: 2025, src: 'img/about me/twitch25.png' }
+    { year: 2023, src: 'img/about me/twitch23.png' }
 ];
 
 const discordGallery2025 = [
@@ -70,13 +68,11 @@ const discordGallery2026 = [
     { year: 2025, src: 'img/about me/discrod 2026/9.png' }
 ];
 
-// Автосортировка для Twitch и Steam (Discord сортировать не надо, там порядок важен)
 steamGallery.sort((a, b) => a.year - b.year);
 twitchGallery.sort((a, b) => a.year - b.year);
 
-// --- МОДАЛКА ---
 let currentIndex = 0;
-let currentGalleryType = 'steam'; // 'steam', 'twitch', 'discord'
+let currentGalleryType = 'steam';
 
 function getCurrentGalleryArray() {
     if (currentGalleryType === 'steam') return steamGallery;
@@ -101,13 +97,11 @@ function updateLightbox() {
     if (gallery.length > 0 && gallery[currentIndex]) {
         img.src = gallery[currentIndex].src;
         
-        // Красивая подпись
         let label = '';
         if (currentGalleryType === 'steam') label = 'Steam';
         else if (currentGalleryType === 'twitch') label = 'Twitch';
         else if (currentGalleryType === 'discord') label = 'Discord';
 
-        // Если это Discord, добавляем счетчик (1/9)
         if (currentGalleryType === 'discord') {
              caption.textContent = `${label} ${gallery[currentIndex].year} (${currentIndex + 1} из ${gallery.length})`;
         } else {
@@ -120,7 +114,6 @@ function changeImage(n) {
     const gallery = getCurrentGalleryArray();
     currentIndex += n;
 
-    // Циклическая прокрутка
     if (currentIndex >= gallery.length) currentIndex = 0;
     if (currentIndex < 0) currentIndex = gallery.length - 1;
 
@@ -131,7 +124,6 @@ function closeLightbox() {
     document.getElementById('lightbox').style.display = 'none';
 }
 
-// --- КЛАВИАТУРА ---
 document.addEventListener('keydown', function(event) {
     if (document.getElementById('lightbox').style.display === 'flex') {
         if (event.key === "Escape") closeLightbox();
@@ -157,7 +149,6 @@ function activateGlitchMode() {
     document.body.style.transition = 'all 0.5s ease';
     alert('СЕКРЕТНЫЙ РЕЖИМ: Активирован визуальный глитч!');
     
-    // Через 5 секунд возвращаем всё как было
     setTimeout(() => {
         document.body.style.filter = 'none';
     }, 5000);
@@ -171,7 +162,6 @@ if (avatar) {
     avatar.addEventListener('click', () => {
         clickCount++;
         
-        // Эффект тряски при клике
         avatar.style.transform = 'scale(1.1) rotate(5deg)';
         setTimeout(() => avatar.style.transform = 'scale(1)', 100);
 
@@ -190,7 +180,6 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-    /* YOUTUBE */
     const ytBox = document.getElementById("yt-video-container");
 
     if (ytBox && socialData.youtube && socialData.youtube.lastVideoId) {
@@ -207,7 +196,6 @@ document.addEventListener("DOMContentLoaded", () => {
         ytBox.innerHTML = `<p style="color:#94a3b8">Видео не найдено</p>`;
     }
 
-    /* TELEGRAM */
     const tgBox = document.getElementById("tg-post-container");
 
     if (tgBox && socialData.telegram && socialData.telegram.lastPostId) {
@@ -228,3 +216,24 @@ document.addEventListener("DOMContentLoaded", () => {
         tgBox.innerHTML = `<p style="color:#94a3b8">Пост не найден</p>`;
     }
 });
+
+function switchDiscordYear(year, btn) {
+    const parent = btn.parentElement;
+    parent.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    const containers = ['discord-2025', 'discord-2026'];
+    containers.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) {
+            el.style.display = 'none';
+            el.classList.remove('active');
+        }
+    });
+
+    const activeGrid = document.getElementById(`discord-${year}`);
+    if (activeGrid) {
+        activeGrid.style.display = ''; 
+        activeGrid.classList.add('active');
+    }
+}

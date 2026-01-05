@@ -38,62 +38,80 @@ function activateNewYearMode(month, day) {
 }
 
 function createParticles(type, autoRemove = true) {
+    const header = document.querySelector('header');
+    if (!header) return;
+
     const container = document.createElement('div');
     container.id = 'holiday-container';
+    
     Object.assign(container.style, {
-        position: 'fixed',
-        top: '0', left: '0', width: '100%', height: '100vh',
-        pointerEvents: 'none', zIndex: '9999', overflow: 'hidden',
+        position: 'absolute',
+        top: '0', left: '0', width: '100%', height: '100%',
+        pointerEvents: 'none', 
+        zIndex: '-1', // Снег за всеми элементами (логотипом, кнопками)
+        overflow: 'hidden',
         opacity: '1', transition: 'opacity 2s ease-out'
     });
-    document.body.appendChild(container);
+    
+    header.style.position = 'relative'; // Контейнер привязан к хедеру
+    header.appendChild(container);
 
-    const count = type === 'snow' ? 40 : 50;
+    const count = type === 'snow' ? 25 : 35;
     const symbols = ['❄', '❅', '❆'];
 
     for (let i = 0; i < count; i++) {
         const p = document.createElement('div');
         p.className = 'holiday-particle';
-        p.style.left = Math.random() * 100 + 'vw';
-        p.style.animationDuration = (Math.random() * 5 + 3) + 's';
+        
+        // Рандомные параметры для более естественного вида
+        p.style.left = Math.random() * 100 + '%';
+        p.style.animationDuration = (Math.random() * 5 + 5) + 's'; // Длится дольше (5-10 сек)
         p.style.animationDelay = Math.random() * 5 + 's';
         
         if (type === 'snow') {
             p.textContent = symbols[Math.floor(Math.random() * symbols.length)];
             p.style.color = 'white';
-            p.style.fontSize = (Math.random() * 1 + 1) + 'em';
+            p.style.fontSize = (Math.random() * 0.7 + 0.4) + 'em';
+            p.style.filter = 'blur(0.5px)'; // Легкое размытие для глубины
         } else {
             p.style.background = ['#ef4444', '#fbbf24', '#3b82f6'][Math.floor(Math.random() * 3)];
-            p.style.width = '10px'; p.style.height = '10px'; p.style.borderRadius = '2px';
+            p.style.width = '6px'; p.style.height = '6px'; p.style.borderRadius = '1px';
         }
         container.appendChild(p);
     }
 
-    // Автоудаление через 10 секунд
     if (autoRemove) {
+        // Увеличил время жизни эффекта до 20 секунд
         setTimeout(() => {
             container.style.opacity = '0';
             setTimeout(() => container.remove(), 2000);
-        }, 10000);
+        }, 20000);
     }
 }
 
 function addHat(emoji, autoRemove = true) {
-    const h1 = document.querySelector('header h1');
-    if (h1 && !h1.querySelector('.holiday-hat')) {
-        h1.style.position = 'relative';
-        const hat = document.createElement('span');
-        hat.className = 'holiday-hat';
-        hat.textContent = emoji;
-        hat.style.cssText = 'position:absolute; left:-35px; top:-10px; transition: opacity 2s;';
-        h1.appendChild(hat);
+    const hatContainer = document.createElement('div');
+    hatContainer.className = 'holiday-floating-emoji';
+    hatContainer.textContent = emoji;
+    
+    // Позиционирование слева сверху
+    Object.assign(hatContainer.style, {
+        position: 'fixed',
+        top: '20px',
+        left: '20px',
+        fontSize: '3.5rem',
+        zIndex: '10005',
+        pointerEvents: 'none',
+        transition: 'opacity 1.5s ease'
+    });
 
-        if (autoRemove) {
-            setTimeout(() => {
-                hat.style.opacity = '0';
-                setTimeout(() => hat.remove(), 2000);
-            }, 10000);
-        }
+    document.body.appendChild(hatContainer);
+
+    if (autoRemove) {
+        setTimeout(() => {
+            hatContainer.style.opacity = '0';
+            setTimeout(() => hatContainer.remove(), 1500);
+        }, 15000);
     }
 }
 
@@ -132,11 +150,15 @@ function showToast(title, msg) {
 }
 
 function initMadnessTimer() {
-    if (window.location.pathname.includes('madness.html')) return;
+    if (window.location.pathname.includes('../html/madness.html')) return;
     setTimeout(() => {
         if (Math.random() < 0.1) {
             document.body.style.filter = 'invert(1) contrast(2)';
-            setTimeout(() => { window.location.href = 'madness.html'; }, 2000);
+            setTimeout(() => { window.location.href = '../html/madness.html'; }, 2000);
         }
     }, 300000); // 5 минут
 }
+
+document.getElementById('rotateBtn').addEventListener('click', function() {
+    document.body.classList.toggle('flipped'); // Добавляет/убирает класс переворота
+});

@@ -21,7 +21,7 @@ const terminalData = [
     },
     {
         command: "exit",
-        content: 'Завершение процесса... <a href="index.html">Вернуться в GUI</a><span class="cursor"></span>'
+        content: 'Завершение процесса... <a href="../index.html">Вернуться в GUI</a><span class="cursor"></span>'
     }
 ];
 

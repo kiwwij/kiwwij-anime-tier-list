@@ -1,0 +1,42 @@
+//Для того, чтобы скачать весь список фальмов и сериалов, нужно вставить эту команду в IMDB с сортировкой по моему рейтингу
+//Дальше закинуть AIшке, чтобы она всё отпарсила и дала ру названия
+// https://www.imdb.com/user/ur169131840/watchlist/?ref_=tt_nv_urwls_all&sort=my_ratings%2Cdesc&view=detailed
+
+(function() {
+    const items = document.querySelectorAll('li.ipc-metadata-list-summary-item');
+    let results = "Название | Ваша оценка | Дата выхода\n";
+    results += "---|---|---\n";
+
+    // Список аниме для исключения (как вы просили)
+    const animeTitles = [];
+
+    items.forEach(item => {
+        const fullTitle = item.querySelector('.ipc-title__text')?.innerText.replace(/^\d+\.\s+/, '') || "Н/Д";
+        
+        // Пропускаем аниме
+        if (animeTitles.some(anime => fullTitle.includes(anime))) return;
+
+        // Оценка из aria-label (как на первом скриншоте)
+        const rateButton = item.querySelector('button[aria-label^="Your rating:"]');
+        let myRating = "Нет оценки";
+        if (rateButton) {
+            myRating = rateButton.getAttribute('aria-label').replace(/[^\d]/g, '');
+        }
+
+        // Дата из dli-title-metadata-item (как на втором скриншоте)
+        const metadataItems = item.querySelectorAll('.dli-title-metadata-item');
+        let year = "Н/Д";
+        metadataItems.forEach(el => {
+            if (/^\d{4}$/.test(el.innerText.trim())) { // Ищем текст из 4-х цифр
+                year = el.innerText.trim();
+            }
+        });
+        
+        results += `${fullTitle} | ${myRating} | ${year}\n`;
+    });
+
+    console.clear();
+    console.log(results);
+    copy(results);
+    alert("Готово! Таблица (без аниме) скопирована.");
+})();

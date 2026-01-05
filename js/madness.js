@@ -69,7 +69,7 @@ fakeBtn.onclick = function(e) {
         fakeBtn.style.transform = `translate(${(Math.random()-0.5)*200}px, ${(Math.random()-0.5)*200}px) scale(${1 - clickCount*0.1})`;
         fakeBtn.style.opacity = 1 - (clickCount * 0.15);
     } else {
-        location.href = 'index.html';
+        location.href = '../index.html';
     }
 };
 
