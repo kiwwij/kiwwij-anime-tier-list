@@ -3877,8 +3877,8 @@ const musicData = [
         "duration": "1:47"
     },
     {
-        "title": "AP$ENT - Можно я с тобой?",
-        "artist": "ApSent",
+        "title": "Можно я с тобой",
+        "artist": "AP$ENT",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
@@ -4051,7 +4051,7 @@ const musicData = [
         "duration": "5:22"
     },
     {
-        "title": "«ЗАРАЗА» (видеоклип) – Николай Басков",
+        "title": "Зараза",
         "artist": "Nikolay Baskov",
         "playlist": "Dead inside",
         "duration": "5:39"
@@ -4112,7 +4112,7 @@ const musicData = [
     },
     {
         "title": "у меня внутри",
-        "artist": "Cold Carti - Topic",
+        "artist": "cold carti",
         "playlist": "Dead inside",
         "duration": "2:37"
     },
@@ -4436,7 +4436,7 @@ const musicData = [
     },
     {
         "title": "Кабанчик",
-        "artist": "Вячеслав Кукоба - Topic",
+        "artist": "В'ячеслав Кукоба",
         "playlist": "Dead inside",
         "duration": "3:21"
     },
