@@ -553,6 +553,12 @@ const musicData = [
         "duration": "3:27"
     },
     {
+        "title": "дырки в штанах",
+        "artist": "madk1d",
+        "playlist": "Main",
+        "duration": "1:49"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6117,6 +6123,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 525,
-    "totalDurationSec": 166296,
+    "totalDurationSec": 166405,
     "lastUpdated": "Auto-generated"
 };
