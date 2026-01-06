@@ -559,6 +559,12 @@ const musicData = [
         "duration": "1:49"
     },
     {
+        "title": "sexyswag2010",
+        "artist": "madk1d",
+        "playlist": "Main",
+        "duration": "1:30"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6123,6 +6129,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 525,
-    "totalDurationSec": 166405,
+    "totalDurationSec": 166495,
     "lastUpdated": "Auto-generated"
 };
