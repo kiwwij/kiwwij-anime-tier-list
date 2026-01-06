@@ -1,7 +1,7 @@
 const RAWG_API_KEY = 'eff5af7536f94b1b862edf995f4ee1f9';
 const CACHE_KEY_POSTERS = 'site_posters_cache_v5';
 const MAX_CONCURRENT_REQUESTS = 10;
-const REQUEST_DELAY = 400;
+const REQUEST_DELAY = 700;
 
 const categorySelect = document.getElementById('categorySelect');
 const tierListContainer = document.getElementById('tierListContainer');
@@ -79,6 +79,8 @@ function init() {
 }
 
 function renderTierList() {
+    tierListContainer.querySelectorAll('.card').forEach(card => lazyLoadObserver.unobserve(card));
+
     tierListContainer.innerHTML = '';
     const category = categorySelect.value;
     const categoryData = tierListData[category];
@@ -117,6 +119,7 @@ function renderTierList() {
             loader.textContent = item.ruTitle || item.title;
             card.appendChild(loader);
             content.appendChild(card);
+
             lazyLoadObserver.observe(card);
         });
         row.appendChild(label);

@@ -1,31 +1,30 @@
 main {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 2rem 1rem 2rem 1rem; 
+    padding: 1rem 0.5rem; 
 }
 
 .tier-row {
     display: flex;
+    flex-direction: row;
     background: var(--bg-card);
     margin-bottom: 0.75rem;
     border-radius: 12px;
     overflow: hidden;
     border: 1px solid var(--border-color);
-    min-height: 120px;
+    min-height: 90px;
 }
 
 .tier-label {
-    width: 110px;
-    padding: 10px;
+    width: 70px;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #000 !important;
     font-weight: 900;
-    font-size: 1.1rem;
-    line-height: 1.2;
-    word-break: break-word;
+    font-size: 0.9rem;
     flex-shrink: 0;
 }
 
@@ -39,25 +38,54 @@ main {
 
 .tier-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    gap: 10px;
-    padding: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+    gap: 6px;
+    padding: 10px;
     flex-grow: 1;
+    align-content: start;
 }
 
 .card {
     aspect-ratio: 2/3;
     background: #161b22;
-    border-radius: 8px;
+    border-radius: 4px;
     overflow: hidden;
     cursor: pointer;
     position: relative;
     border: 1px solid rgba(255,255,255,0.05);
-    transition: transform 0.2s;
+    transition: 0.2s;
 }
 
 .card:hover { transform: scale(1.05); z-index: 2; border-color: var(--accent); }
 .card img { width: 100%; height: 100%; object-fit: cover; }
+
+.scale-tabs {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    background: var(--bg-body);
+    padding: 4px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.tab-btn {
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    padding: 0.6rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.85rem;
+    transition: 0.3s;
+}
+
+.tab-btn.active {
+    background: var(--accent);
+    color: white;
+}
 
 dialog {
     border: none;
@@ -65,97 +93,20 @@ dialog {
     background: var(--bg-card);
     color: var(--text-main);
     padding: 0;
-    max-width: 600px;
-    width: 90%;
-    max-height: 90vh; 
+    max-width: 500px;
+    width: 95%;
+    max-height: 85vh;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-    
-    overflow-y: auto;
     position: fixed;
-    top: 50%;
-    left: 50%;
+    top: 50%; left: 50%;
     transform: translate(-50%, -50%);
-    margin: 0;
 }
 
-dialog[open] {
-    display: flex;
-    flex-direction: column;
-    z-index: 2000;
-}
+.modal-header { height: 200px; }
 
-dialog::backdrop {
-    background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(8px);
-}
-
-.modal-content {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    position: relative;
-}
-
-.modal-header {
-    width: 100%;
-    height: 300px;
-    background: #000;
-    flex-shrink: 0;
-}
-
-.modal-header img { width: 100%; height: 100%; object-fit: cover; }
-
-.modal-body {
-    padding: 1.5rem;
-    overflow-y: auto;
-    flex-grow: 1;
-    -webkit-overflow-scrolling: touch;
-}
-
-#modalReview {
-    word-wrap: break-word;
-    white-space: pre-wrap;
-    line-height: 1.6;
-    margin: 0;
-}
-
-.close-modal {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    z-index: 100;
-    background: rgba(0, 0, 0, 0.6);
-    border: none;
-    color: white;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-}
-
-.scale-tabs {
-    display: flex; 
-    background: var(--bg-body); 
-    padding: 4px; 
-    border-radius: 12px; 
-    border: 1px solid var(--border-color); 
-}
-
-.tab-btn {
-    border: none; 
-    background: transparent; 
-    color: var(--text-muted); 
-    padding: 0.5rem 1rem; 
-    border-radius: 8px; 
-    cursor: pointer; 
-    font-weight: 700; 
-    transition: 0.3s; }
-
-.tab-btn.active {
-    background: var(--accent); 
-    color: white; 
+@media (min-width: 768px) {
+    .tier-label { width: 110px; font-size: 1.1rem; }
+    .tier-content { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 10px; }
+    .tier-row { min-height: 120px; }
+    main { padding: 2rem 1rem; }
 }

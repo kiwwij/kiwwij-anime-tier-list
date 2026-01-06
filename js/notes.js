@@ -39,3 +39,24 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+
+const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+let currentInput = [];
+
+document.addEventListener('keydown', (e) => {
+    currentInput.push(e.key);
+    currentInput = currentInput.slice(-konamiCode.length);
+
+    if (currentInput.join('') === konamiCode.join('')) {
+        activateGlitchMode();
+    }
+});
+
+function activateGlitchMode() {
+    document.body.style.filter = 'invert(1) hue-rotate(180deg)';
+    document.body.style.transition = 'all 0.5s ease';
+    
+    setTimeout(() => {
+        document.body.style.filter = 'none';
+    }, 5000);
+}

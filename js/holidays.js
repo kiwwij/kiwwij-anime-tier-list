@@ -13,7 +13,7 @@ function checkHolidays() {
     const day = today.getDate();
 
     // Новый год: с 24 декабря по 7 января
-    const isNewYear = (month === 12 && day >= 24) || (month === 1 && day <= 7);
+    const isNewYear = (month === 12 && day >= 27) || (month === 1 && day <= 3);
     const isBirthday = (month === 12 && day === 2);
 
     if (isBirthday) {
