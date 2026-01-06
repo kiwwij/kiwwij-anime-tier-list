@@ -6,7 +6,7 @@
 
 html,
 body {
-    max-width: 100vw;
+    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -75,9 +75,8 @@ body.flipped {
     padding-bottom: 12px;
 }
 
-.twitch-scroll-container .gallery-link {
-    flex: 0 0 calc(33.333% - 0.7rem);
-    min-width: 160px;
+.left-column, .right-column {
+    min-width: 0;
 }
 
 .gallery-link {
@@ -434,4 +433,10 @@ body.flipped {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1.5rem;
+}
+
+.discord-grid {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
 }
