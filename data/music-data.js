@@ -459,9 +459,14 @@ const musicData = [
         "title": "Що з тобою",
         "artist": "Апатія",
         "playlist": "Main"
+    },
+    {
+        "title": "дырки в штанах",
+        "artist": "madk1d",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 14,
-    "totalDurationSec": 12622
+    "totalDurationSec": 12731
 };
