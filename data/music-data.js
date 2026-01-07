@@ -464,9 +464,14 @@ const musicData = [
         "title": "дырки в штанах",
         "artist": "madk1d",
         "playlist": "Main"
+    },
+    {
+        "title": "sexyswag2010",
+        "artist": "madk1d",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 14,
-    "totalDurationSec": 12731
+    "totalDurationSec": 12821
 };
