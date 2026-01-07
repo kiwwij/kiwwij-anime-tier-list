@@ -270,3 +270,9 @@ function activateGlitchMode() {
         document.body.style.filter = 'none';
     }, 5000);
 }
+
+modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+        modal.close();
+    }
+});

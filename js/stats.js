@@ -1,4 +1,3 @@
-// --- НАСТРОЙКИ ---
 const CACHE_KEY = 'anime_stats_cache_v4';
 const BATCH_SIZE = 50; 
 const BATCH_DELAY = 450; 
@@ -16,7 +15,6 @@ const genreTranslations = {
     "Demons": "Демоны", "Historical": "Историческое"
 };
 
-// DOM Элементы
 const elements = {
     totalCount: document.getElementById('totalCount'),
     processedCount: document.getElementById('processedCount'),
@@ -36,8 +34,6 @@ let genreCounts = {};
 let animeByYear = {}; 
 let myChart = null;
 let apiCache = JSON.parse(localStorage.getItem(CACHE_KEY) || '{}');
-
-// --- ИНИЦИАЛИЗАЦИЯ ---
 
 document.addEventListener('DOMContentLoaded', () => {
     initTheme();
@@ -64,8 +60,6 @@ function initTheme() {
         }
     });
 }
-
-// --- МОДАЛЬНОЕ ОКНО (Унифицированное) ---
 
 function setupModalEvents() {
     const close = () => {
@@ -96,19 +90,19 @@ function openYearModal(year) {
     document.body.style.overflow = 'hidden';
 }
 
-// --- АНАЛИЗ И ДАННЫЕ ---
-
 async function startAnalysis() {
-    mapAnimeToUserYears();
+    genreCounts = {}; 
     collectUniqueTitles();
-    elements.totalCount.textContent = uniqueTitles.size;
+    mapAnimeToUserYears();
+    elements.totalCount.textContent = totalEntriesCount;
+    elements.processedCount.textContent = uniqueTitles.size;
+
     
     initChart();
     
     const titles = Array.from(uniqueTitles);
     let processed = 0;
 
-    // Сначала обрабатываем то, что есть в кэше
     titles.forEach(title => {
         if (apiCache[title]) {
             processStatsData(apiCache[title], title);
@@ -118,7 +112,6 @@ async function startAnalysis() {
 
     updateUI(processed, titles.length);
 
-    // Загружаем недостающее
     const toFetch = titles.filter(t => !apiCache[t]);
     for (let i = 0; i < toFetch.length; i += BATCH_SIZE) {
         const batch = toFetch.slice(i, i + BATCH_SIZE);
@@ -174,16 +167,19 @@ function processStatsData(data, title) {
     });
 }
 
-// --- UI ОБНОВЛЕНИЯ ---
+let yearsRendered = false;
 
 function updateUI(current, total) {
-    elements.processedCount.textContent = current;
     const percent = Math.round((current / total) * 100);
     elements.progressBar.style.width = `${percent}%`;
     elements.loadingPercent.textContent = percent === 100 ? "Готово!" : `${percent}%`;
-    
+
     updateChart();
-    renderYearsStats();
+
+    if (percent === 100 && !yearsRendered) {
+        renderYearsStats();
+        yearsRendered = true;
+    }
 }
 
 function renderYearsStats() {
@@ -221,16 +217,54 @@ function updateChart() {
     myChart.update();
 }
 
-// --- ВСПОМОГАТЕЛЬНОЕ ---
-
 function collectUniqueTitles() {
     uniqueTitles.clear();
+    totalEntriesCount = 0;
+
+    const seen = new Set();
+
     Object.keys(tierListData).forEach(key => {
         if (key === 'Энергетики') return;
+
         Object.values(tierListData[key]).forEach(list => {
-            if (Array.isArray(list)) list.forEach(item => item.title && uniqueTitles.add(item.title.trim()));
+            if (!Array.isArray(list)) return;
+
+            list.forEach(item => {
+                if (!item.title) return;
+
+                totalEntriesCount++;
+
+                const clean = item.title.trim();
+                const lower = clean.toLowerCase();
+
+                if (!seen.has(lower)) {
+                    seen.add(lower);
+                    uniqueTitles.add(clean);
+                }
+            });
         });
     });
 }
 
 function saveCache() { localStorage.setItem(CACHE_KEY, JSON.stringify(apiCache)); }
+
+const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+let currentInput = [];
+
+document.addEventListener('keydown', (e) => {
+    currentInput.push(e.key);
+    currentInput = currentInput.slice(-konamiCode.length);
+
+    if (currentInput.join('') === konamiCode.join('')) {
+        activateGlitchMode();
+    }
+});
+
+function activateGlitchMode() {
+    document.body.style.filter = 'invert(1) hue-rotate(180deg)';
+    document.body.style.transition = 'all 0.5s ease';
+    
+    setTimeout(() => {
+        document.body.style.filter = 'none';
+    }, 5000);
+}
