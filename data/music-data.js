@@ -469,9 +469,14 @@ const musicData = [
         "title": "sexyswag2010",
         "artist": "madk1d",
         "playlist": "Main"
+    },
+    {
+        "title": "тянка - HANAHAKI (song lyrics)",
+        "artist": "тянка хиккует",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 14,
-    "totalDurationSec": 12821
+    "totalDurationSec": 12968
 };
