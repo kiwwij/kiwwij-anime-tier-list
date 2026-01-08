@@ -12,7 +12,6 @@ function checkHolidays() {
     const month = today.getMonth() + 1;
     const day = today.getDate();
 
-    // Новый год: с 24 декабря по 7 января
     const isNewYear = (month === 12 && day >= 27) || (month === 1 && day <= 3);
     const isBirthday = (month === 12 && day === 2);
 
@@ -24,14 +23,12 @@ function checkHolidays() {
 }
 
 function activateBirthdayMode(age) {
-    // true означает автоудаление через 10 секунд
     createParticles('confetti', true);
     addHat('🥳', true);
     showToast("🎉 С Днём Рождения!", `Мне сегодня ${age}!`);
 }
 
 function activateNewYearMode(month, day) {
-    // true означает автоудаление через 10 секунд
     createParticles('snow', true); 
     addHat('🎅', true);
     showToast("🎄 Праздники", "Новогодний режим активен. Снег закончится через 10 сек.");
@@ -48,12 +45,12 @@ function createParticles(type, autoRemove = true) {
         position: 'absolute',
         top: '0', left: '0', width: '100%', height: '100%',
         pointerEvents: 'none', 
-        zIndex: '-1', // Снег за всеми элементами (логотипом, кнопками)
+        zIndex: '-1',
         overflow: 'hidden',
         opacity: '1', transition: 'opacity 2s ease-out'
     });
     
-    header.style.position = 'relative'; // Контейнер привязан к хедеру
+    header.style.position = 'relative';
     header.appendChild(container);
 
     const count = type === 'snow' ? 25 : 35;
@@ -63,16 +60,15 @@ function createParticles(type, autoRemove = true) {
         const p = document.createElement('div');
         p.className = 'holiday-particle';
         
-        // Рандомные параметры для более естественного вида
         p.style.left = Math.random() * 100 + '%';
-        p.style.animationDuration = (Math.random() * 5 + 5) + 's'; // Длится дольше (5-10 сек)
+        p.style.animationDuration = (Math.random() * 5 + 5) + 's';
         p.style.animationDelay = Math.random() * 5 + 's';
         
         if (type === 'snow') {
             p.textContent = symbols[Math.floor(Math.random() * symbols.length)];
             p.style.color = 'white';
             p.style.fontSize = (Math.random() * 0.7 + 0.4) + 'em';
-            p.style.filter = 'blur(0.5px)'; // Легкое размытие для глубины
+            p.style.filter = 'blur(0.5px)';
         } else {
             p.style.background = ['#ef4444', '#fbbf24', '#3b82f6'][Math.floor(Math.random() * 3)];
             p.style.width = '6px'; p.style.height = '6px'; p.style.borderRadius = '1px';
@@ -81,7 +77,6 @@ function createParticles(type, autoRemove = true) {
     }
 
     if (autoRemove) {
-        // Увеличил время жизни эффекта до 20 секунд
         setTimeout(() => {
             container.style.opacity = '0';
             setTimeout(() => container.remove(), 2000);
@@ -94,7 +89,6 @@ function addHat(emoji, autoRemove = true) {
     hatContainer.className = 'holiday-floating-emoji';
     hatContainer.textContent = emoji;
     
-    // Позиционирование слева сверху
     Object.assign(hatContainer.style, {
         position: 'fixed',
         top: '20px',
@@ -120,7 +114,6 @@ function showToast(title, msg) {
     if (oldToast) oldToast.remove();
 
     const toast = document.createElement('div');
-    // Добавляем стили и кнопку закрытия
     toast.className = 'holiday-toast';
     toast.style.cssText = `
         position: fixed; bottom: 20px; right: 20px; 
@@ -140,7 +133,6 @@ function showToast(title, msg) {
     
     document.body.appendChild(toast);
     
-    // Автоскрытие уведомления тоже через 10 сек
     setTimeout(() => {
         if (toast) {
             toast.style.opacity = '0';
@@ -156,9 +148,9 @@ function initMadnessTimer() {
             document.body.style.filter = 'invert(1) contrast(2)';
             setTimeout(() => { window.location.href = '../html/madness.html'; }, 2000);
         }
-    }, 300000); // 5 минут
+    }, 300000);
 }
 
 document.getElementById('rotateBtn').addEventListener('click', function() {
-    document.body.classList.toggle('flipped'); // Добавляет/убирает класс переворота
+    document.body.classList.toggle('flipped');
 });

@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!container || !navToggle || !nav || !navLinks) return;
 
-    /* === Генерация заметок === */
     notes.forEach((note, index) => {
         const card = document.createElement("div");
         card.className = "note-card";
@@ -21,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         container.appendChild(card);
 
-        /* === Ссылка в архиве === */
         const link = document.createElement("a");
         link.href = `#note-${index + 1}`;
         link.textContent = `Запись #${note.id}`;
@@ -33,7 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
         navLinks.appendChild(link);
     });
 
-    /* === Открытие / закрытие архива === */
     navToggle.addEventListener("click", () => {
         nav.classList.toggle("active");
     });
@@ -60,3 +57,32 @@ function activateGlitchMode() {
         document.body.style.filter = 'none';
     }, 5000);
 }
+
+function maybeSpawnZoro() {
+    if (Math.random() > 0.05) return; 
+
+    if (document.querySelector('.zoro-lost')) return;
+
+    console.log("⚔️ Zoro is lost again...");
+
+    const zoro = document.createElement('img');
+    zoro.src = 'img/roronoa_zoro.png'; 
+    zoro.className = 'zoro-lost';
+    document.body.appendChild(zoro);
+
+    setTimeout(() => {
+        zoro.classList.add('zoro-walk');
+    }, 50);
+
+    setTimeout(() => {
+        zoro.remove();
+    }, 12000);
+}
+
+if (typeof tabButtons !== 'undefined') {
+    tabButtons.forEach(btn => {
+        btn.addEventListener('click', maybeSpawnZoro);
+    });
+}
+
+setTimeout(maybeSpawnZoro, 1000);

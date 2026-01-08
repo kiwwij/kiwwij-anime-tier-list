@@ -114,6 +114,9 @@ function renderTierList() {
             card.dataset.query = item.title;
             card.dataset.type = type;
             card.dataset.item = JSON.stringify(item);
+
+            attachReZeroSound(card, item.title);
+
             const loader = document.createElement('div');
             loader.className = 'card-loader';
             loader.textContent = item.ruTitle || item.title;
@@ -276,3 +279,119 @@ modal.addEventListener('click', (e) => {
         modal.close();
     }
 });
+
+const REZERO_COMMON_SOUNDS = [
+    'return_by_death.mp3',
+    'returne_to_death_1.mp3',
+    'returne_to_death_2.mp3',
+    'returne_to_death_3.mp3',
+    'returne_to_death_4.mp3'
+];
+
+const REZERO_RARE_SOUND = 'returne_to_death_meme.mp3';
+
+const WITCH_COOLDOWN_TIME = 10000; 
+const MEME_CHANCE = 0.05;          
+const AUDIO_BASE_PATH = 'audio/';  
+
+let witchAudio = new Audio();
+let isWitchCooldown = false;
+let isAudioUnlocked = false;
+
+function unlockAudioContext() {
+    if (isAudioUnlocked) return;
+
+    witchAudio.src = AUDIO_BASE_PATH + REZERO_COMMON_SOUNDS[0];
+    witchAudio.volume = 0;
+
+    witchAudio.play().then(() => {
+        witchAudio.pause();
+        witchAudio.currentTime = 0;
+        isAudioUnlocked = true;
+        
+        document.removeEventListener('click', unlockAudioContext);
+        document.removeEventListener('keydown', unlockAudioContext);
+        document.removeEventListener('touchstart', unlockAudioContext);
+        console.log("🔊 Audio Context Unlocked");
+    }).catch(error => {
+        console.log("🔇 Autoplay prevented. Waiting for user interaction.");
+    });
+}
+
+document.addEventListener('click', unlockAudioContext);
+document.addEventListener('keydown', unlockAudioContext);
+document.addEventListener('touchstart', unlockAudioContext);
+
+function attachReZeroSound(cardElement, title) {
+    if (!title || !title.toLowerCase().includes('re:zero')) return;
+
+    cardElement.classList.add('witch-target');
+
+    cardElement.addEventListener('mouseenter', () => {
+        if (isWitchCooldown) {
+            if (!isAudioUnlocked) unlockAudioContext();
+            return;
+        }
+
+        let selectedSound;
+        const randomChance = Math.random();
+
+        if (randomChance < MEME_CHANCE) {
+            selectedSound = REZERO_RARE_SOUND;
+            console.log("🎲 Re:Zero Easter Egg: RARE DROP!"); 
+        } else {
+            const randomIndex = Math.floor(Math.random() * REZERO_COMMON_SOUNDS.length);
+            selectedSound = REZERO_COMMON_SOUNDS[randomIndex];
+        }
+
+        witchAudio.src = AUDIO_BASE_PATH + selectedSound;
+        witchAudio.volume = 0.2; 
+        
+        const playPromise = witchAudio.play();
+        
+        if (playPromise !== undefined) {
+            playPromise.then(() => {
+                cardElement.classList.add('witch-active');
+                isWitchCooldown = true;
+                setTimeout(() => {
+                    isWitchCooldown = false;
+                }, WITCH_COOLDOWN_TIME);
+            }).catch(error => {
+                console.log("Playback failed (User hasn't interacted yet)");
+            });
+        }
+    });
+
+    cardElement.addEventListener('mouseleave', () => {
+        cardElement.classList.remove('witch-active');
+    });
+}
+
+function maybeSpawnZoro() {
+    if (Math.random() > 0.05) return; 
+
+    if (document.querySelector('.zoro-lost')) return;
+
+    console.log("⚔️ Zoro is lost again...");
+
+    const zoro = document.createElement('img');
+    zoro.src = 'img/roronoa_zoro.png'; 
+    zoro.className = 'zoro-lost';
+    document.body.appendChild(zoro);
+
+    setTimeout(() => {
+        zoro.classList.add('zoro-walk');
+    }, 50);
+
+    setTimeout(() => {
+        zoro.remove();
+    }, 12000);
+}
+
+if (typeof tabButtons !== 'undefined') {
+    tabButtons.forEach(btn => {
+        btn.addEventListener('click', maybeSpawnZoro);
+    });
+}
+
+setTimeout(maybeSpawnZoro, 1000);

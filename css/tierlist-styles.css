@@ -234,7 +234,7 @@ dialog[open] {
 @media (max-width: 768px) {
     dialog {
         width: 100%;       
-        height: 95vh;     
+        height:80vh;     
         max-height: 95vh;
         border-radius: 20px 20px 0 0; 
         bottom: 0;        
@@ -257,7 +257,7 @@ dialog[open] {
 
     .modal-header {
         width: 100%;
-        height: 40%;     
+        height: 30%;     
         min-width: 100%;
         border-left: none;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -269,7 +269,7 @@ dialog[open] {
     }
 
     .modal-body {
-        padding: 25px 20px;
+        padding: 20px;
     }
 
     #modalTitle {
@@ -283,10 +283,85 @@ dialog[open] {
     }
 
     .close-modal {
-        top: 15px;
+        top: 10px;
         right: 15px;
-        width: 36px;
+        width: 40px;
         height: 36px;
         background: rgba(0, 0, 0, 0.7);
     }
+}
+
+.dropped-link-container {
+    text-align: center;
+    width: 100%;
+}
+
+.dropped-link {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 1rem;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.dropped-link:hover {
+    opacity: 1;
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+.dropped-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.dropped-header h2 {
+    font-size: 2rem;
+    color: var(--text-main);
+}
+.dropped-header p {
+    color: var(--text-muted);
+}
+        
+.dropped-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    background: var(--bg-card);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+@media (max-width: 768px) {
+    .dropped-grid {
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+        gap: 10px;
+    }
+}
+
+.witch-target {
+    transition: all 0.5s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.witch-active {
+    filter: grayscale(70%) contrast(120%) drop-shadow(0 0 15px rgba(128, 0, 128, 0.8));
+    transform: scale(1.02);
+    border-color: #800080 !important;
+}
+
+.witch-active::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(75, 0, 130, 0.2);
+    pointer-events: none;
+    animation: witchPulse 2s infinite;
+}
+
+@keyframes witchPulse {
+    0% { opacity: 0.1; }
+    50% { opacity: 0.4; }
+    100% { opacity: 0.1; }
 }

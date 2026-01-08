@@ -39,7 +39,6 @@ async function renderTerminal() {
         
         container.appendChild(entry);
         
-        // Маленькая задержка перед добавлением класса видимости для анимации
         setTimeout(() => entry.classList.add('visible'), 50);
         
         window.scrollTo(0, document.body.scrollHeight);
@@ -52,5 +51,33 @@ function showSecret() {
     window.scrollTo(0, document.body.scrollHeight);
 }
 
-// Запуск процесса
 window.onload = renderTerminal;
+
+function maybeSpawnZoro() {
+    if (Math.random() > 0.05) return; 
+
+    if (document.querySelector('.zoro-lost')) return;
+
+    console.log("⚔️ Zoro is lost again...");
+
+    const zoro = document.createElement('img');
+    zoro.src = 'img/roronoa_zoro.png'; 
+    zoro.className = 'zoro-lost';
+    document.body.appendChild(zoro);
+
+    setTimeout(() => {
+        zoro.classList.add('zoro-walk');
+    }, 50);
+
+    setTimeout(() => {
+        zoro.remove();
+    }, 12000);
+}
+
+if (typeof tabButtons !== 'undefined') {
+    tabButtons.forEach(btn => {
+        btn.addEventListener('click', maybeSpawnZoro);
+    });
+}
+
+setTimeout(maybeSpawnZoro, 1000);

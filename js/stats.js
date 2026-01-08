@@ -268,3 +268,32 @@ function activateGlitchMode() {
         document.body.style.filter = 'none';
     }, 5000);
 }
+
+function maybeSpawnZoro() {
+    if (Math.random() > 0.05) return; 
+
+    if (document.querySelector('.zoro-lost')) return;
+
+    console.log("⚔️ Zoro is lost again...");
+
+    const zoro = document.createElement('img');
+    zoro.src = 'img/roronoa_zoro.png'; 
+    zoro.className = 'zoro-lost';
+    document.body.appendChild(zoro);
+
+    setTimeout(() => {
+        zoro.classList.add('zoro-walk');
+    }, 50);
+
+    setTimeout(() => {
+        zoro.remove();
+    }, 12000);
+}
+
+if (typeof tabButtons !== 'undefined') {
+    tabButtons.forEach(btn => {
+        btn.addEventListener('click', maybeSpawnZoro);
+    });
+}
+
+setTimeout(maybeSpawnZoro, 1000);

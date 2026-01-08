@@ -175,3 +175,20 @@ input:checked + .slider:before {
 .footer-socials { display: flex; gap: 1rem; }
 .social-link { font-size: 1.5rem; color: var(--text-muted); transition: 0.3s; }
 .social-link:hover { color: var(--accent); transform: scale(1.1); }
+
+.zoro-lost {
+    position: fixed;
+    bottom: 0;
+    right: -200px; 
+    width: 200px !important;
+    max-width: none !important;
+    height: auto;
+    z-index: 9999;
+    pointer-events: none;
+    transition: transform 12s linear;
+    will-change: transform;
+}
+
+.zoro-walk {
+    transform: translateX(-120vw);
+}

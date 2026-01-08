@@ -1,0 +1,62 @@
+// Заходим на сайт анилибрии https://aniliberty.top/me/collections/
+// Выбирает коллекцию "Брошено" вставляем в консоль.
+// Потом с помощью аишки делаем англ названия с китсу апи
+
+
+const result = [];
+
+// Проходимся по всем элементам списка (ссылки с классом v-list-item)
+document.querySelectorAll('.v-list-item').forEach(card => {
+    
+    // --- 1. Русское название ---
+    // Ищем по классу ff-heading, который виден на твоем 2-м и 3-м скрине
+    const titleEl = card.querySelector('.ff-heading');
+    if (!titleEl) return; // Пропускаем, если заголовка нет
+    
+    const ruTitle = titleEl.innerText.trim();
+
+    // --- 2. Английское название (для поиска постера) ---
+    // Вытаскиваем из ссылки href="/anime/releases/slug-name"
+    let searchTitle = ruTitle; 
+    const href = card.getAttribute('href');
+    if (href) {
+        // Берем последнюю часть пути URL и меняем тире на пробелы
+        const slug = href.split('/').filter(Boolean).pop();
+        if (slug) {
+            searchTitle = slug.replace(/-/g, ' ');
+        }
+    }
+
+    // --- 3. Серии (Причина дропа) ---
+    // Ищем контейнер v-chip__content (видно на 1-м скрине)
+    const chipContent = card.querySelector('.v-chip__content');
+    let reviewText = "Причина не указана.";
+
+    if (chipContent) {
+        // Получаем весь текст внутри чипа.
+        // Так как там div'ы (<div>3</div> <div>из</div> <div>12</div>),
+        // innerText вернет их с переносами строк. Заменяем переносы на пробелы.
+        const text = chipContent.innerText.replace(/\s+/g, ' ').trim();
+        
+        // Ищем паттерн "число из число"
+        const match = text.match(/(\d+)\s*из\s*(\d+)/);
+        
+        if (match) {
+            // match[1] - сколько посмотрел, match[2] - сколько всего
+            reviewText = `Дропнул на ${match[1]}-й серии из ${match[2]}.`;
+        } else {
+            // Если вдруг формат другой (например, "Онгоинг")
+            reviewText = `Прогресс: ${text}`;
+        }
+    }
+
+    // Добавляем в массив
+    result.push({
+        title: searchTitle,
+        ruTitle: ruTitle,
+        review: reviewText
+    });
+});
+
+// Выводим результат в консоль
+console.log(JSON.stringify(result, null, 2));

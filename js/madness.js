@@ -58,7 +58,6 @@ function animate() {
 }
 animate();
 
-// Логика кнопки "Вернуться" (сопротивление)
 fakeBtn.onclick = function(e) {
     clickCount++;
     document.body.style.filter = "invert(1) contrast(3)";
