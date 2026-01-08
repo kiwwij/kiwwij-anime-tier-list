@@ -565,6 +565,12 @@ const musicData = [
         "duration": "1:30"
     },
     {
+        "title": "тянка - HANAHAKI (song lyrics)",
+        "artist": "тянка хиккует",
+        "playlist": "Main",
+        "duration": "2:27"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -4154,7 +4160,7 @@ const musicData = [
     },
     {
         "title": "На стол",
-        "artist": "LonelyStash",
+        "artist": "LonelyStash & Готлиб",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
@@ -6129,6 +6135,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 526,
-    "totalDurationSec": 166495,
+    "totalDurationSec": 166642,
     "lastUpdated": "Auto-generated"
 };
