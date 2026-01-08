@@ -28,20 +28,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1501750"
         },
         {
-            "appid": 750920,
-            "name": "Shadow of the Tomb Raider",
-            "playtime_2weeks": 4.7,
-            "hours": 9.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg",
-            "url": "https://store.steampowered.com/app/750920"
-        },
-        {
             "appid": 2767030,
             "name": "Marvel Rivals",
             "playtime_2weeks": 4.6,
             "hours": 153.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030"
+        },
+        {
+            "appid": 750920,
+            "name": "Shadow of the Tomb Raider",
+            "playtime_2weeks": 4.3,
+            "hours": 9.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg",
+            "url": "https://store.steampowered.com/app/750920"
         },
         {
             "appid": 2909400,
