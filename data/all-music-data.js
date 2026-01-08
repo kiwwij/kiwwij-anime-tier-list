@@ -1916,7 +1916,7 @@ const musicData = [
     },
     {
         "title": "NLO – Танцы | Ты такая классная, крутишься в пространстве (Текст песни, премьера трека 2023)",
-        "artist": "mwl media",
+        "artist": "tut. media",
         "playlist": "Dead inside",
         "duration": "3:00"
     },
