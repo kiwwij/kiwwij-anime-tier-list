@@ -2749,6 +2749,12 @@ const musicData = [
         "duration": "4:25"
     },
     {
+        "title": "I sang the NTR song",
+        "artist": "Miori Celesta",
+        "playlist": "Dead inside",
+        "duration": "3:05"
+    },
+    {
         "title": "Nightcore - Suzume",
         "artist": "Plume",
         "playlist": "Dead inside",
@@ -4645,7 +4651,7 @@ const musicData = [
         "duration": "2:03"
     },
     {
-        "title": "Мама удалила роблокс",
+        "title": "Мама удалила роблокс (feat. Gulyashik & Qurorr)",
         "artist": "Lemaier",
         "playlist": "Dead inside",
         "duration": "3:04"
@@ -6123,6 +6129,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 526,
-    "totalDurationSec": 166277,
+    "totalDurationSec": 166462,
     "lastUpdated": "Auto-generated"
 };
