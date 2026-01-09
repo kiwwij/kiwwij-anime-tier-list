@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/e999ef2e2e39a77fde5a3b901348679eea74ba6f_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "Offline",
+        "statusColor": "#9E9E9E"
     },
     "stats": {
         "total_games": 240
@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2767030"
         },
         {
-            "appid": 750920,
-            "name": "Shadow of the Tomb Raider",
-            "playtime_2weeks": 4.0,
-            "hours": 9.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg",
-            "url": "https://store.steampowered.com/app/750920"
-        },
-        {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
             "playtime_2weeks": 3.8,
             "hours": 3.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
+        },
+        {
+            "appid": 750920,
+            "name": "Shadow of the Tomb Raider",
+            "playtime_2weeks": 3.6,
+            "hours": 9.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg",
+            "url": "https://store.steampowered.com/app/750920"
         },
         {
             "appid": 431960,
