@@ -2522,7 +2522,7 @@ const musicData = [
     },
     {
         "title": "реквием",
-        "artist": "zxcshade",
+        "artist": "zxcshade & soqql",
         "playlist": "Dead inside",
         "duration": "0:31"
     },
