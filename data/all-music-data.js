@@ -2569,7 +2569,7 @@ const musicData = [
         "duration": "1:26"
     },
     {
-        "title": "《Powerful wind, Slicked-back hair》【Real Challenge ,The Latest Craze! Reality!】",
+        "title": "強風オールバック【リアルver.】",
         "artist": "SUSHI RAMEN【Riku】",
         "playlist": "Dead inside",
         "duration": "2:17"
@@ -2747,12 +2747,6 @@ const musicData = [
         "artist": "ZAMination",
         "playlist": "Dead inside",
         "duration": "4:25"
-    },
-    {
-        "title": "I sang the NTR song",
-        "artist": "Miori Celesta",
-        "playlist": "Dead inside",
-        "duration": "3:05"
     },
     {
         "title": "Nightcore - Suzume",
@@ -6129,6 +6123,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 526,
-    "totalDurationSec": 166462,
+    "totalDurationSec": 166277,
     "lastUpdated": "Auto-generated"
 };
