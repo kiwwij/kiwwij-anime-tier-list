@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 29.7,
-            "hours": 3104.6,
+            "playtime_2weeks": 30.2,
+            "hours": 3105.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
