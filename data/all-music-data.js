@@ -5840,7 +5840,7 @@ const musicData = [
     },
     {
         "title": "темный принц tewiq - project 1",
-        "artist": "Смерть в результате эпилепсии",
+        "artist": "ya ebnu tya",
         "playlist": "Dead inside",
         "duration": "1:52"
     },
