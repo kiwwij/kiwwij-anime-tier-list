@@ -1130,7 +1130,7 @@ const musicData = [
     },
     {
         "title": "“Below The Surface” - FNAF SISTER LOCATION SONG | by Griffinilla",
-        "artist": "Fandroid Music",
+        "artist": "Griffinilla",
         "playlist": "Dead inside",
         "duration": "2:32"
     },
