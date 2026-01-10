@@ -227,7 +227,7 @@ const musicData = [
     },
     {
         "title": "1-800",
-        "artist": "​bbno$",
+        "artist": "​bbno$ & Ironmouse",
         "playlist": "Main"
     },
     {
