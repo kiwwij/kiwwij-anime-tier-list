@@ -1130,7 +1130,7 @@ const musicData = [
     },
     {
         "title": "“Below The Surface” - FNAF SISTER LOCATION SONG | by Griffinilla",
-        "artist": "Griffinilla",
+        "artist": "Fandroid Music",
         "playlist": "Dead inside",
         "duration": "2:32"
     },
@@ -5353,8 +5353,8 @@ const musicData = [
         "duration": "3:52"
     },
     {
-        "title": "Сериал",
-        "artist": "Сова",
+        "title": "Сова – Сериал / Sova – Serial (official audio)",
+        "artist": "Группа Сова / Band Sova",
         "playlist": "Dead inside",
         "duration": "2:38"
     },
