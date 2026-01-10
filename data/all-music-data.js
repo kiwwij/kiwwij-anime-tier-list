@@ -571,12 +571,6 @@ const musicData = [
         "duration": "2:27"
     },
     {
-        "title": "незнакомое место",
-        "artist": "LAZZY2WICE",
-        "playlist": "Main",
-        "duration": "2:46"
-    },
-    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -884,7 +878,7 @@ const musicData = [
     },
     {
         "title": "Лёд",
-        "artist": "WENARO",
+        "artist": "WENARO & LXNER",
         "playlist": "Dead inside",
         "duration": "2:33"
     },
@@ -6135,6 +6129,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 526,
-    "totalDurationSec": 166628,
+    "totalDurationSec": 166462,
     "lastUpdated": "Auto-generated"
 };
