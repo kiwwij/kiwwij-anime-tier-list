@@ -66,14 +66,6 @@ const steamData = {
             "hours": 0.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4300590/header.jpg",
             "url": "https://store.steampowered.com/app/4300590"
-        },
-        {
-            "appid": 1168280,
-            "name": "Resident Evil 2 \"R.P.D. Demo\"",
-            "playtime_2weeks": 0.1,
-            "hours": 0.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1168280/header.jpg",
-            "url": "https://store.steampowered.com/app/1168280"
         }
     ],
     "top_games": [
