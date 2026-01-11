@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/e999ef2e2e39a77fde5a3b901348679eea74ba6f_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -44,20 +44,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2767030"
         },
         {
-            "appid": 750920,
-            "name": "Shadow of the Tomb Raider",
-            "playtime_2weeks": 0.7,
-            "hours": 9.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg",
-            "url": "https://store.steampowered.com/app/750920"
-        },
-        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.7,
             "hours": 18.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 750920,
+            "name": "Shadow of the Tomb Raider",
+            "playtime_2weeks": 0.7,
+            "hours": 9.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg",
+            "url": "https://store.steampowered.com/app/750920"
         },
         {
             "appid": 4300590,
