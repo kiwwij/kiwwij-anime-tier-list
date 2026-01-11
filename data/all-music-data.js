@@ -3751,7 +3751,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О боже, какой мужчина!",
+        "title": "О, Боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -4933,8 +4933,8 @@ const musicData = [
         "duration": "1:48"
     },
     {
-        "title": "Касета",
-        "artist": "SadSvit",
+        "title": "Cassette - Remix",
+        "artist": "Walras",
         "playlist": "Dead inside",
         "duration": "2:25"
     },
