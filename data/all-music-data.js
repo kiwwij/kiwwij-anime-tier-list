@@ -4987,7 +4987,7 @@ const musicData = [
         "duration": "3:07"
     },
     {
-        "title": "Psycho Dreams",
+        "title": "Psycho Dreams (Sped Up)",
         "artist": "Kill Eva",
         "playlist": "Dead inside",
         "duration": "2:15"
