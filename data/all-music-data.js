@@ -2059,7 +2059,7 @@ const musicData = [
         "duration": "2:41"
     },
     {
-        "title": "xMax, suramura - Следующая станция (премьера)",
+        "title": "Следующая станция",
         "artist": "suramura",
         "playlist": "Dead inside",
         "duration": "2:50"
