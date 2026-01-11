@@ -1855,7 +1855,7 @@ const musicData = [
         "duration": "2:49"
     },
     {
-        "title": "Trymai",
+        "title": "Тримай",
         "artist": "Khrystyna Soloviy",
         "playlist": "Dead inside",
         "duration": "3:28"
