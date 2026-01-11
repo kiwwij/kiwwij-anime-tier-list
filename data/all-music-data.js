@@ -2053,7 +2053,7 @@ const musicData = [
         "duration": "3:12"
     },
     {
-        "title": "Соковыжималка",
+        "title": "suramura, Иван Золо - Соковыжималка (Премьера)",
         "artist": "suramura",
         "playlist": "Dead inside",
         "duration": "2:41"
@@ -4693,7 +4693,7 @@ const musicData = [
         "duration": "4:27"
     },
     {
-        "title": "Кошка",
+        "title": "Кошка (feat. Ольга Артуровна)",
         "artist": "Rychagy Mashin",
         "playlist": "Dead inside",
         "duration": "3:52"
