@@ -625,8 +625,8 @@ const musicData = [
         "duration": "1:33"
     },
     {
-        "title": "ビッケブランカ - Black Catcher / Vicke Blanka - Black Catcher",
-        "artist": "VK Blanka ",
+        "title": "Black Catcher",
+        "artist": "VK Blanka",
         "playlist": "Japan",
         "duration": "3:19"
     },
@@ -1112,7 +1112,7 @@ const musicData = [
     },
     {
         "title": "Naruto Shippuden Opening 3 Blue Bird   ナルト В память о Сергее Хромове",
-        "artist": "АйMori",
+        "artist": "Ai Mori",
         "playlist": "Dead inside",
         "duration": "4:34"
     },
