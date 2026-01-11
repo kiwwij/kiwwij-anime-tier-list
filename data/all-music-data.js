@@ -1861,7 +1861,7 @@ const musicData = [
         "duration": "3:28"
     },
     {
-        "title": "Kalush Orchestra - Stefania (Official Video Eurovision 2022)",
+        "title": "Stefania (Kalush Orchestra)",
         "artist": "Kalush Orchestra",
         "playlist": "Dead inside",
         "duration": "3:13"
