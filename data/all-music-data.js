@@ -571,6 +571,12 @@ const musicData = [
         "duration": "2:27"
     },
     {
+        "title": "В реальності новій",
+        "artist": "Апатія",
+        "playlist": "Main",
+        "duration": "2:45"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6137,10 +6143,16 @@ const musicData = [
         "artist": "(K)NoW_NAME",
         "playlist": "Chill",
         "duration": "4:25"
+    },
+    {
+        "title": "rises the moon",
+        "artist": "liana flores",
+        "playlist": "Chill",
+        "duration": "2:42"
     }
 ];
 const musicStats = {
     "totalViews": 526,
-    "totalDurationSec": 166992,
+    "totalDurationSec": 167319,
     "lastUpdated": "Auto-generated"
 };
