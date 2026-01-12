@@ -6019,6 +6019,18 @@ const musicData = [
         "duration": "1:01"
     },
     {
+        "title": "Весь этот мир",
+        "artist": "Русский Размер",
+        "playlist": "Dead inside",
+        "duration": "3:45"
+    },
+    {
+        "title": "Отпускай",
+        "artist": "Три дня дождя",
+        "playlist": "Dead inside",
+        "duration": "3:28"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6153,6 +6165,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 526,
-    "totalDurationSec": 167319,
+    "totalDurationSec": 167752,
     "lastUpdated": "Auto-generated"
 };
