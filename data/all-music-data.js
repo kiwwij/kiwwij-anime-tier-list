@@ -877,6 +877,12 @@ const musicData = [
         "duration": "5:45"
     },
     {
+        "title": "sun will rise",
+        "artist": "(K)NoW_NAME",
+        "playlist": "Japan",
+        "duration": "4:25"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -4651,7 +4657,7 @@ const musicData = [
         "duration": "2:03"
     },
     {
-        "title": "Мама удалила роблокс (feat. Gulyashik & Qurorr)",
+        "title": "Мама удалила роблокс",
         "artist": "Lemaier",
         "playlist": "Dead inside",
         "duration": "3:04"
@@ -6125,10 +6131,16 @@ const musicData = [
         "artist": "Ramsey",
         "playlist": "Chill",
         "duration": "3:51"
+    },
+    {
+        "title": "sun will rise",
+        "artist": "(K)NoW_NAME",
+        "playlist": "Chill",
+        "duration": "4:25"
     }
 ];
 const musicStats = {
     "totalViews": 526,
-    "totalDurationSec": 166462,
+    "totalDurationSec": 166992,
     "lastUpdated": "Auto-generated"
 };
