@@ -255,7 +255,7 @@
             <div class="footer-info">
                 <span class="footer-logo">kiwwij<br></span>
                 <button id="rotateBtn" class="footer-copyright" style="background:none; color: var(--text-muted); border:none; font:inherit; cursor:pointer;" title="Не нажимай меня!">
-                    © 2025. Click on me.
+                    © <span id="current-year"></span>. Click on me.
                 </button>
             </div>
             <nav class="footer-socials">
@@ -293,5 +293,11 @@
                 }
             });
         });
+    </script>
+    <script>
+        const yearElement = document.getElementById('current-year');
+            if (yearElement) {
+                yearElement.textContent = new Date().getFullYear();
+            }
     </script>
 </html>

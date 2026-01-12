@@ -33,15 +33,15 @@
                     <input type="text" id="searchInput" placeholder="Поиск..." autocomplete="off">
                 </div>
 
-                <div class="view-switcher" id="viewSwitcher">
-                    <button class="view-btn active" data-view="grid" title="Плитка"><i class='bx bxs-grid-alt'></i></button>
-                    <button class="view-btn" data-view="list" title="Список"><i class='bx bx-list-ul'></i></button>
-                </div>
-
                 <select id="sortSelect" class="category-dropdown">
                     <option value="rating-desc">Мой рейтинг</option>
                     <option value="alpha-asc">По названию</option>
                 </select>
+                
+                <div class="view-switcher" id="viewSwitcher">
+                    <button class="view-btn active" data-view="grid" title="Плитка"><i class='bx bxs-grid-alt'></i></button>
+                    <button class="view-btn" data-view="list" title="Список"><i class='bx bx-list-ul'></i></button>
+                </div>
             </div>
 
             <nav class="nav-links">
@@ -88,7 +88,11 @@
         <div class="footer-content">
             <div class="footer-info">
                 <span class="footer-logo">kiwwij</span>
-                <p class="footer-copyright" target="_blank"><a href="img/about me/Prince Charming.mp4" style="text-decoration: none; color: inherit;" target="_blank">© 2025. Don't press!</a></p>
+               <p class="footer-copyright">
+                    <a href="img/about me/Prince Charming.mp4" style="text-decoration: none; color: inherit;" target="_blank">
+                        © <span id="current-year"></span>. Don't press!
+                    </a>
+                </p>
             </div>
             <nav class="footer-socials">
                 <a href="https://github.com/kiwwij" class="social-link" target="_blank"><i class='bx bxl-github'></i></a>
@@ -124,6 +128,12 @@
                 }
             });
         });
+    </script>
+    <script>
+        const yearElement = document.getElementById('current-year');
+            if (yearElement) {
+                yearElement.textContent = new Date().getFullYear();
+            }
     </script>
 </body>
 </html>

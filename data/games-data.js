@@ -118,6 +118,14 @@ if (typeof tierListData !== 'undefined') {
                     title: "FINAL FANTASY VII REBIRTH",
                     review: "Ревью - ",
                 },
+                { 
+                    title: "Genshin Impact",
+                    review: "Стой, стой, стой. Дай всё объясню. В 1ые года я дико кайфовал от этого кала, играл по 12 часов каждый день. Сейчас я бы в неё не смог играть, но вот раньше...",
+                },
+                { 
+                    title: "Honkai Star Rail",
+                    review: "Стой, стой, стой. Дай всё объясню. На выходе мне игра понравилась даже больше чем геншин. Он не такой душный, нет открытого мира. Быстро зашёл, прошёл и вышел. И я прошёл HSR за пол года. Собрал 2 пачки, прокачал и закрыл карту. Вот и всё. Сейчас я бы в неё не смог играть.",
+                },
             ],
             'B': [
                 { 
@@ -350,6 +358,15 @@ if (typeof tierListData !== 'undefined') {
                 { 
                     title: "Higurashi When They Cry Hou - Ch.8",
                     review: "",
+                },
+                { 
+                    title: "Higurashi When They Cry Hou - Rei",
+                    review: "",
+                },
+                { 
+                    title: "Higurashi When They Cry Hou - Hou+",
+                    review: "",
+                    img: "games/Higurashi_When_They_Cry_Hou+.jpg"
                 },
                 { 
                     title: "Kena: Bridge of Spirits",

@@ -232,7 +232,7 @@ function openModal(item, imgSrc, apiDetails) {
     modalImg.src = imgSrc || "";
 
     const reviewEl = document.getElementById('modalReview');
-    reviewEl.textContent = item.review || "Отзыва пока нет.";
+    reviewEl.textContent = item.review || "Отзыва пока нет. Тир может измениться.";
     const modalBody = document.querySelector('.modal-body');
     if (modalBody) modalBody.scrollTop = 0;
 
@@ -248,7 +248,7 @@ function openModal(item, imgSrc, apiDetails) {
         ratingEl.innerHTML = '';
         ratingEl.style.display = 'none';
     }
-    document.getElementById('modalReview').textContent = item.review || "Отзыва пока нет.";
+    document.getElementById('modalReview').textContent = item.review || "Отзыва пока нет. Тир может измениться.";
     modal.showModal();
 }
 
