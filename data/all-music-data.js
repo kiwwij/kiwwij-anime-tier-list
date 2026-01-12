@@ -6031,6 +6031,12 @@ const musicData = [
         "duration": "3:28"
     },
     {
+        "title": "Dabbackwood - Код Гиасс (случайно провалился в мир си)",
+        "artist": "Каидже",
+        "playlist": "Dead inside",
+        "duration": "2:28"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6165,6 +6171,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 526,
-    "totalDurationSec": 167752,
+    "totalDurationSec": 167900,
     "lastUpdated": "Auto-generated"
 };
