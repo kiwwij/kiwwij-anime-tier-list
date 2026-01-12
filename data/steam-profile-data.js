@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2767030"
         },
         {
-            "appid": 1501750,
-            "name": "Lords of the Fallen",
-            "playtime_2weeks": 0.8,
-            "hours": 19.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
-            "url": "https://store.steampowered.com/app/1501750"
-        },
-        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.7,
             "hours": 18.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 1501750,
+            "name": "Lords of the Fallen",
+            "playtime_2weeks": 0.6,
+            "hours": 19.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
+            "url": "https://store.steampowered.com/app/1501750"
         },
         {
             "appid": 4300590,
