@@ -272,7 +272,7 @@ const musicData = [
     },
     {
         "title": "1-800",
-        "artist": "​bbno$ & Ironmouse",
+        "artist": "​bbno$",
         "playlist": "Main",
         "duration": "3:28"
     },
@@ -5636,7 +5636,7 @@ const musicData = [
     },
     {
         "title": "1-800",
-        "artist": "​bbno$ & Ironmouse",
+        "artist": "​bbno$",
         "playlist": "Dead inside",
         "duration": "3:28"
     },
