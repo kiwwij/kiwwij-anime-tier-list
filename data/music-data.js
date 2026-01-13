@@ -227,7 +227,7 @@ const musicData = [
     },
     {
         "title": "1-800",
-        "artist": "​bbno$ & Ironmouse",
+        "artist": "​bbno$",
         "playlist": "Main"
     },
     {
@@ -474,9 +474,14 @@ const musicData = [
         "title": "тянка - HANAHAKI (song lyrics)",
         "artist": "тянка хиккует",
         "playlist": "Main"
+    },
+    {
+        "title": "В реальності новій",
+        "artist": "Апатія",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 14,
-    "totalDurationSec": 12968
+    "totalDurationSec": 13133
 };
