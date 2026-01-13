@@ -192,3 +192,36 @@ input:checked + .slider:before {
 .zoro-walk {
     transform: translateX(-120vw);
 }
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-nav-center {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.footer-nav-center i {
+    font-size: 1.8rem;
+    transition: color 0.3s ease;
+}
+
+.footer-nav-center a:hover i {
+    color: #ffca28;
+}
+
+@media (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-nav-center {
+        order: -1;
+    }
+}

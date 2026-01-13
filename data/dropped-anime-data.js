@@ -7,7 +7,7 @@ const droppedData = [
     {
         "title": "Madougushi Kunon wa Mieteiru",
         "ruTitle": "Волшебник Кунон всё видит",
-        "review": "Дропнул на 2-й серии из 2."
+        "review": "Дропнул на 2-й серии из n."
     },
     {
         "title": "Guilty Crown",
@@ -73,6 +73,11 @@ const droppedData = [
         "title": "Otaku Elf",
         "ruTitle": "Эльф Эдомаэ",
         "review": "Дропнул на 3-й серии из 12."
+    },
+    {
+        "title": "Black Clover 2017",
+        "ruTitle": "Чёрный Клевер",
+        "review": "Дропнул на 0-й серии из 170."
     },
     {
         "title": "Black Clover: Sword of the Wizard King",
@@ -252,6 +257,11 @@ const droppedData = [
     {
         "title": "Shibou Yuugi de Meshi wo Kuu.",
         "ruTitle": "Смертельная игра ради еды на столе",
-        "review": "Дропнул на 1-й серии из 11. Анимешка прикольная, задумка неновая, но начало невероятно скучное + рисовка какая-то ну хз..."
+        "review": "Дропнул на 1-й серии из 11. Анимешка прикольная, задумка неновая, но начало невероятно скучное + рисовка какая-то, ну хз..."
+    },
+    {
+        "title": "Kizoku Tensei: Megumareta Umare kara Saikyou no Chikara wo Eru",
+        "ruTitle": "Реинкарнация аристократа: Благословенный с рождения величайшей силой",
+        "review": "Дропнул на 1-й серии из n."
     },
 ]

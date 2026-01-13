@@ -15,48 +15,51 @@
 
 <body class="tierlist-page">
 
-<header>
-    <div class="header-content">
-        <div class="top-row">
-            <h1 class="logo-text">Заметки</h1>
-            <label class="switch">
-                <input type="checkbox" id="themeToggle">
-                <span class="slider"></span>
-            </label>
+    <header>
+        <div class="header-content">
+            <div class="top-row">
+                <h1 class="logo-text">Заметки</h1>
+                <label class="switch">
+                    <input type="checkbox" id="themeToggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <nav class="nav-links">
+                <a href="aboutme.html" class="btn-link"><i class='bx bx-user'></i> Обо мне</a>
+                <a href="index.html" class="btn-link"><i class='bx bx-home-alt'></i> На главную</a>
+            </nav>
         </div>
+    </header>
 
-        <nav class="nav-links">
-            <a href="aboutme.html" class="btn-link"><i class='bx bx-user'></i> Обо мне</a>
-            <a href="index.html" class="btn-link"><i class='bx bx-home-alt'></i> На главную</a>
-        </nav>
-    </div>
-</header>
+    <main class="stats-container">
+        <div id="notesContainer" class="notes-list"></div>
+    </main>
 
-<main class="stats-container">
-    <div id="notesContainer" class="notes-list"></div>
-</main>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <span class="footer-logo">kiwwij</span>
+                <p class="footer-copyright">© <span id="current-year"></span>. No Copyright.</p>
+            </div>
 
-<footer class="site-footer">
-    <div class="footer-content">
-        <div class="footer-info">
-            <span class="footer-logo">kiwwij</span>
-            <p class="footer-copyright">© <span id="current-year"></span>. No Copyright.</p>
+            <nav class="footer-nav-center">
+                <a href="navigation.html" class="social-link" title="Навигация">
+                    <i class='bx bx-map-alt'></i>
+                </a>
+            </nav>
+
+            <nav class="footer-socials">
+                <a href="https://github.com/kiwwij" class="social-link" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://kiwwij.github.io/kiwwij-social-links/" class="social-link" target="_blank"><i class='bx bx-link-alt'></i></a>
+            </nav>
         </div>
-        <nav class="footer-socials">
-            <a href="https://github.com/kiwwij" class="social-link" target="_blank">
-                <i class='bx bxl-github'></i>
-            </a>
-            <a href="https://kiwwij.github.io/kiwwij-social-links/" class="social-link" target="_blank">
-                <i class='bx bx-link-alt'></i>
-            </a>
-        </nav>
-    </div>
-</footer>
+    </footer>
 
-<script src="data/notes-data.js"></script>
-<script src="js/notes.js"></script>
-<script src="js/holidays.js"></script>
-<script>
+    <script src="data/notes-data.js"></script>
+    <script src="js/notes.js"></script>
+    <script src="js/holidays.js"></script>
+    <script>
         document.addEventListener('DOMContentLoaded', () => {
             const themeToggle = document.getElementById('themeToggle');
             const body = document.body;
