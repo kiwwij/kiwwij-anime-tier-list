@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/e999ef2e2e39a77fde5a3b901348679eea74ba6f_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50"
+        "status": "Offline",
+        "statusColor": "#9E9E9E"
     },
     "stats": {
         "total_games": 241
@@ -34,6 +34,14 @@ const steamData = {
             "hours": 153.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030"
+        },
+        {
+            "appid": 1721110,
+            "name": "Abyssus",
+            "playtime_2weeks": 1.4,
+            "hours": 1.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1721110/header.jpg",
+            "url": "https://store.steampowered.com/app/1721110"
         },
         {
             "appid": 431960,
