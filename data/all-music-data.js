@@ -577,6 +577,12 @@ const musicData = [
         "duration": "2:45"
     },
     {
+        "title": "откусила ноги",
+        "artist": "шизоняшка",
+        "playlist": "Main",
+        "duration": "1:21"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6171,6 +6177,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 526,
-    "totalDurationSec": 167900,
+    "totalDurationSec": 167981,
     "lastUpdated": "Auto-generated"
 };
