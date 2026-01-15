@@ -3332,7 +3332,7 @@ const musicData = [
     },
     {
         "title": "думаешь всю ночь о ней",
-        "artist": "shiro",
+        "artist": "odunochestvo",
         "playlist": "Dead inside",
         "duration": "2:57"
     },
