@@ -451,12 +451,6 @@ const musicData = [
         "duration": "1:16"
     },
     {
-        "title": "Confess Your Love (feat. ola.wav)",
-        "artist": "Jiandro",
-        "playlist": "Main",
-        "duration": "2:12"
-    },
-    {
         "title": "на небесах",
         "artist": "kouru",
         "playlist": "Main",
@@ -6177,6 +6171,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 526,
-    "totalDurationSec": 167981,
+    "totalDurationSec": 167849,
     "lastUpdated": "Auto-generated"
 };
