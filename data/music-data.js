@@ -484,9 +484,14 @@ const musicData = [
         "title": "грустинка",
         "artist": "onokami",
         "playlist": "Main"
+    },
+    {
+        "title": "вклубе",
+        "artist": "тёмный принц",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 14,
-    "totalDurationSec": 13189
+    "totalDurationSec": 13289
 };
