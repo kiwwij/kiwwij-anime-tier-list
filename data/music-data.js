@@ -376,11 +376,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Confess Your Love (feat. ola.wav)",
-        "artist": "Jiandro",
-        "playlist": "Main"
-    },
-    {
         "title": "на небесах",
         "artist": "kouru",
         "playlist": "Main"
@@ -479,9 +474,19 @@ const musicData = [
         "title": "В реальності новій",
         "artist": "Апатія",
         "playlist": "Main"
+    },
+    {
+        "title": "откусила ноги",
+        "artist": "шизоняшка",
+        "playlist": "Main"
+    },
+    {
+        "title": "грустинка",
+        "artist": "onokami",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 14,
-    "totalDurationSec": 13133
+    "totalDurationSec": 13189
 };
