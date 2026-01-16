@@ -2539,8 +2539,8 @@ const musicData = [
         "duration": "1:47"
     },
     {
-        "title": "реквием",
-        "artist": "zxcshade & soqql",
+        "title": "zxcshade - реквием (ft. soqql)",
+        "artist": "soqql",
         "playlist": "Dead inside",
         "duration": "0:31"
     },
