@@ -577,6 +577,12 @@ const musicData = [
         "duration": "1:21"
     },
     {
+        "title": "грустинка",
+        "artist": "onokami",
+        "playlist": "Main",
+        "duration": "1:47"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -3032,7 +3038,7 @@ const musicData = [
     },
     {
         "title": "Котик",
-        "artist": "enveel",
+        "artist": "enveel & onokami",
         "playlist": "Dead inside",
         "duration": "2:13"
     },
@@ -6171,6 +6177,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 526,
-    "totalDurationSec": 167849,
+    "totalDurationSec": 167956,
     "lastUpdated": "Auto-generated"
 };
