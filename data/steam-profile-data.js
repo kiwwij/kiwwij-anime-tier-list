@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/e999ef2e2e39a77fde5a3b901348679eea74ba6f_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "In Game",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 242
@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 25.9,
+            "playtime_2weeks": 25.6,
             "hours": 3116.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -28,20 +28,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2909400"
         },
         {
-            "appid": 2767030,
-            "name": "Marvel Rivals",
-            "playtime_2weeks": 2.6,
-            "hours": 153.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
-            "url": "https://store.steampowered.com/app/2767030"
-        },
-        {
             "appid": 1721110,
             "name": "Abyssus",
             "playtime_2weeks": 2.6,
             "hours": 2.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1721110/header.jpg",
             "url": "https://store.steampowered.com/app/1721110"
+        },
+        {
+            "appid": 2767030,
+            "name": "Marvel Rivals",
+            "playtime_2weeks": 2.3,
+            "hours": 153.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
+            "url": "https://store.steampowered.com/app/2767030"
         },
         {
             "appid": 431960,
