@@ -489,9 +489,14 @@ const musicData = [
         "title": "вклубе",
         "artist": "тёмный принц",
         "playlist": "Main"
+    },
+    {
+        "title": "unhappy",
+        "artist": "s0rrow",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 14,
-    "totalDurationSec": 13289
+    "totalDurationSec": 13388
 };
