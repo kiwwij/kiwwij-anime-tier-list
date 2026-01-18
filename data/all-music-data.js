@@ -595,6 +595,12 @@ const musicData = [
         "duration": "1:39"
     },
     {
+        "title": "fake ur face",
+        "artist": "s0rrow",
+        "playlist": "Main",
+        "duration": "1:55"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6189,6 +6195,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 526,
-    "totalDurationSec": 168155,
+    "totalDurationSec": 168270,
     "lastUpdated": "Auto-generated"
 };
