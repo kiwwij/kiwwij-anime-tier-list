@@ -44,20 +44,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2767030"
         },
         {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.3,
-            "hours": 18.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
-        },
-        {
             "appid": 4300590,
             "name": "Mistbound Demo",
             "playtime_2weeks": 0.2,
             "hours": 0.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4300590/header.jpg",
             "url": "https://store.steampowered.com/app/4300590"
+        },
+        {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.0,
+            "hours": 18.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
