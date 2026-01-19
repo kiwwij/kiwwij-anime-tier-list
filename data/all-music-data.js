@@ -529,12 +529,6 @@ const musicData = [
         "duration": "2:33"
     },
     {
-        "title": "Stephanie",
-        "artist": "Nafeesisboujee",
-        "playlist": "Main",
-        "duration": "2:21"
-    },
-    {
         "title": "Шиншиллы",
         "artist": "ЛСП",
         "playlist": "Main",
@@ -6195,6 +6189,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 558,
-    "totalDurationSec": 168270,
+    "totalDurationSec": 168129,
     "lastUpdated": "Auto-generated"
 };
