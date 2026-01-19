@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/e999ef2e2e39a77fde5a3b901348679eea74ba6f_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 23.4,
-            "hours": 3121.4,
+            "playtime_2weeks": 23.9,
+            "hours": 3121.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -54,7 +54,7 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.0,
+            "playtime_2weeks": 0.1,
             "hours": 18.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
