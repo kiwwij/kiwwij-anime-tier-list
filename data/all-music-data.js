@@ -595,6 +595,12 @@ const musicData = [
         "duration": "1:55"
     },
     {
+        "title": "mirrors demo (happy version)",
+        "artist": "s0rrow",
+        "playlist": "Main",
+        "duration": "1:46"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6189,6 +6195,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 558,
-    "totalDurationSec": 168129,
+    "totalDurationSec": 168235,
     "lastUpdated": "Auto-generated"
 };
