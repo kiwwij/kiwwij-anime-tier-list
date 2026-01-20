@@ -441,11 +441,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Stephanie",
-        "artist": "Nafeesisboujee",
-        "playlist": "Main"
-    },
-    {
         "title": "Шиншиллы",
         "artist": "ЛСП",
         "playlist": "Main"
@@ -499,9 +494,14 @@ const musicData = [
         "title": "fake ur face",
         "artist": "s0rrow",
         "playlist": "Main"
+    },
+    {
+        "title": "mirrors demo (happy version)",
+        "artist": "s0rrow",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 14,
-    "totalDurationSec": 13503
+    "totalDurationSec": 13468
 };
