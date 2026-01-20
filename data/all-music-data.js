@@ -2096,7 +2096,7 @@ const musicData = [
     },
     {
         "title": "Следующая станция",
-        "artist": "suramura",
+        "artist": "xMax",
         "playlist": "Dead inside",
         "duration": "2:50"
     },
