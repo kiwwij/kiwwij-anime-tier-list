@@ -313,6 +313,10 @@ if (typeof tierListData !== 'undefined') {
                     title: "Shadow of the Tomb Raider",
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/750920/",
                 },
+                { 
+                    title: "Abyssus",
+                    review: "Играл с другом, было весело.",
+                },
             ],
             'C': [
                 { 

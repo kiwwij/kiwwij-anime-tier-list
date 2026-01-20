@@ -365,3 +365,13 @@ dialog[open] {
     50% { opacity: 0.4; }
     100% { opacity: 0.1; }
 }
+
+.logo-text a {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.logo-text a:hover {
+    color: #ff4e50;
+    opacity: 0.8;
+}

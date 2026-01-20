@@ -142,11 +142,11 @@ function showToast(title, msg) {
 }
 
 function initMadnessTimer() {
-    if (window.location.pathname.includes('../html/madness.html')) return;
+    if (window.location.pathname.includes('html/madness.html')) return;
     setTimeout(() => {
         if (Math.random() < 0.1) {
             document.body.style.filter = 'invert(1) contrast(2)';
-            setTimeout(() => { window.location.href = '../html/madness.html'; }, 2000);
+            setTimeout(() => { window.location.href = 'html/madness.html'; }, 2000);
         }
     }, 300000);
 }

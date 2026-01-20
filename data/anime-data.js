@@ -2253,6 +2253,21 @@ const tierListData = {
                 ruTitle: "Магическая битва 3",
                 review: ""
             },
+            {
+                title: "Enen no Shouboutai: San no Shou Part 2",
+                ruTitle: "Пламенная бригада пожарных 3.2",
+                review: ""
+            },
+            {
+                title: "Jigokuraku 2",
+                ruTitle: "Адский рай 2",
+                review: ""
+            },
+            {
+                title: "Sousou no Frieren 2",
+                ruTitle: "Провожающая в последний путь Фрирен 2",
+                review: ""
+            },
         ],
         'C': [
             {
