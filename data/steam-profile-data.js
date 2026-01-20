@@ -36,14 +36,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1721110"
         },
         {
-            "appid": 2767030,
-            "name": "Marvel Rivals",
-            "playtime_2weeks": 0.2,
-            "hours": 153.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
-            "url": "https://store.steampowered.com/app/2767030"
-        },
-        {
             "appid": 4300590,
             "name": "Mistbound Demo",
             "playtime_2weeks": 0.2,
