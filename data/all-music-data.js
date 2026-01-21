@@ -601,6 +601,12 @@ const musicData = [
         "duration": "1:46"
     },
     {
+        "title": "ex-freundin (feat. Nosgov)",
+        "artist": "luu",
+        "playlist": "Main",
+        "duration": "1:35"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -5965,8 +5971,8 @@ const musicData = [
         "duration": "4:11"
     },
     {
-        "title": "真夜中のドア〜stay with me (Original Club Mix Mixed by D.O.I) - Mayonaka no Door 〜 Stay with Me (Original Club Mix)",
-        "artist": "Miki Matsubara",
+        "title": "真夜中のドア/Stay With Me <Original club mix>",
+        "artist": "松原みき",
         "playlist": "Dead inside",
         "duration": "5:47"
     },
@@ -6201,6 +6207,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 558,
-    "totalDurationSec": 168502,
+    "totalDurationSec": 168597,
     "lastUpdated": "Auto-generated"
 };
