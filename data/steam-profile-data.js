@@ -50,6 +50,14 @@ const steamData = {
             "hours": 18.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 1905180,
+            "name": "OBS Studio",
+            "playtime_2weeks": 0.0,
+            "hours": 182.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
+            "url": "https://store.steampowered.com/app/1905180"
         }
     ],
     "top_games": [
