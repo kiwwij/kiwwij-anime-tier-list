@@ -607,6 +607,12 @@ const musicData = [
         "duration": "1:35"
     },
     {
+        "title": "hunter eyes (slowed)",
+        "artist": "laydownrot",
+        "playlist": "Main",
+        "duration": "1:46"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6207,6 +6213,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 558,
-    "totalDurationSec": 168597,
+    "totalDurationSec": 168703,
     "lastUpdated": "Auto-generated"
 };
