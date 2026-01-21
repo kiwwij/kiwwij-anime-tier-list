@@ -913,6 +913,12 @@ const musicData = [
         "duration": "4:25"
     },
     {
+        "title": "守りたいもの",
+        "artist": "Yuiko Ohara",
+        "playlist": "Japan",
+        "duration": "4:27"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -6195,6 +6201,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 558,
-    "totalDurationSec": 168235,
+    "totalDurationSec": 168502,
     "lastUpdated": "Auto-generated"
 };
