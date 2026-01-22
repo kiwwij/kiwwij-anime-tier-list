@@ -499,9 +499,19 @@ const musicData = [
         "title": "mirrors demo (happy version)",
         "artist": "s0rrow",
         "playlist": "Main"
+    },
+    {
+        "title": "ex-freundin (feat. Nosgov)",
+        "artist": "luu",
+        "playlist": "Main"
+    },
+    {
+        "title": "hunter eyes (slowed)",
+        "artist": "laydownrot",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 14,
-    "totalDurationSec": 13468
+    "totalDurationSec": 13669
 };
