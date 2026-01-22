@@ -3626,7 +3626,7 @@ const musicData = [
     },
     {
         "title": "Девочка-керри",
-        "artist": "Norman",
+        "artist": "NORMAN",
         "playlist": "Dead inside",
         "duration": "2:41"
     },
