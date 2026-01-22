@@ -3902,7 +3902,7 @@ const musicData = [
     },
     {
         "title": "Единственный зритель",
-        "artist": "Norman",
+        "artist": "NORMAN",
         "playlist": "Dead inside",
         "duration": "2:41"
     },
