@@ -5324,7 +5324,7 @@ const musicData = [
     },
     {
         "title": "Золотые купола",
-        "artist": "Norman",
+        "artist": "NORMAN",
         "playlist": "Dead inside",
         "duration": "2:36"
     },
