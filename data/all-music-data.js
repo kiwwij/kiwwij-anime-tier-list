@@ -931,6 +931,12 @@ const musicData = [
         "duration": "4:27"
     },
     {
+        "title": "Yuusha no Kuzu Ending - Mental Rental (メンタルレンタル) ♪JP/ROM/CHT/EN Lyrics♪",
+        "artist": "DailyMisato",
+        "playlist": "Japan",
+        "duration": "3:14"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -6219,6 +6225,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 558,
-    "totalDurationSec": 168903,
+    "totalDurationSec": 169097,
     "lastUpdated": "Auto-generated"
 };
