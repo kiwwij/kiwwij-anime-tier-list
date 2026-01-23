@@ -501,11 +501,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "ex-freundin (feat. Nosgov)",
-        "artist": "luu",
-        "playlist": "Main"
-    },
-    {
         "title": "hunter eyes (slowed)",
         "artist": "laydownrot",
         "playlist": "Main"
@@ -513,5 +508,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 14,
-    "totalDurationSec": 13669
+    "totalDurationSec": 13574
 };
