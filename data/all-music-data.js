@@ -1118,7 +1118,7 @@ const musicData = [
     },
     {
         "title": "король и шут - дурак и молния (sped up)",
-        "artist": "аменская",
+        "artist": "wiscerrr",
         "playlist": "Dead inside",
         "duration": "1:34"
     },
