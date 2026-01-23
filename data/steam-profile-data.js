@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/e999ef2e2e39a77fde5a3b901348679eea74ba6f_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "In Game",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 242
@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1721110"
         },
         {
-            "appid": 4300590,
-            "name": "Mistbound Demo",
-            "playtime_2weeks": 0.2,
-            "hours": 0.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4300590/header.jpg",
-            "url": "https://store.steampowered.com/app/4300590"
-        },
-        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.1,
             "hours": 18.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 4300590,
+            "name": "Mistbound Demo",
+            "playtime_2weeks": 0.0,
+            "hours": 0.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4300590/header.jpg",
+            "url": "https://store.steampowered.com/app/4300590"
         },
         {
             "appid": 1905180,
