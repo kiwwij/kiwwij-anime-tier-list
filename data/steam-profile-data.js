@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 25.6,
-            "hours": 3129.2,
+            "playtime_2weeks": 26.1,
+            "hours": 3129.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -42,14 +42,6 @@ const steamData = {
             "hours": 18.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 4300590,
-            "name": "Mistbound Demo",
-            "playtime_2weeks": 0.0,
-            "hours": 0.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4300590/header.jpg",
-            "url": "https://store.steampowered.com/app/4300590"
         },
         {
             "appid": 1905180,
