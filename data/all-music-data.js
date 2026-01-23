@@ -607,6 +607,12 @@ const musicData = [
         "duration": "1:46"
     },
     {
+        "title": "Ворую алкоголь - Floki, звсэ(slowed down version)",
+        "artist": "kayy",
+        "playlist": "Main",
+        "duration": "3:03"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6219,6 +6225,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 559,
-    "totalDurationSec": 169002,
+    "totalDurationSec": 169185,
     "lastUpdated": "Auto-generated"
 };
