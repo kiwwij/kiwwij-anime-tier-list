@@ -308,9 +308,45 @@ const droppedData = [
         "title": "Lodoss to Senki: Eiyuu kishi den",
         "ruTitle": "Летопись войн острова Лодосс",
         "review": "Дропнул на 1-й серии из 27. Слишком старое и простое."
-    },{
+    },
+    {
         "title": "Darwin Jihen",
         "ruTitle": "Инцидент Дарвина",
-        "review": "Дропнул на 1-й серии из 13. Скучное и слишком глупое.."
+        "review": "Дропнул на 1-й серии из 13. Скучное и слишком глупое."
     },
+    {
+        "title": "Dark Moon: Tsuki no Saidan",
+        "ruTitle": "Тёмная луна: Кровавый алтарь",
+        "review": "Дропнул на 2-й серии из 12."
+    },
+    {
+        "title": "SCARLET NEXUS",
+        "ruTitle": "Алый Нексус",
+        "review": "Дропнул на 5-й серии из 26."
+    },
+    {
+        "title": "Haikyu!!",
+        "ruTitle": "Волейбол!!",
+        "review": "Дропнул на 3-й серии из 25."
+    },
+    {
+        "title": "Clevatess: Majuu no Ou to Akago to Shikabane no Yuusha",
+        "ruTitle": "Клеватесс: Король демонических зверей, младенец и герой-нежить",
+        "review": "Дропнул на 2-й серии из 12."
+    },
+    {
+        "title": "Kuma Kuma Kuma Bear",
+        "ruTitle": "Ми-ми-ми-мишка",
+        "review": "Дропнул на 1-й серии из 12."
+    },
+    {
+        "title": "Wonder Egg Priority",
+        "ruTitle": "Приоритет чудо-яйца",
+        "review": "Дропнул на 2-й серии из 12."
+    },
+    {
+        "title": "Metallic Rouge",
+        "ruTitle": "Металлическая Руж",
+        "review": "Дропнул на 3-й серии из 13."
+    }
 ]

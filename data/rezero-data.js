@@ -168,6 +168,11 @@ if (typeof tierListData !== 'undefined') {
                 review: "Предыстория Присциллы. Чиша Голд. Решающие битвы.", 
                 img: "rezero/33.webp"
             },
+            { 
+                title: "Re:Zero Ранобэ Том 35", 
+                review: "Новая сила Луи Арнеб. Новые союзы и новая цель Субару.", 
+                img: "rezero/35.webp"
+            },
             ],
         'C': [
             { 

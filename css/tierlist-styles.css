@@ -367,11 +367,11 @@ dialog[open] {
 }
 
 .logo-text a {
-    transition: all 0.3s ease;
-    cursor: pointer;
+    text-decoration: none;
+    color: var(--text-main); 
+    transition: color 0.4s ease;
 }
 
 .logo-text a:hover {
-    color: #ff4e50;
-    opacity: 0.8;
+    color: var(--accent);
 }

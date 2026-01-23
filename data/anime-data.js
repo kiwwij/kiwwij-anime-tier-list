@@ -613,6 +613,11 @@ const tierListData = {
                 ruTitle: "Кизнайвер",
                 review: "Крутое, грустенькое аниме."
             },
+            {
+                title: "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
+                ruTitle: "Скучный мир, в котором не существует самой концепции похабных шуток",
+                review: ""
+            },
         ],
         'D': [
             {
@@ -649,6 +654,16 @@ const tierListData = {
                 title: "Oniichan dakedo Ai sae Areba Kankeinai yo ne! ",
                 ruTitle: "Пока есть любовь, не имеет значения, что он мой брат",
                 review: "Без комментариев."
+            },
+            {
+                title: "Lost Property of the Sky",
+                ruTitle: "Утраченное небесами",
+                review: "Без комментариев."
+            },
+            {
+                title: "Hybrid x Heart Magias Academy Ataraxia",
+                ruTitle: "Магическая академия Атараксия: Гибрид x Сердце",
+                review: ""
             },
         ],
         'E': [],
@@ -930,6 +945,11 @@ const tierListData = {
                 ruTitle: "Повелитель Рагнарёка и покровитель эйнхерий",
                 review: ""
             },
+            {
+                title: "Nanatsu no Bitoku",
+                ruTitle: "Семь небесных добродетелей",
+                review: "Без комментариев."
+            },
         ],
         'E': [],
         'F': []
@@ -1046,6 +1066,11 @@ const tierListData = {
                 title: "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
                 ruTitle: "Кагуя хочет, чтобы ей признались: Война любви и разума гениев",
                 review: "Ходил, подевел под опенинг 'love is war'"
+            },
+            {
+                title: "Hensuki: Are you willing to Fall in Love with a Pervert, as long as she's a Cutie?",
+                ruTitle: "Готов ли ты влюбиться в извращенку до тех пор, пока она милая?",
+                review: "Без комментариев."
             },
         ],
         'D': [
@@ -2229,6 +2254,11 @@ const tierListData = {
                 ruTitle: "Человек-бензопила: История Резе",
                 review: "Как бы я не хейтил это аниме, но фильм шикарный. Сюжет... сюжет норм, рисовка просто БОМБА) Но главный герой просто пососный. Невероятно бесячий персонаж, который никак не будет развиваться в дальнейшем. Но фильм.... да... он крут."
             },
+            {
+                title: "Sousou no Frieren 2nd Season",
+                ruTitle: "Провожающая в последний путь Фрирен 2",
+                review: ""
+            },
         ],
         'A': [
             {
@@ -2261,11 +2291,6 @@ const tierListData = {
             {
                 title: "Jigokuraku 2",
                 ruTitle: "Адский рай 2",
-                review: ""
-            },
-            {
-                title: "Sousou no Frieren 2",
-                ruTitle: "Провожающая в последний путь Фрирен 2",
                 review: ""
             },
         ],
