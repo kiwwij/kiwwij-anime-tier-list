@@ -4555,24 +4555,6 @@ const musicData = [
         "duration": "2:53"
     },
     {
-        "title": "Были танцы",
-        "artist": "Bianka",
-        "playlist": "Dead inside",
-        "duration": "3:02"
-    },
-    {
-        "title": "X.U. UKR cover by sovenya || Seraph of the end OP українською",
-        "artist": "Hibikit",
-        "playlist": "Dead inside",
-        "duration": "4:42"
-    },
-    {
-        "title": "Ой, хто п'є, тому наливайте",
-        "artist": "Борис Сичевський",
-        "playlist": "Dead inside",
-        "duration": "3:06"
-    },
-    {
         "title": "Мне хорошо",
         "artist": "MellSher",
         "playlist": "Dead inside",
@@ -4585,34 +4567,10 @@ const musicData = [
         "duration": "3:29"
     },
     {
-        "title": "succubus",
-        "artist": "rizza",
-        "playlist": "Dead inside",
-        "duration": "1:38"
-    },
-    {
-        "title": "catharsis",
-        "artist": "MZLFF",
-        "playlist": "Dead inside",
-        "duration": "2:30"
-    },
-    {
-        "title": "Lucid Dreams",
-        "artist": "Juice WRLD",
-        "playlist": "Dead inside",
-        "duration": "3:51"
-    },
-    {
         "title": "11:11",
         "artist": "Кишлак",
         "playlist": "Dead inside",
         "duration": "3:02"
-    },
-    {
-        "title": "MellSher, 5opka - Лонг Айленд (SUPERNOVA, альбом 2024)",
-        "artist": "ФУГА TV",
-        "playlist": "Dead inside",
-        "duration": "3:09"
     },
     {
         "title": "5opka, MellSher - Клеопатра (SUPERNOVA, альбом 2024)",
@@ -4621,40 +4579,10 @@ const musicData = [
         "duration": "2:38"
     },
     {
-        "title": "5opka, MellSher - Глаза львицы (SUPERNOVA, альбом 2024)",
-        "artist": "ФУГА TV",
-        "playlist": "Dead inside",
-        "duration": "3:05"
-    },
-    {
-        "title": "MellSher, 5opka - Пятнистый ягуар (SUPERNOVA, альбом 2024)",
-        "artist": "ФУГА TV",
-        "playlist": "Dead inside",
-        "duration": "2:16"
-    },
-    {
-        "title": "5opka, MellSher - Мерси (SUPERNOVA, альбом 2024)",
-        "artist": "ФУГА TV",
-        "playlist": "Dead inside",
-        "duration": "2:26"
-    },
-    {
-        "title": "полина",
-        "artist": "плм",
-        "playlist": "Dead inside",
-        "duration": "2:31"
-    },
-    {
         "title": "Five More Nights",
         "artist": "JT Music",
         "playlist": "Dead inside",
         "duration": "4:10"
-    },
-    {
-        "title": "мужиков надо любить",
-        "artist": "Любовь Березовская",
-        "playlist": "Dead inside",
-        "duration": "2:51"
     },
     {
         "title": "Katy Perry - Hot N Cold (Lyrics)",
@@ -4675,34 +4603,10 @@ const musicData = [
         "duration": "3:07"
     },
     {
-        "title": "SEVDALIZA - ALIBI (LYRICS) FT. PABLLO VITTAR & YSEULT",
-        "artist": "The Vibe Guide",
-        "playlist": "Dead inside",
-        "duration": "2:43"
-    },
-    {
-        "title": "GONE.Fludd — Не Одиноко",
-        "artist": "GONE.Fludd",
-        "playlist": "Dead inside",
-        "duration": "2:36"
-    },
-    {
-        "title": "GONE.Fludd, LOVV66 — Лунный Лик",
-        "artist": "GONE.Fludd",
-        "playlist": "Dead inside",
-        "duration": "2:56"
-    },
-    {
         "title": "АКА, ШГШ - Последняя Любовь | COVER",
         "artist": "ШГШ",
         "playlist": "Dead inside",
         "duration": "1:23"
-    },
-    {
-        "title": "Pvz zombies on your lawn на русском",
-        "artist": "hacker",
-        "playlist": "Dead inside",
-        "duration": "2:50"
     },
     {
         "title": "Plants vs Zombies Music Video",
@@ -4715,24 +4619,6 @@ const musicData = [
         "artist": "Zhanulka",
         "playlist": "Dead inside",
         "duration": "2:03"
-    },
-    {
-        "title": "Мама удалила роблокс (feat. Gulyashik & Qurorr)",
-        "artist": "Lemaier",
-        "playlist": "Dead inside",
-        "duration": "3:04"
-    },
-    {
-        "title": "did i tell u that i miss u - slowed",
-        "artist": "adore",
-        "playlist": "Dead inside",
-        "duration": "1:56"
-    },
-    {
-        "title": "𝙫𝙞𝙙𝙚𝙤𝙘𝙡𝙪𝙗 - 𝙍𝙊𝙄 | 𝙄𝙉𝙎𝙏𝙍𝙐𝙈𝙀𝙉𝙏𝘼𝙇 | 𝘼𝙨𝙪𝙠𝙖 - 𝙀𝙫𝙖𝙣𝙜𝙚𝙡𝙞𝙤𝙣 [𝙏𝙞𝙠𝙏𝙤𝙠 𝙀𝙙𝙞𝙩]",
-        "artist": "𝕻𝖚𝖒𝖕",
-        "playlist": "Dead inside",
-        "duration": "3:35"
     },
     {
         "title": "Surf Curse - Freaks [Official Audio]",
@@ -4753,34 +4639,10 @@ const musicData = [
         "duration": "0:47"
     },
     {
-        "title": "понад хмарами - tartak (feat. katia chill) (текст пісні)",
-        "artist": "душа, що шукає щастя ",
-        "playlist": "Dead inside",
-        "duration": "4:27"
-    },
-    {
-        "title": "Кошка (feat. Ольга Артуровна)",
-        "artist": "Rychagy Mashin",
-        "playlist": "Dead inside",
-        "duration": "3:52"
-    },
-    {
-        "title": "мы",
-        "artist": "Dimma Urih",
-        "playlist": "Dead inside",
-        "duration": "2:28"
-    },
-    {
         "title": "enveel - 2:00 (SPEED UP)",
         "artist": "alone but not lonely",
         "playlist": "Dead inside",
         "duration": "1:47"
-    },
-    {
-        "title": "счастливы вместе",
-        "artist": "плм",
-        "playlist": "Dead inside",
-        "duration": "2:50"
     },
     {
         "title": "Краски - Оранжевое солнце (Hardstyle Remix)",
@@ -4789,34 +4651,10 @@ const musicData = [
         "duration": "3:04"
     },
     {
-        "title": "КУЗЯ - ШНЯГА ШНЯЖНАЯ (REMIX) by.Painit",
-        "artist": "MyinWo music",
-        "playlist": "Dead inside",
-        "duration": "1:42"
-    },
-    {
-        "title": "Даша",
-        "artist": "СТИНТ",
-        "playlist": "Dead inside",
-        "duration": "2:40"
-    },
-    {
-        "title": "Фото со звездой",
-        "artist": "Lida",
-        "playlist": "Dead inside",
-        "duration": "2:03"
-    },
-    {
         "title": "5opka, MellSher - Gde mama? (Клип)",
         "artist": "ФУГА TV",
         "playlist": "Dead inside",
         "duration": "2:35"
-    },
-    {
-        "title": "TheFatRat, Slaydit & Anjulie - Stronger [Monstercat Release]",
-        "artist": "TheFatRat",
-        "playlist": "Dead inside",
-        "duration": "3:25"
     },
     {
         "title": "STYX HELIX",
@@ -4861,28 +4699,10 @@ const musicData = [
         "duration": "2:19"
     },
     {
-        "title": "Прованс",
-        "artist": "Elka",
-        "playlist": "Dead inside",
-        "duration": "3:26"
-    },
-    {
-        "title": "Анор Лондо",
-        "artist": "дамир",
-        "playlist": "Dead inside",
-        "duration": "1:39"
-    },
-    {
         "title": "唱个喀秋莎！！",
         "artist": "果宝",
         "playlist": "Dead inside",
         "duration": "1:30"
-    },
-    {
-        "title": "Я никогда не стану феминисткой",
-        "artist": "Nodahsa",
-        "playlist": "Dead inside",
-        "duration": "2:28"
     },
     {
         "title": "My Demons (Official Music Video)",
@@ -4891,28 +4711,10 @@ const musicData = [
         "duration": "3:43"
     },
     {
-        "title": "Animal I Have Become (Official Video)",
-        "artist": "Three Days Grace",
-        "playlist": "Dead inside",
-        "duration": "3:51"
-    },
-    {
-        "title": "Моя душа",
-        "artist": "Lely45",
-        "playlist": "Dead inside",
-        "duration": "2:50"
-    },
-    {
         "title": "Ути-пусечка",
         "artist": "Oleh Kenzov",
         "playlist": "Dead inside",
         "duration": "2:44"
-    },
-    {
-        "title": "Limbo",
-        "artist": "Freddie Dredd",
-        "playlist": "Dead inside",
-        "duration": "2:47"
     },
     {
         "title": "Рассвет",
@@ -4921,28 +4723,10 @@ const musicData = [
         "duration": "2:01"
     },
     {
-        "title": "Вирус - Попрошу тебя (hardstyle remix) (OUT ON ALL PLATFORMS)",
-        "artist": "BRZ",
-        "playlist": "Dead inside",
-        "duration": "2:14"
-    },
-    {
         "title": "I Like the Way You Kiss Me",
         "artist": "WHITE DRAGON",
         "playlist": "Dead inside",
         "duration": "2:25"
-    },
-    {
-        "title": "CUPSIZE -  Ты любишь танцевать",
-        "artist": "CupsizeArchive",
-        "playlist": "Dead inside",
-        "duration": "2:23"
-    },
-    {
-        "title": "​fallen777angel - стрелы (snippet)",
-        "artist": "suenushka",
-        "playlist": "Dead inside",
-        "duration": "1:12"
     },
     {
         "title": "zhanulka - ты пропал тебя нет (sixnite remix) full track",
@@ -4975,12 +4759,6 @@ const musicData = [
         "duration": "1:17"
     },
     {
-        "title": "RPG - ТЫ МНЕ ДАШЬ",
-        "artist": "CMH",
-        "playlist": "Dead inside",
-        "duration": "3:01"
-    },
-    {
         "title": "alyona alyona & Jerry Heil - Teresa & Maria (LIVE) | Ukraine 🇺🇦 | Grand Final | Eurovision 2024",
         "artist": "Eurovision Song Contest",
         "playlist": "Dead inside",
@@ -4991,42 +4769,6 @@ const musicData = [
         "artist": "Lida",
         "playlist": "Dead inside",
         "duration": "2:18"
-    },
-    {
-        "title": "FUNK DO BOUNCE (Super Slowed)",
-        "artist": "Ariis",
-        "playlist": "Dead inside",
-        "duration": "1:48"
-    },
-    {
-        "title": "Cassette - Remix",
-        "artist": "Walras",
-        "playlist": "Dead inside",
-        "duration": "2:25"
-    },
-    {
-        "title": "типичная ситуация",
-        "artist": "madk1d",
-        "playlist": "Dead inside",
-        "duration": "2:11"
-    },
-    {
-        "title": "Я ночью плачу",
-        "artist": "Матис",
-        "playlist": "Dead inside",
-        "duration": "2:34"
-    },
-    {
-        "title": "Wasteland",
-        "artist": "Royal & the Serpent",
-        "playlist": "Dead inside",
-        "duration": "2:42"
-    },
-    {
-        "title": "ELCOFFF - KISS KISS MALCHIK (HARDSTYLE REMIX) FULL",
-        "artist": "Elcofff",
-        "playlist": "Dead inside",
-        "duration": "1:30"
     },
     {
         "title": "Силуети",
@@ -5047,24 +4789,6 @@ const musicData = [
         "duration": "3:07"
     },
     {
-        "title": "чай вдвоем - просто друг \\\\ speed up nightcore",
-        "artist": "Kishka",
-        "playlist": "Dead inside",
-        "duration": "3:07"
-    },
-    {
-        "title": "Psycho Dreams (Sped Up)",
-        "artist": "Kill Eva",
-        "playlist": "Dead inside",
-        "duration": "2:15"
-    },
-    {
-        "title": "Undertale Song — ЖИРНАЯ ТАМАРА (Гоблинка Гусей)",
-        "artist": "Empire of Geese",
-        "playlist": "Dead inside",
-        "duration": "2:36"
-    },
-    {
         "title": "Каремат - Настя Ш...",
         "artist": "Каремат",
         "playlist": "Dead inside",
@@ -5077,28 +4801,10 @@ const musicData = [
         "duration": "3:08"
     },
     {
-        "title": "Big Baby Tape – Turbo (Majestic) (Сингл, 2024)",
-        "artist": "Mentrez Music",
-        "playlist": "Dead inside",
-        "duration": "2:56"
-    },
-    {
         "title": "верните в моду любовь × (hardstyle remix by danya hooligan)",
         "artist": "K0DEIN ",
         "playlist": "Dead inside",
         "duration": "1:39"
-    },
-    {
-        "title": "Хризантеми",
-        "artist": "анастимоза",
-        "playlist": "Dead inside",
-        "duration": "2:57"
-    },
-    {
-        "title": "zhanulka - наколки hardstyle remix",
-        "artist": "uverture",
-        "playlist": "Dead inside",
-        "duration": "1:55"
     },
     {
         "title": "Kill Eva, ENCASSATOR - Psycho Dreams (FORBIDDEN Hardstyle Remix) (New Version)",
@@ -5111,12 +4817,6 @@ const musicData = [
         "artist": "volhey",
         "playlist": "Dead inside",
         "duration": "2:01"
-    },
-    {
-        "title": "однополярности",
-        "artist": "MZLFF",
-        "playlist": "Dead inside",
-        "duration": "2:51"
     },
     {
         "title": "Nelly Furtado - Say It Right",
@@ -6225,6 +5925,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 559,
-    "totalDurationSec": 169185,
+    "totalDurationSec": 161033,
     "lastUpdated": "Auto-generated"
 };
