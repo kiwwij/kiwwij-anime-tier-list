@@ -3259,8 +3259,8 @@ const musicData = [
         "duration": "3:19"
     },
     {
-        "title": "DEAD BLONDE - «Банкомат» (Lyric Video)",
-        "artist": "Peter Explorer",
+        "title": "Банкомат",
+        "artist": "Dead Blonde",
         "playlist": "Dead inside",
         "duration": "3:20"
     },
