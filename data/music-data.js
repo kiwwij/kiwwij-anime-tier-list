@@ -504,9 +504,14 @@ const musicData = [
         "title": "hunter eyes (slowed)",
         "artist": "laydownrot",
         "playlist": "Main"
+    },
+    {
+        "title": "Ворую алкоголь - Floki, звсэ(slowed down version)",
+        "artist": "kayy",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 14,
-    "totalDurationSec": 13574
+    "totalDurationSec": 13757
 };
