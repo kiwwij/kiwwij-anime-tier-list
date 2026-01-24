@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/e999ef2e2e39a77fde5a3b901348679eea74ba6f_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1721110"
         },
         {
+            "appid": 1905180,
+            "name": "OBS Studio",
+            "playtime_2weeks": 0.1,
+            "hours": 182.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
+            "url": "https://store.steampowered.com/app/1905180"
+        },
+        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.1,
             "hours": 18.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 1905180,
-            "name": "OBS Studio",
-            "playtime_2weeks": 0.0,
-            "hours": 182.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
-            "url": "https://store.steampowered.com/app/1905180"
         }
     ],
     "top_games": [
