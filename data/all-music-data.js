@@ -613,6 +613,12 @@ const musicData = [
         "duration": "3:03"
     },
     {
+        "title": "нарратор",
+        "artist": "lafkrat",
+        "playlist": "Main",
+        "duration": "2:24"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6225,6 +6231,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 559,
-    "totalDurationSec": 169185,
+    "totalDurationSec": 169329,
     "lastUpdated": "Auto-generated"
 };
