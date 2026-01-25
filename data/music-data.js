@@ -509,9 +509,14 @@ const musicData = [
         "title": "Ворую алкоголь - Floki, звсэ(slowed down version)",
         "artist": "kayy",
         "playlist": "Main"
+    },
+    {
+        "title": "нарратор",
+        "artist": "lafkrat",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 14,
-    "totalDurationSec": 13757
+    "totalDurationSec": 13901
 };
