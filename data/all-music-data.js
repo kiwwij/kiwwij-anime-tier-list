@@ -583,12 +583,6 @@ const musicData = [
         "duration": "1:40"
     },
     {
-        "title": "unhappy",
-        "artist": "s0rrow",
-        "playlist": "Main",
-        "duration": "1:39"
-    },
-    {
         "title": "fake ur face",
         "artist": "s0rrow",
         "playlist": "Main",
@@ -6097,6 +6091,12 @@ const musicData = [
         "duration": "2:28"
     },
     {
+        "title": "По судьбе",
+        "artist": "sqaute",
+        "playlist": "Dead inside",
+        "duration": "2:04"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6231,6 +6231,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 559,
-    "totalDurationSec": 169329,
+    "totalDurationSec": 169354,
     "lastUpdated": "Auto-generated"
 };
