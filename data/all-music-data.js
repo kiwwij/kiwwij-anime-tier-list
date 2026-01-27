@@ -1621,12 +1621,6 @@ const musicData = [
         "duration": "1:53"
     },
     {
-        "title": "Al Fakher - Музыка для Души (ТЕКСТ | КАРАОКЕ)",
-        "artist": "aviarezhym",
-        "playlist": "Dead inside",
-        "duration": "2:11"
-    },
-    {
         "title": "MellSher, 5opka - Киношка (lpshkaa diss)",
         "artist": "ФУГА TV",
         "playlist": "Dead inside",
@@ -6231,6 +6225,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 559,
-    "totalDurationSec": 169354,
+    "totalDurationSec": 169223,
     "lastUpdated": "Auto-generated"
 };
