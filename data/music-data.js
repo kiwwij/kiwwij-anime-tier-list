@@ -486,11 +486,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "unhappy",
-        "artist": "s0rrow",
-        "playlist": "Main"
-    },
-    {
         "title": "fake ur face",
         "artist": "s0rrow",
         "playlist": "Main"
@@ -518,5 +513,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 14,
-    "totalDurationSec": 13901
+    "totalDurationSec": 13802
 };
