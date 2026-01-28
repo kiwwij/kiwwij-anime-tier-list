@@ -5983,7 +5983,7 @@ const musicData = [
         "duration": "4:11"
     },
     {
-        "title": "真夜中のドア/Stay With Me <Original club mix>",
+        "title": "真夜中のドア〜stay with me (Original Club Mix Mixed by D.O.I)",
         "artist": "松原みき",
         "playlist": "Dead inside",
         "duration": "5:47"
