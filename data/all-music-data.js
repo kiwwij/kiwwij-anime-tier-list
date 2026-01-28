@@ -613,6 +613,18 @@ const musicData = [
         "duration": "2:24"
     },
     {
+        "title": "Ствол 2",
+        "artist": "Sharingan",
+        "playlist": "Main",
+        "duration": "1:06"
+    },
+    {
+        "title": "стреляй",
+        "artist": "zhanulka",
+        "playlist": "Main",
+        "duration": "1:48"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6225,6 +6237,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 559,
-    "totalDurationSec": 169223,
+    "totalDurationSec": 169397,
     "lastUpdated": "Auto-generated"
 };
