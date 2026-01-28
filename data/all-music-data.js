@@ -613,18 +613,6 @@ const musicData = [
         "duration": "2:24"
     },
     {
-        "title": "Ствол 2",
-        "artist": "Sharingan",
-        "playlist": "Main",
-        "duration": "1:06"
-    },
-    {
-        "title": "стреляй",
-        "artist": "zhanulka",
-        "playlist": "Main",
-        "duration": "1:48"
-    },
-    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6101,6 +6089,18 @@ const musicData = [
         "artist": "sqaute",
         "playlist": "Dead inside",
         "duration": "2:04"
+    },
+    {
+        "title": "Ствол 2",
+        "artist": "Sharingan",
+        "playlist": "Dead inside",
+        "duration": "1:06"
+    },
+    {
+        "title": "стреляй",
+        "artist": "zhanulka",
+        "playlist": "Dead inside",
+        "duration": "1:48"
     },
     {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
