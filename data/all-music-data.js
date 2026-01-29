@@ -3722,7 +3722,7 @@ const musicData = [
     },
     {
         "title": "Зеркала",
-        "artist": "Ani Lorak",
+        "artist": "Grigory Leps",
         "playlist": "Dead inside",
         "duration": "3:51"
     },
