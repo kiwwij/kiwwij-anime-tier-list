@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 1721110,
             "name": "Abyssus",
-            "playtime_2weeks": 0.9,
+            "playtime_2weeks": 0.6,
             "hours": 2.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1721110/header.jpg",
             "url": "https://store.steampowered.com/app/1721110"
