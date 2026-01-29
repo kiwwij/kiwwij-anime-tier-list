@@ -3506,7 +3506,7 @@ const musicData = [
     },
     {
         "title": "Spooky Scary Skeletons - Original Video [4K HD]",
-        "artist": "Christmas Songs - Timeless Music",
+        "artist": "Timeless Music",
         "playlist": "Dead inside",
         "duration": "2:39"
     },
