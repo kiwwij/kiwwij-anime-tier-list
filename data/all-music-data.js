@@ -2623,7 +2623,7 @@ const musicData = [
         "duration": "1:26"
     },
     {
-        "title": "強風オールバック【リアルver.】",
+        "title": "《Powerful wind, Slicked-back hair》【Real Challenge ,The Latest Craze! Reality!】",
         "artist": "SUSHI RAMEN【Riku】",
         "playlist": "Dead inside",
         "duration": "2:17"
