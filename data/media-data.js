@@ -1,5 +1,5 @@
 const mediaData = [
-    { "title": "The Shawshank Redemption", "ruTitle": "Побег из Шоушенка", "year": "1994", "myRating": 10, "imdbRating": 9.3, "duration": "2ч 22м", "type": "movie", "imdbLink": "https://www.imdb.com/title/tt0111161/" },
+    { "title": "The Shawshank Redemption", "ruTitle": "Побег из Шоушенка", "year": "1994", "myRating": 9, "imdbRating": 9.3, "duration": "2ч 22м", "type": "movie", "imdbLink": "https://www.imdb.com/title/tt0111161/" },
     { "title": "Interstellar", "ruTitle": "Интерстеллар", "year": "2014", "myRating": 9, "imdbRating": 8.7, "duration": "2ч 49м", "type": "movie", "imdbLink": "https://www.imdb.com/title/tt0816692/" },
     { "title": "Arcane", "ruTitle": "Аркейн", "year": "2021", "myRating": 9, "imdbRating": 9.0, "duration": "TV Series", "type": "tv", "imdbLink": "https://www.imdb.com/title/tt11126994/" },
     { "title": "Spider-Man: Across the Spider-Verse", "ruTitle": "Человек-паук: Паутина вселенных", "year": "2023", "myRating": 9, "imdbRating": 8.6, "duration": "2ч 20м", "type": "movie", "imdbLink": "https://www.imdb.com/title/tt9362722/" },
@@ -44,5 +44,7 @@ const mediaData = [
     { "title": "A Knight of the Seven Kingdoms", "ruTitle": "Рыцарь Семи Королевств", "year": "2026", "myRating": 7, "imdbRating": 8.4, "duration": "TV Series", "type": "tv", "imdbLink": "https://www.imdb.com/title/tt27497448/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_a%2520knight%2520" },
     { "title": "Looking for Alaska", "ruTitle": "В поисках Аляски", "year": "2019", "myRating": 7, "imdbRating": 8.0, "duration": "TV Series", "type": "tv", "imdbLink": "https://www.imdb.com/title/tt3829868/" },
     { "title": "Moana", "ruTitle": "Моана", "year": "2016", "myRating": 8, "imdbRating": 7.6, "duration": "1ч 47м", "type": "movie", "imdbLink": "https://www.imdb.com/title/tt3521164/?ref_=nv_sr_srsg_3_tt_5_nm_3_in_0_q_moana" },
+    { "title": "Green Book", "ruTitle": "Зелёная книга", "year": "2018", "myRating": 9, "imdbRating": 8.2, "duration": "2ч 10м", "type": "movie", "imdbLink": "https://www.imdb.com/title/tt6966692/?ref_=nv_sr_srsg_3_tt_3_nm_5_in_0_q_green%2520b" },
+    { "title": "The Intouchables", "ruTitle": "1+1", "year": "2011", "myRating": 8, "imdbRating": 8.5, "duration": "1ч 52м", "type": "movie", "imdbLink": "https://www.imdb.com/title/tt1675434/" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "duration": "TV Series", "type": "tv", "imdbLink": "" },
 ];
