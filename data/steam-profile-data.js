@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/3e3260efe13d451f7533c524ddea43248eb414c8_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E"
+        "status": "Away",
+        "statusColor": "#FFC107"
     },
     "stats": {
         "total_games": 242
@@ -42,6 +42,14 @@ const steamData = {
             "hours": 182.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
+        },
+        {
+            "appid": 2767030,
+            "name": "Marvel Rivals",
+            "playtime_2weeks": 0.0,
+            "hours": 153.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
+            "url": "https://store.steampowered.com/app/2767030"
         }
     ],
     "top_games": [
