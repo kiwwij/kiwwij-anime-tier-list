@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2767030"
         },
         {
+            "appid": 920490,
+            "name": "Driver Booster for Steam",
+            "playtime_2weeks": 0.3,
+            "hours": 14.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
+            "url": "https://store.steampowered.com/app/920490"
+        },
+        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.2,
             "hours": 18.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 920490,
-            "name": "Driver Booster for Steam",
-            "playtime_2weeks": 0.2,
-            "hours": 14.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
-            "url": "https://store.steampowered.com/app/920490"
         },
         {
             "appid": 1905180,
