@@ -6103,6 +6103,12 @@ const musicData = [
         "duration": "1:48"
     },
     {
+        "title": "СИЛУЕТИ (Апатія Remix)",
+        "artist": "СТРУКТУРА ЩАСТЯ",
+        "playlist": "Dead inside",
+        "duration": "2:43"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6237,6 +6243,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 561,
-    "totalDurationSec": 169397,
+    "totalDurationSec": 169560,
     "lastUpdated": "Auto-generated"
 };
