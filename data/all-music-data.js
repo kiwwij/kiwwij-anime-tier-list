@@ -6152,7 +6152,7 @@ const musicData = [
     },
     {
         "title": "rises the moon",
-        "artist": "sunny64",
+        "artist": "DyadDiary",
         "playlist": "Chill",
         "duration": "1:37"
     },
