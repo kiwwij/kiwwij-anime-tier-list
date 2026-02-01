@@ -613,6 +613,12 @@ const musicData = [
         "duration": "2:24"
     },
     {
+        "title": "CMH, GSPD, DEAD BLONDE - бесконечное лето (speed up + reverb)",
+        "artist": "nurikwav**",
+        "playlist": "Main",
+        "duration": "2:23"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6243,6 +6249,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 561,
-    "totalDurationSec": 169560,
+    "totalDurationSec": 169703,
     "lastUpdated": "Auto-generated"
 };
