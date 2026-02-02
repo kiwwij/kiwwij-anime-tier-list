@@ -509,9 +509,14 @@ const musicData = [
         "title": "нарратор",
         "artist": "lafkrat",
         "playlist": "Main"
+    },
+    {
+        "title": "CMH, GSPD, DEAD BLONDE - бесконечное лето (speed up + reverb)",
+        "artist": "nurikwav**",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 15,
-    "totalDurationSec": 13802
+    "totalDurationSec": 13945
 };
