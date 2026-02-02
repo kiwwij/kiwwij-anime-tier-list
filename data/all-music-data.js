@@ -3811,7 +3811,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О боже, какой мужчина!",
+        "title": "О, Боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -6109,6 +6109,12 @@ const musicData = [
         "duration": "2:43"
     },
     {
+        "title": "шрамы",
+        "artist": "Violetta Sokolova",
+        "playlist": "Dead inside",
+        "duration": "2:55"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6243,6 +6249,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 561,
-    "totalDurationSec": 169518,
+    "totalDurationSec": 169693,
     "lastUpdated": "Auto-generated"
 };
