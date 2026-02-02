@@ -613,10 +613,10 @@ const musicData = [
         "duration": "2:24"
     },
     {
-        "title": "CMH, GSPD, DEAD BLONDE - бесконечное лето (speed up + reverb)",
-        "artist": "nurikwav**",
+        "title": "бесконечное лето",
+        "artist": "CMH",
         "playlist": "Main",
-        "duration": "2:23"
+        "duration": "2:38"
     },
     {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
@@ -6115,6 +6115,12 @@ const musicData = [
         "duration": "2:55"
     },
     {
+        "title": "Jane!",
+        "artist": "The Long Faces",
+        "playlist": "Dead inside",
+        "duration": "3:07"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6249,6 +6255,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 561,
-    "totalDurationSec": 169693,
+    "totalDurationSec": 169895,
     "lastUpdated": "Auto-generated"
 };
