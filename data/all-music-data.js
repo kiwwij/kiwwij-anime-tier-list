@@ -3811,7 +3811,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О, Боже, какой мужчина!",
+        "title": "О боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -5341,8 +5341,8 @@ const musicData = [
         "duration": "2:37"
     },
     {
-        "title": "Белочка с Армлетом (Rock Version)",
-        "artist": "AICOVERGIRL",
+        "title": "Белочка с Армлетом (ROCK VERSION)",
+        "artist": "youraifu",
         "playlist": "Dead inside",
         "duration": "1:55"
     },
@@ -5459,12 +5459,6 @@ const musicData = [
         "artist": "kyNZai",
         "playlist": "Dead inside",
         "duration": "1:54"
-    },
-    {
-        "title": "Код Гиасс",
-        "artist": "dabbackwood",
-        "playlist": "Dead inside",
-        "duration": "2:27"
     },
     {
         "title": "забери",
@@ -6261,6 +6255,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 561,
-    "totalDurationSec": 170042,
+    "totalDurationSec": 169895,
     "lastUpdated": "Auto-generated"
 };
