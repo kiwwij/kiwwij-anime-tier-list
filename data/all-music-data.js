@@ -5341,8 +5341,8 @@ const musicData = [
         "duration": "2:37"
     },
     {
-        "title": "Белочка с Армлетом (ROCK VERSION)",
-        "artist": "youraifu",
+        "title": "Белочка с Армлетом (Rock Version)",
+        "artist": "AICOVERGIRL",
         "playlist": "Dead inside",
         "duration": "1:55"
     },
@@ -5459,6 +5459,12 @@ const musicData = [
         "artist": "kyNZai",
         "playlist": "Dead inside",
         "duration": "1:54"
+    },
+    {
+        "title": "Код Гиасс",
+        "artist": "dabbackwood",
+        "playlist": "Dead inside",
+        "duration": "2:27"
     },
     {
         "title": "забери",
@@ -6255,6 +6261,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 561,
-    "totalDurationSec": 169895,
+    "totalDurationSec": 170042,
     "lastUpdated": "Auto-generated"
 };
