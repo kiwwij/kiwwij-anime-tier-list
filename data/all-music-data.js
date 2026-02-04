@@ -5329,8 +5329,8 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "Луз за лузом",
-        "artist": "youraifu",
+        "title": "Луз за Лузом",
+        "artist": "AICOVERGIRL",
         "playlist": "Dead inside",
         "duration": "2:36"
     },
@@ -5459,6 +5459,12 @@ const musicData = [
         "artist": "kyNZai",
         "playlist": "Dead inside",
         "duration": "1:54"
+    },
+    {
+        "title": "Код Гиасс",
+        "artist": "dabbackwood",
+        "playlist": "Dead inside",
+        "duration": "2:27"
     },
     {
         "title": "забери",
@@ -6255,6 +6261,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 561,
-    "totalDurationSec": 169895,
+    "totalDurationSec": 170042,
     "lastUpdated": "Auto-generated"
 };
