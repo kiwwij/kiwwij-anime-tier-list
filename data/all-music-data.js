@@ -2066,7 +2066,7 @@ const musicData = [
     },
     {
         "title": "Машина",
-        "artist": "Nikita",
+        "artist": "mamamusic",
         "playlist": "Dead inside",
         "duration": "3:31"
     },
