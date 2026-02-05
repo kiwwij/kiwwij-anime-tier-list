@@ -2710,7 +2710,7 @@ const musicData = [
         "title": "Открываю пивко",
         "artist": "Василий Дидляков",
         "playlist": "Dead inside",
-        "duration": "3:10"
+        "duration": "3:09"
     },
     {
         "title": "Все мои друзья",
@@ -6255,6 +6255,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 561,
-    "totalDurationSec": 169895,
+    "totalDurationSec": 169894,
     "lastUpdated": "Auto-generated"
 };
