@@ -347,7 +347,7 @@ const musicData = [
     },
     {
         "title": "раздевайся",
-        "artist": "семьсот семь & Кишлак",
+        "artist": "семьсот семь",
         "playlist": "Main"
     },
     {
