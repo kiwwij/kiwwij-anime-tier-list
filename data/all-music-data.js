@@ -416,7 +416,7 @@ const musicData = [
     },
     {
         "title": "раздевайся",
-        "artist": "семьсот семь & Кишлак",
+        "artist": "семьсот семь",
         "playlist": "Main",
         "duration": "2:41"
     },
@@ -2504,7 +2504,7 @@ const musicData = [
     },
     {
         "title": "раздевайся",
-        "artist": "семьсот семь & Кишлак",
+        "artist": "семьсот семь",
         "playlist": "Dead inside",
         "duration": "2:41"
     },
@@ -2710,7 +2710,7 @@ const musicData = [
         "title": "Открываю пивко",
         "artist": "Василий Дидляков",
         "playlist": "Dead inside",
-        "duration": "3:09"
+        "duration": "3:10"
     },
     {
         "title": "Все мои друзья",
@@ -6255,6 +6255,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 561,
-    "totalDurationSec": 169894,
+    "totalDurationSec": 169895,
     "lastUpdated": "Auto-generated"
 };
