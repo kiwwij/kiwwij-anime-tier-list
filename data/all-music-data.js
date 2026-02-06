@@ -5983,8 +5983,8 @@ const musicData = [
         "duration": "4:11"
     },
     {
-        "title": "真夜中のドア〜stay with me (Original Club Mix Mixed by D.O.I)",
-        "artist": "松原みき",
+        "title": "真夜中のドア〜stay with me (Original club mix) - Mayonaka no Door~stay with me (Original club mix)",
+        "artist": "Miki Matsubara",
         "playlist": "Dead inside",
         "duration": "5:47"
     },
