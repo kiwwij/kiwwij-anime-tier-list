@@ -2504,9 +2504,9 @@ const musicData = [
     },
     {
         "title": "раздевайся",
-        "artist": "семьсот семь",
+        "artist": "семьсот семь & Кишлак",
         "playlist": "Dead inside",
-        "duration": "2:41"
+        "duration": "2:42"
     },
     {
         "title": "Винтаж - Плохая девочка(speed + nightcore)",
@@ -5341,8 +5341,8 @@ const musicData = [
         "duration": "2:37"
     },
     {
-        "title": "Белочка с Армлетом (ROCK VERSION)",
-        "artist": "youraifu",
+        "title": "Белочка с Армлетом (Rock Version)",
+        "artist": "AICOVERGIRL",
         "playlist": "Dead inside",
         "duration": "1:55"
     },
@@ -6255,6 +6255,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 561,
-    "totalDurationSec": 169895,
+    "totalDurationSec": 169896,
     "lastUpdated": "Auto-generated"
 };
