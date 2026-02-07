@@ -2569,6 +2569,12 @@ const musicData = [
         "duration": "1:37"
     },
     {
+        "title": "Тетрадь Путина/Putin's Note",
+        "artist": "Chem99",
+        "playlist": "Dead inside",
+        "duration": "1:14"
+    },
+    {
         "title": "Пепел",
         "artist": "билборды",
         "playlist": "Dead inside",
@@ -6261,6 +6267,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 561,
-    "totalDurationSec": 170142,
+    "totalDurationSec": 170216,
     "lastUpdated": "Auto-generated"
 };
