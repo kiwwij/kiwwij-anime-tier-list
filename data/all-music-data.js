@@ -619,6 +619,12 @@ const musicData = [
         "duration": "2:38"
     },
     {
+        "title": "Teenage Dirtbag",
+        "artist": "Wheatus",
+        "playlist": "Main",
+        "duration": "4:07"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6255,6 +6261,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 561,
-    "totalDurationSec": 169895,
+    "totalDurationSec": 170142,
     "lastUpdated": "Auto-generated"
 };
