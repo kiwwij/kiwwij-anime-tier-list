@@ -950,7 +950,7 @@ const musicData = [
     },
     {
         "title": "Лёд",
-        "artist": "WENARO",
+        "artist": "WENARO & LXNER",
         "playlist": "Dead inside",
         "duration": "2:33"
     },
@@ -4705,12 +4705,6 @@ const musicData = [
         "duration": "1:23"
     },
     {
-        "title": "Pvz zombies on your lawn на русском",
-        "artist": "hacker",
-        "playlist": "Dead inside",
-        "duration": "2:50"
-    },
-    {
         "title": "Plants vs Zombies Music Video",
         "artist": "Plants vs. Zombies",
         "playlist": "Dead inside",
@@ -6267,6 +6261,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 561,
-    "totalDurationSec": 170216,
+    "totalDurationSec": 170046,
     "lastUpdated": "Auto-generated"
 };
