@@ -5575,7 +5575,7 @@ const musicData = [
         "duration": "1:48"
     },
     {
-        "title": "ПЫХ-ПЫХ",
+        "title": "Пых-Пых",
         "artist": "SQWOZ BAB",
         "playlist": "Dead inside",
         "duration": "2:31"
