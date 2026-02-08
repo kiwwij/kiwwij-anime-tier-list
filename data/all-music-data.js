@@ -2857,7 +2857,7 @@ const musicData = [
         "duration": "4:17"
     },
     {
-        "title": "Время и Стекло - Е,Бой",
+        "title": "Е,Бой",
         "artist": "Время и Стекло",
         "playlist": "Dead inside",
         "duration": "3:09"
@@ -3061,7 +3061,7 @@ const musicData = [
         "duration": "3:20"
     },
     {
-        "title": "Twinky - Неталант (Lyrics)",
+        "title": "Неталант",
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "3:14"
