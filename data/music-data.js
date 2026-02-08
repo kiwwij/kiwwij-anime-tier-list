@@ -514,9 +514,14 @@ const musicData = [
         "title": "бесконечное лето",
         "artist": "CMH",
         "playlist": "Main"
+    },
+    {
+        "title": "Teenage Dirtbag",
+        "artist": "Wheatus",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 15,
-    "totalDurationSec": 13960
+    "totalDurationSec": 14207
 };
