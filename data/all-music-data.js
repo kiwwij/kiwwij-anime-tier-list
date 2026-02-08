@@ -5227,7 +5227,7 @@ const musicData = [
         "duration": "3:02"
     },
     {
-        "title": "SMOKE IT OFF! (Mega Mix)",
+        "title": "SMOKE IT OFF! (MEGA MIX)",
         "artist": "jnhygs",
         "playlist": "Dead inside",
         "duration": "2:00"
