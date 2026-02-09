@@ -5239,7 +5239,7 @@ const musicData = [
         "duration": "2:20"
     },
     {
-        "title": "Краски - всего 15 лет (Hardstyle Remix)",
+        "title": "Всего 15 лет (BRZ Hardstyle Remix)",
         "artist": "BRZ",
         "playlist": "Dead inside",
         "duration": "2:58"
