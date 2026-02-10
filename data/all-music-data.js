@@ -4327,7 +4327,7 @@ const musicData = [
         "duration": "2:46"
     },
     {
-        "title": "aldn - icantbelieveiletyougetaway (official music video)",
+        "title": "icantbelieveiletyougetaway",
         "artist": "aldn",
         "playlist": "Dead inside",
         "duration": "2:30"
