@@ -14,16 +14,16 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 13.1,
-            "hours": 3157.4,
+            "playtime_2weeks": 13.4,
+            "hours": 3157.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 2767030,
             "name": "Marvel Rivals",
-            "playtime_2weeks": 5.8,
-            "hours": 159.2,
+            "playtime_2weeks": 6.3,
+            "hours": 159.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030"
         },
@@ -76,7 +76,7 @@ const steamData = {
         {
             "appid": 2767030,
             "name": "Marvel Rivals",
-            "hours": 159.2,
+            "hours": 159.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030"
         },
