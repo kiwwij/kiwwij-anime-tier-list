@@ -3272,7 +3272,7 @@ const musicData = [
     },
     {
         "title": "Музыка нас связала",
-        "artist": "Мираж",
+        "artist": "Mirage - Topic",
         "playlist": "Dead inside",
         "duration": "4:27"
     },
@@ -3308,7 +3308,7 @@ const musicData = [
     },
     {
         "title": "Цветы",
-        "artist": "Lida",
+        "artist": "Lida - Topic",
         "playlist": "Dead inside",
         "duration": "2:57"
     },
@@ -3320,7 +3320,7 @@ const musicData = [
     },
     {
         "title": "Клан",
-        "artist": "Катя Самбука",
+        "artist": "Katya Sambuca - Topic",
         "playlist": "Dead inside",
         "duration": "2:36"
     },
@@ -3433,7 +3433,7 @@ const musicData = [
         "duration": "2:25"
     },
     {
-        "title": "Царица",
+        "title": "ANNA ASTI - ЦАРИЦА ( Премьера клипа 2023 )",
         "artist": "ANNA ASTI",
         "playlist": "Dead inside",
         "duration": "4:02"
@@ -3511,7 +3511,7 @@ const musicData = [
         "duration": "2:59"
     },
     {
-        "title": "Прощание",
+        "title": "Три дня дождя, MONA — Прощание (melancholia, Album 2023)",
         "artist": "Три дня дождя",
         "playlist": "Dead inside",
         "duration": "3:57"
@@ -3577,7 +3577,7 @@ const musicData = [
         "duration": "2:11"
     },
     {
-        "title": "GENDER",
+        "title": "SQWOZ BAB – GENDER (Official video)",
         "artist": "SQWOZ BAB",
         "playlist": "Dead inside",
         "duration": "2:57"
@@ -3812,7 +3812,7 @@ const musicData = [
     },
     {
         "title": "Pitbull",
-        "artist": "CLONNEX",
+        "artist": "Clonnex - Topic",
         "playlist": "Dead inside",
         "duration": "1:57"
     },
@@ -3848,7 +3848,7 @@ const musicData = [
     },
     {
         "title": "Prekrasnoe Dalyoko",
-        "artist": "PARTICLES, кошечка, & Atomic Heart",
+        "artist": "PARTICLES - Topic",
         "playlist": "Dead inside",
         "duration": "2:01"
     },
