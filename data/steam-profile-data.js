@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 4147820,
             "name": "Your Mom",
-            "playtime_2weeks": 3.9,
-            "hours": 3.9,
+            "playtime_2weeks": 4.4,
+            "hours": 4.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4147820/header.jpg",
             "url": "https://store.steampowered.com/app/4147820"
         },
@@ -50,6 +50,14 @@ const steamData = {
             "hours": 18.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 2909400,
+            "name": "FINAL FANTASY VII REBIRTH",
+            "playtime_2weeks": 0.0,
+            "hours": 14.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
+            "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 3399950,
