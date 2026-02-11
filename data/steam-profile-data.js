@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 4147820,
             "name": "Your Mom",
-            "playtime_2weeks": 2.9,
-            "hours": 2.9,
+            "playtime_2weeks": 3.9,
+            "hours": 3.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4147820/header.jpg",
             "url": "https://store.steampowered.com/app/4147820"
         },
