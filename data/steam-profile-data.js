@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/3e3260efe13d451f7533c524ddea43248eb414c8_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E"
+        "status": "In Game",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 243
@@ -28,6 +28,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2767030"
         },
         {
+            "appid": 4147820,
+            "name": "Your Mom",
+            "playtime_2weeks": 0.8,
+            "hours": 0.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4147820/header.jpg",
+            "url": "https://store.steampowered.com/app/4147820"
+        },
+        {
             "appid": 920490,
             "name": "Driver Booster for Steam",
             "playtime_2weeks": 0.3,
@@ -42,6 +50,14 @@ const steamData = {
             "hours": 18.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 3399950,
+            "name": "你的老母",
+            "playtime_2weeks": 0.0,
+            "hours": 6.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3399950/header.jpg",
+            "url": "https://store.steampowered.com/app/3399950"
         }
     ],
     "top_games": [
