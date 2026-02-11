@@ -4226,7 +4226,7 @@ const musicData = [
     },
     {
         "title": "На стол",
-        "artist": "LonelyStash & Готлиб",
+        "artist": "LonelyStash",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
