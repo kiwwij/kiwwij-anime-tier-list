@@ -1,18 +1,6 @@
 // Этот файл сгенерирован автоматически скриптом update_all_music.py
 const musicData = [
     {
-        "title": "гладиатор/рыцарь",
-        "artist": "fallen777angel",
-        "playlist": "Main",
-        "duration": "1:45"
-    },
-    {
-        "title": "пускают стрелы",
-        "artist": "fallen777angel",
-        "playlist": "Main",
-        "duration": "2:00"
-    },
-    {
         "title": "типичная ситуация",
         "artist": "madk1d",
         "playlist": "Main",
@@ -6127,6 +6115,12 @@ const musicData = [
         "duration": "3:07"
     },
     {
+        "title": "гладиатор/рыцарь",
+        "artist": "fallen777angel",
+        "playlist": "Dead inside",
+        "duration": "1:45"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6261,6 +6255,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 563,
-    "totalDurationSec": 170046,
+    "totalDurationSec": 169926,
     "lastUpdated": "Auto-generated"
 };
