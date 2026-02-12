@@ -3745,8 +3745,8 @@ const musicData = [
         "duration": "1:45"
     },
     {
-        "title": "Cotton Eye Joe",
-        "artist": "Campbell Brothers",
+        "title": "Cotton Eye Joe - Rednex (Lyrics)",
+        "artist": "Alternate",
         "playlist": "Dead inside",
         "duration": "3:15"
     },
