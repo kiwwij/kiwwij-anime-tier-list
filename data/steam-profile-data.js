@@ -14,10 +14,18 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 11.6,
-            "hours": 3160.5,
+            "playtime_2weeks": 12.6,
+            "hours": 3161.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
+        },
+        {
+            "appid": 4147820,
+            "name": "Your Mom",
+            "playtime_2weeks": 6.9,
+            "hours": 6.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4147820/header.jpg",
+            "url": "https://store.steampowered.com/app/4147820"
         },
         {
             "appid": 2767030,
@@ -26,14 +34,6 @@ const steamData = {
             "hours": 159.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030"
-        },
-        {
-            "appid": 4147820,
-            "name": "Your Mom",
-            "playtime_2weeks": 5.9,
-            "hours": 5.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4147820/header.jpg",
-            "url": "https://store.steampowered.com/app/4147820"
         },
         {
             "appid": 920490,
