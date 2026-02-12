@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/3e3260efe13d451f7533c524ddea43248eb414c8_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -14,16 +14,16 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 12.6,
-            "hours": 3161.5,
+            "playtime_2weeks": 13.3,
+            "hours": 3162.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 4147820,
             "name": "Your Mom",
-            "playtime_2weeks": 6.9,
-            "hours": 6.9,
+            "playtime_2weeks": 8.2,
+            "hours": 8.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4147820/header.jpg",
             "url": "https://store.steampowered.com/app/4147820"
         },
