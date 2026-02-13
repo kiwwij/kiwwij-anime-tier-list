@@ -6085,6 +6085,12 @@ const musicData = [
         "duration": "4:02"
     },
     {
+        "title": "больше не будет",
+        "artist": "кариолемма",
+        "playlist": "Dead inside",
+        "duration": "2:41"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6219,6 +6225,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 564,
-    "totalDurationSec": 168837,
+    "totalDurationSec": 168998,
     "lastUpdated": "Auto-generated"
 };
