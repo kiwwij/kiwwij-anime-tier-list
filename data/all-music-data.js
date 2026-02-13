@@ -619,6 +619,18 @@ const musicData = [
         "duration": "1:45"
     },
     {
+        "title": "stalk ur socials",
+        "artist": "s0rrow",
+        "playlist": "Main",
+        "duration": "1:19"
+    },
+    {
+        "title": "чёрный шёлк",
+        "artist": "3umph",
+        "playlist": "Main",
+        "duration": "1:58"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6261,6 +6273,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 563,
-    "totalDurationSec": 170020,
+    "totalDurationSec": 170217,
     "lastUpdated": "Auto-generated"
 };
