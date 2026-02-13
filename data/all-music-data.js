@@ -2227,8 +2227,8 @@ const musicData = [
         "duration": "3:44"
     },
     {
-        "title": "Calling (Spider-Man: Across the Spider-Verse)",
-        "artist": "MetroBoominVEVO",
+        "title": "Calling (Spider-Man: Across the Spider-Verse) (feat. A Boogie Wit da Hoodie)",
+        "artist": "Metro Boomin",
         "playlist": "Dead inside",
         "duration": "3:40"
     },
@@ -2552,7 +2552,7 @@ const musicData = [
     },
     {
         "title": "Открываю пивко",
-        "artist": "Vasiliy Didlyakov - Topic",
+        "artist": "Василий Дидляков",
         "playlist": "Dead inside",
         "duration": "3:10"
     },
