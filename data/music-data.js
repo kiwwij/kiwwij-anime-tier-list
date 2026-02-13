@@ -1,33 +1,8 @@
 // Этот файл сгенерирован автоматически скриптом update_music.py
 const musicData = [
     {
-        "title": "гладиатор/рыцарь",
-        "artist": "fallen777angel",
-        "playlist": "Main"
-    },
-    {
-        "title": "пускают стрелы",
-        "artist": "fallen777angel",
-        "playlist": "Main"
-    },
-    {
-        "title": "типичная ситуация",
-        "artist": "madk1d",
-        "playlist": "Main"
-    },
-    {
         "title": "мило материшься",
         "artist": "volhey",
-        "playlist": "Main"
-    },
-    {
-        "title": "Лиза",
-        "artist": "Матис",
-        "playlist": "Main"
-    },
-    {
-        "title": "Самый лучший день",
-        "artist": "Кишлак",
         "playlist": "Main"
     },
     {
@@ -38,16 +13,6 @@ const musicData = [
     {
         "title": "madk1d - питер паркер(unrelease mood video)",
         "artist": "ньюген",
-        "playlist": "Main"
-    },
-    {
-        "title": "Эскапист",
-        "artist": "Кишлак",
-        "playlist": "Main"
-    },
-    {
-        "title": "Они все такие вау",
-        "artist": "рэйчи & madk1d",
         "playlist": "Main"
     },
     {
@@ -86,11 +51,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Anor Londo",
-        "artist": "auratoshi",
-        "playlist": "Main"
-    },
-    {
         "title": "так похуй",
         "artist": "madk1d",
         "playlist": "Main"
@@ -101,11 +61,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Виолетта",
-        "artist": "рэйчи",
-        "playlist": "Main"
-    },
-    {
         "title": "болен",
         "artist": "dope17",
         "playlist": "Main"
@@ -113,11 +68,6 @@ const musicData = [
     {
         "title": "Круче чем вы (feat. CUPSIZE)",
         "artist": "madk1d",
-        "playlist": "Main"
-    },
-    {
-        "title": "МОЙ БАТЯ",
-        "artist": "ПОЛАРОЙД",
         "playlist": "Main"
     },
     {
@@ -136,28 +86,8 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "The Love I Lost",
-        "artist": "Fried By Fluoride",
-        "playlist": "Main"
-    },
-    {
-        "title": "НЕ СКУЧАЙ",
-        "artist": "ТРОЕТОЧИЕ",
-        "playlist": "Main"
-    },
-    {
         "title": "стало похуй",
         "artist": "kurokov",
-        "playlist": "Main"
-    },
-    {
-        "title": "крестики-нолики",
-        "artist": "Zhanulka",
-        "playlist": "Main"
-    },
-    {
-        "title": "let me go",
-        "artist": "otuka",
         "playlist": "Main"
     },
     {
@@ -171,21 +101,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Экзотик-мама не узнает",
-        "artist": "EKB_BASED",
-        "playlist": "Main"
-    },
-    {
-        "title": "KRISTIEE — Reverie",
-        "artist": "idk secret channel",
-        "playlist": "Main"
-    },
-    {
-        "title": "Слёзы",
-        "artist": "Кишлак",
-        "playlist": "Main"
-    },
-    {
         "title": "интернет любовь",
         "artist": "fallen777angel",
         "playlist": "Main"
@@ -193,21 +108,6 @@ const musicData = [
     {
         "title": "Як тебе цілував",
         "artist": "teeNsad",
-        "playlist": "Main"
-    },
-    {
-        "title": "Baby Melo, FADE031 - Сломана",
-        "artist": "SmokeSipper",
-        "playlist": "Main"
-    },
-    {
-        "title": "Не забывай",
-        "artist": "sqaute",
-        "playlist": "Main"
-    },
-    {
-        "title": "Do Sliz - Але якщо ти...",
-        "artist": "Dosliz",
         "playlist": "Main"
     },
     {
@@ -226,11 +126,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "1-800",
-        "artist": "​bbno$",
-        "playlist": "Main"
-    },
-    {
         "title": "Ліпший день",
         "artist": "СТРУКТУРА ЩАСТЯ",
         "playlist": "Main"
@@ -238,11 +133,6 @@ const musicData = [
     {
         "title": "Естафета страждань",
         "artist": "Апатія",
-        "playlist": "Main"
-    },
-    {
-        "title": "цена",
-        "artist": "madk1d & паранойя",
         "playlist": "Main"
     },
     {
@@ -256,23 +146,8 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Seventh Heaven",
-        "artist": "INOHA",
-        "playlist": "Main"
-    },
-    {
         "title": "Ручной Рептилоид – Я хочу быть 2D",
         "artist": "Ручной Рептилоид",
-        "playlist": "Main"
-    },
-    {
-        "title": "Good Kid - From The Start (Laufey Cover)",
-        "artist": "Good Kid",
-        "playlist": "Main"
-    },
-    {
-        "title": "У моєму тихому вирі",
-        "artist": "Сметана band",
         "playlist": "Main"
     },
     {
@@ -306,6 +181,11 @@ const musicData = [
         "playlist": "Main"
     },
     {
+        "title": "цена",
+        "artist": "madk1d & паранойя",
+        "playlist": "Main"
+    },
+    {
         "title": "твои пальцы",
         "artist": "fallen777angel",
         "playlist": "Main"
@@ -313,11 +193,6 @@ const musicData = [
     {
         "title": "machine",
         "artist": "auratoshi",
-        "playlist": "Main"
-    },
-    {
-        "title": "5opka, EVEN CUTE - Даже если (Вредные советы)",
-        "artist": "ФУГА TV",
         "playlist": "Main"
     },
     {
@@ -333,11 +208,6 @@ const musicData = [
     {
         "title": "CUPSIZE - вирус",
         "artist": "CupsizeArchive",
-        "playlist": "Main"
-    },
-    {
-        "title": "Я схожу с ума",
-        "artist": "CUPSIZE",
         "playlist": "Main"
     },
     {
@@ -401,11 +271,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Невесомость",
-        "artist": "тянка",
-        "playlist": "Main"
-    },
-    {
         "title": "дайте выпилиться тут",
         "artist": "лиззз",
         "playlist": "Main"
@@ -421,16 +286,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "twenty four",
-        "artist": "overtonight",
-        "playlist": "Main"
-    },
-    {
-        "title": "Демоны",
-        "artist": "Три дня дождя",
-        "playlist": "Main"
-    },
-    {
         "title": "Так прикро",
         "artist": "Апатія",
         "playlist": "Main"
@@ -438,16 +293,6 @@ const musicData = [
     {
         "title": "Серед хаосу",
         "artist": "BaWN",
-        "playlist": "Main"
-    },
-    {
-        "title": "Шиншиллы",
-        "artist": "ЛСП",
-        "playlist": "Main"
-    },
-    {
-        "title": "Що з тобою",
-        "artist": "Апатія",
         "playlist": "Main"
     },
     {
@@ -496,11 +341,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "hunter eyes (slowed)",
-        "artist": "laydownrot",
-        "playlist": "Main"
-    },
-    {
         "title": "Ворую алкоголь - Floki, звсэ(slowed down version)",
         "artist": "kayy",
         "playlist": "Main"
@@ -516,12 +356,32 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Teenage Dirtbag",
-        "artist": "Wheatus",
+        "title": "пускают стрелы",
+        "artist": "fallen777angel",
+        "playlist": "Main"
+    },
+    {
+        "title": "fallen777angel - гладиатор/рыцарь (Official Audio) / eclipse media",
+        "artist": "eclipse media",
+        "playlist": "Main"
+    },
+    {
+        "title": "stalk ur socials",
+        "artist": "s0rrow",
+        "playlist": "Main"
+    },
+    {
+        "title": "чёрный шёлк",
+        "artist": "3umph",
+        "playlist": "Main"
+    },
+    {
+        "title": "овердоз",
+        "artist": "тёмный принц",
         "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 15,
-    "totalDurationSec": 14207
+    "totalDurationSec": 9703
 };
