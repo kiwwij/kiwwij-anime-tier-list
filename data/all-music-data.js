@@ -1,46 +1,10 @@
 // Этот файл сгенерирован автоматически скриптом update_all_music.py
 const musicData = [
     {
-        "title": "мило материшься",
-        "artist": "volhey",
-        "playlist": "Main",
-        "duration": "2:01"
-    },
-    {
-        "title": "Лиза",
-        "artist": "Матис",
-        "playlist": "Main",
-        "duration": "1:54"
-    },
-    {
-        "title": "Самый лучший день",
-        "artist": "Кишлак",
-        "playlist": "Main",
-        "duration": "1:34"
-    },
-    {
-        "title": "Грязный Кайф",
-        "artist": "Kishlak",
-        "playlist": "Main",
-        "duration": "2:47"
-    },
-    {
         "title": "madk1d - питер паркер(unrelease mood video)",
         "artist": "ньюген",
         "playlist": "Main",
         "duration": "2:17"
-    },
-    {
-        "title": "Эскапист",
-        "artist": "Кишлак",
-        "playlist": "Main",
-        "duration": "3:41"
-    },
-    {
-        "title": "Они все такие вау",
-        "artist": "рэйчи & madk1d",
-        "playlist": "Main",
-        "duration": "2:26"
     },
     {
         "title": "рехаб",
@@ -49,22 +13,10 @@ const musicData = [
         "duration": "1:32"
     },
     {
-        "title": "держаться за руки",
-        "artist": "кариолемма",
-        "playlist": "Main",
-        "duration": "1:34"
-    },
-    {
         "title": "greyrock, tewiq, madk1d – распять (Сингл, 2025)",
         "artist": "Mentrez Music",
         "playlist": "Main",
         "duration": "2:00"
-    },
-    {
-        "title": "таблетки",
-        "artist": "Голодный",
-        "playlist": "Main",
-        "duration": "1:38"
     },
     {
         "title": "ты че обиделась",
@@ -73,46 +25,10 @@ const musicData = [
         "duration": "1:30"
     },
     {
-        "title": "улыбка",
-        "artist": "volhey",
-        "playlist": "Main",
-        "duration": "1:50"
-    },
-    {
-        "title": "слова",
-        "artist": "Violetta Sokolova",
-        "playlist": "Main",
-        "duration": "2:45"
-    },
-    {
-        "title": "Anor Londo",
-        "artist": "auratoshi",
-        "playlist": "Main",
-        "duration": "1:46"
-    },
-    {
         "title": "так похуй",
         "artist": "madk1d",
         "playlist": "Main",
         "duration": "1:48"
-    },
-    {
-        "title": "возьму гитару",
-        "artist": "schastlivj",
-        "playlist": "Main",
-        "duration": "2:14"
-    },
-    {
-        "title": "Виолетта",
-        "artist": "рэйчи",
-        "playlist": "Main",
-        "duration": "1:46"
-    },
-    {
-        "title": "болен",
-        "artist": "dope17",
-        "playlist": "Main",
-        "duration": "1:29"
     },
     {
         "title": "Круче чем вы (feat. CUPSIZE)",
@@ -121,10 +37,160 @@ const musicData = [
         "duration": "1:40"
     },
     {
-        "title": "МОЙ БАТЯ",
-        "artist": "ПОЛАРОЙД",
+        "title": "цена",
+        "artist": "madk1d & паранойя",
         "playlist": "Main",
-        "duration": "1:59"
+        "duration": "2:19"
+    },
+    {
+        "title": "sexyswag2010",
+        "artist": "madk1d",
+        "playlist": "Main",
+        "duration": "1:30"
+    },
+    {
+        "title": "web 2.0",
+        "artist": "тёмный принц & silver gloria",
+        "playlist": "Main",
+        "duration": "1:24"
+    },
+    {
+        "title": "pedobear›⩊‹",
+        "artist": "тёмный принц",
+        "playlist": "Main",
+        "duration": "1:24"
+    },
+    {
+        "title": "ПАПА",
+        "artist": "тёмный принц",
+        "playlist": "Main",
+        "duration": "1:43"
+    },
+    {
+        "title": "вклубе",
+        "artist": "тёмный принц",
+        "playlist": "Main",
+        "duration": "1:40"
+    },
+    {
+        "title": "овердоз",
+        "artist": "тёмный принц",
+        "playlist": "Main",
+        "duration": "1:29"
+    },
+    {
+        "title": "Деревья, сгнившие до ствола",
+        "artist": "Violetta Sokolova",
+        "playlist": "Main",
+        "duration": "2:11"
+    },
+    {
+        "title": "ELF",
+        "artist": "Violetta Sokolova",
+        "playlist": "Main",
+        "duration": "4:10"
+    },
+    {
+        "title": "слон",
+        "artist": "Violetta Sokolova",
+        "playlist": "Main",
+        "duration": "2:18"
+    },
+    {
+        "title": "слова",
+        "artist": "Violetta Sokolova",
+        "playlist": "Main",
+        "duration": "2:45"
+    },
+    {
+        "title": "мило материшься",
+        "artist": "volhey",
+        "playlist": "Main",
+        "duration": "2:01"
+    },
+    {
+        "title": "улыбка",
+        "artist": "volhey",
+        "playlist": "Main",
+        "duration": "1:50"
+    },
+    {
+        "title": "Грязный Кайф",
+        "artist": "Kishlak",
+        "playlist": "Main",
+        "duration": "2:47"
+    },
+    {
+        "title": "Болею тобой",
+        "artist": "Кишлак",
+        "playlist": "Main",
+        "duration": "2:23"
+    },
+    {
+        "title": "раздевайся",
+        "artist": "семьсот семь",
+        "playlist": "Main",
+        "duration": "2:41"
+    },
+    {
+        "title": "держаться за руки",
+        "artist": "кариолемма",
+        "playlist": "Main",
+        "duration": "1:34"
+    },
+    {
+        "title": "таблетки",
+        "artist": "Голодный",
+        "playlist": "Main",
+        "duration": "1:38"
+    },
+    {
+        "title": "твои пальцы",
+        "artist": "fallen777angel",
+        "playlist": "Main",
+        "duration": "1:22"
+    },
+    {
+        "title": "fallen777angel, dope17 – suka business class (Official Audio + lyrics) / eclipse media",
+        "artist": "eclipse media",
+        "playlist": "Main",
+        "duration": "1:47"
+    },
+    {
+        "title": "возьму гитару",
+        "artist": "schastlivj",
+        "playlist": "Main",
+        "duration": "2:14"
+    },
+    {
+        "title": "интернет любовь",
+        "artist": "fallen777angel",
+        "playlist": "Main",
+        "duration": "1:56"
+    },
+    {
+        "title": "пускают стрелы",
+        "artist": "fallen777angel",
+        "playlist": "Main",
+        "duration": "2:00"
+    },
+    {
+        "title": "fallen777angel - гладиатор/рыцарь (Official Audio) / eclipse media",
+        "artist": "eclipse media",
+        "playlist": "Main",
+        "duration": "1:45"
+    },
+    {
+        "title": "болен",
+        "artist": "dope17",
+        "playlist": "Main",
+        "duration": "1:29"
+    },
+    {
+        "title": "чёрный шёлк",
+        "artist": "3umph",
+        "playlist": "Main",
+        "duration": "1:58"
     },
     {
         "title": "Cupsize - люби меня алина",
@@ -133,10 +199,10 @@ const musicData = [
         "duration": "1:38"
     },
     {
-        "title": "Болею тобой",
-        "artist": "Кишлак",
+        "title": "CUPSIZE - вирус",
+        "artist": "CupsizeArchive",
         "playlist": "Main",
-        "duration": "2:23"
+        "duration": "2:32"
     },
     {
         "title": "общага",
@@ -199,18 +265,6 @@ const musicData = [
         "duration": "2:10"
     },
     {
-        "title": "Слёзы",
-        "artist": "Кишлак",
-        "playlist": "Main",
-        "duration": "2:38"
-    },
-    {
-        "title": "интернет любовь",
-        "artist": "fallen777angel",
-        "playlist": "Main",
-        "duration": "1:56"
-    },
-    {
         "title": "Як тебе цілував",
         "artist": "teeNsad",
         "playlist": "Main",
@@ -235,22 +289,10 @@ const musicData = [
         "duration": "3:14"
     },
     {
-        "title": "web 2.0",
-        "artist": "тёмный принц & silver gloria",
-        "playlist": "Main",
-        "duration": "1:24"
-    },
-    {
         "title": "У батарей",
         "artist": "nyan.mp3",
         "playlist": "Main",
         "duration": "1:46"
-    },
-    {
-        "title": "fallen777angel, dope17 – suka business class (Official Audio + lyrics) / eclipse media",
-        "artist": "eclipse media",
-        "playlist": "Main",
-        "duration": "1:47"
     },
     {
         "title": "1-800",
@@ -269,12 +311,6 @@ const musicData = [
         "artist": "Апатія",
         "playlist": "Main",
         "duration": "3:02"
-    },
-    {
-        "title": "цена",
-        "artist": "madk1d & паранойя",
-        "playlist": "Main",
-        "duration": "2:19"
     },
     {
         "title": "с тобой",
@@ -319,22 +355,10 @@ const musicData = [
         "duration": "3:22"
     },
     {
-        "title": "ELF",
-        "artist": "Violetta Sokolova",
-        "playlist": "Main",
-        "duration": "4:10"
-    },
-    {
         "title": "mirrors demo",
         "artist": "overtonight throwaways",
         "playlist": "Main",
         "duration": "1:46"
-    },
-    {
-        "title": "слон",
-        "artist": "Violetta Sokolova",
-        "playlist": "Main",
-        "duration": "2:18"
     },
     {
         "title": "Гештальт",
@@ -347,12 +371,6 @@ const musicData = [
         "artist": "яшенька",
         "playlist": "Main",
         "duration": "1:53"
-    },
-    {
-        "title": "твои пальцы",
-        "artist": "fallen777angel",
-        "playlist": "Main",
-        "duration": "1:22"
     },
     {
         "title": "machine",
@@ -379,28 +397,10 @@ const musicData = [
         "duration": "4:01"
     },
     {
-        "title": "CUPSIZE - вирус",
-        "artist": "CupsizeArchive",
-        "playlist": "Main",
-        "duration": "2:32"
-    },
-    {
-        "title": "Я схожу с ума",
-        "artist": "CUPSIZE",
-        "playlist": "Main",
-        "duration": "3:08"
-    },
-    {
         "title": "аромат цветов",
         "artist": "PLUSIX",
         "playlist": "Main",
         "duration": "2:18"
-    },
-    {
-        "title": "раздевайся",
-        "artist": "семьсот семь",
-        "playlist": "Main",
-        "duration": "2:41"
     },
     {
         "title": "Бякибуки",
@@ -413,12 +413,6 @@ const musicData = [
         "artist": "Ручной рептилоид",
         "playlist": "Main",
         "duration": "2:24"
-    },
-    {
-        "title": "pedobear›⩊‹",
-        "artist": "тёмный принц",
-        "playlist": "Main",
-        "duration": "1:24"
     },
     {
         "title": "усну навсегда",
@@ -439,20 +433,8 @@ const musicData = [
         "duration": "2:29"
     },
     {
-        "title": "ПАПА",
-        "artist": "тёмный принц",
-        "playlist": "Main",
-        "duration": "1:43"
-    },
-    {
         "title": "face vlone remix - salem slut",
         "artist": "soundcloud mixtape",
-        "playlist": "Main",
-        "duration": "2:11"
-    },
-    {
-        "title": "Деревья, сгнившие до ствола",
-        "artist": "Violetta Sokolova",
         "playlist": "Main",
         "duration": "2:11"
     },
@@ -529,12 +511,6 @@ const musicData = [
         "duration": "1:49"
     },
     {
-        "title": "sexyswag2010",
-        "artist": "madk1d",
-        "playlist": "Main",
-        "duration": "1:30"
-    },
-    {
         "title": "тянка - HANAHAKI (song lyrics)",
         "artist": "тянка хиккует",
         "playlist": "Main",
@@ -557,12 +533,6 @@ const musicData = [
         "artist": "onokami",
         "playlist": "Main",
         "duration": "1:47"
-    },
-    {
-        "title": "вклубе",
-        "artist": "тёмный принц",
-        "playlist": "Main",
-        "duration": "1:40"
     },
     {
         "title": "fake ur face",
@@ -607,28 +577,10 @@ const musicData = [
         "duration": "4:07"
     },
     {
-        "title": "пускают стрелы",
-        "artist": "fallen777angel",
-        "playlist": "Main",
-        "duration": "2:00"
-    },
-    {
-        "title": "fallen777angel - гладиатор/рыцарь (Official Audio) / eclipse media",
-        "artist": "eclipse media",
-        "playlist": "Main",
-        "duration": "1:45"
-    },
-    {
         "title": "stalk ur socials",
         "artist": "s0rrow",
         "playlist": "Main",
         "duration": "1:19"
-    },
-    {
-        "title": "чёрный шёлк",
-        "artist": "3umph",
-        "playlist": "Main",
-        "duration": "1:58"
     },
     {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
@@ -6139,6 +6091,12 @@ const musicData = [
         "duration": "1:45"
     },
     {
+        "title": "МОЙ БАТЯ",
+        "artist": "ПОЛАРОЙД",
+        "playlist": "Dead inside",
+        "duration": "1:59"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6272,7 +6230,7 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 563,
-    "totalDurationSec": 170217,
+    "totalViews": 564,
+    "totalDurationSec": 169173,
     "lastUpdated": "Auto-generated"
 };
