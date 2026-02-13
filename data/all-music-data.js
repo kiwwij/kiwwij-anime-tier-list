@@ -1,12 +1,6 @@
 // Этот файл сгенерирован автоматически скриптом update_all_music.py
 const musicData = [
     {
-        "title": "типичная ситуация",
-        "artist": "madk1d",
-        "playlist": "Main",
-        "duration": "2:11"
-    },
-    {
         "title": "мило материшься",
         "artist": "volhey",
         "playlist": "Main",
@@ -611,6 +605,18 @@ const musicData = [
         "artist": "Wheatus",
         "playlist": "Main",
         "duration": "4:07"
+    },
+    {
+        "title": "пускают стрелы",
+        "artist": "fallen777angel",
+        "playlist": "Main",
+        "duration": "2:00"
+    },
+    {
+        "title": "fallen777angel - гладиатор/рыцарь (Official Audio) / eclipse media",
+        "artist": "eclipse media",
+        "playlist": "Main",
+        "duration": "1:45"
     },
     {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
@@ -6255,6 +6261,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 563,
-    "totalDurationSec": 169926,
+    "totalDurationSec": 170020,
     "lastUpdated": "Auto-generated"
 };
