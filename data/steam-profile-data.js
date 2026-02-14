@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/3e3260efe13d451f7533c524ddea43248eb414c8_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "Online",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 243
@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 15.6,
+            "playtime_2weeks": 15.2,
             "hours": 3168.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -50,6 +50,14 @@ const steamData = {
             "hours": 14.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
             "url": "https://store.steampowered.com/app/920490"
+        },
+        {
+            "appid": 3708350,
+            "name": "WTF: Waifu Tactical Force Playtest",
+            "playtime_2weeks": 0.2,
+            "hours": 0.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3708350/header.jpg",
+            "url": "https://store.steampowered.com/app/3708350"
         },
         {
             "appid": 431960,
