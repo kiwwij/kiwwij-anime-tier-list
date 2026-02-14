@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 15.2,
-            "hours": 3168.2,
+            "playtime_2weeks": 15.3,
+            "hours": 3168.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -50,14 +50,6 @@ const steamData = {
             "hours": 0.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3708350/header.jpg",
             "url": "https://store.steampowered.com/app/3708350"
-        },
-        {
-            "appid": 920490,
-            "name": "Driver Booster for Steam",
-            "playtime_2weeks": 0.1,
-            "hours": 14.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
-            "url": "https://store.steampowered.com/app/920490"
         },
         {
             "appid": 3399950,
