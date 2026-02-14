@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 2767030,
             "name": "Marvel Rivals",
-            "playtime_2weeks": 3.3,
+            "playtime_2weeks": 2.7,
             "hours": 159.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030"
