@@ -3829,7 +3829,7 @@ const musicData = [
         "duration": "1:31"
     },
     {
-        "title": "Последняя Любовь",
+        "title": "Последняя Любовь (Acoustic Live)",
         "artist": "MORGENSHTERN",
         "playlist": "Dead inside",
         "duration": "2:41"
