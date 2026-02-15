@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/3e3260efe13d451f7533c524ddea43248eb414c8_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 16.0,
-            "hours": 3169.9,
+            "playtime_2weeks": 16.6,
+            "hours": 3170.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -74,6 +74,14 @@ const steamData = {
             "hours": 6.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3399950/header.jpg",
             "url": "https://store.steampowered.com/app/3399950"
+        },
+        {
+            "appid": 1249880,
+            "name": "Tiny Bunny: Prologue",
+            "playtime_2weeks": 0.0,
+            "hours": 0.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1249880/header.jpg",
+            "url": "https://store.steampowered.com/app/1249880"
         }
     ],
     "top_games": [
