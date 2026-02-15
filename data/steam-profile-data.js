@@ -4,17 +4,17 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/3e3260efe13d451f7533c524ddea43248eb414c8_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50"
     },
     "stats": {
-        "total_games": 243
+        "total_games": 244
     },
     "recent_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 19.9,
+            "playtime_2weeks": 19.7,
             "hours": 3173.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
