@@ -457,6 +457,24 @@ const musicData = [
         "duration": "1:29"
     },
     {
+        "title": "unhappy (remix)",
+        "artist": "s0rrow",
+        "playlist": "Main",
+        "duration": "2:12"
+    },
+    {
+        "title": "отстой",
+        "artist": "onokami",
+        "playlist": "Main",
+        "duration": "1:19"
+    },
+    {
+        "title": "я не приду на выпускной",
+        "artist": "ashleytears",
+        "playlist": "Main",
+        "duration": "1:34"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6231,6 +6249,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 564,
-    "totalDurationSec": 169103,
+    "totalDurationSec": 169408,
     "lastUpdated": "Auto-generated"
 };
