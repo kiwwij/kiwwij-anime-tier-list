@@ -4,11 +4,11 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/3e3260efe13d451f7533c524ddea43248eb414c8_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50"
+        "status": "Offline",
+        "statusColor": "#9E9E9E"
     },
     "stats": {
-        "total_games": 244
+        "total_games": 245
     },
     "recent_games": [
         {
@@ -34,6 +34,14 @@ const steamData = {
             "hours": 18.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
+        },
+        {
+            "appid": 3733960,
+            "name": "CODE VEIN II - Character Creator Demo",
+            "playtime_2weeks": 0.6,
+            "hours": 0.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3733960/header.jpg",
+            "url": "https://store.steampowered.com/app/3733960"
         },
         {
             "appid": 2767030,
@@ -66,14 +74,6 @@ const steamData = {
             "hours": 18.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 3733960,
-            "name": "CODE VEIN II - Character Creator Demo",
-            "playtime_2weeks": 0.1,
-            "hours": 0.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3733960/header.jpg",
-            "url": "https://store.steampowered.com/app/3733960"
         },
         {
             "appid": 3399950,
