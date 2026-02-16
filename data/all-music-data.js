@@ -6091,6 +6091,12 @@ const musicData = [
         "duration": "2:41"
     },
     {
+        "title": "ee nado x)",
+        "artist": "dj trippie flameboy",
+        "playlist": "Dead inside",
+        "duration": "1:45"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6225,6 +6231,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 564,
-    "totalDurationSec": 168998,
+    "totalDurationSec": 169103,
     "lastUpdated": "Auto-generated"
 };
