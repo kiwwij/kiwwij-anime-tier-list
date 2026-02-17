@@ -379,9 +379,24 @@ const musicData = [
         "title": "овердоз",
         "artist": "тёмный принц",
         "playlist": "Main"
+    },
+    {
+        "title": "unhappy (remix)",
+        "artist": "s0rrow",
+        "playlist": "Main"
+    },
+    {
+        "title": "отстой",
+        "artist": "onokami",
+        "playlist": "Main"
+    },
+    {
+        "title": "я не приду на выпускной",
+        "artist": "ashleytears",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 15,
-    "totalDurationSec": 9703
+    "totalDurationSec": 10008
 };
