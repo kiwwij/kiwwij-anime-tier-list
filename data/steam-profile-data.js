@@ -38,8 +38,8 @@ const steamData = {
         {
             "appid": 3733960,
             "name": "CODE VEIN II - Character Creator Demo",
-            "playtime_2weeks": 0.6,
-            "hours": 0.6,
+            "playtime_2weeks": 0.8,
+            "hours": 0.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3733960/header.jpg",
             "url": "https://store.steampowered.com/app/3733960"
         },
