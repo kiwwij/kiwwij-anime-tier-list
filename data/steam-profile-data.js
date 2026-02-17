@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/3e3260efe13d451f7533c524ddea43248eb414c8_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "Online",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 245
