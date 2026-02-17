@@ -475,6 +475,12 @@ const musicData = [
         "duration": "1:34"
     },
     {
+        "title": "unhappy",
+        "artist": "s0rrow",
+        "playlist": "Main",
+        "duration": "1:39"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6115,6 +6121,18 @@ const musicData = [
         "duration": "1:45"
     },
     {
+        "title": "mirrors demo (funk slowed)",
+        "artist": "overtonight throwaways, overtonight, & ovg!",
+        "playlist": "Dead inside",
+        "duration": "1:30"
+    },
+    {
+        "title": "unhappy",
+        "artist": "s0rrow",
+        "playlist": "Dead inside",
+        "duration": "1:39"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6249,6 +6267,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 569,
-    "totalDurationSec": 169408,
+    "totalDurationSec": 169696,
     "lastUpdated": "Auto-generated"
 };
