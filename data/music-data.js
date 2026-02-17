@@ -394,9 +394,14 @@ const musicData = [
         "title": "я не приду на выпускной",
         "artist": "ashleytears",
         "playlist": "Main"
+    },
+    {
+        "title": "unhappy",
+        "artist": "s0rrow",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 15,
-    "totalDurationSec": 10008
+    "totalDurationSec": 10107
 };
