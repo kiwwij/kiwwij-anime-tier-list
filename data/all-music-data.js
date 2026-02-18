@@ -4675,8 +4675,8 @@ const musicData = [
         "duration": "3:25"
     },
     {
-        "title": "【MV】 MYTH&ROID - STYX HELIX(OFFICIAL)",
-        "artist": "KADOKAWAanime",
+        "title": "STYX HELIX",
+        "artist": "MYTH & ROID",
         "playlist": "Dead inside",
         "duration": "4:46"
     },
@@ -5605,20 +5605,20 @@ const musicData = [
         "duration": "1:35"
     },
     {
-        "title": "madk1d, greyrock & tewiq — MARTINE ROSE ",
+        "title": "madk1d, greyrock & tewiq — MARTINE ROSE",
         "artist": "Eclypse_me",
         "playlist": "Dead inside",
         "duration": "1:51"
     },
     {
         "title": "миниюбка",
-        "artist": "emoslut666 - Topic",
+        "artist": "emoslut666",
         "playlist": "Dead inside",
         "duration": "1:19"
     },
     {
         "title": "Seventh Heaven",
-        "artist": "INOHA - Topic",
+        "artist": "INOHA",
         "playlist": "Dead inside",
         "duration": "3:55"
     },
@@ -5732,7 +5732,7 @@ const musicData = [
     },
     {
         "title": "Пожалуйста, только не домой",
-        "artist": "Автоспорт - Topic",
+        "artist": "Автоспорт",
         "playlist": "Dead inside",
         "duration": "3:06"
     },
@@ -5780,7 +5780,7 @@ const musicData = [
     },
     {
         "title": "Кент",
-        "artist": "KSB muzic - Topic",
+        "artist": "KSB muzic",
         "playlist": "Dead inside",
         "duration": "2:45"
     },
@@ -5804,7 +5804,7 @@ const musicData = [
     },
     {
         "title": "Апноэ",
-        "artist": "Kishlak - Topic",
+        "artist": "Кишлак",
         "playlist": "Dead inside",
         "duration": "2:30"
     },
@@ -5894,7 +5894,7 @@ const musicData = [
     },
     {
         "title": "ЛАБУБУ",
-        "artist": "YUNG FIMOZ - Topic",
+        "artist": "YUNG FIMOZ",
         "playlist": "Dead inside",
         "duration": "2:00"
     },
@@ -6014,7 +6014,7 @@ const musicData = [
     },
     {
         "title": "я не собираюсь мешать",
-        "artist": "KRISTIEE - Topic",
+        "artist": "KRISTIEE",
         "playlist": "Dead inside",
         "duration": "2:08"
     },
@@ -6098,7 +6098,7 @@ const musicData = [
     },
     {
         "title": "hunter eyes (slowed)",
-        "artist": "laydownrot - Topic",
+        "artist": "laydownrot",
         "playlist": "Dead inside",
         "duration": "1:46"
     },
