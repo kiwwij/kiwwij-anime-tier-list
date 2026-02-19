@@ -4597,8 +4597,8 @@ const musicData = [
         "duration": "2:28"
     },
     {
-        "title": "asteria - FBM (feat. 6arelyhuman & kets4eki) (Official Visualizer)",
-        "artist": "asteria",
+        "title": "asteria - FBM (Official Visualizer) (feat. asteria, kets4eki & Britney Manson)",
+        "artist": "Anarchist Sanctuary",
         "playlist": "Dead inside",
         "duration": "2:35"
     },
