@@ -5323,6 +5323,12 @@ const musicData = [
         "duration": "1:54"
     },
     {
+        "title": "Код Гиасс",
+        "artist": "dabbackwood",
+        "playlist": "Dead inside",
+        "duration": "2:27"
+    },
+    {
         "title": "забери",
         "artist": "MADAMA",
         "playlist": "Dead inside",
@@ -5845,7 +5851,7 @@ const musicData = [
         "duration": "4:11"
     },
     {
-        "title": "真夜中のドア〜stay with me (Original Club Mix Mixed by D.O.I) - Mayonaka no Door 〜 Stay with Me (Original Club Mix)",
+        "title": "真夜中のドア〜stay with me (Original club mix) - Mayonaka no Door~stay with me (Original club mix)",
         "artist": "Miki Matsubara",
         "playlist": "Dead inside",
         "duration": "5:47"
@@ -6267,6 +6273,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 575,
-    "totalDurationSec": 169696,
+    "totalDurationSec": 169843,
     "lastUpdated": "Auto-generated"
 };
