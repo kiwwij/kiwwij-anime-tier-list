@@ -6163,7 +6163,7 @@ const musicData = [
         "duration": "2:21"
     },
     {
-        "title": "Sergey Eybog — Let's Be Friends (\"Everlasting Summer\", 2013)",
+        "title": "Everlasting Summer",
         "artist": "Sergey Eybog",
         "playlist": "Chill",
         "duration": "2:04"
@@ -6200,7 +6200,7 @@ const musicData = [
     },
     {
         "title": "Dragonborn",
-        "artist": "Jeremy Soule - Topic",
+        "artist": "Jeremy Soule",
         "playlist": "Chill",
         "duration": "3:56"
     },
@@ -6211,14 +6211,14 @@ const musicData = [
         "duration": "3:36"
     },
     {
-        "title": "エミール/犠牲",
-        "artist": "MONACA - Topic",
+        "title": "エミール/犠牲 - Emil / Sacrifice",
+        "artist": "MONACA",
         "playlist": "Chill",
         "duration": "3:28"
     },
     {
-        "title": "Royal & the Serpent - “Wasteland” (from Arcane Season 2) [Official Visualizer]",
-        "artist": "Riot Games Music",
+        "title": "Wasteland",
+        "artist": "Royal & the Serpent",
         "playlist": "Chill",
         "duration": "2:42"
     },
@@ -6242,7 +6242,7 @@ const musicData = [
     },
     {
         "title": "1994",
-        "artist": "Cavetown - Topic",
+        "artist": "Cavetown",
         "playlist": "Chill",
         "duration": "3:24"
     },
@@ -6260,7 +6260,7 @@ const musicData = [
     },
     {
         "title": "rises the moon",
-        "artist": "Liana Flores - Topic",
+        "artist": "liana flores",
         "playlist": "Chill",
         "duration": "2:42"
     }
