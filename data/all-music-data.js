@@ -1562,7 +1562,7 @@ const musicData = [
     },
     {
         "title": "Tenderlybae - Игрушка (Премьера клипа)",
-        "artist": "Tenderlybae",
+        "artist": "Tenderlybae каждый день",
         "playlist": "Dead inside",
         "duration": "2:02"
     },
@@ -1664,7 +1664,7 @@ const musicData = [
     },
     {
         "title": "Baby Detroit",
-        "artist": "Baby Cute",
+        "artist": "Baby Cute - Topic",
         "playlist": "Dead inside",
         "duration": "2:13"
     },
@@ -1729,8 +1729,8 @@ const musicData = [
         "duration": "3:50"
     },
     {
-        "title": "Толпы (Speed Up)",
-        "artist": "madk1d",
+        "title": "madk1d - Толпы (Официальная премьера трека)",
+        "artist": "soyuzmusic",
         "playlist": "Dead inside",
         "duration": "1:50"
     },
@@ -1970,7 +1970,7 @@ const musicData = [
     },
     {
         "title": "Мулен Руж",
-        "artist": "Бьянка",
+        "artist": "Bianka - Topic",
         "playlist": "Dead inside",
         "duration": "3:12"
     },
@@ -5618,7 +5618,7 @@ const musicData = [
     },
     {
         "title": "Seventh Heaven",
-        "artist": "INOHA",
+        "artist": "INOHA - Topic",
         "playlist": "Dead inside",
         "duration": "3:55"
     },
@@ -5636,7 +5636,7 @@ const musicData = [
     },
     {
         "title": "Правило 34",
-        "artist": "Denks",
+        "artist": "Release - Topic",
         "playlist": "Dead inside",
         "duration": "3:32"
     },
@@ -5732,13 +5732,13 @@ const musicData = [
     },
     {
         "title": "Пожалуйста, только не домой",
-        "artist": "Автоспорт",
+        "artist": "Автоспорт - Topic",
         "playlist": "Dead inside",
         "duration": "3:06"
     },
     {
-        "title": "nonchalance (feat. XI$OW)",
-        "artist": "6YNTHMANE",
+        "title": "nonchalance",
+        "artist": "6YNTHMANE - Topic",
         "playlist": "Dead inside",
         "duration": "1:52"
     },
@@ -5768,7 +5768,7 @@ const musicData = [
     },
     {
         "title": "комната",
-        "artist": "zhanulka",
+        "artist": "Zhanulka - Topic",
         "playlist": "Dead inside",
         "duration": "2:36"
     },
@@ -5804,7 +5804,7 @@ const musicData = [
     },
     {
         "title": "Апноэ",
-        "artist": "Кишлак",
+        "artist": "Kishlak - Topic",
         "playlist": "Dead inside",
         "duration": "2:30"
     },
@@ -5917,8 +5917,8 @@ const musicData = [
         "duration": "1:34"
     },
     {
-        "title": "エミール/ショップ - Emil's Shop",
-        "artist": "Kuniyuki Takahashi",
+        "title": "エミール/ショップ",
+        "artist": "Kuniyuki Takahashi (MONACA) - Topic",
         "playlist": "Dead inside",
         "duration": "5:29"
     },
@@ -6074,7 +6074,7 @@ const musicData = [
     },
     {
         "title": "twenty four",
-        "artist": "overtonight",
+        "artist": "overtonight - Topic",
         "playlist": "Dead inside",
         "duration": "2:06"
     },
@@ -6116,7 +6116,7 @@ const musicData = [
     },
     {
         "title": "ee nado x)",
-        "artist": "dj trippie flameboy",
+        "artist": "dj trippie flameboy - Topic",
         "playlist": "Dead inside",
         "duration": "1:45"
     },
