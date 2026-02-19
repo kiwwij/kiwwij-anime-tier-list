@@ -2366,9 +2366,9 @@ const musicData = [
     },
     {
         "title": "раздевайся",
-        "artist": "семьсот семь & Кишлак",
+        "artist": "семьсот семь",
         "playlist": "Dead inside",
-        "duration": "2:42"
+        "duration": "2:41"
     },
     {
         "title": "Винтаж - Плохая девочка(speed + nightcore)",
@@ -6267,6 +6267,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 575,
-    "totalDurationSec": 169697,
+    "totalDurationSec": 169696,
     "lastUpdated": "Auto-generated"
 };
