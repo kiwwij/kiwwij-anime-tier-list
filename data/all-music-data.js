@@ -6133,6 +6133,12 @@ const musicData = [
         "duration": "1:39"
     },
     {
+        "title": "Не помирай",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "2:20"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6267,6 +6273,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 575,
-    "totalDurationSec": 169696,
+    "totalDurationSec": 169836,
     "lastUpdated": "Auto-generated"
 };
