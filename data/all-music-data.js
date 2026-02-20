@@ -493,6 +493,12 @@ const musicData = [
         "duration": "1:19"
     },
     {
+        "title": "автозаправка",
+        "artist": "тёмный принц",
+        "playlist": "Main",
+        "duration": "1:34"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6309,6 +6315,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 575,
-    "totalDurationSec": 170683,
+    "totalDurationSec": 170777,
     "lastUpdated": "Auto-generated"
 };
