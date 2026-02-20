@@ -481,6 +481,12 @@ const musicData = [
         "duration": "1:39"
     },
     {
+        "title": "кіт, не пригай / якщо ти здохнеш - я тебе вб'ю.",
+        "artist": "Targan",
+        "playlist": "Main",
+        "duration": "3:26"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6139,6 +6145,30 @@ const musicData = [
         "duration": "2:20"
     },
     {
+        "title": "ALASKA PUFFER",
+        "artist": "паранойя",
+        "playlist": "Dead inside",
+        "duration": "2:02"
+    },
+    {
+        "title": "сєрьожа//даремно",
+        "artist": "Сметана band",
+        "playlist": "Dead inside",
+        "duration": "2:22"
+    },
+    {
+        "title": "целовал",
+        "artist": "THESCAMY",
+        "playlist": "Dead inside",
+        "duration": "1:19"
+    },
+    {
+        "title": "Я вб'ю всіх богів",
+        "artist": "хейтспіч",
+        "playlist": "Dead inside",
+        "duration": "3:39"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6273,6 +6303,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 575,
-    "totalDurationSec": 169836,
+    "totalDurationSec": 170604,
     "lastUpdated": "Auto-generated"
 };
