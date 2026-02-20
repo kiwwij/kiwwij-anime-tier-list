@@ -487,6 +487,12 @@ const musicData = [
         "duration": "3:26"
     },
     {
+        "title": "шизофрения",
+        "artist": "kurokov",
+        "playlist": "Main",
+        "duration": "1:19"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6303,6 +6309,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 575,
-    "totalDurationSec": 170604,
+    "totalDurationSec": 170683,
     "lastUpdated": "Auto-generated"
 };
