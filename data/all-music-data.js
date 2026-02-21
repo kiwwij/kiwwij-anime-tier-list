@@ -3235,10 +3235,58 @@ const musicData = [
         "duration": "1:57"
     },
     {
+        "title": "2077",
+        "artist": "do not resurrect",
+        "playlist": "Dead inside",
+        "duration": "2:16"
+    },
+    {
+        "title": "ИВАН ЗОЛО спел ЭТО НЕ ПРОСТО ГНЕВ? | Ai Cover",
+        "artist": "тучка",
+        "playlist": "Dead inside",
+        "duration": "3:01"
+    },
+    {
         "title": "Едем к тебе или в отель? - speed up (lecsons music)",
         "artist": "lecsons music",
         "playlist": "Dead inside",
         "duration": "1:20"
+    },
+    {
+        "title": "Друг в беде не бросит",
+        "artist": "Игорь Орлов",
+        "playlist": "Dead inside",
+        "duration": "2:22"
+    },
+    {
+        "title": "Одиночество-сука",
+        "artist": "Slava",
+        "playlist": "Dead inside",
+        "duration": "3:21"
+    },
+    {
+        "title": "думаешь всю ночь о ней",
+        "artist": "odunochestvo",
+        "playlist": "Dead inside",
+        "duration": "2:57"
+    },
+    {
+        "title": "Looper - Не мы (ПОЛНАЯ ВЕРСИЯ)|| feat. Лукашенко || MMV Funmix",
+        "artist": "Looper",
+        "playlist": "Dead inside",
+        "duration": "2:39"
+    },
+    {
+        "title": "All Girls Are The Same",
+        "artist": "Juice WRLD",
+        "playlist": "Dead inside",
+        "duration": "2:57"
+    },
+    {
+        "title": "Небо",
+        "artist": "SadSvit",
+        "playlist": "Dead inside",
+        "duration": "3:46"
     },
     {
         "title": "Больше не гуль (prod. by qqqola)",
@@ -3253,16 +3301,34 @@ const musicData = [
         "duration": "4:52"
     },
     {
+        "title": "Anguish, Exiled - Гуляю рассветы встречаю",
+        "artist": "Top Music",
+        "playlist": "Dead inside",
+        "duration": "2:25"
+    },
+    {
         "title": "Царица",
         "artist": "ANNA ASTI",
         "playlist": "Dead inside",
         "duration": "4:02"
     },
     {
+        "title": "DARLING in the FRANXX - Opening (HD)",
+        "artist": "Crunchyroll FR",
+        "playlist": "Dead inside",
+        "duration": "1:45"
+    },
+    {
         "title": "DARKSIDE",
         "artist": "Neoni",
         "playlist": "Dead inside",
         "duration": "2:45"
+    },
+    {
+        "title": "Boss Mode",
+        "artist": "Infraction",
+        "playlist": "Dead inside",
+        "duration": "1:57"
     },
     {
         "title": "9MM x LOLI SHIGURE UI",
@@ -3283,6 +3349,12 @@ const musicData = [
         "duration": "3:31"
     },
     {
+        "title": "Liaze x equal - 2003 (prod. by equal) | 4K",
+        "artist": "23HOURS",
+        "playlist": "Dead inside",
+        "duration": "2:47"
+    },
+    {
         "title": "We Are Number One",
         "artist": "Tardigrade Inferno",
         "playlist": "Dead inside",
@@ -3299,6 +3371,42 @@ const musicData = [
         "artist": "Pepel Nahudi",
         "playlist": "Dead inside",
         "duration": "2:03"
+    },
+    {
+        "title": "allsinthfuw - На большом воздушном шаре (Hardstyle remix)",
+        "artist": "mezkamuz",
+        "playlist": "Dead inside",
+        "duration": "2:56"
+    },
+    {
+        "title": "Первый снег",
+        "artist": "Сова",
+        "playlist": "Dead inside",
+        "duration": "2:59"
+    },
+    {
+        "title": "Прощание",
+        "artist": "Три дня дождя",
+        "playlist": "Dead inside",
+        "duration": "3:57"
+    },
+    {
+        "title": "Spooky Scary Skeletons - Original Video [4K HD]",
+        "artist": "Timeless Music",
+        "playlist": "Dead inside",
+        "duration": "2:39"
+    },
+    {
+        "title": "Дора – Младшая сестра [treepside remix] (Ремикс, 2022)",
+        "artist": "Mentrez Music",
+        "playlist": "Dead inside",
+        "duration": "3:06"
+    },
+    {
+        "title": "[MMV] Frieren: Beyond Journey's End x Vaundy",
+        "artist": "NinjaristicNinja",
+        "playlist": "Dead inside",
+        "duration": "1:31"
     },
     {
         "title": "Princess Chelsea - I Love My Boyfriend Lyrics",
@@ -3325,10 +3433,22 @@ const musicData = [
         "duration": "2:26"
     },
     {
+        "title": "Бесприданница",
+        "artist": "DEAD BLONDE",
+        "playlist": "Dead inside",
+        "duration": "3:01"
+    },
+    {
         "title": "Nowhere to run ; Stegosaurus rex (Lyrics)",
         "artist": "SaturnZ",
         "playlist": "Dead inside",
         "duration": "5:01"
+    },
+    {
+        "title": "ПАЗЛ",
+        "artist": "Кажанна",
+        "playlist": "Dead inside",
+        "duration": "2:11"
     },
     {
         "title": "GENDER",
@@ -3361,6 +3481,30 @@ const musicData = [
         "duration": "0:54"
     },
     {
+        "title": "toxi$ — hurtz (speed up)",
+        "artist": "helixo",
+        "playlist": "Dead inside",
+        "duration": "1:22"
+    },
+    {
+        "title": "Gangsta's Paradise (feat. L.V.)",
+        "artist": "Coolio",
+        "playlist": "Dead inside",
+        "duration": "4:17"
+    },
+    {
+        "title": "I Was Made For Lovin' You",
+        "artist": "Kiss",
+        "playlist": "Dead inside",
+        "duration": "3:59"
+    },
+    {
+        "title": "Новогодние игрушки (Remix)",
+        "artist": "Аркадий Хоралов",
+        "playlist": "Dead inside",
+        "duration": "3:41"
+    },
+    {
         "title": "Ногу свело! - Наши Юные Смешные Голоса | speed up/nightcore",
         "artist": "ну дэд",
         "playlist": "Dead inside",
@@ -3379,6 +3523,18 @@ const musicData = [
         "duration": "1:36"
     },
     {
+        "title": "Егор Крид , Tenderlybae , Егорик - ПАЦАНСКИЙ FONK ( Премьера Клипа 2023 )",
+        "artist": "KREED FAMILY",
+        "playlist": "Dead inside",
+        "duration": "1:31"
+    },
+    {
+        "title": "Блестящие и Arash  - Восточные сказки",
+        "artist": "crazyboi017",
+        "playlist": "Dead inside",
+        "duration": "3:30"
+    },
+    {
         "title": "Остап Парфёнов - Старый год (Официальная премьера трека)",
         "artist": "soyuzmusic",
         "playlist": "Dead inside",
@@ -3391,16 +3547,52 @@ const musicData = [
         "duration": "2:00"
     },
     {
+        "title": "ABBA - Lay All Your Love On Me (Lyrics)",
+        "artist": "Abba919",
+        "playlist": "Dead inside",
+        "duration": "4:38"
+    },
+    {
+        "title": "Тело",
+        "artist": "MARSIAGA",
+        "playlist": "Dead inside",
+        "duration": "3:43"
+    },
+    {
+        "title": "Зима-холода (Remix)",
+        "artist": "Ksenon",
+        "playlist": "Dead inside",
+        "duration": "2:28"
+    },
+    {
         "title": "Днями-ночами",
         "artist": "Мукка",
         "playlist": "Dead inside",
         "duration": "3:18"
     },
     {
+        "title": "WHAT YOU WANT! (Slowed Down)",
+        "artist": "asteria",
+        "playlist": "Dead inside",
+        "duration": "2:03"
+    },
+    {
         "title": "Миллион чувств",
         "artist": "badCurt",
         "playlist": "Dead inside",
         "duration": "2:41"
+    },
+    {
+        "title": "Світанок",
+        "artist": "Яка Різниця",
+        "playlist": "Dead inside",
+        "duration": "2:02"
+    },
+    {
+        "title": "You look lonely, I can fix that",
+        "artist": "IDLEGLANCE",
+        "playlist": "Dead inside",
+        "duration": "3:09"
     },
     {
         "title": "Мой мармеладный ( My Marmelade) - Katya Lel | Shania Yan Cover",
@@ -3421,6 +3613,30 @@ const musicData = [
         "duration": "3:51"
     },
     {
+        "title": "Beat das Trevas - Dj Menor da ZN // [tiktok funk/phonk viral] (legendado PT-BR)",
+        "artist": "capivara do reconvexo",
+        "playlist": "Dead inside",
+        "duration": "1:45"
+    },
+    {
+        "title": "Cotton Eye Joe",
+        "artist": "Campbell Brothers",
+        "playlist": "Dead inside",
+        "duration": "3:15"
+    },
+    {
+        "title": "plenka x boulevard depo - white trash x nightmare [escapism]",
+        "artist": "wavexisor",
+        "playlist": "Dead inside",
+        "duration": "2:02"
+    },
+    {
+        "title": "жизненная",
+        "artist": "MZLFF",
+        "playlist": "Dead inside",
+        "duration": "2:33"
+    },
+    {
         "title": "Eyedress - She looks just like a dream (Something About You) (Lyrics) ft. Dent May",
         "artist": "Cassiopeia",
         "playlist": "Dead inside",
@@ -3431,6 +3647,12 @@ const musicData = [
         "artist": "ФУГА TV",
         "playlist": "Dead inside",
         "duration": "2:45"
+    },
+    {
+        "title": "5opka - Кто я такой (1000 жизней)",
+        "artist": "ФУГА TV",
+        "playlist": "Dead inside",
+        "duration": "2:59"
     },
     {
         "title": "5opka - Bugatti (1000 жизней)",
@@ -3463,6 +3685,24 @@ const musicData = [
         "duration": "2:26"
     },
     {
+        "title": "Pitbull",
+        "artist": "CLONNEX",
+        "playlist": "Dead inside",
+        "duration": "1:57"
+    },
+    {
+        "title": "Lida, Серёга Пират – ЧСВ (Сингл, 2024)",
+        "artist": "Mentrez Music",
+        "playlist": "Dead inside",
+        "duration": "3:45"
+    },
+    {
+        "title": "О, Боже, какой мужчина!",
+        "artist": "Natali",
+        "playlist": "Dead inside",
+        "duration": "3:30"
+    },
+    {
         "title": "Мой мармеладный (Я не права)",
         "artist": "Katya Lel",
         "playlist": "Dead inside",
@@ -3475,10 +3715,22 @@ const musicData = [
         "duration": "3:01"
     },
     {
+        "title": "Нефертити (feat. Игорь цыба)",
+        "artist": "Ицык Цыпер",
+        "playlist": "Dead inside",
+        "duration": "2:10"
+    },
+    {
         "title": "Prekrasnoe Dalyoko",
         "artist": "PARTICLES, кошечка, & Atomic Heart",
         "playlist": "Dead inside",
         "duration": "2:01"
+    },
+    {
+        "title": "Zvenit Yanvarskaya Vyuga",
+        "artist": "Братство Атома, BassnPanda, Квашеная, and Atomic Heart",
+        "playlist": "Dead inside",
+        "duration": "3:18"
     },
     {
         "title": "СКУФ",
@@ -3511,16 +3763,64 @@ const musicData = [
         "duration": "0:13"
     },
     {
+        "title": "GAYAZOV$ BROTHER$ - КРЕДО | 2018 Премьера",
+        "artist": "Windy Beats",
+        "playlist": "Dead inside",
+        "duration": "3:23"
+    },
+    {
         "title": "(текст) Песня о привязанности - Автоспорт",
         "artist": "VIRGIN",
         "playlist": "Dead inside",
         "duration": "3:08"
     },
     {
+        "title": "ТЫ НИЧЕГО НЕ ПОНЯЛА",
+        "artist": "Dzhizus",
+        "playlist": "Dead inside",
+        "duration": "4:06"
+    },
+    {
+        "title": "Belly Dancer",
+        "artist": "Imanbek",
+        "playlist": "Dead inside",
+        "duration": "2:35"
+    },
+    {
         "title": "Единственный зритель",
         "artist": "NORMAN",
         "playlist": "Dead inside",
         "duration": "2:41"
+    },
+    {
+        "title": "Исчезаю",
+        "artist": "билборды",
+        "playlist": "Dead inside",
+        "duration": "2:27"
+    },
+    {
+        "title": "Метагерой",
+        "artist": "Mirèle",
+        "playlist": "Dead inside",
+        "duration": "2:45"
+    },
+    {
+        "title": "Скинь Котиков (Slowed + Reverb)",
+        "artist": "Mirèle",
+        "playlist": "Dead inside",
+        "duration": "2:41"
+    },
+    {
+        "title": "Мистер Пятёрка, 5opka - Царица (AI COVER)",
+        "artist": "dimilin000",
+        "playlist": "Dead inside",
+        "duration": "3:34"
+    },
+    {
+        "title": "Ai Hoshino sings Ievan Polkka (Ai Cover)",
+        "artist": "RKoth",
+        "playlist": "Dead inside",
+        "duration": "2:27"
     },
     {
         "title": "ee nado x)",
@@ -6015,6 +6315,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 575,
-    "totalDurationSec": 162249,
+    "totalDurationSec": 170777,
     "lastUpdated": "Auto-generated"
 };
