@@ -823,6 +823,12 @@ const musicData = [
         "duration": "3:14"
     },
     {
+        "title": "No Promises to Keep (FINAL FANTASY VII REBIRTH THEME SONG)",
+        "artist": "Loren Allred",
+        "playlist": "Japan",
+        "duration": "5:58"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -6315,6 +6321,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 575,
-    "totalDurationSec": 170777,
+    "totalDurationSec": 171135,
     "lastUpdated": "Auto-generated"
 };
