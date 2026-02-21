@@ -36,6 +36,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/4147820"
         },
         {
+            "appid": 1622910,
+            "name": "Still Wakes the Deep",
+            "playtime_2weeks": 1.1,
+            "hours": 1.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1622910/header.jpg",
+            "url": "https://store.steampowered.com/app/1622910"
+        },
+        {
             "appid": 3733960,
             "name": "CODE VEIN II - Character Creator Demo",
             "playtime_2weeks": 0.8,
@@ -66,14 +74,6 @@ const steamData = {
             "hours": 182.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
-        },
-        {
-            "appid": 1622910,
-            "name": "Still Wakes the Deep",
-            "playtime_2weeks": 0.1,
-            "hours": 0.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1622910/header.jpg",
-            "url": "https://store.steampowered.com/app/1622910"
         },
         {
             "appid": 431960,
