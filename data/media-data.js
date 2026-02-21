@@ -41,10 +41,15 @@ const mediaData = [
     { "title": "Final Destination 2", "ruTitle": "Пункт назначения 2", "year": "2003", "myRating": 4, "imdbRating": 6.2, "duration": "1ч 30м", "type": "movie", "imdbLink": "https://www.imdb.com/title/tt0309593/" },
     { "title": "Joker: Folie à Deux", "ruTitle": "Джокер: Безумие на двоих", "year": "2024", "myRating": 3, "imdbRating": 5.3, "duration": "2ч 18м", "type": "movie", "imdbLink": "https://www.imdb.com/title/tt11315808/" },
     { "title": "Hacksaw Ridge", "ruTitle": "По соображениям совести", "year": "2016", "myRating": 2, "imdbRating": 8.1, "duration": "2ч 19м", "type": "movie", "imdbLink": "https://www.imdb.com/title/tt2119532/" },
-    { "title": "A Knight of the Seven Kingdoms", "ruTitle": "Рыцарь Семи Королевств", "year": "2026", "myRating": 7, "imdbRating": 8.4, "duration": "TV Series", "type": "tv", "imdbLink": "https://www.imdb.com/title/tt27497448/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_a%2520knight%2520" },
+    { "title": "A Knight of the Seven Kingdoms", "ruTitle": "Рыцарь Семи Королевств", "year": "2026", "myRating": 8, "imdbRating": 8.9, "duration": "TV Series", "type": "tv", "imdbLink": "https://www.imdb.com/title/tt27497448/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_a%2520knight%2520" },
     { "title": "Looking for Alaska", "ruTitle": "В поисках Аляски", "year": "2019", "myRating": 7, "imdbRating": 8.0, "duration": "TV Series", "type": "tv", "imdbLink": "https://www.imdb.com/title/tt3829868/" },
     { "title": "Moana", "ruTitle": "Моана", "year": "2016", "myRating": 8, "imdbRating": 7.6, "duration": "1ч 47м", "type": "movie", "imdbLink": "https://www.imdb.com/title/tt3521164/?ref_=nv_sr_srsg_3_tt_5_nm_3_in_0_q_moana" },
     { "title": "Green Book", "ruTitle": "Зелёная книга", "year": "2018", "myRating": 9, "imdbRating": 8.2, "duration": "2ч 10м", "type": "movie", "imdbLink": "https://www.imdb.com/title/tt6966692/?ref_=nv_sr_srsg_3_tt_3_nm_5_in_0_q_green%2520b" },
     { "title": "The Intouchables", "ruTitle": "1+1", "year": "2011", "myRating": 8, "imdbRating": 8.5, "duration": "1ч 52м", "type": "movie", "imdbLink": "https://www.imdb.com/title/tt1675434/" },
+    { "title": "Fallout", "ruTitle": "Fallout", "year": "2024", "myRating": 6, "imdbRating": 8.3, "duration": "TV Series", "type": "tv", "imdbLink": "https://www.imdb.com/title/tt12637874/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_fallout" },
+    { "title": "Whiplash", "ruTitle": "Одержимость", "year": "2014", "myRating": 7, "imdbRating": 8.5, "duration": "1ч 47м", "type": "movie", "imdbLink": "https://www.imdb.com/title/tt2582802/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Whiplash" },
+    { "title": "Marty Supreme", "ruTitle": "Марти Великолепный", "year": "2025", "myRating": 3, "imdbRating": 7.9, "duration": "2ч 29м", "type": "movie", "imdbLink": "https://www.imdb.com/title/tt32916440/?ref_=nv_sr_srsg_1_tt_5_nm_2_in_0_q_Marty%20Supreme" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "duration": "TV Series", "type": "tv", "imdbLink": "" },
+    // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "duration": "TV Series", "type": "tv", "imdbLink": "" },
+    
 ];

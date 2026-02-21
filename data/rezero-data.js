@@ -200,6 +200,11 @@ if (typeof tierListData !== 'undefined') {
                 review: "Отступление. Воссоединение сестёр.", 
                 img: "rezero/34.webp"
             },
+            { 
+                title: "Re:Zero Ранобэ Том 36", 
+                review: "Больше информации про второстепенных героев и империю. Подготовка к наподению.", 
+                img: "rezero/36.webp"
+            },
             ],
         'D': [
             { 
