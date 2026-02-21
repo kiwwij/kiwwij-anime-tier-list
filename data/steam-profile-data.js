@@ -38,8 +38,8 @@ const steamData = {
         {
             "appid": 1622910,
             "name": "Still Wakes the Deep",
-            "playtime_2weeks": 1.1,
-            "hours": 1.1,
+            "playtime_2weeks": 1.6,
+            "hours": 1.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1622910/header.jpg",
             "url": "https://store.steampowered.com/app/1622910"
         },
