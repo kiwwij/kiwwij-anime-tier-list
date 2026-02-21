@@ -2173,8 +2173,8 @@ const musicData = [
         "duration": "3:14"
     },
     {
-        "title": "Butterfly",
-        "artist": "Nenadid",
+        "title": "Smile - Butterfly (Official Music Video)",
+        "artist": "Warner Music Denmark",
         "playlist": "Dead inside",
         "duration": "3:06"
     },
@@ -2263,8 +2263,8 @@ const musicData = [
         "duration": "3:17"
     },
     {
-        "title": "I Love It (feat. Adele Givens Emulation)",
-        "artist": "Kanye West",
+        "title": "Kanye West & Lil Pump - I Love It feat. Adele Givens [Official Music Video]",
+        "artist": "Lil Pump",
         "playlist": "Dead inside",
         "duration": "2:11"
     },
@@ -2293,8 +2293,8 @@ const musicData = [
         "duration": "2:34"
     },
     {
-        "title": "Зашей",
-        "artist": "IROH",
+        "title": "GONE.Fludd & IROH - Зашей (Official Video)",
+        "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "3:18"
     },
@@ -2323,7 +2323,7 @@ const musicData = [
         "duration": "2:48"
     },
     {
-        "title": "САХАРНЫЙ ЧЕЛОВЕК",
+        "title": "GONE.Fludd - САХАРНЫЙ ЧЕЛОВЕК [prod. by SWIFTNESS2H]",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "2:46"
@@ -2390,7 +2390,7 @@ const musicData = [
     },
     {
         "title": "раздевайся",
-        "artist": "семьсот семь",
+        "artist": "семьсот семь - Topic",
         "playlist": "Dead inside",
         "duration": "2:41"
     },
