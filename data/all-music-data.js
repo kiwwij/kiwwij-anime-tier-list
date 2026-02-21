@@ -475,18 +475,6 @@ const musicData = [
         "duration": "1:34"
     },
     {
-        "title": "unhappy",
-        "artist": "s0rrow",
-        "playlist": "Main",
-        "duration": "1:39"
-    },
-    {
-        "title": "кіт, не пригай / якщо ти здохнеш - я тебе вб'ю.",
-        "artist": "Targan",
-        "playlist": "Main",
-        "duration": "3:26"
-    },
-    {
         "title": "шизофрения",
         "artist": "kurokov",
         "playlist": "Main",
@@ -691,7 +679,7 @@ const musicData = [
         "duration": "6:01"
     },
     {
-        "title": "Amusement Park",
+        "title": "遊園施設 - Amusement Park",
         "artist": "Keigo Hoashi",
         "playlist": "Japan",
         "duration": "6:20"
@@ -6205,7 +6193,7 @@ const musicData = [
         "duration": "6:51"
     },
     {
-        "title": "Amusement Park",
+        "title": "遊園施設 - Amusement Park",
         "artist": "Keigo Hoashi",
         "playlist": "Chill",
         "duration": "6:20"
@@ -6321,6 +6309,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 575,
-    "totalDurationSec": 171175,
+    "totalDurationSec": 170870,
     "lastUpdated": "Auto-generated"
 };
