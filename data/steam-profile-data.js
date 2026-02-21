@@ -2,9 +2,9 @@
 const steamData = {
     "profile": {
         "nickname": "kiwwij",
-        "avatar": "https://avatars.steamstatic.com/3e3260efe13d451f7533c524ddea43248eb414c8_full.jpg",
+        "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -22,8 +22,8 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 20.1,
-            "hours": 34.4,
+            "playtime_2weeks": 20.7,
+            "hours": 35.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
