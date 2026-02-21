@@ -6199,7 +6199,7 @@ const musicData = [
         "duration": "6:51"
     },
     {
-        "title": "遊園施設 - Amusement Park",
+        "title": "Amusement Park",
         "artist": "Keigo Hoashi",
         "playlist": "Chill",
         "duration": "6:20"
