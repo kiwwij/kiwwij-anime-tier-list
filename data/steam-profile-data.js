@@ -68,6 +68,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1905180"
         },
         {
+            "appid": 1622910,
+            "name": "Still Wakes the Deep",
+            "playtime_2weeks": 0.1,
+            "hours": 0.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1622910/header.jpg",
+            "url": "https://store.steampowered.com/app/1622910"
+        },
+        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.1,
@@ -82,14 +90,6 @@ const steamData = {
             "hours": 6.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3399950/header.jpg",
             "url": "https://store.steampowered.com/app/3399950"
-        },
-        {
-            "appid": 1249880,
-            "name": "Tiny Bunny: Prologue",
-            "playtime_2weeks": 0.0,
-            "hours": 0.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1249880/header.jpg",
-            "url": "https://store.steampowered.com/app/1249880"
         }
     ],
     "top_games": [
