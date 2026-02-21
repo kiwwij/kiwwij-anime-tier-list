@@ -409,9 +409,14 @@ const musicData = [
         "title": "шизофрения",
         "artist": "kurokov",
         "playlist": "Main"
+    },
+    {
+        "title": "автозаправка",
+        "artist": "тёмный принц",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 15,
-    "totalDurationSec": 10392
+    "totalDurationSec": 10486
 };
