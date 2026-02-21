@@ -1333,7 +1333,7 @@ const musicData = [
         "duration": "2:38"
     },
     {
-        "title": "последнее лето",
+        "title": "ooes — последнее лето",
         "artist": "ooes",
         "playlist": "Dead inside",
         "duration": "2:18"
@@ -6199,7 +6199,7 @@ const musicData = [
         "duration": "6:51"
     },
     {
-        "title": "Amusement Park",
+        "title": "遊園施設 - Amusement Park",
         "artist": "Keigo Hoashi",
         "playlist": "Chill",
         "duration": "6:20"
