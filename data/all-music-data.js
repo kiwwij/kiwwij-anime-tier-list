@@ -1333,7 +1333,7 @@ const musicData = [
         "duration": "2:38"
     },
     {
-        "title": "ooes — последнее лето",
+        "title": "последнее лето",
         "artist": "ooes",
         "playlist": "Dead inside",
         "duration": "2:18"
