@@ -493,12 +493,6 @@ const musicData = [
         "duration": "1:19"
     },
     {
-        "title": "автозаправка",
-        "artist": "тёмный принц",
-        "playlist": "Main",
-        "duration": "1:34"
-    },
-    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -2173,8 +2167,8 @@ const musicData = [
         "duration": "3:14"
     },
     {
-        "title": "Smile - Butterfly (Official Music Video)",
-        "artist": "Warner Music Denmark",
+        "title": "Butterfly",
+        "artist": "Nenadid",
         "playlist": "Dead inside",
         "duration": "3:06"
     },
@@ -2263,8 +2257,8 @@ const musicData = [
         "duration": "3:17"
     },
     {
-        "title": "Kanye West & Lil Pump - I Love It feat. Adele Givens [Official Music Video]",
-        "artist": "Lil Pump",
+        "title": "I Love It (feat. Adele Givens Emulation)",
+        "artist": "Kanye West",
         "playlist": "Dead inside",
         "duration": "2:11"
     },
@@ -2293,8 +2287,8 @@ const musicData = [
         "duration": "2:34"
     },
     {
-        "title": "GONE.Fludd & IROH - Зашей (Official Video)",
-        "artist": "GONE.Fludd",
+        "title": "Зашей",
+        "artist": "IROH",
         "playlist": "Dead inside",
         "duration": "3:18"
     },
@@ -2323,7 +2317,7 @@ const musicData = [
         "duration": "2:48"
     },
     {
-        "title": "GONE.Fludd - САХАРНЫЙ ЧЕЛОВЕК [prod. by SWIFTNESS2H]",
+        "title": "САХАРНЫЙ ЧЕЛОВЕК",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "2:46"
@@ -2390,7 +2384,7 @@ const musicData = [
     },
     {
         "title": "раздевайся",
-        "artist": "семьсот семь - Topic",
+        "artist": "семьсот семь",
         "playlist": "Dead inside",
         "duration": "2:41"
     },
@@ -6187,6 +6181,12 @@ const musicData = [
         "duration": "3:39"
     },
     {
+        "title": "На стол",
+        "artist": "LonelyStash",
+        "playlist": "Dead inside",
+        "duration": "2:14"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6321,6 +6321,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 575,
-    "totalDurationSec": 171135,
+    "totalDurationSec": 171175,
     "lastUpdated": "Auto-generated"
 };
