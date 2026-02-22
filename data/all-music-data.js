@@ -679,7 +679,7 @@ const musicData = [
         "duration": "6:01"
     },
     {
-        "title": "Amusement Park",
+        "title": "遊園施設 - Amusement Park",
         "artist": "Keigo Hoashi",
         "playlist": "Japan",
         "duration": "6:20"
@@ -4645,7 +4645,7 @@ const musicData = [
         "duration": "2:50"
     },
     {
-        "title": "Краски - Оранжевое солнце (Hardstyle Remix) (OUT ON ALL PLATFORMS)",
+        "title": "Краски - Оранжевое солнце (Hardstyle Remix)",
         "artist": "BRZ",
         "playlist": "Dead inside",
         "duration": "3:04"
@@ -5089,7 +5089,7 @@ const musicData = [
         "duration": "3:02"
     },
     {
-        "title": "SMOKE IT OFF! (MEGA MIX)",
+        "title": "SMOKE IT OFF! MEGA MIX",
         "artist": "jnhygs",
         "playlist": "Dead inside",
         "duration": "2:00"
