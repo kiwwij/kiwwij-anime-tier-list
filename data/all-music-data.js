@@ -6175,6 +6175,12 @@ const musicData = [
         "duration": "2:14"
     },
     {
+        "title": "Babydoll",
+        "artist": "Dominic Fike",
+        "playlist": "Dead inside",
+        "duration": "1:38"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6309,6 +6315,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 575,
-    "totalDurationSec": 170870,
+    "totalDurationSec": 170968,
     "lastUpdated": "Auto-generated"
 };
