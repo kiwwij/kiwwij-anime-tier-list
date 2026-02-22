@@ -4645,7 +4645,7 @@ const musicData = [
         "duration": "2:50"
     },
     {
-        "title": "Краски - Оранжевое солнце (Hardstyle Remix)",
+        "title": "Краски - Оранжевое солнце (Hardstyle Remix) (OUT ON ALL PLATFORMS)",
         "artist": "BRZ",
         "playlist": "Dead inside",
         "duration": "3:04"
