@@ -3271,7 +3271,7 @@ const musicData = [
         "duration": "2:57"
     },
     {
-        "title": "SadSvit - Небо (Official video)",
+        "title": "Небо",
         "artist": "SadSvit",
         "playlist": "Dead inside",
         "duration": "3:46"
@@ -3349,7 +3349,7 @@ const musicData = [
         "duration": "2:24"
     },
     {
-        "title": "Britney Manson - FΛSHION (Single, 2023)",
+        "title": "FΛSHION (Slow)",
         "artist": "Britney Manson",
         "playlist": "Dead inside",
         "duration": "2:27"
@@ -3368,7 +3368,7 @@ const musicData = [
     },
     {
         "title": "Первый снег",
-        "artist": "Сова - Topic",
+        "artist": "Сова",
         "playlist": "Dead inside",
         "duration": "2:59"
     },
@@ -3566,7 +3566,7 @@ const musicData = [
     },
     {
         "title": "Миллион чувств",
-        "artist": "BadCurt - Topic",
+        "artist": "badCurt",
         "playlist": "Dead inside",
         "duration": "2:41"
     },
@@ -3595,8 +3595,8 @@ const musicData = [
         "duration": "2:19"
     },
     {
-        "title": "Grigory Leps and Ani Lorak - Mirrors (Official Video)",
-        "artist": "MELOMAN VIDEO",
+        "title": "Зеркала",
+        "artist": "Grigory Leps",
         "playlist": "Dead inside",
         "duration": "3:51"
     },
@@ -3674,7 +3674,7 @@ const musicData = [
     },
     {
         "title": "Pitbull",
-        "artist": "Clonnex - Topic",
+        "artist": "CLONNEX",
         "playlist": "Dead inside",
         "duration": "1:57"
     },
@@ -3710,7 +3710,7 @@ const musicData = [
     },
     {
         "title": "Prekrasnoe Dalyoko",
-        "artist": "PARTICLES - Topic",
+        "artist": "PARTICLES, кошечка, & Atomic Heart",
         "playlist": "Dead inside",
         "duration": "2:01"
     },
@@ -6199,7 +6199,7 @@ const musicData = [
         "duration": "6:51"
     },
     {
-        "title": "Amusement Park",
+        "title": "遊園施設 - Amusement Park",
         "artist": "Keigo Hoashi",
         "playlist": "Chill",
         "duration": "6:20"
