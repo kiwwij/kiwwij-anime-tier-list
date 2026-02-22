@@ -679,7 +679,7 @@ const musicData = [
         "duration": "6:01"
     },
     {
-        "title": "遊園施設 - Amusement Park",
+        "title": "Amusement Park",
         "artist": "Keigo Hoashi",
         "playlist": "Japan",
         "duration": "6:20"
@@ -1136,7 +1136,7 @@ const musicData = [
     },
     {
         "title": "Лицо",
-        "artist": "Созвездие Отрезок - Topic",
+        "artist": "Созвездие Отрезок",
         "playlist": "Dead inside",
         "duration": "3:28"
     },
@@ -5851,7 +5851,7 @@ const musicData = [
         "duration": "4:11"
     },
     {
-        "title": "真夜中のドア〜stay with me (Original Club Mix Mixed by D.O.I) - Mayonaka no Door 〜 Stay with Me (Original Club Mix)",
+        "title": "真夜中のドア〜stay with me (Original club mix) - Mayonaka no Door~stay with me (Original club mix)",
         "artist": "Miki Matsubara",
         "playlist": "Dead inside",
         "duration": "5:47"
@@ -6199,7 +6199,7 @@ const musicData = [
         "duration": "6:51"
     },
     {
-        "title": "遊園施設 - Amusement Park",
+        "title": "Amusement Park",
         "artist": "Keigo Hoashi",
         "playlist": "Chill",
         "duration": "6:20"
