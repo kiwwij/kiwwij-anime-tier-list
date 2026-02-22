@@ -1321,7 +1321,7 @@ const musicData = [
         "duration": "2:38"
     },
     {
-        "title": "ooes — последнее лето",
+        "title": "последнее лето",
         "artist": "ooes",
         "playlist": "Dead inside",
         "duration": "2:18"
@@ -3271,7 +3271,7 @@ const musicData = [
         "duration": "2:57"
     },
     {
-        "title": "Небо",
+        "title": "SadSvit - Небо (Official video)",
         "artist": "SadSvit",
         "playlist": "Dead inside",
         "duration": "3:46"
@@ -3349,7 +3349,7 @@ const musicData = [
         "duration": "2:24"
     },
     {
-        "title": "FΛSHION (Slow)",
+        "title": "Britney Manson - FΛSHION (Single, 2023)",
         "artist": "Britney Manson",
         "playlist": "Dead inside",
         "duration": "2:27"
@@ -3368,7 +3368,7 @@ const musicData = [
     },
     {
         "title": "Первый снег",
-        "artist": "Сова",
+        "artist": "Сова - Topic",
         "playlist": "Dead inside",
         "duration": "2:59"
     },
@@ -3566,7 +3566,7 @@ const musicData = [
     },
     {
         "title": "Миллион чувств",
-        "artist": "badCurt",
+        "artist": "BadCurt - Topic",
         "playlist": "Dead inside",
         "duration": "2:41"
     },
@@ -3595,8 +3595,8 @@ const musicData = [
         "duration": "2:19"
     },
     {
-        "title": "Зеркала",
-        "artist": "Grigory Leps",
+        "title": "Grigory Leps and Ani Lorak - Mirrors (Official Video)",
+        "artist": "MELOMAN VIDEO",
         "playlist": "Dead inside",
         "duration": "3:51"
     },
@@ -3674,7 +3674,7 @@ const musicData = [
     },
     {
         "title": "Pitbull",
-        "artist": "CLONNEX",
+        "artist": "Clonnex - Topic",
         "playlist": "Dead inside",
         "duration": "1:57"
     },
@@ -3710,7 +3710,7 @@ const musicData = [
     },
     {
         "title": "Prekrasnoe Dalyoko",
-        "artist": "PARTICLES, кошечка, & Atomic Heart",
+        "artist": "PARTICLES - Topic",
         "playlist": "Dead inside",
         "duration": "2:01"
     },
