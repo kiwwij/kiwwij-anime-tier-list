@@ -12,20 +12,20 @@ const steamData = {
     },
     "recent_games": [
         {
+            "appid": 2909400,
+            "name": "FINAL FANTASY VII REBIRTH",
+            "playtime_2weeks": 28.2,
+            "hours": 42.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
+            "url": "https://store.steampowered.com/app/2909400"
+        },
+        {
             "appid": 570,
             "name": "Dota 2",
             "playtime_2weeks": 27.7,
             "hours": 3184.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
-        },
-        {
-            "appid": 2909400,
-            "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 27.6,
-            "hours": 42.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
-            "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 4147820,
@@ -44,20 +44,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1622910"
         },
         {
+            "appid": 3489700,
+            "name": "Stellar Blade™",
+            "playtime_2weeks": 1.1,
+            "hours": 2.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
+            "url": "https://store.steampowered.com/app/3489700"
+        },
+        {
             "appid": 3733960,
             "name": "CODE VEIN II - Character Creator Demo",
             "playtime_2weeks": 0.8,
             "hours": 0.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3733960/header.jpg",
             "url": "https://store.steampowered.com/app/3733960"
-        },
-        {
-            "appid": 3489700,
-            "name": "Stellar Blade™",
-            "playtime_2weeks": 0.6,
-            "hours": 2.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
-            "url": "https://store.steampowered.com/app/3489700"
         },
         {
             "appid": 2767030,
