@@ -396,27 +396,12 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "unhappy",
-        "artist": "s0rrow",
-        "playlist": "Main"
-    },
-    {
-        "title": "кіт, не пригай / якщо ти здохнеш - я тебе вб'ю.",
-        "artist": "Targan",
-        "playlist": "Main"
-    },
-    {
         "title": "шизофрения",
         "artist": "kurokov",
-        "playlist": "Main"
-    },
-    {
-        "title": "автозаправка",
-        "artist": "тёмный принц",
         "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 15,
-    "totalDurationSec": 10486
+    "totalDurationSec": 10087
 };
