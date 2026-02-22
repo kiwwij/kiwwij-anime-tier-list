@@ -22,8 +22,8 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 27.1,
-            "hours": 41.5,
+            "playtime_2weeks": 27.6,
+            "hours": 42.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
@@ -50,6 +50,14 @@ const steamData = {
             "hours": 0.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3733960/header.jpg",
             "url": "https://store.steampowered.com/app/3733960"
+        },
+        {
+            "appid": 3489700,
+            "name": "Stellar Blade™",
+            "playtime_2weeks": 0.6,
+            "hours": 2.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
+            "url": "https://store.steampowered.com/app/3489700"
         },
         {
             "appid": 2767030,
@@ -82,14 +90,6 @@ const steamData = {
             "hours": 18.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 3489700,
-            "name": "Stellar Blade™",
-            "playtime_2weeks": 0.1,
-            "hours": 1.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
-            "url": "https://store.steampowered.com/app/3489700"
         }
     ],
     "top_games": [
