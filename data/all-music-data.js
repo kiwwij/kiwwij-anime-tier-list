@@ -6181,6 +6181,12 @@ const musicData = [
         "duration": "1:38"
     },
     {
+        "title": "Наталія Валевська – Палала [official video]",
+        "artist": "Наталія Валевська",
+        "playlist": "Dead inside",
+        "duration": "3:44"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6315,6 +6321,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 575,
-    "totalDurationSec": 170968,
+    "totalDurationSec": 171192,
     "lastUpdated": "Auto-generated"
 };
