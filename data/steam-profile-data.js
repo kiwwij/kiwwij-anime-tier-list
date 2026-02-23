@@ -54,8 +54,8 @@ const steamData = {
         {
             "appid": 221040,
             "name": "Resident Evil 6",
-            "playtime_2weeks": 0.8,
-            "hours": 0.8,
+            "playtime_2weeks": 1.8,
+            "hours": 1.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
             "url": "https://store.steampowered.com/app/221040"
         },
