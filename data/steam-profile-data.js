@@ -8,7 +8,7 @@ const steamData = {
         "statusColor": "#4CAF50"
     },
     "stats": {
-        "total_games": 249
+        "total_games": 250
     },
     "recent_games": [
         {
@@ -22,7 +22,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 29.2,
+            "playtime_2weeks": 28.7,
             "hours": 3185.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
