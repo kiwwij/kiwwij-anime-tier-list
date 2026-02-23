@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
-        "statusColor": "#4CAF50"
+        "status": "Away",
+        "statusColor": "#FFC107"
     },
     "stats": {
         "total_games": 249
@@ -52,6 +52,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/3489700"
         },
         {
+            "appid": 221040,
+            "name": "Resident Evil 6",
+            "playtime_2weeks": 0.8,
+            "hours": 0.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
+            "url": "https://store.steampowered.com/app/221040"
+        },
+        {
             "appid": 3733960,
             "name": "CODE VEIN II - Character Creator Demo",
             "playtime_2weeks": 0.8,
@@ -66,14 +74,6 @@ const steamData = {
             "hours": 159.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030"
-        },
-        {
-            "appid": 221040,
-            "name": "Resident Evil 6",
-            "playtime_2weeks": 0.4,
-            "hours": 0.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
-            "url": "https://store.steampowered.com/app/221040"
         },
         {
             "appid": 3708350,
