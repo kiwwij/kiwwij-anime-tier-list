@@ -679,7 +679,7 @@ const musicData = [
         "duration": "6:01"
     },
     {
-        "title": "Amusement Park",
+        "title": "遊園施設 - Amusement Park",
         "artist": "Keigo Hoashi",
         "playlist": "Japan",
         "duration": "6:20"
@@ -6320,7 +6320,7 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 575,
+    "totalViews": 577,
     "totalDurationSec": 171192,
     "lastUpdated": "Auto-generated"
 };
