@@ -2029,7 +2029,7 @@ const musicData = [
         "duration": "3:50"
     },
     {
-        "title": "2:00 (speed up)",
+        "title": "2:00 (Speed Up)",
         "artist": "enveel",
         "playlist": "Dead inside",
         "duration": "1:41"
@@ -2584,7 +2584,7 @@ const musicData = [
         "title": "Открываю пивко",
         "artist": "Василий Дидляков",
         "playlist": "Dead inside",
-        "duration": "3:10"
+        "duration": "3:09"
     },
     {
         "title": "Все мои друзья",
@@ -5203,8 +5203,8 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "Гроза лесных крипов",
-        "artist": "youraifu",
+        "title": "Гроза Лесных Крипов",
+        "artist": "AICOVERGIRL",
         "playlist": "Dead inside",
         "duration": "2:37"
     },
@@ -6321,6 +6321,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 577,
-    "totalDurationSec": 171192,
+    "totalDurationSec": 171191,
     "lastUpdated": "Auto-generated"
 };
