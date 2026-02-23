@@ -679,7 +679,7 @@ const musicData = [
         "duration": "6:01"
     },
     {
-        "title": "遊園施設 - Amusement Park",
+        "title": "Amusement Park",
         "artist": "Keigo Hoashi",
         "playlist": "Japan",
         "duration": "6:20"
@@ -3685,7 +3685,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О боже, какой мужчина!",
+        "title": "О, Боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -6205,7 +6205,7 @@ const musicData = [
         "duration": "6:51"
     },
     {
-        "title": "遊園施設 - Amusement Park",
+        "title": "Amusement Park",
         "artist": "Keigo Hoashi",
         "playlist": "Chill",
         "duration": "6:20"
