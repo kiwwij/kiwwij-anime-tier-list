@@ -679,7 +679,7 @@ const musicData = [
         "duration": "6:01"
     },
     {
-        "title": "Amusement Park",
+        "title": "遊園施設 - Amusement Park",
         "artist": "Keigo Hoashi",
         "playlist": "Japan",
         "duration": "6:20"
@@ -6205,7 +6205,7 @@ const musicData = [
         "duration": "6:51"
     },
     {
-        "title": "Amusement Park",
+        "title": "遊園施設 - Amusement Park",
         "artist": "Keigo Hoashi",
         "playlist": "Chill",
         "duration": "6:20"
