@@ -44,20 +44,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1622910"
         },
         {
+            "appid": 221040,
+            "name": "Resident Evil 6",
+            "playtime_2weeks": 2.9,
+            "hours": 2.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
+            "url": "https://store.steampowered.com/app/221040"
+        },
+        {
             "appid": 3489700,
             "name": "Stellar Blade™",
             "playtime_2weeks": 2.1,
             "hours": 3.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
             "url": "https://store.steampowered.com/app/3489700"
-        },
-        {
-            "appid": 221040,
-            "name": "Resident Evil 6",
-            "playtime_2weeks": 1.8,
-            "hours": 1.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
-            "url": "https://store.steampowered.com/app/221040"
         },
         {
             "appid": 3733960,
