@@ -68,6 +68,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2767030"
         },
         {
+            "appid": 221040,
+            "name": "Resident Evil 6",
+            "playtime_2weeks": 0.4,
+            "hours": 0.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
+            "url": "https://store.steampowered.com/app/221040"
+        },
+        {
             "appid": 3708350,
             "name": "WTF: Waifu Tactical Force Playtest",
             "playtime_2weeks": 0.2,
@@ -82,14 +90,6 @@ const steamData = {
             "hours": 182.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
-        },
-        {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.1,
-            "hours": 18.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
