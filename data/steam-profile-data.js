@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 37.2,
-            "hours": 51.5,
+            "playtime_2weeks": 38.3,
+            "hours": 52.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
@@ -227,11 +227,11 @@ const steamData = {
             "url": "https://store.steampowered.com/app/701160"
         },
         {
-            "appid": 2622380,
-            "name": "ELDEN RING NIGHTREIGN",
-            "hours": 51.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2622380/header.jpg",
-            "url": "https://store.steampowered.com/app/2622380"
+            "appid": 2909400,
+            "name": "FINAL FANTASY VII REBIRTH",
+            "hours": 52.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
+            "url": "https://store.steampowered.com/app/2909400"
         }
     ]
 };
