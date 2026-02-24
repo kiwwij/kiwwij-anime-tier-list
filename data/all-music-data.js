@@ -5095,8 +5095,8 @@ const musicData = [
         "duration": "3:02"
     },
     {
-        "title": "Lumi Athena - SMOKE IT OFF! ☆ ft. jnhygs #krushclub",
-        "artist": "Lumi Athena",
+        "title": "SMOKE IT OFF! MEGA MIX",
+        "artist": "jnhygs",
         "playlist": "Dead inside",
         "duration": "2:00"
     },
@@ -5113,7 +5113,7 @@ const musicData = [
         "duration": "2:58"
     },
     {
-        "title": "asteria & Lytra & Vyzer - DRIFT (Official Animated Visualizer)",
+        "title": "DRIFT",
         "artist": "asteria",
         "playlist": "Dead inside",
         "duration": "1:57"
@@ -5239,7 +5239,7 @@ const musicData = [
         "duration": "1:31"
     },
     {
-        "title": "ThxSoMch - SPIT IN MY FACE! (Official Audio)",
+        "title": "SPIT IN MY FACE!",
         "artist": "ThxSoMch",
         "playlist": "Dead inside",
         "duration": "2:28"
@@ -5342,13 +5342,13 @@ const musicData = [
     },
     {
         "title": "ты че обиделась",
-        "artist": "madk1d - Topic",
+        "artist": "madk1d & тёмный принц",
         "playlist": "Dead inside",
         "duration": "1:30"
     },
     {
         "title": "улыбка",
-        "artist": "volhey - Topic",
+        "artist": "volhey",
         "playlist": "Dead inside",
         "duration": "1:50"
     },
@@ -5480,7 +5480,7 @@ const musicData = [
     },
     {
         "title": "Сломана",
-        "artist": "Baby Melo - Topic",
+        "artist": "Baby Melo & FADE031",
         "playlist": "Dead inside",
         "duration": "2:24"
     },
@@ -5557,8 +5557,8 @@ const musicData = [
         "duration": "3:18"
     },
     {
-        "title": "bbno$ - 1-800 (ft. ironmouse)",
-        "artist": "bbno$",
+        "title": "1-800",
+        "artist": "​bbno$",
         "playlist": "Dead inside",
         "duration": "3:28"
     },
