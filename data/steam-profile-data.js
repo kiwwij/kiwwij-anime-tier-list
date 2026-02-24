@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 38.3,
-            "hours": 52.7,
+            "playtime_2weeks": 39.3,
+            "hours": 53.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
@@ -36,6 +36,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/4147820"
         },
         {
+            "appid": 3489700,
+            "name": "Stellar Blade™",
+            "playtime_2weeks": 4.3,
+            "hours": 5.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
+            "url": "https://store.steampowered.com/app/3489700"
+        },
+        {
             "appid": 221040,
             "name": "Resident Evil 6",
             "playtime_2weeks": 4.0,
@@ -50,14 +58,6 @@ const steamData = {
             "hours": 3.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1622910/header.jpg",
             "url": "https://store.steampowered.com/app/1622910"
-        },
-        {
-            "appid": 3489700,
-            "name": "Stellar Blade™",
-            "playtime_2weeks": 3.8,
-            "hours": 5.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
-            "url": "https://store.steampowered.com/app/3489700"
         },
         {
             "appid": 3733960,
@@ -229,7 +229,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "hours": 52.7,
+            "hours": 53.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         }
