@@ -5768,7 +5768,7 @@ const musicData = [
     },
     {
         "title": "темный принц tewiq - project 1",
-        "artist": "ya ebnu tya",
+        "artist": "paroxetin user",
         "playlist": "Dead inside",
         "duration": "1:52"
     },
