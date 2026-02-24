@@ -22,7 +22,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 28.1,
+            "playtime_2weeks": 28.0,
             "hours": 3185.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -68,14 +68,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/3733960"
         },
         {
-            "appid": 2767030,
-            "name": "Marvel Rivals",
-            "playtime_2weeks": 0.4,
-            "hours": 159.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
-            "url": "https://store.steampowered.com/app/2767030"
-        },
-        {
             "appid": 3708350,
             "name": "WTF: Waifu Tactical Force Playtest",
             "playtime_2weeks": 0.2,
@@ -90,6 +82,14 @@ const steamData = {
             "hours": 182.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
+        },
+        {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.1,
+            "hours": 18.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
