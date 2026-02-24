@@ -1225,8 +1225,8 @@ const musicData = [
         "duration": "2:35"
     },
     {
-        "title": "KORDHELL - MURDER IN MY MIND",
-        "artist": "KORDHELL",
+        "title": "Murder in My Mind (Slowed + Reverb)",
+        "artist": "Kordhell",
         "playlist": "Dead inside",
         "duration": "2:25"
     },
