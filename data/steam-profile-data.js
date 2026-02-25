@@ -14,26 +14,18 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 51.1,
-            "hours": 65.5,
+            "playtime_2weeks": 53.4,
+            "hours": 67.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 27.4,
-            "hours": 3186.4,
+            "playtime_2weeks": 27.5,
+            "hours": 3187.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
-        },
-        {
-            "appid": 4147820,
-            "name": "Your Mom",
-            "playtime_2weeks": 6.8,
-            "hours": 8.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4147820/header.jpg",
-            "url": "https://store.steampowered.com/app/4147820"
         },
         {
             "appid": 3489700,
@@ -42,6 +34,14 @@ const steamData = {
             "hours": 7.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
             "url": "https://store.steampowered.com/app/3489700"
+        },
+        {
+            "appid": 4147820,
+            "name": "Your Mom",
+            "playtime_2weeks": 5.3,
+            "hours": 8.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4147820/header.jpg",
+            "url": "https://store.steampowered.com/app/4147820"
         },
         {
             "appid": 221040,
@@ -84,12 +84,12 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1905180"
         },
         {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
+            "appid": 920490,
+            "name": "Driver Booster for Steam",
             "playtime_2weeks": 0.1,
-            "hours": 18.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
+            "hours": 14.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
+            "url": "https://store.steampowered.com/app/920490"
         }
     ],
     "top_games": [
@@ -206,18 +206,18 @@ const steamData = {
             "url": "https://store.steampowered.com/app/367520"
         },
         {
+            "appid": 2909400,
+            "name": "FINAL FANTASY VII REBIRTH",
+            "hours": 67.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
+            "url": "https://store.steampowered.com/app/2909400"
+        },
+        {
             "appid": 626690,
             "name": "Sword Art Online: Fatal Bullet",
             "hours": 65.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/626690/header.jpg",
             "url": "https://store.steampowered.com/app/626690"
-        },
-        {
-            "appid": 2909400,
-            "name": "FINAL FANTASY VII REBIRTH",
-            "hours": 65.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
-            "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 444090,
