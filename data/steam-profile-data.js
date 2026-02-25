@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 45.5,
-            "hours": 59.9,
+            "playtime_2weeks": 47.0,
+            "hours": 61.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 4147820,
             "name": "Your Mom",
-            "playtime_2weeks": 8.2,
+            "playtime_2weeks": 7.1,
             "hours": 8.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4147820/header.jpg",
             "url": "https://store.steampowered.com/app/4147820"
@@ -222,7 +222,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "hours": 59.9,
+            "hours": 61.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
