@@ -1231,8 +1231,8 @@ const musicData = [
         "duration": "2:35"
     },
     {
-        "title": "Murder in My Mind (Slowed + Reverb)",
-        "artist": "Kordhell",
+        "title": "KORDHELL - MURDER IN MY MIND",
+        "artist": "KORDHELL",
         "playlist": "Dead inside",
         "duration": "2:25"
     },
@@ -6193,6 +6193,24 @@ const musicData = [
         "duration": "3:44"
     },
     {
+        "title": "Prince",
+        "artist": "auratoshi",
+        "playlist": "Dead inside",
+        "duration": "1:48"
+    },
+    {
+        "title": "Саня",
+        "artist": "ФРЭНК",
+        "playlist": "Dead inside",
+        "duration": "1:51"
+    },
+    {
+        "title": "MARTINE ROSE",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "3:07"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6327,6 +6345,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 578,
-    "totalDurationSec": 171288,
+    "totalDurationSec": 171694,
     "lastUpdated": "Auto-generated"
 };
