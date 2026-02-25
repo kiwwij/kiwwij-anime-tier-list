@@ -15,7 +15,7 @@ const steamData = {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
             "playtime_2weeks": 56.1,
-            "hours": 70.2,
+            "hours": 70.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
@@ -201,7 +201,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "hours": 70.2,
+            "hours": 70.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
