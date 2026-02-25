@@ -487,6 +487,12 @@ const musicData = [
         "duration": "1:36"
     },
     {
+        "title": "McLovin",
+        "artist": "Jay Coleone",
+        "playlist": "Main",
+        "duration": "2:28"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6351,6 +6357,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 578,
-    "totalDurationSec": 171876,
+    "totalDurationSec": 172024,
     "lastUpdated": "Auto-generated"
 };
