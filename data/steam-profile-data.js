@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 47.0,
-            "hours": 61.5,
+            "playtime_2weeks": 48.0,
+            "hours": 62.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 4147820,
             "name": "Your Mom",
-            "playtime_2weeks": 7.1,
+            "playtime_2weeks": 6.8,
             "hours": 8.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4147820/header.jpg",
             "url": "https://store.steampowered.com/app/4147820"
@@ -213,18 +213,18 @@ const steamData = {
             "url": "https://store.steampowered.com/app/626690"
         },
         {
+            "appid": 2909400,
+            "name": "FINAL FANTASY VII REBIRTH",
+            "hours": 62.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
+            "url": "https://store.steampowered.com/app/2909400"
+        },
+        {
             "appid": 444090,
             "name": "Paladins",
             "hours": 62.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/444090/header.jpg",
             "url": "https://store.steampowered.com/app/444090"
-        },
-        {
-            "appid": 2909400,
-            "name": "FINAL FANTASY VII REBIRTH",
-            "hours": 61.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
-            "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 701160,
