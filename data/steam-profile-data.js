@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 54.3,
-            "hours": 68.7,
+            "playtime_2weeks": 54.8,
+            "hours": 69.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 3489700,
             "name": "Stellar Blade™",
-            "playtime_2weeks": 5.9,
-            "hours": 7.4,
+            "playtime_2weeks": 6.4,
+            "hours": 7.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
             "url": "https://store.steampowered.com/app/3489700"
         },
@@ -44,20 +44,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/221040"
         },
         {
-            "appid": 4147820,
-            "name": "Your Mom",
-            "playtime_2weeks": 4.5,
-            "hours": 8.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4147820/header.jpg",
-            "url": "https://store.steampowered.com/app/4147820"
-        },
-        {
             "appid": 1622910,
             "name": "Still Wakes the Deep",
             "playtime_2weeks": 3.9,
             "hours": 3.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1622910/header.jpg",
             "url": "https://store.steampowered.com/app/1622910"
+        },
+        {
+            "appid": 4147820,
+            "name": "Your Mom",
+            "playtime_2weeks": 3.9,
+            "hours": 8.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4147820/header.jpg",
+            "url": "https://store.steampowered.com/app/4147820"
         },
         {
             "appid": 3733960,
@@ -208,7 +208,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "hours": 68.7,
+            "hours": 69.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
