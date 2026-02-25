@@ -1231,8 +1231,8 @@ const musicData = [
         "duration": "2:35"
     },
     {
-        "title": "KORDHELL - MURDER IN MY MIND",
-        "artist": "KORDHELL",
+        "title": "Murder in My Mind (Slowed + Reverb)",
+        "artist": "Kordhell",
         "playlist": "Dead inside",
         "duration": "2:25"
     },
@@ -5203,14 +5203,14 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "Луз за Лузом",
-        "artist": "AICOVERGIRL",
+        "title": "Луз за лузом",
+        "artist": "youraifu",
         "playlist": "Dead inside",
         "duration": "2:36"
     },
     {
-        "title": "Гроза Лесных Крипов",
-        "artist": "AICOVERGIRL",
+        "title": "Гроза лесных крипов",
+        "artist": "youraifu",
         "playlist": "Dead inside",
         "duration": "2:37"
     },
@@ -5857,7 +5857,7 @@ const musicData = [
         "duration": "4:11"
     },
     {
-        "title": "真夜中のドア〜stay with me (Original Club Mix Mixed by D.O.I) - Mayonaka no Door 〜 Stay with Me (Original Club Mix)",
+        "title": "真夜中のドア〜stay with me (Original club mix) - Mayonaka no Door~stay with me (Original club mix)",
         "artist": "Miki Matsubara",
         "playlist": "Dead inside",
         "duration": "5:47"
