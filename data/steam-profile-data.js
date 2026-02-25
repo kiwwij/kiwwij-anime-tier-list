@@ -14,15 +14,15 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 53.4,
-            "hours": 67.5,
+            "playtime_2weeks": 54.3,
+            "hours": 68.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 27.5,
+            "playtime_2weeks": 27.4,
             "hours": 3187.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/3489700"
         },
         {
-            "appid": 4147820,
-            "name": "Your Mom",
-            "playtime_2weeks": 5.3,
-            "hours": 8.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4147820/header.jpg",
-            "url": "https://store.steampowered.com/app/4147820"
-        },
-        {
             "appid": 221040,
             "name": "Resident Evil 6",
             "playtime_2weeks": 4.9,
             "hours": 4.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
             "url": "https://store.steampowered.com/app/221040"
+        },
+        {
+            "appid": 4147820,
+            "name": "Your Mom",
+            "playtime_2weeks": 4.5,
+            "hours": 8.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4147820/header.jpg",
+            "url": "https://store.steampowered.com/app/4147820"
         },
         {
             "appid": 1622910,
@@ -68,6 +68,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/3733960"
         },
         {
+            "appid": 920490,
+            "name": "Driver Booster for Steam",
+            "playtime_2weeks": 0.4,
+            "hours": 15.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
+            "url": "https://store.steampowered.com/app/920490"
+        },
+        {
             "appid": 3708350,
             "name": "WTF: Waifu Tactical Force Playtest",
             "playtime_2weeks": 0.2,
@@ -82,14 +90,6 @@ const steamData = {
             "hours": 182.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
-        },
-        {
-            "appid": 920490,
-            "name": "Driver Booster for Steam",
-            "playtime_2weeks": 0.1,
-            "hours": 14.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
-            "url": "https://store.steampowered.com/app/920490"
         }
     ],
     "top_games": [
@@ -208,7 +208,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "hours": 67.5,
+            "hours": 68.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
