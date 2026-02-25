@@ -6211,6 +6211,12 @@ const musicData = [
         "duration": "3:07"
     },
     {
+        "title": "I Don't Care",
+        "artist": "VIOLENT VIRA",
+        "playlist": "Dead inside",
+        "duration": "3:02"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6345,6 +6351,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 578,
-    "totalDurationSec": 171694,
+    "totalDurationSec": 171876,
     "lastUpdated": "Auto-generated"
 };
