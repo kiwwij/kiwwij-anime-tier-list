@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50"
+        "status": "Offline",
+        "statusColor": "#9E9E9E"
     },
     "stats": {
         "total_games": 250
@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 55.3,
-            "hours": 69.7,
+            "playtime_2weeks": 56.1,
+            "hours": 70.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
@@ -199,18 +199,18 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1462040"
         },
         {
+            "appid": 2909400,
+            "name": "FINAL FANTASY VII REBIRTH",
+            "hours": 70.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
+            "url": "https://store.steampowered.com/app/2909400"
+        },
+        {
             "appid": 367520,
             "name": "Hollow Knight",
             "hours": 69.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg",
             "url": "https://store.steampowered.com/app/367520"
-        },
-        {
-            "appid": 2909400,
-            "name": "FINAL FANTASY VII REBIRTH",
-            "hours": 69.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
-            "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 626690,
