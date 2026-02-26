@@ -22,7 +22,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 26.3,
+            "playtime_2weeks": 25.7,
             "hours": 3187.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -52,14 +52,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1622910"
         },
         {
-            "appid": 4147820,
-            "name": "Your Mom",
-            "playtime_2weeks": 1.1,
-            "hours": 8.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4147820/header.jpg",
-            "url": "https://store.steampowered.com/app/4147820"
-        },
-        {
             "appid": 3733960,
             "name": "CODE VEIN II - Character Creator Demo",
             "playtime_2weeks": 0.8,
@@ -82,6 +74,14 @@ const steamData = {
             "hours": 0.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3708350/header.jpg",
             "url": "https://store.steampowered.com/app/3708350"
+        },
+        {
+            "appid": 4147820,
+            "name": "Your Mom",
+            "playtime_2weeks": 0.1,
+            "hours": 8.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4147820/header.jpg",
+            "url": "https://store.steampowered.com/app/4147820"
         },
         {
             "appid": 1905180,
