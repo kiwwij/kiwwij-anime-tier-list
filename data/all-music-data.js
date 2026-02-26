@@ -2186,7 +2186,7 @@ const musicData = [
     },
     {
         "title": "NECO ARC - БАЛАМУТ И ОБОРМОТ (AI COVER)",
-        "artist": "Дима Mojong",
+        "artist": "Сок Злой",
         "playlist": "Dead inside",
         "duration": "2:46"
     },
