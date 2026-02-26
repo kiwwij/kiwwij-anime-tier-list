@@ -164,7 +164,7 @@ const musicData = [
     },
     {
         "title": "с тобой",
-        "artist": "kouru",
+        "artist": "kouru - Topic",
         "playlist": "Main",
         "duration": "1:52"
     },
@@ -206,7 +206,7 @@ const musicData = [
     },
     {
         "title": "Гештальт",
-        "artist": "Апатія",
+        "artist": "Апатія - Topic",
         "playlist": "Main",
         "duration": "2:40"
     },
@@ -284,7 +284,7 @@ const musicData = [
     },
     {
         "title": "усну навсегда",
-        "artist": "яшенька",
+        "artist": "яшенька - Topic",
         "playlist": "Main",
         "duration": "1:28"
     },
@@ -332,7 +332,7 @@ const musicData = [
     },
     {
         "title": "Виріжу очі",
-        "artist": "Апатія",
+        "artist": "Апатія - Topic",
         "playlist": "Main",
         "duration": "3:03"
     },
@@ -362,7 +362,7 @@ const musicData = [
     },
     {
         "title": "sexyswag2010",
-        "artist": "madk1d",
+        "artist": "madk1d - Topic",
         "playlist": "Main",
         "duration": "1:30"
     },
@@ -386,7 +386,7 @@ const musicData = [
     },
     {
         "title": "грустинка",
-        "artist": "onokami",
+        "artist": "onokami - Topic",
         "playlist": "Main",
         "duration": "1:47"
     },
@@ -2083,7 +2083,7 @@ const musicData = [
         "duration": "2:44"
     },
     {
-        "title": "Скучно",
+        "title": "билборды - скучно",
         "artist": "билборды",
         "playlist": "Dead inside",
         "duration": "2:36"
@@ -2179,7 +2179,7 @@ const musicData = [
         "duration": "1:48"
     },
     {
-        "title": "Лето",
+        "title": "MellSher - Лето (Премьера 2023)",
         "artist": "MellSher",
         "playlist": "Dead inside",
         "duration": "1:36"
@@ -2203,8 +2203,8 @@ const musicData = [
         "duration": "2:15"
     },
     {
-        "title": "Wine Pon You (Official Audio)",
-        "artist": "Doja Cat",
+        "title": "Doja Cat - Wine Pon You (Official Audio) ft. Konshens",
+        "artist": "dojacatVEVO",
         "playlist": "Dead inside",
         "duration": "3:41"
     },
@@ -2348,7 +2348,7 @@ const musicData = [
     },
     {
         "title": "СЕТИ",
-        "artist": "GONE.Fludd",
+        "artist": "GONE.Fludd - Topic",
         "playlist": "Dead inside",
         "duration": "2:21"
     },
