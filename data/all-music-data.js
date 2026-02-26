@@ -4591,7 +4591,7 @@ const musicData = [
         "duration": "2:03"
     },
     {
-        "title": "Мама удалила роблокс (feat. Gulyashik & Qurorr)",
+        "title": "Мама удалила роблокс",
         "artist": "Lemaier",
         "playlist": "Dead inside",
         "duration": "3:04"
