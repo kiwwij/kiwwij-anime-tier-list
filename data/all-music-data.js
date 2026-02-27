@@ -484,7 +484,7 @@ const musicData = [
         "title": "губы",
         "artist": "тёмный принц",
         "playlist": "Main",
-        "duration": "1:36"
+        "duration": "1:35"
     },
     {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
@@ -6351,6 +6351,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 578,
-    "totalDurationSec": 171876,
+    "totalDurationSec": 171875,
     "lastUpdated": "Auto-generated"
 };
