@@ -404,14 +404,9 @@ const musicData = [
         "title": "губы",
         "artist": "тёмный принц",
         "playlist": "Main"
-    },
-    {
-        "title": "McLovin",
-        "artist": "Jay Coleone",
-        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 16,
-    "totalDurationSec": 10331
+    "totalDurationSec": 10183
 };
