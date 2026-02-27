@@ -6217,6 +6217,12 @@ const musicData = [
         "duration": "3:02"
     },
     {
+        "title": "Ляжки (feat. babypills)",
+        "artist": "MIGAS",
+        "playlist": "Dead inside",
+        "duration": "2:04"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6351,6 +6357,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 578,
-    "totalDurationSec": 171875,
+    "totalDurationSec": 171999,
     "lastUpdated": "Auto-generated"
 };
