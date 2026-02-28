@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 81.5,
-            "hours": 98.5,
+            "playtime_2weeks": 82.5,
+            "hours": 99.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 3489700,
             "name": "Stellar Blade™",
-            "playtime_2weeks": 11.5,
-            "hours": 13.0,
+            "playtime_2weeks": 12.2,
+            "hours": 13.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
             "url": "https://store.steampowered.com/app/3489700"
         },
@@ -171,18 +171,18 @@ const steamData = {
             "url": "https://store.steampowered.com/app/570940"
         },
         {
+            "appid": 2909400,
+            "name": "FINAL FANTASY VII REBIRTH",
+            "hours": 99.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
+            "url": "https://store.steampowered.com/app/2909400"
+        },
+        {
             "appid": 1091500,
             "name": "Cyberpunk 2077",
             "hours": 99.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500"
-        },
-        {
-            "appid": 2909400,
-            "name": "FINAL FANTASY VII REBIRTH",
-            "hours": 98.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
-            "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 1030300,
