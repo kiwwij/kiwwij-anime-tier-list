@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 80.8,
+            "playtime_2weeks": 81.0,
             "hours": 97.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 3489700,
             "name": "Stellar Blade™",
-            "playtime_2weeks": 10.8,
+            "playtime_2weeks": 11.0,
             "hours": 12.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
             "url": "https://store.steampowered.com/app/3489700"
