@@ -37,7 +37,7 @@ const musicData = [
         "duration": "2:00"
     },
     {
-        "title": "таблетки",
+        "title": "голодный - таблетки",
         "artist": "Голодный",
         "playlist": "Main",
         "duration": "1:38"
