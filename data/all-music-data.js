@@ -5089,8 +5089,8 @@ const musicData = [
         "duration": "3:02"
     },
     {
-        "title": "Lumi Athena - SMOKE IT OFF! ☆ ft. jnhygs",
-        "artist": "Lumi Athena",
+        "title": "SMOKE IT OFF! MEGA MIX",
+        "artist": "jnhygs",
         "playlist": "Dead inside",
         "duration": "2:00"
     },
