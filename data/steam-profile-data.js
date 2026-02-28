@@ -14,16 +14,16 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 77.4,
-            "hours": 92.7,
+            "playtime_2weeks": 78.4,
+            "hours": 93.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 25.6,
-            "hours": 3193.6,
+            "playtime_2weeks": 26.3,
+            "hours": 3194.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -178,18 +178,18 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1091500"
         },
         {
+            "appid": 2909400,
+            "name": "FINAL FANTASY VII REBIRTH",
+            "hours": 93.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
+            "url": "https://store.steampowered.com/app/2909400"
+        },
+        {
             "appid": 1030300,
             "name": "Hollow Knight: Silksong",
             "hours": 92.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1030300/header.jpg",
             "url": "https://store.steampowered.com/app/1030300"
-        },
-        {
-            "appid": 2909400,
-            "name": "FINAL FANTASY VII REBIRTH",
-            "hours": 92.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
-            "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 1172620,
