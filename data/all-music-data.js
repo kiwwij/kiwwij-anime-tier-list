@@ -2035,7 +2035,7 @@ const musicData = [
         "duration": "3:50"
     },
     {
-        "title": "2:00 (Speed Up)",
+        "title": "2:00 (speed up)",
         "artist": "enveel",
         "playlist": "Dead inside",
         "duration": "1:41"
@@ -2590,7 +2590,7 @@ const musicData = [
         "title": "Открываю пивко",
         "artist": "Василий Дидляков",
         "playlist": "Dead inside",
-        "duration": "3:09"
+        "duration": "3:10"
     },
     {
         "title": "Все мои друзья",
@@ -6351,6 +6351,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 578,
-    "totalDurationSec": 171549,
+    "totalDurationSec": 171550,
     "lastUpdated": "Auto-generated"
 };
