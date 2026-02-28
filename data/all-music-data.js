@@ -2725,7 +2725,7 @@ const musicData = [
         "duration": "4:17"
     },
     {
-        "title": "Время и Стекло - Е,Бой",
+        "title": "Е,Бой",
         "artist": "Время и Стекло",
         "playlist": "Dead inside",
         "duration": "3:09"
