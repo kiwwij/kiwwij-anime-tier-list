@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 85.9,
-            "hours": 102.9,
+            "playtime_2weeks": 86.4,
+            "hours": 103.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
@@ -157,18 +157,18 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1627720"
         },
         {
+            "appid": 2909400,
+            "name": "FINAL FANTASY VII REBIRTH",
+            "hours": 103.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
+            "url": "https://store.steampowered.com/app/2909400"
+        },
+        {
             "appid": 374320,
             "name": "DARK SOULS™ III",
             "hours": 102.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/header.jpg",
             "url": "https://store.steampowered.com/app/374320"
-        },
-        {
-            "appid": 2909400,
-            "name": "FINAL FANTASY VII REBIRTH",
-            "hours": 102.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
-            "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 570940,
