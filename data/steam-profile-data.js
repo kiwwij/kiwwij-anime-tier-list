@@ -14,16 +14,16 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 78.4,
-            "hours": 93.7,
+            "playtime_2weeks": 78.9,
+            "hours": 94.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 26.3,
-            "hours": 3194.6,
+            "playtime_2weeks": 27.3,
+            "hours": 3195.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -76,20 +76,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/920490"
         },
         {
-            "appid": 3708350,
-            "name": "WTF: Waifu Tactical Force Playtest",
-            "playtime_2weeks": 0.2,
-            "hours": 0.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3708350/header.jpg",
-            "url": "https://store.steampowered.com/app/3708350"
-        },
-        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.1,
             "hours": 18.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 1905180,
+            "name": "OBS Studio",
+            "playtime_2weeks": 0.1,
+            "hours": 182.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
+            "url": "https://store.steampowered.com/app/1905180"
         }
     ],
     "top_games": [
@@ -180,7 +180,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "hours": 93.7,
+            "hours": 94.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
