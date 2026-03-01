@@ -4579,7 +4579,7 @@ const musicData = [
         "duration": "2:03"
     },
     {
-        "title": "Мама удалила роблокс",
+        "title": "Мама удалила роблокс (feat. Gulyashik & Qurorr)",
         "artist": "Lemaier",
         "playlist": "Dead inside",
         "duration": "3:04"
@@ -5203,14 +5203,14 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "Гроза Лесных Крипов",
-        "artist": "AICOVERGIRL",
+        "title": "Гроза лесных крипов",
+        "artist": "youraifu",
         "playlist": "Dead inside",
         "duration": "2:37"
     },
     {
-        "title": "Белочка с Армлетом (Rock Version)",
-        "artist": "AICOVERGIRL",
+        "title": "Белочка с Армлетом (ROCK VERSION)",
+        "artist": "youraifu",
         "playlist": "Dead inside",
         "duration": "1:55"
     },
@@ -5327,12 +5327,6 @@ const musicData = [
         "artist": "kyNZai",
         "playlist": "Dead inside",
         "duration": "1:54"
-    },
-    {
-        "title": "Код Гиасс",
-        "artist": "dabbackwood",
-        "playlist": "Dead inside",
-        "duration": "2:27"
     },
     {
         "title": "забери",
@@ -6357,6 +6351,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 578,
-    "totalDurationSec": 171697,
+    "totalDurationSec": 171550,
     "lastUpdated": "Auto-generated"
 };
