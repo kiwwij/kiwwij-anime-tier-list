@@ -1609,7 +1609,7 @@ const musicData = [
         "duration": "2:52"
     },
     {
-        "title": "Sqwore - Всего лишь сон",
+        "title": "Всего лишь сон",
         "artist": "Sqwore",
         "playlist": "Dead inside",
         "duration": "1:51"
@@ -1628,7 +1628,7 @@ const musicData = [
     },
     {
         "title": "Beauty Bomb",
-        "artist": "ADUSHKINA - Topic",
+        "artist": "ADUSHKINA",
         "playlist": "Dead inside",
         "duration": "3:01"
     },
@@ -1748,7 +1748,7 @@ const musicData = [
     },
     {
         "title": "Снова",
-        "artist": "Беспокойник - Topic",
+        "artist": "Беспокойник",
         "playlist": "Dead inside",
         "duration": "2:49"
     },
@@ -5851,7 +5851,7 @@ const musicData = [
         "duration": "4:11"
     },
     {
-        "title": "真夜中のドア〜stay with me (Original Club Mix Mixed by D.O.I) - Mayonaka no Door 〜 Stay with Me (Original Club Mix)",
+        "title": "真夜中のドア〜stay with me (Original club mix) - Mayonaka no Door~stay with me (Original club mix)",
         "artist": "Miki Matsubara",
         "playlist": "Dead inside",
         "duration": "5:47"
