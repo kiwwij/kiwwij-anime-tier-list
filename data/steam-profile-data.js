@@ -78,7 +78,7 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.4,
+            "playtime_2weeks": 0.3,
             "hours": 19.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
@@ -86,7 +86,7 @@ const steamData = {
         {
             "appid": 1905180,
             "name": "OBS Studio",
-            "playtime_2weeks": 0.1,
+            "playtime_2weeks": 0.0,
             "hours": 182.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
