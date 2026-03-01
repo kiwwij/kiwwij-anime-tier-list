@@ -84,12 +84,12 @@ const steamData = {
             "url": "https://store.steampowered.com/app/431960"
         },
         {
-            "appid": 1905180,
-            "name": "OBS Studio",
+            "appid": 1249880,
+            "name": "Tiny Bunny: Prologue",
             "playtime_2weeks": 0.0,
-            "hours": 182.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
-            "url": "https://store.steampowered.com/app/1905180"
+            "hours": 0.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1249880/header.jpg",
+            "url": "https://store.steampowered.com/app/1249880"
         }
     ],
     "top_games": [
