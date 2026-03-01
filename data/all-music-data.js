@@ -2077,7 +2077,7 @@ const musicData = [
         "duration": "2:44"
     },
     {
-        "title": "билборды - скучно",
+        "title": "Скучно",
         "artist": "билборды",
         "playlist": "Dead inside",
         "duration": "2:36"
@@ -2173,7 +2173,7 @@ const musicData = [
         "duration": "1:48"
     },
     {
-        "title": "MellSher - Лето (Премьера 2023)",
+        "title": "Лето",
         "artist": "MellSher",
         "playlist": "Dead inside",
         "duration": "1:36"
@@ -2197,8 +2197,8 @@ const musicData = [
         "duration": "2:15"
     },
     {
-        "title": "Doja Cat - Wine Pon You (Official Audio) ft. Konshens",
-        "artist": "dojacatVEVO",
+        "title": "Wine Pon You (Official Audio)",
+        "artist": "Doja Cat",
         "playlist": "Dead inside",
         "duration": "3:41"
     },
@@ -2287,7 +2287,7 @@ const musicData = [
         "duration": "3:18"
     },
     {
-        "title": "GONE.Fludd - МАМБЛ (prod. by TORENO)",
+        "title": "МАМБЛ",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "2:36"
@@ -3691,7 +3691,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О, Боже, какой мужчина!",
+        "title": "О боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
