@@ -14,15 +14,15 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 94.7,
-            "hours": 111.7,
+            "playtime_2weeks": 95.2,
+            "hours": 112.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 25.7,
+            "playtime_2weeks": 24.9,
             "hours": 3197.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -76,20 +76,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/920490"
         },
         {
+            "appid": 524220,
+            "name": "NieR:Automata™",
+            "playtime_2weeks": 0.3,
+            "hours": 3.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/524220/header.jpg",
+            "url": "https://store.steampowered.com/app/524220"
+        },
+        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.3,
             "hours": 19.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 524220,
-            "name": "NieR:Automata™",
-            "playtime_2weeks": 0.1,
-            "hours": 3.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/524220/header.jpg",
-            "url": "https://store.steampowered.com/app/524220"
         }
     ],
     "top_games": [
@@ -152,7 +152,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "hours": 111.7,
+            "hours": 112.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
