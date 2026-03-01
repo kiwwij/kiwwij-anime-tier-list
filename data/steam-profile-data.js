@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 99.2,
-            "hours": 116.2,
+            "playtime_2weeks": 100.2,
+            "hours": 117.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
@@ -60,6 +60,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/3733960"
         },
         {
+            "appid": 524220,
+            "name": "NieR:Automata™",
+            "playtime_2weeks": 0.6,
+            "hours": 3.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/524220/header.jpg",
+            "url": "https://store.steampowered.com/app/524220"
+        },
+        {
             "appid": 2165320,
             "name": "Artis Demo",
             "playtime_2weeks": 0.5,
@@ -74,14 +82,6 @@ const steamData = {
             "hours": 15.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
             "url": "https://store.steampowered.com/app/920490"
-        },
-        {
-            "appid": 524220,
-            "name": "NieR:Automata™",
-            "playtime_2weeks": 0.3,
-            "hours": 3.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/524220/header.jpg",
-            "url": "https://store.steampowered.com/app/524220"
         },
         {
             "appid": 431960,
@@ -143,18 +143,18 @@ const steamData = {
             "url": "https://store.steampowered.com/app/335300"
         },
         {
+            "appid": 2909400,
+            "name": "FINAL FANTASY VII REBIRTH",
+            "hours": 117.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
+            "url": "https://store.steampowered.com/app/2909400"
+        },
+        {
             "appid": 1009290,
             "name": "SWORD ART ONLINE Alicization Lycoris",
             "hours": 116.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1009290/header.jpg",
             "url": "https://store.steampowered.com/app/1009290"
-        },
-        {
-            "appid": 2909400,
-            "name": "FINAL FANTASY VII REBIRTH",
-            "hours": 116.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
-            "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 1627720,
