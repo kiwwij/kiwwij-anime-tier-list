@@ -6217,6 +6217,12 @@ const musicData = [
         "duration": "2:04"
     },
     {
+        "title": "Мы с севера",
+        "artist": "G Sound",
+        "playlist": "Dead inside",
+        "duration": "2:00"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6351,6 +6357,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 578,
-    "totalDurationSec": 171550,
+    "totalDurationSec": 171670,
     "lastUpdated": "Auto-generated"
 };
