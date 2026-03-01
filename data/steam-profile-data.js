@@ -14,15 +14,15 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 90.7,
-            "hours": 107.7,
+            "playtime_2weeks": 91.2,
+            "hours": 108.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 27.6,
+            "playtime_2weeks": 27.5,
             "hours": 3197.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -82,14 +82,6 @@ const steamData = {
             "hours": 19.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 1249880,
-            "name": "Tiny Bunny: Prologue",
-            "playtime_2weeks": 0.0,
-            "hours": 0.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1249880/header.jpg",
-            "url": "https://store.steampowered.com/app/1249880"
         }
     ],
     "top_games": [
@@ -159,7 +151,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "hours": 107.7,
+            "hours": 108.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
         },
