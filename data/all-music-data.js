@@ -139,7 +139,7 @@ const musicData = [
         "duration": "1:24"
     },
     {
-        "title": "nyan.mp3 — У батарей [Official Audio Visualizer]",
+        "title": "У батарей",
         "artist": "nyan.mp3",
         "playlist": "Main",
         "duration": "1:46"
