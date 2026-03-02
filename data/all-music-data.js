@@ -1292,7 +1292,7 @@ const musicData = [
     },
     {
         "title": "ярче звёзд",
-        "artist": "ПОЛМАТЕРИ",
+        "artist": "плм",
         "playlist": "Dead inside",
         "duration": "2:48"
     },
@@ -2942,7 +2942,7 @@ const musicData = [
     },
     {
         "title": "Котик",
-        "artist": "enveel & onokami",
+        "artist": "enveel",
         "playlist": "Dead inside",
         "duration": "2:13"
     },
@@ -3817,13 +3817,13 @@ const musicData = [
         "duration": "1:47"
     },
     {
-        "title": "Можно я с тобой",
-        "artist": "AP$ENT",
+        "title": "AP$ENT - Можно я с тобой?",
+        "artist": "ApSent",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
     {
-        "title": "PRAXX",
+        "title": "DK - PRAXX (Audio)",
         "artist": "DK",
         "playlist": "Dead inside",
         "duration": "3:46"
@@ -3889,8 +3889,8 @@ const musicData = [
         "duration": "1:48"
     },
     {
-        "title": "Не прокинусь",
-        "artist": "Апатія",
+        "title": "BAWN & АПАТІЯ -  НЕ ПРОКИНУСЬ  [LYRIC VIDEO]",
+        "artist": "BaWN",
         "playlist": "Dead inside",
         "duration": "3:22"
     },
@@ -4046,7 +4046,7 @@ const musicData = [
     },
     {
         "title": "у меня внутри",
-        "artist": "cold carti",
+        "artist": "Cold Carti - Topic",
         "playlist": "Dead inside",
         "duration": "2:37"
     },
@@ -4112,7 +4112,7 @@ const musicData = [
     },
     {
         "title": "Киндер Буэно",
-        "artist": "Валентин Дядька",
+        "artist": "Slava KPSS - Topic",
         "playlist": "Dead inside",
         "duration": "3:12"
     },
