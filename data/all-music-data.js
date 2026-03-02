@@ -4076,7 +4076,7 @@ const musicData = [
     },
     {
         "title": "На стол",
-        "artist": "LonelyStash",
+        "artist": "LonelyStash & Готлиб",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
@@ -4562,7 +4562,7 @@ const musicData = [
     },
     {
         "title": "наколки",
-        "artist": "zhanulka",
+        "artist": "Zhanulka",
         "playlist": "Dead inside",
         "duration": "2:03"
     },
@@ -4645,8 +4645,8 @@ const musicData = [
         "duration": "1:42"
     },
     {
-        "title": "СТИНТ - Даша (альбом Такова жизнь, 2024)",
-        "artist": "Stintik ",
+        "title": "Даша",
+        "artist": "СТИНТ",
         "playlist": "Dead inside",
         "duration": "2:40"
     },
@@ -4735,8 +4735,8 @@ const musicData = [
         "duration": "2:28"
     },
     {
-        "title": "STARSET - My Demons (Official Music Video)",
-        "artist": "starsetVEVO",
+        "title": "My Demons (Official Music Video)",
+        "artist": "STARSET",
         "playlist": "Dead inside",
         "duration": "3:43"
     },
@@ -4807,8 +4807,8 @@ const musicData = [
         "duration": "2:00"
     },
     {
-        "title": "asteria - w4ste away (feat. Black Kray) (Official Visualizer)",
-        "artist": "asteria",
+        "title": "w4ste away (w/ Sickboyrari)",
+        "artist": "asteria & Sickboyrari",
         "playlist": "Dead inside",
         "duration": "2:57"
     },
