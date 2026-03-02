@@ -56,7 +56,7 @@ const musicData = [
     },
     {
         "title": "слова",
-        "artist": "Violetta Sokolova",
+        "artist": "Violetta Sokolova - Topic",
         "playlist": "Main",
         "duration": "2:45"
     },
@@ -74,13 +74,13 @@ const musicData = [
     },
     {
         "title": "болен",
-        "artist": "dope17",
+        "artist": "dope17 - Topic",
         "playlist": "Main",
         "duration": "1:29"
     },
     {
         "title": "Круче чем вы (feat. CUPSIZE)",
-        "artist": "madk1d",
+        "artist": "madk1d - Topic",
         "playlist": "Main",
         "duration": "1:40"
     },
@@ -139,7 +139,7 @@ const musicData = [
         "duration": "1:24"
     },
     {
-        "title": "У батарей",
+        "title": "nyan.mp3 — У батарей [Official Audio Visualizer]",
         "artist": "nyan.mp3",
         "playlist": "Main",
         "duration": "1:46"
@@ -212,7 +212,7 @@ const musicData = [
     },
     {
         "title": "скинь",
-        "artist": "яшенька",
+        "artist": "яшенька - Topic",
         "playlist": "Main",
         "duration": "1:53"
     },
@@ -278,7 +278,7 @@ const musicData = [
     },
     {
         "title": "pedobear›⩊‹",
-        "artist": "тёмный принц",
+        "artist": "тёмный принц - Topic",
         "playlist": "Main",
         "duration": "1:24"
     },
@@ -296,7 +296,7 @@ const musicData = [
     },
     {
         "title": "на небесах",
-        "artist": "kouru",
+        "artist": "kouru - Topic",
         "playlist": "Main",
         "duration": "2:29"
     },
@@ -326,7 +326,7 @@ const musicData = [
     },
     {
         "title": "дайте выпилиться тут",
-        "artist": "лиззз",
+        "artist": "лиззз - Topic",
         "playlist": "Main",
         "duration": "3:16"
     },
@@ -374,7 +374,7 @@ const musicData = [
     },
     {
         "title": "В реальності новій",
-        "artist": "Апатія",
+        "artist": "Апатія - Topic",
         "playlist": "Main",
         "duration": "2:45"
     },
@@ -446,7 +446,7 @@ const musicData = [
     },
     {
         "title": "чёрный шёлк",
-        "artist": "3umph",
+        "artist": "3umph - Topic",
         "playlist": "Main",
         "duration": "1:58"
     },
