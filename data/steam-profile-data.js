@@ -68,14 +68,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/524220"
         },
         {
-            "appid": 3733960,
-            "name": "CODE VEIN II - Character Creator Demo",
-            "playtime_2weeks": 0.5,
-            "hours": 0.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3733960/header.jpg",
-            "url": "https://store.steampowered.com/app/3733960"
-        },
-        {
             "appid": 2165320,
             "name": "Artis Demo",
             "playtime_2weeks": 0.5,
@@ -90,6 +82,14 @@ const steamData = {
             "hours": 15.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
             "url": "https://store.steampowered.com/app/920490"
+        },
+        {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.3,
+            "hours": 19.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
