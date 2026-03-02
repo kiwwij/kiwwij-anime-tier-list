@@ -56,7 +56,7 @@ const musicData = [
     },
     {
         "title": "слова",
-        "artist": "Violetta Sokolova",
+        "artist": "Violetta Sokolova - Topic",
         "playlist": "Main",
         "duration": "2:45"
     },
@@ -68,7 +68,7 @@ const musicData = [
     },
     {
         "title": "возьму гитару",
-        "artist": "schastlivj - Topic",
+        "artist": "schastlivj",
         "playlist": "Main",
         "duration": "2:14"
     },
@@ -80,7 +80,7 @@ const musicData = [
     },
     {
         "title": "Круче чем вы (feat. CUPSIZE)",
-        "artist": "madk1d - Topic",
+        "artist": "madk1d",
         "playlist": "Main",
         "duration": "1:40"
     },
@@ -128,7 +128,7 @@ const musicData = [
     },
     {
         "title": "Як тебе цілував",
-        "artist": "teeNsad - Topic",
+        "artist": "teeNsad",
         "playlist": "Main",
         "duration": "2:47"
     },
@@ -139,7 +139,7 @@ const musicData = [
         "duration": "1:24"
     },
     {
-        "title": "У батарей",
+        "title": "nyan.mp3 — У батарей [Official Audio Visualizer]",
         "artist": "nyan.mp3",
         "playlist": "Main",
         "duration": "1:46"
@@ -169,7 +169,7 @@ const musicData = [
         "duration": "1:52"
     },
     {
-        "title": "madk1d, greyrock & tewiq — MARTINE ROSE ",
+        "title": "madk1d, greyrock & tewiq — MARTINE ROSE",
         "artist": "Eclypse_me",
         "playlist": "Main",
         "duration": "1:51"
@@ -212,13 +212,13 @@ const musicData = [
     },
     {
         "title": "скинь",
-        "artist": "яшенька",
+        "artist": "яшенька - Topic",
         "playlist": "Main",
         "duration": "1:53"
     },
     {
         "title": "цена",
-        "artist": "madk1d & паранойя",
+        "artist": "madk1d - Topic",
         "playlist": "Main",
         "duration": "2:19"
     },
@@ -278,13 +278,13 @@ const musicData = [
     },
     {
         "title": "pedobear›⩊‹",
-        "artist": "тёмный принц - Topic",
+        "artist": "тёмный принц",
         "playlist": "Main",
         "duration": "1:24"
     },
     {
         "title": "усну навсегда",
-        "artist": "яшенька - Topic",
+        "artist": "яшенька",
         "playlist": "Main",
         "duration": "1:28"
     },
@@ -296,7 +296,7 @@ const musicData = [
     },
     {
         "title": "на небесах",
-        "artist": "kouru - Topic",
+        "artist": "kouru",
         "playlist": "Main",
         "duration": "2:29"
     },
@@ -326,7 +326,7 @@ const musicData = [
     },
     {
         "title": "дайте выпилиться тут",
-        "artist": "лиззз - Topic",
+        "artist": "лиззз",
         "playlist": "Main",
         "duration": "3:16"
     },
@@ -350,7 +350,7 @@ const musicData = [
     },
     {
         "title": "Серед хаосу",
-        "artist": "BaWN",
+        "artist": "BaWN - Topic",
         "playlist": "Main",
         "duration": "2:33"
     },
@@ -440,7 +440,7 @@ const musicData = [
     },
     {
         "title": "stalk ur socials",
-        "artist": "s0rrow",
+        "artist": "s0rrow - Topic",
         "playlist": "Main",
         "duration": "1:19"
     },
@@ -458,13 +458,13 @@ const musicData = [
     },
     {
         "title": "unhappy (remix)",
-        "artist": "s0rrow",
+        "artist": "s0rrow - Topic",
         "playlist": "Main",
         "duration": "2:12"
     },
     {
         "title": "отстой",
-        "artist": "onokami",
+        "artist": "onokami - Topic",
         "playlist": "Main",
         "duration": "1:19"
     },
@@ -2942,7 +2942,7 @@ const musicData = [
     },
     {
         "title": "Котик",
-        "artist": "enveel & onokami",
+        "artist": "enveel",
         "playlist": "Dead inside",
         "duration": "2:13"
     },
