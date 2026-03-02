@@ -60,20 +60,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1277510"
         },
         {
-            "appid": 3733960,
-            "name": "CODE VEIN II - Character Creator Demo",
-            "playtime_2weeks": 0.7,
-            "hours": 0.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3733960/header.jpg",
-            "url": "https://store.steampowered.com/app/3733960"
-        },
-        {
             "appid": 524220,
             "name": "NieR:Automata™",
             "playtime_2weeks": 0.6,
             "hours": 3.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/524220/header.jpg",
             "url": "https://store.steampowered.com/app/524220"
+        },
+        {
+            "appid": 3733960,
+            "name": "CODE VEIN II - Character Creator Demo",
+            "playtime_2weeks": 0.5,
+            "hours": 0.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3733960/header.jpg",
+            "url": "https://store.steampowered.com/app/3733960"
         },
         {
             "appid": 2165320,
