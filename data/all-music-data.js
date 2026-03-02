@@ -56,7 +56,7 @@ const musicData = [
     },
     {
         "title": "слова",
-        "artist": "Violetta Sokolova - Topic",
+        "artist": "Violetta Sokolova",
         "playlist": "Main",
         "duration": "2:45"
     },
@@ -212,13 +212,13 @@ const musicData = [
     },
     {
         "title": "скинь",
-        "artist": "яшенька - Topic",
+        "artist": "яшенька",
         "playlist": "Main",
         "duration": "1:53"
     },
     {
         "title": "цена",
-        "artist": "madk1d - Topic",
+        "artist": "madk1d & паранойя",
         "playlist": "Main",
         "duration": "2:19"
     },
@@ -350,7 +350,7 @@ const musicData = [
     },
     {
         "title": "Серед хаосу",
-        "artist": "BaWN - Topic",
+        "artist": "BaWN",
         "playlist": "Main",
         "duration": "2:33"
     },
@@ -440,7 +440,7 @@ const musicData = [
     },
     {
         "title": "stalk ur socials",
-        "artist": "s0rrow - Topic",
+        "artist": "s0rrow",
         "playlist": "Main",
         "duration": "1:19"
     },
@@ -458,13 +458,13 @@ const musicData = [
     },
     {
         "title": "unhappy (remix)",
-        "artist": "s0rrow - Topic",
+        "artist": "s0rrow",
         "playlist": "Main",
         "duration": "2:12"
     },
     {
         "title": "отстой",
-        "artist": "onokami - Topic",
+        "artist": "onokami",
         "playlist": "Main",
         "duration": "1:19"
     },
