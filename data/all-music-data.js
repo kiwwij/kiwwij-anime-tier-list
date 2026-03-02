@@ -56,7 +56,7 @@ const musicData = [
     },
     {
         "title": "слова",
-        "artist": "Violetta Sokolova - Topic",
+        "artist": "Violetta Sokolova",
         "playlist": "Main",
         "duration": "2:45"
     },
@@ -68,13 +68,13 @@ const musicData = [
     },
     {
         "title": "возьму гитару",
-        "artist": "schastlivj",
+        "artist": "schastlivj - Topic",
         "playlist": "Main",
         "duration": "2:14"
     },
     {
         "title": "болен",
-        "artist": "dope17 - Topic",
+        "artist": "dope17",
         "playlist": "Main",
         "duration": "1:29"
     },
@@ -128,7 +128,7 @@ const musicData = [
     },
     {
         "title": "Як тебе цілував",
-        "artist": "teeNsad",
+        "artist": "teeNsad - Topic",
         "playlist": "Main",
         "duration": "2:47"
     },
@@ -139,7 +139,7 @@ const musicData = [
         "duration": "1:24"
     },
     {
-        "title": "nyan.mp3 — У батарей [Official Audio Visualizer]",
+        "title": "У батарей",
         "artist": "nyan.mp3",
         "playlist": "Main",
         "duration": "1:46"
@@ -169,7 +169,7 @@ const musicData = [
         "duration": "1:52"
     },
     {
-        "title": "madk1d, greyrock & tewiq — MARTINE ROSE",
+        "title": "madk1d, greyrock & tewiq — MARTINE ROSE ",
         "artist": "Eclypse_me",
         "playlist": "Main",
         "duration": "1:51"
@@ -212,7 +212,7 @@ const musicData = [
     },
     {
         "title": "скинь",
-        "artist": "яшенька - Topic",
+        "artist": "яшенька",
         "playlist": "Main",
         "duration": "1:53"
     },
@@ -284,7 +284,7 @@ const musicData = [
     },
     {
         "title": "усну навсегда",
-        "artist": "яшенька",
+        "artist": "яшенька - Topic",
         "playlist": "Main",
         "duration": "1:28"
     },
@@ -374,7 +374,7 @@ const musicData = [
     },
     {
         "title": "В реальності новій",
-        "artist": "Апатія - Topic",
+        "artist": "Апатія",
         "playlist": "Main",
         "duration": "2:45"
     },
@@ -446,7 +446,7 @@ const musicData = [
     },
     {
         "title": "чёрный шёлк",
-        "artist": "3umph - Topic",
+        "artist": "3umph",
         "playlist": "Main",
         "duration": "1:58"
     },
@@ -2942,7 +2942,7 @@ const musicData = [
     },
     {
         "title": "Котик",
-        "artist": "enveel",
+        "artist": "enveel & onokami",
         "playlist": "Dead inside",
         "duration": "2:13"
     },
