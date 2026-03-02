@@ -4076,7 +4076,7 @@ const musicData = [
     },
     {
         "title": "На стол",
-        "artist": "LonelyStash",
+        "artist": "LonelyStash & Готлиб",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
@@ -5624,7 +5624,7 @@ const musicData = [
     },
     {
         "title": "mirrors demo",
-        "artist": "overtonight throwaways",
+        "artist": "overtonight throwaways - Topic",
         "playlist": "Dead inside",
         "duration": "1:46"
     },
@@ -5768,13 +5768,13 @@ const musicData = [
     },
     {
         "title": "Дискордикс",
-        "artist": "erix",
+        "artist": "erix - Topic",
         "playlist": "Dead inside",
         "duration": "1:54"
     },
     {
         "title": "Кент",
-        "artist": "KSB muzic",
+        "artist": "KSB muzic - Topic",
         "playlist": "Dead inside",
         "duration": "2:45"
     },
@@ -5804,7 +5804,7 @@ const musicData = [
     },
     {
         "title": "нарратор",
-        "artist": "lafkrat",
+        "artist": "lafkrat - Topic",
         "playlist": "Dead inside",
         "duration": "2:24"
     },
@@ -5828,7 +5828,7 @@ const musicData = [
     },
     {
         "title": "Fly-day Chinatown",
-        "artist": "Yasuha",
+        "artist": "泰葉 - Topic",
         "playlist": "Dead inside",
         "duration": "3:31"
     },
@@ -5839,8 +5839,8 @@ const musicData = [
         "duration": "4:11"
     },
     {
-        "title": "真夜中のドア〜stay with me (Original club mix) - Mayonaka no Door~stay with me (Original club mix)",
-        "artist": "Miki Matsubara",
+        "title": "真夜中のドア〜stay with me (Original club mix)",
+        "artist": "Miki Matsubara - Topic",
         "playlist": "Dead inside",
         "duration": "5:47"
     },
@@ -5990,7 +5990,7 @@ const musicData = [
     },
     {
         "title": "крестики-нолики",
-        "artist": "zhanulka",
+        "artist": "Zhanulka - Topic",
         "playlist": "Dead inside",
         "duration": "2:09"
     },
@@ -6044,7 +6044,7 @@ const musicData = [
     },
     {
         "title": "У моєму тихому вирі",
-        "artist": "Сметана band",
+        "artist": "Smetana Band - Topic",
         "playlist": "Dead inside",
         "duration": "4:18"
     },
@@ -6098,7 +6098,7 @@ const musicData = [
     },
     {
         "title": "Teenage Dirtbag",
-        "artist": "Wheatus",
+        "artist": "Wheatus - Topic",
         "playlist": "Dead inside",
         "duration": "4:02"
     },
