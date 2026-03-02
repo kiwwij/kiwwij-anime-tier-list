@@ -1292,7 +1292,7 @@ const musicData = [
     },
     {
         "title": "ярче звёзд",
-        "artist": "плм",
+        "artist": "ПОЛМАТЕРИ",
         "playlist": "Dead inside",
         "duration": "2:48"
     },
@@ -2942,7 +2942,7 @@ const musicData = [
     },
     {
         "title": "Котик",
-        "artist": "enveel",
+        "artist": "enveel & onokami",
         "playlist": "Dead inside",
         "duration": "2:13"
     },
