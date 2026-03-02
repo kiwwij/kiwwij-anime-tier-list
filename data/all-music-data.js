@@ -1555,12 +1555,6 @@ const musicData = [
         "duration": "2:14"
     },
     {
-        "title": "Trap Luv",
-        "artist": "Big Baby Tape",
-        "playlist": "Dead inside",
-        "duration": "2:28"
-    },
-    {
         "title": "Я урод",
         "artist": "Tenderlybae",
         "playlist": "Dead inside",
@@ -6351,6 +6345,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 578,
-    "totalDurationSec": 171477,
+    "totalDurationSec": 171329,
     "lastUpdated": "Auto-generated"
 };
