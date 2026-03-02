@@ -22,7 +22,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 26.4,
+            "playtime_2weeks": 26.2,
             "hours": 3200.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 3489700,
             "name": "Stellar Blade™",
-            "playtime_2weeks": 22.8,
-            "hours": 24.3,
+            "playtime_2weeks": 23.3,
+            "hours": 24.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
             "url": "https://store.steampowered.com/app/3489700"
         },
@@ -62,7 +62,7 @@ const steamData = {
         {
             "appid": 3733960,
             "name": "CODE VEIN II - Character Creator Demo",
-            "playtime_2weeks": 0.8,
+            "playtime_2weeks": 0.7,
             "hours": 0.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3733960/header.jpg",
             "url": "https://store.steampowered.com/app/3733960"
