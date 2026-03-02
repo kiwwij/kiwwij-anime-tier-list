@@ -3817,13 +3817,13 @@ const musicData = [
         "duration": "1:47"
     },
     {
-        "title": "AP$ENT - Можно я с тобой?",
-        "artist": "ApSent",
+        "title": "Можно я с тобой",
+        "artist": "AP$ENT",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
     {
-        "title": "DK - PRAXX (Audio)",
+        "title": "PRAXX",
         "artist": "DK",
         "playlist": "Dead inside",
         "duration": "3:46"
@@ -3889,8 +3889,8 @@ const musicData = [
         "duration": "1:48"
     },
     {
-        "title": "BAWN & АПАТІЯ -  НЕ ПРОКИНУСЬ  [LYRIC VIDEO]",
-        "artist": "BaWN",
+        "title": "Не прокинусь",
+        "artist": "Апатія",
         "playlist": "Dead inside",
         "duration": "3:22"
     },
@@ -4046,7 +4046,7 @@ const musicData = [
     },
     {
         "title": "у меня внутри",
-        "artist": "Cold Carti - Topic",
+        "artist": "cold carti",
         "playlist": "Dead inside",
         "duration": "2:37"
     },
@@ -4112,7 +4112,7 @@ const musicData = [
     },
     {
         "title": "Киндер Буэно",
-        "artist": "Slava KPSS - Topic",
+        "artist": "Валентин Дядька",
         "playlist": "Dead inside",
         "duration": "3:12"
     },
