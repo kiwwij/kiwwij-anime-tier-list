@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 3489700,
             "name": "Stellar Blade™",
-            "playtime_2weeks": 20.8,
-            "hours": 22.3,
+            "playtime_2weeks": 21.8,
+            "hours": 23.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
             "url": "https://store.steampowered.com/app/3489700"
         },
@@ -50,6 +50,14 @@ const steamData = {
             "hours": 3.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1622910/header.jpg",
             "url": "https://store.steampowered.com/app/1622910"
+        },
+        {
+            "appid": 1277510,
+            "name": "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
+            "playtime_2weeks": 1.0,
+            "hours": 1.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
+            "url": "https://store.steampowered.com/app/1277510"
         },
         {
             "appid": 3733960,
@@ -82,14 +90,6 @@ const steamData = {
             "hours": 15.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
             "url": "https://store.steampowered.com/app/920490"
-        },
-        {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.3,
-            "hours": 19.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
