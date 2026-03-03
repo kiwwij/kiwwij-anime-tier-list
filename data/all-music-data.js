@@ -487,6 +487,18 @@ const musicData = [
         "duration": "1:35"
     },
     {
+        "title": "БОРОВ",
+        "artist": "Suanoo",
+        "playlist": "Main",
+        "duration": "1:29"
+    },
+    {
+        "title": "loser club",
+        "artist": "wifiskeleton",
+        "playlist": "Main",
+        "duration": "1:22"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6345,6 +6357,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 578,
-    "totalDurationSec": 171329,
+    "totalDurationSec": 171500,
     "lastUpdated": "Auto-generated"
 };
