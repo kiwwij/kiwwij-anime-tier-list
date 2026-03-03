@@ -5197,8 +5197,8 @@ const musicData = [
         "duration": "2:37"
     },
     {
-        "title": "Белочка с Армлетом (ROCK VERSION)",
-        "artist": "youraifu",
+        "title": "Белочка с Армлетом (Rock Version)",
+        "artist": "AICOVERGIRL",
         "playlist": "Dead inside",
         "duration": "1:55"
     },
@@ -5315,6 +5315,12 @@ const musicData = [
         "artist": "kyNZai",
         "playlist": "Dead inside",
         "duration": "1:54"
+    },
+    {
+        "title": "Код Гиасс",
+        "artist": "dabbackwood",
+        "playlist": "Dead inside",
+        "duration": "2:27"
     },
     {
         "title": "забери",
@@ -5630,7 +5636,7 @@ const musicData = [
     },
     {
         "title": "Правило 34",
-        "artist": "Denks",
+        "artist": "Release - Topic",
         "playlist": "Dead inside",
         "duration": "3:32"
     },
@@ -5780,7 +5786,7 @@ const musicData = [
     },
     {
         "title": "ПЫХ-ПЫХ",
-        "artist": "SQWOZ BAB",
+        "artist": "SQWOZ BAB - Topic",
         "playlist": "Dead inside",
         "duration": "2:20"
     },
@@ -5810,7 +5816,7 @@ const musicData = [
     },
     {
         "title": "Сайт",
-        "artist": "Раковая Выхухоль",
+        "artist": "Раковая Выхухоль - Topic",
         "playlist": "Dead inside",
         "duration": "2:26"
     },
@@ -5978,19 +5984,19 @@ const musicData = [
     },
     {
         "title": "гладиатор/рыцарь",
-        "artist": "fallen777angel",
+        "artist": "fallen777angel - Topic",
         "playlist": "Dead inside",
         "duration": "1:45"
     },
     {
         "title": "МОЙ БАТЯ",
-        "artist": "ПОЛАРОЙД",
+        "artist": "ПОЛАРОЙД - Topic",
         "playlist": "Dead inside",
         "duration": "1:59"
     },
     {
         "title": "крестики-нолики",
-        "artist": "zhanulka",
+        "artist": "Zhanulka - Topic",
         "playlist": "Dead inside",
         "duration": "2:09"
     },
@@ -6025,8 +6031,8 @@ const musicData = [
         "duration": "2:15"
     },
     {
-        "title": "1800 (feat. Ironmouse)",
-        "artist": "bbno$",
+        "title": "1800",
+        "artist": "​bbno$ - Topic",
         "playlist": "Dead inside",
         "duration": "3:28"
     },
@@ -6080,7 +6086,7 @@ const musicData = [
     },
     {
         "title": "Шиншиллы",
-        "artist": "ЛСП",
+        "artist": "ЛСП - Topic",
         "playlist": "Dead inside",
         "duration": "2:30"
     },
@@ -6158,7 +6164,7 @@ const musicData = [
     },
     {
         "title": "На стол",
-        "artist": "LonelyStash",
+        "artist": "LonelyStash - Topic",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
@@ -6182,7 +6188,7 @@ const musicData = [
     },
     {
         "title": "Саня",
-        "artist": "ФРЭНК",
+        "artist": "ФРЭНК - Topic",
         "playlist": "Dead inside",
         "duration": "1:51"
     },
@@ -6345,6 +6351,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 578,
-    "totalDurationSec": 171329,
+    "totalDurationSec": 171476,
     "lastUpdated": "Auto-generated"
 };
