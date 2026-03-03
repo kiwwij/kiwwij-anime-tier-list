@@ -1292,7 +1292,7 @@ const musicData = [
     },
     {
         "title": "ярче звёзд",
-        "artist": "плм",
+        "artist": "ПОЛМАТЕРИ",
         "playlist": "Dead inside",
         "duration": "2:48"
     },
@@ -4453,14 +4453,14 @@ const musicData = [
         "duration": "2:30"
     },
     {
-        "title": "Lucid Dreams",
-        "artist": "Juice WRLD",
+        "title": "Juice WRLD - Lucid Dreams (Official Music Video)",
+        "artist": "Lyrical Lemonade",
         "playlist": "Dead inside",
         "duration": "3:51"
     },
     {
         "title": "11:11",
-        "artist": "Кишлак",
+        "artist": "Kishlak - Topic",
         "playlist": "Dead inside",
         "duration": "3:02"
     },
@@ -4778,7 +4778,7 @@ const musicData = [
     },
     {
         "title": "I Like the Way You Kiss Me",
-        "artist": "WHITE DRAGON",
+        "artist": "WHITE DRAGON - Topic",
         "playlist": "Dead inside",
         "duration": "2:25"
     },
@@ -4861,8 +4861,8 @@ const musicData = [
         "duration": "2:11"
     },
     {
-        "title": "Я ночью плачу",
-        "artist": "Матис",
+        "title": "СТИНТ, Матис - Я ночью плачу (премьера трека, 2024)",
+        "artist": "Stintik ",
         "playlist": "Dead inside",
         "duration": "2:34"
     },
@@ -4963,7 +4963,7 @@ const musicData = [
         "duration": "2:01"
     },
     {
-        "title": "однополярности",
+        "title": "mzlff, STED.D - однополярности (ANEMONE)",
         "artist": "MZLFF",
         "playlist": "Dead inside",
         "duration": "2:51"
