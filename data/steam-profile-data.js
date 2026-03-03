@@ -22,8 +22,8 @@ const steamData = {
         {
             "appid": 3489700,
             "name": "Stellar Blade™",
-            "playtime_2weeks": 36.4,
-            "hours": 37.8,
+            "playtime_2weeks": 37.4,
+            "hours": 38.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
             "url": "https://store.steampowered.com/app/3489700"
         },
