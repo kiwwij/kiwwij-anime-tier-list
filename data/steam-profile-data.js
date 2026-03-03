@@ -20,20 +20,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2909400"
         },
         {
+            "appid": 3489700,
+            "name": "Stellar Blade™",
+            "playtime_2weeks": 26.5,
+            "hours": 28.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
+            "url": "https://store.steampowered.com/app/3489700"
+        },
+        {
             "appid": 570,
             "name": "Dota 2",
             "playtime_2weeks": 25.6,
             "hours": 3200.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
-        },
-        {
-            "appid": 3489700,
-            "name": "Stellar Blade™",
-            "playtime_2weeks": 25.5,
-            "hours": 27.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
-            "url": "https://store.steampowered.com/app/3489700"
         },
         {
             "appid": 221040,
