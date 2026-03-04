@@ -487,12 +487,6 @@ const musicData = [
         "duration": "1:35"
     },
     {
-        "title": "БОРОВ",
-        "artist": "Suanoo",
-        "playlist": "Main",
-        "duration": "1:29"
-    },
-    {
         "title": "loser club",
         "artist": "wifiskeleton",
         "playlist": "Main",
@@ -6223,6 +6217,18 @@ const musicData = [
         "duration": "2:00"
     },
     {
+        "title": "БОРОВ",
+        "artist": "Suanoo",
+        "playlist": "Dead inside",
+        "duration": "1:29"
+    },
+    {
+        "title": "Тупой",
+        "artist": "Юпи & boogshi",
+        "playlist": "Dead inside",
+        "duration": "1:50"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6357,6 +6363,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 578,
-    "totalDurationSec": 171500,
+    "totalDurationSec": 171610,
     "lastUpdated": "Auto-generated"
 };
