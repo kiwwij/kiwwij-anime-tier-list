@@ -866,7 +866,7 @@ const musicData = [
     },
     {
         "title": "1000-7",
-        "artist": "fem.love - Topic",
+        "artist": "fem.love",
         "playlist": "Dead inside",
         "duration": "1:58"
     },
@@ -890,7 +890,7 @@ const musicData = [
     },
     {
         "title": "Aomine Daiki",
-        "artist": "quiizzzmeow - Topic",
+        "artist": "quiizzzmeow",
         "playlist": "Dead inside",
         "duration": "2:48"
     },
@@ -955,7 +955,7 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "Twinky - ghoul prod. LLIIEEDD",
+        "title": "Ghoul",
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:15"
@@ -1262,7 +1262,7 @@ const musicData = [
     },
     {
         "title": "Степень искренности",
-        "artist": "Volkprod - Topic",
+        "artist": "Volkprod",
         "playlist": "Dead inside",
         "duration": "2:58"
     },
@@ -1315,8 +1315,8 @@ const musicData = [
         "duration": "2:48"
     },
     {
-        "title": "плм — маша (Official audio)",
-        "artist": "Rhymes Music",
+        "title": "маша",
+        "artist": "плм",
         "playlist": "Dead inside",
         "duration": "1:56"
     },
