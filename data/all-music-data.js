@@ -493,6 +493,18 @@ const musicData = [
         "duration": "1:22"
     },
     {
+        "title": "пароли",
+        "artist": "KERASINN",
+        "playlist": "Main",
+        "duration": "1:24"
+    },
+    {
+        "title": "отвратительный король",
+        "artist": "тёмный принц",
+        "playlist": "Main",
+        "duration": "1:52"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -854,7 +866,7 @@ const musicData = [
     },
     {
         "title": "1000-7",
-        "artist": "fem.love",
+        "artist": "fem.love - Topic",
         "playlist": "Dead inside",
         "duration": "1:58"
     },
@@ -878,7 +890,7 @@ const musicData = [
     },
     {
         "title": "Aomine Daiki",
-        "artist": "quiizzzmeow",
+        "artist": "quiizzzmeow - Topic",
         "playlist": "Dead inside",
         "duration": "2:48"
     },
@@ -943,7 +955,7 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "Ghoul",
+        "title": "Twinky - ghoul prod. LLIIEEDD",
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:15"
@@ -1250,7 +1262,7 @@ const musicData = [
     },
     {
         "title": "Степень искренности",
-        "artist": "Volkprod",
+        "artist": "Volkprod - Topic",
         "playlist": "Dead inside",
         "duration": "2:58"
     },
@@ -1303,8 +1315,8 @@ const musicData = [
         "duration": "2:48"
     },
     {
-        "title": "маша",
-        "artist": "плм",
+        "title": "плм — маша (Official audio)",
+        "artist": "Rhymes Music",
         "playlist": "Dead inside",
         "duration": "1:56"
     },
@@ -6229,6 +6241,12 @@ const musicData = [
         "duration": "1:50"
     },
     {
+        "title": "TryToFriend",
+        "artist": "FORTUNA 812",
+        "playlist": "Dead inside",
+        "duration": "1:53"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6363,6 +6381,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 578,
-    "totalDurationSec": 171610,
+    "totalDurationSec": 171919,
     "lastUpdated": "Auto-generated"
 };
