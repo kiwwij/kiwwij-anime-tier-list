@@ -406,17 +406,22 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "БОРОВ",
-        "artist": "Suanoo",
+        "title": "loser club",
+        "artist": "wifiskeleton",
         "playlist": "Main"
     },
     {
-        "title": "loser club",
-        "artist": "wifiskeleton",
+        "title": "пароли",
+        "artist": "KERASINN",
+        "playlist": "Main"
+    },
+    {
+        "title": "отвратительный король",
+        "artist": "тёмный принц",
         "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 16,
-    "totalDurationSec": 10353
+    "totalDurationSec": 10460
 };
