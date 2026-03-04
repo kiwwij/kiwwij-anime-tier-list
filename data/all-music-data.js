@@ -6247,6 +6247,12 @@ const musicData = [
         "duration": "1:53"
     },
     {
+        "title": "Никогда",
+        "artist": "Руслан Утюг",
+        "playlist": "Dead inside",
+        "duration": "2:55"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6381,6 +6387,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 578,
-    "totalDurationSec": 171919,
+    "totalDurationSec": 172094,
     "lastUpdated": "Auto-generated"
 };
