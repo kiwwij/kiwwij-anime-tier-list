@@ -404,9 +404,19 @@ const musicData = [
         "title": "губы",
         "artist": "тёмный принц",
         "playlist": "Main"
+    },
+    {
+        "title": "БОРОВ",
+        "artist": "Suanoo",
+        "playlist": "Main"
+    },
+    {
+        "title": "loser club",
+        "artist": "wifiskeleton",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 16,
-    "totalDurationSec": 10182
+    "totalDurationSec": 10353
 };
