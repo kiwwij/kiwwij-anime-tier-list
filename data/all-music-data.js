@@ -2449,7 +2449,7 @@ const musicData = [
         "duration": "1:14"
     },
     {
-        "title": "билборды - пепел",
+        "title": "Пепел",
         "artist": "билборды",
         "playlist": "Dead inside",
         "duration": "2:45"
