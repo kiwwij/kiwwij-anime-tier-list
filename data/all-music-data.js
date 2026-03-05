@@ -3697,7 +3697,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О боже, какой мужчина!",
+        "title": "О, Боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -5209,8 +5209,8 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "Гроза лесных крипов",
-        "artist": "youraifu",
+        "title": "Гроза Лесных Крипов",
+        "artist": "AICOVERGIRL",
         "playlist": "Dead inside",
         "duration": "2:37"
     },
