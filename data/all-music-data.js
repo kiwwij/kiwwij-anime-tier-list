@@ -6386,7 +6386,7 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 579,
+    "totalViews": 578,
     "totalDurationSec": 172094,
     "lastUpdated": "Auto-generated"
 };
