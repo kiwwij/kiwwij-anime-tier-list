@@ -836,7 +836,7 @@ const musicData = [
     },
     {
         "title": "Лёд",
-        "artist": "WENARO & LXNER",
+        "artist": "WENARO",
         "playlist": "Dead inside",
         "duration": "2:33"
     },
@@ -1310,7 +1310,7 @@ const musicData = [
     },
     {
         "title": "ярче звёзд",
-        "artist": "ПОЛМАТЕРИ",
+        "artist": "плм",
         "playlist": "Dead inside",
         "duration": "2:48"
     },
@@ -2960,7 +2960,7 @@ const musicData = [
     },
     {
         "title": "Котик",
-        "artist": "enveel",
+        "artist": "enveel & onokami",
         "playlist": "Dead inside",
         "duration": "2:13"
     },
@@ -4585,7 +4585,7 @@ const musicData = [
         "duration": "2:03"
     },
     {
-        "title": "Мама удалила роблокс",
+        "title": "Мама удалила роблокс (feat. Gulyashik & Qurorr)",
         "artist": "Lemaier",
         "playlist": "Dead inside",
         "duration": "3:04"
