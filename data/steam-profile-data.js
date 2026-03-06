@@ -30,10 +30,18 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 31.6,
-            "hours": 3209.6,
+            "playtime_2weeks": 31.3,
+            "hours": 3210.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
+        },
+        {
+            "appid": 1954200,
+            "name": "Kena: Bridge of Spirits",
+            "playtime_2weeks": 7.0,
+            "hours": 16.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1954200/header.jpg",
+            "url": "https://store.steampowered.com/app/1954200"
         },
         {
             "appid": 221040,
@@ -42,14 +50,6 @@ const steamData = {
             "hours": 6.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
             "url": "https://store.steampowered.com/app/221040"
-        },
-        {
-            "appid": 1954200,
-            "name": "Kena: Bridge of Spirits",
-            "playtime_2weeks": 6.0,
-            "hours": 15.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1954200/header.jpg",
-            "url": "https://store.steampowered.com/app/1954200"
         },
         {
             "appid": 1622910,
