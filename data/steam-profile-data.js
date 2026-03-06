@@ -46,8 +46,8 @@ const steamData = {
         {
             "appid": 1954200,
             "name": "Kena: Bridge of Spirits",
-            "playtime_2weeks": 4.0,
-            "hours": 13.2,
+            "playtime_2weeks": 5.5,
+            "hours": 14.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1954200/header.jpg",
             "url": "https://store.steampowered.com/app/1954200"
         },
