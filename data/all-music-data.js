@@ -940,7 +940,7 @@ const musicData = [
         "title": "Антикобыла (prod. by SHEEPY)",
         "artist": "daybe",
         "playlist": "Dead inside",
-        "duration": "2:33"
+        "duration": "2:34"
     },
     {
         "title": "BadCurt - Кёрт я тебя люблю speed up",
@@ -6387,6 +6387,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 579,
-    "totalDurationSec": 172094,
+    "totalDurationSec": 172095,
     "lastUpdated": "Auto-generated"
 };
