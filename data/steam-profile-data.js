@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -46,8 +46,8 @@ const steamData = {
         {
             "appid": 221040,
             "name": "Resident Evil 6",
-            "playtime_2weeks": 6.2,
-            "hours": 6.2,
+            "playtime_2weeks": 7.3,
+            "hours": 7.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
             "url": "https://store.steampowered.com/app/221040"
         },
