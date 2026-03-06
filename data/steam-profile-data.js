@@ -52,6 +52,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1622910"
         },
         {
+            "appid": 1954200,
+            "name": "Kena: Bridge of Spirits",
+            "playtime_2weeks": 1.0,
+            "hours": 10.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1954200/header.jpg",
+            "url": "https://store.steampowered.com/app/1954200"
+        },
+        {
             "appid": 1277510,
             "name": "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
             "playtime_2weeks": 1.0,
@@ -82,14 +90,6 @@ const steamData = {
             "hours": 15.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
             "url": "https://store.steampowered.com/app/920490"
-        },
-        {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.3,
-            "hours": 19.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
