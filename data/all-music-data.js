@@ -4447,7 +4447,7 @@ const musicData = [
         "duration": "3:06"
     },
     {
-        "title": "MellSher - Мне хорошо (Премьера 2024)",
+        "title": "Мне хорошо",
         "artist": "MellSher",
         "playlist": "Dead inside",
         "duration": "2:40"
@@ -4609,8 +4609,8 @@ const musicData = [
         "duration": "2:28"
     },
     {
-        "title": "asteria - FBM (feat. 6arelyhuman & kets4eki) (Official Visualizer)",
-        "artist": "asteria",
+        "title": "asteria - FBM (Official Visualizer) (feat. asteria, kets4eki & Britney Manson)",
+        "artist": "Anarchist Sanctuary",
         "playlist": "Dead inside",
         "duration": "2:35"
     },
@@ -4663,8 +4663,8 @@ const musicData = [
         "duration": "1:42"
     },
     {
-        "title": "СТИНТ - Даша (альбом Такова жизнь, 2024)",
-        "artist": "Stintik ",
+        "title": "Даша",
+        "artist": "СТИНТ",
         "playlist": "Dead inside",
         "duration": "2:40"
     },
@@ -4753,8 +4753,8 @@ const musicData = [
         "duration": "2:28"
     },
     {
-        "title": "STARSET - My Demons (Official Music Video)",
-        "artist": "starsetVEVO",
+        "title": "My Demons (Official Music Video)",
+        "artist": "STARSET",
         "playlist": "Dead inside",
         "duration": "3:43"
     },
@@ -4825,8 +4825,8 @@ const musicData = [
         "duration": "2:00"
     },
     {
-        "title": "asteria - w4ste away (feat. Black Kray) (Official Visualizer)",
-        "artist": "asteria",
+        "title": "w4ste away (w/ Sickboyrari)",
+        "artist": "asteria & Sickboyrari",
         "playlist": "Dead inside",
         "duration": "2:57"
     },
