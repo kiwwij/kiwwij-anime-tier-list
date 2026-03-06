@@ -1351,8 +1351,8 @@ const musicData = [
         "duration": "3:59"
     },
     {
-        "title": "Tom's Diner",
-        "artist": "Suzanne Vega",
+        "title": "Suzanne Vega, DNA - Tom's Diner",
+        "artist": "SuzanneVegaVEVO",
         "playlist": "Dead inside",
         "duration": "3:48"
     },
