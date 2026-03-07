@@ -5084,7 +5084,7 @@ const musicData = [
     },
     {
         "title": "Мефистофель",
-        "artist": "5mewmet - Topic",
+        "artist": "5mewmet",
         "playlist": "Dead inside",
         "duration": "1:27"
     },
@@ -5107,7 +5107,7 @@ const musicData = [
         "duration": "2:20"
     },
     {
-        "title": "Краски - всего 15 лет (Hardstyle Remix) (OUT ON ALL PLATFORMS)",
+        "title": "Всего 15 лет (BRZ Hardstyle Remix)",
         "artist": "BRZ",
         "playlist": "Dead inside",
         "duration": "2:58"
@@ -5276,7 +5276,7 @@ const musicData = [
     },
     {
         "title": "рехаб",
-        "artist": "madk1d - Topic",
+        "artist": "madk1d",
         "playlist": "Dead inside",
         "duration": "1:32"
     },
@@ -5384,7 +5384,7 @@ const musicData = [
     },
     {
         "title": "SLAY",
-        "artist": "Neverlove - Topic",
+        "artist": "Neverlove",
         "playlist": "Dead inside",
         "duration": "2:56"
     },
@@ -5443,7 +5443,7 @@ const musicData = [
         "duration": "1:48"
     },
     {
-        "title": "SQWOZ BAB - ПЫХ ПЫХ (Премьера клипа 2024)",
+        "title": "Пых-Пых",
         "artist": "SQWOZ BAB",
         "playlist": "Dead inside",
         "duration": "2:31"
@@ -5588,7 +5588,7 @@ const musicData = [
     },
     {
         "title": "адреналин",
-        "artist": "erix - Topic",
+        "artist": "erix",
         "playlist": "Dead inside",
         "duration": "2:29"
     },
