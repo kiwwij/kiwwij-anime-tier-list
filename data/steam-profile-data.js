@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 88.9,
+            "playtime_2weeks": 88.8,
             "hours": 121.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
@@ -62,8 +62,8 @@ const steamData = {
         {
             "appid": 1277510,
             "name": "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
-            "playtime_2weeks": 1.0,
-            "hours": 1.1,
+            "playtime_2weeks": 1.5,
+            "hours": 1.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
             "url": "https://store.steampowered.com/app/1277510"
         },
