@@ -6253,6 +6253,12 @@ const musicData = [
         "duration": "2:55"
     },
     {
+        "title": "#ЛЯШКИВКУСНЯШКИ (EDIT VERSION) (prod.by Kolji)",
+        "artist": "ЯКОРЪ",
+        "playlist": "Dead inside",
+        "duration": "2:06"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6387,6 +6393,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 579,
-    "totalDurationSec": 172095,
+    "totalDurationSec": 172221,
     "lastUpdated": "Auto-generated"
 };
