@@ -6182,7 +6182,7 @@ const musicData = [
     },
     {
         "title": "Babydoll",
-        "artist": "Dominic Fike - Topic",
+        "artist": "Dominic Fike",
         "playlist": "Dead inside",
         "duration": "1:38"
     },
