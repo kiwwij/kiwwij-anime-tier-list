@@ -4453,14 +4453,14 @@ const musicData = [
         "duration": "2:40"
     },
     {
-        "title": "八王子P 「気まぐれメルシィ  feat. 初音ミク」(6/15発売Best AL「Eight」収録）",
-        "artist": "八王子P",
+        "title": "八王子P 「気まぐれメルシィ  feat. 初音ミク」(6/15発売Best AL「Eight」収録） - Blue Star",
+        "artist": "Hachiouji P",
         "playlist": "Dead inside",
         "duration": "3:29"
     },
     {
         "title": "succubus",
-        "artist": "rizza - Topic",
+        "artist": "rizza",
         "playlist": "Dead inside",
         "duration": "1:38"
     },
@@ -4940,7 +4940,7 @@ const musicData = [
     },
     {
         "title": "Я схожу с ума",
-        "artist": "CUPSIZE - Topic",
+        "artist": "CUPSIZE",
         "playlist": "Dead inside",
         "duration": "3:08"
     },
@@ -4994,7 +4994,7 @@ const musicData = [
     },
     {
         "title": "Sunday",
-        "artist": "The Cranberries - Topic",
+        "artist": "The Cranberries",
         "playlist": "Dead inside",
         "duration": "3:31"
     },
@@ -5030,7 +5030,7 @@ const musicData = [
     },
     {
         "title": "Лиза",
-        "artist": "Матис - Topic",
+        "artist": "Матис",
         "playlist": "Dead inside",
         "duration": "1:54"
     },
@@ -5203,8 +5203,8 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "Луз за Лузом",
-        "artist": "AICOVERGIRL",
+        "title": "Луз за лузом",
+        "artist": "youraifu",
         "playlist": "Dead inside",
         "duration": "2:36"
     },
