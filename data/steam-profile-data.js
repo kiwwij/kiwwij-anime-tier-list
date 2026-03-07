@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 87.0,
+            "playtime_2weeks": 86.9,
             "hours": 121.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
@@ -54,7 +54,7 @@ const steamData = {
         {
             "appid": 1622910,
             "name": "Still Wakes the Deep",
-            "playtime_2weeks": 3.8,
+            "playtime_2weeks": 3.6,
             "hours": 3.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1622910/header.jpg",
             "url": "https://store.steampowered.com/app/1622910"
