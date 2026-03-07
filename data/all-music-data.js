@@ -2635,10 +2635,46 @@ const musicData = [
         "duration": "1:23"
     },
     {
+        "title": "Cumback",
+        "artist": "Nekoglai",
+        "playlist": "Dead inside",
+        "duration": "1:49"
+    },
+    {
+        "title": "Милі, хороші дорослі! Забороніть війну! Зупиніть війну!",
+        "artist": "Володимир Шабанов",
+        "playlist": "Dead inside",
+        "duration": "4:00"
+    },
+    {
+        "title": "НАСТОЯЩИЙ ДЕТЕКТИВ [саундтрек]",
+        "artist": "Soundtrack fm",
+        "playlist": "Dead inside",
+        "duration": "2:50"
+    },
+    {
         "title": "🖇💞Мы-Возможно (speed ap )💞🖇",
         "artist": "…meоnikа…",
         "playlist": "Dead inside",
         "duration": "1:42"
+    },
+    {
+        "title": "Spider-Man: Across the Spider-Verse | \"Calling\" by Metro Boomin x Nav x A Boogie with Swae Lee",
+        "artist": "Sony Pictures Animation",
+        "playlist": "Dead inside",
+        "duration": "2:00"
+    },
+    {
+        "title": "найтивыход - спектрофобия",
+        "artist": "Farrys Faresno",
+        "playlist": "Dead inside",
+        "duration": "4:08"
+    },
+    {
+        "title": "Lida & mzlff – КАК ДЕЛА (prod. by DK)",
+        "artist": "Aug 14, 2023",
+        "playlist": "Dead inside",
+        "duration": "1:23"
     },
     {
         "title": "CHU CHU LOVELY | CHAINSAW MAN 137 x MAXIMUM THE HORMONE",
@@ -2657,6 +2693,18 @@ const musicData = [
         "artist": "ZAMination",
         "playlist": "Dead inside",
         "duration": "4:25"
+    },
+    {
+        "title": "Nightcore - Suzume",
+        "artist": "Plume",
+        "playlist": "Dead inside",
+        "duration": "3:36"
+    },
+    {
+        "title": "【Honkai：Star Rail MMD／4K／60FPS】Stelle【[A]ddiction】",
+        "artist": "Akashi",
+        "playlist": "Dead inside",
+        "duration": "3:37"
     },
     {
         "title": "Имя 505",
@@ -2683,10 +2731,52 @@ const musicData = [
         "duration": "4:17"
     },
     {
+        "title": "Е,Бой",
+        "artist": "Время и Стекло",
+        "playlist": "Dead inside",
+        "duration": "3:09"
+    },
+    {
         "title": "Время и Стекло - Кафель",
         "artist": "Jan Moser",
         "playlist": "Dead inside",
         "duration": "3:30"
+    },
+    {
+        "title": "BEST PHONK FOR YOUR FIRST SEX (NO) #phonk #phonkhouse #phonkmusic",
+        "artist": "LYKYOR",
+        "playlist": "Dead inside",
+        "duration": "1:53"
+    },
+    {
+        "title": "МУЛЬТ-КОЛЛАБ (Незнайка на Луне)",
+        "artist": "Студия Феникс",
+        "playlist": "Dead inside",
+        "duration": "1:48"
+    },
+    {
+        "title": "UNO UNO [bungou stray dogs amv] *thanks for +50K subs!*",
+        "artist": "panna amv",
+        "playlist": "Dead inside",
+        "duration": "0:59"
+    },
+    {
+        "title": "What Is Love (Baby Don't Hurt Me) [DDLC Animatic]",
+        "artist": "Hinaten",
+        "playlist": "Dead inside",
+        "duration": "1:26"
+    },
+    {
+        "title": "美少女無罪♡パイレーツ",
+        "artist": "Houshou Marine",
+        "playlist": "Dead inside",
+        "duration": "3:40"
+    },
+    {
+        "title": ": speed songs ::  Ooes права - Сквозь мои пальцы тянется лето Где бы ты не был здесь тебя нету ::",
+        "artist": "нюся",
+        "playlist": "Dead inside",
+        "duration": "2:14"
     },
     {
         "title": "Mobius",
@@ -2695,10 +2785,34 @@ const musicData = [
         "duration": "2:16"
     },
     {
+        "title": "Steal The Show (From \"Elemental\"/Official Audio)",
+        "artist": "Lauv",
+        "playlist": "Dead inside",
+        "duration": "3:18"
+    },
+    {
+        "title": "А может просто негром стать",
+        "artist": "TepHoBbl1 kycT",
+        "playlist": "Dead inside",
+        "duration": "2:57"
+    },
+    {
+        "title": "Мова вітру (З м/ф \"Мавка. Лісова пісня\")",
+        "artist": "Khrystyna Soloviy",
+        "playlist": "Dead inside",
+        "duration": "3:36"
+    },
+    {
         "title": "Чёрный Русский",
         "artist": "MORGENSHTERN",
         "playlist": "Dead inside",
         "duration": "5:29"
+    },
+    {
+        "title": "Дискотека Авария - недетское время ( speed up )",
+        "artist": "Lizunchik",
+        "playlist": "Dead inside",
+        "duration": "3:56"
     },
     {
         "title": "Vitaliia - ТАКІ ДОРОСЛІ",
@@ -2707,16 +2821,40 @@ const musicData = [
         "duration": "2:55"
     },
     {
+        "title": "Пока Лена Проблем (meme) Пандекс",
+        "artist": "лось",
+        "playlist": "Dead inside",
+        "duration": "0:37"
+    },
+    {
         "title": "Ивангай - Нафиг (анимация)",
         "artist": "лось",
         "playlist": "Dead inside",
         "duration": "0:28"
     },
     {
+        "title": "Alan Walker - The Spectre",
+        "artist": "Alan Walker",
+        "playlist": "Dead inside",
+        "duration": "3:27"
+    },
+    {
+        "title": "катя самбука - сказка sped up \\ nightcore (мой утя до жути, зай я люблю тебя)",
+        "artist": "tenyauser",
+        "playlist": "Dead inside",
+        "duration": "1:52"
+    },
+    {
         "title": "enveel, onokami - Танцуй (speed up) + субтитры",
         "artist": "TemaFlux",
         "playlist": "Dead inside",
         "duration": "2:46"
+    },
+    {
+        "title": "АНИМАЦИЯ для Пандекса про ЖЕНЮ ЛИЗОГУБА",
+        "artist": "Пустое Яблоко",
+        "playlist": "Dead inside",
+        "duration": "0:51"
     },
     {
         "title": "Money, Money, Money (ABBA) 【covered by Anna】",
@@ -2749,6 +2887,12 @@ const musicData = [
         "duration": "2:48"
     },
     {
+        "title": "✌️Goodbye, Eri 【Manga Animation】",
+        "artist": "Nebz",
+        "playlist": "Dead inside",
+        "duration": "1:15"
+    },
+    {
         "title": "Не твоя",
         "artist": "OTURRO",
         "playlist": "Dead inside",
@@ -2761,10 +2905,46 @@ const musicData = [
         "duration": "2:12"
     },
     {
+        "title": "Cyberpunk: Edgerunner「AMV」WHO'S READY FOR TOMORROW IBDY and Rat Boy",
+        "artist": "RAHiiN",
+        "playlist": "Dead inside",
+        "duration": "1:57"
+    },
+    {
+        "title": "Самая (Speed Up)",
+        "artist": "Mada",
+        "playlist": "Dead inside",
+        "duration": "2:26"
+    },
+    {
+        "title": "МЫ - Возможно",
+        "artist": "Yakov Milenky",
+        "playlist": "Dead inside",
+        "duration": "2:17"
+    },
+    {
         "title": "Эрнест Меркель (Ernest Merkel) — Шайлушай (Полный трек, 2023)",
         "artist": "Бибизяна Манки",
         "playlist": "Dead inside",
         "duration": "2:09"
+    },
+    {
+        "title": "Future Girlfriend 音楽 - Your Grill",
+        "artist": "Real Love Music",
+        "playlist": "Dead inside",
+        "duration": "3:20"
+    },
+    {
+        "title": "Неталант",
+        "artist": "Twinky",
+        "playlist": "Dead inside",
+        "duration": "3:14"
+    },
+    {
+        "title": "chernoburkv - delo v tom, chto speed up",
+        "artist": "yatmnel",
+        "playlist": "Dead inside",
+        "duration": "1:55"
     },
     {
         "title": "Siski Jopa",
@@ -2803,10 +2983,46 @@ const musicData = [
         "duration": "2:15"
     },
     {
+        "title": "raingurl - meme | bright colors",
+        "artist": " Peachimari ",
+        "playlist": "Dead inside",
+        "duration": "0:26"
+    },
+    {
+        "title": "Gummy bear｜meme",
+        "artist": "水綿",
+        "playlist": "Dead inside",
+        "duration": "1:15"
+    },
+    {
         "title": "Carnival Phantasm OP",
         "artist": "satpeoplo01",
         "playlist": "Dead inside",
         "duration": "1:37"
+    },
+    {
+        "title": "Senko San - Наше Лето (AI cover)",
+        "artist": "b0nk",
+        "playlist": "Dead inside",
+        "duration": "3:25"
+    },
+    {
+        "title": "AZAR1K - PXRPLE SHXDOW (slowed € reverb)",
+        "artist": "ANG3U㾳",
+        "playlist": "Dead inside",
+        "duration": "2:49"
+    },
+    {
+        "title": "(SLOW EDIT) -A F T E R  D A R K- *elden ring* Melina",
+        "artist": "GmoneyPlays",
+        "playlist": "Dead inside",
+        "duration": "0:43"
+    },
+    {
+        "title": "я всё ещё мечтаю о тебе (speed up)",
+        "artist": "masfir",
+        "playlist": "Dead inside",
+        "duration": "1:34"
     },
     {
         "title": "Sasuke dr livesey phonk walk | fan animation | Anime Naruto",
@@ -2819,6 +3035,12 @@ const musicData = [
         "artist": "Rrrr Music",
         "playlist": "Dead inside",
         "duration": "4:34"
+    },
+    {
+        "title": "Лизогуб, Давид Туров - ЭЩ ЭЩ (ПРЕМЬЕРА)",
+        "artist": "LiveLinessMusic",
+        "playlist": "Dead inside",
+        "duration": "2:05"
     },
     {
         "title": "Группа:\"Ария\" - \"Я Свободен\"!",
@@ -2851,6 +3073,12 @@ const musicData = [
         "duration": "3:53"
     },
     {
+        "title": "Не отдам",
+        "artist": "MakSim",
+        "playlist": "Dead inside",
+        "duration": "3:22"
+    },
+    {
         "title": "Mada - Мне нормально (Official music)",
         "artist": "Mada",
         "playlist": "Dead inside",
@@ -2881,10 +3109,22 @@ const musicData = [
         "duration": "2:00"
     },
     {
+        "title": "Перший дзвоник",
+        "artist": "Наталія Май",
+        "playlist": "Dead inside",
+        "duration": "2:37"
+    },
+    {
         "title": "RED FLAGS - КАВЕР НА РУССКОМ | RED FLAGS - RUS COVER",
         "artist": "Cyber Cat Studio",
         "playlist": "Dead inside",
         "duration": "3:09"
+    },
+    {
+        "title": "Дайте чаю - Володимир Цибровський. Ольгопільське весілля ч.2  (Весільні пісні, Українські пісні)",
+        "artist": "Українська музика та пісні",
+        "playlist": "Dead inside",
+        "duration": "3:34"
     },
     {
         "title": "ЗимойБезШапки - Лёха (Текст, Lyrics)",
@@ -2893,10 +3133,40 @@ const musicData = [
         "duration": "1:41"
     },
     {
+        "title": "АФТЕРПАТИ (feat. xxxmanera)",
+        "artist": "uniqe",
+        "playlist": "Dead inside",
+        "duration": "3:19"
+    },
+    {
+        "title": "Банкомат",
+        "artist": "Dead Blonde",
+        "playlist": "Dead inside",
+        "duration": "3:20"
+    },
+    {
+        "title": "Музыка нас связала",
+        "artist": "Мираж",
+        "playlist": "Dead inside",
+        "duration": "4:27"
+    },
+    {
+        "title": "Happy Nation - Radio Edit",
+        "artist": "Ace of Base",
+        "playlist": "Dead inside",
+        "duration": "3:32"
+    },
+    {
         "title": "Zombies on Your Lawn MUSIC VIDEO (HD 60fps) - Plants vs. Zombies Ending Credits Song",
         "artist": "Laura Shigihara",
         "playlist": "Dead inside",
         "duration": "2:40"
+    },
+    {
+        "title": "Island Song (Come Along with Me) (Lyrics) - Ashley Eriksson (Adventure Time)",
+        "artist": "All As One",
+        "playlist": "Dead inside",
+        "duration": "1:50"
     },
     {
         "title": "Ага",
@@ -2923,10 +3193,40 @@ const musicData = [
         "duration": "2:27"
     },
     {
+        "title": "Клан",
+        "artist": "Катя Самбука",
+        "playlist": "Dead inside",
+        "duration": "2:36"
+    },
+    {
+        "title": "[RUS COVER] 美少女無罪♡パイレーツ【hololive/宝鐘マリン】【original anime MV】",
+        "artist": "Канал Окулос",
+        "playlist": "Dead inside",
+        "duration": "3:40"
+    },
+    {
+        "title": "Выкупи",
+        "artist": "ivanzolo2004",
+        "playlist": "Dead inside",
+        "duration": "1:32"
+    },
+    {
+        "title": "Зима в сердце",
+        "artist": "Moya Mishel",
+        "playlist": "Dead inside",
+        "duration": "3:41"
+    },
+    {
         "title": "Ревную",
         "artist": "Liza Evans",
         "playlist": "Dead inside",
         "duration": "2:52"
+    },
+    {
+        "title": "|| Fifty Fifty – Cupid || 💞 Speed up 💓 || меня нету в лайке и тт 🥹💋 ||",
+        "artist": "💗Lelik💗",
+        "playlist": "Dead inside",
+        "duration": "2:15"
     },
     {
         "title": "RASPUTIN (Russian Version) Распутин",
@@ -6093,6 +6393,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 584,
-    "totalDurationSec": 164569,
+    "totalDurationSec": 172221,
     "lastUpdated": "Auto-generated"
 };
