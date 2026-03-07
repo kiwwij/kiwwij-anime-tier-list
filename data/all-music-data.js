@@ -6392,7 +6392,7 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 584,
+    "totalViews": 579,
     "totalDurationSec": 172221,
     "lastUpdated": "Auto-generated"
 };
