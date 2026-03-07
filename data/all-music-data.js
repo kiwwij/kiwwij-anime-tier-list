@@ -5857,7 +5857,7 @@ const musicData = [
         "duration": "4:11"
     },
     {
-        "title": "真夜中のドア〜stay with me (Original club mix) - Mayonaka no Door~stay with me (Original club mix)",
+        "title": "真夜中のドア〜stay with me (Original Club Mix Mixed by D.O.I) - Mayonaka no Door 〜 Stay with Me (Original Club Mix)",
         "artist": "Miki Matsubara",
         "playlist": "Dead inside",
         "duration": "5:47"
@@ -5918,7 +5918,7 @@ const musicData = [
     },
     {
         "title": "shotgun.",
-        "artist": "overtonight",
+        "artist": "overtonight - Topic",
         "playlist": "Dead inside",
         "duration": "1:52"
     },
@@ -5978,7 +5978,7 @@ const musicData = [
     },
     {
         "title": "СИЛУЕТИ (Апатія Remix)",
-        "artist": "СТРУКТУРА ЩАСТЯ",
+        "artist": "СТРУКТУРА ЩАСТЯ - Topic",
         "playlist": "Dead inside",
         "duration": "2:43"
     },
@@ -6020,7 +6020,7 @@ const musicData = [
     },
     {
         "title": "Reverie",
-        "artist": "KRISTIEE",
+        "artist": "KRISTIEE - Topic",
         "playlist": "Dead inside",
         "duration": "2:10"
     },
@@ -6068,7 +6068,7 @@ const musicData = [
     },
     {
         "title": "Але якщо ти...",
-        "artist": "Do Sliz",
+        "artist": "Do Sliz - Topic",
         "playlist": "Dead inside",
         "duration": "3:14"
     },
@@ -6170,7 +6170,7 @@ const musicData = [
     },
     {
         "title": "Я вб'ю всіх богів",
-        "artist": "хейтспіч",
+        "artist": "хейтспіч - Topic",
         "playlist": "Dead inside",
         "duration": "3:39"
     },
@@ -6194,7 +6194,7 @@ const musicData = [
     },
     {
         "title": "Prince",
-        "artist": "auratoshi",
+        "artist": "auratoshi - Topic",
         "playlist": "Dead inside",
         "duration": "1:48"
     },
@@ -6218,7 +6218,7 @@ const musicData = [
     },
     {
         "title": "Ляжки (feat. babypills)",
-        "artist": "MIGAS",
+        "artist": "MIGAS - Topic",
         "playlist": "Dead inside",
         "duration": "2:04"
     },
