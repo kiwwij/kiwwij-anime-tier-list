@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 79.9,
+            "playtime_2weeks": 79.3,
             "hours": 121.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
@@ -22,7 +22,7 @@ const steamData = {
         {
             "appid": 3489700,
             "name": "Stellar Blade™",
-            "playtime_2weeks": 54.1,
+            "playtime_2weeks": 53.6,
             "hours": 55.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
             "url": "https://store.steampowered.com/app/3489700"
@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 35.2,
-            "hours": 3219.3,
+            "playtime_2weeks": 35.7,
+            "hours": 3219.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
