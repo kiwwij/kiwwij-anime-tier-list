@@ -10,8 +10,8 @@ const energyRatingScales = {
     ],
 
     personal: [
-        { rank: 'Очень вкусно', color: 'bg-red-500' },
-        { rank: 'Классика', color: 'bg-orange-500' },
+        { rank: 'Могу пить вечно', color: 'bg-red-500' },
+        { rank: 'Вкусно', color: 'bg-orange-500' },
         { rank: 'Пить можно', color: 'bg-yellow-400' },
         { rank: 'Можно попробовать', color: 'bg-green-500' },
         { rank: 'Не моё', color: 'bg-blue-500' },
@@ -72,6 +72,11 @@ if (typeof tierListData !== 'undefined') {
                 review: "Думал самый вкусный, но на деле дефолт. Перехайплен.", 
                 img: "energydrink/Monster Energy Monster Ultra.png"
             },
+            { 
+                title: "Monster Energy Salted Caramel", 
+                review: "Скажем так, этот монстр куда вкуснее того, что с коффе 3Х. Монстр с карамелью тоже желательно пить тёплым или горячим. Если бы не его цена в 200грн по скидке, то я бы его каждый день пил бы. Ну реально вкусно.", 
+                img: "energydrink/Monster Energy Salted Caramel.png"
+            },
         ],
         'B': [
             { 
@@ -103,6 +108,16 @@ if (typeof tierListData !== 'undefined') {
                 title: "Non Stop Zoom", 
                 review: "Прикольный арбузный вкус с мятным послевкусием.", 
                 img: "energydrink/Non Stop Zoom.webp"
+            },
+            { 
+                title: "Monster Energy Juiced Khaotic", 
+                review: "Обычный цитрусо-тропический вкус, ничего. Пить можно, но не на постоянной основе, как по мне.", 
+                img: "energydrink/Monster Energy Juiced Khaotic.png"
+            },
+            { 
+                title: "Monster Energy Ultra Fiesta Mango", 
+                review: "", 
+                img: "energydrink/Monster Energy Ultra Fiesta Mango.png"
             },
             ],
         'C': [

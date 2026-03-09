@@ -62,6 +62,10 @@ if (typeof tierListData !== 'undefined') {
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1245620/",
                 },
                 {
+                    title: "Stellar Blade",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/3489700/",
+                },
+                {
                     title: "Lies of P",
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1627720/",
                 },
@@ -162,6 +166,10 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "Sons of the Forest",
                     review: "Играл с другом, было весело. Прошёл на платину.",
+                },
+                {
+                    title: "Resident Evil 6",
+                    review: "Проходили с другом, было весело. Но это пока самая слабая, неинтересная часть RE, а ещё я с этой части понял насколько много в этой серии игр самоповтора.",
                 },
                 {
                     title: "Shadow of the Tomb Raider",
@@ -351,6 +359,10 @@ if (typeof tierListData !== 'undefined') {
                     review: "Подумал, что будет прикольно, по типу алисизации, но нет. Прошёл на платину.",
                 },
                 {
+                    title: "Still Wakes the Deep",
+                    review: "Типо хоррор игра, которая не пугает. А концовка в ней кал. Прошёл чисто из-за того, что друг попросил. 4 часа жизни в пустую.",
+                },
+                {
                     title: "Fran Bow",
                     review: "Атмосферная игра, но скучная. Прошёл на платину.",
                 },
@@ -405,6 +417,10 @@ if (typeof tierListData !== 'undefined') {
                 },
             ],
             'D': [
+                {
+                    title: "NieR:Automata",
+                    review: "Небольшое ревью - https://telegra.ph/NieRAutomata-review-03-01",
+                },
                 {
                     title: "The Dark Queen of Mortholme",
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/3587610/",
