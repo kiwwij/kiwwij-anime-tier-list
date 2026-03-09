@@ -46,7 +46,7 @@ const steamData = {
         {
             "appid": 221040,
             "name": "Resident Evil 6",
-            "playtime_2weeks": 3.5,
+            "playtime_2weeks": 3.3,
             "hours": 7.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
             "url": "https://store.steampowered.com/app/221040"
@@ -76,20 +76,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2165320"
         },
         {
+            "appid": 637650,
+            "name": "FINAL FANTASY XV WINDOWS EDITION",
+            "playtime_2weeks": 0.5,
+            "hours": 1.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/637650/header.jpg",
+            "url": "https://store.steampowered.com/app/637650"
+        },
+        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.5,
             "hours": 19.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 920490,
-            "name": "Driver Booster for Steam",
-            "playtime_2weeks": 0.4,
-            "hours": 15.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
-            "url": "https://store.steampowered.com/app/920490"
         }
     ],
     "top_games": [
