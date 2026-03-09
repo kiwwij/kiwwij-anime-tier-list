@@ -6271,6 +6271,24 @@ const musicData = [
         "duration": "2:36"
     },
     {
+        "title": "Люби меня",
+        "artist": "CMH",
+        "playlist": "Dead inside",
+        "duration": "2:48"
+    },
+    {
+        "title": "Сліди Насильства",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "2:36"
+    },
+    {
+        "title": "Turbo (Majestic)",
+        "artist": "Big Baby Tape",
+        "playlist": "Dead inside",
+        "duration": "2:56"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6405,6 +6423,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 606,
-    "totalDurationSec": 172826,
+    "totalDurationSec": 173326,
     "lastUpdated": "Auto-generated"
 };
