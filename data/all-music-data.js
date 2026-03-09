@@ -6265,7 +6265,7 @@ const musicData = [
         "duration": "2:06"
     },
     {
-        "title": "Цветок (Acoustic Live)",
+        "title": "Flower",
         "artist": "MORGENSHTERN",
         "playlist": "Dead inside",
         "duration": "2:36"
