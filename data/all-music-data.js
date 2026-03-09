@@ -4045,6 +4045,12 @@ const musicData = [
         "duration": "1:35"
     },
     {
+        "title": "Джарахов, Тилэкс, Big Russian Boss, Young P&H, DK, MORGENSHTERN & ХЛЕБ — Гена Букин",
+        "artist": "ДЖАРАХОВ",
+        "playlist": "Dead inside",
+        "duration": "7:29"
+    },
+    {
         "title": "Мне 20",
         "artist": "просто Лера",
         "playlist": "Dead inside",
@@ -6393,6 +6399,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 606,
-    "totalDurationSec": 172221,
+    "totalDurationSec": 172670,
     "lastUpdated": "Auto-generated"
 };
