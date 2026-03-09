@@ -6265,6 +6265,12 @@ const musicData = [
         "duration": "2:06"
     },
     {
+        "title": "Цветок (Acoustic Live)",
+        "artist": "MORGENSHTERN",
+        "playlist": "Dead inside",
+        "duration": "2:36"
+    },
+    {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
         "playlist": "Chill",
@@ -6399,6 +6405,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 606,
-    "totalDurationSec": 172670,
+    "totalDurationSec": 172826,
     "lastUpdated": "Auto-generated"
 };
