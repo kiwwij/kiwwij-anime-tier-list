@@ -47,7 +47,7 @@ const musicData = [
     },
     {
         "title": "слова",
-        "artist": "Violetta Sokolova - Topic",
+        "artist": "Violetta Sokolova",
         "playlist": "Main"
     },
     {
@@ -67,7 +67,7 @@ const musicData = [
     },
     {
         "title": "Круче чем вы (feat. CUPSIZE)",
-        "artist": "madk1d - Topic",
+        "artist": "madk1d",
         "playlist": "Main"
     },
     {
@@ -112,7 +112,7 @@ const musicData = [
     },
     {
         "title": "web 2.0",
-        "artist": "тёмный принц - Topic",
+        "artist": "тёмный принц & silver gloria",
         "playlist": "Main"
     },
     {
@@ -156,8 +156,8 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "ELF (feat. VenesiaWorld)",
-        "artist": "Violetta Sokolova - Topic",
+        "title": "ELF",
+        "artist": "Violetta Sokolova",
         "playlist": "Main"
     },
     {
@@ -177,7 +177,7 @@ const musicData = [
     },
     {
         "title": "скинь",
-        "artist": "яшенька - Topic",
+        "artist": "яшенька",
         "playlist": "Main"
     },
     {
@@ -232,7 +232,7 @@ const musicData = [
     },
     {
         "title": "pedobear›⩊‹",
-        "artist": "тёмный принц - Topic",
+        "artist": "тёмный принц",
         "playlist": "Main"
     },
     {
@@ -247,7 +247,7 @@ const musicData = [
     },
     {
         "title": "на небесах",
-        "artist": "kouru - Topic",
+        "artist": "kouru",
         "playlist": "Main"
     },
     {
@@ -272,7 +272,7 @@ const musicData = [
     },
     {
         "title": "дайте выпилиться тут",
-        "artist": "лиззз - Topic",
+        "artist": "лиззз",
         "playlist": "Main"
     },
     {
@@ -312,7 +312,7 @@ const musicData = [
     },
     {
         "title": "В реальності новій",
-        "artist": "Апатія - Topic",
+        "artist": "Апатія",
         "playlist": "Main"
     },
     {
@@ -367,7 +367,7 @@ const musicData = [
     },
     {
         "title": "stalk ur socials",
-        "artist": "s0rrow - Topic",
+        "artist": "s0rrow",
         "playlist": "Main"
     },
     {
