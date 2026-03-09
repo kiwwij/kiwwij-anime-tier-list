@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 75.1,
+            "playtime_2weeks": 74.7,
             "hours": 121.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
@@ -60,6 +60,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1277510"
         },
         {
+            "appid": 637650,
+            "name": "FINAL FANTASY XV WINDOWS EDITION",
+            "playtime_2weeks": 1.2,
+            "hours": 2.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/637650/header.jpg",
+            "url": "https://store.steampowered.com/app/637650"
+        },
+        {
             "appid": 524220,
             "name": "NieR:Automata™",
             "playtime_2weeks": 0.6,
@@ -74,14 +82,6 @@ const steamData = {
             "hours": 0.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2165320/header.jpg",
             "url": "https://store.steampowered.com/app/2165320"
-        },
-        {
-            "appid": 637650,
-            "name": "FINAL FANTASY XV WINDOWS EDITION",
-            "playtime_2weeks": 0.5,
-            "hours": 1.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/637650/header.jpg",
-            "url": "https://store.steampowered.com/app/637650"
         },
         {
             "appid": 431960,
