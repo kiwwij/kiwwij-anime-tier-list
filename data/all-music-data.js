@@ -835,6 +835,12 @@ const musicData = [
         "duration": "5:58"
     },
     {
+        "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
+        "artist": "Degurechaff",
+        "playlist": "Japan",
+        "duration": "1:42"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -6289,16 +6295,46 @@ const musicData = [
         "duration": "2:56"
     },
     {
-        "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
-        "artist": "Degurechaff",
-        "playlist": "Chill",
-        "duration": "1:42"
+        "title": "Down by the River",
+        "artist": "Borislav Slavov",
+        "playlist": "Dead inside",
+        "duration": "2:22"
     },
     {
-        "title": "Army Dreamers",
-        "artist": "Kate Bush",
-        "playlist": "Chill",
-        "duration": "3:00"
+        "title": "Let's Be Friends (Lena Theme)",
+        "artist": "Sergey Eybog",
+        "playlist": "Dead inside",
+        "duration": "2:04"
+    },
+    {
+        "title": "rises the moon",
+        "artist": "DyadDiary",
+        "playlist": "Dead inside",
+        "duration": "1:37"
+    },
+    {
+        "title": "Dragonborn",
+        "artist": "Jeremy Soule",
+        "playlist": "Dead inside",
+        "duration": "3:56"
+    },
+    {
+        "title": "Lullaby for Cain (Instrumental)",
+        "artist": "Sinéad O'Connor",
+        "playlist": "Dead inside",
+        "duration": "3:29"
+    },
+    {
+        "title": "Feel",
+        "artist": "Lies of P",
+        "playlist": "Dead inside",
+        "duration": "3:58"
+    },
+    {
+        "title": "we fell in love in october",
+        "artist": "girl in red",
+        "playlist": "Dead inside",
+        "duration": "3:05"
     },
     {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
@@ -6313,28 +6349,10 @@ const musicData = [
         "duration": "6:20"
     },
     {
-        "title": "39  Baldur's Gate 3 Original Soundtrack - Down By The River",
-        "artist": "Borislav Slavov",
-        "playlist": "Chill",
-        "duration": "2:21"
-    },
-    {
         "title": "Everlasting Summer",
         "artist": "Sergey Eybog",
         "playlist": "Chill",
         "duration": "2:04"
-    },
-    {
-        "title": "rises the moon",
-        "artist": "DyadDiary",
-        "playlist": "Chill",
-        "duration": "1:37"
-    },
-    {
-        "title": "Hide and Seek",
-        "artist": "Alexey Nechaev",
-        "playlist": "Chill",
-        "duration": "2:07"
     },
     {
         "title": "C418 - Subwoofer Lullaby - Minecraft Volume Alpha",
@@ -6343,86 +6361,32 @@ const musicData = [
         "duration": "3:29"
     },
     {
-        "title": "Hollow Knight OST - Dirtmouth",
-        "artist": "Amellifera",
-        "playlist": "Chill",
-        "duration": "1:56"
-    },
-    {
-        "title": "𝙫𝙞𝙙𝙚𝙤𝙘𝙡𝙪𝙗 - 𝙍𝙊𝙄 | 𝙄𝙉𝙎𝙏𝙍𝙐𝙈𝙀𝙉𝙏𝘼𝙇 | 𝘼𝙨𝙪𝙠𝙖 - 𝙀𝙫𝙖𝙣𝙜𝙚𝙡𝙞𝙤𝙣 [𝙏𝙞𝙠𝙏𝙤𝙠 𝙀𝙙𝙞𝙩]",
-        "artist": "𝕻𝖚𝖒𝖕",
-        "playlist": "Chill",
-        "duration": "3:35"
-    },
-    {
-        "title": "Dragonborn",
-        "artist": "Jeremy Soule",
-        "playlist": "Chill",
-        "duration": "3:56"
-    },
-    {
-        "title": "Sinéad O'Connor -Lullaby for Cain",
-        "artist": "ibs11",
-        "playlist": "Chill",
-        "duration": "3:36"
-    },
-    {
         "title": "エミール/犠牲 - Emil / Sacrifice",
         "artist": "MONACA",
         "playlist": "Chill",
         "duration": "3:28"
     },
     {
-        "title": "Wasteland",
-        "artist": "Royal & the Serpent",
+        "title": "Weight of the World/Nouveau-FR Version - Weight of the World Nouveau - FR Version - Emi Evans",
+        "artist": "Keiichi Okabe",
         "playlist": "Chill",
-        "duration": "2:42"
+        "duration": "5:48"
     },
     {
-        "title": "Feel",
-        "artist": "Lies of P",
+        "title": "エミール/ショップ - Emil's Shop",
+        "artist": "Kuniyuki Takahashi",
         "playlist": "Chill",
-        "duration": "3:58"
+        "duration": "5:29"
     },
     {
-        "title": "we fell in love in october",
-        "artist": "girl in red",
+        "title": "Weight of the World/壊レタ世界ノ歌 - Weight of the World Kowaretasekainouta - Marina Kawano",
+        "artist": "Keiichi Okabe",
         "playlist": "Chill",
-        "duration": "3:08"
-    },
-    {
-        "title": "Divinity: Original Sin 2 OST - Main Theme (Full)",
-        "artist": "Ereghor the Enigmatic",
-        "playlist": "Chill",
-        "duration": "6:11"
-    },
-    {
-        "title": "1994",
-        "artist": "Cavetown",
-        "playlist": "Chill",
-        "duration": "3:24"
-    },
-    {
-        "title": "Goodbye (from the series Arcane League of Legends)",
-        "artist": "Ramsey",
-        "playlist": "Chill",
-        "duration": "3:51"
-    },
-    {
-        "title": "sun will rise",
-        "artist": "(K)NoW_NAME",
-        "playlist": "Chill",
-        "duration": "4:25"
-    },
-    {
-        "title": "rises the moon",
-        "artist": "liana flores",
-        "playlist": "Chill",
-        "duration": "2:42"
+        "duration": "5:45"
     }
 ];
 const musicStats = {
     "totalViews": 606,
-    "totalDurationSec": 173326,
+    "totalDurationSec": 172430,
     "lastUpdated": "Auto-generated"
 };
