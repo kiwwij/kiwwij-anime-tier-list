@@ -3571,7 +3571,7 @@ const musicData = [
         "duration": "3:18"
     },
     {
-        "title": "WHAT YOU WANT! (Slowed Down)",
+        "title": "asteria - WHAT YOU WANT! (feat. Hatsune Miku) (Official Visualizer)",
         "artist": "asteria",
         "playlist": "Dead inside",
         "duration": "2:03"
@@ -4831,8 +4831,8 @@ const musicData = [
         "duration": "2:00"
     },
     {
-        "title": "w4ste away (w/ Sickboyrari)",
-        "artist": "asteria & Sickboyrari",
+        "title": "asteria - w4ste away (feat. Black Kray) (Official Visualizer)",
+        "artist": "asteria",
         "playlist": "Dead inside",
         "duration": "2:57"
     },
@@ -4909,7 +4909,7 @@ const musicData = [
         "duration": "3:08"
     },
     {
-        "title": "WORST NIGHTM4RE (Slowed Down)",
+        "title": "WORST NIGHTM4RE (Sped Up)",
         "artist": "asteria",
         "playlist": "Dead inside",
         "duration": "2:04"
