@@ -3295,7 +3295,7 @@ const musicData = [
         "duration": "3:46"
     },
     {
-        "title": "Twinky -  Больше не гуль prod qqqola (ПРЕМЬЕРА КЛИПА 2023)",
+        "title": "Больше не гуль (prod. by qqqola)",
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:00"
@@ -3434,7 +3434,7 @@ const musicData = [
     },
     {
         "title": "#BrooklynBloodPop!",
-        "artist": "SyKo - Topic",
+        "artist": "SyKo",
         "playlist": "Dead inside",
         "duration": "2:26"
     },
@@ -3692,7 +3692,7 @@ const musicData = [
     },
     {
         "title": "Pitbull",
-        "artist": "Clonnex - Topic",
+        "artist": "CLONNEX",
         "playlist": "Dead inside",
         "duration": "1:57"
     },
