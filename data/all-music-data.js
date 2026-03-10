@@ -6383,10 +6383,28 @@ const musicData = [
         "artist": "Keiichi Okabe",
         "playlist": "Chill",
         "duration": "5:45"
+    },
+    {
+        "title": "イニシエノウタ/デボル - Song of the Ancients / Devola",
+        "artist": "MONACA",
+        "playlist": "Chill",
+        "duration": "3:05"
+    },
+    {
+        "title": "イニシエノウタ/ポポル - Song of the Ancients / Popola",
+        "artist": "MONACA",
+        "playlist": "Chill",
+        "duration": "3:05"
+    },
+    {
+        "title": "イニシエノウタ/運命 - Song of the Ancients / Fate",
+        "artist": "MONACA",
+        "playlist": "Chill",
+        "duration": "5:18"
     }
 ];
 const musicStats = {
     "totalViews": 606,
-    "totalDurationSec": 172430,
+    "totalDurationSec": 173118,
     "lastUpdated": "Auto-generated"
 };
