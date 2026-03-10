@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 38.6,
+            "playtime_2weeks": 38.7,
             "hours": 3225.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -46,7 +46,7 @@ const steamData = {
         {
             "appid": 221040,
             "name": "Resident Evil 6",
-            "playtime_2weeks": 2.7,
+            "playtime_2weeks": 2.4,
             "hours": 7.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
             "url": "https://store.steampowered.com/app/221040"
