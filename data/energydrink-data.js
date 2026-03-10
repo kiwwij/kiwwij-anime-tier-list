@@ -10,8 +10,8 @@ const energyRatingScales = {
     ],
 
     personal: [
-        { rank: 'Могу пить вечно', color: 'bg-red-500' },
-        { rank: 'Вкусно', color: 'bg-orange-500' },
+        { rank: 'Очень вкусные', color: 'bg-red-500' },
+        { rank: 'Вкусные', color: 'bg-orange-500' },
         { rank: 'Пить можно', color: 'bg-yellow-400' },
         { rank: 'Можно попробовать', color: 'bg-green-500' },
         { rank: 'Не моё', color: 'bg-blue-500' },
@@ -114,11 +114,6 @@ if (typeof tierListData !== 'undefined') {
                 review: "Обычный цитрусо-тропический вкус, ничего. Пить можно, но не на постоянной основе, как по мне.", 
                 img: "energydrink/Monster Energy Juiced Khaotic.png"
             },
-            { 
-                title: "Monster Energy Ultra Fiesta Mango", 
-                review: "", 
-                img: "energydrink/Monster Energy Ultra Fiesta Mango.png"
-            },
             ],
         'C': [
             { 
@@ -165,6 +160,11 @@ if (typeof tierListData !== 'undefined') {
                 title: "Monster Energy 300 Java French Vanilla Triple Shot",
                 review: "Прикольный монстр со вкусом... какао, хоть и написано что кофе. Советую пить горячем. Не понимаю, почему цена такая дорогая? 200 грн! Ужас просто!",
                 img: "energydrink/Monster Energy 300 Java French Vanilla Triple Shot.png"
+            },
+            { 
+                title: "Monster Energy Ultra Fiesta Mango", 
+                review: "Обычный вкус манго, MangoLoco был повкуснее.", 
+                img: "energydrink/Monster Energy Ultra Fiesta Mango.png"
             },
         ],
         'D': [

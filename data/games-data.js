@@ -10,7 +10,7 @@ const gameRatingScales = {
         { rank: 'F', color: 'bg-gray-600' }
     ],
     personal: [
-        { rank: 'Могу играть бесконечно', color: 'bg-red-500' },
+        { rank: 'Лучшие', color: 'bg-red-500' },
         { rank: 'Дикий кайф', color: 'bg-orange-500' },
         { rank: 'Крепкий проект', color: 'bg-yellow-400' },
         { rank: 'Прошёл и забыл', color: 'bg-green-500' },
@@ -147,6 +147,10 @@ if (typeof tierListData !== 'undefined') {
                 },
             ],
             'B': [
+                {
+                    title: "Final Fantasy XV Windows Edition",
+                    review: "Ревью - ",
+                },
                 {
                     title: "Dishonored",
                     review: "Мега атмосферная игра с интересным геймплеем. Прошёл на платину.",
@@ -473,10 +477,6 @@ if (typeof tierListData !== 'undefined') {
                 },
             ],
             'E': [
-                {
-                    title: "Final Fantasy XV Windows Edition",
-                    review: "Пытался поиграть, но не понравилось.",
-                },
                 {
                     title: "Humans are not that against Lizardwomen",
                     review: "Пик игровой индустрии. Платина.",

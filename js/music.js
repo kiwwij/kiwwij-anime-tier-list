@@ -161,8 +161,8 @@ function loadMoreSongs() {
         if (song.playlist) {
             let badgeColor = '#9ca3af'; 
             if (song.playlist === 'Main') badgeColor = '#ef4444';
-            else if (song.playlist === 'Japan') badgeColor = '#f472b6';
-            else if (song.playlist === 'Chill') badgeColor = '#3b82f6';
+            else if (song.playlist === 'Off Screen') badgeColor = '#f472b6';
+            else if (song.playlist === 'Game OST') badgeColor = '#3b82f6';
             else if (song.playlist === 'Dead inside') badgeColor = '#a78bfa';
 
             plBadge = `<span class="playlist-badge" style="font-size:0.7em; opacity:0.6; margin-left:8px; color: ${badgeColor};">${song.playlist}</span>`;
