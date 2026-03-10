@@ -2047,7 +2047,7 @@ const musicData = [
         "duration": "3:50"
     },
     {
-        "title": "2:00 (Speed Up)",
+        "title": "2:00 (speed up)",
         "artist": "enveel",
         "playlist": "Dead inside",
         "duration": "1:41"
@@ -2602,7 +2602,7 @@ const musicData = [
         "title": "Открываю пивко",
         "artist": "Василий Дидляков",
         "playlist": "Dead inside",
-        "duration": "3:09"
+        "duration": "3:10"
     },
     {
         "title": "Все мои друзья",
@@ -3295,7 +3295,7 @@ const musicData = [
         "duration": "3:46"
     },
     {
-        "title": "Больше не гуль (prod. by qqqola)",
+        "title": "Twinky -  Больше не гуль prod qqqola (ПРЕМЬЕРА КЛИПА 2023)",
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:00"
@@ -3434,7 +3434,7 @@ const musicData = [
     },
     {
         "title": "#BrooklynBloodPop!",
-        "artist": "SyKo",
+        "artist": "SyKo - Topic",
         "playlist": "Dead inside",
         "duration": "2:26"
     },
@@ -3692,7 +3692,7 @@ const musicData = [
     },
     {
         "title": "Pitbull",
-        "artist": "CLONNEX",
+        "artist": "Clonnex - Topic",
         "playlist": "Dead inside",
         "duration": "1:57"
     },
@@ -6405,6 +6405,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 606,
-    "totalDurationSec": 173117,
+    "totalDurationSec": 173118,
     "lastUpdated": "Auto-generated"
 };
