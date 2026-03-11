@@ -419,9 +419,14 @@ const musicData = [
         "title": "отвратительный король",
         "artist": "тёмный принц",
         "playlist": "Main"
+    },
+    {
+        "title": "#ЛЯШКИВКУСНЯШКИ (prod.by Kolji)",
+        "artist": "ЯКОРЪ",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 16,
-    "totalDurationSec": 10460
+    "totalDurationSec": 10560
 };
