@@ -272,3 +272,13 @@
 @media (max-width: 768px) {
     .media-container.view-grid { grid-template-columns: repeat(2, 1fr); }
 }
+
+.logo-text a {
+    text-decoration: none;
+    color: var(--text-main); 
+    transition: color 0.4s ease;
+}
+
+.logo-text a:hover {
+    color: var(--accent);
+}
