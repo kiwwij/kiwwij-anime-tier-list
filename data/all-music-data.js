@@ -505,6 +505,12 @@ const musicData = [
         "duration": "1:52"
     },
     {
+        "title": "#ЛЯШКИВКУСНЯШКИ (prod.by Kolji)",
+        "artist": "ЯКОРЪ",
+        "playlist": "Main",
+        "duration": "1:40"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6405,6 +6411,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 606,
-    "totalDurationSec": 173118,
+    "totalDurationSec": 173218,
     "lastUpdated": "Auto-generated"
 };
