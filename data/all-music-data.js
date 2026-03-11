@@ -106,7 +106,7 @@ const musicData = [
         "title": "стало похуй",
         "artist": "kurokov",
         "playlist": "Main",
-        "duration": "1:45"
+        "duration": "2:09"
     },
     {
         "title": "Nope your too late i already died",
@@ -6429,6 +6429,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 606,
-    "totalDurationSec": 174244,
+    "totalDurationSec": 174268,
     "lastUpdated": "Auto-generated"
 };
