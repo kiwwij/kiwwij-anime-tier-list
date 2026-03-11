@@ -1322,7 +1322,7 @@ const musicData = [
     },
     {
         "title": "ярче звёзд",
-        "artist": "ПОЛМАТЕРИ",
+        "artist": "плм",
         "playlist": "Dead inside",
         "duration": "2:48"
     },
@@ -2396,9 +2396,9 @@ const musicData = [
     },
     {
         "title": "раздевайся",
-        "artist": "семьсот семь & Кишлак",
+        "artist": "семьсот семь",
         "playlist": "Dead inside",
-        "duration": "2:42"
+        "duration": "2:41"
     },
     {
         "title": "Винтаж - Плохая девочка(speed + nightcore)",
@@ -5233,8 +5233,8 @@ const musicData = [
         "duration": "2:37"
     },
     {
-        "title": "Белочка с Армлетом (Rock Version)",
-        "artist": "AICOVERGIRL",
+        "title": "Белочка с Армлетом (ROCK VERSION)",
+        "artist": "youraifu",
         "playlist": "Dead inside",
         "duration": "1:55"
     },
@@ -6429,6 +6429,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 606,
-    "totalDurationSec": 174245,
+    "totalDurationSec": 174244,
     "lastUpdated": "Auto-generated"
 };
