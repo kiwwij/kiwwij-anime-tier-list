@@ -1,6 +1,12 @@
 // Этот файл сгенерирован автоматически скриптом update_all_music.py
 const musicData = [
     {
+        "title": "мило материшься",
+        "artist": "volhey",
+        "playlist": "Main",
+        "duration": "2:01"
+    },
+    {
         "title": "Грязный Кайф",
         "artist": "Kishlak",
         "playlist": "Main",
@@ -13,10 +19,52 @@ const musicData = [
         "duration": "2:17"
     },
     {
+        "title": "рехаб",
+        "artist": "madk1d",
+        "playlist": "Main",
+        "duration": "1:32"
+    },
+    {
+        "title": "держаться за руки",
+        "artist": "кариолемма",
+        "playlist": "Main",
+        "duration": "1:34"
+    },
+    {
+        "title": "greyrock, tewiq, madk1d – распять (Сингл, 2025)",
+        "artist": "Mentrez Music",
+        "playlist": "Main",
+        "duration": "2:00"
+    },
+    {
+        "title": "голодный - таблетки",
+        "artist": "Голодный",
+        "playlist": "Main",
+        "duration": "1:38"
+    },
+    {
+        "title": "ты че обиделась",
+        "artist": "madk1d & тёмный принц",
+        "playlist": "Main",
+        "duration": "1:30"
+    },
+    {
+        "title": "улыбка",
+        "artist": "volhey",
+        "playlist": "Main",
+        "duration": "1:50"
+    },
+    {
         "title": "слова",
         "artist": "Violetta Sokolova",
         "playlist": "Main",
         "duration": "2:45"
+    },
+    {
+        "title": "так похуй",
+        "artist": "madk1d",
+        "playlist": "Main",
+        "duration": "1:48"
     },
     {
         "title": "возьму гитару",
@@ -37,10 +85,46 @@ const musicData = [
         "duration": "1:40"
     },
     {
+        "title": "Cupsize - люби меня алина",
+        "artist": "𓆩hikxdfe𓆪",
+        "playlist": "Main",
+        "duration": "1:38"
+    },
+    {
+        "title": "Болею тобой",
+        "artist": "Кишлак",
+        "playlist": "Main",
+        "duration": "2:23"
+    },
+    {
         "title": "общага",
         "artist": "диссоциативное расстройство",
         "playlist": "Main",
         "duration": "1:48"
+    },
+    {
+        "title": "стало похуй",
+        "artist": "kurokov",
+        "playlist": "Main",
+        "duration": "1:45"
+    },
+    {
+        "title": "Nope your too late i already died",
+        "artist": "wifiskeleton",
+        "playlist": "Main",
+        "duration": "1:31"
+    },
+    {
+        "title": "tuborosho, Anonymous Ember - europa fm",
+        "artist": "suenushka",
+        "playlist": "Main",
+        "duration": "1:53"
+    },
+    {
+        "title": "интернет любовь",
+        "artist": "fallen777angel",
+        "playlist": "Main",
+        "duration": "1:56"
     },
     {
         "title": "Як тебе цілував",
@@ -67,6 +151,18 @@ const musicData = [
         "duration": "1:47"
     },
     {
+        "title": "Ліпший день",
+        "artist": "СТРУКТУРА ЩАСТЯ",
+        "playlist": "Main",
+        "duration": "2:37"
+    },
+    {
+        "title": "Естафета страждань",
+        "artist": "Апатія",
+        "playlist": "Main",
+        "duration": "3:02"
+    },
+    {
         "title": "с тобой",
         "artist": "kouru",
         "playlist": "Main",
@@ -79,10 +175,28 @@ const musicData = [
         "duration": "1:51"
     },
     {
+        "title": "Ручной Рептилоид – Я хочу быть 2D",
+        "artist": "Ручной Рептилоид",
+        "playlist": "Main",
+        "duration": "1:52"
+    },
+    {
+        "title": "Не прокинусь",
+        "artist": "BaWN",
+        "playlist": "Main",
+        "duration": "3:22"
+    },
+    {
         "title": "ELF",
         "artist": "Violetta Sokolova",
         "playlist": "Main",
         "duration": "4:10"
+    },
+    {
+        "title": "mirrors demo",
+        "artist": "overtonight throwaways",
+        "playlist": "Main",
+        "duration": "1:46"
     },
     {
         "title": "слон",
@@ -97,10 +211,70 @@ const musicData = [
         "duration": "2:40"
     },
     {
+        "title": "скинь",
+        "artist": "яшенька",
+        "playlist": "Main",
+        "duration": "1:53"
+    },
+    {
+        "title": "цена",
+        "artist": "madk1d & паранойя",
+        "playlist": "Main",
+        "duration": "2:19"
+    },
+    {
+        "title": "твои пальцы",
+        "artist": "fallen777angel",
+        "playlist": "Main",
+        "duration": "1:22"
+    },
+    {
+        "title": "machine",
+        "artist": "auratoshi",
+        "playlist": "Main",
+        "duration": "1:56"
+    },
+    {
+        "title": "Демон",
+        "artist": "Чучело",
+        "playlist": "Main",
+        "duration": "2:38"
+    },
+    {
         "title": "Листівки",
         "artist": "Electrobirds",
         "playlist": "Main",
         "duration": "4:01"
+    },
+    {
+        "title": "CUPSIZE - вирус",
+        "artist": "CupsizeArchive",
+        "playlist": "Main",
+        "duration": "2:32"
+    },
+    {
+        "title": "аромат цветов",
+        "artist": "PLUSIX",
+        "playlist": "Main",
+        "duration": "2:18"
+    },
+    {
+        "title": "раздевайся",
+        "artist": "семьсот семь",
+        "playlist": "Main",
+        "duration": "2:41"
+    },
+    {
+        "title": "Бякибуки",
+        "artist": "Чучело",
+        "playlist": "Main",
+        "duration": "2:21"
+    },
+    {
+        "title": "Социально болен",
+        "artist": "Ручной рептилоид",
+        "playlist": "Main",
+        "duration": "2:24"
     },
     {
         "title": "pedobear›⩊‹",
@@ -115,14 +289,32 @@ const musicData = [
         "duration": "1:28"
     },
     {
+        "title": "целуй меня",
+        "artist": "cardinparis",
+        "playlist": "Main",
+        "duration": "1:16"
+    },
+    {
         "title": "на небесах",
         "artist": "kouru",
         "playlist": "Main",
         "duration": "2:29"
     },
     {
+        "title": "ПАПА",
+        "artist": "тёмный принц",
+        "playlist": "Main",
+        "duration": "1:43"
+    },
+    {
         "title": "face vlone remix - salem slut",
         "artist": "soundcloud mixtape",
+        "playlist": "Main",
+        "duration": "2:11"
+    },
+    {
+        "title": "Деревья, сгнившие до ствола",
+        "artist": "Violetta Sokolova",
         "playlist": "Main",
         "duration": "2:11"
     },
@@ -143,6 +335,24 @@ const musicData = [
         "artist": "Апатія",
         "playlist": "Main",
         "duration": "3:03"
+    },
+    {
+        "title": "Придурок",
+        "artist": "тянка",
+        "playlist": "Main",
+        "duration": "2:19"
+    },
+    {
+        "title": "Так прикро",
+        "artist": "Апатія",
+        "playlist": "Main",
+        "duration": "3:00"
+    },
+    {
+        "title": "Серед хаосу",
+        "artist": "BaWN",
+        "playlist": "Main",
+        "duration": "2:33"
     },
     {
         "title": "дырки в штанах",
@@ -169,10 +379,28 @@ const musicData = [
         "duration": "2:45"
     },
     {
+        "title": "откусила ноги",
+        "artist": "шизоняшка",
+        "playlist": "Main",
+        "duration": "1:21"
+    },
+    {
         "title": "грустинка",
         "artist": "onokami",
         "playlist": "Main",
         "duration": "1:47"
+    },
+    {
+        "title": "вклубе",
+        "artist": "тёмный принц",
+        "playlist": "Main",
+        "duration": "1:40"
+    },
+    {
+        "title": "fake ur face",
+        "artist": "s0rrow",
+        "playlist": "Main",
+        "duration": "1:55"
     },
     {
         "title": "mirrors demo (happy version)",
@@ -181,10 +409,34 @@ const musicData = [
         "duration": "1:46"
     },
     {
+        "title": "Ворую алкоголь - Floki, звсэ(slowed down version)",
+        "artist": "kayy",
+        "playlist": "Main",
+        "duration": "3:03"
+    },
+    {
+        "title": "нарратор",
+        "artist": "lafkrat",
+        "playlist": "Main",
+        "duration": "2:24"
+    },
+    {
+        "title": "бесконечное лето",
+        "artist": "CMH",
+        "playlist": "Main",
+        "duration": "2:38"
+    },
+    {
         "title": "пускают стрелы",
         "artist": "fallen777angel",
         "playlist": "Main",
         "duration": "2:00"
+    },
+    {
+        "title": "fallen777angel - гладиатор/рыцарь (Official Audio) / eclipse media",
+        "artist": "eclipse media",
+        "playlist": "Main",
+        "duration": "1:45"
     },
     {
         "title": "stalk ur socials",
@@ -203,6 +455,54 @@ const musicData = [
         "artist": "тёмный принц",
         "playlist": "Main",
         "duration": "1:29"
+    },
+    {
+        "title": "unhappy (remix)",
+        "artist": "s0rrow",
+        "playlist": "Main",
+        "duration": "2:12"
+    },
+    {
+        "title": "отстой",
+        "artist": "onokami",
+        "playlist": "Main",
+        "duration": "1:19"
+    },
+    {
+        "title": "я не приду на выпускной",
+        "artist": "ashleytears",
+        "playlist": "Main",
+        "duration": "1:34"
+    },
+    {
+        "title": "шизофрения",
+        "artist": "kurokov",
+        "playlist": "Main",
+        "duration": "1:19"
+    },
+    {
+        "title": "губы",
+        "artist": "тёмный принц",
+        "playlist": "Main",
+        "duration": "1:35"
+    },
+    {
+        "title": "loser club",
+        "artist": "wifiskeleton",
+        "playlist": "Main",
+        "duration": "1:22"
+    },
+    {
+        "title": "пароли",
+        "artist": "KERASINN",
+        "playlist": "Main",
+        "duration": "1:24"
+    },
+    {
+        "title": "отвратительный король",
+        "artist": "тёмный принц",
+        "playlist": "Main",
+        "duration": "1:52"
     },
     {
         "title": "#ЛЯШКИВКУСНЯШКИ (prod.by Kolji)",
@@ -1753,7 +2053,7 @@ const musicData = [
         "duration": "3:50"
     },
     {
-        "title": "2:00 (speed up)",
+        "title": "2:00 (Speed Up)",
         "artist": "enveel",
         "playlist": "Dead inside",
         "duration": "1:41"
@@ -2672,7 +2972,7 @@ const musicData = [
     },
     {
         "title": "Котик",
-        "artist": "enveel & onokami",
+        "artist": "enveel",
         "playlist": "Dead inside",
         "duration": "2:13"
     },
@@ -3812,7 +4112,7 @@ const musicData = [
     },
     {
         "title": "На стол",
-        "artist": "LonelyStash & Готлиб",
+        "artist": "LonelyStash",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
@@ -5575,7 +5875,7 @@ const musicData = [
         "duration": "4:11"
     },
     {
-        "title": "真夜中のドア〜stay with me (Original club mix) - Mayonaka no Door~stay with me (Original club mix)",
+        "title": "真夜中のドア〜stay with me (Original Club Mix Mixed by D.O.I) - Mayonaka no Door 〜 Stay with Me (Original Club Mix)",
         "artist": "Miki Matsubara",
         "playlist": "Dead inside",
         "duration": "5:47"
@@ -6129,6 +6429,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 606,
-    "totalDurationSec": 168217,
+    "totalDurationSec": 174244,
     "lastUpdated": "Auto-generated"
 };
