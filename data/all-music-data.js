@@ -5756,7 +5756,7 @@ const musicData = [
     },
     {
         "title": "Лиза",
-        "artist": "FACE",
+        "artist": "FACE - Topic",
         "playlist": "Dead inside",
         "duration": "3:01"
     },
@@ -5990,7 +5990,7 @@ const musicData = [
     },
     {
         "title": "стреляй",
-        "artist": "zhanulka",
+        "artist": "Zhanulka - Topic",
         "playlist": "Dead inside",
         "duration": "1:48"
     },
@@ -6074,7 +6074,7 @@ const musicData = [
     },
     {
         "title": "Даже если",
-        "artist": "5opka",
+        "artist": "5opka - Topic",
         "playlist": "Dead inside",
         "duration": "2:27"
     },
@@ -6086,7 +6086,7 @@ const musicData = [
     },
     {
         "title": "Але якщо ти...",
-        "artist": "Do Sliz",
+        "artist": "Do Sliz - Topic",
         "playlist": "Dead inside",
         "duration": "3:14"
     },
@@ -6176,7 +6176,7 @@ const musicData = [
     },
     {
         "title": "сєрьожа//даремно",
-        "artist": "Сметана band",
+        "artist": "Smetana Band - Topic",
         "playlist": "Dead inside",
         "duration": "2:22"
     },
@@ -6188,7 +6188,7 @@ const musicData = [
     },
     {
         "title": "Я вб'ю всіх богів",
-        "artist": "хейтспіч",
+        "artist": "хейтспіч - Topic",
         "playlist": "Dead inside",
         "duration": "3:39"
     },
@@ -6212,7 +6212,7 @@ const musicData = [
     },
     {
         "title": "Prince",
-        "artist": "auratoshi",
+        "artist": "auratoshi - Topic",
         "playlist": "Dead inside",
         "duration": "1:48"
     },
@@ -6224,12 +6224,12 @@ const musicData = [
     },
     {
         "title": "MARTINE ROSE",
-        "artist": "madk1d",
+        "artist": "madk1d - Topic",
         "playlist": "Dead inside",
         "duration": "3:07"
     },
     {
-        "title": "I Don't Care",
+        "title": "I Don't Care - VIOLENT VIRA",
         "artist": "VIOLENT VIRA",
         "playlist": "Dead inside",
         "duration": "3:02"
