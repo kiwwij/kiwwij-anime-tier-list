@@ -6425,10 +6425,16 @@ const musicData = [
         "artist": "seibin, Youngjee Lee, & SHIFT UP",
         "playlist": "Chill",
         "duration": "5:05"
+    },
+    {
+        "title": "Beyond Fate",
+        "artist": "Youngjee Lee & SHIFT UP",
+        "playlist": "Chill",
+        "duration": "2:03"
     }
 ];
 const musicStats = {
     "totalViews": 608,
-    "totalDurationSec": 174268,
+    "totalDurationSec": 174391,
     "lastUpdated": "Auto-generated"
 };
