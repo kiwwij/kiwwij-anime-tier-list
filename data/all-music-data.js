@@ -3709,7 +3709,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О боже, какой мужчина!",
+        "title": "О, Боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -4057,7 +4057,7 @@ const musicData = [
         "duration": "1:35"
     },
     {
-        "title": "Джарахов, Тилэкс, Big Russian Boss, Young P&H, DK, MORGENSHTERN & ХЛЕБ — Гена Букин",
+        "title": "Dzharakhov, Tilex, Big Russian Boss, Young P&H, DK, MORGENSHTERN & BREAD — Gena Bukin",
         "artist": "ДЖАРАХОВ",
         "playlist": "Dead inside",
         "duration": "7:29"
@@ -6428,7 +6428,7 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 606,
+    "totalViews": 608,
     "totalDurationSec": 174268,
     "lastUpdated": "Auto-generated"
 };
