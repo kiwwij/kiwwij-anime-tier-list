@@ -2743,7 +2743,7 @@ const musicData = [
         "duration": "4:17"
     },
     {
-        "title": "Время и Стекло - Е,Бой",
+        "title": "Е,Бой",
         "artist": "Время и Стекло",
         "playlist": "Dead inside",
         "duration": "3:09"
@@ -2870,7 +2870,7 @@ const musicData = [
     },
     {
         "title": "Money, Money, Money (ABBA) 【covered by Anna】",
-        "artist": "annapantsu",
+        "artist": "Annapantsu",
         "playlist": "Dead inside",
         "duration": "3:06"
     },
@@ -2947,7 +2947,7 @@ const musicData = [
         "duration": "3:20"
     },
     {
-        "title": "Twinky - Неталант (Lyrics)",
+        "title": "Неталант",
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "3:14"
@@ -3182,7 +3182,7 @@ const musicData = [
     },
     {
         "title": "Ага",
-        "artist": "vlonewex - Topic",
+        "artist": "vlonewex",
         "playlist": "Dead inside",
         "duration": "2:11"
     },
@@ -3223,8 +3223,8 @@ const musicData = [
         "duration": "1:32"
     },
     {
-        "title": "Моя Мишель - Зима в сердце (премьера клипа 2021)",
-        "artist": "Моя Мишель",
+        "title": "Зима в сердце",
+        "artist": "Moya Mishel",
         "playlist": "Dead inside",
         "duration": "3:41"
     },
@@ -5227,8 +5227,8 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "Гроза Лесных Крипов",
-        "artist": "AICOVERGIRL",
+        "title": "Гроза лесных крипов",
+        "artist": "youraifu",
         "playlist": "Dead inside",
         "duration": "2:37"
     },
@@ -5351,12 +5351,6 @@ const musicData = [
         "artist": "kyNZai",
         "playlist": "Dead inside",
         "duration": "1:54"
-    },
-    {
-        "title": "Код Гиасс",
-        "artist": "dabbackwood",
-        "playlist": "Dead inside",
-        "duration": "2:27"
     },
     {
         "title": "забери",
@@ -6447,6 +6441,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 608,
-    "totalDurationSec": 174724,
+    "totalDurationSec": 174577,
     "lastUpdated": "Auto-generated"
 };
