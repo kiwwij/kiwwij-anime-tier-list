@@ -2053,7 +2053,7 @@ const musicData = [
         "duration": "3:50"
     },
     {
-        "title": "2:00 (Speed Up)",
+        "title": "2:00 (speed up)",
         "artist": "enveel",
         "playlist": "Dead inside",
         "duration": "1:41"
@@ -2396,9 +2396,9 @@ const musicData = [
     },
     {
         "title": "раздевайся",
-        "artist": "семьсот семь & Кишлак",
+        "artist": "семьсот семь",
         "playlist": "Dead inside",
-        "duration": "2:42"
+        "duration": "2:41"
     },
     {
         "title": "Винтаж - Плохая девочка(speed + nightcore)",
@@ -2608,7 +2608,7 @@ const musicData = [
         "title": "Открываю пивко",
         "artist": "Василий Дидляков",
         "playlist": "Dead inside",
-        "duration": "3:09"
+        "duration": "3:10"
     },
     {
         "title": "Все мои друзья",
@@ -3709,7 +3709,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О, Боже, какой мужчина!",
+        "title": "О боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
