@@ -4,21 +4,13 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E"
+        "status": "Away",
+        "statusColor": "#FFC107"
     },
     "stats": {
         "total_games": 251
     },
     "recent_games": [
-        {
-            "appid": 2909400,
-            "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 47.5,
-            "hours": 121.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
-            "url": "https://store.steampowered.com/app/2909400"
-        },
         {
             "appid": 3489700,
             "name": "Stellar Blade™",
@@ -26,6 +18,14 @@ const steamData = {
             "hours": 55.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
             "url": "https://store.steampowered.com/app/3489700"
+        },
+        {
+            "appid": 2909400,
+            "name": "FINAL FANTASY VII REBIRTH",
+            "playtime_2weeks": 46.6,
+            "hours": 121.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
+            "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 570,
@@ -52,20 +52,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1277510"
         },
         {
-            "appid": 221040,
-            "name": "Resident Evil 6",
-            "playtime_2weeks": 2.2,
-            "hours": 7.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
-            "url": "https://store.steampowered.com/app/221040"
-        },
-        {
             "appid": 637650,
             "name": "FINAL FANTASY XV WINDOWS EDITION",
             "playtime_2weeks": 1.9,
             "hours": 3.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/637650/header.jpg",
             "url": "https://store.steampowered.com/app/637650"
+        },
+        {
+            "appid": 221040,
+            "name": "Resident Evil 6",
+            "playtime_2weeks": 1.3,
+            "hours": 7.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
+            "url": "https://store.steampowered.com/app/221040"
         },
         {
             "appid": 524220,
