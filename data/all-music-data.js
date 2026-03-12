@@ -878,7 +878,7 @@ const musicData = [
     },
     {
         "title": "1000-7",
-        "artist": "fem.love - Topic",
+        "artist": "fem.love",
         "playlist": "Dead inside",
         "duration": "1:58"
     },
@@ -1010,7 +1010,7 @@ const musicData = [
     },
     {
         "title": "vendetta!",
-        "artist": "MUPP - Topic",
+        "artist": "MUPP",
         "playlist": "Dead inside",
         "duration": "1:48"
     },
@@ -1153,8 +1153,8 @@ const musicData = [
         "duration": "2:17"
     },
     {
-        "title": "кис-кис - лбтд",
-        "artist": "кис-кис",
+        "title": "лбтд",
+        "artist": "Кис-Кис",
         "playlist": "Dead inside",
         "duration": "2:56"
     },
@@ -1303,8 +1303,8 @@ const musicData = [
         "duration": "3:01"
     },
     {
-        "title": "Josh Turner - Your Man (Official Music Video)",
-        "artist": "JoshTurnerVEVO",
+        "title": "Your Man (Official Music Video)",
+        "artist": "Josh Turner",
         "playlist": "Dead inside",
         "duration": "3:30"
     },
@@ -1327,14 +1327,14 @@ const musicData = [
         "duration": "2:48"
     },
     {
-        "title": "плм — маша (Official audio)",
-        "artist": "Rhymes Music",
+        "title": "маша",
+        "artist": "плм",
         "playlist": "Dead inside",
         "duration": "1:56"
     },
     {
         "title": "Дурак и молния",
-        "artist": "Korol i Shut - Topic",
+        "artist": "Король и Шут",
         "playlist": "Dead inside",
         "duration": "1:55"
     },
@@ -1381,8 +1381,8 @@ const musicData = [
         "duration": "4:21"
     },
     {
-        "title": "кис-кис - молчи",
-        "artist": "кис-кис",
+        "title": "молчи",
+        "artist": "Кис-Кис",
         "playlist": "Dead inside",
         "duration": "3:18"
     },
@@ -1489,7 +1489,7 @@ const musicData = [
         "duration": "4:21"
     },
     {
-        "title": "VERBEE - Давай взорвем (Премьера, 2019)",
+        "title": "Давай взорвём",
         "artist": "VERBEE",
         "playlist": "Dead inside",
         "duration": "2:18"
@@ -1531,7 +1531,7 @@ const musicData = [
         "duration": "3:31"
     },
     {
-        "title": "OTURRO - УСЫ (КЛИП)",
+        "title": "Усы",
         "artist": "OTURRO",
         "playlist": "Dead inside",
         "duration": "1:05"
@@ -2011,13 +2011,13 @@ const musicData = [
         "duration": "2:41"
     },
     {
-        "title": "xMax, suramura - Следующая станция (премьера)",
+        "title": "Следующая станция",
         "artist": "suramura",
         "playlist": "Dead inside",
         "duration": "2:50"
     },
     {
-        "title": "нексюша – Когда ты умрешь",
+        "title": "Когда ты умрешь",
         "artist": "нексюша",
         "playlist": "Dead inside",
         "duration": "3:01"
