@@ -22,7 +22,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 46.4,
+            "playtime_2weeks": 46.2,
             "hours": 121.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 38.0,
-            "hours": 3227.6,
+            "playtime_2weeks": 37.8,
+            "hours": 3228.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -62,8 +62,8 @@ const steamData = {
         {
             "appid": 221040,
             "name": "Resident Evil 6",
-            "playtime_2weeks": 1.1,
-            "hours": 7.3,
+            "playtime_2weeks": 1.6,
+            "hours": 7.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
             "url": "https://store.steampowered.com/app/221040"
         },
