@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "Offline",
+        "statusColor": "#9E9E9E"
     },
     "stats": {
         "total_games": 251
@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 48.4,
+            "playtime_2weeks": 47.5,
             "hours": 121.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 37.1,
+            "playtime_2weeks": 36.4,
             "hours": 3226.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -44,20 +44,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1954200"
         },
         {
-            "appid": 221040,
-            "name": "Resident Evil 6",
-            "playtime_2weeks": 2.4,
-            "hours": 7.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
-            "url": "https://store.steampowered.com/app/221040"
-        },
-        {
             "appid": 1277510,
             "name": "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
             "playtime_2weeks": 2.3,
             "hours": 2.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
             "url": "https://store.steampowered.com/app/1277510"
+        },
+        {
+            "appid": 221040,
+            "name": "Resident Evil 6",
+            "playtime_2weeks": 2.2,
+            "hours": 7.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
+            "url": "https://store.steampowered.com/app/221040"
         },
         {
             "appid": 637650,
