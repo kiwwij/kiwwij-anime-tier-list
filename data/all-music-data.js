@@ -6343,6 +6343,12 @@ const musicData = [
         "duration": "3:05"
     },
     {
+        "title": "The End Has No End",
+        "artist": "The Strokes",
+        "playlist": "Dead inside",
+        "duration": "3:06"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Chill",
@@ -6435,6 +6441,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 608,
-    "totalDurationSec": 174391,
+    "totalDurationSec": 174577,
     "lastUpdated": "Auto-generated"
 };
