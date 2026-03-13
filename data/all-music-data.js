@@ -2053,7 +2053,7 @@ const musicData = [
         "duration": "3:50"
     },
     {
-        "title": "2:00 (speed up)",
+        "title": "2:00 (Speed Up)",
         "artist": "enveel",
         "playlist": "Dead inside",
         "duration": "1:41"
@@ -3709,7 +3709,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О боже, какой мужчина!",
+        "title": "О, Боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -5353,6 +5353,12 @@ const musicData = [
         "duration": "1:54"
     },
     {
+        "title": "Код Гиасс",
+        "artist": "dabbackwood",
+        "playlist": "Dead inside",
+        "duration": "2:27"
+    },
+    {
         "title": "забери",
         "artist": "MADAMA",
         "playlist": "Dead inside",
@@ -6441,6 +6447,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 614,
-    "totalDurationSec": 174577,
+    "totalDurationSec": 174724,
     "lastUpdated": "Auto-generated"
 };
