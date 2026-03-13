@@ -2608,7 +2608,7 @@ const musicData = [
         "title": "Открываю пивко",
         "artist": "Василий Дидляков",
         "playlist": "Dead inside",
-        "duration": "3:10"
+        "duration": "3:09"
     },
     {
         "title": "Все мои друзья",
@@ -5360,7 +5360,7 @@ const musicData = [
     },
     {
         "title": "ты че обиделась",
-        "artist": "madk1d",
+        "artist": "madk1d & тёмный принц",
         "playlist": "Dead inside",
         "duration": "1:30"
     },
@@ -6441,6 +6441,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 608,
-    "totalDurationSec": 174577,
+    "totalDurationSec": 174576,
     "lastUpdated": "Auto-generated"
 };
