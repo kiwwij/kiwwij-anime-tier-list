@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 3489700,
             "name": "Stellar Blade™",
-            "playtime_2weeks": 47.0,
+            "playtime_2weeks": 46.2,
             "hours": 55.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
             "url": "https://store.steampowered.com/app/3489700"
@@ -22,7 +22,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 41.4,
+            "playtime_2weeks": 40.5,
             "hours": 121.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
@@ -76,20 +76,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/524220"
         },
         {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.5,
+            "hours": 19.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
+        },
+        {
             "appid": 2165320,
             "name": "Artis Demo",
             "playtime_2weeks": 0.5,
             "hours": 0.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2165320/header.jpg",
             "url": "https://store.steampowered.com/app/2165320"
-        },
-        {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.5,
-            "hours": 19.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
