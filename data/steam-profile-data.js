@@ -20,20 +20,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/3489700"
         },
         {
-            "appid": 2909400,
-            "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 35.0,
-            "hours": 121.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
-            "url": "https://store.steampowered.com/app/2909400"
-        },
-        {
             "appid": 570,
             "name": "Dota 2",
             "playtime_2weeks": 35.0,
             "hours": 3228.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
+        },
+        {
+            "appid": 2909400,
+            "name": "FINAL FANTASY VII REBIRTH",
+            "playtime_2weeks": 34.3,
+            "hours": 121.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
+            "url": "https://store.steampowered.com/app/2909400"
         },
         {
             "appid": 1954200,
