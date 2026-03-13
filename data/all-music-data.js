@@ -2972,7 +2972,7 @@ const musicData = [
     },
     {
         "title": "Котик",
-        "artist": "enveel",
+        "artist": "enveel & onokami",
         "playlist": "Dead inside",
         "duration": "2:13"
     },
