@@ -56,7 +56,7 @@ const musicData = [
     },
     {
         "title": "слова",
-        "artist": "Violetta Sokolova - Topic",
+        "artist": "Violetta Sokolova",
         "playlist": "Main",
         "duration": "2:45"
     },
@@ -74,13 +74,13 @@ const musicData = [
     },
     {
         "title": "болен",
-        "artist": "dope17 - Topic",
+        "artist": "dope17",
         "playlist": "Main",
         "duration": "1:29"
     },
     {
         "title": "Круче чем вы (feat. CUPSIZE)",
-        "artist": "madk1d - Topic",
+        "artist": "madk1d",
         "playlist": "Main",
         "duration": "1:40"
     },
@@ -139,7 +139,7 @@ const musicData = [
         "duration": "1:24"
     },
     {
-        "title": "nyan.mp3 — У батарей [Official Audio Visualizer]",
+        "title": "У батарей",
         "artist": "nyan.mp3",
         "playlist": "Main",
         "duration": "1:46"
@@ -187,8 +187,8 @@ const musicData = [
         "duration": "3:22"
     },
     {
-        "title": "ELF (feat. VenesiaWorld)",
-        "artist": "Violetta Sokolova - Topic",
+        "title": "ELF",
+        "artist": "Violetta Sokolova",
         "playlist": "Main",
         "duration": "4:10"
     },
@@ -212,7 +212,7 @@ const musicData = [
     },
     {
         "title": "скинь",
-        "artist": "яшенька - Topic",
+        "artist": "яшенька",
         "playlist": "Main",
         "duration": "1:53"
     },
@@ -278,7 +278,7 @@ const musicData = [
     },
     {
         "title": "pedobear›⩊‹",
-        "artist": "тёмный принц - Topic",
+        "artist": "тёмный принц",
         "playlist": "Main",
         "duration": "1:24"
     },
@@ -326,7 +326,7 @@ const musicData = [
     },
     {
         "title": "дайте выпилиться тут",
-        "artist": "лиззз - Topic",
+        "artist": "лиззз",
         "playlist": "Main",
         "duration": "3:16"
     },
@@ -374,7 +374,7 @@ const musicData = [
     },
     {
         "title": "В реальності новій",
-        "artist": "Апатія - Topic",
+        "artist": "Апатія",
         "playlist": "Main",
         "duration": "2:45"
     },
@@ -440,7 +440,7 @@ const musicData = [
     },
     {
         "title": "stalk ur socials",
-        "artist": "s0rrow - Topic",
+        "artist": "s0rrow",
         "playlist": "Main",
         "duration": "1:19"
     },
@@ -6440,7 +6440,7 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 608,
+    "totalViews": 614,
     "totalDurationSec": 174577,
     "lastUpdated": "Auto-generated"
 };
