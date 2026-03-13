@@ -37,7 +37,7 @@ const musicData = [
     },
     {
         "title": "ты че обиделась",
-        "artist": "madk1d & тёмный принц",
+        "artist": "madk1d",
         "playlist": "Main"
     },
     {
@@ -182,7 +182,7 @@ const musicData = [
     },
     {
         "title": "цена",
-        "artist": "madk1d & паранойя",
+        "artist": "madk1d",
         "playlist": "Main"
     },
     {
