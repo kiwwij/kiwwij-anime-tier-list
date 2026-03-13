@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "Online",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 251
@@ -22,7 +22,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 36.8,
+            "playtime_2weeks": 36.2,
             "hours": 121.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
@@ -84,12 +84,12 @@ const steamData = {
             "url": "https://store.steampowered.com/app/431960"
         },
         {
-            "appid": 2165320,
-            "name": "Artis Demo",
-            "playtime_2weeks": 0.3,
-            "hours": 0.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2165320/header.jpg",
-            "url": "https://store.steampowered.com/app/2165320"
+            "appid": 1905180,
+            "name": "OBS Studio",
+            "playtime_2weeks": 0.1,
+            "hours": 182.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
+            "url": "https://store.steampowered.com/app/1905180"
         }
     ],
     "top_games": [
