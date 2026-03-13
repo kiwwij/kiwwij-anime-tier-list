@@ -56,7 +56,7 @@ const musicData = [
     },
     {
         "title": "слова",
-        "artist": "Violetta Sokolova",
+        "artist": "Violetta Sokolova - Topic",
         "playlist": "Main",
         "duration": "2:45"
     },
@@ -74,13 +74,13 @@ const musicData = [
     },
     {
         "title": "болен",
-        "artist": "dope17",
+        "artist": "dope17 - Topic",
         "playlist": "Main",
         "duration": "1:29"
     },
     {
         "title": "Круче чем вы (feat. CUPSIZE)",
-        "artist": "madk1d",
+        "artist": "madk1d - Topic",
         "playlist": "Main",
         "duration": "1:40"
     },
@@ -139,7 +139,7 @@ const musicData = [
         "duration": "1:24"
     },
     {
-        "title": "У батарей",
+        "title": "nyan.mp3 — У батарей [Official Audio Visualizer]",
         "artist": "nyan.mp3",
         "playlist": "Main",
         "duration": "1:46"
@@ -187,8 +187,8 @@ const musicData = [
         "duration": "3:22"
     },
     {
-        "title": "ELF",
-        "artist": "Violetta Sokolova",
+        "title": "ELF (feat. VenesiaWorld)",
+        "artist": "Violetta Sokolova - Topic",
         "playlist": "Main",
         "duration": "4:10"
     },
@@ -212,13 +212,13 @@ const musicData = [
     },
     {
         "title": "скинь",
-        "artist": "яшенька",
+        "artist": "яшенька - Topic",
         "playlist": "Main",
         "duration": "1:53"
     },
     {
         "title": "цена",
-        "artist": "madk1d & паранойя",
+        "artist": "madk1d",
         "playlist": "Main",
         "duration": "2:19"
     },
@@ -278,7 +278,7 @@ const musicData = [
     },
     {
         "title": "pedobear›⩊‹",
-        "artist": "тёмный принц",
+        "artist": "тёмный принц - Topic",
         "playlist": "Main",
         "duration": "1:24"
     },
@@ -326,7 +326,7 @@ const musicData = [
     },
     {
         "title": "дайте выпилиться тут",
-        "artist": "лиззз",
+        "artist": "лиззз - Topic",
         "playlist": "Main",
         "duration": "3:16"
     },
@@ -374,7 +374,7 @@ const musicData = [
     },
     {
         "title": "В реальності новій",
-        "artist": "Апатія",
+        "artist": "Апатія - Topic",
         "playlist": "Main",
         "duration": "2:45"
     },
@@ -440,7 +440,7 @@ const musicData = [
     },
     {
         "title": "stalk ur socials",
-        "artist": "s0rrow",
+        "artist": "s0rrow - Topic",
         "playlist": "Main",
         "duration": "1:19"
     },
@@ -2608,7 +2608,7 @@ const musicData = [
         "title": "Открываю пивко",
         "artist": "Василий Дидляков",
         "playlist": "Dead inside",
-        "duration": "3:09"
+        "duration": "3:10"
     },
     {
         "title": "Все мои друзья",
@@ -5360,7 +5360,7 @@ const musicData = [
     },
     {
         "title": "ты че обиделась",
-        "artist": "madk1d & тёмный принц",
+        "artist": "madk1d",
         "playlist": "Dead inside",
         "duration": "1:30"
     },
@@ -6441,6 +6441,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 608,
-    "totalDurationSec": 174576,
+    "totalDurationSec": 174577,
     "lastUpdated": "Auto-generated"
 };
