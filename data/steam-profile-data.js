@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 29.2,
+            "playtime_2weeks": 28.8,
             "hours": 121.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
@@ -70,8 +70,8 @@ const steamData = {
         {
             "appid": 2623190,
             "name": "The Elder Scrolls IV: Oblivion Remastered",
-            "playtime_2weeks": 1.3,
-            "hours": 1.3,
+            "playtime_2weeks": 1.5,
+            "hours": 1.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
             "url": "https://store.steampowered.com/app/2623190"
         },
