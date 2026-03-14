@@ -847,6 +847,12 @@ const musicData = [
         "duration": "1:42"
     },
     {
+        "title": "Kimi Ga Iru Kara (feat. Hikari)",
+        "artist": "The Black Velvet and Friends",
+        "playlist": "Japan",
+        "duration": "5:52"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -6453,6 +6459,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 622,
-    "totalDurationSec": 175203,
+    "totalDurationSec": 175555,
     "lastUpdated": "Auto-generated"
 };
