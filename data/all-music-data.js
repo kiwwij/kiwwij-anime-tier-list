@@ -2282,7 +2282,7 @@ const musicData = [
     },
     {
         "title": "Calling (Spider-Man: Across the Spider-Verse) (feat. A Boogie Wit da Hoodie)",
-        "artist": "Swae Lee",
+        "artist": "Metro Boomin",
         "playlist": "Dead inside",
         "duration": "3:40"
     },
@@ -6443,10 +6443,16 @@ const musicData = [
         "artist": "Keita Inoue",
         "playlist": "Chill",
         "duration": "5:32"
+    },
+    {
+        "title": "The Dawn of EVE",
+        "artist": "Keita Inoue",
+        "playlist": "Chill",
+        "duration": "4:54"
     }
 ];
 const musicStats = {
     "totalViews": 622,
-    "totalDurationSec": 174909,
+    "totalDurationSec": 175203,
     "lastUpdated": "Auto-generated"
 };
