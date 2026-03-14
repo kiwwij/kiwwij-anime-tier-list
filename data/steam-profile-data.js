@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 25.9,
+            "playtime_2weeks": 25.5,
             "hours": 121.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
@@ -46,8 +46,8 @@ const steamData = {
         {
             "appid": 2623190,
             "name": "The Elder Scrolls IV: Oblivion Remastered",
-            "playtime_2weeks": 2.9,
-            "hours": 2.9,
+            "playtime_2weeks": 3.0,
+            "hours": 3.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
             "url": "https://store.steampowered.com/app/2623190"
         },
@@ -87,7 +87,7 @@ const steamData = {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.6,
-            "hours": 19.2,
+            "hours": 19.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
         }
