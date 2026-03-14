@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 30.8,
+            "playtime_2weeks": 30.3,
             "hours": 121.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
@@ -68,6 +68,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/221040"
         },
         {
+            "appid": 2623190,
+            "name": "The Elder Scrolls IV: Oblivion Remastered",
+            "playtime_2weeks": 0.7,
+            "hours": 0.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
+            "url": "https://store.steampowered.com/app/2623190"
+        },
+        {
             "appid": 524220,
             "name": "NieR:Automata™",
             "playtime_2weeks": 0.6,
@@ -82,14 +90,6 @@ const steamData = {
             "hours": 19.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 2623190,
-            "name": "The Elder Scrolls IV: Oblivion Remastered",
-            "playtime_2weeks": 0.2,
-            "hours": 0.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
-            "url": "https://store.steampowered.com/app/2623190"
         }
     ],
     "top_games": [
