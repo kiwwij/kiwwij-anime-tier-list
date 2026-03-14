@@ -22,7 +22,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 35.0,
+            "playtime_2weeks": 34.8,
             "hours": 3228.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 28.8,
+            "playtime_2weeks": 28.5,
             "hours": 121.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
@@ -60,20 +60,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1277510"
         },
         {
+            "appid": 2623190,
+            "name": "The Elder Scrolls IV: Oblivion Remastered",
+            "playtime_2weeks": 1.7,
+            "hours": 1.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
+            "url": "https://store.steampowered.com/app/2623190"
+        },
+        {
             "appid": 221040,
             "name": "Resident Evil 6",
             "playtime_2weeks": 1.6,
             "hours": 7.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
             "url": "https://store.steampowered.com/app/221040"
-        },
-        {
-            "appid": 2623190,
-            "name": "The Elder Scrolls IV: Oblivion Remastered",
-            "playtime_2weeks": 1.5,
-            "hours": 1.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
-            "url": "https://store.steampowered.com/app/2623190"
         },
         {
             "appid": 524220,
