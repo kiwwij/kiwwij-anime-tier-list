@@ -3301,14 +3301,14 @@ const musicData = [
         "duration": "3:46"
     },
     {
-        "title": "Twinky -  Больше не гуль prod qqqola (ПРЕМЬЕРА КЛИПА 2023)",
+        "title": "Больше не гуль (prod. by qqqola)",
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:00"
     },
     {
-        "title": "Black Beatles",
-        "artist": "Rae Sremmurd - Topic",
+        "title": "Black Beatles (feat. Gucci Mane)",
+        "artist": "Rae Sremmurd",
         "playlist": "Dead inside",
         "duration": "4:52"
     },
@@ -3457,8 +3457,8 @@ const musicData = [
         "duration": "5:01"
     },
     {
-        "title": "КАЖАННА - ПАЗЛ ( ПРЕМʼЄРА ВІДЕО 2023 )",
-        "artist": "КАЖАННА",
+        "title": "ПАЗЛ",
+        "artist": "Кажанна",
         "playlist": "Dead inside",
         "duration": "2:11"
     },
@@ -3698,7 +3698,7 @@ const musicData = [
     },
     {
         "title": "Pitbull",
-        "artist": "Clonnex - Topic",
+        "artist": "CLONNEX",
         "playlist": "Dead inside",
         "duration": "1:57"
     },
@@ -3836,7 +3836,7 @@ const musicData = [
     },
     {
         "title": "ee nado x)",
-        "artist": "dj trippie flameboy - Topic",
+        "artist": "dj trippie flameboy",
         "playlist": "Dead inside",
         "duration": "1:45"
     },
@@ -6437,10 +6437,16 @@ const musicData = [
         "artist": "Youngjee Lee & SHIFT UP",
         "playlist": "Chill",
         "duration": "2:03"
+    },
+    {
+        "title": "Arisa",
+        "artist": "Keita Inoue",
+        "playlist": "Chill",
+        "duration": "5:32"
     }
 ];
 const musicStats = {
     "totalViews": 622,
-    "totalDurationSec": 174577,
+    "totalDurationSec": 174909,
     "lastUpdated": "Auto-generated"
 };
