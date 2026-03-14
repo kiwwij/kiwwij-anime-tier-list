@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -22,7 +22,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 32.9,
+            "playtime_2weeks": 32.1,
             "hours": 3228.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 26.6,
+            "playtime_2weeks": 25.9,
             "hours": 121.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
@@ -42,6 +42,14 @@ const steamData = {
             "hours": 20.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1954200/header.jpg",
             "url": "https://store.steampowered.com/app/1954200"
+        },
+        {
+            "appid": 2623190,
+            "name": "The Elder Scrolls IV: Oblivion Remastered",
+            "playtime_2weeks": 2.9,
+            "hours": 2.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
+            "url": "https://store.steampowered.com/app/2623190"
         },
         {
             "appid": 637650,
@@ -58,14 +66,6 @@ const steamData = {
             "hours": 2.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
             "url": "https://store.steampowered.com/app/1277510"
-        },
-        {
-            "appid": 2623190,
-            "name": "The Elder Scrolls IV: Oblivion Remastered",
-            "playtime_2weeks": 2.0,
-            "hours": 2.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
-            "url": "https://store.steampowered.com/app/2623190"
         },
         {
             "appid": 221040,
