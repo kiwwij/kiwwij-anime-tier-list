@@ -3301,14 +3301,14 @@ const musicData = [
         "duration": "3:46"
     },
     {
-        "title": "Больше не гуль (prod. by qqqola)",
+        "title": "Twinky -  Больше не гуль prod qqqola (ПРЕМЬЕРА КЛИПА 2023)",
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:00"
     },
     {
-        "title": "Black Beatles (feat. Gucci Mane)",
-        "artist": "Rae Sremmurd",
+        "title": "Black Beatles",
+        "artist": "Rae Sremmurd - Topic",
         "playlist": "Dead inside",
         "duration": "4:52"
     },
@@ -3457,8 +3457,8 @@ const musicData = [
         "duration": "5:01"
     },
     {
-        "title": "ПАЗЛ",
-        "artist": "Кажанна",
+        "title": "КАЖАННА - ПАЗЛ ( ПРЕМʼЄРА ВІДЕО 2023 )",
+        "artist": "КАЖАННА",
         "playlist": "Dead inside",
         "duration": "2:11"
     },
@@ -3698,7 +3698,7 @@ const musicData = [
     },
     {
         "title": "Pitbull",
-        "artist": "CLONNEX",
+        "artist": "Clonnex - Topic",
         "playlist": "Dead inside",
         "duration": "1:57"
     },
@@ -3709,7 +3709,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О, Боже, какой мужчина!",
+        "title": "О боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -3836,7 +3836,7 @@ const musicData = [
     },
     {
         "title": "ee nado x)",
-        "artist": "dj trippie flameboy",
+        "artist": "dj trippie flameboy - Topic",
         "playlist": "Dead inside",
         "duration": "1:45"
     },
