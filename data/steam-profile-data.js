@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 31.6,
+            "playtime_2weeks": 30.8,
             "hours": 121.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
@@ -84,12 +84,12 @@ const steamData = {
             "url": "https://store.steampowered.com/app/431960"
         },
         {
-            "appid": 1905180,
-            "name": "OBS Studio",
-            "playtime_2weeks": 0.1,
-            "hours": 182.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
-            "url": "https://store.steampowered.com/app/1905180"
+            "appid": 2623190,
+            "name": "The Elder Scrolls IV: Oblivion Remastered",
+            "playtime_2weeks": 0.2,
+            "hours": 0.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
+            "url": "https://store.steampowered.com/app/2623190"
         }
     ],
     "top_games": [
