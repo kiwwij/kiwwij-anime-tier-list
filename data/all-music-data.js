@@ -5233,8 +5233,8 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "Гроза Лесных Крипов",
-        "artist": "AICOVERGIRL",
+        "title": "Гроза лесных крипов",
+        "artist": "youraifu",
         "playlist": "Dead inside",
         "duration": "2:37"
     },
@@ -5366,7 +5366,7 @@ const musicData = [
     },
     {
         "title": "ты че обиделась",
-        "artist": "madk1d & тёмный принц",
+        "artist": "madk1d",
         "playlist": "Dead inside",
         "duration": "1:30"
     },
