@@ -38,7 +38,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 4.7,
+            "playtime_2weeks": 3.7,
             "hours": 121.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
@@ -76,20 +76,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/221040"
         },
         {
-            "appid": 524220,
-            "name": "NieR:Automata™",
-            "playtime_2weeks": 0.3,
-            "hours": 3.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/524220/header.jpg",
-            "url": "https://store.steampowered.com/app/524220"
-        },
-        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.2,
             "hours": 19.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 1905180,
+            "name": "OBS Studio",
+            "playtime_2weeks": 0.1,
+            "hours": 182.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
+            "url": "https://store.steampowered.com/app/1905180"
         }
     ],
     "top_games": [
