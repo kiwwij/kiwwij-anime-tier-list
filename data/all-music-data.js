@@ -4615,7 +4615,7 @@ const musicData = [
         "duration": "3:04"
     },
     {
-        "title": "did i tell u that i miss u - slowed",
+        "title": "adore - \"did i tell u that i miss u\" (lyric video)",
         "artist": "adore",
         "playlist": "Dead inside",
         "duration": "1:56"
