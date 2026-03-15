@@ -38,7 +38,7 @@ const steamData = {
         {
             "appid": 2909400,
             "name": "FINAL FANTASY VII REBIRTH",
-            "playtime_2weeks": 9.4,
+            "playtime_2weeks": 8.7,
             "hours": 121.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400"
@@ -78,7 +78,7 @@ const steamData = {
         {
             "appid": 524220,
             "name": "NieR:Automata™",
-            "playtime_2weeks": 0.4,
+            "playtime_2weeks": 0.3,
             "hours": 3.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/524220/header.jpg",
             "url": "https://store.steampowered.com/app/524220"
@@ -86,7 +86,7 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.3,
+            "playtime_2weeks": 0.2,
             "hours": 19.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
