@@ -2402,9 +2402,9 @@ const musicData = [
     },
     {
         "title": "раздевайся",
-        "artist": "семьсот семь & Кишлак",
+        "artist": "семьсот семь",
         "playlist": "Dead inside",
-        "duration": "2:42"
+        "duration": "2:41"
     },
     {
         "title": "Винтаж - Плохая девочка(speed + nightcore)",
@@ -5653,10 +5653,40 @@ const musicData = [
         "duration": "1:19"
     },
     {
+        "title": "Seventh Heaven",
+        "artist": "INOHA",
+        "playlist": "Dead inside",
+        "duration": "3:55"
+    },
+    {
         "title": "Ручной Рептилоид – Я хочу быть 2D",
         "artist": "Ручной Рептилоид",
         "playlist": "Dead inside",
         "duration": "1:52"
+    },
+    {
+        "title": "mirrors demo",
+        "artist": "overtonight throwaways",
+        "playlist": "Dead inside",
+        "duration": "1:46"
+    },
+    {
+        "title": "Правило 34",
+        "artist": "Denks",
+        "playlist": "Dead inside",
+        "duration": "3:32"
+    },
+    {
+        "title": "со мною посиди",
+        "artist": "fallen777angel",
+        "playlist": "Dead inside",
+        "duration": "1:39"
+    },
+    {
+        "title": "STEP - Mio Honda / ЗАТКНИСЬ (для вп)",
+        "artist": "Очумелая Инес",
+        "playlist": "Dead inside",
+        "duration": "1:44"
     },
     {
         "title": "распять (folk remix)",
@@ -5665,10 +5695,34 @@ const musicData = [
         "duration": "1:31"
     },
     {
+        "title": "FUKKIRETA / Ochame Kinou UKR cover by Kori || LamazeP ft. Kasane Teto українською",
+        "artist": "Hibikit",
+        "playlist": "Dead inside",
+        "duration": "1:31"
+    },
+    {
+        "title": "аромат цветов",
+        "artist": "PLUSIX",
+        "playlist": "Dead inside",
+        "duration": "2:18"
+    },
+    {
         "title": "pony?",
         "artist": "nnlx",
         "playlist": "Dead inside",
         "duration": "2:01"
+    },
+    {
+        "title": "Все сигареты мира",
+        "artist": "Чучело",
+        "playlist": "Dead inside",
+        "duration": "3:01"
+    },
+    {
+        "title": "Want You Gone UKR cover by NataNao || Portal 2: End Credits Song українською",
+        "artist": "Hibikit",
+        "playlist": "Dead inside",
+        "duration": "2:30"
     },
     {
         "title": "Want you gone - Portal 2 fanmade video",
@@ -5683,6 +5737,12 @@ const musicData = [
         "duration": "2:15"
     },
     {
+        "title": "percoshket - школьное дуо",
+        "artist": "loudcrime",
+        "playlist": "Dead inside",
+        "duration": "1:17"
+    },
+    {
         "title": "Странное",
         "artist": "Вещие Ослы",
         "playlist": "Dead inside",
@@ -5695,10 +5755,28 @@ const musicData = [
         "duration": "3:42"
     },
     {
+        "title": "покажи",
+        "artist": "kurokov",
+        "playlist": "Dead inside",
+        "duration": "2:01"
+    },
+    {
         "title": "Лиза",
         "artist": "FACE",
         "playlist": "Dead inside",
         "duration": "3:01"
+    },
+    {
+        "title": "Пожалуйста, только не домой",
+        "artist": "Автоспорт",
+        "playlist": "Dead inside",
+        "duration": "3:06"
+    },
+    {
+        "title": "nonchalance (feat. XI$OW)",
+        "artist": "6YNTHMANE",
+        "playlist": "Dead inside",
+        "duration": "1:52"
     },
     {
         "title": "Песня о привязанности",
@@ -5713,10 +5791,34 @@ const musicData = [
         "duration": "2:28"
     },
     {
+        "title": "виски с молоком",
+        "artist": "снялцепи",
+        "playlist": "Dead inside",
+        "duration": "1:02"
+    },
+    {
         "title": "темный принц tewiq - project 1",
         "artist": "paroxetin user",
         "playlist": "Dead inside",
         "duration": "1:52"
+    },
+    {
+        "title": "комната",
+        "artist": "zhanulka",
+        "playlist": "Dead inside",
+        "duration": "2:36"
+    },
+    {
+        "title": "Дискордикс",
+        "artist": "erix",
+        "playlist": "Dead inside",
+        "duration": "1:54"
+    },
+    {
+        "title": "Кент",
+        "artist": "KSB muzic",
+        "playlist": "Dead inside",
+        "duration": "2:45"
     },
     {
         "title": "ПЫХ-ПЫХ",
@@ -5743,6 +5845,48 @@ const musicData = [
         "duration": "2:30"
     },
     {
+        "title": "нарратор",
+        "artist": "lafkrat",
+        "playlist": "Dead inside",
+        "duration": "2:24"
+    },
+    {
+        "title": "Сайт",
+        "artist": "Раковая Выхухоль",
+        "playlist": "Dead inside",
+        "duration": "2:26"
+    },
+    {
+        "title": "Sodikken - Misery Meat",
+        "artist": "S T A R G A Z E",
+        "playlist": "Dead inside",
+        "duration": "1:05"
+    },
+    {
+        "title": "Вороны",
+        "artist": "Нервы",
+        "playlist": "Dead inside",
+        "duration": "4:01"
+    },
+    {
+        "title": "Fly-day Chinatown",
+        "artist": "Yasuha",
+        "playlist": "Dead inside",
+        "duration": "3:31"
+    },
+    {
+        "title": "黄昏のBAY CITY",
+        "artist": "八神純子",
+        "playlist": "Dead inside",
+        "duration": "4:11"
+    },
+    {
+        "title": "真夜中のドア〜stay with me (Original club mix) - Mayonaka no Door~stay with me (Original club mix)",
+        "artist": "Miki Matsubara",
+        "playlist": "Dead inside",
+        "duration": "5:47"
+    },
+    {
         "title": "Naruto | Opening 2 - Haruka Kanata | VIZ",
         "artist": "vizmedia",
         "playlist": "Dead inside",
@@ -5759,6 +5903,12 @@ const musicData = [
         "artist": "Animeke Channel",
         "playlist": "Dead inside",
         "duration": "2:03"
+    },
+    {
+        "title": "Мы Ебались ПЕРВЫЙ РАЗ - Красная Плесень",
+        "artist": "The_Smile",
+        "playlist": "Dead inside",
+        "duration": "2:39"
     },
     {
         "title": "2hollis - promise u that",
@@ -5779,10 +5929,28 @@ const musicData = [
         "duration": "2:27"
     },
     {
+        "title": "ЛАБУБУ",
+        "artist": "YUNG FIMOZ",
+        "playlist": "Dead inside",
+        "duration": "2:00"
+    },
+    {
+        "title": "Stupid Never Dies - Official Reveal Trailer | The Game Awards 2025",
+        "artist": "IGN",
+        "playlist": "Dead inside",
+        "duration": "2:11"
+    },
+    {
         "title": "shotgun.",
         "artist": "overtonight",
         "playlist": "Dead inside",
         "duration": "1:52"
+    },
+    {
+        "title": "h4rtbrkr - i hate you",
+        "artist": "sick-sayu",
+        "playlist": "Dead inside",
+        "duration": "1:34"
     },
     {
         "title": "エミール/ショップ - Emil's Shop",
@@ -5803,10 +5971,28 @@ const musicData = [
         "duration": "3:45"
     },
     {
+        "title": "Отпускай",
+        "artist": "Три дня дождя",
+        "playlist": "Dead inside",
+        "duration": "3:28"
+    },
+    {
+        "title": "Dabbackwood - Код Гиасс (случайно провалился в мир си)",
+        "artist": "Каидже",
+        "playlist": "Dead inside",
+        "duration": "2:28"
+    },
+    {
         "title": "По судьбе",
         "artist": "sqaute",
         "playlist": "Dead inside",
         "duration": "2:04"
+    },
+    {
+        "title": "Ствол 2",
+        "artist": "Sharingan",
+        "playlist": "Dead inside",
+        "duration": "1:06"
     },
     {
         "title": "стреляй",
@@ -5815,16 +6001,64 @@ const musicData = [
         "duration": "1:48"
     },
     {
+        "title": "СИЛУЕТИ (Апатія Remix)",
+        "artist": "СТРУКТУРА ЩАСТЯ",
+        "playlist": "Dead inside",
+        "duration": "2:43"
+    },
+    {
+        "title": "шрамы",
+        "artist": "Violetta Sokolova",
+        "playlist": "Dead inside",
+        "duration": "2:55"
+    },
+    {
         "title": "Jane!",
         "artist": "The Long Faces",
         "playlist": "Dead inside",
         "duration": "3:07"
     },
     {
+        "title": "гладиатор/рыцарь",
+        "artist": "fallen777angel",
+        "playlist": "Dead inside",
+        "duration": "1:45"
+    },
+    {
         "title": "МОЙ БАТЯ",
         "artist": "ПОЛАРОЙД",
         "playlist": "Dead inside",
         "duration": "1:59"
+    },
+    {
+        "title": "крестики-нолики",
+        "artist": "zhanulka",
+        "playlist": "Dead inside",
+        "duration": "2:09"
+    },
+    {
+        "title": "let me go",
+        "artist": "otuka",
+        "playlist": "Dead inside",
+        "duration": "2:22"
+    },
+    {
+        "title": "Reverie",
+        "artist": "KRISTIEE",
+        "playlist": "Dead inside",
+        "duration": "2:10"
+    },
+    {
+        "title": "я не собираюсь мешать",
+        "artist": "KRISTIEE",
+        "playlist": "Dead inside",
+        "duration": "2:08"
+    },
+    {
+        "title": "Baby Melo, FADE031 - Сломана",
+        "artist": "SmokeSipper",
+        "playlist": "Dead inside",
+        "duration": "2:24"
     },
     {
         "title": "Не забывай",
@@ -5869,10 +6103,28 @@ const musicData = [
         "duration": "3:27"
     },
     {
+        "title": "Невесомость",
+        "artist": "тянка",
+        "playlist": "Dead inside",
+        "duration": "2:34"
+    },
+    {
         "title": "twenty four",
         "artist": "overtonight",
         "playlist": "Dead inside",
         "duration": "2:06"
+    },
+    {
+        "title": "Демоны",
+        "artist": "Три дня дождя",
+        "playlist": "Dead inside",
+        "duration": "3:25"
+    },
+    {
+        "title": "Шиншиллы",
+        "artist": "ЛСП",
+        "playlist": "Dead inside",
+        "duration": "2:30"
     },
     {
         "title": "fake ur face",
@@ -5885,6 +6137,12 @@ const musicData = [
         "artist": "laydownrot",
         "playlist": "Dead inside",
         "duration": "1:46"
+    },
+    {
+        "title": "Teenage Dirtbag",
+        "artist": "Wheatus",
+        "playlist": "Dead inside",
+        "duration": "4:02"
     },
     {
         "title": "больше не будет",
@@ -5905,16 +6163,34 @@ const musicData = [
         "duration": "1:30"
     },
     {
+        "title": "unhappy",
+        "artist": "s0rrow",
+        "playlist": "Dead inside",
+        "duration": "1:39"
+    },
+    {
         "title": "Не помирай",
         "artist": "Апатія",
         "playlist": "Dead inside",
         "duration": "2:20"
     },
     {
+        "title": "ALASKA PUFFER",
+        "artist": "паранойя",
+        "playlist": "Dead inside",
+        "duration": "2:02"
+    },
+    {
         "title": "сєрьожа//даремно",
         "artist": "Сметана band",
         "playlist": "Dead inside",
         "duration": "2:22"
+    },
+    {
+        "title": "целовал",
+        "artist": "THESCAMY",
+        "playlist": "Dead inside",
+        "duration": "1:19"
     },
     {
         "title": "Я вб'ю всіх богів",
@@ -5929,6 +6205,12 @@ const musicData = [
         "duration": "2:14"
     },
     {
+        "title": "Babydoll",
+        "artist": "Dominic Fike",
+        "playlist": "Dead inside",
+        "duration": "1:38"
+    },
+    {
         "title": "Наталія Валевська – Палала [official video]",
         "artist": "Наталія Валевська",
         "playlist": "Dead inside",
@@ -5941,6 +6223,12 @@ const musicData = [
         "duration": "1:48"
     },
     {
+        "title": "Саня",
+        "artist": "ФРЭНК",
+        "playlist": "Dead inside",
+        "duration": "1:51"
+    },
+    {
         "title": "MARTINE ROSE",
         "artist": "madk1d",
         "playlist": "Dead inside",
@@ -5951,6 +6239,18 @@ const musicData = [
         "artist": "VIOLENT VIRA",
         "playlist": "Dead inside",
         "duration": "3:02"
+    },
+    {
+        "title": "Ляжки (feat. babypills)",
+        "artist": "MIGAS",
+        "playlist": "Dead inside",
+        "duration": "2:04"
+    },
+    {
+        "title": "Мы с севера",
+        "artist": "G Sound",
+        "playlist": "Dead inside",
+        "duration": "2:00"
     },
     {
         "title": "БОРОВ",
@@ -6159,6 +6459,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 625,
-    "totalDurationSec": 168296,
+    "totalDurationSec": 175555,
     "lastUpdated": "Auto-generated"
 };
