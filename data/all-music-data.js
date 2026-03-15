@@ -6355,6 +6355,12 @@ const musicData = [
         "duration": "3:06"
     },
     {
+        "title": "Dog of Flanders (1975 Nippon Animation Variant)- Japanese Opening",
+        "artist": "Don Hi",
+        "playlist": "Dead inside",
+        "duration": "1:22"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Chill",
@@ -6459,6 +6465,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 625,
-    "totalDurationSec": 175555,
+    "totalDurationSec": 175637,
     "lastUpdated": "Auto-generated"
 };
