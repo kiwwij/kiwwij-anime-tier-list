@@ -60,20 +60,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1277510"
         },
         {
+            "appid": 292120,
+            "name": "FINAL FANTASY XIII",
+            "playtime_2weeks": 1.8,
+            "hours": 1.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292120/header.jpg",
+            "url": "https://store.steampowered.com/app/292120"
+        },
+        {
             "appid": 221040,
             "name": "Resident Evil 6",
             "playtime_2weeks": 1.6,
             "hours": 7.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
             "url": "https://store.steampowered.com/app/221040"
-        },
-        {
-            "appid": 292120,
-            "name": "FINAL FANTASY XIII",
-            "playtime_2weeks": 1.3,
-            "hours": 1.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292120/header.jpg",
-            "url": "https://store.steampowered.com/app/292120"
         },
         {
             "appid": 431960,
