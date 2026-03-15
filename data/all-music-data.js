@@ -3589,7 +3589,7 @@ const musicData = [
         "duration": "3:18"
     },
     {
-        "title": "asteria - WHAT YOU WANT! (feat. Hatsune Miku) (Official Visualizer)",
+        "title": "WHAT YOU WANT! (Slowed Down)",
         "artist": "asteria",
         "playlist": "Dead inside",
         "duration": "2:03"
