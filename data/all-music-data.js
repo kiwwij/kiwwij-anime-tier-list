@@ -5263,7 +5263,7 @@ const musicData = [
         "duration": "1:31"
     },
     {
-        "title": "SPIT IN MY FACE!",
+        "title": "ThxSoMch - SPIT IN MY FACE! (Official Audio)",
         "artist": "ThxSoMch",
         "playlist": "Dead inside",
         "duration": "2:28"
