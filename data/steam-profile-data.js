@@ -12,20 +12,20 @@ const steamData = {
     },
     "recent_games": [
         {
+            "appid": 570,
+            "name": "Dota 2",
+            "playtime_2weeks": 33.7,
+            "hours": 3234.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
+            "url": "https://store.steampowered.com/app/570"
+        },
+        {
             "appid": 3489700,
             "name": "Stellar Blade™",
-            "playtime_2weeks": 33.4,
+            "playtime_2weeks": 32.4,
             "hours": 55.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
             "url": "https://store.steampowered.com/app/3489700"
-        },
-        {
-            "appid": 570,
-            "name": "Dota 2",
-            "playtime_2weeks": 32.9,
-            "hours": 3233.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
-            "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1954200,
@@ -52,14 +52,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/637650"
         },
         {
-            "appid": 1277510,
-            "name": "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
-            "playtime_2weeks": 2.2,
-            "hours": 2.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
-            "url": "https://store.steampowered.com/app/1277510"
-        },
-        {
             "appid": 292120,
             "name": "FINAL FANTASY XIII",
             "playtime_2weeks": 2.2,
@@ -74,6 +66,14 @@ const steamData = {
             "hours": 7.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
             "url": "https://store.steampowered.com/app/221040"
+        },
+        {
+            "appid": 1277510,
+            "name": "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
+            "playtime_2weeks": 1.3,
+            "hours": 2.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
+            "url": "https://store.steampowered.com/app/1277510"
         },
         {
             "appid": 431960,
