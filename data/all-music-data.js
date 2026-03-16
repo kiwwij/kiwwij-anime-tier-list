@@ -3715,7 +3715,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О боже, какой мужчина!",
+        "title": "О, Боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -4609,7 +4609,7 @@ const musicData = [
         "duration": "2:03"
     },
     {
-        "title": "Мама удалила роблокс (feat. Gulyashik & Qurorr)",
+        "title": "Мама удалила роблокс",
         "artist": "Lemaier",
         "playlist": "Dead inside",
         "duration": "3:04"
