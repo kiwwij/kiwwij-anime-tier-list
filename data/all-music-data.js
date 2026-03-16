@@ -511,6 +511,12 @@ const musicData = [
         "duration": "1:40"
     },
     {
+        "title": "таким как я",
+        "artist": "голодный",
+        "playlist": "Main",
+        "duration": "1:50"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6465,6 +6471,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 625,
-    "totalDurationSec": 175637,
+    "totalDurationSec": 175747,
     "lastUpdated": "Auto-generated"
 };
