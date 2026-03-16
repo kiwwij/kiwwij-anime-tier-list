@@ -517,6 +517,18 @@ const musicData = [
         "duration": "1:50"
     },
     {
+        "title": "она свободна (feat. морали нет)",
+        "artist": "диссоциативное расстройство",
+        "playlist": "Main",
+        "duration": "1:21"
+    },
+    {
+        "title": "Стань моїм вбивцею",
+        "artist": "Апатія",
+        "playlist": "Main",
+        "duration": "3:45"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6367,6 +6379,12 @@ const musicData = [
         "duration": "1:22"
     },
     {
+        "title": "Кінець фільму",
+        "artist": "BaWN",
+        "playlist": "Dead inside",
+        "duration": "2:59"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Chill",
@@ -6471,6 +6489,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 625,
-    "totalDurationSec": 175747,
+    "totalDurationSec": 176232,
     "lastUpdated": "Auto-generated"
 };
