@@ -5480,7 +5480,7 @@ const musicData = [
     },
     {
         "title": "общага",
-        "artist": "диссоциативное расстройство - Topic",
+        "artist": "диссоциативное расстройство",
         "playlist": "Dead inside",
         "duration": "1:48"
     },
@@ -5552,7 +5552,7 @@ const musicData = [
     },
     {
         "title": "Альтушка",
-        "artist": "Neverlove - Topic",
+        "artist": "Neverlove",
         "playlist": "Dead inside",
         "duration": "3:47"
     },
@@ -5581,7 +5581,7 @@ const musicData = [
         "duration": "1:51"
     },
     {
-        "title": "Правило 34 (Deltarune? /Music Video)",
+        "title": "Правило 34",
         "artist": "Denks",
         "playlist": "Dead inside",
         "duration": "3:32"
