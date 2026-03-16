@@ -424,9 +424,14 @@ const musicData = [
         "title": "#ЛЯШКИВКУСНЯШКИ (prod.by Kolji)",
         "artist": "ЯКОРЪ",
         "playlist": "Main"
+    },
+    {
+        "title": "таким как я",
+        "artist": "голодный",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 17,
-    "totalDurationSec": 10584
+    "totalDurationSec": 10694
 };
