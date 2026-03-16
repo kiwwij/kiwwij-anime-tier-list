@@ -2012,7 +2012,7 @@ const musicData = [
     },
     {
         "title": "Звезда упала",
-        "artist": "Sqwore - Topic",
+        "artist": "Sqwore",
         "playlist": "Dead inside",
         "duration": "1:36"
     },
