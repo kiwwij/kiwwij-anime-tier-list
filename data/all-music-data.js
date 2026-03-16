@@ -6385,6 +6385,12 @@ const musicData = [
         "duration": "2:59"
     },
     {
+        "title": "Stories",
+        "artist": "Hitomi",
+        "playlist": "Dead inside",
+        "duration": "5:20"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Chill",
@@ -6489,6 +6495,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 625,
-    "totalDurationSec": 176232,
+    "totalDurationSec": 176552,
     "lastUpdated": "Auto-generated"
 };
