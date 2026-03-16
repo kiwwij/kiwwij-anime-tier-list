@@ -3607,7 +3607,7 @@ const musicData = [
         "duration": "3:18"
     },
     {
-        "title": "WHAT YOU WANT! (Slowed Down)",
+        "title": "asteria - WHAT YOU WANT! (feat. Hatsune Miku) (Official Visualizer)",
         "artist": "asteria",
         "playlist": "Dead inside",
         "duration": "2:03"
