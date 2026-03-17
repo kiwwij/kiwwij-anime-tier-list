@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Snooze",
-        "statusColor": "#673AB7"
+        "status": "Away",
+        "statusColor": "#FFC107"
     },
     "stats": {
         "total_games": 253
@@ -22,7 +22,7 @@ const steamData = {
         {
             "appid": 3489700,
             "name": "Stellar Blade™",
-            "playtime_2weeks": 24.4,
+            "playtime_2weeks": 22.7,
             "hours": 55.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
             "url": "https://store.steampowered.com/app/3489700"
@@ -76,20 +76,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1277510"
         },
         {
+            "appid": 1905180,
+            "name": "OBS Studio",
+            "playtime_2weeks": 0.4,
+            "hours": 183.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
+            "url": "https://store.steampowered.com/app/1905180"
+        },
+        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.2,
             "hours": 19.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 1905180,
-            "name": "OBS Studio",
-            "playtime_2weeks": 0.1,
-            "hours": 182.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
-            "url": "https://store.steampowered.com/app/1905180"
         }
     ],
     "top_games": [
