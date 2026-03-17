@@ -5239,20 +5239,20 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "Луз за лузом",
-        "artist": "youraifu",
+        "title": "Луз за Лузом",
+        "artist": "AICOVERGIRL",
         "playlist": "Dead inside",
         "duration": "2:36"
     },
     {
-        "title": "Гроза лесных крипов",
-        "artist": "youraifu",
+        "title": "Гроза Лесных Крипов",
+        "artist": "AICOVERGIRL",
         "playlist": "Dead inside",
         "duration": "2:37"
     },
     {
-        "title": "Белочка с Армлетом (ROCK VERSION)",
-        "artist": "youraifu",
+        "title": "Белочка с Армлетом (Rock Version)",
+        "artist": "AICOVERGIRL",
         "playlist": "Dead inside",
         "duration": "1:55"
     },
@@ -5369,6 +5369,12 @@ const musicData = [
         "artist": "kyNZai",
         "playlist": "Dead inside",
         "duration": "1:54"
+    },
+    {
+        "title": "Код Гиасс",
+        "artist": "dabbackwood",
+        "playlist": "Dead inside",
+        "duration": "2:27"
     },
     {
         "title": "забери",
@@ -6495,6 +6501,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 625,
-    "totalDurationSec": 176570,
+    "totalDurationSec": 176717,
     "lastUpdated": "Auto-generated"
 };
