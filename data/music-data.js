@@ -429,9 +429,19 @@ const musicData = [
         "title": "таким как я",
         "artist": "голодный",
         "playlist": "Main"
+    },
+    {
+        "title": "она свободна (feat. морали нет)",
+        "artist": "диссоциативное расстройство",
+        "playlist": "Main"
+    },
+    {
+        "title": "Стань моїм вбивцею",
+        "artist": "Апатія",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 17,
-    "totalDurationSec": 10694
+    "totalDurationSec": 11000
 };
