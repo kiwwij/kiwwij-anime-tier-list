@@ -14,15 +14,15 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 34.0,
-            "hours": 3236.4,
+            "playtime_2weeks": 34.5,
+            "hours": 3236.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 3489700,
             "name": "Stellar Blade™",
-            "playtime_2weeks": 18.4,
+            "playtime_2weeks": 17.2,
             "hours": 55.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
             "url": "https://store.steampowered.com/app/3489700"
@@ -38,8 +38,8 @@ const steamData = {
         {
             "appid": 292120,
             "name": "FINAL FANTASY XIII",
-            "playtime_2weeks": 3.7,
-            "hours": 3.7,
+            "playtime_2weeks": 4.1,
+            "hours": 4.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292120/header.jpg",
             "url": "https://store.steampowered.com/app/292120"
         },
