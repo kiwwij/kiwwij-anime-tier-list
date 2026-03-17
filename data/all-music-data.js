@@ -175,12 +175,6 @@ const musicData = [
         "duration": "1:51"
     },
     {
-        "title": "Ручной Рептилоид – Я хочу быть 2D",
-        "artist": "Ручной Рептилоид",
-        "playlist": "Main",
-        "duration": "1:52"
-    },
-    {
         "title": "Не прокинусь",
         "artist": "BaWN",
         "playlist": "Main",
@@ -269,12 +263,6 @@ const musicData = [
         "artist": "Чучело",
         "playlist": "Main",
         "duration": "2:21"
-    },
-    {
-        "title": "Социально болен",
-        "artist": "Ручной рептилоид",
-        "playlist": "Main",
-        "duration": "2:24"
     },
     {
         "title": "pedobear›⩊‹",
@@ -425,18 +413,6 @@ const musicData = [
         "artist": "CMH",
         "playlist": "Main",
         "duration": "2:38"
-    },
-    {
-        "title": "пускают стрелы",
-        "artist": "fallen777angel",
-        "playlist": "Main",
-        "duration": "2:00"
-    },
-    {
-        "title": "fallen777angel - гладиатор/рыцарь (Official Audio) / eclipse media",
-        "artist": "eclipse media",
-        "playlist": "Main",
-        "duration": "1:45"
     },
     {
         "title": "stalk ur socials",
@@ -6409,6 +6385,12 @@ const musicData = [
         "duration": "5:20"
     },
     {
+        "title": "Социально болен",
+        "artist": "Ручной рептилоид",
+        "playlist": "Dead inside",
+        "duration": "2:24"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Chill",
@@ -6513,6 +6495,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 625,
-    "totalDurationSec": 176907,
+    "totalDurationSec": 176570,
     "lastUpdated": "Auto-generated"
 };
