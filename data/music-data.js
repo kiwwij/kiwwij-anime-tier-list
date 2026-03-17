@@ -146,11 +146,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Ручной Рептилоид – Я хочу быть 2D",
-        "artist": "Ручной Рептилоид",
-        "playlist": "Main"
-    },
-    {
         "title": "Не прокинусь",
         "artist": "BaWN",
         "playlist": "Main"
@@ -223,11 +218,6 @@ const musicData = [
     {
         "title": "Бякибуки",
         "artist": "Чучело",
-        "playlist": "Main"
-    },
-    {
-        "title": "Социально болен",
-        "artist": "Ручной рептилоид",
         "playlist": "Main"
     },
     {
@@ -356,16 +346,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "пускают стрелы",
-        "artist": "fallen777angel",
-        "playlist": "Main"
-    },
-    {
-        "title": "fallen777angel - гладиатор/рыцарь (Official Audio) / eclipse media",
-        "artist": "eclipse media",
-        "playlist": "Main"
-    },
-    {
         "title": "stalk ur socials",
         "artist": "s0rrow",
         "playlist": "Main"
@@ -439,9 +419,24 @@ const musicData = [
         "title": "Стань моїм вбивцею",
         "artist": "Апатія",
         "playlist": "Main"
+    },
+    {
+        "title": "ангелочек (alternative version)",
+        "artist": "onokami",
+        "playlist": "Main"
+    },
+    {
+        "title": "sleep",
+        "artist": "auratoshi",
+        "playlist": "Main"
+    },
+    {
+        "title": "Тело похудело",
+        "artist": "КОРЗА",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 17,
-    "totalDurationSec": 11000
+    "totalDurationSec": 10874
 };
