@@ -14,15 +14,15 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 35.3,
-            "hours": 3236.1,
+            "playtime_2weeks": 34.7,
+            "hours": 3236.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 3489700,
             "name": "Stellar Blade™",
-            "playtime_2weeks": 20.7,
+            "playtime_2weeks": 19.4,
             "hours": 55.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
             "url": "https://store.steampowered.com/app/3489700"
@@ -44,20 +44,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2623190"
         },
         {
+            "appid": 292120,
+            "name": "FINAL FANTASY XIII",
+            "playtime_2weeks": 2.7,
+            "hours": 2.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292120/header.jpg",
+            "url": "https://store.steampowered.com/app/292120"
+        },
+        {
             "appid": 637650,
             "name": "FINAL FANTASY XV WINDOWS EDITION",
             "playtime_2weeks": 2.3,
             "hours": 3.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/637650/header.jpg",
             "url": "https://store.steampowered.com/app/637650"
-        },
-        {
-            "appid": 292120,
-            "name": "FINAL FANTASY XIII",
-            "playtime_2weeks": 2.2,
-            "hours": 2.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292120/header.jpg",
-            "url": "https://store.steampowered.com/app/292120"
         },
         {
             "appid": 221040,
@@ -86,7 +86,7 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.2,
+            "playtime_2weeks": 0.3,
             "hours": 19.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
