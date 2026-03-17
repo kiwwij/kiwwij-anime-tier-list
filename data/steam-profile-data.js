@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 34.7,
+            "playtime_2weeks": 34.0,
             "hours": 3236.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -22,7 +22,7 @@ const steamData = {
         {
             "appid": 3489700,
             "name": "Stellar Blade™",
-            "playtime_2weeks": 19.4,
+            "playtime_2weeks": 18.4,
             "hours": 55.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
             "url": "https://store.steampowered.com/app/3489700"
@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1954200"
         },
         {
+            "appid": 292120,
+            "name": "FINAL FANTASY XIII",
+            "playtime_2weeks": 3.7,
+            "hours": 3.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292120/header.jpg",
+            "url": "https://store.steampowered.com/app/292120"
+        },
+        {
             "appid": 2623190,
             "name": "The Elder Scrolls IV: Oblivion Remastered",
             "playtime_2weeks": 3.0,
             "hours": 3.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
             "url": "https://store.steampowered.com/app/2623190"
-        },
-        {
-            "appid": 292120,
-            "name": "FINAL FANTASY XIII",
-            "playtime_2weeks": 2.7,
-            "hours": 2.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292120/header.jpg",
-            "url": "https://store.steampowered.com/app/292120"
         },
         {
             "appid": 637650,
