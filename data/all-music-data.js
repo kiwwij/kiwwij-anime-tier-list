@@ -529,6 +529,24 @@ const musicData = [
         "duration": "3:45"
     },
     {
+        "title": "ангелочек (alternative version)",
+        "artist": "onokami",
+        "playlist": "Main",
+        "duration": "1:45"
+    },
+    {
+        "title": "sleep",
+        "artist": "auratoshi",
+        "playlist": "Main",
+        "duration": "1:45"
+    },
+    {
+        "title": "Тело похудело",
+        "artist": "КОРЗА",
+        "playlist": "Main",
+        "duration": "2:25"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Japan",
@@ -6495,6 +6513,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 625,
-    "totalDurationSec": 176552,
+    "totalDurationSec": 176907,
     "lastUpdated": "Auto-generated"
 };
