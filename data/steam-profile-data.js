@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "Offline",
+        "statusColor": "#9E9E9E"
     },
     "stats": {
         "total_games": 253
@@ -20,20 +20,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/570"
         },
         {
-            "appid": 3489700,
-            "name": "Stellar Blade™",
-            "playtime_2weeks": 11.7,
-            "hours": 55.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
-            "url": "https://store.steampowered.com/app/3489700"
-        },
-        {
             "appid": 1954200,
             "name": "Kena: Bridge of Spirits",
             "playtime_2weeks": 11.2,
             "hours": 20.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1954200/header.jpg",
             "url": "https://store.steampowered.com/app/1954200"
+        },
+        {
+            "appid": 3489700,
+            "name": "Stellar Blade™",
+            "playtime_2weeks": 10.4,
+            "hours": 55.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
+            "url": "https://store.steampowered.com/app/3489700"
         },
         {
             "appid": 292120,
