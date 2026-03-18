@@ -31,9 +31,14 @@ if (typeof tierListData !== 'undefined') {
                 img: "energydrink/disclaimer.jpg"
             },
             { 
-                title: "Monster MangoLoco", 
-                review: "Самый интересный вкус, но на постояннке я бы не смог его пить.", 
-                img: "energydrink/Monster MangoLoco.webp"
+                title: "«Моршинська» сильногазована", 
+                review: "Напиток Богов.", 
+                img: "energydrink/Моршинська.webp"
+            },
+            { 
+                title: "Monster Energy Monarch", 
+                review: "Самый прикольный вкус монстра с персиком. Как бдуто единственный вкус, который я смогу пить на постоянной основе.", 
+                img: "energydrink/Monster Energy Monarch.webp"
             },
             { 
                 title: "Burn Apple Kiwi", 
@@ -45,13 +50,13 @@ if (typeof tierListData !== 'undefined') {
                 review: "Хоть это и не энергетик, но зато это вкусная химозная херня.", 
                 img: "energydrink/Mojo м'ята-лайм.png"
             },
-            { 
-                title: "«Моршинська» сильногазована", 
-                review: "Напиток Богов.", 
-                img: "energydrink/Моршинська.webp"
-            },
         ],
         'A': [
+            { 
+                title: "Monster MangoLoco", 
+                review: "Самый интересный вкус, но на постояннке я бы не смог его пить.", 
+                img: "energydrink/Monster MangoLoco.webp"
+            },
             { 
                 title: "Monster Energy", 
                 review: "Самый классический вкус. Ничего интересного", 
@@ -85,6 +90,11 @@ if (typeof tierListData !== 'undefined') {
                 img: "energydrink/Monster Energy Rio Punch.webp"
             },
             { 
+                title: "Monster Energy Juiced Khaotic", 
+                review: "Обычный цитрусо-тропический вкус, ничего. Пить можно, но не на постоянной основе, как по мне.", 
+                img: "energydrink/Monster Energy Juiced Khaotic.png"
+            },
+            { 
                 title: "Burn манго", 
                 review: "Как и говорил, почти все вкусны похожи друг на друга, поэтому хз чё добавить.", 
                 img: "energydrink/Burn манго.webp"
@@ -109,11 +119,6 @@ if (typeof tierListData !== 'undefined') {
                 review: "Прикольный арбузный вкус с мятным послевкусием.", 
                 img: "energydrink/Non Stop Zoom.webp"
             },
-            { 
-                title: "Monster Energy Juiced Khaotic", 
-                review: "Обычный цитрусо-тропический вкус, ничего. Пить можно, но не на постоянной основе, как по мне.", 
-                img: "energydrink/Monster Energy Juiced Khaotic.png"
-            },
             ],
         'C': [
             { 
@@ -127,34 +132,14 @@ if (typeof tierListData !== 'undefined') {
                 img: "energydrink/Monster Energy Ultra Rosa.webp"
             },
             { 
-                title: "Burn Original", 
-                review: "на удивление почти все энергетики данного бренда одинаковые, кроме оригинального. Он чутка хуже других.", 
-                img: "energydrink/Burn Original.webp"
-            },
-            { 
                 title: "Monster Energy Peachy Keen", 
                 review: "Прикольеный, но сладковатый вкус. Чисто на 1 раз.", 
                 img: "energydrink/Monster Energy Peachy Keen.webp"
             },
             { 
-                title: "Non Stop Stalker Green", 
-                review: "Вот уже реально вкус лайма.", 
-                img: "energydrink/Non Stop Stalker Green.webp"
-            },
-            { 
                 title: "Monster Energy Mega Lo-Carb", 
                 review: "Этот энергети мне подарил одногрупник на День Рождения, и скажем так, бессплатно всегда вкусно. Но если по факту, запах очень странный, а вкус самый дефолтный. Какой у глюкозу вкус? Вску сахара? Есть ароматизатор женьшеня.", 
                 img: "energydrink/Monster Energy Mega Lo-Carb.webp"
-            },
-            { 
-                title: "Non Stop 20 Years", 
-                review: "Вишнёвый вкус, а если быть точнее, то смесь ягод: вишня, малина, ежевика, черника. Как обычно горькое послевкусие. А между глотком и послевкусием вкус какой-то конфеты, не могу понять какой. Нет маленькой баночки.", 
-                img: "energydrink/Non Stop 20 Years.webp"
-            },
-            {
-                title: "Non Stop Spark",
-                review: "Сладкий вкус ананаса, даже без горького послевкусия, как обычно. Нет маленькой баночки.",
-                img: "energydrink/Non Stop Spark.webp"
             },
             { 
                 title: "Monster Energy 300 Java French Vanilla Triple Shot",
@@ -166,18 +151,38 @@ if (typeof tierListData !== 'undefined') {
                 review: "Обычный вкус манго, MangoLoco был повкуснее.", 
                 img: "energydrink/Monster Energy Ultra Fiesta Mango.png"
             },
+            { 
+                title: "Burn Original", 
+                review: "на удивление почти все энергетики данного бренда одинаковые, кроме оригинального. Он чутка хуже других.", 
+                img: "energydrink/Burn Original.webp"
+            },
+            { 
+                title: "Non Stop Stalker Green", 
+                review: "Вот уже реально вкус лайма.", 
+                img: "energydrink/Non Stop Stalker Green.webp"
+            },
+            { 
+                title: "Non Stop 20 Years", 
+                review: "Вишнёвый вкус, а если быть точнее, то смесь ягод: вишня, малина, ежевика, черника. Как обычно горькое послевкусие. А между глотком и послевкусием вкус какой-то конфеты, не могу понять какой. Нет маленькой баночки.", 
+                img: "energydrink/Non Stop 20 Years.webp"
+            },
+            {
+                title: "Non Stop Spark",
+                review: "Сладкий вкус ананаса, даже без горького послевкусия, как обычно. Нет маленькой баночки.",
+                img: "energydrink/Non Stop Spark.webp"
+            },
         ],
         'D': [
-            { 
-                title: "Burn Orange fire", 
-                review: "Горьковатый.", 
-                img: "energydrink/Burn Orange fire.webp"
-            },
             { 
                 title: "Monster Energy Pacific Punch", 
                 review: "Чисто из-за привкуса вишни, не моё.", 
                 img: "energydrink/Monster Energy Pacific Punch.png"
             },
+            { 
+                title: "Burn Orange fire", 
+                review: "Горьковатый.", 
+                img: "energydrink/Burn Orange fire.webp"
+            },
             { 
                 title: "Non Stop Jungle Evolution Fresh", 
                 review: "Зёлная баночка, но вкус лимонный (там нет лайма), для меня это странно. Горьковатый.", 

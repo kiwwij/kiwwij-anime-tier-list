@@ -16,6 +16,7 @@ const rezeroRatingScales = {
         { rank: 'Хорошо', color: 'bg-green-500' },
         { rank: 'Неплохо', color: 'bg-blue-500' },
         { rank: 'Скучно', color: 'bg-purple-500' },
+        { rank: 'Скоро прочитаю', color: 'bg-gray-600' }
     ]
 };
 
@@ -214,7 +215,43 @@ if (typeof tierListData !== 'undefined') {
             },
             ],
         'E': [],
-        'F': []
+        'F': [
+            { 
+                title: "Re:Zero Ранобэ Том 37", 
+                review: "", 
+                img: "rezero/37.webp"
+            },
+            { 
+                title: "Re:Zero Ранобэ Том 38", 
+                review: "", 
+                img: "rezero/38.webp"
+            },
+            { 
+                title: "Re:Zero Ранобэ Том 39", 
+                review: "", 
+                img: "rezero/39.webp"
+            },
+            { 
+                title: "Re:Zero Ранобэ Том 40", 
+                review: "", 
+                img: "rezero/40.webp"
+            },
+            { 
+                title: "Re:Zero Ранобэ Том 41", 
+                review: "", 
+                img: "rezero/41.webp"
+            },
+            { 
+                title: "Re:Zero Ранобэ Том 42", 
+                review: "", 
+                img: "rezero/42.webp"
+            },
+            { 
+                title: "Re:Zero Ранобэ Том 43", 
+                review: "", 
+                img: "rezero/43.webp"
+            },
+            ]
     };
 
 // } else {

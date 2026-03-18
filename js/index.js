@@ -88,6 +88,15 @@ function renderTierList() {
 
     const type = categoryData.type || 'anime';
     
+    const droppedLink = document.getElementById('droppedLinkContainer');
+    if (droppedLink) {
+        if (type === 'anime' && !category.includes('Re:Zero')) {
+            droppedLink.style.display = 'block';
+        } else {
+            droppedLink.style.display = 'none';
+        }
+    }
+    
     let scaleSource;
     if (type === 'game') scaleSource = gameRatingScales;
     else if (category === 'Энергетики') scaleSource = energyRatingScales;
@@ -96,6 +105,17 @@ function renderTierList() {
 
     const scales = scaleSource[currentScale];
     const dataKeys = ['S', 'A', 'B', 'C', 'D', 'E', 'F'];
+
+    if (type === 'game') {
+        const disclaimer = document.createElement('div');
+        disclaimer.className = 'modal-review-box';
+        disclaimer.style.margin = '0 auto 25px';
+        disclaimer.style.maxWidth = '800px';
+        disclaimer.style.textAlign = 'center';
+        disclaimer.style.borderLeftColor = '#facc15';
+        disclaimer.innerHTML = '<strong>Небольшая ремарка:</strong> Довольно тяжело объективно оценивать и сравнивать в одном списке ко-оп, мультиплеерные и сюжетные синглплеерные игры. Так что не удивляйтесь немного странной расстановке − это сугубо мое личное восприятие!';
+        tierListContainer.appendChild(disclaimer);
+    }
 
     scales.forEach((scale, idx) => {
         const row = document.createElement('div');
@@ -115,7 +135,8 @@ function renderTierList() {
             card.dataset.type = type;
             card.dataset.item = JSON.stringify(item);
 
-            attachReZeroSound(card, item.title);
+            // attachReZeroSound(card, item.title);
+            attachReZeroSound(card, item.title, category);
 
             const loader = document.createElement('div');
             loader.className = 'card-loader';
@@ -322,7 +343,7 @@ document.addEventListener('click', unlockAudioContext);
 document.addEventListener('keydown', unlockAudioContext);
 document.addEventListener('touchstart', unlockAudioContext);
 
-function attachReZeroSound(cardElement, title) {
+function attachReZeroSound(cardElement, title, category) {
     if (!title || !title.toLowerCase().includes('re:zero')) return;
 
     cardElement.classList.add('witch-target');
@@ -332,6 +353,9 @@ function attachReZeroSound(cardElement, title) {
             if (!isAudioUnlocked) unlockAudioContext();
             return;
         }
+
+        const playChance = category && category.includes('Re:Zero') ? 0.15 : 0.35;
+        if (Math.random() > playChance) return; 
 
         let selectedSound;
         const randomChance = Math.random();

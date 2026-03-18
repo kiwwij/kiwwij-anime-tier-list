@@ -1,4 +1,3 @@
-// 1. Создаем уникальную переменную для шкал ИГР
 const gameRatingScales = {
     standard: [
         { rank: 'S', color: 'bg-red-500' },
@@ -20,16 +19,15 @@ const gameRatingScales = {
     ]
 };
 
-// 2. Добавляем данные, если основной объект существует
 if (typeof tierListData !== 'undefined') {
     
     tierListData['Игры'] = {
-        type: 'game', // Важный флаг для API RAWG
+        type: 'game',
         data: {
             'S': [
                 {
                     title: "Minecraft",
-                    review: "Кайфовая игра на расслабон с друзьями. Свыше 7к часов. Прошёл на платину.",
+                    review: "Я не знаю сколько времени провёл в этой игре как сам, так и с другими людьмы. Я играл по телефону со Жмыхом по телефону, снимал сериалы с друзьями, гриферил, строил города, школы, играл в прятки, стримил, Херобрин взламывал сервер, играл с читами (Flux b4), снимал разные видосы и много, много чего ещё.",
                 },
                 {
                     title: "The Elder Scrolls V: Skyrim",
@@ -56,6 +54,19 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "The Last of Us Part I",
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1888930/",
+                },
+                {
+                    title: "FINAL FANTASY® XIII",
+                    review: "Мне очень сложно решить лучше ли FF XIII чем TLOU. Пока пускай будет так, но вообще их нельзя сравнивать. Это слишком разные игры. Ревью - (ссылка)",
+                    img: "games/FINAL_FANTASY_XIII.jpg",
+                },
+                {
+                    title: "FINAL FANTASY XIII-2",
+                    review: "Пока не играл. Ревью - (ссылка)",
+                },
+                {
+                    title: "LIGHTNING RETURNS: FINAL FANTASY XIII",
+                    review: "Пока не играл. Ревью - (ссылка)",
                 },
                 {
                     title: "Elden Ring",
@@ -87,7 +98,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Cyberpunk 2077",
-                    review: "Невертоятная графика, атмосфера, музыка и персонажи. Моя 1ая концовка просто дроп с крыши. Разные билды + моды дают повод несколько раз перепройти. Прошёл на платину.",
+                    review: "Невертоятная графика, атмосфера, музыка и персонажи. Моя 1ая концовка просто дроп с крыши. Разные билды + моды дают повод несколько раз перепройти.",
                 },
                 {
                     title: "Atomic Heart",
@@ -119,7 +130,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Marvel Rivals",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Играл с другом, было весело.",
                 },
                 {
                     title: "Raft",
@@ -131,11 +142,11 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Slime Rancher",
-                    review: "Прикольная игра на расслабон. Проходил очень много раз.Прошёл на платину.",
+                    review: "Прикольная игра на расслабон. Проходил очень много раз.",
                 },
                 {
                     title: "Terraria",
-                    review: "Кайфовая игра на расслабон с друзьями. Прошёл на платину.",
+                    review: "Кайфовая игра на расслабон с друзьями.",
                 },
                 {
                     title: "Honkai Star Rail",
@@ -148,12 +159,8 @@ if (typeof tierListData !== 'undefined') {
             ],
             'B': [
                 {
-                    title: "Final Fantasy XV Windows Edition",
-                    review: "Ревью - ",
-                },
-                {
                     title: "Dishonored",
-                    review: "Мега атмосферная игра с интересным геймплеем. Прошёл на платину.",
+                    review: "Мега атмосферная игра с интересным геймплеем.",
                 },
                 {
                     title: "Ghost of Tsushima",
@@ -169,7 +176,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Sons of the Forest",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Играл с другом, было весело.",
                 },
                 {
                     title: "Resident Evil 6",
@@ -189,15 +196,19 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "SWORD ART ONLINE Alicization Lycoris",
-                    review: "Смотрел я как-то давно одно ютубера по САО 'Tim Fairy', играл понравилась, поиграл. Прошёл на платину.",
+                    review: "Смотрел я как-то давно одно ютубера по САО 'Tim Fairy', даже донатил ему 1 раз. Сама игра понравилась, надобы её когда-нибудь перепройти.",
                 },
                 {
                     title: "Aragami",
-                    review: "Играл с другом, было весело и атмосферно. Прошёл на платину.",
+                    review: "Играл с другом, было весело и атмосферно.",
                 },
                 {
                     title: "God of War",
-                    review: "Отличная графика, атмосфера, музыка, но после середины было скучновато. Прошёл на платину.",
+                    review: "Отличная графика, атмосфера, музыка, но после середины стало скучно играть, хз почему. В некст части скорее всего играть не буду.",
+                },
+                {
+                    title: "Lords of the Fallen",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1501750/",
                 },
                 {
                     title: "MiSide",
@@ -209,19 +220,19 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Inmost",
-                    review: "Атмосферная игра, но короткая. Прошёл на платину.",
+                    review: "Атмосферная игра, но короткая.",
                 },
                 {
                     title: "Slime Rancher 2",
-                    review: "Прикольная игра на расслабон, но 1ая часть атмосферней. Прошёл на платину.",
+                    review: "Прикольная игра на расслабон, но 1ая часть атмосферней + не такая вырвиглазная.",
                 },
                 {
                     title: "Everlasting Summer",
-                    review: "2ая моя визуальная новелла после Зайчика. Моя концовка - плохая концовка с пионером. Прошёл на платину.",
+                    review: "2ая моя визуальная новелла после Зайчика. Моя концовка - плохая концовка с пионером.",
                 },
                 {
                     title: "Hollow Knight",
-                    review: "Кайфовая метроидвания с атмосферой. Прошёл на платину.",
+                    review: "Кайфовая метроидвания с атмосферой.",
                 },
                 {
                     title: "Shape of Dreams: Prologue",
@@ -233,15 +244,15 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Gunfire Reborn",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Играл с другом, было весело.",
                 },
                 {
                     title: "Kingdom two Crowns",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Играл с другом, было весело.",
                 },
                 {
                     title: "Ship of Fools",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Играл с другом, было весело.",
                     img: "games/Ship_of_Fools.avif",
                 },
                 {
@@ -250,35 +261,35 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Neceasse",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Играл с другом, было весело.",
                 },
                 {
                     title: "Grounded",
-                    review: "Играл с другом даже не с 1, было весело. Прошёл на платину.",
+                    review: "Играл с другом даже не с 1, было весело, но в целом игра искучная. 2ую часть игра не буду.",
                 },
                 {
                     title: "Escape the Backrooms",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Играл с другом, было весело.",
                 },
                 {
                     title: "PEAK",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Играл с другом, было весело.",
                 },
                 {
                     title: "Golf With Your Friends",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Играл с другом, было весело.",
                 },
                 {
                     title: "Pummel Party",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Играл с другом, было весело.",
                 },
                 {
                     title: "Liar's Bar",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Играл с другом, было весело.",
                 },
                 {
                     title: "Uno",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Играл с другом, было весело.",
                 },
                 {
                     title: "Among Us",
@@ -286,7 +297,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Heroes of Might and Magic 3: Complete",
-                    review: "Играл со знакомым, неплохо. Прикольная стратегия.",
+                    review: "Играл со знакомым, неплохо.",
                 },
                 {
                     title: "Voidtrain",
@@ -294,27 +305,27 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Roboquest",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Играл с другом, было весело.",
                 },
                 {
                     title: "Pic Me",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Играл с другом, было весело.",
                 },
                 {
                     title: "We Were Here Expeditions: The FriendShip",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Играл с другом, было весело.",
                 },
                 {
                     title: "We Were Here Forever",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Играл с другом, было весело.",
                 },
                 {
                     title: "Trine 4: The Nightmare Prince",
-                    review: "Играл с другом, было весело. Прошёл на платину.",
+                    review: "Играл с другом, было весело."
                 },
                 {
                     title: "Bioshock Infinite",
-                    review: "",
+                    review: "Хорошая игра, но я её так и не прошёл до конца, но когда-нибудь пройду!",
                 },
                 {
                     title: "Northgard",
@@ -332,11 +343,11 @@ if (typeof tierListData !== 'undefined') {
             'C': [
                 {
                     title: "Kena: Bridge of Spirits",
-                    review: "Невероятная графика, но оптимизация хромает. Атмосфера и музыка норм. Прошёл на платину.",
+                    review: "Невероятная графика, но оптимизация хромает. Атмосфера и музыка норм.",
                 },
                 {
                     title: "Portal 2",
-                    review: "Кайфовая игрушка, но не более. Финальная песня кайф. Прошёл на платину.",
+                    review: "Кайфовая игрушка, но не более. Финальная песня кайф. Кстати, надобы в 1ую часть поиграть.",
                 },
                 {
                     title: "The Quarry",
@@ -344,23 +355,23 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "little nightmares II",
-                    review: "Управление всё портит. Так то игра атмосферная, лучше 1ой. Прошёл на платину.",
+                    review: "Управление всё портит. Так то игра атмосферная, лучше 1ой.",
                 },
                 {
                     title: "little nightmares",
-                    review: "Управление всё портит. Так то игра атмосферная. Прошёл на платину.",
+                    review: "Управление всё портит. Так то игра атмосферная.",
                 },
                 {
                     title: "Aragami 2",
-                    review: "Хуже чем 1ая часть. Прошёл на платину.",
+                    review: "Хуже чем 1ая часть.",
                 },
                 {
                     title: "Dishonored 2",
-                    review: "Все теже механику, но больше динамик, чтоли. Но скучная. Прошёл на платину.",
+                    review: "Все теже механику, но больше динамик, чтоли. Но скучная.",
                 },
                 {
                     title: "Sword Art Online: Fatal Bullet",
-                    review: "Подумал, что будет прикольно, по типу алисизации, но нет. Прошёл на платину.",
+                    review: "Подумал, что будет прикольно, по типу алисизации, но нет.",
                 },
                 {
                     title: "Still Wakes the Deep",
@@ -368,11 +379,11 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Fran Bow",
-                    review: "Атмосферная игра, но скучная. Прошёл на платину.",
+                    review: "Атмосферная игра, но скучная.",
                 },
                 {
                     title: "Sally Face",
-                    review: "Скучная игра, думал будет лучше. Прошёл на платину.",
+                    review: "Скучная игра, думал будет лучше.",
                 },
                 {
                     title: "Higurashi When They Cry Hou - Ch.1",
@@ -417,10 +428,14 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Styx: Shards of Darkness",
-                    review: "Скучная игра, думал будет лучше. Прошёл на платину.",
+                    review: "Скучная игра, думал будет лучше.",
                 },
             ],
             'D': [
+                {
+                    title: "The Elder Scrolls IV: Oblivion Remastered",
+                    review: "Небольшое ревью - https://telegra.ph/The-Elder-Scrolls-IV-Oblivion-Remastered-review-03-14",
+                },
                 {
                     title: "NieR:Automata",
                     review: "Небольшое ревью - https://telegra.ph/NieRAutomata-review-03-01",
@@ -440,7 +455,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Black Souls I",
-                    review: "Почти прошёл, но если бы в игре не было pdf моментов, было бы даже не стыдно говорить, что я прошёл эту игру.",
+                    review: "Почти прошёл, но если бы в игре не было pdf моментов, было бы даже не стыдно говорить, что я играл в эту игру.",
                     img: "games/Black_Souls_I.jpg",
                 },
                 {
@@ -461,15 +476,15 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "The Elder Scrolls Online",
-                    review: "Пытался и не 1 раз пройти, но не моё.",
+                    review: "Пытался пройти несколько раз, но не моё.",
                 },
                 {
                     title: "Astroneers",
-                    review: "Играл с другом, даже не с одним, было весело.",
+                    review: "Играл с другом, даже не с одним, было весело, но скучно.",
                 },
                 {
                     title: "Reus",
-                    review: "За выслугул лет. Поиграть чуть-чуть, но не больше.",
+                    review: "За выслугул лет.",
                 },
                 {
                     title: "Bioshock Remastered",
@@ -479,12 +494,12 @@ if (typeof tierListData !== 'undefined') {
             'E': [
                 {
                     title: "Humans are not that against Lizardwomen",
-                    review: "Пик игровой индустрии. Платина.",
+                    review: "Пик игровой индустрии.",
                     img: "games/Humans_are_not_that_against_Lizardwomen.jpg",
                 },
                 {
                     title: "Humans are not that against Lizardwomen 2",
-                    review: "Пик игровой индустрии 2. Платина.",
+                    review: "Пик игровой индустрии 2.",
                     img: "games/Humans_are_not_that_against_Lizardwomen2.jpg",
                 },
                 {
@@ -497,29 +512,29 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Chasing Tails ~A Promise in the Snow~",
-                    review: "Платина.",
+                    review: "",
                 },
                 {
                     title: "HENTAI - World War II",
-                    review: "Платина.",
+                    review: "",
                 },
                 {
                     title: "Hitler is My Crush: Love and Fascism",
-                    review: "Купил в рофл. Прошёл на платину в рофл.",
+                    review: "",
                 },
                 {
                     title: "Stalker",
-                    review: "Мне Илья подарил, это не моё. Платина.",
+                    review: "Мне Илья подарил, это не моё. А почему играл? Ну это же подарок, так что и поиграл.",
                 },
                 {
                     title: "Bongo Cat",
-                    review: "Думал себе на стримы вместо вебки выводить. Платина.",
+                    review: "Думал себе на стримы вместо вебки выводить.",
                 },
             ],
             'F': [
                 {
-                    title: "Lords of the Fallen",
-                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1501750/",
+                    title: "Final Fantasy XV Windows Edition",
+                    review: "Небольшое ревью - https://telegra.ph/FINAL-FANTASY-XV-WINDOWS-EDITION-review-03-13",
                 },
                 {
                     title: "Counter-Strike 2",
