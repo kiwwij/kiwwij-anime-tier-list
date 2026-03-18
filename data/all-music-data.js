@@ -7,12 +7,6 @@ const musicData = [
         "duration": "2:17"
     },
     {
-        "title": "рехаб",
-        "artist": "madk1d",
-        "playlist": "Main",
-        "duration": "1:32"
-    },
-    {
         "title": "держаться за руки",
         "artist": "кариолемма",
         "playlist": "Main",
@@ -227,12 +221,6 @@ const musicData = [
         "artist": "Electrobirds",
         "playlist": "Main",
         "duration": "4:01"
-    },
-    {
-        "title": "CUPSIZE - вирус",
-        "artist": "CupsizeArchive",
-        "playlist": "Main",
-        "duration": "2:32"
     },
     {
         "title": "аромат цветов",
@@ -6397,6 +6385,12 @@ const musicData = [
         "duration": "2:01"
     },
     {
+        "title": "Вирус",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "2:30"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Chill",
@@ -6501,6 +6495,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 640,
-    "totalDurationSec": 176686,
+    "totalDurationSec": 176592,
     "lastUpdated": "Auto-generated"
 };
