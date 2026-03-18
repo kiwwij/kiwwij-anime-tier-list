@@ -1,18 +1,6 @@
 // Этот файл сгенерирован автоматически скриптом update_all_music.py
 const musicData = [
     {
-        "title": "мило материшься",
-        "artist": "volhey",
-        "playlist": "Main",
-        "duration": "2:01"
-    },
-    {
-        "title": "Грязный Кайф",
-        "artist": "Kishlak",
-        "playlist": "Main",
-        "duration": "2:47"
-    },
-    {
         "title": "madk1d - питер паркер(unrelease mood video)",
         "artist": "ньюген",
         "playlist": "Main",
@@ -3733,7 +3721,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О боже, какой мужчина!",
+        "title": "О, Боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -6397,6 +6385,18 @@ const musicData = [
         "duration": "2:24"
     },
     {
+        "title": "Грязный Кайф",
+        "artist": "Кишлак",
+        "playlist": "Dead inside",
+        "duration": "2:46"
+    },
+    {
+        "title": "мило материшься",
+        "artist": "volhey",
+        "playlist": "Dead inside",
+        "duration": "2:01"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Chill",
@@ -6501,6 +6501,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 640,
-    "totalDurationSec": 176687,
+    "totalDurationSec": 176686,
     "lastUpdated": "Auto-generated"
 };
