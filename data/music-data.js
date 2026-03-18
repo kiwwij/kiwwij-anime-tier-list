@@ -1,23 +1,8 @@
 // Этот файл сгенерирован автоматически скриптом update_music.py
 const musicData = [
     {
-        "title": "мило материшься",
-        "artist": "volhey",
-        "playlist": "Main"
-    },
-    {
-        "title": "Грязный Кайф",
-        "artist": "Kishlak",
-        "playlist": "Main"
-    },
-    {
         "title": "madk1d - питер паркер(unrelease mood video)",
         "artist": "ньюген",
-        "playlist": "Main"
-    },
-    {
-        "title": "рехаб",
-        "artist": "madk1d",
         "playlist": "Main"
     },
     {
@@ -31,18 +16,8 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "голодный - таблетки",
-        "artist": "Голодный",
-        "playlist": "Main"
-    },
-    {
         "title": "ты че обиделась",
         "artist": "madk1d",
-        "playlist": "Main"
-    },
-    {
-        "title": "улыбка",
-        "artist": "volhey",
         "playlist": "Main"
     },
     {
@@ -76,11 +51,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Болею тобой",
-        "artist": "Кишлак",
-        "playlist": "Main"
-    },
-    {
         "title": "общага",
         "artist": "диссоциативное расстройство",
         "playlist": "Main"
@@ -98,11 +68,6 @@ const musicData = [
     {
         "title": "tuborosho, Anonymous Ember - europa fm",
         "artist": "suenushka",
-        "playlist": "Main"
-    },
-    {
-        "title": "интернет любовь",
-        "artist": "fallen777angel",
         "playlist": "Main"
     },
     {
@@ -196,23 +161,8 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Листівки",
-        "artist": "Electrobirds",
-        "playlist": "Main"
-    },
-    {
-        "title": "CUPSIZE - вирус",
-        "artist": "CupsizeArchive",
-        "playlist": "Main"
-    },
-    {
         "title": "аромат цветов",
         "artist": "PLUSIX",
-        "playlist": "Main"
-    },
-    {
-        "title": "раздевайся",
-        "artist": "семьсот семь",
         "playlist": "Main"
     },
     {
@@ -258,11 +208,6 @@ const musicData = [
     {
         "title": "СВЕТЛАНА!",
         "artist": "NEXTIME",
-        "playlist": "Main"
-    },
-    {
-        "title": "дайте выпилиться тут",
-        "artist": "лиззз",
         "playlist": "Main"
     },
     {
@@ -438,5 +383,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 17,
-    "totalDurationSec": 10874
+    "totalDurationSec": 9277
 };
