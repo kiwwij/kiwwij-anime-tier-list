@@ -14,9 +14,9 @@ output_path = os.path.join(project_root, 'data', 'all-music-data.js')
 # --- СПИСОК ПЛЕЙЛИСТОВ (ВСЕ 4) ---
 playlists = [
     {"id": "PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C", "name": "Main"},
-    {"id": "PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ", "name": "Japan"},
+    {"id": "PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ", "name": "Off Screen"},
     {"id": "PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2", "name": "Dead inside"},
-    {"id": "PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ", "name": "Chill"}
+    {"id": "PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ", "name": "Game OSTs"}
 ]
 
 # --- ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ ---
