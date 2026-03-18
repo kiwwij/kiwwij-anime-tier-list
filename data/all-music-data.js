@@ -3325,8 +3325,8 @@ const musicData = [
         "duration": "2:00"
     },
     {
-        "title": "Black Beatles (feat. Gucci Mane)",
-        "artist": "Rae Sremmurd",
+        "title": "Black Beatles",
+        "artist": "Rae Sremmurd - Topic",
         "playlist": "Dead inside",
         "duration": "4:52"
     },
@@ -3410,7 +3410,7 @@ const musicData = [
     },
     {
         "title": "Первый снег",
-        "artist": "Сова",
+        "artist": "Сова - Topic",
         "playlist": "Dead inside",
         "duration": "2:59"
     },
@@ -3475,13 +3475,13 @@ const musicData = [
         "duration": "5:01"
     },
     {
-        "title": "ПАЗЛ",
-        "artist": "Кажанна",
+        "title": "КАЖАННА - ПАЗЛ ( ПРЕМʼЄРА ВІДЕО 2023 )",
+        "artist": "КАЖАННА",
         "playlist": "Dead inside",
         "duration": "2:11"
     },
     {
-        "title": "GENDER",
+        "title": "SQWOZ BAB – GENDER (Official video)",
         "artist": "SQWOZ BAB",
         "playlist": "Dead inside",
         "duration": "2:57"
@@ -3614,7 +3614,7 @@ const musicData = [
     },
     {
         "title": "Світанок",
-        "artist": "Яка Різниця",
+        "artist": "Какая Разница - Topic",
         "playlist": "Dead inside",
         "duration": "2:02"
     },
