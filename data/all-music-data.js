@@ -865,6 +865,12 @@ const musicData = [
         "duration": "5:52"
     },
     {
+        "title": "CYBERPUNK 2077 SOUNDTRACK - WHO'S READY FOR TOMORROW by Rat Boy & IBDY (Official Video)",
+        "artist": "Lakeshore Records",
+        "playlist": "Japan",
+        "duration": "1:57"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -6495,6 +6501,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 625,
-    "totalDurationSec": 176570,
+    "totalDurationSec": 176687,
     "lastUpdated": "Auto-generated"
 };
