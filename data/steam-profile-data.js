@@ -28,20 +28,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1954200"
         },
         {
-            "appid": 3489700,
-            "name": "Stellar Blade™",
-            "playtime_2weeks": 4.7,
-            "hours": 55.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
-            "url": "https://store.steampowered.com/app/3489700"
-        },
-        {
             "appid": 292120,
             "name": "FINAL FANTASY XIII",
             "playtime_2weeks": 4.1,
             "hours": 4.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292120/header.jpg",
             "url": "https://store.steampowered.com/app/292120"
+        },
+        {
+            "appid": 3489700,
+            "name": "Stellar Blade™",
+            "playtime_2weeks": 3.9,
+            "hours": 55.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg",
+            "url": "https://store.steampowered.com/app/3489700"
         },
         {
             "appid": 2623190,
