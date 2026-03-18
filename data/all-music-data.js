@@ -19,22 +19,10 @@ const musicData = [
         "duration": "2:00"
     },
     {
-        "title": "голодный - таблетки",
-        "artist": "Голодный",
-        "playlist": "Main",
-        "duration": "1:38"
-    },
-    {
         "title": "ты че обиделась",
         "artist": "madk1d",
         "playlist": "Main",
         "duration": "1:30"
-    },
-    {
-        "title": "улыбка",
-        "artist": "volhey",
-        "playlist": "Main",
-        "duration": "1:50"
     },
     {
         "title": "слова",
@@ -73,12 +61,6 @@ const musicData = [
         "duration": "1:38"
     },
     {
-        "title": "Болею тобой",
-        "artist": "Кишлак",
-        "playlist": "Main",
-        "duration": "2:23"
-    },
-    {
         "title": "общага",
         "artist": "диссоциативное расстройство",
         "playlist": "Main",
@@ -101,12 +83,6 @@ const musicData = [
         "artist": "suenushka",
         "playlist": "Main",
         "duration": "1:53"
-    },
-    {
-        "title": "интернет любовь",
-        "artist": "fallen777angel",
-        "playlist": "Main",
-        "duration": "1:56"
     },
     {
         "title": "Як тебе цілував",
@@ -217,22 +193,10 @@ const musicData = [
         "duration": "2:38"
     },
     {
-        "title": "Листівки",
-        "artist": "Electrobirds",
-        "playlist": "Main",
-        "duration": "4:01"
-    },
-    {
         "title": "аромат цветов",
         "artist": "PLUSIX",
         "playlist": "Main",
         "duration": "2:18"
-    },
-    {
-        "title": "раздевайся",
-        "artist": "семьсот семь",
-        "playlist": "Main",
-        "duration": "2:41"
     },
     {
         "title": "Бякибуки",
@@ -287,12 +251,6 @@ const musicData = [
         "artist": "NEXTIME",
         "playlist": "Main",
         "duration": "1:36"
-    },
-    {
-        "title": "дайте выпилиться тут",
-        "artist": "лиззз",
-        "playlist": "Main",
-        "duration": "3:16"
     },
     {
         "title": "Виріжу очі",
@@ -501,349 +459,349 @@ const musicData = [
     {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "4:23"
     },
     {
         "title": "Unravel",
         "artist": "TK from Ling tosite sigure",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "3:59"
     },
     {
         "title": "Fukashigi no Carte",
         "artist": "Bunny Girl",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "4:00"
     },
     {
         "title": "DARLING in the FRANXX Opening 1 | KISS OF DEATH",
         "artist": "Crunchyroll",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "1:30"
     },
     {
         "title": "Shangri-la Frontier Season 2 Ending 2 | RealitYhurts",
         "artist": "Crunchyroll",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "1:41"
     },
     {
         "title": "インフェルノ - Inferno",
         "artist": "Mrs. GREEN APPLE",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "3:42"
     },
     {
         "title": "Naruto - Opening 4 (v2) (HD - 60 fps)",
         "artist": "Anime Guy",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "1:31"
     },
     {
         "title": "Haruka Kanata",
         "artist": "ASIAN KUNG-FU GENERATION",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "4:07"
     },
     {
         "title": "光るなら-TV size- - Hikarunara TV Size",
         "artist": "Goose house",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "1:33"
     },
     {
         "title": "Black Catcher",
         "artist": "VK Blanka",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "3:19"
     },
     {
         "title": "Stay Alive",
         "artist": "エミリア（CV:高橋李依）",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "4:28"
     },
     {
         "title": "空想メソロギヰ",
         "artist": "妖精帝國",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "4:00"
     },
     {
         "title": "椎名もた(siinamota) - Young Girl A / 少女A",
         "artist": "siinamota",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "4:03"
     },
     {
         "title": "熱情のスペクトラム - Netsujo No Spectrum",
         "artist": "Ikimonogakari",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "3:45"
     },
     {
         "title": "departure!",
         "artist": "Masatoshi Ono",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "4:18"
     },
     {
         "title": "ろん -「おちゃめ機能」FUKKIRETA 【HD.256k.Kara】",
         "artist": "tripflag",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "1:31"
     },
     {
         "title": "Ｏ2 - O2",
         "artist": "ORANGE RANGE",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "3:58"
     },
     {
         "title": "阿修羅ちゃん - Ashura-chan",
         "artist": "Ado",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "3:19"
     },
     {
         "title": "ムスビメ",
         "artist": "大原ゆい子",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "4:51"
     },
     {
         "title": "spiral",
         "artist": "LONGMAN",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "3:52"
     },
     {
         "title": "Please Mr.Lostman",
         "artist": "the pillows",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "4:09"
     },
     {
         "title": "ユニバースキップ/Flower&初音ミク",
         "artist": "aoiro code",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "3:13"
     },
     {
         "title": "It's Going Down Now",
         "artist": "Azumi Takahashi",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "3:07"
     },
     {
         "title": "Стальной алхимик - Братья (милая мама)",
         "artist": "Music & Anime",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "3:54"
     },
     {
         "title": "Daddy ! Daddy ! Do ! (feat. Airi Suzuki)",
         "artist": "Masayuki Suzuki",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "4:15"
     },
     {
         "title": "Fullmetal Alchemist: Brotherhood - Opening 1 [4K 60FPS | Creditless | CC]",
         "artist": "Neobrane",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "2:03"
     },
     {
         "title": "Волчица и пряности - Opening (Русский дубляж)",
         "artist": "Anton Kalashnikov",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "1:26"
     },
     {
         "title": "Волчица и пряности - Ending (Русский дубляж)",
         "artist": "Anton Kalashnikov",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "1:27"
     },
     {
         "title": "ステップ！ (GAME VERSION) - Step! (Game Version)",
         "artist": "Mio Honda (CV: Sayuri Hara)",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "2:11"
     },
     {
         "title": "Marshmallow (feat. Hatsune Miku)",
         "artist": "DECO*27",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "2:58"
     },
     {
         "title": "ルル - RuLe",
         "artist": "Ado",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "3:19"
     },
     {
         "title": "ぼうやの夢よ",
         "artist": "エミリア（CV:高橋李依）",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "3:31"
     },
     {
         "title": "Wishing",
         "artist": "レム（CV:水瀬いのり）",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "6:01"
     },
     {
         "title": "遊園施設 - Amusement Park",
         "artist": "Keigo Hoashi",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "6:20"
     },
     {
         "title": "エミール/犠牲 - Emil / Sacrifice",
         "artist": "MONACA",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "3:28"
     },
     {
         "title": "Wasteland (from the series Arcane League of Legends)",
         "artist": "Royal & the Serpent",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "2:42"
     },
     {
         "title": "Feel",
         "artist": "Lies of P",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "3:58"
     },
     {
         "title": "Goodbye (from the series Arcane League of Legends)",
         "artist": "Ramsey",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "3:51"
     },
     {
         "title": "マシュマロ - Marshmallow",
         "artist": "DECO*27",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "2:52"
     },
     {
         "title": "Believe in you",
         "artist": "nonoc",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "4:40"
     },
     {
         "title": "STYX HELIX",
         "artist": "MYTH & ROID",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "4:50"
     },
     {
         "title": "Sing My Pleasure",
         "artist": "Vivy (Vo.Kairi Yagi)",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "4:50"
     },
     {
         "title": "NOX LUX",
         "artist": "MYTH & ROID",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "4:34"
     },
     {
         "title": "アニメ「コードギアス 反逆のルルーシュ」オープニング／FLOW「COLORS」（Another ver.）",
         "artist": "コードギアスチャンネル CODEGEASS Channel",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "1:31"
     },
     {
         "title": "TVアニメ『この素晴らしい世界に爆焔を！』 ノンクレジットED",
         "artist": "KADOKAWAanime",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "1:31"
     },
     {
         "title": "Re:Re: (Anime Size)",
         "artist": "ASIAN KUNG-FU GENERATION",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "1:30"
     },
     {
         "title": "花になって - Be a flower",
         "artist": "Ryokuoushoku Shakai",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "3:20"
     },
     {
         "title": "アニメ「負けヒロインが多すぎる！」オープニング映像【毎週土曜24:30~放送/配信中】",
         "artist": "アニプレックス チャンネル",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "1:30"
     },
     {
         "title": "Akame ga Kill! Opening 2 | Liar Mask by Rika Mayama",
         "artist": "Crunchyroll",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "1:41"
     },
     {
         "title": "LiSA「crossing field」／「ソードアート・オンライン」第1期1stクール ノンクレジットOP",
         "artist": "アニプレックス チャンネル",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "1:31"
     },
     {
         "title": "Weight of the World/壊レタ世界ノ歌 - Weight of the World Kowaretasekainouta - Marina Kawano",
         "artist": "Keiichi Okabe",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "5:45"
     },
     {
         "title": "sun will rise",
         "artist": "(K)NoW_NAME",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "4:25"
     },
     {
         "title": "守りたいもの",
         "artist": "Yuiko Ohara",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "4:27"
     },
     {
         "title": "Yuusha no Kuzu Ending - Mental Rental (メンタルレンタル) ♪JP/ROM/CHT/EN Lyrics♪",
         "artist": "DailyMisato",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "3:14"
     },
     {
         "title": "No Promises to Keep (FINAL FANTASY VII REBIRTH THEME SONG)",
         "artist": "Loren Allred",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "5:58"
     },
     {
         "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
         "artist": "Degurechaff",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "1:42"
     },
     {
         "title": "Kimi Ga Iru Kara (feat. Hikari)",
         "artist": "The Black Velvet and Friends",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "5:52"
     },
     {
         "title": "CYBERPUNK 2077 SOUNDTRACK - WHO'S READY FOR TOMORROW by Rat Boy & IBDY (Official Video)",
         "artist": "Lakeshore Records",
-        "playlist": "Japan",
+        "playlist": "Off Screen",
         "duration": "1:57"
     },
     {
@@ -6391,110 +6349,146 @@ const musicData = [
         "duration": "2:30"
     },
     {
+        "title": "таб***ки",
+        "artist": "голодный",
+        "playlist": "Dead inside",
+        "duration": "1:39"
+    },
+    {
+        "title": "Болею тобой",
+        "artist": "Кишлак",
+        "playlist": "Dead inside",
+        "duration": "2:23"
+    },
+    {
+        "title": "интернет любовь",
+        "artist": "fallen777angel",
+        "playlist": "Dead inside",
+        "duration": "1:56"
+    },
+    {
+        "title": "Листівки",
+        "artist": "Electrobirds",
+        "playlist": "Dead inside",
+        "duration": "4:01"
+    },
+    {
+        "title": "раздевайся",
+        "artist": "семьсот семь",
+        "playlist": "Dead inside",
+        "duration": "2:41"
+    },
+    {
+        "title": "дайте выпилиться тут",
+        "artist": "лиззз",
+        "playlist": "Dead inside",
+        "duration": "3:16"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
-        "playlist": "Chill",
+        "playlist": "Game OSTs",
         "duration": "6:51"
     },
     {
         "title": "遊園施設 - Amusement Park",
         "artist": "Keigo Hoashi",
-        "playlist": "Chill",
+        "playlist": "Game OSTs",
         "duration": "6:20"
     },
     {
         "title": "Everlasting Summer",
         "artist": "Sergey Eybog",
-        "playlist": "Chill",
+        "playlist": "Game OSTs",
         "duration": "2:04"
     },
     {
         "title": "C418 - Subwoofer Lullaby - Minecraft Volume Alpha",
         "artist": "SMORT",
-        "playlist": "Chill",
+        "playlist": "Game OSTs",
         "duration": "3:29"
     },
     {
         "title": "エミール/犠牲 - Emil / Sacrifice",
         "artist": "MONACA",
-        "playlist": "Chill",
+        "playlist": "Game OSTs",
         "duration": "3:28"
     },
     {
         "title": "Weight of the World/Nouveau-FR Version - Weight of the World Nouveau - FR Version - Emi Evans",
         "artist": "Keiichi Okabe",
-        "playlist": "Chill",
+        "playlist": "Game OSTs",
         "duration": "5:48"
     },
     {
         "title": "エミール/ショップ - Emil's Shop",
         "artist": "Kuniyuki Takahashi",
-        "playlist": "Chill",
+        "playlist": "Game OSTs",
         "duration": "5:29"
     },
     {
         "title": "Weight of the World/壊レタ世界ノ歌 - Weight of the World Kowaretasekainouta - Marina Kawano",
         "artist": "Keiichi Okabe",
-        "playlist": "Chill",
+        "playlist": "Game OSTs",
         "duration": "5:45"
     },
     {
         "title": "イニシエノウタ/デボル - Song of the Ancients / Devola",
         "artist": "MONACA",
-        "playlist": "Chill",
+        "playlist": "Game OSTs",
         "duration": "3:05"
     },
     {
         "title": "イニシエノウタ/ポポル - Song of the Ancients / Popola",
         "artist": "MONACA",
-        "playlist": "Chill",
+        "playlist": "Game OSTs",
         "duration": "3:05"
     },
     {
         "title": "イニシエノウタ/運命 - Song of the Ancients / Fate",
         "artist": "MONACA",
-        "playlist": "Chill",
+        "playlist": "Game OSTs",
         "duration": "5:18"
     },
     {
         "title": "Silent Street (Type A)",
         "artist": "Hyunmin Cho, seibin, Youngkyoung Choi, and SHIFT UP",
-        "playlist": "Chill",
+        "playlist": "Game OSTs",
         "duration": "6:11"
     },
     {
         "title": "Silent Street (Type B)",
         "artist": "Hyunmin Cho, seibin, Youngkyoung Choi, and SHIFT UP",
-        "playlist": "Chill",
+        "playlist": "Game OSTs",
         "duration": "5:50"
     },
     {
         "title": "Lily",
         "artist": "seibin, Youngjee Lee, & SHIFT UP",
-        "playlist": "Chill",
+        "playlist": "Game OSTs",
         "duration": "5:05"
     },
     {
         "title": "Beyond Fate",
         "artist": "Youngjee Lee & SHIFT UP",
-        "playlist": "Chill",
+        "playlist": "Game OSTs",
         "duration": "2:03"
     },
     {
         "title": "Arisa",
         "artist": "Keita Inoue",
-        "playlist": "Chill",
+        "playlist": "Game OSTs",
         "duration": "5:32"
     },
     {
         "title": "The Dawn of EVE",
         "artist": "Keita Inoue",
-        "playlist": "Chill",
+        "playlist": "Game OSTs",
         "duration": "4:54"
     }
 ];
 const musicStats = {
     "totalViews": 640,
-    "totalDurationSec": 176592,
+    "totalDurationSec": 176483,
     "lastUpdated": "Auto-generated"
 };
