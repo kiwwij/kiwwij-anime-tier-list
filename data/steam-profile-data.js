@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 37.6,
+            "playtime_2weeks": 36.9,
             "hours": 3248.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -28,20 +28,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/292120"
         },
         {
-            "appid": 1954200,
-            "name": "Kena: Bridge of Spirits",
-            "playtime_2weeks": 3.3,
-            "hours": 20.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1954200/header.jpg",
-            "url": "https://store.steampowered.com/app/1954200"
-        },
-        {
             "appid": 2623190,
             "name": "The Elder Scrolls IV: Oblivion Remastered",
             "playtime_2weeks": 3.0,
             "hours": 3.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
             "url": "https://store.steampowered.com/app/2623190"
+        },
+        {
+            "appid": 1954200,
+            "name": "Kena: Bridge of Spirits",
+            "playtime_2weeks": 2.6,
+            "hours": 20.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1954200/header.jpg",
+            "url": "https://store.steampowered.com/app/1954200"
         },
         {
             "appid": 637650,
