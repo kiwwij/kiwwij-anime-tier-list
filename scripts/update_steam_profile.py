@@ -130,6 +130,22 @@ def main():
         print("❌ Не удалось получить профиль.")
         return
 
+    # --- АВТООБНОВЛЕНИЕ DOTA 2 ---
+    dota_in_recent = next((game for game in recent_games if game['appid'] == 570), None)
+
+    if dota_in_recent:
+        if not any(g['appid'] == 570 for g in all_games):
+            all_games.append({
+                "appid": 570,
+                "name": "Dota 2",
+                "hours": dota_in_recent['hours'], 
+                "image": dota_in_recent['image'],
+                "url": dota_in_recent['url']
+            })
+            
+    all_games.sort(key=lambda x: x.get('hours', 0), reverse=True)
+    # -----------------------------
+
     steam_data = {
         "profile": profile,
         "stats": {
