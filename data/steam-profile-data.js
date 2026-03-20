@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -28,20 +28,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/292120"
         },
         {
+            "appid": 2183900,
+            "name": "Warhammer 40,000: Space Marine 2",
+            "playtime_2weeks": 3.1,
+            "hours": 6.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
+            "url": "https://store.steampowered.com/app/2183900"
+        },
+        {
             "appid": 2623190,
             "name": "The Elder Scrolls IV: Oblivion Remastered",
             "playtime_2weeks": 3.0,
             "hours": 3.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
             "url": "https://store.steampowered.com/app/2623190"
-        },
-        {
-            "appid": 2183900,
-            "name": "Warhammer 40,000: Space Marine 2",
-            "playtime_2weeks": 2.6,
-            "hours": 6.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
-            "url": "https://store.steampowered.com/app/2183900"
         },
         {
             "appid": 637650,
@@ -62,7 +62,7 @@ const steamData = {
         {
             "appid": 221040,
             "name": "Resident Evil 6",
-            "playtime_2weeks": 0.9,
+            "playtime_2weeks": 0.4,
             "hours": 7.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
             "url": "https://store.steampowered.com/app/221040"
