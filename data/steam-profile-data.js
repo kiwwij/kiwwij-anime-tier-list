@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 37.4,
-            "hours": 3249.1,
+            "playtime_2weeks": 37.9,
+            "hours": 3249.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -44,14 +44,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/637650"
         },
         {
-            "appid": 1954200,
-            "name": "Kena: Bridge of Spirits",
-            "playtime_2weeks": 1.7,
-            "hours": 20.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1954200/header.jpg",
-            "url": "https://store.steampowered.com/app/1954200"
-        },
-        {
             "appid": 221040,
             "name": "Resident Evil 6",
             "playtime_2weeks": 1.6,
@@ -66,6 +58,14 @@ const steamData = {
             "hours": 2.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
             "url": "https://store.steampowered.com/app/1277510"
+        },
+        {
+            "appid": 1954200,
+            "name": "Kena: Bridge of Spirits",
+            "playtime_2weeks": 0.9,
+            "hours": 20.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1954200/header.jpg",
+            "url": "https://store.steampowered.com/app/1954200"
         },
         {
             "appid": 1905180,
@@ -88,7 +88,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3249.1,
+            "hours": 3249.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
