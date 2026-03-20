@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 36.0,
+            "playtime_2weeks": 35.7,
             "hours": 3250.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -52,20 +52,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/637650"
         },
         {
-            "appid": 221040,
-            "name": "Resident Evil 6",
-            "playtime_2weeks": 1.6,
-            "hours": 7.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
-            "url": "https://store.steampowered.com/app/221040"
-        },
-        {
             "appid": 1277510,
             "name": "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
             "playtime_2weeks": 1.3,
             "hours": 2.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
             "url": "https://store.steampowered.com/app/1277510"
+        },
+        {
+            "appid": 221040,
+            "name": "Resident Evil 6",
+            "playtime_2weeks": 1.2,
+            "hours": 7.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
+            "url": "https://store.steampowered.com/app/221040"
         },
         {
             "appid": 1905180,
@@ -78,7 +78,7 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.4,
+            "playtime_2weeks": 0.3,
             "hours": 19.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
