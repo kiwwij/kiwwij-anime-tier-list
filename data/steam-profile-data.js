@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 37.7,
+            "playtime_2weeks": 37.0,
             "hours": 3250.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2623190"
         },
         {
+            "appid": 2183900,
+            "name": "Warhammer 40,000: Space Marine 2",
+            "playtime_2weeks": 2.6,
+            "hours": 6.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
+            "url": "https://store.steampowered.com/app/2183900"
+        },
+        {
             "appid": 637650,
             "name": "FINAL FANTASY XV WINDOWS EDITION",
             "playtime_2weeks": 2.3,
             "hours": 3.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/637650/header.jpg",
             "url": "https://store.steampowered.com/app/637650"
-        },
-        {
-            "appid": 2183900,
-            "name": "Warhammer 40,000: Space Marine 2",
-            "playtime_2weeks": 1.7,
-            "hours": 5.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
-            "url": "https://store.steampowered.com/app/2183900"
         },
         {
             "appid": 221040,
