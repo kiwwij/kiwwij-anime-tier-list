@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 37.9,
-            "hours": 3249.6,
+            "playtime_2weeks": 38.4,
+            "hours": 3250.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -60,12 +60,12 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1277510"
         },
         {
-            "appid": 1954200,
-            "name": "Kena: Bridge of Spirits",
-            "playtime_2weeks": 0.9,
-            "hours": 20.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1954200/header.jpg",
-            "url": "https://store.steampowered.com/app/1954200"
+            "appid": 2183900,
+            "name": "Warhammer 40,000: Space Marine 2",
+            "playtime_2weeks": 0.7,
+            "hours": 4.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
+            "url": "https://store.steampowered.com/app/2183900"
         },
         {
             "appid": 1905180,
@@ -88,7 +88,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3249.6,
+            "hours": 3250.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
