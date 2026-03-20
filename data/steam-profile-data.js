@@ -4,25 +4,25 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50"
     },
     "stats": {
-        "total_games": 254
+        "total_games": 255
     },
     "recent_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 39.2,
-            "hours": 3248.5,
+            "playtime_2weeks": 39.0,
+            "hours": 3248.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1954200,
             "name": "Kena: Bridge of Spirits",
-            "playtime_2weeks": 5.0,
+            "playtime_2weeks": 4.6,
             "hours": 20.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1954200/header.jpg",
             "url": "https://store.steampowered.com/app/1954200"
@@ -85,6 +85,13 @@ const steamData = {
         }
     ],
     "top_games": [
+        {
+            "appid": 570,
+            "name": "Dota 2",
+            "hours": 3248.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
+            "url": "https://store.steampowered.com/app/570"
+        },
         {
             "appid": 730,
             "name": "Counter-Strike 2",
@@ -217,13 +224,6 @@ const steamData = {
             "hours": 62.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/444090/header.jpg",
             "url": "https://store.steampowered.com/app/444090"
-        },
-        {
-            "appid": 701160,
-            "name": "Kingdom Two Crowns",
-            "hours": 57.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/701160/header.jpg",
-            "url": "https://store.steampowered.com/app/701160"
         }
     ]
 };
