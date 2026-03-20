@@ -14,15 +14,15 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 35.4,
-            "hours": 3244.5,
+            "playtime_2weeks": 36.4,
+            "hours": 3245.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1954200,
             "name": "Kena: Bridge of Spirits",
-            "playtime_2weeks": 8.8,
+            "playtime_2weeks": 8.0,
             "hours": 20.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1954200/header.jpg",
             "url": "https://store.steampowered.com/app/1954200"
