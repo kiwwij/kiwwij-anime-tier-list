@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
-        "statusColor": "#4CAF50"
+        "status": "Away",
+        "statusColor": "#FFC107"
     },
     "stats": {
         "total_games": 255
@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 37.0,
+            "playtime_2weeks": 36.3,
             "hours": 3250.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -82,6 +82,14 @@ const steamData = {
             "hours": 19.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 1458040,
+            "name": "Tales of Arise Demo Version",
+            "playtime_2weeks": 0.1,
+            "hours": 0.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1458040/header.jpg",
+            "url": "https://store.steampowered.com/app/1458040"
         }
     ],
     "top_games": [
