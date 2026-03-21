@@ -20,20 +20,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/570"
         },
         {
+            "appid": 2183900,
+            "name": "Warhammer 40,000: Space Marine 2",
+            "playtime_2weeks": 4.5,
+            "hours": 8.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
+            "url": "https://store.steampowered.com/app/2183900"
+        },
+        {
             "appid": 292120,
             "name": "FINAL FANTASY XIII",
             "playtime_2weeks": 4.1,
             "hours": 4.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292120/header.jpg",
             "url": "https://store.steampowered.com/app/292120"
-        },
-        {
-            "appid": 2183900,
-            "name": "Warhammer 40,000: Space Marine 2",
-            "playtime_2weeks": 4.0,
-            "hours": 7.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
-            "url": "https://store.steampowered.com/app/2183900"
         },
         {
             "appid": 2623190,
