@@ -4705,8 +4705,8 @@ const musicData = [
         "duration": "2:19"
     },
     {
-        "title": "Elka - Provence",
-        "artist": "ELLO",
+        "title": "Прованс",
+        "artist": "Elka",
         "playlist": "Dead inside",
         "duration": "3:26"
     },
@@ -4723,8 +4723,8 @@ const musicData = [
         "duration": "1:30"
     },
     {
-        "title": "Nodahsa - Я никогда не стану феминисткой",
-        "artist": "WHY Z MUSIC",
+        "title": "Я никогда не стану феминисткой",
+        "artist": "Nodahsa",
         "playlist": "Dead inside",
         "duration": "2:28"
     },
@@ -4807,14 +4807,14 @@ const musicData = [
         "duration": "2:57"
     },
     {
-        "title": "нексюша - Заводская",
+        "title": "Заводская",
         "artist": "нексюша",
         "playlist": "Dead inside",
         "duration": "3:09"
     },
     {
         "title": "Дуэт Принцессы и Трубадура",
-        "artist": "Release - Topic",
+        "artist": "Тихон Жизневский, Валентина Ляпина, & Дмитрий Венгеров",
         "playlist": "Dead inside",
         "duration": "1:17"
     },
@@ -4861,8 +4861,8 @@ const musicData = [
         "duration": "2:34"
     },
     {
-        "title": "Royal & the Serpent - “Wasteland” (from Arcane Season 2) [Official Visualizer]",
-        "artist": "Riot Games Music",
+        "title": "Wasteland",
+        "artist": "Royal & the Serpent",
         "playlist": "Dead inside",
         "duration": "2:42"
     },
