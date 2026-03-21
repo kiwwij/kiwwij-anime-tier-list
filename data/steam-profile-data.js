@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 2183900,
             "name": "Warhammer 40,000: Space Marine 2",
-            "playtime_2weeks": 3.5,
-            "hours": 7.0,
+            "playtime_2weeks": 4.0,
+            "hours": 7.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
             "url": "https://store.steampowered.com/app/2183900"
         },
