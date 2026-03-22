@@ -52,6 +52,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/637650"
         },
         {
+            "appid": 1371980,
+            "name": "No Rest for the Wicked",
+            "playtime_2weeks": 0.6,
+            "hours": 0.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1371980/header.jpg",
+            "url": "https://store.steampowered.com/app/1371980"
+        },
+        {
             "appid": 221040,
             "name": "Resident Evil 6",
             "playtime_2weeks": 0.4,
@@ -74,14 +82,6 @@ const steamData = {
             "hours": 19.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 1371980,
-            "name": "No Rest for the Wicked",
-            "playtime_2weeks": 0.1,
-            "hours": 0.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1371980/header.jpg",
-            "url": "https://store.steampowered.com/app/1371980"
         },
         {
             "appid": 1458040,
