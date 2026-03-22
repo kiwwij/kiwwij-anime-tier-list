@@ -54,8 +54,8 @@ const steamData = {
         {
             "appid": 1371980,
             "name": "No Rest for the Wicked",
-            "playtime_2weeks": 0.6,
-            "hours": 0.6,
+            "playtime_2weeks": 1.1,
+            "hours": 1.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1371980/header.jpg",
             "url": "https://store.steampowered.com/app/1371980"
         },
