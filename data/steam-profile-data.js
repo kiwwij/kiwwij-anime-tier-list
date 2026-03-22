@@ -2,10 +2,10 @@
 const steamData = {
     "profile": {
         "nickname": "kiwwij",
-        "avatar": "https://avatars.steamstatic.com/460c5824864a6e9b3bc90cc7e8dac0733a4ef7b4_full.jpg",
+        "avatar": "https://avatars.steamstatic.com/54fb03a0ca8d211e6ec2b285bc9277ab839f5c34_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
-        "statusColor": "#4CAF50"
+        "status": "Offline",
+        "statusColor": "#9E9E9E"
     },
     "stats": {
         "total_games": 256
@@ -71,7 +71,7 @@ const steamData = {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.3,
-            "hours": 19.4,
+            "hours": 19.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
         },
