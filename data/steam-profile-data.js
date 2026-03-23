@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 34.5,
+            "playtime_2weeks": 34.3,
             "hours": 3257.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -54,7 +54,7 @@ const steamData = {
         {
             "appid": 637650,
             "name": "FINAL FANTASY XV WINDOWS EDITION",
-            "playtime_2weeks": 1.1,
+            "playtime_2weeks": 0.8,
             "hours": 3.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/637650/header.jpg",
             "url": "https://store.steampowered.com/app/637650"
