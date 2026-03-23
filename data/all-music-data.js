@@ -5167,8 +5167,8 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "Луз за лузом",
-        "artist": "youraifu",
+        "title": "Луз за Лузом",
+        "artist": "AICOVERGIRL",
         "playlist": "Dead inside",
         "duration": "2:36"
     },
@@ -5821,7 +5821,7 @@ const musicData = [
         "duration": "4:11"
     },
     {
-        "title": "真夜中のドア〜stay with me (Original club mix) - Mayonaka no Door~stay with me (Original club mix)",
+        "title": "真夜中のドア〜stay with me (Original Club Mix Mixed by D.O.I) - Mayonaka no Door 〜 Stay with Me (Original Club Mix)",
         "artist": "Miki Matsubara",
         "playlist": "Dead inside",
         "duration": "5:47"
