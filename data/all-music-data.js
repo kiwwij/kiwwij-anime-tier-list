@@ -6391,6 +6391,12 @@ const musicData = [
         "duration": "1:49"
     },
     {
+        "title": "8 миля",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "1:56"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6495,6 +6501,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 640,
-    "totalDurationSec": 176590,
+    "totalDurationSec": 176706,
     "lastUpdated": "Auto-generated"
 };
