@@ -156,18 +156,8 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Демон",
-        "artist": "Чучело",
-        "playlist": "Main"
-    },
-    {
         "title": "аромат цветов",
         "artist": "PLUSIX",
-        "playlist": "Main"
-    },
-    {
-        "title": "Бякибуки",
-        "artist": "Чучело",
         "playlist": "Main"
     },
     {
@@ -383,5 +373,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 17,
-    "totalDurationSec": 9277
+    "totalDurationSec": 8978
 };
