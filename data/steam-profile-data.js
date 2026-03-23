@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/54fb03a0ca8d211e6ec2b285bc9277ab839f5c34_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
-        "statusColor": "#4CAF50"
+        "status": "Away",
+        "statusColor": "#FFC107"
     },
     "stats": {
         "total_games": 256
@@ -52,14 +52,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2623190"
         },
         {
-            "appid": 637650,
-            "name": "FINAL FANTASY XV WINDOWS EDITION",
-            "playtime_2weeks": 0.8,
-            "hours": 3.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/637650/header.jpg",
-            "url": "https://store.steampowered.com/app/637650"
-        },
-        {
             "appid": 221040,
             "name": "Resident Evil 6",
             "playtime_2weeks": 0.4,
@@ -74,6 +66,14 @@ const steamData = {
             "hours": 183.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
+        },
+        {
+            "appid": 637650,
+            "name": "FINAL FANTASY XV WINDOWS EDITION",
+            "playtime_2weeks": 0.4,
+            "hours": 3.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/637650/header.jpg",
+            "url": "https://store.steampowered.com/app/637650"
         },
         {
             "appid": 431960,
