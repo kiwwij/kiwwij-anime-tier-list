@@ -187,22 +187,10 @@ const musicData = [
         "duration": "1:56"
     },
     {
-        "title": "Демон",
-        "artist": "Чучело",
-        "playlist": "Main",
-        "duration": "2:38"
-    },
-    {
         "title": "аромат цветов",
         "artist": "PLUSIX",
         "playlist": "Main",
         "duration": "2:18"
-    },
-    {
-        "title": "Бякибуки",
-        "artist": "Чучело",
-        "playlist": "Main",
-        "duration": "2:21"
     },
     {
         "title": "pedobear›⩊‹",
@@ -6401,6 +6389,18 @@ const musicData = [
         "artist": "madk1d",
         "playlist": "Dead inside",
         "duration": "2:25"
+    },
+    {
+        "title": "Демон",
+        "artist": "Чучело",
+        "playlist": "Dead inside",
+        "duration": "2:38"
+    },
+    {
+        "title": "Бякибуки",
+        "artist": "Чучело",
+        "playlist": "Dead inside",
+        "duration": "2:21"
     },
     {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
