@@ -1022,7 +1022,7 @@ const musicData = [
     },
     {
         "title": "Tokyo Ghoul OP  / Опенинг Токийский Гуль cover by Ai Mori",
-        "artist": "Ai Mori",
+        "artist": "АйMori",
         "playlist": "Dead inside",
         "duration": "4:13"
     },
@@ -1052,7 +1052,7 @@ const musicData = [
     },
     {
         "title": "“Below The Surface” - FNAF SISTER LOCATION SONG | by Griffinilla",
-        "artist": "Griffinilla",
+        "artist": "Fandroid Music",
         "playlist": "Dead inside",
         "duration": "2:32"
     },
@@ -1106,7 +1106,7 @@ const musicData = [
     },
     {
         "title": "Лесбиянство (не) модно",
-        "artist": "СТРУКТУРА ЩАСТЯ",
+        "artist": "СТРУКТУРА ЩАСТЯ - Topic",
         "playlist": "Dead inside",
         "duration": "2:17"
     },
@@ -1124,7 +1124,7 @@ const musicData = [
     },
     {
         "title": "Лицо",
-        "artist": "Созвездие Отрезок",
+        "artist": "Созвездие Отрезок - Topic",
         "playlist": "Dead inside",
         "duration": "3:28"
     },
@@ -1159,7 +1159,7 @@ const musicData = [
         "duration": "2:40"
     },
     {
-        "title": "алиса",
+        "title": "наше последнее лето - алиса",
         "artist": "наше последнее лето",
         "playlist": "Dead inside",
         "duration": "1:54"
@@ -1232,7 +1232,7 @@ const musicData = [
     },
     {
         "title": "Степень искренности",
-        "artist": "Volkprod",
+        "artist": "Volkprod - Topic",
         "playlist": "Dead inside",
         "duration": "2:58"
     },
@@ -1273,7 +1273,7 @@ const musicData = [
         "duration": "2:23"
     },
     {
-        "title": "Ты не такая",
+        "title": "MellSher - Ты не такая (Премьера клипа)",
         "artist": "MellSher",
         "playlist": "Dead inside",
         "duration": "3:29"
@@ -1309,7 +1309,7 @@ const musicData = [
         "duration": "2:38"
     },
     {
-        "title": "последнее лето",
+        "title": "ooes — последнее лето",
         "artist": "ooes",
         "playlist": "Dead inside",
         "duration": "2:18"
@@ -6397,6 +6397,12 @@ const musicData = [
         "duration": "1:56"
     },
     {
+        "title": "Always",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "2:25"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6501,6 +6507,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 640,
-    "totalDurationSec": 176706,
+    "totalDurationSec": 176851,
     "lastUpdated": "Auto-generated"
 };
