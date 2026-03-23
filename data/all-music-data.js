@@ -1022,7 +1022,7 @@ const musicData = [
     },
     {
         "title": "Tokyo Ghoul OP  / Опенинг Токийский Гуль cover by Ai Mori",
-        "artist": "АйMori",
+        "artist": "Ai Mori",
         "playlist": "Dead inside",
         "duration": "4:13"
     },
@@ -1052,7 +1052,7 @@ const musicData = [
     },
     {
         "title": "“Below The Surface” - FNAF SISTER LOCATION SONG | by Griffinilla",
-        "artist": "Fandroid Music",
+        "artist": "Griffinilla",
         "playlist": "Dead inside",
         "duration": "2:32"
     },
@@ -1106,7 +1106,7 @@ const musicData = [
     },
     {
         "title": "Лесбиянство (не) модно",
-        "artist": "СТРУКТУРА ЩАСТЯ - Topic",
+        "artist": "СТРУКТУРА ЩАСТЯ",
         "playlist": "Dead inside",
         "duration": "2:17"
     },
@@ -1124,7 +1124,7 @@ const musicData = [
     },
     {
         "title": "Лицо",
-        "artist": "Созвездие Отрезок - Topic",
+        "artist": "Созвездие Отрезок",
         "playlist": "Dead inside",
         "duration": "3:28"
     },
@@ -1159,7 +1159,7 @@ const musicData = [
         "duration": "2:40"
     },
     {
-        "title": "наше последнее лето - алиса",
+        "title": "алиса",
         "artist": "наше последнее лето",
         "playlist": "Dead inside",
         "duration": "1:54"
@@ -1232,7 +1232,7 @@ const musicData = [
     },
     {
         "title": "Степень искренности",
-        "artist": "Volkprod - Topic",
+        "artist": "Volkprod",
         "playlist": "Dead inside",
         "duration": "2:58"
     },
@@ -1273,7 +1273,7 @@ const musicData = [
         "duration": "2:23"
     },
     {
-        "title": "MellSher - Ты не такая (Премьера клипа)",
+        "title": "Ты не такая",
         "artist": "MellSher",
         "playlist": "Dead inside",
         "duration": "3:29"
@@ -1309,7 +1309,7 @@ const musicData = [
         "duration": "2:38"
     },
     {
-        "title": "ooes — последнее лето",
+        "title": "последнее лето",
         "artist": "ooes",
         "playlist": "Dead inside",
         "duration": "2:18"
