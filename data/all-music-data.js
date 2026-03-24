@@ -445,6 +445,24 @@ const musicData = [
         "duration": "2:25"
     },
     {
+        "title": "сиськи",
+        "artist": "trepet",
+        "playlist": "Main",
+        "duration": "1:45"
+    },
+    {
+        "title": "MARTINE ROSE",
+        "artist": "madk1d",
+        "playlist": "Main",
+        "duration": "3:07"
+    },
+    {
+        "title": "Race",
+        "artist": "Alex G",
+        "playlist": "Main",
+        "duration": "3:44"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -6403,6 +6421,12 @@ const musicData = [
         "duration": "2:21"
     },
     {
+        "title": "слова",
+        "artist": "Violetta Sokolova",
+        "playlist": "Dead inside",
+        "duration": "2:45"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6507,6 +6531,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 640,
-    "totalDurationSec": 176851,
+    "totalDurationSec": 177532,
     "lastUpdated": "Auto-generated"
 };
