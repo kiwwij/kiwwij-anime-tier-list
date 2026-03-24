@@ -6527,10 +6527,34 @@ const musicData = [
         "artist": "Keita Inoue",
         "playlist": "Game OSTs",
         "duration": "4:54"
+    },
+    {
+        "title": "FINAL FANTASY XIII ～誓い～ - FINAL FANTASY XIII - The Promise",
+        "artist": "Masashi Hamauzu",
+        "playlist": "Game OSTs",
+        "duration": "1:33"
+    },
+    {
+        "title": "逃げてもいいの - Face It Later",
+        "artist": "Masashi Hamauzu",
+        "playlist": "Game OSTs",
+        "duration": "0:55"
+    },
+    {
+        "title": "Eternal Love(Short Version)",
+        "artist": "Sayuri Sugawara",
+        "playlist": "Game OSTs",
+        "duration": "3:27"
+    },
+    {
+        "title": "サンレス水郷 - The Sunleth Waterscape",
+        "artist": "Masashi Hamauzu",
+        "playlist": "Game OSTs",
+        "duration": "3:47"
     }
 ];
 const musicStats = {
     "totalViews": 640,
-    "totalDurationSec": 177532,
+    "totalDurationSec": 178114,
     "lastUpdated": "Auto-generated"
 };
