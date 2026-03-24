@@ -46,11 +46,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Cupsize - люби меня алина",
-        "artist": "𓆩hikxdfe𓆪",
-        "playlist": "Main"
-    },
-    {
         "title": "общага",
         "artist": "диссоциативное расстройство",
         "playlist": "Main"
@@ -388,5 +383,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 17,
-    "totalDurationSec": 9494
+    "totalDurationSec": 9396
 };
