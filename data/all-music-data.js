@@ -55,12 +55,6 @@ const musicData = [
         "duration": "1:40"
     },
     {
-        "title": "Cupsize - люби меня алина",
-        "artist": "𓆩hikxdfe𓆪",
-        "playlist": "Main",
-        "duration": "1:38"
-    },
-    {
         "title": "общага",
         "artist": "диссоциативное расстройство",
         "playlist": "Main",
@@ -6551,10 +6545,22 @@ const musicData = [
         "artist": "Masashi Hamauzu",
         "playlist": "Game OSTs",
         "duration": "3:47"
+    },
+    {
+        "title": "コクーンdeチョコボ～夢をみようよⅡ～ - Chocobos of Cocoon - Chasing Dreams",
+        "artist": "Masashi Hamauzu",
+        "playlist": "Game OSTs",
+        "duration": "2:58"
+    },
+    {
+        "title": "君がいるから(Long Version) - Kimi ga Irukara(Long Version)",
+        "artist": "Sayuri Sugawara",
+        "playlist": "Game OSTs",
+        "duration": "6:23"
     }
 ];
 const musicStats = {
     "totalViews": 640,
-    "totalDurationSec": 178114,
+    "totalDurationSec": 178577,
     "lastUpdated": "Auto-generated"
 };
