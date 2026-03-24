@@ -369,9 +369,24 @@ const musicData = [
         "title": "Тело похудело",
         "artist": "КОРЗА",
         "playlist": "Main"
+    },
+    {
+        "title": "сиськи",
+        "artist": "trepet",
+        "playlist": "Main"
+    },
+    {
+        "title": "MARTINE ROSE",
+        "artist": "madk1d",
+        "playlist": "Main"
+    },
+    {
+        "title": "Race",
+        "artist": "Alex G",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 17,
-    "totalDurationSec": 8978
+    "totalDurationSec": 9494
 };
