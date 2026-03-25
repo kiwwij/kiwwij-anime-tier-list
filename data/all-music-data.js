@@ -4063,14 +4063,14 @@ const musicData = [
         "duration": "1:01"
     },
     {
-        "title": "Twinky - Войсчат",
+        "title": "Войсчат",
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:55"
     },
     {
         "title": "Киндер Буэно",
-        "artist": "Slava KPSS - Topic",
+        "artist": "Валентин Дядька",
         "playlist": "Dead inside",
         "duration": "3:12"
     },
@@ -4130,7 +4130,7 @@ const musicData = [
     },
     {
         "title": "All Girls Are The Same",
-        "artist": "Juice WRLD - Topic",
+        "artist": "Juice WRLD",
         "playlist": "Dead inside",
         "duration": "2:46"
     },
@@ -4285,8 +4285,8 @@ const musicData = [
         "duration": "3:24"
     },
     {
-        "title": "ГОСПОЖА ЭВЕЛИН - МОЖНО (ПРЕМЬЕРА КЛИПА 2024)",
-        "artist": "Госпожа Эвелин ",
+        "title": "можно",
+        "artist": "Госпожа Эвелин",
         "playlist": "Dead inside",
         "duration": "2:16"
     },
@@ -4328,7 +4328,7 @@ const musicData = [
     },
     {
         "title": "Кабанчик",
-        "artist": "Вячеслав Кукоба - Topic",
+        "artist": "В'ячеслав Кукоба",
         "playlist": "Dead inside",
         "duration": "3:21"
     },
@@ -4369,8 +4369,8 @@ const musicData = [
         "duration": "2:53"
     },
     {
-        "title": "БЬЯНКА - Были танцы",
-        "artist": "BIANKA",
+        "title": "Были танцы",
+        "artist": "Bianka",
         "playlist": "Dead inside",
         "duration": "3:02"
     },
@@ -4393,8 +4393,8 @@ const musicData = [
         "duration": "2:40"
     },
     {
-        "title": "八王子P 「気まぐれメルシィ  feat. 初音ミク」(6/15発売Best AL「Eight」収録）",
-        "artist": "八王子P",
+        "title": "八王子P 「気まぐれメルシィ  feat. 初音ミク」(6/15発売Best AL「Eight」収録） - Blue Star",
+        "artist": "Hachiouji P",
         "playlist": "Dead inside",
         "duration": "3:29"
     },
