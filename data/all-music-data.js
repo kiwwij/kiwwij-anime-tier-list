@@ -4837,7 +4837,7 @@ const musicData = [
         "duration": "2:18"
     },
     {
-        "title": "FUNK DO BOUNCE (Super Slowed)",
+        "title": "FUNK DO BOUNCE (BEAUZ Remix) (Slowed)",
         "artist": "Ariis",
         "playlist": "Dead inside",
         "duration": "1:48"
