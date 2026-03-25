@@ -2005,7 +2005,7 @@ const musicData = [
         "duration": "3:50"
     },
     {
-        "title": "2:00 (speed up)",
+        "title": "2:00 (Speed Up)",
         "artist": "enveel",
         "playlist": "Dead inside",
         "duration": "1:41"
