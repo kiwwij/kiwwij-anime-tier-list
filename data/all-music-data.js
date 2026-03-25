@@ -457,6 +457,12 @@ const musicData = [
         "duration": "3:44"
     },
     {
+        "title": "Ты не пришла и х с тобой",
+        "artist": "Мой Двор",
+        "playlist": "Main",
+        "duration": "2:34"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -1597,12 +1603,6 @@ const musicData = [
         "duration": "3:23"
     },
     {
-        "title": "JackLooney ft OTURRO - Дисс на 5opka & Mellsher (Конкурс диссов от 5opka)",
-        "artist": "Jack Looney",
-        "playlist": "Dead inside",
-        "duration": "2:47"
-    },
-    {
         "title": "Beauty Bomb",
         "artist": "ADUSHKINA",
         "playlist": "Dead inside",
@@ -1709,12 +1709,6 @@ const musicData = [
         "artist": "Dasford",
         "playlist": "Dead inside",
         "duration": "2:04"
-    },
-    {
-        "title": "Lil Krystall - Мама рассказала как курить марихуану (feat. Lovesomemama)",
-        "artist": "помойка майнпока",
-        "playlist": "Dead inside",
-        "duration": "3:50"
     },
     {
         "title": "Толпы (Speed Up)",
@@ -2557,12 +2551,6 @@ const musicData = [
         "duration": "4:39"
     },
     {
-        "title": "NBA (Slowed)",
-        "artist": "RSAC",
-        "playlist": "Dead inside",
-        "duration": "2:11"
-    },
-    {
         "title": "Открываю пивко",
         "artist": "Василий Дидляков",
         "playlist": "Dead inside",
@@ -2977,12 +2965,6 @@ const musicData = [
         "duration": "3:25"
     },
     {
-        "title": "AZAR1K - PXRPLE SHXDOW (slowed € reverb)",
-        "artist": "ANG3U㾳",
-        "playlist": "Dead inside",
-        "duration": "2:49"
-    },
-    {
         "title": "(SLOW EDIT) -A F T E R  D A R K- *elden ring* Melina",
         "artist": "GmoneyPlays",
         "playlist": "Dead inside",
@@ -3175,12 +3157,6 @@ const musicData = [
         "duration": "3:40"
     },
     {
-        "title": "Выкупи",
-        "artist": "ivanzolo2004",
-        "playlist": "Dead inside",
-        "duration": "1:32"
-    },
-    {
         "title": "Зима в сердце",
         "artist": "Moya Mishel",
         "playlist": "Dead inside",
@@ -3197,12 +3173,6 @@ const musicData = [
         "artist": "💗Lelik💗",
         "playlist": "Dead inside",
         "duration": "2:15"
-    },
-    {
-        "title": "RASPUTIN (Russian Version) Распутин",
-        "artist": "Villains Fan",
-        "playlist": "Dead inside",
-        "duration": "1:57"
     },
     {
         "title": "2077",
@@ -3371,12 +3341,6 @@ const musicData = [
         "artist": "Mentrez Music",
         "playlist": "Dead inside",
         "duration": "3:06"
-    },
-    {
-        "title": "[MMV] Frieren: Beyond Journey's End x Vaundy",
-        "artist": "NinjaristicNinja",
-        "playlist": "Dead inside",
-        "duration": "1:31"
     },
     {
         "title": "Princess Chelsea - I Love My Boyfriend Lyrics",
@@ -6421,6 +6385,12 @@ const musicData = [
         "duration": "2:45"
     },
     {
+        "title": "Ты не пришла и х с тобой",
+        "artist": "Мой Двор",
+        "playlist": "Dead inside",
+        "duration": "2:34"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6561,6 +6531,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 642,
-    "totalDurationSec": 178577,
+    "totalDurationSec": 177888,
     "lastUpdated": "Auto-generated"
 };
