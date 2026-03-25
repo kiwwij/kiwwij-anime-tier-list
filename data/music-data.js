@@ -379,9 +379,14 @@ const musicData = [
         "title": "Race",
         "artist": "Alex G",
         "playlist": "Main"
+    },
+    {
+        "title": "Ты не пришла и х с тобой",
+        "artist": "Мой Двор",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 17,
-    "totalDurationSec": 9396
+    "totalDurationSec": 9550
 };
