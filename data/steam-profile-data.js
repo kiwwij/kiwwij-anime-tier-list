@@ -52,14 +52,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2623190"
         },
         {
-            "appid": 221040,
-            "name": "Resident Evil 6",
-            "playtime_2weeks": 0.4,
-            "hours": 7.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
-            "url": "https://store.steampowered.com/app/221040"
-        },
-        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.4,
@@ -82,6 +74,14 @@ const steamData = {
             "hours": 183.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
+        },
+        {
+            "appid": 221040,
+            "name": "Resident Evil 6",
+            "playtime_2weeks": 0.2,
+            "hours": 7.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
+            "url": "https://store.steampowered.com/app/221040"
         },
         {
             "appid": 1458040,
