@@ -384,9 +384,14 @@ const musicData = [
         "title": "Ты не пришла и х с тобой",
         "artist": "Мой Двор",
         "playlist": "Main"
+    },
+    {
+        "title": "Катюха",
+        "artist": "whitek3d",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 17,
-    "totalDurationSec": 9550
+    "totalDurationSec": 9628
 };
