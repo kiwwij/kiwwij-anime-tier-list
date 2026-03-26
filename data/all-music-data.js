@@ -463,6 +463,12 @@ const musicData = [
         "duration": "2:34"
     },
     {
+        "title": "Катюха",
+        "artist": "whitek3d",
+        "playlist": "Main",
+        "duration": "1:18"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -6531,6 +6537,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 642,
-    "totalDurationSec": 177888,
+    "totalDurationSec": 177966,
     "lastUpdated": "Auto-generated"
 };
