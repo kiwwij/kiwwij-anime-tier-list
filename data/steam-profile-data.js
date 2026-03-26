@@ -60,20 +60,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/221040"
         },
         {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.4,
+            "hours": 19.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
+        },
+        {
             "appid": 637650,
             "name": "FINAL FANTASY XV WINDOWS EDITION",
             "playtime_2weeks": 0.4,
             "hours": 3.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/637650/header.jpg",
             "url": "https://store.steampowered.com/app/637650"
-        },
-        {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.4,
-            "hours": 19.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
         },
         {
             "appid": 1905180,
