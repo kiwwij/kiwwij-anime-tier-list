@@ -1292,7 +1292,7 @@ const musicData = [
     },
     {
         "title": "ярче звёзд",
-        "artist": "плм",
+        "artist": "ПОЛМАТЕРИ",
         "playlist": "Dead inside",
         "duration": "2:48"
     },
@@ -2183,12 +2183,6 @@ const musicData = [
         "artist": "MGMT",
         "playlist": "Dead inside",
         "duration": "5:11"
-    },
-    {
-        "title": "Government Hooker D00nik Remix [Slowed down] [Fushiguro Toji Edit]",
-        "artist": "D4NDY :)",
-        "playlist": "Dead inside",
-        "duration": "1:56"
     },
     {
         "title": "5opka - ЖРАК ЛУНИ",
@@ -6537,6 +6531,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 642,
-    "totalDurationSec": 177966,
+    "totalDurationSec": 177850,
     "lastUpdated": "Auto-generated"
 };
