@@ -3007,12 +3007,6 @@ const musicData = [
         "duration": "3:25"
     },
     {
-        "title": "Catch the Wave - 初音ミク16周年記念アニメーション / 16th ANNIVERSARY HATSUNE MIKU | Fan Film",
-        "artist": "おむたつ",
-        "playlist": "Dead inside",
-        "duration": "2:17"
-    },
-    {
         "title": "Shukusei!! Loli Kami Requiem! - Ui Shigure (RUS cover) by HaruWei",
         "artist": "HaruWei",
         "playlist": "Dead inside",
@@ -6524,7 +6518,7 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 642,
-    "totalDurationSec": 177606,
+    "totalViews": 649,
+    "totalDurationSec": 177469,
     "lastUpdated": "Auto-generated"
 };
