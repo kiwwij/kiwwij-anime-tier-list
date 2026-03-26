@@ -469,6 +469,12 @@ const musicData = [
         "duration": "1:18"
     },
     {
+        "title": "ЛАБУБУ",
+        "artist": "YUNG FIMOZ",
+        "playlist": "Main",
+        "duration": "2:00"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -1292,7 +1298,7 @@ const musicData = [
     },
     {
         "title": "ярче звёзд",
-        "artist": "ПОЛМАТЕРИ",
+        "artist": "плм",
         "playlist": "Dead inside",
         "duration": "2:48"
     },
@@ -3907,12 +3913,6 @@ const musicData = [
         "duration": "2:55"
     },
     {
-        "title": "мои поцелуи как нож тебя режуt (speed up)",
-        "artist": "ускоренки",
-        "playlist": "Dead inside",
-        "duration": "3:57"
-    },
-    {
         "title": "Юра, Юра",
         "artist": "CUPSIZE",
         "playlist": "Dead inside",
@@ -4343,12 +4343,6 @@ const musicData = [
         "artist": "Thousand Foot Krutch",
         "playlist": "Dead inside",
         "duration": "3:57"
-    },
-    {
-        "title": "Прощай, красавица [Bella ciao]",
-        "artist": "YolkaJess",
-        "playlist": "Dead inside",
-        "duration": "2:07"
     },
     {
         "title": "Пацан молодой,она молодая ♛ Бродяга",
@@ -6531,6 +6525,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 642,
-    "totalDurationSec": 177850,
+    "totalDurationSec": 177606,
     "lastUpdated": "Auto-generated"
 };
