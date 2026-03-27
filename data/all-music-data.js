@@ -44,13 +44,13 @@ const musicData = [
     },
     {
         "title": "болен",
-        "artist": "dope17 - Topic",
+        "artist": "dope17",
         "playlist": "Main",
         "duration": "1:29"
     },
     {
         "title": "Круче чем вы (feat. CUPSIZE)",
-        "artist": "madk1d - Topic",
+        "artist": "madk1d",
         "playlist": "Main",
         "duration": "1:40"
     },
@@ -91,7 +91,7 @@ const musicData = [
         "duration": "1:24"
     },
     {
-        "title": "nyan.mp3 — У батарей [Official Audio Visualizer]",
+        "title": "У батарей",
         "artist": "nyan.mp3",
         "playlist": "Main",
         "duration": "1:46"
@@ -254,7 +254,7 @@ const musicData = [
     },
     {
         "title": "Серед хаосу",
-        "artist": "BaWN - Topic",
+        "artist": "BaWN",
         "playlist": "Main",
         "duration": "2:33"
     },
@@ -266,7 +266,7 @@ const musicData = [
     },
     {
         "title": "sexyswag2010",
-        "artist": "madk1d - Topic",
+        "artist": "madk1d",
         "playlist": "Main",
         "duration": "1:30"
     },
@@ -320,7 +320,7 @@ const musicData = [
     },
     {
         "title": "нарратор",
-        "artist": "lafkrat - Topic",
+        "artist": "lafkrat",
         "playlist": "Main",
         "duration": "2:24"
     },
@@ -350,7 +350,7 @@ const musicData = [
     },
     {
         "title": "unhappy (remix)",
-        "artist": "s0rrow - Topic",
+        "artist": "s0rrow",
         "playlist": "Main",
         "duration": "2:12"
     },
@@ -409,8 +409,8 @@ const musicData = [
         "duration": "1:50"
     },
     {
-        "title": "она свободна",
-        "artist": "диссоциативное расстройство - Topic",
+        "title": "она свободна (feat. морали нет)",
+        "artist": "диссоциативное расстройство",
         "playlist": "Main",
         "duration": "1:21"
     },
