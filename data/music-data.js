@@ -389,9 +389,14 @@ const musicData = [
         "title": "Катюха",
         "artist": "whitek3d",
         "playlist": "Main"
+    },
+    {
+        "title": "ЛАБУБУ",
+        "artist": "YUNG FIMOZ",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 17,
-    "totalDurationSec": 9628
+    "totalDurationSec": 9748
 };
