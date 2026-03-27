@@ -26,7 +26,7 @@ const musicData = [
     },
     {
         "title": "слова",
-        "artist": "Violetta Sokolova",
+        "artist": "Violetta Sokolova - Topic",
         "playlist": "Main",
         "duration": "2:45"
     },
@@ -152,13 +152,13 @@ const musicData = [
     },
     {
         "title": "Гештальт",
-        "artist": "Апатія",
+        "artist": "Апатія - Topic",
         "playlist": "Main",
         "duration": "2:40"
     },
     {
         "title": "скинь",
-        "artist": "яшенька",
+        "artist": "яшенька - Topic",
         "playlist": "Main",
         "duration": "1:53"
     },
@@ -248,7 +248,7 @@ const musicData = [
     },
     {
         "title": "Так прикро",
-        "artist": "Апатія",
+        "artist": "Апатія - Topic",
         "playlist": "Main",
         "duration": "3:00"
     },
@@ -278,7 +278,7 @@ const musicData = [
     },
     {
         "title": "В реальності новій",
-        "artist": "Апатія",
+        "artist": "Апатія - Topic",
         "playlist": "Main",
         "duration": "2:45"
     },
@@ -332,7 +332,7 @@ const musicData = [
     },
     {
         "title": "stalk ur socials",
-        "artist": "s0rrow",
+        "artist": "s0rrow - Topic",
         "playlist": "Main",
         "duration": "1:19"
     },
@@ -344,7 +344,7 @@ const musicData = [
     },
     {
         "title": "овердоз",
-        "artist": "тёмный принц",
+        "artist": "тёмный принц - Topic",
         "playlist": "Main",
         "duration": "1:29"
     },
@@ -392,7 +392,7 @@ const musicData = [
     },
     {
         "title": "отвратительный король",
-        "artist": "тёмный принц",
+        "artist": "тёмный принц - Topic",
         "playlist": "Main",
         "duration": "1:52"
     },
@@ -422,7 +422,7 @@ const musicData = [
     },
     {
         "title": "ангелочек (alternative version)",
-        "artist": "onokami",
+        "artist": "onokami - Topic",
         "playlist": "Main",
         "duration": "1:45"
     },
@@ -440,7 +440,7 @@ const musicData = [
     },
     {
         "title": "сиськи",
-        "artist": "trepet",
+        "artist": "trepet - Topic",
         "playlist": "Main",
         "duration": "1:45"
     },
@@ -2822,7 +2822,7 @@ const musicData = [
     },
     {
         "title": "Money, Money, Money (ABBA) 【covered by Anna】",
-        "artist": "Annapantsu",
+        "artist": "annapantsu",
         "playlist": "Dead inside",
         "duration": "3:06"
     },
@@ -2930,7 +2930,7 @@ const musicData = [
     },
     {
         "title": "Салют, Вера",
-        "artist": "Валерий Меладзе и Константин Меладзе",
+        "artist": "Валерий Меладзе - Topic",
         "playlist": "Dead inside",
         "duration": "3:44"
     },
@@ -3122,7 +3122,7 @@ const musicData = [
     },
     {
         "title": "Ага",
-        "artist": "vlonewex",
+        "artist": "vlonewex - Topic",
         "playlist": "Dead inside",
         "duration": "2:11"
     },
@@ -3217,8 +3217,8 @@ const musicData = [
         "duration": "2:39"
     },
     {
-        "title": "All Girls Are The Same",
-        "artist": "Juice WRLD",
+        "title": "Juice WRLD - All Girls Are The Same (Official Music Video)",
+        "artist": "Lyrical Lemonade",
         "playlist": "Dead inside",
         "duration": "2:57"
     },
