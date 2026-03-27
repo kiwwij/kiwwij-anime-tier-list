@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 39.0,
-            "hours": 3267.6,
+            "playtime_2weeks": 40.0,
+            "hours": 3268.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -52,14 +52,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2623190"
         },
         {
-            "appid": 637650,
-            "name": "FINAL FANTASY XV WINDOWS EDITION",
-            "playtime_2weeks": 0.4,
-            "hours": 3.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/637650/header.jpg",
-            "url": "https://store.steampowered.com/app/637650"
-        },
-        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.4,
@@ -88,7 +80,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3267.6,
+            "hours": 3268.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
