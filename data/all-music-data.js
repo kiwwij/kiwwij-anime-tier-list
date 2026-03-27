@@ -3542,7 +3542,7 @@ const musicData = [
     },
     {
         "title": "Зеркала",
-        "artist": "Grigory Leps",
+        "artist": "Ani Lorak",
         "playlist": "Dead inside",
         "duration": "3:51"
     },
@@ -4849,7 +4849,7 @@ const musicData = [
         "duration": "3:07"
     },
     {
-        "title": "Kill Eva, ENCASSATOR – Psycho Dreams (Lyric Video)",
+        "title": "Psycho Dreams",
         "artist": "Kill Eva",
         "playlist": "Dead inside",
         "duration": "2:15"
