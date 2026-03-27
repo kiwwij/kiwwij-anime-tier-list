@@ -2017,7 +2017,7 @@ const musicData = [
         "duration": "3:50"
     },
     {
-        "title": "2:00 (speed up)",
+        "title": "2:00 (Speed Up)",
         "artist": "enveel",
         "playlist": "Dead inside",
         "duration": "1:41"
@@ -5143,8 +5143,8 @@ const musicData = [
         "duration": "2:37"
     },
     {
-        "title": "Белочка с Армлетом (ROCK VERSION)",
-        "artist": "youraifu",
+        "title": "Белочка с Армлетом (Rock Version)",
+        "artist": "AICOVERGIRL",
         "playlist": "Dead inside",
         "duration": "1:55"
     },
