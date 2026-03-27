@@ -4849,7 +4849,7 @@ const musicData = [
         "duration": "3:07"
     },
     {
-        "title": "Psycho Dreams",
+        "title": "Kill Eva, ENCASSATOR – Psycho Dreams (Lyric Video)",
         "artist": "Kill Eva",
         "playlist": "Dead inside",
         "duration": "2:15"
