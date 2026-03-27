@@ -1,3 +1,13 @@
+// 1. Сначала объявляем функцию
+function linkify(text) {
+    if (!text) return ""; // Защита от пустых записок (как твоя #7)
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
+    return text.replace(urlRegex, function(url) {
+        return `<a href="${url}" target="_blank">${url}</a>`;
+    });
+}
+
+// 2. А уже потом идет твой код
 document.addEventListener("DOMContentLoaded", () => {
 
     const container = document.getElementById("notesContainer");
@@ -15,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
         card.innerHTML = `
             <h2 class="note-title">Запись #${note.id}</h2>
             <div class="note-date">Дата: <span>${note.date}</span></div>
-            <div class="note-text">${note.text}</div>
+            <div class="note-text">${linkify(note.text)}</div>
         `;
 
         container.appendChild(card);

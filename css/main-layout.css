@@ -216,6 +216,35 @@ input:checked + .slider:before {
     color: #ffca28;
 }
 
+
+
+
+
+.modal-review-box a {
+    color: #3b82f6;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+    word-break: break-all;
+}
+
+.modal-review-box a:hover {
+    color: #60a5fa;
+    border-bottom: 1px solid #60a5fa;
+}
+
+body.light-theme .modal-review-box a {
+    color: #2563eb;
+}
+
+body.light-theme .modal-review-box a:hover {
+    color: #1d4ed8;
+    border-bottom: 1px solid #1d4ed8;
+}
+
+
+
+
 @media (max-width: 600px) {
     .footer-content {
         flex-direction: column;

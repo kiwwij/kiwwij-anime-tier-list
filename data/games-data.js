@@ -199,6 +199,10 @@ if (typeof tierListData !== 'undefined') {
                     review: "Смотрел я как-то давно одно ютубера по САО 'Tim Fairy', даже донатил ему 1 раз. Сама игра понравилась, надобы её когда-нибудь перепройти.",
                 },
                 {
+                    title: "Warhammer 40,000: Space Marine 2",
+                    review: "Хорошая игра, но не стоит своих денег, даже за 67% скидку оч дорого, т.к. сюжета на +-10 часов. Играл с другом, было весело. Игра красивая, оптимизированная.",
+                },
+                {
                     title: "Aragami",
                     review: "Играл с другом, было весело и атмосферно.",
                 },
@@ -541,13 +545,17 @@ if (typeof tierListData !== 'undefined') {
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/730/",
                 },
                 {
+                    title: "The Witcher 3: Wild Hunt",
+                    review: "Пытался пройти несколько раз, но не моё.",
+                },
+                {
                     title: "Read Dead Redemption 2",
                     review: "Пытался пройти несколько раз (18 часов игры), но не моё.",
                     img: "games/Read_Dead_Redemption2.webp",
                 },
                 {
-                    title: "The Witcher 3: Wild Hunt",
-                    review: "Пытался пройти несколько раз, но не моё.",
+                    title: "No Rest for the Wicked",
+                    review: "Пытались пройти с другом. Потратили 2 часа для тог чтобы понят куда идти по сюжету, 10 мин чё-то посомтрели, а потом снова не поняли куда идти. -1к+ грн",
                 },
                 {
                     title: "Rust",

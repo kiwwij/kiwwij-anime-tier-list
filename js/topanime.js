@@ -1,3 +1,11 @@
+function linkify(text) {
+    if (!text) return "";
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
+    return text.replace(urlRegex, function(url) {
+        return `<a href="${url}" target="_blank">${url}</a>`;
+    });
+}
+
 const CACHE_KEY_POSTERS = 'site_posters_cache_v5';
 const MAX_CONCURRENT_REQUESTS = 10;
 const REQUEST_DELAY = 700;

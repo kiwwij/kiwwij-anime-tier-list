@@ -1,3 +1,11 @@
+function linkify(text) {
+    if (!text) return "";
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
+    return text.replace(urlRegex, function(url) {
+        return `<a href="${url}" target="_blank">${url}</a>`;
+    });
+}
+
 const RAWG_API_KEY = 'eff5af7536f94b1b862edf995f4ee1f9';
 const CACHE_KEY_POSTERS = 'site_posters_cache_v5';
 const MAX_CONCURRENT_REQUESTS = 10;
@@ -113,7 +121,7 @@ function renderTierList() {
         disclaimer.style.maxWidth = '800px';
         disclaimer.style.textAlign = 'center';
         disclaimer.style.borderLeftColor = '#facc15';
-        disclaimer.innerHTML = '<strong>Небольшая ремарка:</strong> Довольно тяжело объективно оценивать и сравнивать в одном списке ко-оп, мультиплеерные и сюжетные синглплеерные игры. Так что не удивляйтесь немного странной расстановке − это сугубо мое личное восприятие!';
+        disclaimer.innerHTML = '<strong>Небольшая ремарка:</strong> Довольно тяжело объективно оценивать и сравнивать в одном списке ко-оп, мультиплеерные и сюжетные синглплеерные игры. Так что не удивляйтесь немного странной расстановке − это сугубо моё личное восприятие!';
         tierListContainer.appendChild(disclaimer);
     }
 
@@ -269,7 +277,8 @@ function openModal(item, imgSrc, apiDetails) {
         ratingEl.innerHTML = '';
         ratingEl.style.display = 'none';
     }
-    document.getElementById('modalReview').textContent = item.review || "Отзыва пока нет. Тир может измениться.";
+    const reviewText = item.review || "Отзыва пока нет. Тир может измениться.";
+    document.getElementById('modalReview').innerHTML = linkify(reviewText);
     modal.showModal();
 }
 

@@ -1,3 +1,11 @@
+function linkify(text) {
+    if (!text) return "";
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
+    return text.replace(urlRegex, function(url) {
+        return `<a href="${url}" target="_blank">${url}</a>`;
+    });
+}
+
 const CACHE_KEY_POSTERS = 'site_posters_cache_v5';
 const MAX_CONCURRENT_REQUESTS = 10;
 const REQUEST_DELAY = 700;
@@ -185,7 +193,8 @@ function openModal(item, imgSrc, apiDetails) {
     const reviewBox = document.querySelector('.modal-review-box h3');
     if (reviewBox) reviewBox.textContent = "Причина дропа:";
 
-    document.getElementById('modalReview').textContent = item.review || "Причина не указана.";
+    const reviewText = item.review || "Причина не указана.";
+    document.getElementById('modalReview').innerHTML = linkify(reviewText);
     
     const modalBody = document.querySelector('.modal-body');
     if (modalBody) modalBody.scrollTop = 0;
