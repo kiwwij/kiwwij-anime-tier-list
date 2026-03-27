@@ -451,12 +451,6 @@ const musicData = [
         "duration": "3:07"
     },
     {
-        "title": "Race",
-        "artist": "Alex G",
-        "playlist": "Main",
-        "duration": "3:44"
-    },
-    {
         "title": "Ты не пришла и х с тобой",
         "artist": "Мой Двор",
         "playlist": "Main",
@@ -473,6 +467,12 @@ const musicData = [
         "artist": "YUNG FIMOZ",
         "playlist": "Main",
         "duration": "2:00"
+    },
+    {
+        "title": "Не помирай",
+        "artist": "Апатія",
+        "playlist": "Main",
+        "duration": "2:20"
     },
     {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
@@ -6379,6 +6379,18 @@ const musicData = [
         "duration": "2:34"
     },
     {
+        "title": "Останній день",
+        "artist": "SadSvit",
+        "playlist": "Dead inside",
+        "duration": "3:00"
+    },
+    {
+        "title": "Race",
+        "artist": "Alex G",
+        "playlist": "Dead inside",
+        "duration": "3:44"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6519,6 +6531,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 667,
-    "totalDurationSec": 177469,
+    "totalDurationSec": 177789,
     "lastUpdated": "Auto-generated"
 };
