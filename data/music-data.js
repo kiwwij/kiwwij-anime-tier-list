@@ -376,11 +376,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Race",
-        "artist": "Alex G",
-        "playlist": "Main"
-    },
-    {
         "title": "Ты не пришла и х с тобой",
         "artist": "Мой Двор",
         "playlist": "Main"
@@ -394,9 +389,14 @@ const musicData = [
         "title": "ЛАБУБУ",
         "artist": "YUNG FIMOZ",
         "playlist": "Main"
+    },
+    {
+        "title": "Не помирай",
+        "artist": "Апатія",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 17,
-    "totalDurationSec": 9748
+    "totalDurationSec": 9664
 };
