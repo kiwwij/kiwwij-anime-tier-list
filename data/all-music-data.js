@@ -2719,12 +2719,6 @@ const musicData = [
         "duration": "1:26"
     },
     {
-        "title": "美少女無罪♡パイレーツ",
-        "artist": "Houshou Marine",
-        "playlist": "Dead inside",
-        "duration": "3:40"
-    },
-    {
         "title": ": speed songs ::  Ooes права - Сквозь мои пальцы тянется лето Где бы ты не был здесь тебя нету ::",
         "artist": "нюся",
         "playlist": "Dead inside",
@@ -6483,6 +6477,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 667,
-    "totalDurationSec": 176558,
+    "totalDurationSec": 176338,
     "lastUpdated": "Auto-generated"
 };
