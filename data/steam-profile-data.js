@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/54fb03a0ca8d211e6ec2b285bc9277ab839f5c34_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "Online",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 256
@@ -46,7 +46,7 @@ const steamData = {
         {
             "appid": 2623190,
             "name": "The Elder Scrolls IV: Oblivion Remastered",
-            "playtime_2weeks": 1.7,
+            "playtime_2weeks": 1.6,
             "hours": 3.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
             "url": "https://store.steampowered.com/app/2623190"
