@@ -46,7 +46,7 @@ const steamData = {
         {
             "appid": 2623190,
             "name": "The Elder Scrolls IV: Oblivion Remastered",
-            "playtime_2weeks": 1.6,
+            "playtime_2weeks": 1.3,
             "hours": 3.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
             "url": "https://store.steampowered.com/app/2623190"
