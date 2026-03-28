@@ -2605,12 +2605,6 @@ const musicData = [
         "duration": "1:49"
     },
     {
-        "title": "Милі, хороші дорослі! Забороніть війну! Зупиніть війну!",
-        "artist": "Володимир Шабанов",
-        "playlist": "Dead inside",
-        "duration": "4:00"
-    },
-    {
         "title": "НАСТОЯЩИЙ ДЕТЕКТИВ [саундтрек]",
         "artist": "Soundtrack fm",
         "playlist": "Dead inside",
@@ -5029,12 +5023,6 @@ const musicData = [
         "duration": "1:57"
     },
     {
-        "title": "Палала (Rulia Hardstyle Remix)",
-        "artist": "Наталія Валевська",
-        "playlist": "Dead inside",
-        "duration": "1:46"
-    },
-    {
         "title": "shock",
         "artist": "Baby Cute",
         "playlist": "Dead inside",
@@ -6513,6 +6501,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 667,
-    "totalDurationSec": 177426,
+    "totalDurationSec": 177080,
     "lastUpdated": "Auto-generated"
 };
