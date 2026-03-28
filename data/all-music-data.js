@@ -3043,12 +3043,6 @@ const musicData = [
         "duration": "4:03"
     },
     {
-        "title": "✮⋆˙ Комсомольск - Мозги & деньги sped up\\nightcore (Ни мозгов, ни денег нет)",
-        "artist": "tenyauser",
-        "playlist": "Dead inside",
-        "duration": "2:00"
-    },
-    {
         "title": "Перший дзвоник",
         "artist": "Наталія Май",
         "playlist": "Dead inside",
@@ -4661,12 +4655,6 @@ const musicData = [
         "artist": "Three Days Grace",
         "playlist": "Dead inside",
         "duration": "3:51"
-    },
-    {
-        "title": "Моя душа",
-        "artist": "Lely45",
-        "playlist": "Dead inside",
-        "duration": "2:50"
     },
     {
         "title": "Ути-пусечка",
@@ -6495,6 +6483,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 667,
-    "totalDurationSec": 176848,
+    "totalDurationSec": 176558,
     "lastUpdated": "Auto-generated"
 };
