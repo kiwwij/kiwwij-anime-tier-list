@@ -2083,12 +2083,6 @@ const musicData = [
         "duration": "1:51"
     },
     {
-        "title": "БЕЛАЯ НОЧЬ (Cover) | Анимация",
-        "artist": "Planya Channel",
-        "playlist": "Dead inside",
-        "duration": "3:52"
-    },
-    {
         "title": "NBSPLV - The lost soul down X Lost soul  [ Chainsaw Man Girls ]  ART: Inoitoh",
         "artist": "taisynara",
         "playlist": "Dead inside",
@@ -6501,6 +6495,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 667,
-    "totalDurationSec": 177080,
+    "totalDurationSec": 176848,
     "lastUpdated": "Auto-generated"
 };
