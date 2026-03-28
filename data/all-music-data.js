@@ -3121,12 +3121,6 @@ const musicData = [
         "duration": "1:50"
     },
     {
-        "title": "Ага",
-        "artist": "vlonewex",
-        "playlist": "Dead inside",
-        "duration": "2:11"
-    },
-    {
         "title": "Цветы",
         "artist": "Lida",
         "playlist": "Dead inside",
@@ -3665,12 +3659,6 @@ const musicData = [
         "artist": "Тархун_mz",
         "playlist": "Dead inside",
         "duration": "3:08"
-    },
-    {
-        "title": "_palc петр - химера",
-        "artist": "vvn n",
-        "playlist": "Dead inside",
-        "duration": "1:02"
     },
     {
         "title": "Врал самому себе но так и не поверил speed up",
@@ -6525,6 +6513,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 667,
-    "totalDurationSec": 177619,
+    "totalDurationSec": 177426,
     "lastUpdated": "Auto-generated"
 };
