@@ -3127,12 +3127,6 @@ const musicData = [
         "duration": "2:11"
     },
     {
-        "title": "Freddie Dredd-Killin' on Demand (Slowed)",
-        "artist": "SHEENA_EDITS",
-        "playlist": "Dead inside",
-        "duration": "2:50"
-    },
-    {
         "title": "Цветы",
         "artist": "Lida",
         "playlist": "Dead inside",
@@ -6531,6 +6525,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 667,
-    "totalDurationSec": 177789,
+    "totalDurationSec": 177619,
     "lastUpdated": "Auto-generated"
 };
