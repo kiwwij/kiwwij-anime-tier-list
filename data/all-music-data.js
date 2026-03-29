@@ -5791,12 +5791,6 @@ const musicData = [
         "duration": "1:34"
     },
     {
-        "title": "エミール/ショップ - Emil's Shop",
-        "artist": "Kuniyuki Takahashi",
-        "playlist": "Dead inside",
-        "duration": "5:29"
-    },
-    {
         "title": "Весь этот мир",
         "artist": "Русский Размер",
         "playlist": "Dead inside",
@@ -6459,6 +6453,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 668,
-    "totalDurationSec": 176122,
+    "totalDurationSec": 175793,
     "lastUpdated": "Auto-generated"
 };
