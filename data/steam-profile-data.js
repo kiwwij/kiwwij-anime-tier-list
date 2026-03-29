@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 292120,
             "name": "FINAL FANTASY XIII",
-            "playtime_2weeks": 4.6,
+            "playtime_2weeks": 4.5,
             "hours": 4.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292120/header.jpg",
             "url": "https://store.steampowered.com/app/292120"
