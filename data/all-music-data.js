@@ -3433,12 +3433,6 @@ const musicData = [
         "duration": "2:33"
     },
     {
-        "title": "Иди за Иисусом speed up    https://youtu.be/-S3vWPp7Ddo?feature=shared",
-        "artist": "Off",
-        "playlist": "Dead inside",
-        "duration": "2:00"
-    },
-    {
         "title": "ABBA - Lay All Your Love On Me (Lyrics)",
         "artist": "Abba919",
         "playlist": "Dead inside",
@@ -6465,6 +6459,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 668,
-    "totalDurationSec": 176242,
+    "totalDurationSec": 176122,
     "lastUpdated": "Auto-generated"
 };
