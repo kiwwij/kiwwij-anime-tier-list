@@ -2203,12 +2203,6 @@ const musicData = [
         "duration": "2:06"
     },
     {
-        "title": "TeddyLoid feat. daoko - ME!ME!ME! part 1",
-        "artist": "Fortisia",
-        "playlist": "Dead inside",
-        "duration": "1:34"
-    },
-    {
         "title": "Mirèle - Кошечки хорошие лишнего не скажут",
         "artist": "mi\"lend_music",
         "playlist": "Dead inside",
@@ -3233,12 +3227,6 @@ const musicData = [
         "artist": "Neoni",
         "playlist": "Dead inside",
         "duration": "2:45"
-    },
-    {
-        "title": "Boss Mode",
-        "artist": "Infraction",
-        "playlist": "Dead inside",
-        "duration": "1:57"
     },
     {
         "title": "9MM x LOLI SHIGURE UI",
@@ -5815,12 +5803,6 @@ const musicData = [
         "duration": "5:29"
     },
     {
-        "title": "Лягушка Дота2, Frog dota 2",
-        "artist": "Rem",
-        "playlist": "Dead inside",
-        "duration": "1:01"
-    },
-    {
         "title": "Весь этот мир",
         "artist": "Русский Размер",
         "playlist": "Dead inside",
@@ -6483,6 +6465,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 668,
-    "totalDurationSec": 176514,
+    "totalDurationSec": 176242,
     "lastUpdated": "Auto-generated"
 };
