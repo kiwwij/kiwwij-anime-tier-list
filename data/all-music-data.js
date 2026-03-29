@@ -475,6 +475,12 @@ const musicData = [
         "duration": "2:20"
     },
     {
+        "title": "Лунный Лик",
+        "artist": "GONE.Fludd",
+        "playlist": "Main",
+        "duration": "2:56"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -6477,6 +6483,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 668,
-    "totalDurationSec": 176338,
+    "totalDurationSec": 176514,
     "lastUpdated": "Auto-generated"
 };
