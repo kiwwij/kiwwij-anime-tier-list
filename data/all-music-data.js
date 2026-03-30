@@ -6449,10 +6449,34 @@ const musicData = [
         "artist": "Sayuri Sugawara",
         "playlist": "Game OSTs",
         "duration": "6:23"
+    },
+    {
+        "title": "Noel's Theme",
+        "artist": "Naoshi Mizuta",
+        "playlist": "Game OSTs",
+        "duration": "4:21"
+    },
+    {
+        "title": "ネオ・ボーダム - New Bodhum",
+        "artist": "ORIGA",
+        "playlist": "Game OSTs",
+        "duration": "5:40"
+    },
+    {
+        "title": "Village and Void",
+        "artist": "Joelle",
+        "playlist": "Game OSTs",
+        "duration": "5:33"
+    },
+    {
+        "title": "ノエルのテーマ 〜最後の旅〜 - Noel's Theme - Final Journey -",
+        "artist": "KOKIA",
+        "playlist": "Game OSTs",
+        "duration": "4:21"
     }
 ];
 const musicStats = {
     "totalViews": 669,
-    "totalDurationSec": 175793,
+    "totalDurationSec": 176988,
     "lastUpdated": "Auto-generated"
 };
