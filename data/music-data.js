@@ -394,9 +394,14 @@ const musicData = [
         "title": "Не помирай",
         "artist": "Апатія",
         "playlist": "Main"
+    },
+    {
+        "title": "Лунный Лик",
+        "artist": "GONE.Fludd",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 18,
-    "totalDurationSec": 9664
+    "totalDurationSec": 9840
 };
