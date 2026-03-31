@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/54fb03a0ca8d211e6ec2b285bc9277ab839f5c34_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 47.1,
-            "hours": 3283.5,
+            "playtime_2weeks": 48.5,
+            "hours": 3284.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -28,20 +28,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2183900"
         },
         {
-            "appid": 292120,
-            "name": "FINAL FANTASY XIII",
-            "playtime_2weeks": 3.4,
-            "hours": 5.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292120/header.jpg",
-            "url": "https://store.steampowered.com/app/292120"
-        },
-        {
             "appid": 1371980,
             "name": "No Rest for the Wicked",
             "playtime_2weeks": 3.2,
             "hours": 3.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1371980/header.jpg",
             "url": "https://store.steampowered.com/app/1371980"
+        },
+        {
+            "appid": 292120,
+            "name": "FINAL FANTASY XIII",
+            "playtime_2weeks": 2.3,
+            "hours": 5.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292120/header.jpg",
+            "url": "https://store.steampowered.com/app/292120"
         },
         {
             "appid": 3764200,
@@ -72,7 +72,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3283.5,
+            "hours": 3284.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
