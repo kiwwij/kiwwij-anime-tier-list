@@ -336,11 +336,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "таким как я",
-        "artist": "голодный",
-        "playlist": "Main"
-    },
-    {
         "title": "она свободна (feat. морали нет)",
         "artist": "диссоциативное расстройство",
         "playlist": "Main"
@@ -403,5 +398,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 18,
-    "totalDurationSec": 9840
+    "totalDurationSec": 9730
 };
