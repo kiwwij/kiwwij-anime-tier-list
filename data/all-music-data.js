@@ -6313,6 +6313,24 @@ const musicData = [
         "duration": "1:50"
     },
     {
+        "title": "ex-freundin",
+        "artist": "luu, Nosgov, & iwannabemissed",
+        "playlist": "Dead inside",
+        "duration": "1:35"
+    },
+    {
+        "title": "Колготки",
+        "artist": "trepet",
+        "playlist": "Dead inside",
+        "duration": "1:25"
+    },
+    {
+        "title": "Вдячність",
+        "artist": "Luna Rozza",
+        "playlist": "Dead inside",
+        "duration": "1:49"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6489,6 +6507,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 669,
-    "totalDurationSec": 177427,
+    "totalDurationSec": 177716,
     "lastUpdated": "Auto-generated"
 };
