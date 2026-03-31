@@ -403,12 +403,6 @@ const musicData = [
         "duration": "1:40"
     },
     {
-        "title": "таким как я",
-        "artist": "голодный",
-        "playlist": "Main",
-        "duration": "1:50"
-    },
-    {
         "title": "она свободна (feat. морали нет)",
         "artist": "диссоциативное расстройство",
         "playlist": "Main",
@@ -6313,6 +6307,12 @@ const musicData = [
         "duration": "3:44"
     },
     {
+        "title": "таким как я",
+        "artist": "голодный",
+        "playlist": "Dead inside",
+        "duration": "1:50"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6473,10 +6473,22 @@ const musicData = [
         "artist": "KOKIA",
         "playlist": "Game OSTs",
         "duration": "4:21"
+    },
+    {
+        "title": "Noel's Theme - The Shadow Hunter -",
+        "artist": "Naoshi Mizuta",
+        "playlist": "Game OSTs",
+        "duration": "2:53"
+    },
+    {
+        "title": "ノエルとユール ～光の約束～ - Noel and Yeul - The Promise -",
+        "artist": "Naoshi Mizuta",
+        "playlist": "Game OSTs",
+        "duration": "4:26"
     }
 ];
 const musicStats = {
     "totalViews": 669,
-    "totalDurationSec": 176988,
+    "totalDurationSec": 177427,
     "lastUpdated": "Auto-generated"
 };
