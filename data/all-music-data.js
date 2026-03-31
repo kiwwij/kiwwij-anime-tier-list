@@ -920,7 +920,7 @@ const musicData = [
     },
     {
         "title": "hyperpop luv",
-        "artist": "whyalive",
+        "artist": "whyalive & Denya8",
         "playlist": "Dead inside",
         "duration": "1:26"
     },
