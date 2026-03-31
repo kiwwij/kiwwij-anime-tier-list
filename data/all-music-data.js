@@ -3092,7 +3092,7 @@ const musicData = [
     },
     {
         "title": "Цветы",
-        "artist": "MORGENSHTERN",
+        "artist": "MORGENSHTERN & Lida",
         "playlist": "Dead inside",
         "duration": "2:57"
     },
