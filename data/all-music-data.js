@@ -46,7 +46,7 @@ const musicData = [
         "title": "болен",
         "artist": "dope17",
         "playlist": "Main",
-        "duration": "1:29"
+        "duration": "1:28"
     },
     {
         "title": "Круче чем вы (feat. CUPSIZE)",
@@ -6507,6 +6507,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 669,
-    "totalDurationSec": 177716,
+    "totalDurationSec": 177715,
     "lastUpdated": "Auto-generated"
 };
