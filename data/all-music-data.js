@@ -4645,7 +4645,7 @@ const musicData = [
         "duration": "2:44"
     },
     {
-        "title": "Freddie Dredd - Limbo (Official Lyric Video)",
+        "title": "Limbo",
         "artist": "Freddie Dredd",
         "playlist": "Dead inside",
         "duration": "2:47"
@@ -4688,7 +4688,7 @@ const musicData = [
     },
     {
         "title": "пускают стрелы",
-        "artist": "fallen777angel - Topic",
+        "artist": "fallen777angel",
         "playlist": "Dead inside",
         "duration": "2:00"
     },
@@ -4771,7 +4771,7 @@ const musicData = [
         "duration": "3:08"
     },
     {
-        "title": "asteria - WORST NIGHTM4RE (Official Animated Visualizer)",
+        "title": "WORST NIGHTM4RE (Slowed Down)",
         "artist": "asteria",
         "playlist": "Dead inside",
         "duration": "2:04"
@@ -5000,7 +5000,7 @@ const musicData = [
     },
     {
         "title": "We Fell Apart (Slowed)",
-        "artist": "ANGUISH - Topic",
+        "artist": "ANGUISH, AmbVsh, & ily",
         "playlist": "Dead inside",
         "duration": "2:36"
     },
