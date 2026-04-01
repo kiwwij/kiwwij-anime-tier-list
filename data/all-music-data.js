@@ -823,6 +823,12 @@ const musicData = [
         "duration": "1:57"
     },
     {
+        "title": "Kill La Kill (Ruyko's theme) \"Don't lose your way\"",
+        "artist": "Asuka_WWE BG!",
+        "playlist": "Off Screen",
+        "duration": "3:18"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -6507,6 +6513,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 669,
-    "totalDurationSec": 177715,
+    "totalDurationSec": 177913,
     "lastUpdated": "Auto-generated"
 };
