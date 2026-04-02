@@ -2119,7 +2119,7 @@ const musicData = [
         "duration": "1:38"
     },
     {
-        "title": "Lover - ТАНЦУЙ (Official Lyrics Video)",
+        "title": "Танцуй",
         "artist": "Lover",
         "playlist": "Dead inside",
         "duration": "2:26"
@@ -2233,8 +2233,8 @@ const musicData = [
         "duration": "3:44"
     },
     {
-        "title": "Calling (Spider-Man: Across the Spider-Verse)",
-        "artist": "MetroBoominVEVO",
+        "title": "Calling (Spider-Man: Across the Spider-Verse) (feat. A Boogie Wit da Hoodie)",
+        "artist": "Metro Boomin",
         "playlist": "Dead inside",
         "duration": "3:40"
     },
@@ -2275,7 +2275,7 @@ const musicData = [
         "duration": "3:40"
     },
     {
-        "title": "GONE.Fludd - ДРИПСЭТ [prod. by LEEZEY]",
+        "title": "ДРИПСЭТ",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "2:48"
@@ -2444,7 +2444,7 @@ const musicData = [
     },
     {
         "title": "Почему котикам компьютеры не нравятся",
-        "artist": "nyan.mp3 - Topic",
+        "artist": "nyan.mp3",
         "playlist": "Dead inside",
         "duration": "1:44"
     },
@@ -2467,8 +2467,8 @@ const musicData = [
         "duration": "1:19"
     },
     {
-        "title": "Kali Uchis - Moonlight (Official Music Video)",
-        "artist": "KaliUchisVEVO",
+        "title": "Moonlight (Official Music Video)",
+        "artist": "Kali Uchis",
         "playlist": "Dead inside",
         "duration": "3:08"
     },
@@ -2485,7 +2485,7 @@ const musicData = [
         "duration": "2:17"
     },
     {
-        "title": "KOZAK SIROMAHA - Засвіт встали козаченьки",
+        "title": "Засвіт встали козаченьки",
         "artist": "KOZAK SIROMAHA",
         "playlist": "Dead inside",
         "duration": "2:53"
@@ -2569,7 +2569,7 @@ const musicData = [
         "duration": "2:30"
     },
     {
-        "title": "DEMO - SUN",
+        "title": "DEMO - ДЕМО – Солнышко 🔅",
         "artist": "ДЕМО",
         "playlist": "Dead inside",
         "duration": "4:17"
@@ -4519,8 +4519,8 @@ const musicData = [
         "duration": "1:47"
     },
     {
-        "title": "счастливы вместе",
-        "artist": "плм",
+        "title": "ПОЛМАТЕРИ, нексюша - счастливы вместе",
+        "artist": "нексюша",
         "playlist": "Dead inside",
         "duration": "2:50"
     },
@@ -4537,14 +4537,14 @@ const musicData = [
         "duration": "1:42"
     },
     {
-        "title": "Даша",
-        "artist": "СТИНТ",
+        "title": "СТИНТ - Даша (альбом Такова жизнь, 2024)",
+        "artist": "Stintik ",
         "playlist": "Dead inside",
         "duration": "2:40"
     },
     {
         "title": "Фото со звездой",
-        "artist": "Lida",
+        "artist": "Lida - Topic",
         "playlist": "Dead inside",
         "duration": "2:03"
     },
@@ -4693,8 +4693,8 @@ const musicData = [
         "duration": "2:00"
     },
     {
-        "title": "w4ste away (w/ Sickboyrari)",
-        "artist": "asteria & Sickboyrari",
+        "title": "asteria - w4ste away (feat. Black Kray) (Official Visualizer)",
+        "artist": "asteria",
         "playlist": "Dead inside",
         "duration": "2:57"
     },
@@ -4988,7 +4988,7 @@ const musicData = [
     },
     {
         "title": "shock",
-        "artist": "Baby Cute",
+        "artist": "Baby Cute - Topic",
         "playlist": "Dead inside",
         "duration": "2:25"
     },
