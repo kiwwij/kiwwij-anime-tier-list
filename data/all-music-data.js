@@ -6337,6 +6337,18 @@ const musicData = [
         "duration": "1:49"
     },
     {
+        "title": "Дівчина з Порнхабу",
+        "artist": "Сусіди Стерплять",
+        "playlist": "Dead inside",
+        "duration": "2:47"
+    },
+    {
+        "title": "67 (Six Seven)",
+        "artist": "Gazan",
+        "playlist": "Dead inside",
+        "duration": "1:24"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6513,6 +6525,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 669,
-    "totalDurationSec": 177913,
+    "totalDurationSec": 178164,
     "lastUpdated": "Auto-generated"
 };
