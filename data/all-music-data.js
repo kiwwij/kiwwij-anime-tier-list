@@ -4519,8 +4519,8 @@ const musicData = [
         "duration": "1:47"
     },
     {
-        "title": "ПОЛМАТЕРИ, нексюша - счастливы вместе",
-        "artist": "нексюша",
+        "title": "счастливы вместе",
+        "artist": "плм",
         "playlist": "Dead inside",
         "duration": "2:50"
     },
@@ -4537,14 +4537,14 @@ const musicData = [
         "duration": "1:42"
     },
     {
-        "title": "СТИНТ - Даша (альбом Такова жизнь, 2024)",
-        "artist": "Stintik ",
+        "title": "Даша",
+        "artist": "СТИНТ",
         "playlist": "Dead inside",
         "duration": "2:40"
     },
     {
         "title": "Фото со звездой",
-        "artist": "Lida - Topic",
+        "artist": "Lida",
         "playlist": "Dead inside",
         "duration": "2:03"
     },
@@ -4693,8 +4693,8 @@ const musicData = [
         "duration": "2:00"
     },
     {
-        "title": "asteria - w4ste away (feat. Black Kray) (Official Visualizer)",
-        "artist": "asteria",
+        "title": "w4ste away (w/ Sickboyrari)",
+        "artist": "asteria & Sickboyrari",
         "playlist": "Dead inside",
         "duration": "2:57"
     },
@@ -4988,7 +4988,7 @@ const musicData = [
     },
     {
         "title": "shock",
-        "artist": "Baby Cute - Topic",
+        "artist": "Baby Cute",
         "playlist": "Dead inside",
         "duration": "2:25"
     },
