@@ -6499,12 +6499,6 @@ const musicData = [
         "duration": "5:40"
     },
     {
-        "title": "Village and Void",
-        "artist": "Joelle",
-        "playlist": "Game OSTs",
-        "duration": "5:33"
-    },
-    {
         "title": "ノエルのテーマ 〜最後の旅〜 - Noel's Theme - Final Journey -",
         "artist": "KOKIA",
         "playlist": "Game OSTs",
@@ -6525,6 +6519,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 669,
-    "totalDurationSec": 178164,
+    "totalDurationSec": 177831,
     "lastUpdated": "Auto-generated"
 };
