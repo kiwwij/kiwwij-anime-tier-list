@@ -2119,7 +2119,7 @@ const musicData = [
         "duration": "1:38"
     },
     {
-        "title": "Танцуй",
+        "title": "Lover - ТАНЦУЙ (Official Lyrics Video)",
         "artist": "Lover",
         "playlist": "Dead inside",
         "duration": "2:26"
@@ -2233,8 +2233,8 @@ const musicData = [
         "duration": "3:44"
     },
     {
-        "title": "Calling (Spider-Man: Across the Spider-Verse) (feat. A Boogie Wit da Hoodie)",
-        "artist": "Metro Boomin",
+        "title": "Calling (Spider-Man: Across the Spider-Verse)",
+        "artist": "MetroBoominVEVO",
         "playlist": "Dead inside",
         "duration": "3:40"
     },
@@ -2275,7 +2275,7 @@ const musicData = [
         "duration": "3:40"
     },
     {
-        "title": "ДРИПСЭТ",
+        "title": "GONE.Fludd - ДРИПСЭТ [prod. by LEEZEY]",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "2:48"
@@ -2444,7 +2444,7 @@ const musicData = [
     },
     {
         "title": "Почему котикам компьютеры не нравятся",
-        "artist": "nyan.mp3",
+        "artist": "nyan.mp3 - Topic",
         "playlist": "Dead inside",
         "duration": "1:44"
     },
@@ -2467,8 +2467,8 @@ const musicData = [
         "duration": "1:19"
     },
     {
-        "title": "Moonlight (Official Music Video)",
-        "artist": "Kali Uchis",
+        "title": "Kali Uchis - Moonlight (Official Music Video)",
+        "artist": "KaliUchisVEVO",
         "playlist": "Dead inside",
         "duration": "3:08"
     },
@@ -2485,7 +2485,7 @@ const musicData = [
         "duration": "2:17"
     },
     {
-        "title": "Засвіт встали козаченьки",
+        "title": "KOZAK SIROMAHA - Засвіт встали козаченьки",
         "artist": "KOZAK SIROMAHA",
         "playlist": "Dead inside",
         "duration": "2:53"
@@ -2569,7 +2569,7 @@ const musicData = [
         "duration": "2:30"
     },
     {
-        "title": "DEMO - ДЕМО – Солнышко 🔅",
+        "title": "DEMO - SUN",
         "artist": "ДЕМО",
         "playlist": "Dead inside",
         "duration": "4:17"
