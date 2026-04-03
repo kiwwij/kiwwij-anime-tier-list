@@ -673,28 +673,10 @@ const musicData = [
         "duration": "6:01"
     },
     {
-        "title": "遊園施設 - Amusement Park",
-        "artist": "Keigo Hoashi",
-        "playlist": "Off Screen",
-        "duration": "6:20"
-    },
-    {
-        "title": "エミール/犠牲 - Emil / Sacrifice",
-        "artist": "MONACA",
-        "playlist": "Off Screen",
-        "duration": "3:28"
-    },
-    {
         "title": "Wasteland (from the series Arcane League of Legends)",
         "artist": "Royal & the Serpent",
         "playlist": "Off Screen",
         "duration": "2:42"
-    },
-    {
-        "title": "Feel",
-        "artist": "Lies of P",
-        "playlist": "Off Screen",
-        "duration": "3:58"
     },
     {
         "title": "Goodbye (from the series Arcane League of Legends)",
@@ -775,12 +757,6 @@ const musicData = [
         "duration": "1:31"
     },
     {
-        "title": "Weight of the World/壊レタ世界ノ歌 - Weight of the World Kowaretasekainouta - Marina Kawano",
-        "artist": "Keiichi Okabe",
-        "playlist": "Off Screen",
-        "duration": "5:45"
-    },
-    {
         "title": "sun will rise",
         "artist": "(K)NoW_NAME",
         "playlist": "Off Screen",
@@ -817,16 +793,16 @@ const musicData = [
         "duration": "5:52"
     },
     {
-        "title": "CYBERPUNK 2077 SOUNDTRACK - WHO'S READY FOR TOMORROW by Rat Boy & IBDY (Official Video)",
-        "artist": "Lakeshore Records",
-        "playlist": "Off Screen",
-        "duration": "1:57"
-    },
-    {
         "title": "Kill La Kill (Ruyko's theme) \"Don't lose your way\"",
         "artist": "Asuka_WWE BG!",
         "playlist": "Off Screen",
         "duration": "3:18"
+    },
+    {
+        "title": "ステップ！に合わせて本田未央ちゃんがぽよぽよするやつ",
+        "artist": "hemoglosso",
+        "playlist": "Off Screen",
+        "duration": "0:50"
     },
     {
         "title": "Лёд",
@@ -1243,12 +1219,6 @@ const musicData = [
         "duration": "2:25"
     },
     {
-        "title": "KNIGHT",
-        "artist": "SHADXWBXRN",
-        "playlist": "Dead inside",
-        "duration": "2:03"
-    },
-    {
         "title": "ОН НЕ БЫЛ ПРЕДАТЕЛЕМ | Among Us | Сыендук x MiatriSs",
         "artist": "sndk",
         "playlist": "Dead inside",
@@ -1283,12 +1253,6 @@ const musicData = [
         "artist": "ЛірникиUA",
         "playlist": "Dead inside",
         "duration": "3:01"
-    },
-    {
-        "title": "Your Man (Official Music Video)",
-        "artist": "Josh Turner",
-        "playlist": "Dead inside",
-        "duration": "3:30"
     },
     {
         "title": "BMW",
@@ -1619,12 +1583,6 @@ const musicData = [
         "artist": "FIFTY FIFTY",
         "playlist": "Dead inside",
         "duration": "3:23"
-    },
-    {
-        "title": "Beauty Bomb",
-        "artist": "ADUSHKINA",
-        "playlist": "Dead inside",
-        "duration": "3:01"
     },
     {
         "title": "uma2rman - Кажется",
@@ -2785,18 +2743,6 @@ const musicData = [
         "duration": "3:27"
     },
     {
-        "title": "катя самбука - сказка sped up \\ nightcore (мой утя до жути, зай я люблю тебя)",
-        "artist": "tenyauser",
-        "playlist": "Dead inside",
-        "duration": "1:52"
-    },
-    {
-        "title": "enveel, onokami - Танцуй (speed up) + субтитры",
-        "artist": "TemaFlux",
-        "playlist": "Dead inside",
-        "duration": "2:46"
-    },
-    {
         "title": "АНИМАЦИЯ для Пандекса про ЖЕНЮ ЛИЗОГУБА",
         "artist": "Пустое Яблоко",
         "playlist": "Dead inside",
@@ -3871,12 +3817,6 @@ const musicData = [
         "duration": "2:20"
     },
     {
-        "title": "Rammstein - Ой у лузі червона калина by MONROTE",
-        "artist": "MONROTE",
-        "playlist": "Dead inside",
-        "duration": "3:10"
-    },
-    {
         "title": "Ленинград ft. Глюк'oZа ft. ST - ЖУ-ЖУ (Family Edit)",
         "artist": "Glukoza",
         "playlist": "Dead inside",
@@ -4841,12 +4781,6 @@ const musicData = [
         "artist": "FORBIDDEN",
         "playlist": "Dead inside",
         "duration": "1:49"
-    },
-    {
-        "title": "мило материшься",
-        "artist": "volhey",
-        "playlist": "Dead inside",
-        "duration": "2:01"
     },
     {
         "title": "однополярности",
@@ -6515,10 +6449,16 @@ const musicData = [
         "artist": "Naoshi Mizuta",
         "playlist": "Game OSTs",
         "duration": "4:26"
+    },
+    {
+        "title": "Who's Ready for Tomorrow",
+        "artist": "RAT BOY & IBDY",
+        "playlist": "Game OSTs",
+        "duration": "1:57"
     }
 ];
 const musicStats = {
     "totalViews": 669,
-    "totalDurationSec": 177831,
+    "totalDurationSec": 175607,
     "lastUpdated": "Auto-generated"
 };
