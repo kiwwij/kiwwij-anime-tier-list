@@ -402,6 +402,11 @@ const droppedData = [
     {
         "title": "Quartet of Cherry Blossoms in the Night",
         "ruTitle": "Вишневый Квартет",
-        "review": "Дропнул на n-й серии из 12. Просто скучно."
+        "review": "Дропнул на 1-й серии из 12. Просто скучно."
+    },
+    {
+        "title": "Record of Grancrest War",
+        "ruTitle": "Легенда о Гранкресте",
+        "review": "Дропнул на n-й серии из 24. Просто скучно."
     },
 ]

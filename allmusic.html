@@ -54,39 +54,57 @@
         </div>
 
         <div class="glass-panel hub-section-wrapper">
-    <h2 class="panel-title">Мои коллекции</h2>
-    <div class="hub-grid">
-        <a href="https://music.youtube.com/playlist?list=PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C" class="playlist-card hover-fire" target="_blank">
+        <h2 class="panel-title">Мои коллекции</h2>
+        <div class="hub-grid">
+        <div class="playlist-card hover-all active-filter" data-playlist="All">
+            <i class='bx bx-list-ul playlist-icon'></i>
+            <h3>Все треки</h3>
+            <p>Сбросить фильтр статистики</p>
+        </div>
+
+        <div class="playlist-card hover-fire" data-playlist="Main">
+            <a href="https://music.youtube.com/playlist?list=PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C" class="external-link" target="_blank" title="Слушать в YT Music" onclick="event.stopPropagation()">
+                <i class='bx bx-link-external'></i>
+            </a>
             <i class='bx bxs-hot playlist-icon'></i>
             <h3>Main</h3>
             <p>Основной плейлист</p>
-        </a>
+        </div>
 
-        <a href="https://music.youtube.com/playlist?list=PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ" class="playlist-card hover-sakura" target="_blank">
+        <div class="playlist-card hover-sakura" data-playlist="Off Screen">
+            <a href="https://music.youtube.com/playlist?list=PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ" class="external-link" target="_blank" title="Слушать в YT Music" onclick="event.stopPropagation()">
+                <i class='bx bx-link-external'></i>
+            </a>
             <i class='bx bxs-film playlist-icon'></i>
             <h3>Off Screen</h3>
-            <p>Музыка из аниме, мультфильмов, фильмов...</p>
-        </a>
+            <p>Аниме, фильмы, сериалы</p>
+        </div>
 
-        <a href="https://music.youtube.com/playlist?list=PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ" class="playlist-card hover-ocean" target="_blank">
+        <div class="playlist-card hover-ocean" data-playlist="Game OSTs">
+            <a href="https://music.youtube.com/playlist?list=PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ" class="external-link" target="_blank" title="Слушать в YT Music" onclick="event.stopPropagation()">
+                <i class='bx bx-link-external'></i>
+            </a>
             <i class='bx bxs-joystick playlist-icon'></i>
             <h3>Game OSTs</h3>
             <p>Саундтреки из видеоигр</p>
-        </a>
+        </div>
 
-        <a href="https://music.youtube.com/playlist?list=PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2" class="playlist-card hover-void" target="_blank">
+        <div class="playlist-card hover-void" data-playlist="Dead inside">
+            <a href="https://music.youtube.com/playlist?list=PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2" class="external-link" target="_blank" title="Слушать в YT Music" onclick="event.stopPropagation()">
+                <i class='bx bx-link-external'></i>
+            </a>
             <i class='bx bx-ghost playlist-icon'></i>
             <h3>Void</h3>
             <p>Всё подряд</p>
-        </a>
+        </div>
 
         <a href="https://soundcloud.com/kiwwij/sets/breakcore" class="playlist-card hover-glitch" target="_blank">
+            <div class="external-link"><i class='bx bx-link-external'></i></div>
             <i class='bx bx-pulse playlist-icon'></i>
             <h3>Breakcore</h3>
-            <p>Ломаный ритм</p>
+            <p>Ломаный ритм (Soundcloud)</p>
         </a>
     </div>
-</div>
 
         <div class="music-main-grid">
             <div class="glass-panel chart-panel">

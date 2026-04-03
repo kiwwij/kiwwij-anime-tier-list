@@ -1,3 +1,10 @@
+// Глобальные переменные для управления подгрузкой и фильтрацией
+let currentIndex = 0;
+const itemsPerPage = 30; 
+let isLoading = false;
+let filteredData = [];
+let musicChartInstance = null; // Глобально храним график, чтобы убивать его при фильтрации
+
 document.addEventListener('DOMContentLoaded', () => {
     if (typeof musicData === 'undefined' || typeof musicStats === 'undefined') {
         console.error("❌ Ошибка: Файл с данными не загружен.");
@@ -6,31 +13,59 @@ document.addEventListener('DOMContentLoaded', () => {
     
     console.log(`✅ Данные загружены. Треков: ${musicData.length}`);
     
-    // Инициализируем статистику и получаем объект графика для управления темами
-    const musicChart = initMusicStats();
+    filteredData = [...musicData]; // Изначально показываем все треки
+    
+    initMusicStats();
+    initFilters(); // Инициализируем клики по плейлистам
 
     // Логика переключения темы для графика
     const themeToggle = document.getElementById('themeToggle');
-    if (themeToggle && musicChart) {
+    if (themeToggle) {
         themeToggle.addEventListener('change', () => {
-            const isLight = !themeToggle.checked; // В вашем HTML checked = dark
-            const newTextColor = isLight ? '#000000' : '#f3f4f6';
-            const newGridColor = isLight ? 'rgba(0, 0, 0, 0.1)' : '#374151';
+            if (musicChartInstance) {
+                const isLight = !themeToggle.checked;
+                const newTextColor = isLight ? '#000000' : '#f3f4f6';
+                const newGridColor = isLight ? 'rgba(0, 0, 0, 0.1)' : '#374151';
 
-            musicChart.options.scales.y.ticks.color = newTextColor;
-            musicChart.options.scales.x.grid.color = newGridColor;
-            musicChart.update();
+                musicChartInstance.options.scales.y.ticks.color = newTextColor;
+                musicChartInstance.options.scales.x.grid.color = newGridColor;
+                musicChartInstance.update();
+            }
         });
     }
 
-    // Слушатель для пасхалки
     initKonami();
 });
 
-// Глобальные переменные для управления подгрузкой
-let currentIndex = 0;
-const itemsPerPage = 30; 
-let isLoading = false;
+function initFilters() {
+    const cards = document.querySelectorAll('.playlist-card[data-playlist]');
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            // Убираем активный класс у всех
+            cards.forEach(c => c.classList.remove('active-filter'));
+            card.classList.add('active-filter'); // Делаем кликнутый активным
+
+            const playlist = card.getAttribute('data-playlist');
+            
+            // Фильтруем данные
+            if (playlist === 'All') {
+                filteredData = [...musicData];
+            } else {
+                filteredData = musicData.filter(song => song.playlist === playlist);
+            }
+
+            // Перерисовываем всю статистику, список и график
+            initMusicStats();
+        });
+    });
+}
+
+function handleScroll(e) {
+    const container = e.target;
+    if (container.scrollTop + container.clientHeight >= container.scrollHeight - 100) {
+        loadMoreSongs();
+    }
+}
 
 function initMusicStats() {
     const totalSongsEl = document.getElementById('totalSongs');
@@ -45,18 +80,30 @@ function initMusicStats() {
     const textColor = isLight ? '#000000' : '#f3f4f6';
     const gridColor = isLight ? 'rgba(0, 0, 0, 0.1)' : '#374151';
 
-    // 1. Общая статистика
-    if (totalSongsEl) totalSongsEl.textContent = musicData.length;
+    // 1. Общая статистика (по отфильтрованному массиву)
+    if (totalSongsEl) totalSongsEl.textContent = filteredData.length;
 
+    // Считаем время на лету (из строк типа "2:14" или "1:00:00")
     if (totalDurationEl) {
-        const hours = Math.floor(musicStats.totalDurationSec / 3600);
-        const minutes = Math.floor((musicStats.totalDurationSec % 3600) / 60);
+        let totalSeconds = 0;
+        filteredData.forEach(song => {
+            if(song.duration) {
+                const parts = song.duration.split(':').map(Number);
+                if(parts.length === 2) {
+                    totalSeconds += parts[0] * 60 + parts[1];
+                } else if (parts.length === 3) {
+                    totalSeconds += parts[0] * 3600 + parts[1] * 60 + parts[2];
+                }
+            }
+        });
+        const hours = Math.floor(totalSeconds / 3600);
+        const minutes = Math.floor((totalSeconds % 3600) / 60);
         totalDurationEl.textContent = `${hours} ч. ${minutes} мин.`;
     }
 
-    // 2. Подсчет артистов (нужен для топа и графика)
+    // 2. Подсчет уникальных артистов
     const artistCounts = {};
-    musicData.forEach(song => {
+    filteredData.forEach(song => {
         const rawArtists = song.artist.split(/,|&| x | feat\. | ft\. /i);
         rawArtists.forEach(a => {
             let artistName = a.trim();
@@ -72,16 +119,11 @@ function initMusicStats() {
         songListEl.innerHTML = ''; 
         currentIndex = 0;
         
-        // Загружаем первую порцию
-        loadMoreSongs();
-
-        // Обработчик скролла
-        scrollContainer.addEventListener('scroll', () => {
-            // Если прокрутили до конца (минус 100 пикселей запаса)
-            if (scrollContainer.scrollTop + scrollContainer.clientHeight >= scrollContainer.scrollHeight - 100) {
-                loadMoreSongs();
-            }
-        });
+        loadMoreSongs(); // Загружаем первые треки
+        
+        // Удаляем старый обработчик, чтобы не срабатывал дважды, и вешаем новый
+        scrollContainer.removeEventListener('scroll', handleScroll);
+        scrollContainer.addEventListener('scroll', handleScroll);
     }
 
     // 4. Отрисовка топа и графика
@@ -89,18 +131,27 @@ function initMusicStats() {
         .sort((a, b) => b[1] - a[1])
         .slice(0, 15);
 
-    if (topArtistEl && sortedArtists.length > 0) {
-        topArtistEl.innerHTML = `
-            <span>${sortedArtists[0][0]}</span>
-            <span style="font-size: 0.9rem; font-weight: 600; margin-top: 4px; display:block; opacity: 0.6;">
-                (${sortedArtists[0][1]} треков)
-            </span>
-        `;
+    if (topArtistEl) {
+        if (sortedArtists.length > 0) {
+            topArtistEl.innerHTML = `
+                <span>${sortedArtists[0][0]}</span>
+                <span style="font-size: 0.9rem; font-weight: 600; margin-top: 4px; display:block; opacity: 0.6;">
+                    (${sortedArtists[0][1]} треков)
+                </span>
+            `;
+        } else {
+            topArtistEl.innerHTML = '-'; // Если плейлист пуст
+        }
     }
 
-    if (chartCanvas && sortedArtists.length > 0) {
+    if (chartCanvas) {
+        // Обязательно "убиваем" старый график, иначе он будет накладываться поверх нового
+        if (musicChartInstance) {
+            musicChartInstance.destroy();
+        }
+        
         const ctx = chartCanvas.getContext('2d');
-        return new Chart(ctx, {
+        musicChartInstance = new Chart(ctx, {
             type: 'bar',
             data: {
                 labels: sortedArtists.map(i => i[0]),
@@ -143,16 +194,15 @@ function initMusicStats() {
             }
         });
     }
-    return null;
 }
 
 function loadMoreSongs() {
-    if (isLoading || currentIndex >= musicData.length) return;
+    if (isLoading || currentIndex >= filteredData.length) return;
     isLoading = true;
 
     const songListEl = document.getElementById('songList');
     const fragment = document.createDocumentFragment();
-    const nextBatch = musicData.slice(currentIndex, currentIndex + itemsPerPage);
+    const nextBatch = filteredData.slice(currentIndex, currentIndex + itemsPerPage);
 
     nextBatch.forEach(song => {
         const li = document.createElement('li');
@@ -202,7 +252,6 @@ function activateGlitchMode() {
 
 function maybeSpawnZoro() {
     if (Math.random() > 0.05) return; 
-
     if (document.querySelector('.zoro-lost')) return;
 
     console.log("⚔️ Zoro is lost again...");

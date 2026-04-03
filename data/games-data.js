@@ -56,19 +56,6 @@ if (typeof tierListData !== 'undefined') {
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1888930/",
                 },
                 {
-                    title: "FINAL FANTASY® XIII",
-                    review: "Мне очень сложно решить лучше ли FF XIII чем TLOU. Пока пускай будет так, но вообще их нельзя сравнивать. Это слишком разные игры. Ревью - (ссылка)",
-                    img: "games/FINAL_FANTASY_XIII.jpg",
-                },
-                {
-                    title: "FINAL FANTASY XIII-2",
-                    review: "Пока не играл. Ревью - (ссылка)",
-                },
-                {
-                    title: "LIGHTNING RETURNS: FINAL FANTASY XIII",
-                    review: "Пока не играл. Ревью - (ссылка)",
-                },
-                {
                     title: "Elden Ring",
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1245620/",
                 },
@@ -436,6 +423,11 @@ if (typeof tierListData !== 'undefined') {
                 },
             ],
             'D': [
+                {
+                    title: "FINAL FANTASY® XIII",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/292120/",
+                    img: "games/FINAL_FANTASY_XIII.jpg",
+                },
                 {
                     title: "The Elder Scrolls IV: Oblivion Remastered",
                     review: "Небольшое ревью - https://telegra.ph/The-Elder-Scrolls-IV-Oblivion-Remastered-review-03-14",

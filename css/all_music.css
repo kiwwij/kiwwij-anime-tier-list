@@ -4,9 +4,46 @@
 
 .hub-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
-    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1.25rem;
     padding: 0.5rem 0;
+}
+
+.external-link {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    color: var(--stat-label);
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+    z-index: 10;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--list-item-bg);
+}
+
+.external-link:hover {
+    color: #ffffff;
+    background: var(--accent);
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 0 10px var(--accent);
+}
+
+@media (max-width: 900px) {
+    .hub-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .hub-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .playlist-card {
@@ -67,6 +104,21 @@
 
 .hover-glitch:hover { border-color: #06b6d4; }
 .hover-glitch:hover .playlist-icon { color: #06b6d4; filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.4)); }
+
+.playlist-card[data-playlist] {
+    cursor: pointer;
+}
+
+/* Стили для активного фильтра */
+.playlist-card.active-filter {
+    border-color: var(--accent);
+    box-shadow: 0 0 15px rgba(99, 102, 241, 0.4);
+    background: var(--glass-bg);
+}
+
+/* Цвет для кнопки "Все треки" */
+.hover-all:hover { border-color: #10b981; }
+.hover-all:hover .playlist-icon { color: #10b981; filter: drop-shadow(0 0 8px rgba(16, 185, 129, 0.4)); }
 
 @media (max-width: 480px) {
     .hub-grid {
