@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 2183900,
             "name": "Warhammer 40,000: Space Marine 2",
-            "playtime_2weeks": 2.6,
+            "playtime_2weeks": 2.5,
             "hours": 8.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
             "url": "https://store.steampowered.com/app/2183900"
@@ -58,14 +58,6 @@ const steamData = {
             "hours": 20.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 1458040,
-            "name": "Tales of Arise Demo Version",
-            "playtime_2weeks": 0.1,
-            "hours": 0.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1458040/header.jpg",
-            "url": "https://store.steampowered.com/app/1458040"
         }
     ],
     "top_games": [
