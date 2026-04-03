@@ -902,7 +902,7 @@ const musicData = [
     },
     {
         "title": "hyperpop luv",
-        "artist": "whyalive & Denya8",
+        "artist": "whyalive",
         "playlist": "Dead inside",
         "duration": "1:26"
     },
@@ -2512,7 +2512,7 @@ const musicData = [
         "title": "Открываю пивко",
         "artist": "Василий Дидляков",
         "playlist": "Dead inside",
-        "duration": "3:10"
+        "duration": "3:09"
     },
     {
         "title": "Все мои друзья",
@@ -6459,6 +6459,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 669,
-    "totalDurationSec": 175607,
+    "totalDurationSec": 175606,
     "lastUpdated": "Auto-generated"
 };
