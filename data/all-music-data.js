@@ -5834,7 +5834,7 @@ const musicData = [
     },
     {
         "title": "шрамы",
-        "artist": "Violetta Sokolova - Topic",
+        "artist": "Violetta Sokolova",
         "playlist": "Dead inside",
         "duration": "2:55"
     },
