@@ -14,15 +14,15 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 41.0,
-            "hours": 3291.1,
+            "playtime_2weeks": 42.5,
+            "hours": 3292.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 2183900,
             "name": "Warhammer 40,000: Space Marine 2",
-            "playtime_2weeks": 5.0,
+            "playtime_2weeks": 4.2,
             "hours": 8.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
             "url": "https://store.steampowered.com/app/2183900"
@@ -72,7 +72,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3291.1,
+            "hours": 3292.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
