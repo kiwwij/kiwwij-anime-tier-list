@@ -28,20 +28,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1371980"
         },
         {
-            "appid": 2183900,
-            "name": "Warhammer 40,000: Space Marine 2",
-            "playtime_2weeks": 2.4,
-            "hours": 8.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
-            "url": "https://store.steampowered.com/app/2183900"
-        },
-        {
             "appid": 3764200,
             "name": "Resident Evil Requiem",
             "playtime_2weeks": 2.3,
             "hours": 2.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3764200/header.jpg",
             "url": "https://store.steampowered.com/app/3764200"
+        },
+        {
+            "appid": 2183900,
+            "name": "Warhammer 40,000: Space Marine 2",
+            "playtime_2weeks": 1.8,
+            "hours": 8.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
+            "url": "https://store.steampowered.com/app/2183900"
         },
         {
             "appid": 292120,
