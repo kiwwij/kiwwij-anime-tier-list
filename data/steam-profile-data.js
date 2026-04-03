@@ -20,20 +20,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/570"
         },
         {
-            "appid": 2183900,
-            "name": "Warhammer 40,000: Space Marine 2",
-            "playtime_2weeks": 3.5,
-            "hours": 8.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
-            "url": "https://store.steampowered.com/app/2183900"
-        },
-        {
             "appid": 1371980,
             "name": "No Rest for the Wicked",
             "playtime_2weeks": 3.2,
             "hours": 3.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1371980/header.jpg",
             "url": "https://store.steampowered.com/app/1371980"
+        },
+        {
+            "appid": 2183900,
+            "name": "Warhammer 40,000: Space Marine 2",
+            "playtime_2weeks": 2.6,
+            "hours": 8.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
+            "url": "https://store.steampowered.com/app/2183900"
         },
         {
             "appid": 3764200,
