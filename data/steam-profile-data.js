@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/54fb03a0ca8d211e6ec2b285bc9277ab839f5c34_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -14,15 +14,15 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 42.5,
-            "hours": 3292.6,
+            "playtime_2weeks": 42.9,
+            "hours": 3293.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 2183900,
             "name": "Warhammer 40,000: Space Marine 2",
-            "playtime_2weeks": 4.2,
+            "playtime_2weeks": 3.5,
             "hours": 8.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
             "url": "https://store.steampowered.com/app/2183900"
@@ -54,8 +54,8 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.5,
-            "hours": 19.9,
+            "playtime_2weeks": 0.7,
+            "hours": 20.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
         },
@@ -72,7 +72,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3292.6,
+            "hours": 3293.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
