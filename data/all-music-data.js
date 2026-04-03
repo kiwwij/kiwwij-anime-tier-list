@@ -926,7 +926,7 @@ const musicData = [
     },
     {
         "title": "hyperpop luv",
-        "artist": "whyalive & Denya8",
+        "artist": "whyalive",
         "playlist": "Dead inside",
         "duration": "1:26"
     },
@@ -5834,7 +5834,7 @@ const musicData = [
     },
     {
         "title": "шрамы",
-        "artist": "Violetta Sokolova",
+        "artist": "Violetta Sokolova - Topic",
         "playlist": "Dead inside",
         "duration": "2:55"
     },
