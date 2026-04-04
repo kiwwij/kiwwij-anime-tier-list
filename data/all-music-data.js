@@ -6020,7 +6020,7 @@ const musicData = [
     },
     {
         "title": "Тупой",
-        "artist": "Юпи & boogshi",
+        "artist": "Юпи - Topic",
         "playlist": "Dead inside",
         "duration": "1:50"
     },
