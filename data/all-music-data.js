@@ -6283,6 +6283,12 @@ const musicData = [
         "duration": "1:24"
     },
     {
+        "title": "Popipo ЖИВЧИК Parody | Ukr cover by  Sontheia",
+        "artist": "KitsuNetsu",
+        "playlist": "Dead inside",
+        "duration": "1:46"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6459,6 +6465,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 686,
-    "totalDurationSec": 175607,
+    "totalDurationSec": 175713,
     "lastUpdated": "Auto-generated"
 };
