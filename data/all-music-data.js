@@ -1747,22 +1747,10 @@ const musicData = [
         "duration": "1:40"
     },
     {
-        "title": "Занята",
-        "artist": "DefRee",
-        "playlist": "Dead inside",
-        "duration": "2:18"
-    },
-    {
         "title": "Винтаж-Ева я любила тебя(HARD REMIX) ремикс  с тик тока",
         "artist": "Musicals only",
         "playlist": "Dead inside",
         "duration": "3:00"
-    },
-    {
-        "title": "Glichery -Sea of Problems (Speed up/Extended 10min remix)",
-        "artist": "○𝙓𝙇 𝙋𝙝𝙤𝙣𝙠☆",
-        "playlist": "Dead inside",
-        "duration": "9:55"
     },
     {
         "title": "LOVV66 - МАЙ МАЙ",
@@ -2407,12 +2395,6 @@ const musicData = [
         "duration": "3:27"
     },
     {
-        "title": "Shingeki no Putin",
-        "artist": "dyproductions",
-        "playlist": "Dead inside",
-        "duration": "1:32"
-    },
-    {
         "title": "MMM YEA Meme | SDR2",
         "artist": "Toast",
         "playlist": "Dead inside",
@@ -2687,12 +2669,6 @@ const musicData = [
         "artist": "Пустое Яблоко",
         "playlist": "Dead inside",
         "duration": "0:51"
-    },
-    {
-        "title": "Money, Money, Money (ABBA) 【covered by Anna】",
-        "artist": "Annapantsu",
-        "playlist": "Dead inside",
-        "duration": "3:06"
     },
     {
         "title": "Грустная мелодия Смешарики/Смысл жизни/ Вокализ Смешарики - cover by prrrotas",
@@ -4303,12 +4279,6 @@ const musicData = [
         "duration": "3:07"
     },
     {
-        "title": "SEVDALIZA - ALIBI (LYRICS) FT. PABLLO VITTAR & YSEULT",
-        "artist": "The Vibe Guide",
-        "playlist": "Dead inside",
-        "duration": "2:43"
-    },
-    {
         "title": "GONE.Fludd — Не Одиноко",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
@@ -4751,12 +4721,6 @@ const musicData = [
         "artist": "League of Legends",
         "playlist": "Dead inside",
         "duration": "2:52"
-    },
-    {
-        "title": "DARLING in the FRANXX Opening 1 | KISS OF DEATH",
-        "artist": "Crunchyroll",
-        "playlist": "Dead inside",
-        "duration": "1:30"
     },
     {
         "title": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai ED Part SectionFukashigi no Cart Theme",
@@ -6399,6 +6363,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 686,
-    "totalDurationSec": 174067,
+    "totalDurationSec": 172803,
     "lastUpdated": "Auto-generated"
 };
