@@ -20,20 +20,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/570"
         },
         {
+            "appid": 3764200,
+            "name": "Resident Evil Requiem",
+            "playtime_2weeks": 3.3,
+            "hours": 3.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3764200/header.jpg",
+            "url": "https://store.steampowered.com/app/3764200"
+        },
+        {
             "appid": 1371980,
             "name": "No Rest for the Wicked",
             "playtime_2weeks": 3.2,
             "hours": 3.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1371980/header.jpg",
             "url": "https://store.steampowered.com/app/1371980"
-        },
-        {
-            "appid": 3764200,
-            "name": "Resident Evil Requiem",
-            "playtime_2weeks": 2.8,
-            "hours": 2.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3764200/header.jpg",
-            "url": "https://store.steampowered.com/app/3764200"
         },
         {
             "appid": 2183900,
