@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 41.8,
-            "hours": 3294.0,
+            "playtime_2weeks": 42.2,
+            "hours": 3294.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1371980"
         },
         {
-            "appid": 2183900,
-            "name": "Warhammer 40,000: Space Marine 2",
-            "playtime_2weeks": 1.6,
-            "hours": 8.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
-            "url": "https://store.steampowered.com/app/2183900"
-        },
-        {
             "appid": 292120,
             "name": "FINAL FANTASY XIII",
             "playtime_2weeks": 1.5,
             "hours": 5.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292120/header.jpg",
             "url": "https://store.steampowered.com/app/292120"
+        },
+        {
+            "appid": 2183900,
+            "name": "Warhammer 40,000: Space Marine 2",
+            "playtime_2weeks": 1.3,
+            "hours": 8.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
+            "url": "https://store.steampowered.com/app/2183900"
         },
         {
             "appid": 431960,
@@ -64,7 +64,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3294.0,
+            "hours": 3294.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
