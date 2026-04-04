@@ -1063,12 +1063,6 @@ const musicData = [
         "duration": "2:23"
     },
     {
-        "title": "Wellerman (Sea Shanty)",
-        "artist": "Nathan Evans",
-        "playlist": "Dead inside",
-        "duration": "2:36"
-    },
-    {
         "title": "Ghost Rider - MONSTER[skillet]",
         "artist": "KINGSTON H",
         "playlist": "Dead inside",
@@ -1465,12 +1459,6 @@ const musicData = [
         "duration": "2:57"
     },
     {
-        "title": "ТУРБО ПУШКА",
-        "artist": "DETI RAVE",
-        "playlist": "Dead inside",
-        "duration": "1:53"
-    },
-    {
         "title": "MellSher, 5opka - Киношка (lpshkaa diss)",
         "artist": "ФУГА TV",
         "playlist": "Dead inside",
@@ -1639,12 +1627,6 @@ const musicData = [
         "duration": "1:57"
     },
     {
-        "title": "aqua - barbie girl (sped up)",
-        "artist": "cinnaryll",
-        "playlist": "Dead inside",
-        "duration": "2:55"
-    },
-    {
         "title": "Патрон",
         "artist": "Miyagi & Andy Panda",
         "playlist": "Dead inside",
@@ -1763,12 +1745,6 @@ const musicData = [
         "artist": "losertommy mashups",
         "playlist": "Dead inside",
         "duration": "1:40"
-    },
-    {
-        "title": "Miss You (Slowed + Reverb)",
-        "artist": "BeMax",
-        "playlist": "Dead inside",
-        "duration": "2:38"
     },
     {
         "title": "Занята",
@@ -1903,12 +1879,6 @@ const musicData = [
         "duration": "1:40"
     },
     {
-        "title": "heathens ~ speed up",
-        "artist": "deniii",
-        "playlist": "Dead inside",
-        "duration": "2:42"
-    },
-    {
         "title": "Hikikomori Kai, Shadowraze - skyline ryodan (текст песни)",
         "artist": "BestBeat381",
         "playlist": "Dead inside",
@@ -1925,12 +1895,6 @@ const musicData = [
         "artist": "Евгения Парфенова",
         "playlist": "Dead inside",
         "duration": "4:05"
-    },
-    {
-        "title": "Мулен Руж",
-        "artist": "Бьянка",
-        "playlist": "Dead inside",
-        "duration": "3:12"
     },
     {
         "title": "suramura, Иван Золо - Соковыжималка (Премьера)",
@@ -2027,12 +1991,6 @@ const musicData = [
         "artist": "билборды",
         "playlist": "Dead inside",
         "duration": "2:36"
-    },
-    {
-        "title": "Максим Леонидов - Видение (cleaza. trap remix)",
-        "artist": "CLEAZA Remix Music",
-        "playlist": "Dead inside",
-        "duration": "3:26"
     },
     {
         "title": "Клип на песню 'За тебя калым отдам'",
@@ -2353,12 +2311,6 @@ const musicData = [
         "duration": "1:00:00"
     },
     {
-        "title": "NXVAMANE - FRESH [PHONK]",
-        "artist": "Kalcetoo",
-        "playlist": "Dead inside",
-        "duration": "1:23"
-    },
-    {
         "title": "[AMV]   Little Dark Age「Neon Genesis Evangelion」",
         "artist": "Václav Tomeš",
         "playlist": "Dead inside",
@@ -2447,12 +2399,6 @@ const musicData = [
         "artist": "KOZAK SIROMAHA",
         "playlist": "Dead inside",
         "duration": "2:53"
-    },
-    {
-        "title": "Я взлетаю вверх",
-        "artist": "Серега Пират",
-        "playlist": "Dead inside",
-        "duration": "2:39"
     },
     {
         "title": "DAGames - It's Time To Die [RUS] (Remake by SayMaxWell) - FIVE NIGHTS AT FREDDY'S 3 SONG",
@@ -2555,12 +2501,6 @@ const musicData = [
         "artist": "Nekoglai",
         "playlist": "Dead inside",
         "duration": "1:49"
-    },
-    {
-        "title": "НАСТОЯЩИЙ ДЕТЕКТИВ [саундтрек]",
-        "artist": "Soundtrack fm",
-        "playlist": "Dead inside",
-        "duration": "2:50"
     },
     {
         "title": "🖇💞Мы-Возможно (speed ap )💞🖇",
@@ -4615,12 +4555,6 @@ const musicData = [
         "duration": "2:23"
     },
     {
-        "title": "​fallen777angel - стрелы (snippet)",
-        "artist": "suenushka",
-        "playlist": "Dead inside",
-        "duration": "1:12"
-    },
-    {
         "title": "zhanulka - ты пропал тебя нет (sixnite remix) full track",
         "artist": "blade",
         "playlist": "Dead inside",
@@ -6465,6 +6399,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 686,
-    "totalDurationSec": 175713,
+    "totalDurationSec": 174067,
     "lastUpdated": "Auto-generated"
 };
