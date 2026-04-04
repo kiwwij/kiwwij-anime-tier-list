@@ -806,7 +806,7 @@ const musicData = [
     },
     {
         "title": "Лёд",
-        "artist": "WENARO",
+        "artist": "WENARO & LXNER",
         "playlist": "Dead inside",
         "duration": "2:33"
     },
@@ -1268,7 +1268,7 @@ const musicData = [
     },
     {
         "title": "ярче звёзд",
-        "artist": "плм",
+        "artist": "ПОЛМАТЕРИ",
         "playlist": "Dead inside",
         "duration": "2:48"
     },
