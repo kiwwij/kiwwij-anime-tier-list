@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/54fb03a0ca8d211e6ec2b285bc9277ab839f5c34_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "Offline",
+        "statusColor": "#9E9E9E"
     },
     "stats": {
         "total_games": 255
@@ -38,7 +38,7 @@ const steamData = {
         {
             "appid": 2183900,
             "name": "Warhammer 40,000: Space Marine 2",
-            "playtime_2weeks": 1.8,
+            "playtime_2weeks": 1.6,
             "hours": 8.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/header.jpg",
             "url": "https://store.steampowered.com/app/2183900"
