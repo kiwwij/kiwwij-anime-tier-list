@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 46.5,
-            "hours": 3298.8,
+            "playtime_2weeks": 47.0,
+            "hours": 3299.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 1371980,
             "name": "No Rest for the Wicked",
-            "playtime_2weeks": 2.6,
+            "playtime_2weeks": 1.9,
             "hours": 3.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1371980/header.jpg",
             "url": "https://store.steampowered.com/app/1371980"
@@ -56,7 +56,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3298.8,
+            "hours": 3299.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
