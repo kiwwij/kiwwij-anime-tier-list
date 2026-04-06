@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/54fb03a0ca8d211e6ec2b285bc9277ab839f5c34_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "Online",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 255
@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 43.1,
+            "playtime_2weeks": 43.0,
             "hours": 3300.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/292120"
         },
         {
-            "appid": 1371980,
-            "name": "No Rest for the Wicked",
-            "playtime_2weeks": 0.8,
-            "hours": 3.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1371980/header.jpg",
-            "url": "https://store.steampowered.com/app/1371980"
-        },
-        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.6,
             "hours": 20.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 1371980,
+            "name": "No Rest for the Wicked",
+            "playtime_2weeks": 0.1,
+            "hours": 3.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1371980/header.jpg",
+            "url": "https://store.steampowered.com/app/1371980"
         }
     ],
     "top_games": [
