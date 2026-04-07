@@ -6187,6 +6187,12 @@ const musicData = [
         "duration": "1:46"
     },
     {
+        "title": "migraine",
+        "artist": "jaydes",
+        "playlist": "Dead inside",
+        "duration": "0:32"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6363,6 +6369,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 620,
-    "totalDurationSec": 172803,
+    "totalDurationSec": 172835,
     "lastUpdated": "Auto-generated"
 };
