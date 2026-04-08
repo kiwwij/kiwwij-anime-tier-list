@@ -475,6 +475,12 @@ const musicData = [
         "duration": "2:56"
     },
     {
+        "title": "BANG BANG BANG - Chainsaw Man Song (ft. @starxrayne  & @JamsDX )",
+        "artist": "bb-panzu",
+        "playlist": "Main",
+        "duration": "3:01"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -6369,6 +6375,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 620,
-    "totalDurationSec": 172835,
+    "totalDurationSec": 173016,
     "lastUpdated": "Auto-generated"
 };
