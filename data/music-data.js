@@ -394,9 +394,14 @@ const musicData = [
         "title": "Лунный Лик",
         "artist": "GONE.Fludd",
         "playlist": "Main"
+    },
+    {
+        "title": "BANG BANG BANG - Chainsaw Man Song (ft. @starxrayne  & @JamsDX )",
+        "artist": "bb-panzu",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 18,
-    "totalDurationSec": 9729
+    "totalDurationSec": 9910
 };
