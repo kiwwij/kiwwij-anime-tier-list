@@ -36,11 +36,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "болен",
-        "artist": "dope17",
-        "playlist": "Main"
-    },
-    {
         "title": "Круче чем вы (feat. CUPSIZE)",
         "artist": "madk1d",
         "playlist": "Main"
@@ -66,18 +61,8 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Як тебе цілував",
-        "artist": "teeNsad",
-        "playlist": "Main"
-    },
-    {
         "title": "web 2.0",
         "artist": "тёмный принц & silver gloria",
-        "playlist": "Main"
-    },
-    {
-        "title": "У батарей",
-        "artist": "nyan.mp3",
         "playlist": "Main"
     },
     {
@@ -394,14 +379,9 @@ const musicData = [
         "title": "Лунный Лик",
         "artist": "GONE.Fludd",
         "playlist": "Main"
-    },
-    {
-        "title": "BANG BANG BANG - Chainsaw Man Song (ft. @starxrayne  & @JamsDX )",
-        "artist": "bb-panzu",
-        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 18,
-    "totalDurationSec": 9910
+    "totalDurationSec": 9368
 };
