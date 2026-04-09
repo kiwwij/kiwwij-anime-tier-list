@@ -4459,8 +4459,8 @@ const musicData = [
         "duration": "2:28"
     },
     {
-        "title": "My Demons (Official Music Video)",
-        "artist": "STARSET",
+        "title": "STARSET - My Demons (Official Music Video)",
+        "artist": "starsetVEVO",
         "playlist": "Dead inside",
         "duration": "3:43"
     },
@@ -4483,7 +4483,7 @@ const musicData = [
         "duration": "2:47"
     },
     {
-        "title": "Рассвет",
+        "title": "Какая Разница - Рассвет (Премьера 2021)",
         "artist": "Какая Разница",
         "playlist": "Dead inside",
         "duration": "2:01"
@@ -4519,8 +4519,8 @@ const musicData = [
         "duration": "2:00"
     },
     {
-        "title": "w4ste away (w/ Sickboyrari)",
-        "artist": "asteria & Sickboyrari",
+        "title": "asteria - w4ste away (feat. Black Kray) (Official Visualizer)",
+        "artist": "asteria",
         "playlist": "Dead inside",
         "duration": "2:57"
     },
@@ -4532,7 +4532,7 @@ const musicData = [
     },
     {
         "title": "Дуэт Принцессы и Трубадура",
-        "artist": "Тихон Жизневский, Валентина Ляпина, & Дмитрий Венгеров",
+        "artist": "Release - Topic",
         "playlist": "Dead inside",
         "duration": "1:17"
     },
@@ -4885,14 +4885,14 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "Гроза лесных крипов",
-        "artist": "youraifu",
+        "title": "Гроза Лесных Крипов",
+        "artist": "AICOVERGIRL",
         "playlist": "Dead inside",
         "duration": "2:37"
     },
     {
-        "title": "Белочка с Армлетом (ROCK VERSION)",
-        "artist": "youraifu",
+        "title": "Белочка с Армлетом (Rock Version)",
+        "artist": "AICOVERGIRL",
         "playlist": "Dead inside",
         "duration": "1:55"
     },
