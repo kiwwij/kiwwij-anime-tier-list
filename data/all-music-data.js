@@ -43,12 +43,6 @@ const musicData = [
         "duration": "2:14"
     },
     {
-        "title": "болен",
-        "artist": "dope17",
-        "playlist": "Main",
-        "duration": "1:28"
-    },
-    {
         "title": "Круче чем вы (feat. CUPSIZE)",
         "artist": "madk1d",
         "playlist": "Main",
@@ -79,22 +73,10 @@ const musicData = [
         "duration": "1:53"
     },
     {
-        "title": "Як тебе цілував",
-        "artist": "teeNsad",
-        "playlist": "Main",
-        "duration": "2:47"
-    },
-    {
         "title": "web 2.0",
         "artist": "тёмный принц & silver gloria",
         "playlist": "Main",
         "duration": "1:24"
-    },
-    {
-        "title": "У батарей",
-        "artist": "nyan.mp3",
-        "playlist": "Main",
-        "duration": "1:46"
     },
     {
         "title": "fallen777angel, dope17 – suka business class (Official Audio + lyrics) / eclipse media",
@@ -473,12 +455,6 @@ const musicData = [
         "artist": "GONE.Fludd",
         "playlist": "Main",
         "duration": "2:56"
-    },
-    {
-        "title": "BANG BANG BANG - Chainsaw Man Song (ft. @starxrayne  & @JamsDX )",
-        "artist": "bb-panzu",
-        "playlist": "Main",
-        "duration": "3:01"
     },
     {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
@@ -6199,6 +6175,30 @@ const musicData = [
         "duration": "0:32"
     },
     {
+        "title": "BANG BANG BANG - Chainsaw Man Song",
+        "artist": "Dark Tempo",
+        "playlist": "Dead inside",
+        "duration": "3:11"
+    },
+    {
+        "title": "болен",
+        "artist": "dope17",
+        "playlist": "Dead inside",
+        "duration": "1:28"
+    },
+    {
+        "title": "Як тебе цілував",
+        "artist": "teeNsad",
+        "playlist": "Dead inside",
+        "duration": "2:47"
+    },
+    {
+        "title": "У батарей",
+        "artist": "nyan.mp3",
+        "playlist": "Dead inside",
+        "duration": "1:46"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6375,6 +6375,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 627,
-    "totalDurationSec": 173016,
+    "totalDurationSec": 173026,
     "lastUpdated": "Auto-generated"
 };
