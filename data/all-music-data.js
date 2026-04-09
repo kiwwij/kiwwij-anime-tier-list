@@ -5648,7 +5648,7 @@ const musicData = [
     },
     {
         "title": "шрамы",
-        "artist": "Violetta Sokolova",
+        "artist": "Violetta Sokolova - Topic",
         "playlist": "Dead inside",
         "duration": "2:55"
     },
@@ -5744,7 +5744,7 @@ const musicData = [
     },
     {
         "title": "Невесомость",
-        "artist": "тянка",
+        "artist": "тянка - Topic",
         "playlist": "Dead inside",
         "duration": "2:34"
     },
@@ -5786,7 +5786,7 @@ const musicData = [
     },
     {
         "title": "больше не будет",
-        "artist": "кариолемма",
+        "artist": "кариолемма - Topic",
         "playlist": "Dead inside",
         "duration": "2:41"
     },
@@ -5875,7 +5875,7 @@ const musicData = [
         "duration": "3:07"
     },
     {
-        "title": "I Don't Care",
+        "title": "I Don't Care - VIOLENT VIRA",
         "artist": "VIOLENT VIRA",
         "playlist": "Dead inside",
         "duration": "3:02"
@@ -5954,7 +5954,7 @@ const musicData = [
     },
     {
         "title": "Let's Be Friends (Lena Theme)",
-        "artist": "Sergey Eybog",
+        "artist": "Sergey Eybog - Topic",
         "playlist": "Dead inside",
         "duration": "2:04"
     },
@@ -6008,7 +6008,7 @@ const musicData = [
     },
     {
         "title": "Stories",
-        "artist": "Hitomi",
+        "artist": "Hitomi - Topic",
         "playlist": "Dead inside",
         "duration": "5:20"
     },
@@ -6092,7 +6092,7 @@ const musicData = [
     },
     {
         "title": "Демон",
-        "artist": "Чучело",
+        "artist": "Чучело - Topic",
         "playlist": "Dead inside",
         "duration": "2:38"
     },
@@ -6110,13 +6110,13 @@ const musicData = [
     },
     {
         "title": "Ты не пришла и х с тобой",
-        "artist": "Мой Двор",
+        "artist": "Мой Двор   - Topic",
         "playlist": "Dead inside",
         "duration": "2:34"
     },
     {
         "title": "Останній день",
-        "artist": "SadSvit",
+        "artist": "SadSvit - Topic",
         "playlist": "Dead inside",
         "duration": "3:00"
     },
@@ -6163,7 +6163,7 @@ const musicData = [
         "duration": "1:24"
     },
     {
-        "title": "Popipo ЖИВЧИК Parody | Ukr cover by  Sontheia",
+        "title": "Popipo UKRANIAN ZHYWCHYK Parody | Cover by Sontheia",
         "artist": "KitsuNetsu",
         "playlist": "Dead inside",
         "duration": "1:46"
