@@ -22,8 +22,8 @@ const steamData = {
         {
             "appid": 3764200,
             "name": "Resident Evil Requiem",
-            "playtime_2weeks": 7.1,
-            "hours": 7.1,
+            "playtime_2weeks": 7.5,
+            "hours": 7.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3764200/header.jpg",
             "url": "https://store.steampowered.com/app/3764200"
         },
