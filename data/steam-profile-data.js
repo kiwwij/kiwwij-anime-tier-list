@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/54fb03a0ca8d211e6ec2b285bc9277ab839f5c34_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E"
+        "status": "In Game",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 257
@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/292120"
         },
         {
+            "appid": 952060,
+            "name": "Resident Evil 3",
+            "playtime_2weeks": 1.0,
+            "hours": 1.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/header.jpg",
+            "url": "https://store.steampowered.com/app/952060"
+        },
+        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.8,
             "hours": 20.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 952060,
-            "name": "Resident Evil 3",
-            "playtime_2weeks": 0.5,
-            "hours": 0.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/header.jpg",
-            "url": "https://store.steampowered.com/app/952060"
         }
     ],
     "top_games": [
