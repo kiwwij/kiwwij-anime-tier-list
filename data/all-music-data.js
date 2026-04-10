@@ -3487,12 +3487,6 @@ const musicData = [
         "duration": "0:13"
     },
     {
-        "title": "GAYAZOV$ BROTHER$ - КРЕДО | 2018 Премьера",
-        "artist": "Windy Beats",
-        "playlist": "Dead inside",
-        "duration": "3:23"
-    },
-    {
         "title": "(текст) Песня о привязанности - Автоспорт",
         "artist": "VIRGIN",
         "playlist": "Dead inside",
@@ -6375,6 +6369,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 627,
-    "totalDurationSec": 173026,
+    "totalDurationSec": 172823,
     "lastUpdated": "Auto-generated"
 };
