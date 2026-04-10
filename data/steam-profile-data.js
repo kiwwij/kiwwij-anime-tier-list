@@ -38,8 +38,8 @@ const steamData = {
         {
             "appid": 952060,
             "name": "Resident Evil 3",
-            "playtime_2weeks": 1.0,
-            "hours": 1.0,
+            "playtime_2weeks": 1.5,
+            "hours": 1.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/header.jpg",
             "url": "https://store.steampowered.com/app/952060"
         },
