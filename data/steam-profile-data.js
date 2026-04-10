@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/54fb03a0ca8d211e6ec2b285bc9277ab839f5c34_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -42,6 +42,14 @@ const steamData = {
             "hours": 20.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 952060,
+            "name": "Resident Evil 3",
+            "playtime_2weeks": 0.1,
+            "hours": 0.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/header.jpg",
+            "url": "https://store.steampowered.com/app/952060"
         }
     ],
     "top_games": [
