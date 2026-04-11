@@ -3806,13 +3806,13 @@ const musicData = [
     },
     {
         "title": "На стол",
-        "artist": "LonelyStash - Topic",
+        "artist": "LonelyStash",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
     {
         "title": "Всё решено",
-        "artist": "Valentin Strykalo - Topic",
+        "artist": "Валентин Стрыкало",
         "playlist": "Dead inside",
         "duration": "3:12"
     },
@@ -3997,7 +3997,7 @@ const musicData = [
         "duration": "1:26"
     },
     {
-        "title": "Noize MC - Чайлдфри (feat. монеточка)",
+        "title": "чайлдфри (Live) (feat. Monetochka)",
         "artist": "Noize MC",
         "playlist": "Dead inside",
         "duration": "4:21"
