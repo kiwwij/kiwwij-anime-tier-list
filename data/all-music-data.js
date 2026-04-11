@@ -796,11 +796,11 @@ const musicData = [
         "title": "По*уй",
         "artist": "KVESTAR",
         "playlist": "Dead inside",
-        "duration": "2:02"
+        "duration": "2:00"
     },
     {
         "title": "Код",
-        "artist": "whyalive & HOROSHIYAGNI",
+        "artist": "whyalive",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
@@ -3806,13 +3806,13 @@ const musicData = [
     },
     {
         "title": "На стол",
-        "artist": "LonelyStash",
+        "artist": "LonelyStash - Topic",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
     {
         "title": "Всё решено",
-        "artist": "Валентин Стрыкало",
+        "artist": "Valentin Strykalo - Topic",
         "playlist": "Dead inside",
         "duration": "3:12"
     },
@@ -3997,7 +3997,7 @@ const musicData = [
         "duration": "1:26"
     },
     {
-        "title": "чайлдфри (Live) (feat. Monetochka)",
+        "title": "Noize MC - Чайлдфри (feat. монеточка)",
         "artist": "Noize MC",
         "playlist": "Dead inside",
         "duration": "4:21"
@@ -6369,6 +6369,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 627,
-    "totalDurationSec": 172825,
+    "totalDurationSec": 172823,
     "lastUpdated": "Auto-generated"
 };
