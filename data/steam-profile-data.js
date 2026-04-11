@@ -50,6 +50,14 @@ const steamData = {
             "hours": 20.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 1283400,
+            "name": "Steelrising",
+            "playtime_2weeks": 0.6,
+            "hours": 0.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
+            "url": "https://store.steampowered.com/app/1283400"
         }
     ],
     "top_games": [
