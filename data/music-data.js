@@ -106,11 +106,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "слон",
-        "artist": "Violetta Sokolova",
-        "playlist": "Main"
-    },
-    {
         "title": "Гештальт",
         "artist": "Апатія",
         "playlist": "Main"
@@ -383,5 +378,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 18,
-    "totalDurationSec": 9368
+    "totalDurationSec": 9230
 };
