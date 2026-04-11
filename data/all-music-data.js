@@ -127,12 +127,6 @@ const musicData = [
         "duration": "1:46"
     },
     {
-        "title": "слон",
-        "artist": "Violetta Sokolova",
-        "playlist": "Main",
-        "duration": "2:18"
-    },
-    {
         "title": "Гештальт",
         "artist": "Апатія",
         "playlist": "Main",
@@ -4879,8 +4873,8 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "Гроза Лесных Крипов",
-        "artist": "AICOVERGIRL",
+        "title": "Гроза лесных крипов",
+        "artist": "youraifu",
         "playlist": "Dead inside",
         "duration": "2:37"
     },
@@ -6191,6 +6185,12 @@ const musicData = [
         "artist": "nyan.mp3",
         "playlist": "Dead inside",
         "duration": "1:46"
+    },
+    {
+        "title": "слон",
+        "artist": "Violetta Sokolova",
+        "playlist": "Dead inside",
+        "duration": "2:18"
     },
     {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
