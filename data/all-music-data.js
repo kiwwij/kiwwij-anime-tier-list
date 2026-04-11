@@ -553,12 +553,6 @@ const musicData = [
         "duration": "3:58"
     },
     {
-        "title": "阿修羅ちゃん - Ashura-chan",
-        "artist": "Ado",
-        "playlist": "Off Screen",
-        "duration": "3:19"
-    },
-    {
         "title": "ムスビメ",
         "artist": "大原ゆい子",
         "playlist": "Off Screen",
@@ -6193,6 +6187,12 @@ const musicData = [
         "duration": "2:18"
     },
     {
+        "title": "阿修羅ちゃん - Ashura-chan",
+        "artist": "Ado",
+        "playlist": "Dead inside",
+        "duration": "3:16"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6369,6 +6369,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 627,
-    "totalDurationSec": 172823,
+    "totalDurationSec": 172820,
     "lastUpdated": "Auto-generated"
 };
