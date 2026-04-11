@@ -796,11 +796,11 @@ const musicData = [
         "title": "По*уй",
         "artist": "KVESTAR",
         "playlist": "Dead inside",
-        "duration": "2:00"
+        "duration": "2:02"
     },
     {
         "title": "Код",
-        "artist": "whyalive",
+        "artist": "whyalive & HOROSHIYAGNI",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
@@ -6369,6 +6369,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 627,
-    "totalDurationSec": 172823,
+    "totalDurationSec": 172825,
     "lastUpdated": "Auto-generated"
 };
