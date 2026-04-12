@@ -788,7 +788,7 @@ const musicData = [
     },
     {
         "title": "Код",
-        "artist": "whyalive",
+        "artist": "whyalive & HOROSHIYAGNI",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
@@ -872,7 +872,7 @@ const musicData = [
     },
     {
         "title": "hyperpop luv",
-        "artist": "whyalive",
+        "artist": "whyalive & Denya8",
         "playlist": "Dead inside",
         "duration": "1:26"
     },
