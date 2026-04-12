@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 36.0,
+            "playtime_2weeks": 35.2,
             "hours": 3310.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -36,6 +36,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/952060"
         },
         {
+            "appid": 1283400,
+            "name": "Steelrising",
+            "playtime_2weeks": 1.6,
+            "hours": 1.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
+            "url": "https://store.steampowered.com/app/1283400"
+        },
+        {
             "appid": 292120,
             "name": "FINAL FANTASY XIII",
             "playtime_2weeks": 0.9,
@@ -50,14 +58,6 @@ const steamData = {
             "hours": 20.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 1283400,
-            "name": "Steelrising",
-            "playtime_2weeks": 0.6,
-            "hours": 0.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
-            "url": "https://store.steampowered.com/app/1283400"
         }
     ],
     "top_games": [
