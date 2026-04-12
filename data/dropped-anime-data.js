@@ -77,12 +77,7 @@ const droppedData = [
     {
         "title": "Black Clover 2017",
         "ruTitle": "Чёрный Клевер",
-        "review": "Дропнул на 0-й серии из 170."
-    },
-    {
-        "title": "Black Clover: Sword of the Wizard King",
-        "ruTitle": "Чёрный Клевер (Спэшл)",
-        "review": "Дропнул на 0-й серии из 1."
+        "review": "Дропнул на 1-й серии из 170. 2 раза пытался посмореть, но слишком кал."
     },
     {
         "title": "Disney: Twisted-Wonderland",
@@ -267,7 +262,7 @@ const droppedData = [
     {
         "title": "Hikuidori: Ushuu Boro Tobi-gumi",
         "ruTitle": "Огнеглотающая Птица: Отряд пожарных-оборванцев из Усю",
-        "review": "Дропнул на 1-й серии из n. Ужасный 3D."
+        "review": "Дропнул на 1-й серии из 12. Ужасный 3D."
     },
     {
         "title": "Danshi Koukousei no Nichijou",
@@ -409,4 +404,30 @@ const droppedData = [
         "ruTitle": "Легенда о Гранкресте",
         "review": "Дропнул на n-й серии из 24. Просто скучно."
     },
+    {
+        "title": "Mamonogurai no Boukensha: Ore dake Mamono wo Kuratte Tsuyoku Naru",
+        "ruTitle": "Авантюрист, пожирающий демонов: Я единственный, кто становится сильнее, пожирая монстров",
+        "review": "Дропнул на 1-й серии из n. Анимации нет."
+    },
+    {
+        "title": "Mata Korosarete Shimatta no desu ne, Tantei-sama",
+        "ruTitle": "Вас снова убили, мистер детектив",
+        "review": "Дропнул на 1-й серии из n. Анимации нет."
+    },
+    {
+        "title": "Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi",
+        "ruTitle": "Бесполезный дежурный и школьница со слишком короткой юбкой",
+        "review": "Дропнул на 1-й серии из n."
+    },
+    {
+        "title": "Yowayowa Sensei",
+        "ruTitle": "Учитель Ёваёва",
+        "review": "Дропнул на 1-й серии из 12. Аниме где учники и учительница попадают в смущающие ситуации. Типо кто-то на кого-то сел, либо грудь спалили, ну короче вы поняли."
+    },
+    {
+        "title": "Kanan-sama Is Easy as Hell!",
+        "ruTitle": "Канан до чёртиков проста",
+        "review": "Дропнул на 2-й серии из 12. Этти-гаремник."
+    },
+
 ]

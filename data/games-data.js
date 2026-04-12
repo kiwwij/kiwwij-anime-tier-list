@@ -143,6 +143,10 @@ if (typeof tierListData !== 'undefined') {
                     title: "Genshin Impact",
                     review: "Стой, стой, стой. Дай всё объясню. В 1ые года я дико кайфовал от этого кала, играл по 12 часов каждый день. Сейчас я бы в неё не смог играть, но вот раньше...",
                 },
+                {
+                    title: "Steelrisng",
+                    review: "Ревью - ",
+                },
             ],
             'B': [
                 {
@@ -353,6 +357,10 @@ if (typeof tierListData !== 'undefined') {
                     review: "Управление всё портит. Так то игра атмосферная.",
                 },
                 {
+                    title: "Resident Evil 3",
+                    review: "Небольшое ревью - ",
+                },
+                {
                     title: "Aragami 2",
                     review: "Хуже чем 1ая часть.",
                 },
@@ -427,6 +435,10 @@ if (typeof tierListData !== 'undefined') {
                     title: "FINAL FANTASY® XIII",
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/292120/",
                     img: "games/FINAL_FANTASY_XIII.jpg",
+                },
+                {
+                    title: "Resident Evil Requiem",
+                    review: "Небольшое ревью - https://telegra.ph/Resident-Evil-Requiem-review-04-01",
                 },
                 {
                     title: "The Elder Scrolls IV: Oblivion Remastered",
