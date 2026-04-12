@@ -6193,6 +6193,12 @@ const musicData = [
         "duration": "3:16"
     },
     {
+        "title": "Ты моё сердце из чистого золота",
+        "artist": "Emily Danielyan",
+        "playlist": "Dead inside",
+        "duration": "3:54"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6369,6 +6375,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 627,
-    "totalDurationSec": 172820,
+    "totalDurationSec": 173054,
     "lastUpdated": "Auto-generated"
 };
