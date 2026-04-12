@@ -46,18 +46,10 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.8,
+            "playtime_2weeks": 0.7,
             "hours": 20.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 292120,
-            "name": "FINAL FANTASY XIII",
-            "playtime_2weeks": 0.1,
-            "hours": 5.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292120/header.jpg",
-            "url": "https://store.steampowered.com/app/292120"
         }
     ],
     "top_games": [
