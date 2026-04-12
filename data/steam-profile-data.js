@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 31.1,
-            "hours": 3312.1,
+            "playtime_2weeks": 31.6,
+            "hours": 3312.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -46,7 +46,7 @@ const steamData = {
         {
             "appid": 292120,
             "name": "FINAL FANTASY XIII",
-            "playtime_2weeks": 0.9,
+            "playtime_2weeks": 0.8,
             "hours": 5.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292120/header.jpg",
             "url": "https://store.steampowered.com/app/292120"
@@ -64,7 +64,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3312.1,
+            "hours": 3312.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
