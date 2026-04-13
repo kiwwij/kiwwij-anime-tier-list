@@ -784,11 +784,11 @@ const musicData = [
         "title": "По*уй",
         "artist": "KVESTAR",
         "playlist": "Dead inside",
-        "duration": "2:00"
+        "duration": "2:02"
     },
     {
         "title": "Код",
-        "artist": "whyalive",
+        "artist": "whyalive & HOROSHIYAGNI",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
@@ -872,7 +872,7 @@ const musicData = [
     },
     {
         "title": "hyperpop luv",
-        "artist": "whyalive",
+        "artist": "whyalive & Denya8",
         "playlist": "Dead inside",
         "duration": "1:26"
     },
@@ -1232,7 +1232,7 @@ const musicData = [
     },
     {
         "title": "ярче звёзд",
-        "artist": "плм",
+        "artist": "ПОЛМАТЕРИ",
         "playlist": "Dead inside",
         "duration": "2:48"
     },
@@ -6375,6 +6375,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 662,
-    "totalDurationSec": 173054,
+    "totalDurationSec": 173056,
     "lastUpdated": "Auto-generated"
 };
