@@ -2738,7 +2738,7 @@ const musicData = [
     },
     {
         "title": "Котик",
-        "artist": "enveel",
+        "artist": "enveel - Topic",
         "playlist": "Dead inside",
         "duration": "2:13"
     },
@@ -2804,7 +2804,7 @@ const musicData = [
     },
     {
         "title": "I Really Want to Stay at Your House / Cyberpunk Edgerunners | Rrrr Music Cover ft.庭米 @mi0922 |",
-        "artist": "Rrrr Music",
+        "artist": "Rrrr Music 啊 音樂",
         "playlist": "Dead inside",
         "duration": "4:34"
     },
@@ -2942,7 +2942,7 @@ const musicData = [
     },
     {
         "title": "Клан",
-        "artist": "Катя Самбука",
+        "artist": "Katya Sambuca - Topic",
         "playlist": "Dead inside",
         "duration": "2:36"
     },
@@ -2953,8 +2953,8 @@ const musicData = [
         "duration": "3:40"
     },
     {
-        "title": "Зима в сердце",
-        "artist": "Moya Mishel",
+        "title": "Моя Мишель - Зима в сердце (премьера клипа 2021)",
+        "artist": "Моя Мишель",
         "playlist": "Dead inside",
         "duration": "3:41"
     },
