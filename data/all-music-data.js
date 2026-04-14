@@ -103,12 +103,6 @@ const musicData = [
         "duration": "1:52"
     },
     {
-        "title": "madk1d, greyrock & tewiq — MARTINE ROSE",
-        "artist": "Eclypse_me",
-        "playlist": "Main",
-        "duration": "1:51"
-    },
-    {
         "title": "Не прокинусь",
         "artist": "BaWN",
         "playlist": "Main",
@@ -119,12 +113,6 @@ const musicData = [
         "artist": "Violetta Sokolova",
         "playlist": "Main",
         "duration": "4:10"
-    },
-    {
-        "title": "mirrors demo",
-        "artist": "overtonight throwaways",
-        "playlist": "Main",
-        "duration": "1:46"
     },
     {
         "title": "Гештальт",
@@ -281,12 +269,6 @@ const musicData = [
         "artist": "s0rrow",
         "playlist": "Main",
         "duration": "1:55"
-    },
-    {
-        "title": "mirrors demo (happy version)",
-        "artist": "s0rrow",
-        "playlist": "Main",
-        "duration": "1:46"
     },
     {
         "title": "Ворую алкоголь - Floki, звсэ(slowed down version)",
@@ -6199,6 +6181,12 @@ const musicData = [
         "duration": "3:54"
     },
     {
+        "title": "Aqua- Mirrors demo (happy version)",
+        "artist": "Aqua ",
+        "playlist": "Dead inside",
+        "duration": "1:45"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6375,6 +6363,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 662,
-    "totalDurationSec": 173054,
+    "totalDurationSec": 172836,
     "lastUpdated": "Auto-generated"
 };
