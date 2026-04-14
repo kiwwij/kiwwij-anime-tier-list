@@ -139,12 +139,6 @@ const musicData = [
         "duration": "1:22"
     },
     {
-        "title": "machine",
-        "artist": "auratoshi",
-        "playlist": "Main",
-        "duration": "1:56"
-    },
-    {
         "title": "аромат цветов",
         "artist": "PLUSIX",
         "playlist": "Main",
@@ -6185,6 +6179,12 @@ const musicData = [
         "artist": "Aqua ",
         "playlist": "Dead inside",
         "duration": "1:45"
+    },
+    {
+        "title": "machine",
+        "artist": "auratoshi",
+        "playlist": "Dead inside",
+        "duration": "1:56"
     },
     {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
