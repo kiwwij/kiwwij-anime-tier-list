@@ -116,11 +116,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "machine",
-        "artist": "auratoshi",
-        "playlist": "Main"
-    },
-    {
         "title": "аромат цветов",
         "artist": "PLUSIX",
         "playlist": "Main"
@@ -363,5 +358,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 18,
-    "totalDurationSec": 8907
+    "totalDurationSec": 8791
 };
