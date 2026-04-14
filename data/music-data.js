@@ -86,11 +86,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "madk1d, greyrock & tewiq — MARTINE ROSE",
-        "artist": "Eclypse_me",
-        "playlist": "Main"
-    },
-    {
         "title": "Не прокинусь",
         "artist": "BaWN",
         "playlist": "Main"
@@ -98,11 +93,6 @@ const musicData = [
     {
         "title": "ELF",
         "artist": "Violetta Sokolova",
-        "playlist": "Main"
-    },
-    {
-        "title": "mirrors demo",
-        "artist": "overtonight throwaways",
         "playlist": "Main"
     },
     {
@@ -232,11 +222,6 @@ const musicData = [
     },
     {
         "title": "fake ur face",
-        "artist": "s0rrow",
-        "playlist": "Main"
-    },
-    {
-        "title": "mirrors demo (happy version)",
         "artist": "s0rrow",
         "playlist": "Main"
     },
@@ -378,5 +363,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 18,
-    "totalDurationSec": 9230
+    "totalDurationSec": 8907
 };
