@@ -764,7 +764,7 @@ const musicData = [
     },
     {
         "title": "Код",
-        "artist": "whyalive",
+        "artist": "whyalive & HOROSHIYAGNI",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
