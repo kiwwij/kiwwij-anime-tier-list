@@ -5618,7 +5618,7 @@ const musicData = [
     },
     {
         "title": "гладиатор/рыцарь",
-        "artist": "fallen777angel",
+        "artist": "fallen777angel - Topic",
         "playlist": "Dead inside",
         "duration": "1:45"
     },
@@ -5660,13 +5660,13 @@ const musicData = [
     },
     {
         "title": "Не забывай",
-        "artist": "sqaute",
+        "artist": "sqaute - Topic",
         "playlist": "Dead inside",
         "duration": "2:15"
     },
     {
-        "title": "1800 (feat. Ironmouse)",
-        "artist": "bbno$",
+        "title": "1800",
+        "artist": "​bbno$ - Topic",
         "playlist": "Dead inside",
         "duration": "3:28"
     },
@@ -5720,7 +5720,7 @@ const musicData = [
     },
     {
         "title": "Шиншиллы",
-        "artist": "ЛСП",
+        "artist": "ЛСП - Topic",
         "playlist": "Dead inside",
         "duration": "2:30"
     },
@@ -5798,7 +5798,7 @@ const musicData = [
     },
     {
         "title": "На стол",
-        "artist": "LonelyStash",
+        "artist": "LonelyStash - Topic",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
@@ -5894,7 +5894,7 @@ const musicData = [
     },
     {
         "title": "Сліди Насильства",
-        "artist": "Апатія",
+        "artist": "Апатія - Topic",
         "playlist": "Dead inside",
         "duration": "2:36"
     },
@@ -6002,7 +6002,7 @@ const musicData = [
     },
     {
         "title": "Болею тобой",
-        "artist": "Кишлак",
+        "artist": "Kishlak - Topic",
         "playlist": "Dead inside",
         "duration": "2:23"
     },
@@ -6014,7 +6014,7 @@ const musicData = [
     },
     {
         "title": "Листівки",
-        "artist": "Electrobirds",
+        "artist": "Electrobirds - Topic",
         "playlist": "Dead inside",
         "duration": "4:01"
     },
@@ -6134,7 +6134,7 @@ const musicData = [
     },
     {
         "title": "BANG BANG BANG - Chainsaw Man Song",
-        "artist": "Dark Tempo",
+        "artist": "Dark Tempo - Topic",
         "playlist": "Dead inside",
         "duration": "3:11"
     },
