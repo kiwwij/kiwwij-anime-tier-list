@@ -427,6 +427,18 @@ const musicData = [
         "duration": "2:56"
     },
     {
+        "title": "ivycraft — люблю москву но снится london",
+        "artist": "Russian SoundCloud",
+        "playlist": "Main",
+        "duration": "1:33"
+    },
+    {
+        "title": "норман грейсон - таролог",
+        "artist": "fiveclown",
+        "playlist": "Main",
+        "duration": "1:55"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -6187,6 +6199,18 @@ const musicData = [
         "duration": "1:56"
     },
     {
+        "title": "sleep",
+        "artist": "auratoshi",
+        "playlist": "Dead inside",
+        "duration": "1:45"
+    },
+    {
+        "title": "SIDEL ODIN HARDSTYLE",
+        "artist": "Riversmelt",
+        "playlist": "Dead inside",
+        "duration": "1:44"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6363,6 +6387,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 662,
-    "totalDurationSec": 172836,
+    "totalDurationSec": 173253,
     "lastUpdated": "Auto-generated"
 };
