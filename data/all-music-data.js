@@ -79,28 +79,10 @@ const musicData = [
         "duration": "1:24"
     },
     {
-        "title": "fallen777angel, dope17 – suka business class (Official Audio + lyrics) / eclipse media",
-        "artist": "eclipse media",
-        "playlist": "Main",
-        "duration": "1:47"
-    },
-    {
-        "title": "Ліпший день",
-        "artist": "СТРУКТУРА ЩАСТЯ",
-        "playlist": "Main",
-        "duration": "2:37"
-    },
-    {
         "title": "Естафета страждань",
         "artist": "Апатія",
         "playlist": "Main",
         "duration": "3:02"
-    },
-    {
-        "title": "с тобой",
-        "artist": "kouru",
-        "playlist": "Main",
-        "duration": "1:52"
     },
     {
         "title": "Не прокинусь",
@@ -199,22 +181,10 @@ const musicData = [
         "duration": "3:03"
     },
     {
-        "title": "Придурок",
-        "artist": "тянка",
-        "playlist": "Main",
-        "duration": "2:19"
-    },
-    {
         "title": "Так прикро",
         "artist": "Апатія",
         "playlist": "Main",
         "duration": "3:00"
-    },
-    {
-        "title": "Серед хаосу",
-        "artist": "BaWN",
-        "playlist": "Main",
-        "duration": "2:33"
     },
     {
         "title": "дырки в штанах",
@@ -239,18 +209,6 @@ const musicData = [
         "artist": "Апатія",
         "playlist": "Main",
         "duration": "2:45"
-    },
-    {
-        "title": "откусила ноги",
-        "artist": "шизоняшка",
-        "playlist": "Main",
-        "duration": "1:21"
-    },
-    {
-        "title": "грустинка",
-        "artist": "onokami",
-        "playlist": "Main",
-        "duration": "1:47"
     },
     {
         "title": "вклубе",
@@ -307,12 +265,6 @@ const musicData = [
         "duration": "2:12"
     },
     {
-        "title": "отстой",
-        "artist": "onokami",
-        "playlist": "Main",
-        "duration": "1:19"
-    },
-    {
         "title": "я не приду на выпускной",
         "artist": "ashleytears",
         "playlist": "Main",
@@ -365,18 +317,6 @@ const musicData = [
         "artist": "Апатія",
         "playlist": "Main",
         "duration": "3:45"
-    },
-    {
-        "title": "ангелочек (alternative version)",
-        "artist": "onokami",
-        "playlist": "Main",
-        "duration": "1:45"
-    },
-    {
-        "title": "sleep",
-        "artist": "auratoshi",
-        "playlist": "Main",
-        "duration": "1:45"
     },
     {
         "title": "Тело похудело",
@@ -6211,6 +6151,60 @@ const musicData = [
         "duration": "1:44"
     },
     {
+        "title": "ангелочек (alternative version)",
+        "artist": "onokami",
+        "playlist": "Dead inside",
+        "duration": "1:45"
+    },
+    {
+        "title": "отстой",
+        "artist": "onokami",
+        "playlist": "Dead inside",
+        "duration": "1:19"
+    },
+    {
+        "title": "грустинка",
+        "artist": "onokami",
+        "playlist": "Dead inside",
+        "duration": "1:47"
+    },
+    {
+        "title": "Придурок",
+        "artist": "тянка",
+        "playlist": "Dead inside",
+        "duration": "2:19"
+    },
+    {
+        "title": "с тобой",
+        "artist": "kouru",
+        "playlist": "Dead inside",
+        "duration": "1:52"
+    },
+    {
+        "title": "Ліпший день",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "2:38"
+    },
+    {
+        "title": "suk@ business class",
+        "artist": "fallen777angel",
+        "playlist": "Dead inside",
+        "duration": "1:40"
+    },
+    {
+        "title": "Серед хаосу",
+        "artist": "BaWN",
+        "playlist": "Dead inside",
+        "duration": "2:33"
+    },
+    {
+        "title": "откусила ноги",
+        "artist": "шизоняшка",
+        "playlist": "Dead inside",
+        "duration": "1:21"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6387,6 +6381,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 662,
-    "totalDurationSec": 173253,
+    "totalDurationSec": 173142,
     "lastUpdated": "Auto-generated"
 };
