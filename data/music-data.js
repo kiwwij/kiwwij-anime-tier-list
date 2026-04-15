@@ -354,9 +354,19 @@ const musicData = [
         "title": "Лунный Лик",
         "artist": "GONE.Fludd",
         "playlist": "Main"
+    },
+    {
+        "title": "ivycraft — люблю москву но снится london",
+        "artist": "Russian SoundCloud",
+        "playlist": "Main"
+    },
+    {
+        "title": "норман грейсон - таролог",
+        "artist": "fiveclown",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 18,
-    "totalDurationSec": 8791
+    "totalDurationSec": 8999
 };
