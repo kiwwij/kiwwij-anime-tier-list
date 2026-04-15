@@ -1831,7 +1831,7 @@ const musicData = [
         "duration": "3:50"
     },
     {
-        "title": "2:00 (speed up)",
+        "title": "2:00 (Speed Up)",
         "artist": "enveel",
         "playlist": "Dead inside",
         "duration": "1:41"
@@ -2666,7 +2666,7 @@ const musicData = [
     },
     {
         "title": "Котик",
-        "artist": "enveel & onokami",
+        "artist": "enveel",
         "playlist": "Dead inside",
         "duration": "2:13"
     },
@@ -2858,7 +2858,7 @@ const musicData = [
     },
     {
         "title": "Цветы",
-        "artist": "Lida & MORGENSHTERN",
+        "artist": "Lida",
         "playlist": "Dead inside",
         "duration": "2:57"
     },
