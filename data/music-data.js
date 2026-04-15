@@ -66,23 +66,8 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "fallen777angel, dope17 – suka business class (Official Audio + lyrics) / eclipse media",
-        "artist": "eclipse media",
-        "playlist": "Main"
-    },
-    {
-        "title": "Ліпший день",
-        "artist": "СТРУКТУРА ЩАСТЯ",
-        "playlist": "Main"
-    },
-    {
         "title": "Естафета страждань",
         "artist": "Апатія",
-        "playlist": "Main"
-    },
-    {
-        "title": "с тобой",
-        "artist": "kouru",
         "playlist": "Main"
     },
     {
@@ -166,18 +151,8 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Придурок",
-        "artist": "тянка",
-        "playlist": "Main"
-    },
-    {
         "title": "Так прикро",
         "artist": "Апатія",
-        "playlist": "Main"
-    },
-    {
-        "title": "Серед хаосу",
-        "artist": "BaWN",
         "playlist": "Main"
     },
     {
@@ -198,16 +173,6 @@ const musicData = [
     {
         "title": "В реальності новій",
         "artist": "Апатія",
-        "playlist": "Main"
-    },
-    {
-        "title": "откусила ноги",
-        "artist": "шизоняшка",
-        "playlist": "Main"
-    },
-    {
-        "title": "грустинка",
-        "artist": "onokami",
         "playlist": "Main"
     },
     {
@@ -256,11 +221,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "отстой",
-        "artist": "onokami",
-        "playlist": "Main"
-    },
-    {
         "title": "я не приду на выпускной",
         "artist": "ashleytears",
         "playlist": "Main"
@@ -303,16 +263,6 @@ const musicData = [
     {
         "title": "Стань моїм вбивцею",
         "artist": "Апатія",
-        "playlist": "Main"
-    },
-    {
-        "title": "ангелочек (alternative version)",
-        "artist": "onokami",
-        "playlist": "Main"
-    },
-    {
-        "title": "sleep",
-        "artist": "auratoshi",
         "playlist": "Main"
     },
     {
@@ -368,5 +318,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 18,
-    "totalDurationSec": 8999
+    "totalDurationSec": 7854
 };
