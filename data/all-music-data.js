@@ -5617,7 +5617,7 @@ const musicData = [
         "duration": "2:15"
     },
     {
-        "title": "1800 (feat. Ironmouse)",
+        "title": "1-800",
         "artist": "bbno$",
         "playlist": "Dead inside",
         "duration": "3:28"
