@@ -4531,12 +4531,6 @@ const musicData = [
         "duration": "2:15"
     },
     {
-        "title": "Undertale Song — ЖИРНАЯ ТАМАРА (Гоблинка Гусей)",
-        "artist": "Empire of Geese",
-        "playlist": "Dead inside",
-        "duration": "2:36"
-    },
-    {
         "title": "Каремат - Настя Ш...",
         "artist": "Каремат",
         "playlist": "Dead inside",
@@ -6381,6 +6375,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 672,
-    "totalDurationSec": 173142,
+    "totalDurationSec": 172986,
     "lastUpdated": "Auto-generated"
 };
