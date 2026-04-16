@@ -2035,8 +2035,8 @@ const musicData = [
         "duration": "3:44"
     },
     {
-        "title": "Calling (Spider-Man: Across the Spider-Verse) (feat. A Boogie Wit da Hoodie)",
-        "artist": "Metro Boomin",
+        "title": "Calling (Spider-Man: Across the Spider-Verse)",
+        "artist": "MetroBoominVEVO",
         "playlist": "Dead inside",
         "duration": "3:40"
     },
