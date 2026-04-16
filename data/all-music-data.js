@@ -3758,7 +3758,7 @@ const musicData = [
     },
     {
         "title": "Киндер Буэно",
-        "artist": "Валентин Дядька",
+        "artist": "Slava KPSS - Topic",
         "playlist": "Dead inside",
         "duration": "3:12"
     },
@@ -3842,7 +3842,7 @@ const musicData = [
     },
     {
         "title": "Eban'ko — Запой",
-        "artist": "Eban'ko",
+        "artist": "Eban'ko [Ебанько]",
         "playlist": "Dead inside",
         "duration": "2:27"
     },
@@ -3973,8 +3973,8 @@ const musicData = [
         "duration": "3:24"
     },
     {
-        "title": "можно",
-        "artist": "Госпожа Эвелин",
+        "title": "ГОСПОЖА ЭВЕЛИН - МОЖНО (ПРЕМЬЕРА КЛИПА 2024)",
+        "artist": "Госпожа Эвелин ",
         "playlist": "Dead inside",
         "duration": "2:16"
     },
@@ -4027,7 +4027,7 @@ const musicData = [
         "duration": "3:37"
     },
     {
-        "title": "Courtesy Call",
+        "title": "Thousand Foot Krutch: Courtesy Call (Official Audio)",
         "artist": "Thousand Foot Krutch",
         "playlist": "Dead inside",
         "duration": "3:57"
@@ -4093,8 +4093,8 @@ const musicData = [
         "duration": "2:30"
     },
     {
-        "title": "Lucid Dreams",
-        "artist": "Juice WRLD",
+        "title": "Juice WRLD - Lucid Dreams (Official Music Video)",
+        "artist": "Lyrical Lemonade",
         "playlist": "Dead inside",
         "duration": "3:51"
     },
@@ -4201,8 +4201,8 @@ const musicData = [
         "duration": "2:03"
     },
     {
-        "title": "Мама удалила роблокс (feat. Gulyashik & Qurorr)",
-        "artist": "Lemaier",
+        "title": "Мама удалила роблокс",
+        "artist": "Lemaier - Topic",
         "playlist": "Dead inside",
         "duration": "3:04"
     },
@@ -4243,8 +4243,8 @@ const musicData = [
         "duration": "4:27"
     },
     {
-        "title": "Кошка (feat. Ольга Артуровна)",
-        "artist": "Rychagy Mashin",
+        "title": "Кошка (Что ей снится, когда слезы на ее ресницах) - Рычаги Машин - Koshka / Cat",
+        "artist": "Рычаги Машин",
         "playlist": "Dead inside",
         "duration": "3:52"
     },
@@ -4286,7 +4286,7 @@ const musicData = [
     },
     {
         "title": "Фото со звездой",
-        "artist": "Lida",
+        "artist": "Lida - Topic",
         "playlist": "Dead inside",
         "duration": "2:03"
     },
