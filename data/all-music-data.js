@@ -3823,7 +3823,7 @@ const musicData = [
         "duration": "2:30"
     },
     {
-        "title": "DIE FOR YOU",
+        "title": "asteria - DIE FOR YOU (Official Visualizer)",
         "artist": "asteria",
         "playlist": "Dead inside",
         "duration": "2:03"
@@ -3919,8 +3919,8 @@ const musicData = [
         "duration": "2:32"
     },
     {
-        "title": "キミと××××したいだけ - Just Wanna xxxx With You",
-        "artist": "Phantom Siita",
+        "title": "Phantom Siita \"Just Wanna xxxx With You\" (OFFICIAL MUSIC VIDEO)",
+        "artist": "ファントムシータ",
         "playlist": "Dead inside",
         "duration": "3:47"
     },
@@ -3937,8 +3937,8 @@ const musicData = [
         "duration": "1:20"
     },
     {
-        "title": "Barely Know You",
-        "artist": "Jbng",
+        "title": "JBNG Barely Know You Official Music Video",
+        "artist": "JBNG",
         "playlist": "Dead inside",
         "duration": "3:07"
     },
@@ -4016,7 +4016,7 @@ const musicData = [
     },
     {
         "title": "Eban'ko — Рома",
-        "artist": "Eban'ko",
+        "artist": "Eban'ko [Ебанько]",
         "playlist": "Dead inside",
         "duration": "3:37"
     },
