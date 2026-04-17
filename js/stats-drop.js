@@ -12,7 +12,7 @@ const genreTranslations = {
     "Josei": "Дзёсэй", "Harem": "Гарем", "Ecchi": "Этти", "Martial Arts": "Боевые искусства", 
     "Game": "Игры", "Vampire": "Вампиры", "Magic": "Магия", "Friendship": "Дружба", 
     "Military": "Военное", "Political": "Политика", "Super Power": "Супер сила", 
-    "Demons": "Демоны", "Historical": "Историческое", "Dementia": "Безумие"
+    "Demons": "Демоны", "Historical": "Историческое", "Samurai": "Самураи", "Space": "Космос", "Police": "Полиция", "Dementia": "Безумие", "Kids": "Дети", "Gore": "Гуро", "Parody": "Пародия", "Hentai": "Хентай", "Family": "Семья"
 };
 
 const elements = {
@@ -21,11 +21,14 @@ const elements = {
     progressBar: document.getElementById('progressBar'),
     loadingPercent: document.getElementById('loadingPercent'),
     genresCtx: document.getElementById('genresChart')?.getContext('2d'),
-    themeToggle: document.getElementById('themeToggle')
+    themeToggle: document.getElementById('themeToggle'),
+    toggleGenresBtn: document.getElementById('toggleGenresBtn'),
+    genresTitle: document.getElementById('genresTitle')
 };
 
+let showAllGenres = false;
 let genreCounts = {};
-let episodeDrops = { "0 (Скип)": 0, "1-я серия": 0, "2-я серия": 0, "3-я серия": 0, "4-я серия": 0, "5+ серий": 0 };
+let episodeDrops = { "1-я серия": 0, "2-я серия": 0, "3-я серия": 0, "4-я серия": 0, "5+ серий": 0, /* "Скип": 0 */};
 let totalEpsWasted = 0;
 
 let genresChart = null;
@@ -36,6 +39,19 @@ document.addEventListener('DOMContentLoaded', () => {
     transformDOMForDrops();
     initTheme();
     
+    if (elements.toggleGenresBtn) {
+        elements.toggleGenresBtn.addEventListener('click', () => {
+            showAllGenres = !showAllGenres; 
+            
+            elements.toggleGenresBtn.textContent = showAllGenres ? "Показать Топ-15" : "Показать всё";
+            if (elements.genresTitle) {
+                elements.genresTitle.textContent = showAllGenres ? "Все жанры" : "Топ-15 Жанров";
+            }
+            
+            updateGenresChart();
+        });
+    }
+
     setTimeout(() => {
         if (typeof droppedData !== 'undefined') startAnalysis();
     }, 100);
@@ -47,7 +63,7 @@ function transformDOMForDrops() {
         timelinePanel.classList.remove('timeline-panel');
         timelinePanel.innerHTML = `
             <h2 class="panel-title">Брошенные тайтлы</h2>
-            <p class="panel-subtitle">На какой серии происходит дроп</p>
+            <p class="panel-subtitle">На какой серии чаще всего дропаю</p>
             <div class="chart-wrapper" style="height: 350px;">
                 <canvas id="episodesChart"></canvas>
             </div>
@@ -132,7 +148,7 @@ function analyzeDropReasons() {
             const ep = parseInt(match[1], 10);
             totalEpsWasted += ep;
             
-            if (ep === 0) episodeDrops["0 (Скип)"]++;
+            if (ep === 0) episodeDrops["Скип"]++;
             else if (ep === 1) episodeDrops["1-я серия"]++;
             else if (ep === 2) episodeDrops["2-я серия"]++;
             else if (ep === 3) episodeDrops["3-я серия"]++;
@@ -144,7 +160,7 @@ function analyzeDropReasons() {
     const wastedHours = Math.round((totalEpsWasted * 24) / 60);
     const wastedEl = document.getElementById('wastedStats');
     if (wastedEl) {
-        wastedEl.innerHTML = `Посмотрено перед дропом: <b>${totalEpsWasted} серий</b> <br> <span style="font-size: 0.8rem;">(Это примерно ${wastedHours} часов потраченного времени впустую 💀)</span>`;
+        wastedEl.innerHTML = `Посмотрено перед дропом: <b>${totalEpsWasted} серий</b> <br> <span style="font-size: 0.8rem;">(~${wastedHours} часов потраченного времени впустую 💀)</span>`;
     }
 }
 
@@ -177,6 +193,15 @@ function updateUI(current, total) {
     if(elements.loadingPercent) elements.loadingPercent.textContent = percent === 100 ? "Готово!" : `${percent}%`;
 
     updateGenresChart();
+}
+
+function generateColors(count) {
+    const colors = [];
+    for (let i = 0; i < count; i++) {
+        const hue = (i * 137.5) % 360; 
+        colors.push(`hsl(${hue}, 70%, 55%)`);
+    }
+    return colors;
 }
 
 function initCharts() {
@@ -227,9 +252,16 @@ function initCharts() {
 
 function updateGenresChart() {
     if (!genresChart) return;
-    const sorted = Object.entries(genreCounts).sort((a, b) => b[1] - a[1]).slice(0, 15);
+    
+    let sorted = Object.entries(genreCounts).sort((a, b) => b[1] - a[1]);
+    
+    if (!showAllGenres) {
+        sorted = sorted.slice(0, 15);
+    }
+    
     genresChart.data.labels = sorted.map(i => i[0]);
     genresChart.data.datasets[0].data = sorted.map(i => i[1]);
+    genresChart.data.datasets[0].backgroundColor = generateColors(sorted.length);
     genresChart.update();
 }
 

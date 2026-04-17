@@ -12,7 +12,7 @@ const genreTranslations = {
     "Josei": "Дзёсэй", "Harem": "Гарем", "Ecchi": "Этти", "Martial Arts": "Боевые искусства", 
     "Game": "Игры", "Vampire": "Вампиры", "Magic": "Магия", "Friendship": "Дружба", 
     "Military": "Военное", "Political": "Политика", "Super Power": "Супер сила", 
-    "Demons": "Демоны", "Historical": "Историческое"
+    "Demons": "Демоны", "Historical": "Историческое", "Samurai": "Самураи", "Space": "Космос", "Police": "Полиция", "Dementia": "Безумие", "Kids": "Дети", "Gore": "Гуро", "Parody": "Пародия", "Hentai": "Хентай", "Family": "Семья"
 };
 
 const elements = {
@@ -26,9 +26,12 @@ const elements = {
     modalTitle: document.getElementById('modalYearTitle'),
     modalList: document.getElementById('yearAnimeList'),
     closeBtn: document.getElementById('closeYearModal'),
-    themeToggle: document.getElementById('themeToggle')
+    themeToggle: document.getElementById('themeToggle'),
+    toggleGenresBtn: document.getElementById('toggleGenresBtn'),
+    genresTitle: document.getElementById('genresTitle')
 };
 
+let showAllGenres = false;
 let uniqueTitles = new Set(); 
 let genreCounts = {};
 let animeByYear = {}; 
@@ -38,6 +41,17 @@ let apiCache = JSON.parse(localStorage.getItem(CACHE_KEY) || '{}');
 document.addEventListener('DOMContentLoaded', () => {
     initTheme();
     setupModalEvents();
+    
+    if (elements.toggleGenresBtn) {
+        elements.toggleGenresBtn.addEventListener('click', () => {
+            showAllGenres = !showAllGenres;
+            
+            elements.toggleGenresBtn.textContent = showAllGenres ? "Показать Топ-15" : "Показать всё";
+            elements.genresTitle.textContent = showAllGenres ? "Все жанры" : "Топ-15 Жанров";
+        
+            updateChart();
+        });
+    }
     
     setTimeout(() => {
         if (typeof tierListData !== 'undefined') startAnalysis();
@@ -209,11 +223,28 @@ function initChart() {
     });
 }
 
+function generateColors(count) {
+    const colors = [];
+    for (let i = 0; i < count; i++) {
+        const hue = (i * 137.5) % 360; 
+        colors.push(`hsl(${hue}, 70%, 55%)`);
+    }
+    return colors;
+}
+
 function updateChart() {
     if (!myChart) return;
-    const sorted = Object.entries(genreCounts).sort((a, b) => b[1] - a[1]).slice(0, 15);
+    
+    let sorted = Object.entries(genreCounts).sort((a, b) => b[1] - a[1]); 
+    
+    if (!showAllGenres) {
+        sorted = sorted.slice(0, 15);
+    }
+    
     myChart.data.labels = sorted.map(i => i[0]);
     myChart.data.datasets[0].data = sorted.map(i => i[1]);
+    myChart.data.datasets[0].backgroundColor = generateColors(sorted.length);
+    
     myChart.update();
 }
 

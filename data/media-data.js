@@ -53,7 +53,7 @@ const mediaData = [
     { "title": "Clickbait", "ruTitle": "Кликбейт", "year": "2021", "myRating": 7, "imdbRating": 7.2, "duration": "TV Series", "type": "tv", "imdbLink": "https://www.imdb.com/title/tt10888878/?ref_=nv_sr_srsg_0_tt_5_nm_0_in_0_q_%D0%9A%D0%BB%D0%B8%D0%BA%D0%B1%D0%B5%D0%B9%D1%82" },
     { "title": "Invincible", "ruTitle": "Неуязвимый", "year": "2021", "myRating": 7, "imdbRating": 8.7, "duration": "TV Series", "type": "tv", "imdbLink": "https://www.imdb.com/title/tt6741278/" },
     { "title": "Five Nights at Freddy's", "ruTitle": "5 нoчeй c Фpeдди 2", "year": "2025", "myRating": 5, "imdbRating": 5.1, "imdbLink": "https://www.imdb.com/title/tt30274401/" },
-    { "title": "The Legend of Vox Machina", "ruTitle": "Легенда о Вокс Макине", "year": "2022", "myRating": 7, "imdbRating": 8.4, "imdbLink": "https://www.imdb.com/title/tt11247158/" },
+    { "title": "The Legend of Vox Machina", "ruTitle": "Легенда о Вокс Макине", "year": "2022", "myRating": 8, "imdbRating": 8.4, "imdbLink": "https://www.imdb.com/title/tt11247158/" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },

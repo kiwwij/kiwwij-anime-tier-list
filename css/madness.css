@@ -15,7 +15,6 @@ body {
     -webkit-user-select: none;
 }
 
-/* Виньетка */
 body::after {
     content: "";
     position: fixed;

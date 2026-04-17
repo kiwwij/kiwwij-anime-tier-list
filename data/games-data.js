@@ -34,6 +34,10 @@ if (typeof tierListData !== 'undefined') {
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/489830/",
                 },
                 {
+                    title: "Elden Ring",
+                    review: "Не было такой игры, по которой я посмотрел невероятно много видосов перед тем как купить и самому поиграть + то кол-во времени, которое я потратил на неё, прошло с диким кайфом. Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1245620/",
+                },
+                {
                     title: "Dota 2",
                     review: "Это не игра, а кусок кала, в который я наиграл уже 3к+ часов. Увы не могу просто взять и перестать играть.",
                 },
@@ -54,10 +58,6 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "The Last of Us Part I",
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1888930/",
-                },
-                {
-                    title: "Elden Ring",
-                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1245620/",
                 },
                 {
                     title: "Stellar Blade",
@@ -104,12 +104,16 @@ if (typeof tierListData !== 'undefined') {
                     review: "Играл с другом, даже не с одним, было весело.",
                 },
                 {
-                    title: "Sekiro: shadows die twice",
-                    review: "Ревью - https://steamcommunity.com/profiles/76561199512523461/recommended/814380/",
-                },
-                {
                     title: "Elden Ring NIGHTREIGN",
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/2622380/",
+                },
+                {
+                    title: "Steelrisng",
+                    review: "Ревью - ",
+                },
+                {
+                    title: "Sekiro: shadows die twice",
+                    review: "Ревью - https://steamcommunity.com/profiles/76561199512523461/recommended/814380/",
                 },
                 {
                     title: "Valorant",
@@ -142,10 +146,6 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "Genshin Impact",
                     review: "Стой, стой, стой. Дай всё объясню. В 1ые года я дико кайфовал от этого кала, играл по 12 часов каждый день. Сейчас я бы в неё не смог играть, но вот раньше...",
-                },
-                {
-                    title: "Steelrisng",
-                    review: "Ревью - ",
                 },
             ],
             'B': [
@@ -357,10 +357,6 @@ if (typeof tierListData !== 'undefined') {
                     review: "Управление всё портит. Так то игра атмосферная.",
                 },
                 {
-                    title: "Resident Evil 3",
-                    review: "Небольшое ревью - ",
-                },
-                {
                     title: "Aragami 2",
                     review: "Хуже чем 1ая часть.",
                 },
@@ -477,6 +473,10 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "Hogwarts Legacy",
                     review: "Пытался пройти несколько раз, но не моё.",
+                },
+                {
+                    title: "Resident Evil 3",
+                    review: "Я уже устал от резиков, так что дропнул эту часть, но она не самая плохая.",
                 },
                 {
                     title: "Black Myth: Wukong",

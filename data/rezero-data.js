@@ -256,6 +256,11 @@ if (typeof tierListData !== 'undefined') {
                 review: "", 
                 img: "rezero/43.webp"
             },
+            { 
+                title: "Re:Zero Ранобэ Том 44", 
+                review: "", 
+                img: "rezero/44.webp"
+            },
             ]
     };
 

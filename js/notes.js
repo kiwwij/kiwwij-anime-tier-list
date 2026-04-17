@@ -1,13 +1,11 @@
-// 1. Сначала объявляем функцию
 function linkify(text) {
-    if (!text) return ""; // Защита от пустых записок (как твоя #7)
+    if (!text) return "";
     const urlRegex = /(https?:\/\/[^\s]+)/g;
     return text.replace(urlRegex, function(url) {
         return `<a href="${url}" target="_blank">${url}</a>`;
     });
 }
 
-// 2. А уже потом идет твой код
 document.addEventListener("DOMContentLoaded", () => {
 
     const container = document.getElementById("notesContainer");

@@ -1,9 +1,8 @@
 const container = document.getElementById('mediaContainer');
 const searchInput = document.getElementById('searchInput');
 let currentView = 'grid';
-let easterEggTimer = null; // Переменная для хранения таймера
+let easterEggTimer = null;
 
-// === ЛОГИКА ЗАГРУЗКИ ПОСТЕРОВ ===
 async function loadPoster(item, index) {
     const cacheKey = `poster_v2_${item.title}`;
     const cached = localStorage.getItem(cacheKey);
@@ -61,7 +60,6 @@ function updateImage(index, url) {
     }
 }
 
-// === ОСНОВНАЯ ФУНКЦИЯ ОТРИСОВКИ ===
 function render() {
     const sortMode = document.getElementById('sortSelect').value;
     const searchQuery = searchInput.value.toLowerCase().trim();
@@ -70,19 +68,16 @@ function render() {
     const catEgg = document.getElementById('catEgg');
     const eggsContainer = document.getElementById('easter-eggs');
 
-    // Сброс видимости перед проверкой
     if (dogEgg) dogEgg.style.display = 'none';
     if (catEgg) catEgg.style.display = 'none';
     if (eggsContainer) eggsContainer.style.display = 'none';
     container.style.display = currentView === 'grid' ? 'grid' : 'block';
 
-    // Очищаем старый таймер, если пользователь ввел что-то новое
     if (easterEggTimer) {
         clearTimeout(easterEggTimer);
         easterEggTimer = null;
     }
 
-    // ПРОВЕРКА НА ПАСХАЛКИ
     if (searchQuery === 'dog' || searchQuery === 'cat') {
         container.style.display = 'none';
         if (eggsContainer) {
@@ -90,10 +85,9 @@ function render() {
             if (searchQuery === 'dog' && dogEgg) dogEgg.style.display = 'block';
             if (searchQuery === 'cat' && catEgg) catEgg.style.display = 'block';
 
-            // Установка таймера на 5 секунд для удаления текста
             easterEggTimer = setTimeout(() => {
-                searchInput.value = ''; // Очищаем поиск
-                render(); // Перерисовываем (это вернет фильмы)
+                searchInput.value = '';
+                render();
             }, 5000);
         }
         return; 

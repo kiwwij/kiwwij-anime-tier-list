@@ -1,4 +1,3 @@
-/* Основной контейнер */
 .showcase-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -20,7 +19,6 @@
 .intro-text p { margin-top: 0; }
 .intro-text p:last-child { margin-bottom: 0; }
 
-/* Стили для групп (категорий) */
 .anime-group {
     margin-bottom: 4rem;
 }
@@ -40,20 +38,18 @@
     color: var(--accent);
 }
 
-/* Компактная сетка */
 .compact-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     gap: 1.5rem;
 }
 
-/* Сама карточка */
 .anime-item {
     display: flex;
     background: var(--bg-card);
     border-radius: 16px;
     border: 1px solid var(--border-color);
-    height: 240px; /* Фиксированная высота для компактности */
+    height: 240px;
     overflow: hidden;
     transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
@@ -83,7 +79,7 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    overflow: hidden; /* Важно для работы скролла ниже */
+    overflow: hidden;
 }
 
 .anime-title {
@@ -94,18 +90,16 @@
     line-height: 1.2;
 }
 
-/* Текст отзыва со скроллом */
 .anime-review {
     font-size: 0.95rem;
     line-height: 1.6;
     color: var(--text-muted);
     margin: 0;
-    overflow-y: auto; /* Включаем прокрутку */
+    overflow-y: auto;
     padding-right: 10px;
     flex-grow: 1;
 }
 
-/* Красивый кастомный скроллбар для текста в карточках */
 .anime-review::-webkit-scrollbar {
     width: 6px;
 }
@@ -123,18 +117,17 @@ body.light-theme .anime-review::-webkit-scrollbar-thumb {
     background: var(--accent);
 }
 
-/* Адаптивность для мобильных устройств */
 @media (max-width: 768px) {
     .compact-grid {
-        grid-template-columns: 1fr; /* 1 колонка на телефонах */
+        grid-template-columns: 1fr;
     }
     
     .anime-item {
-        height: 220px; /* Чуть меньше высота на телефоне */
+        height: 220px;
     }
     
     .anime-poster {
-        width: 130px; /* Узкий постер, чтобы влезло больше текста */
+        width: 130px;
     }
     
     .anime-content {
