@@ -1543,7 +1543,7 @@ const musicData = [
         "duration": "3:06"
     },
     {
-        "title": "Диалоги тет-а-тет",
+        "title": "Диалоги тет-а-тет (Karmv & 4ETVERGOV Remix)",
         "artist": "ALEKS ATAMAN",
         "playlist": "Dead inside",
         "duration": "3:37"
@@ -3823,7 +3823,7 @@ const musicData = [
         "duration": "2:30"
     },
     {
-        "title": "asteria - DIE FOR YOU (Official Visualizer)",
+        "title": "DIE FOR YOU",
         "artist": "asteria",
         "playlist": "Dead inside",
         "duration": "2:03"
@@ -3919,8 +3919,8 @@ const musicData = [
         "duration": "2:32"
     },
     {
-        "title": "Phantom Siita \"Just Wanna xxxx With You\" (OFFICIAL MUSIC VIDEO)",
-        "artist": "ファントムシータ",
+        "title": "キミと××××したいだけ - Just Wanna xxxx With You",
+        "artist": "Phantom Siita",
         "playlist": "Dead inside",
         "duration": "3:47"
     },
@@ -3937,8 +3937,8 @@ const musicData = [
         "duration": "1:20"
     },
     {
-        "title": "JBNG Barely Know You Official Music Video",
-        "artist": "JBNG",
+        "title": "Barely Know You",
+        "artist": "Jbng",
         "playlist": "Dead inside",
         "duration": "3:07"
     },
@@ -4016,7 +4016,7 @@ const musicData = [
     },
     {
         "title": "Eban'ko — Рома",
-        "artist": "Eban'ko [Ебанько]",
+        "artist": "Eban'ko",
         "playlist": "Dead inside",
         "duration": "3:37"
     },
