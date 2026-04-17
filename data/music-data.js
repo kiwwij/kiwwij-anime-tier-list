@@ -236,11 +236,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "loser club",
-        "artist": "wifiskeleton",
-        "playlist": "Main"
-    },
-    {
         "title": "пароли",
         "artist": "KERASINN",
         "playlist": "Main"
@@ -318,5 +313,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 18,
-    "totalDurationSec": 7854
+    "totalDurationSec": 7772
 };
