@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне | kiwwij</title>
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/c6/13/87/c61387bddb1dcf7f3445f687ea56f67e.gif">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/about-me.css">
+</head>
+<body class="tierlist-page">
+
+    <header>
+        <div class="header-content">
+            <div class="top-row">
+                <h1 class="logo-text">Обо мне</h1>
+                <label class="switch">
+                    <input type="checkbox" id="themeToggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <nav class="nav-links">
+                <a href="notes.html" class="btn-link"><i class='bx bx-notepad'></i> Заметки</a>
+                <a href="../index.html" class="btn-link"><i class='bx bx-home-alt'></i> На главную</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="stats-container">
+        <div class="left-column">
+    <div class="glass-panel">
+        <h2 class="panel-title-accent purple-accent">
+            <span>Twitch Recap</span> <i class='bx bxl-twitch'></i>
+        </h2>
+        <div class="twitch-scroll-container">
+            <div class="gallery-link" onclick="openLightbox(2, 'twitch')">
+                <img src="../img/about me/twitch25.png" alt="2025">
+            </div>
+            <div class="gallery-link" onclick="openLightbox(1, 'twitch')">
+                <img src="../img/about me/twitch24.png" alt="2024">
+            </div>
+            <div class="gallery-link" onclick="openLightbox(0, 'twitch')">
+                <img src="../img/about me/twitch23.png" alt="2023">
+            </div>
+        </div>
+    </div>
+
+    <div class="glass-panel">
+        <h2 class="panel-title-accent blue-accent">
+            <span>Steam Recap</span> <i class='bx bxl-steam'></i>
+        </h2>
+        <div class="steam-vertical-scroll">
+            <div class="recap-card">
+                <div class="gallery-link" onclick="openLightbox(3, 'steam')">
+                    <img src="../img/about me/steam25.1.png" alt="2025">
+                </div>
+                <a href="https://store.steampowered.com/replay/76561199023917285/2025" target="_blank" class="steam-link-btn">
+                    Year 2025 <i class='bx bx-link-external'></i>
+                </a>
+            </div>
+            <div class="recap-card">
+                <div class="gallery-link" onclick="openLightbox(2, 'steam')">
+                    <img src="../img/about me/steam24.1.png" alt="2024">
+                </div>
+                <a href="https://store.steampowered.com/replay/76561199023917285/2024" target="_blank" class="steam-link-btn">
+                    Year 2024 <i class='bx bx-link-external'></i>
+                </a>
+            </div>
+            <div class="recap-card">
+                <div class="gallery-link" onclick="openLightbox(1, 'steam')">
+                    <img src="../img/about me/steam23.1.png" alt="2023">
+                </div>
+                <a href="https://store.steampowered.com/replay/76561199023917285/2023" target="_blank" class="steam-link-btn">
+                    Year 2023 <i class='bx bx-link-external'></i>
+                </a>
+            </div>
+            <div class="recap-card">
+                <div class="gallery-link" onclick="openLightbox(0, 'steam')">
+                    <img src="../img/about me/steam22.1.png" alt="2022">
+                </div>
+                <a href="https://store.steampowered.com/replay/76561199023917285/2022" target="_blank" class="steam-link-btn">
+                    Year 2022 <i class='bx bx-link-external'></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+            <div class="glass-panel">
+                <div class="panel-header-row">
+                    <h2 class="panel-title-accent discord-accent">
+                        <span>Discord Recap</span> <i class='bx bxl-discord-alt'></i>
+                    </h2>
+                    <div class="year-tabs">
+                        <button class="tab-btn active" onclick="switchDiscordYear('2025', this)">2025</button>
+                        <button class="tab-btn" onclick="switchDiscordYear('2026', this)">2026</button>
+                    </div>
+                </div>
+
+                <div id="discord-2025" class="discord-scroll-container active">
+                    <div class="gallery-link" onclick="openLightbox(0, 'discord2025')">
+                        <img src="../img/about me/discrod 2025/1.png" alt="Discord 1">
+                    </div>
+                    
+                    <div class="gallery-link" onclick="openLightbox(1, 'discord2025')">
+                        <img src="../img/about me/discrod 2025/2.png" alt="Discord 2">
+                    </div>
+                    
+                    <div class="gallery-link" onclick="openLightbox(2, 'discord2025')">
+                        <img src="../img/about me/discrod 2025/3.png" alt="Discord 3">
+                    </div>
+
+                    <div class="gallery-link" onclick="openLightbox(3, 'discord2025')">
+                        <img src="../img/about me/discrod 2025/4.png" alt="Discord 4">
+                    </div>
+                    
+                    <div class="gallery-link" onclick="openLightbox(4, 'discord2025')">
+                        <img src="../img/about me/discrod 2025/5.png" alt="Discord 5">
+                    </div>
+
+                    <div class="gallery-link" onclick="openLightbox(5, 'discord2025')">
+                        <img src="../img/about me/discrod 2025/6.png" alt="Discord 6">
+                    </div>
+
+                    <div class="gallery-link" onclick="openLightbox(6, 'discord2025')">
+                        <img src="../img/about me/discrod 2025/7.png" alt="Discord 7">
+                    </div>
+
+                    <div class="gallery-link" onclick="openLightbox(7, 'discord2025')">
+                        <img src="../img/about me/discrod 2025/8.png" alt="Discord 8">
+                    </div>
+
+                    <div class="gallery-link" onclick="openLightbox(8, 'discord2025')">
+                        <img src="../img/about me/discrod 2025/9.png" alt="Discord 9">
+                    </div>
+                </div>
+
+                <div id="discord-2026" class="discord-grid" style="display: none;">
+                    <div class="gallery-link" onclick="openLightbox(0, 'discord2026')">
+                        <img src="../img/about me/discrod 2026/1.png" alt="Discord 1">
+                    </div>
+
+                    <div class="gallery-link" onclick="openLightbox(1, 'discord2026')">
+                        <img src="../img/about me/discrod 2026/2.png" alt="Discord 2">
+                    </div>
+
+                    <div class="gallery-link" onclick="openLightbox(2, 'discord2026')">
+                        <img src="../img/about me/discrod 2026/3.png" alt="Discord 3">
+                    </div>
+
+                    <div class="gallery-link" onclick="openLightbox(3, 'discord2026')">
+                        <img src="../img/about me/discrod 2026/4.png" alt="Discord 4">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="glass-panel profile-main-header">
+                <div class="avatar-link">
+                    <img
+                        id="aboutAvatar"
+                        class="profile-avatar-large"
+                        alt="Steam Avatar">
+                </div>
+                
+                <h2 class="panel-title-accent purple-accent no-line centered">
+                    <span>Инфа про меня</span> <i class='bx bx-user-circle'></i>
+                </h2>
+
+                <p class="info-label-group">Личные параметры:</p>
+                <ul class="setup-list">
+                    <li><span class="setup-label">Возраст</span> <span class="setup-value" id="infoAgeCard"></span></li>
+                    <li><span class="setup-label">Рост</span> <span class="setup-value">~180 см</span></li>
+                    <li><span class="setup-label">Вес</span> <span class="setup-value">~60 кг</span></li>
+                </ul>
+
+                <p class="info-label-group">Базовая инфа:</p>
+                <ul class="setup-list">
+                    <li><span class="setup-label">Страна</span> <span class="setup-value">Украина 🇺🇦</span></li>
+                    <li><span class="setup-label">Часовой пояс</span> <span class="setup-value">GMT+2</span></li>
+                    <li><span class="setup-label">Знак зодиака</span> <span class="setup-value">Стрелец ♐</span></li>
+                    <li><span class="setup-label">Любимое время года</span> <span class="setup-value">Весна 🌸</span></li>
+                </ul>
+            </div>
+
+            <div class="glass-panel">
+                <h2 class="panel-title-accent no-line centered">
+                    <span>Мой Сетап</span> <i class='bx bx-devices'></i>
+                </h2>
+                <p class="info-label-group">Ноутбук: MSI Katana GF66 11UE</p>
+                <ul class="setup-list">
+                    <li><span class="setup-label">CPU</span> <span class="setup-value">Intel Core i7-11800H</span></li>
+                    <li><span class="setup-label">GPU</span> <span class="setup-value">RTX 3060 Laptop</span></li>
+                    <li><span class="setup-label">RAM</span> <span class="setup-value">16 GB DDR4</span></li>
+                    <li><span class="setup-label">Monitor</span> <span class="setup-value">144Hz</span></li>
+                    <li><span class="setup-label">Mouse</span> <span class="setup-value">Razer Basilisk V3</span></li>
+                    <li><span class="setup-label">Keyboard</span> <span class="setup-value">HATOR Icefall Mecha</span></li>
+                    <li><span class="setup-label">Headset</span> <span class="setup-value">Razer Blackshark V2 X</span></li>
+                </ul>
+            </div>
+        </div>
+
+        </main>
+        <div class="full-width-social">
+        <div class="glass-panel">
+            <h2 class="panel-title-accent no-line">
+                <span>Социальные обновления</span> <i class='bx bx-rss'></i>
+            </h2>
+            <section id="social-updates" class="social-mini-grid">
+                <div class="social-card-wrapper">
+                    <div class="social-header">
+                        <div class="social-text">
+                            <span class="social-label">YouTube</span>
+                            <a href="https://www.youtube.com/@serhiosergey" target="_blank" class="social-title">Последнее видео</a>
+                        </div>
+                        <div class="social-icon yt-icon"><i class='bx bxl-youtube'></i></div>
+                    </div>
+                    <div id="yt-video-container" class="video-placeholder"></div>
+                </div>
+
+                <div class="social-card-wrapper">
+                    <div class="social-header">
+                        <div class="social-text">
+                            <span class="social-label">Telegram</span>
+                            <a href="https://t.me/kiwwijs" target="_blank" class="social-title">Последний пост</a>
+                        </div>
+                        <div class="social-icon tg-icon"><i class='bx bxl-telegram'></i></div>
+                    </div>
+                    <div id="tg-post-container" class="tg-placeholder"></div>
+                </div>
+            </section>
+        </div>
+    </div>
+    </main>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <button class="nav-btn prev" onclick="event.stopPropagation(); changeImage(1)">
+            <i class='bx bx-chevron-left'></i>
+        </button>
+        <img id="lightbox-img" src="" onclick="event.stopPropagation()">
+        <button class="nav-btn next" onclick="event.stopPropagation(); changeImage(-1)">
+            <i class='bx bx-chevron-right'></i>
+        </button>
+        <div id="lightbox-caption"></div>
+    </div>
+</div>
+
+<footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <span class="footer-logo">kiwwij<br></span>
+                <button id="rotateBtn" class="footer-copyright" style="background:none; color: var(--text-muted); border:none; font:inherit; cursor:pointer;" title="Не нажимай меня!">
+                    © <span id="current-year"></span>. Click on me.
+                </button>
+            </div>
+
+            <nav class="footer-nav-center">
+                <a href="../pages/navigation.html" class="social-link" title="Навигация">
+                    <i class='bx bx-map-alt'></i>
+                </a>
+            </nav>
+
+            <nav class="footer-socials">
+                <a href="https://github.com/kiwwij" class="social-link" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://kiwwij.github.io/kiwwij-social-links/" class="social-link" target="_blank"><i class='bx bx-link-alt'></i></a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="../data/steam-profile-data.js"></script>
+    <script src="../data/social-data.js"></script>
+    <script src="../js/about-me.js"></script>
+    <script src="../js/holidays.js" defer></script>
+</body>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggle = document.getElementById('themeToggle');
+            const body = document.body;
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+
+            if (savedTheme === 'light') {
+                body.classList.add('light-theme');
+                themeToggle.checked = false;
+            } else {
+                themeToggle.checked = true;
+            }
+
+            themeToggle.addEventListener('change', () => {
+                if (themeToggle.checked) {
+                    body.classList.remove('light-theme');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.classList.add('light-theme');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
+    <script>
+        const yearElement = document.getElementById('current-year');
+            if (yearElement) {
+                yearElement.textContent = new Date().getFullYear();
+            }
+    </script>
+</html>

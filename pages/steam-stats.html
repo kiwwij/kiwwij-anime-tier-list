@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игровая статистика | kiwwij</title>
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/be/73/3e/be733ee15fd11eabeb5dfa107f32f11e.gif">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/steam-stats.css"> 
+</head>
+<body class="tierlist-page">
+
+    <header>
+        <div class="header-content">
+            <div class="top-row">
+                <h1 class="logo-text">Игровая статистика</h1>
+                <label class="switch">
+                    <input type="checkbox" id="themeToggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <nav class="nav-links">
+                <a href="../index.html" class="btn-link"><i class='bx bx-home-alt'></i> На главную</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="stats-container">
+        <div class="glass-panel profile-section">
+            <div class="steam-header">
+                <div class="avatar-frame">
+                    <img src="https://via.placeholder.com/150" alt="Avatar" id="steamAvatar">
+                </div>
+                <div class="profile-info">
+                    <h2 id="steamNick" class="panel-title">Загрузка...</h2>
+                    <a href="#" target="_blank" id="steamLink" class="profile-link">Профиль Steam ↗</a>
+                    <div id="statusContainer">
+                        <span id="steamStatus" class="status-badge">...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="glass-panel" id="recentSection">
+            <h2 class="panel-title-accent blue-accent">Недавно запускал</h2>
+            <div class="games-grid compact-grid" id="recentGames"></div>
+        </div>
+
+        <div class="glass-panel">
+            <div class="panel-header-info">
+                <h2 class="panel-title-accent purple-accent">Топ 20 игр по времени</h2>
+                <!-- <p class="text-muted-small">*Dota 2 не отображается из-за настроек Valve.</p> -->
+            </div>
+            <div class="games-grid compact-grid" id="topGames"></div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <span class="footer-logo">kiwwij</span>
+                <p class="footer-copyright">© <span id="current-year"></span>. No Copyright.</p>
+            </div>
+
+            <nav class="footer-nav-center">
+                <a href="navigation.html" class="social-link" title="Навигация">
+                    <i class='bx bx-map-alt'></i>
+                </a>
+            </nav>
+
+            <nav class="footer-socials">
+                <a href="https://github.com/kiwwij" class="social-link" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://kiwwij.github.io/kiwwij-social-links/" class="social-link" target="_blank"><i class='bx bx-link-alt'></i></a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="../data/steam-profile-data.js"></script>
+    <script src="../js/steam-stats.js"></script>
+    <script src="../js/holidays.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggle = document.getElementById('themeToggle');
+            const body = document.body;
+            const scrollBtn = document.getElementById("scrollTopBtn");
+
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            if (savedTheme === 'light') {
+                body.classList.add('light-theme');
+                themeToggle.checked = false;
+            } else {
+                themeToggle.checked = true;
+            }
+
+            themeToggle.addEventListener('change', () => {
+                if (themeToggle.checked) {
+                    body.classList.remove('light-theme');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.classList.add('light-theme');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
+    <script>
+        const yearElement = document.getElementById('current-year');
+            if (yearElement) {
+                yearElement.textContent = new Date().getFullYear();
+            }
+    </script>
+</body>
+</html>

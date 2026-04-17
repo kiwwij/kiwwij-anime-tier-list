@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статистика аниме | kiwwij</title>
+    <meta author="kiwwij">
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/00/82/0f/00820fe9b5e5ee5e6deece92054603b3.gif">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/stats.css"> </head>
+<body class="tierlist-page">
+
+    <header>
+        <div class="header-content">
+            <div class="top-row">
+                <h1 class="logo-text">Статистика аниме</h1>
+                <label class="switch">
+                    <input type="checkbox" id="themeToggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <nav class="nav-links">
+                <a href="../index.html" class="btn-link"><i class='bx bx-home-alt'></i> На главную</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="stats-container">
+    <div class="stats-summary">
+        <div class="stat-card">
+            <h3>Всего аниме</h3>
+            <span class="stat-number" id="totalCount">0</span>
+        </div>
+        <div class="stat-card">
+            <h3>Обработано</h3>
+            <span class="stat-number" id="processedCount">0</span>
+            <small class="text-muted">Без дубликатов</small>
+        </div>
+    </div>
+
+    <div class="glass-panel api-progress-section">
+        <div class="progress-container" id="progressContainer">
+            <p>Анализ жанров через Kitsu API <span id="loadingPercent">0%</span></p>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressBar"></div>
+            </div>
+            <small class="text-muted">Это займет время, чтобы избежать блокировки API.</small>
+        </div>
+    </div>
+
+    <div class="anime-stats-grid">
+        <div class="glass-panel timeline-panel">
+            <h2 class="panel-title">Хронология релизов</h2>
+            <p class="panel-subtitle">Нажмите на год для деталей</p>
+            <div class="years-grid" id="yearsGrid"></div>
+        </div>
+
+        <div class="glass-panel genres-panel">
+            <h2 class="panel-title" id="genresTitle">Топ-15 Жанров</h2>
+            <div style="text-align: center; margin-bottom: 1rem;">
+                <button id="toggleGenresBtn" class="btn-link" style="display: inline-flex; padding: 0.4rem 0.8rem; font-size: 0.8rem;">
+                    Показать всё
+                </button>
+            </div>
+            <div class="chart-wrapper">
+                <canvas id="genresChart"></canvas>
+            </div>
+        </div>
+    </div>
+</main>
+
+    <dialog id="yearModal">
+        <div class="modal-content year-modal-content">
+            <button class="close-modal" id="closeYearModal"><i class='bx bx-x'></i></button>
+            <div class="year-modal-header">
+                <h2 id="modalYearTitle">2023</h2>
+            </div>
+            <div class="year-modal-body">
+                <div class="year-anime-grid" id="yearAnimeList"></div>
+            </div>
+        </div>
+    </dialog>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <span class="footer-logo">kiwwij</span>
+                <p class="footer-copyright">© <span id="current-year"></span>. No Copyright.</p>
+            </div>
+
+            <nav class="footer-nav-center">
+                <a href="navigation.html" class="social-link" title="Навигация">
+                    <i class='bx bx-map-alt'></i>
+                </a>
+            </nav>
+
+            <nav class="footer-socials">
+                <a href="https://github.com/kiwwij" class="social-link" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://kiwwij.github.io/kiwwij-social-links/" class="social-link" target="_blank"><i class='bx bx-link-alt'></i></a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="../data/anime-data.js"></script>
+    <script src="../js/stats.js"></script>
+    <script src="../js/holidays.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggle = document.getElementById('themeToggle');
+            const body = document.body;
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+
+            if (savedTheme === 'light') {
+                body.classList.add('light-theme');
+                themeToggle.checked = false;
+            } else {
+                themeToggle.checked = true;
+            }
+
+            themeToggle.addEventListener('change', () => {
+                if (themeToggle.checked) {
+                    body.classList.remove('light-theme');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.classList.add('light-theme');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
+    <script>
+        const yearElement = document.getElementById('current-year');
+            if (yearElement) {
+                yearElement.textContent = new Date().getFullYear();
+            }
+    </script>
+</body>
+</html>

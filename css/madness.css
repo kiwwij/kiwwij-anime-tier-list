@@ -1,0 +1,146 @@
+:root {
+    --blood-red: #660000;
+    --glitch-blue: #0000ff;
+}
+
+body {
+    background-color: #050000 !important;
+    color: #ff0000;
+    font-family: var(--font-main);
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+    cursor: crosshair;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle, transparent 20%, black 140%);
+    pointer-events: none;
+    z-index: 20;
+}
+
+.scanlines {
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.4) 50%);
+    background-size: 100% 2px;
+    z-index: 15;
+    pointer-events: none;
+}
+
+#madCanvas {
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 1;
+    pointer-events: none;
+    filter: blur(1px) contrast(1.8);
+}
+
+.mad-card {
+    position: absolute;
+    background: rgba(20, 0, 0, 0.95);
+    border: 1px solid #ff0000;
+    padding: 12px;
+    animation: jitter 0.04s infinite;
+    max-width: 280px;
+    z-index: 25;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+    font-size: 0.75rem;
+    color: #ff4d4d;
+    word-break: break-all;
+}
+
+.centered-madness {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    z-index: 30;
+    position: relative;
+    pointer-events: none;
+}
+
+h1 { 
+    font-size: clamp(3rem, 15vw, 7rem); 
+    text-shadow: 6px 0 var(--glitch-blue), -6px 0 #f00; 
+    animation: jitter 0.08s infinite; 
+    color: #fff;
+    filter: drop-shadow(0 0 30px red);
+    text-transform: uppercase;
+}
+
+.warning-text {
+    background: #ff0000; 
+    padding: 10px; 
+    color: #000; 
+    z-index: 31; 
+    font-weight: bold; 
+    transform: rotate(1deg); 
+    font-size: 1.2rem;
+}
+
+.return-btn {
+    pointer-events: auto;
+    background: #1a0000;
+    color: #ff0000;
+    padding: 1.2rem 2.5rem;
+    text-decoration: none;
+    font-weight: 900;
+    border: 2px solid #ff0000;
+    margin-top: 50px;
+    transition: all 0.1s;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+#blackout {
+    position: fixed;
+    inset: 0;
+    background: #000;
+    z-index: 1000;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    pointer-events: auto;
+}
+
+.blackout-msg {
+    color: #ff0000; 
+    font-family: monospace; 
+    font-size: 1.5rem; 
+    animation: jitter 0.1s infinite; 
+    text-align: center;
+}
+
+.reboot-btn {
+    background: #ff0000 !important; 
+    color: #000 !important; 
+    border: none !important; 
+    padding: 20px 40px !important; 
+    font-weight: bold !important; 
+    cursor: pointer !important;
+}
+
+.noise {
+    position: fixed;
+    inset: 0;
+    background: url('https://media.giphy.com/media/oEI9uWUicG57v7tUif/giphy.gif');
+    opacity: 0.12;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.glitch-flash { animation: flash 4s infinite; }
+
+@keyframes flash {
+    0%, 95%, 98%, 100% { filter: invert(0); }
+    96%, 97% { filter: invert(1); }
+}

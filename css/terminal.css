@@ -1,0 +1,68 @@
+body {
+    background-color: #050505 !important;
+    color: #00ff41;
+    font-family: 'Courier New', monospace;
+    padding: 2rem;
+    line-height: 1.4;
+    margin: 0;
+    user-select: text;
+}
+
+.terminal-header {
+    border-bottom: 1px solid #00ff41;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.log-entry {
+    margin-bottom: 1.5rem;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.5s ease forwards;
+}
+
+.log-entry.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.system-info {
+    color: #ffb000;
+    margin: 1.5rem 0;
+    border-left: 2px solid #ffb000;
+    padding-left: 1rem;
+}
+
+.command { color: #fff; font-weight: bold; }
+.command::before { content: "kiwwij@system:~$ "; }
+
+.cursor {
+    display: inline-block;
+    width: 10px;
+    height: 1.2rem;
+    background: #00ff41;
+    animation: blink 1s infinite;
+    vertical-align: middle;
+}
+
+@keyframes blink { 50% { opacity: 0; } }
+
+.secret-block {
+    display: none;
+    color: #ff003c;
+    border: 1px dashed #ff003c;
+    padding: 15px;
+    margin-top: 15px;
+    background: rgba(255, 0, 60, 0.05);
+}
+
+.trigger { 
+    cursor: pointer; 
+    text-decoration: underline; 
+    color: #ffb000;
+}
+
+.trigger:hover { color: #fff; }
+
+#terminal-content a { color: #00ff41; text-decoration: underline; }
+#terminal-content a:hover { background: #00ff41; color: #000; }
