@@ -4946,7 +4946,7 @@ const musicData = [
     },
     {
         "title": "(не) уходи",
-        "artist": "fallen777angel & mapt0v",
+        "artist": "fallen777angel",
         "playlist": "Dead inside",
         "duration": "1:58"
     },
