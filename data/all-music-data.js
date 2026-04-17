@@ -1549,7 +1549,7 @@ const musicData = [
         "duration": "3:06"
     },
     {
-        "title": "Диалоги тет-а-тет (Karmv & 4ETVERGOV Remix)",
+        "title": "Диалоги тет-а-тет",
         "artist": "ALEKS ATAMAN",
         "playlist": "Dead inside",
         "duration": "3:37"
