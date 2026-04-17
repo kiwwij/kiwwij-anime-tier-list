@@ -283,12 +283,6 @@ const musicData = [
         "duration": "1:35"
     },
     {
-        "title": "loser club",
-        "artist": "wifiskeleton",
-        "playlist": "Main",
-        "duration": "1:22"
-    },
-    {
         "title": "пароли",
         "artist": "KERASINN",
         "playlist": "Main",
@@ -6197,6 +6191,12 @@ const musicData = [
         "artist": "шизоняшка",
         "playlist": "Dead inside",
         "duration": "1:21"
+    },
+    {
+        "title": "loser club",
+        "artist": "wifiskeleton",
+        "playlist": "Dead inside",
+        "duration": "1:22"
     },
     {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
