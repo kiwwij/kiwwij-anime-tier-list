@@ -373,10 +373,100 @@ const musicData = [
         "duration": "1:55"
     },
     {
+        "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
+        "artist": "AlexTheSchutz",
+        "playlist": "Off Screen",
+        "duration": "4:23"
+    },
+    {
+        "title": "Unravel",
+        "artist": "TK from Ling tosite sigure",
+        "playlist": "Off Screen",
+        "duration": "3:59"
+    },
+    {
+        "title": "Fukashigi no Carte",
+        "artist": "Bunny Girl",
+        "playlist": "Off Screen",
+        "duration": "4:00"
+    },
+    {
+        "title": "DARLING in the FRANXX Opening 1 | KISS OF DEATH",
+        "artist": "Crunchyroll",
+        "playlist": "Off Screen",
+        "duration": "1:30"
+    },
+    {
+        "title": "Shangri-la Frontier Season 2 Ending 2 | RealitYhurts",
+        "artist": "Crunchyroll",
+        "playlist": "Off Screen",
+        "duration": "1:41"
+    },
+    {
+        "title": "インフェルノ - Inferno",
+        "artist": "Mrs. GREEN APPLE",
+        "playlist": "Off Screen",
+        "duration": "3:42"
+    },
+    {
+        "title": "Naruto - Opening 4 (v2) (HD - 60 fps)",
+        "artist": "Anime Guy",
+        "playlist": "Off Screen",
+        "duration": "1:31"
+    },
+    {
+        "title": "Haruka Kanata",
+        "artist": "ASIAN KUNG-FU GENERATION",
+        "playlist": "Off Screen",
+        "duration": "4:07"
+    },
+    {
+        "title": "光るなら-TV size- - Hikarunara TV Size",
+        "artist": "Goose house",
+        "playlist": "Off Screen",
+        "duration": "1:33"
+    },
+    {
         "title": "Black Catcher",
         "artist": "VK Blanka",
         "playlist": "Off Screen",
         "duration": "3:19"
+    },
+    {
+        "title": "Stay Alive",
+        "artist": "エミリア（CV:高橋李依）",
+        "playlist": "Off Screen",
+        "duration": "4:28"
+    },
+    {
+        "title": "空想メソロギヰ",
+        "artist": "妖精帝國",
+        "playlist": "Off Screen",
+        "duration": "4:00"
+    },
+    {
+        "title": "椎名もた(siinamota) - Young Girl A / 少女A",
+        "artist": "siinamota",
+        "playlist": "Off Screen",
+        "duration": "4:03"
+    },
+    {
+        "title": "熱情のスペクトラム - Netsujo No Spectrum",
+        "artist": "Ikimonogakari",
+        "playlist": "Off Screen",
+        "duration": "3:45"
+    },
+    {
+        "title": "departure!",
+        "artist": "Masatoshi Ono",
+        "playlist": "Off Screen",
+        "duration": "4:18"
+    },
+    {
+        "title": "ろん -「おちゃめ機能」FUKKIRETA 【HD.256k.Kara】",
+        "artist": "tripflag",
+        "playlist": "Off Screen",
+        "duration": "1:31"
     },
     {
         "title": "Ｏ2 - O2",
@@ -385,16 +475,226 @@ const musicData = [
         "duration": "3:58"
     },
     {
+        "title": "ムスビメ",
+        "artist": "大原ゆい子",
+        "playlist": "Off Screen",
+        "duration": "4:51"
+    },
+    {
+        "title": "spiral",
+        "artist": "LONGMAN",
+        "playlist": "Off Screen",
+        "duration": "3:52"
+    },
+    {
+        "title": "Please Mr.Lostman",
+        "artist": "the pillows",
+        "playlist": "Off Screen",
+        "duration": "4:09"
+    },
+    {
+        "title": "ユニバースキップ/Flower&初音ミク",
+        "artist": "aoiro code",
+        "playlist": "Off Screen",
+        "duration": "3:13"
+    },
+    {
+        "title": "It's Going Down Now",
+        "artist": "Azumi Takahashi",
+        "playlist": "Off Screen",
+        "duration": "3:07"
+    },
+    {
+        "title": "Стальной алхимик - Братья (милая мама)",
+        "artist": "Music & Anime",
+        "playlist": "Off Screen",
+        "duration": "3:54"
+    },
+    {
+        "title": "Daddy ! Daddy ! Do ! (feat. Airi Suzuki)",
+        "artist": "Masayuki Suzuki",
+        "playlist": "Off Screen",
+        "duration": "4:15"
+    },
+    {
+        "title": "Fullmetal Alchemist: Brotherhood - Opening 1 [4K 60FPS | Creditless | CC]",
+        "artist": "Neobrane",
+        "playlist": "Off Screen",
+        "duration": "2:03"
+    },
+    {
+        "title": "Волчица и пряности - Opening (Русский дубляж)",
+        "artist": "Anton Kalashnikov",
+        "playlist": "Off Screen",
+        "duration": "1:26"
+    },
+    {
+        "title": "Волчица и пряности - Ending (Русский дубляж)",
+        "artist": "Anton Kalashnikov",
+        "playlist": "Off Screen",
+        "duration": "1:27"
+    },
+    {
+        "title": "ステップ！ (GAME VERSION) - Step! (Game Version)",
+        "artist": "Mio Honda (CV: Sayuri Hara)",
+        "playlist": "Off Screen",
+        "duration": "2:11"
+    },
+    {
+        "title": "Marshmallow (feat. Hatsune Miku)",
+        "artist": "DECO*27",
+        "playlist": "Off Screen",
+        "duration": "2:58"
+    },
+    {
+        "title": "ルル - RuLe",
+        "artist": "Ado",
+        "playlist": "Off Screen",
+        "duration": "3:19"
+    },
+    {
         "title": "ぼうやの夢よ",
         "artist": "エミリア（CV:高橋李依）",
         "playlist": "Off Screen",
         "duration": "3:31"
     },
     {
+        "title": "Wishing",
+        "artist": "レム（CV:水瀬いのり）",
+        "playlist": "Off Screen",
+        "duration": "6:01"
+    },
+    {
+        "title": "Wasteland (from the series Arcane League of Legends)",
+        "artist": "Royal & the Serpent",
+        "playlist": "Off Screen",
+        "duration": "2:42"
+    },
+    {
+        "title": "Goodbye (from the series Arcane League of Legends)",
+        "artist": "Ramsey",
+        "playlist": "Off Screen",
+        "duration": "3:51"
+    },
+    {
+        "title": "マシュマロ - Marshmallow",
+        "artist": "DECO*27",
+        "playlist": "Off Screen",
+        "duration": "2:52"
+    },
+    {
+        "title": "Believe in you",
+        "artist": "nonoc",
+        "playlist": "Off Screen",
+        "duration": "4:40"
+    },
+    {
+        "title": "STYX HELIX",
+        "artist": "MYTH & ROID",
+        "playlist": "Off Screen",
+        "duration": "4:50"
+    },
+    {
+        "title": "Sing My Pleasure",
+        "artist": "Vivy (Vo.Kairi Yagi)",
+        "playlist": "Off Screen",
+        "duration": "4:50"
+    },
+    {
+        "title": "NOX LUX",
+        "artist": "MYTH & ROID",
+        "playlist": "Off Screen",
+        "duration": "4:34"
+    },
+    {
+        "title": "アニメ「コードギアス 反逆のルルーシュ」オープニング／FLOW「COLORS」（Another ver.）",
+        "artist": "コードギアスチャンネル CODEGEASS Channel",
+        "playlist": "Off Screen",
+        "duration": "1:31"
+    },
+    {
+        "title": "TVアニメ『この素晴らしい世界に爆焔を！』 ノンクレジットED",
+        "artist": "KADOKAWAanime",
+        "playlist": "Off Screen",
+        "duration": "1:31"
+    },
+    {
+        "title": "Re:Re: (Anime Size)",
+        "artist": "ASIAN KUNG-FU GENERATION",
+        "playlist": "Off Screen",
+        "duration": "1:30"
+    },
+    {
         "title": "花になって - Be a flower",
         "artist": "Ryokuoushoku Shakai",
         "playlist": "Off Screen",
         "duration": "3:20"
+    },
+    {
+        "title": "アニメ「負けヒロインが多すぎる！」オープニング映像【毎週土曜24:30~放送/配信中】",
+        "artist": "アニプレックス チャンネル",
+        "playlist": "Off Screen",
+        "duration": "1:30"
+    },
+    {
+        "title": "Akame ga Kill! Opening 2 | Liar Mask by Rika Mayama",
+        "artist": "Crunchyroll",
+        "playlist": "Off Screen",
+        "duration": "1:41"
+    },
+    {
+        "title": "LiSA「crossing field」／「ソードアート・オンライン」第1期1stクール ノンクレジットOP",
+        "artist": "アニプレックス チャンネル",
+        "playlist": "Off Screen",
+        "duration": "1:31"
+    },
+    {
+        "title": "sun will rise",
+        "artist": "(K)NoW_NAME",
+        "playlist": "Off Screen",
+        "duration": "4:25"
+    },
+    {
+        "title": "守りたいもの",
+        "artist": "Yuiko Ohara",
+        "playlist": "Off Screen",
+        "duration": "4:27"
+    },
+    {
+        "title": "Yuusha no Kuzu Ending - Mental Rental (メンタルレンタル) ♪JP/ROM/CHT/EN Lyrics♪",
+        "artist": "DailyMisato",
+        "playlist": "Off Screen",
+        "duration": "3:14"
+    },
+    {
+        "title": "No Promises to Keep (FINAL FANTASY VII REBIRTH THEME SONG)",
+        "artist": "Loren Allred",
+        "playlist": "Off Screen",
+        "duration": "5:58"
+    },
+    {
+        "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
+        "artist": "Degurechaff",
+        "playlist": "Off Screen",
+        "duration": "1:42"
+    },
+    {
+        "title": "Kimi Ga Iru Kara (feat. Hikari)",
+        "artist": "The Black Velvet and Friends",
+        "playlist": "Off Screen",
+        "duration": "5:52"
+    },
+    {
+        "title": "Kill La Kill (Ruyko's theme) \"Don't lose your way\"",
+        "artist": "Asuka_WWE BG!",
+        "playlist": "Off Screen",
+        "duration": "3:18"
+    },
+    {
+        "title": "ステップ！に合わせて本田未央ちゃんがぽよぽよするやつ",
+        "artist": "hemoglosso",
+        "playlist": "Off Screen",
+        "duration": "0:50"
     },
     {
         "title": "Лёд",
@@ -1243,7 +1543,7 @@ const musicData = [
         "duration": "3:06"
     },
     {
-        "title": "Диалоги тет-а-тет (Karmv & 4ETVERGOV Remix)",
+        "title": "Диалоги тет-а-тет",
         "artist": "ALEKS ATAMAN",
         "playlist": "Dead inside",
         "duration": "3:37"
@@ -3037,7 +3337,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О боже, какой мужчина!",
+        "title": "О, Боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -6075,6 +6375,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 672,
-    "totalDurationSec": 163230,
+    "totalDurationSec": 172986,
     "lastUpdated": "Auto-generated"
 };
