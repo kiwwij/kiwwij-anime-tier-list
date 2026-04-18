@@ -14,23 +14,23 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 25.3,
-            "hours": 3318.3,
+            "playtime_2weeks": 25.4,
+            "hours": 3318.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1283400,
             "name": "Steelrising",
-            "playtime_2weeks": 4.8,
-            "hours": 4.8,
+            "playtime_2weeks": 5.3,
+            "hours": 5.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
             "url": "https://store.steampowered.com/app/1283400"
         },
         {
             "appid": 3764200,
             "name": "Resident Evil Requiem",
-            "playtime_2weeks": 4.2,
+            "playtime_2weeks": 3.5,
             "hours": 7.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3764200/header.jpg",
             "url": "https://store.steampowered.com/app/3764200"
@@ -56,7 +56,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3318.3,
+            "hours": 3318.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
