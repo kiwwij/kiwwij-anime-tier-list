@@ -6056,7 +6056,7 @@ const musicData = [
     },
     {
         "title": "67 (Six Seven)",
-        "artist": "Gazan",
+        "artist": "Gazan - Topic",
         "playlist": "Dead inside",
         "duration": "1:24"
     },
