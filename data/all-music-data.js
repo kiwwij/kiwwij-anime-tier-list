@@ -122,13 +122,13 @@ const musicData = [
     },
     {
         "title": "аромат цветов",
-        "artist": "PLUSIX",
+        "artist": "PLUSIX - Topic",
         "playlist": "Main",
         "duration": "2:18"
     },
     {
         "title": "pedobear›⩊‹",
-        "artist": "тёмный принц",
+        "artist": "тёмный принц - Topic",
         "playlist": "Main",
         "duration": "1:24"
     },
@@ -146,7 +146,7 @@ const musicData = [
     },
     {
         "title": "на небесах",
-        "artist": "kouru",
+        "artist": "kouru - Topic",
         "playlist": "Main",
         "duration": "2:29"
     },
@@ -182,7 +182,7 @@ const musicData = [
     },
     {
         "title": "Так прикро",
-        "artist": "Апатія",
+        "artist": "Апатія - Topic",
         "playlist": "Main",
         "duration": "3:00"
     },
@@ -248,7 +248,7 @@ const musicData = [
     },
     {
         "title": "чёрный шёлк",
-        "artist": "3umph",
+        "artist": "3umph - Topic",
         "playlist": "Main",
         "duration": "1:58"
     },
@@ -266,7 +266,7 @@ const musicData = [
     },
     {
         "title": "я не приду на выпускной",
-        "artist": "ashleytears",
+        "artist": "ashleytears - Topic",
         "playlist": "Main",
         "duration": "1:34"
     },
@@ -284,13 +284,13 @@ const musicData = [
     },
     {
         "title": "пароли",
-        "artist": "KERASINN",
+        "artist": "KERASINN - Topic",
         "playlist": "Main",
         "duration": "1:24"
     },
     {
         "title": "отвратительный король",
-        "artist": "тёмный принц",
+        "artist": "тёмный принц - Topic",
         "playlist": "Main",
         "duration": "1:52"
     },
@@ -344,7 +344,7 @@ const musicData = [
     },
     {
         "title": "ЛАБУБУ",
-        "artist": "YUNG FIMOZ",
+        "artist": "YUNG FIMOZ - Topic",
         "playlist": "Main",
         "duration": "2:00"
     },
@@ -380,13 +380,13 @@ const musicData = [
     },
     {
         "title": "Unravel",
-        "artist": "TK from Ling tosite sigure",
+        "artist": "TK from Ling tosite sigure - Topic",
         "playlist": "Off Screen",
         "duration": "3:59"
     },
     {
         "title": "Fukashigi no Carte",
-        "artist": "Bunny Girl",
+        "artist": "Bunny Girl - Topic",
         "playlist": "Off Screen",
         "duration": "4:00"
     },
@@ -403,7 +403,7 @@ const musicData = [
         "duration": "1:41"
     },
     {
-        "title": "インフェルノ - Inferno",
+        "title": "Mrs. GREEN APPLE - インフェルノ（Inferno）",
         "artist": "Mrs. GREEN APPLE",
         "playlist": "Off Screen",
         "duration": "3:42"
@@ -415,8 +415,8 @@ const musicData = [
         "duration": "1:31"
     },
     {
-        "title": "Haruka Kanata",
-        "artist": "ASIAN KUNG-FU GENERATION",
+        "title": "ASIAN KUNG-FU GENERATION - Haruka Kanata",
+        "artist": "akgVEVO",
         "playlist": "Off Screen",
         "duration": "4:07"
     },
@@ -427,14 +427,14 @@ const musicData = [
         "duration": "1:33"
     },
     {
-        "title": "Black Catcher",
-        "artist": "VK Blanka",
+        "title": "Vickeblanka / 『Black Catcher』(official music video)",
+        "artist": "VK Blanka ",
         "playlist": "Off Screen",
         "duration": "3:19"
     },
     {
         "title": "Stay Alive",
-        "artist": "エミリア（CV:高橋李依）",
+        "artist": "Release - Topic",
         "playlist": "Off Screen",
         "duration": "4:28"
     },
@@ -445,8 +445,8 @@ const musicData = [
         "duration": "4:00"
     },
     {
-        "title": "椎名もた(siinamota) - Young Girl A / 少女A",
-        "artist": "siinamota",
+        "title": "siinamota - Young Girl A (Official video with English sub)",
+        "artist": "U/M/A/A Inc.",
         "playlist": "Off Screen",
         "duration": "4:03"
     },
@@ -482,13 +482,13 @@ const musicData = [
     },
     {
         "title": "spiral",
-        "artist": "LONGMAN",
+        "artist": "LONGMAN - Topic",
         "playlist": "Off Screen",
         "duration": "3:52"
     },
     {
         "title": "Please Mr.Lostman",
-        "artist": "the pillows",
+        "artist": "the pillows - Topic",
         "playlist": "Off Screen",
         "duration": "4:09"
     },
@@ -511,8 +511,8 @@ const musicData = [
         "duration": "3:54"
     },
     {
-        "title": "Daddy ! Daddy ! Do ! (feat. Airi Suzuki)",
-        "artist": "Masayuki Suzuki",
+        "title": "Daddy ! Daddy ! Do !",
+        "artist": "Masayuki Suzuki - Topic",
         "playlist": "Off Screen",
         "duration": "4:15"
     },
@@ -541,13 +541,13 @@ const musicData = [
         "duration": "2:11"
     },
     {
-        "title": "Marshmallow (feat. Hatsune Miku)",
+        "title": "DECO*27 - Marshmallow feat. Hatsune Miku",
         "artist": "DECO*27",
         "playlist": "Off Screen",
         "duration": "2:58"
     },
     {
-        "title": "ルル - RuLe",
+        "title": "【Ado】RuLe",
         "artist": "Ado",
         "playlist": "Off Screen",
         "duration": "3:19"
@@ -560,13 +560,13 @@ const musicData = [
     },
     {
         "title": "Wishing",
-        "artist": "レム（CV:水瀬いのり）",
+        "artist": "Release - Topic",
         "playlist": "Off Screen",
         "duration": "6:01"
     },
     {
         "title": "Wasteland (from the series Arcane League of Legends)",
-        "artist": "Royal & the Serpent",
+        "artist": "Royal & the Serpent - Topic",
         "playlist": "Off Screen",
         "duration": "2:42"
     },
@@ -577,26 +577,26 @@ const musicData = [
         "duration": "3:51"
     },
     {
-        "title": "マシュマロ - Marshmallow",
-        "artist": "DECO*27",
+        "title": "マシュマロ",
+        "artist": "DECO*27 - Topic",
         "playlist": "Off Screen",
         "duration": "2:52"
     },
     {
         "title": "Believe in you",
-        "artist": "nonoc",
+        "artist": "Nonoc - Topic",
         "playlist": "Off Screen",
         "duration": "4:40"
     },
     {
         "title": "STYX HELIX",
-        "artist": "MYTH & ROID",
+        "artist": "MYTH & ROID - Topic",
         "playlist": "Off Screen",
         "duration": "4:50"
     },
     {
         "title": "Sing My Pleasure",
-        "artist": "Vivy (Vo.Kairi Yagi)",
+        "artist": "Vivy (Vo.Kairi Yagi) - Topic",
         "playlist": "Off Screen",
         "duration": "4:50"
     },
@@ -620,7 +620,7 @@ const musicData = [
     },
     {
         "title": "Re:Re: (Anime Size)",
-        "artist": "ASIAN KUNG-FU GENERATION",
+        "artist": "ASIAN KUNG-FU GENERATION - Topic",
         "playlist": "Off Screen",
         "duration": "1:30"
     },
@@ -650,7 +650,7 @@ const musicData = [
     },
     {
         "title": "sun will rise",
-        "artist": "(K)NoW_NAME",
+        "artist": "(K)NoW_NAME - Topic",
         "playlist": "Off Screen",
         "duration": "4:25"
     },
@@ -698,7 +698,7 @@ const musicData = [
     },
     {
         "title": "Лёд",
-        "artist": "WENARO",
+        "artist": "WENARO & LXNER",
         "playlist": "Dead inside",
         "duration": "2:33"
     },
@@ -706,11 +706,11 @@ const musicData = [
         "title": "По*уй",
         "artist": "KVESTAR",
         "playlist": "Dead inside",
-        "duration": "2:00"
+        "duration": "2:02"
     },
     {
         "title": "Код",
-        "artist": "whyalive",
+        "artist": "whyalive & HOROSHIYAGNI",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
@@ -740,7 +740,7 @@ const musicData = [
     },
     {
         "title": "Ничтожество",
-        "artist": "Климлордс",
+        "artist": "Климлордс - Topic",
         "playlist": "Dead inside",
         "duration": "2:01"
     },
@@ -794,7 +794,7 @@ const musicData = [
     },
     {
         "title": "hyperpop luv",
-        "artist": "whyalive",
+        "artist": "whyalive & Denya8",
         "playlist": "Dead inside",
         "duration": "1:26"
     },
@@ -812,7 +812,7 @@ const musicData = [
     },
     {
         "title": "Mary Jane (Night Core)",
-        "artist": "lil 17th",
+        "artist": "Lil 17th - Topic",
         "playlist": "Dead inside",
         "duration": "2:36"
     },
@@ -854,13 +854,13 @@ const musicData = [
     },
     {
         "title": "DEAD INSIDE",
-        "artist": "20TOKENS",
+        "artist": "20TOKENS - Topic",
         "playlist": "Dead inside",
         "duration": "2:47"
     },
     {
         "title": "vendetta!",
-        "artist": "MUPP",
+        "artist": "MUPP - Topic",
         "playlist": "Dead inside",
         "duration": "1:48"
     },
@@ -908,13 +908,13 @@ const musicData = [
     },
     {
         "title": "Banochka S Okurkami",
-        "artist": "KOSMONAVTOV NET",
+        "artist": "KOSMONAVTOV NET - Topic",
         "playlist": "Dead inside",
         "duration": "2:43"
     },
     {
         "title": "Tokyo Ghoul OP  / Опенинг Токийский Гуль cover by Ai Mori",
-        "artist": "Ai Mori",
+        "artist": "АйMori",
         "playlist": "Dead inside",
         "duration": "4:13"
     },
@@ -997,8 +997,8 @@ const musicData = [
         "duration": "2:17"
     },
     {
-        "title": "лбтд",
-        "artist": "Кис-Кис",
+        "title": "кис-кис - лбтд",
+        "artist": "кис-кис",
         "playlist": "Dead inside",
         "duration": "2:56"
     },
@@ -1010,7 +1010,7 @@ const musicData = [
     },
     {
         "title": "Лицо",
-        "artist": "Созвездие Отрезок",
+        "artist": "Созвездие Отрезок - Topic",
         "playlist": "Dead inside",
         "duration": "3:28"
     },
@@ -1021,7 +1021,7 @@ const musicData = [
         "duration": "2:37"
     },
     {
-        "title": "Kawaki wo Ameku",
+        "title": "[Domestic na Kanojo OP FULL RUS] Kawaki wo Ameku (Cover by Sati Akura)",
         "artist": "Sati Akura",
         "playlist": "Dead inside",
         "duration": "4:48"
@@ -1033,7 +1033,7 @@ const musicData = [
         "duration": "4:36"
     },
     {
-        "title": "Герой из аниме",
+        "title": "Twinky, kirkiimad, nowkie - Герой из аниме prod.LLIIEEDD",
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:48"
@@ -1045,7 +1045,7 @@ const musicData = [
         "duration": "2:40"
     },
     {
-        "title": "алиса",
+        "title": "наше последнее лето - алиса",
         "artist": "наше последнее лето",
         "playlist": "Dead inside",
         "duration": "1:54"
@@ -1070,37 +1070,37 @@ const musicData = [
     },
     {
         "title": "Freaks",
-        "artist": "Surf Curse",
+        "artist": "Surf Curse - Topic",
         "playlist": "Dead inside",
         "duration": "2:28"
     },
     {
-        "title": "Miss You",
+        "title": "Oliver Tree & Robin Schulz - Miss You [Official Music Video]",
         "artist": "Oliver Tree",
         "playlist": "Dead inside",
         "duration": "2:50"
     },
     {
-        "title": "Life Goes On",
+        "title": "Oliver Tree - Life Goes On [Music Video]",
         "artist": "Oliver Tree",
         "playlist": "Dead inside",
         "duration": "3:27"
     },
     {
-        "title": "I'm Good (Blue)",
+        "title": "David Guetta & Bebe Rexha - I'm Good (Blue) [Official Music Video]",
         "artist": "David Guetta",
         "playlist": "Dead inside",
         "duration": "2:58"
     },
     {
-        "title": "Шизоид",
+        "title": "Серега Пират - шизоид",
         "artist": "СЕРЕГА ПИРАТ",
         "playlist": "Dead inside",
         "duration": "2:35"
     },
     {
-        "title": "Murder in My Mind (Slowed + Reverb)",
-        "artist": "Kordhell",
+        "title": "KORDHELL - MURDER IN MY MIND",
+        "artist": "KORDHELL",
         "playlist": "Dead inside",
         "duration": "2:25"
     },
@@ -1112,7 +1112,7 @@ const musicData = [
     },
     {
         "title": "Степень искренности",
-        "artist": "Volkprod",
+        "artist": "Volkprod - Topic",
         "playlist": "Dead inside",
         "duration": "2:58"
     },
@@ -1129,8 +1129,8 @@ const musicData = [
         "duration": "2:27"
     },
     {
-        "title": "КАК MOMMY",
-        "artist": "Instasamka",
+        "title": "INSTASAMKA - КАК MOMMY (prod. realmoneyken)",
+        "artist": "INSTASAMKA",
         "playlist": "Dead inside",
         "duration": "2:10"
     },
@@ -1159,14 +1159,14 @@ const musicData = [
         "duration": "2:48"
     },
     {
-        "title": "маша",
-        "artist": "плм",
+        "title": "плм — маша (Official audio)",
+        "artist": "Rhymes Music",
         "playlist": "Dead inside",
         "duration": "1:56"
     },
     {
         "title": "Дурак и молния",
-        "artist": "Король и Шут",
+        "artist": "Korol i Shut - Topic",
         "playlist": "Dead inside",
         "duration": "1:55"
     },
@@ -1178,12 +1178,12 @@ const musicData = [
     },
     {
         "title": "Neurotoxin",
-        "artist": "DEEP-EX-SENSE",
+        "artist": "DEEP-EX-SENSE - Topic",
         "playlist": "Dead inside",
         "duration": "2:38"
     },
     {
-        "title": "последнее лето",
+        "title": "ooes — последнее лето",
         "artist": "ooes",
         "playlist": "Dead inside",
         "duration": "2:18"
@@ -1201,8 +1201,8 @@ const musicData = [
         "duration": "3:48"
     },
     {
-        "title": "Human",
-        "artist": "Rag'n'Bone Man",
+        "title": "Rag'n'Bone Man - Human (Official Video)",
+        "artist": "RagnBoneManVEVO",
         "playlist": "Dead inside",
         "duration": "3:18"
     },
@@ -1213,8 +1213,8 @@ const musicData = [
         "duration": "4:21"
     },
     {
-        "title": "молчи",
-        "artist": "Кис-Кис",
+        "title": "кис-кис - молчи",
+        "artist": "кис-кис",
         "playlist": "Dead inside",
         "duration": "3:18"
     },
@@ -1357,7 +1357,7 @@ const musicData = [
         "duration": "3:31"
     },
     {
-        "title": "Усы",
+        "title": "OTURRO - УСЫ (КЛИП)",
         "artist": "OTURRO",
         "playlist": "Dead inside",
         "duration": "1:05"
@@ -1411,8 +1411,8 @@ const musicData = [
         "duration": "2:14"
     },
     {
-        "title": "Я урод",
-        "artist": "Tenderlybae",
+        "title": "Tenderlybae - Я урод #яуродчеллендж",
+        "artist": "Tenderlybae каждый день",
         "playlist": "Dead inside",
         "duration": "1:53"
     },
@@ -1580,7 +1580,7 @@ const musicData = [
     },
     {
         "title": "Всё было так",
-        "artist": "Электрофорез",
+        "artist": "Elektroforez - Topic",
         "playlist": "Dead inside",
         "duration": "3:18"
     },
@@ -1789,7 +1789,7 @@ const musicData = [
         "duration": "2:50"
     },
     {
-        "title": "Когда ты умрешь",
+        "title": "нексюша – Когда ты умрешь",
         "artist": "нексюша",
         "playlist": "Dead inside",
         "duration": "3:01"
@@ -1825,8 +1825,8 @@ const musicData = [
         "duration": "3:50"
     },
     {
-        "title": "2:00 (speed up)",
-        "artist": "enveel",
+        "title": "2:00 (Speed Up)",
+        "artist": "enveel - Topic",
         "playlist": "Dead inside",
         "duration": "1:41"
     },
@@ -6375,6 +6375,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 672,
-    "totalDurationSec": 172986,
+    "totalDurationSec": 172988,
     "lastUpdated": "Auto-generated"
 };
