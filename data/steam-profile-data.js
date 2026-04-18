@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 20.8,
+            "playtime_2weeks": 20.2,
             "hours": 3318.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 3764200,
             "name": "Resident Evil Requiem",
-            "playtime_2weeks": 2.7,
+            "playtime_2weeks": 2.5,
             "hours": 7.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3764200/header.jpg",
             "url": "https://store.steampowered.com/app/3764200"
