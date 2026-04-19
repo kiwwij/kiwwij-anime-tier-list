@@ -5582,7 +5582,7 @@ const musicData = [
     },
     {
         "title": "Reverie",
-        "artist": "KRISTIEE",
+        "artist": "KRISTIEE - Topic",
         "playlist": "Dead inside",
         "duration": "2:10"
     },
@@ -5630,7 +5630,7 @@ const musicData = [
     },
     {
         "title": "Але якщо ти...",
-        "artist": "Do Sliz",
+        "artist": "Do Sliz - Topic",
         "playlist": "Dead inside",
         "duration": "3:14"
     },
@@ -5642,7 +5642,7 @@ const musicData = [
     },
     {
         "title": "Невесомость",
-        "artist": "тянка",
+        "artist": "тянка - Topic",
         "playlist": "Dead inside",
         "duration": "2:34"
     },
@@ -5654,7 +5654,7 @@ const musicData = [
     },
     {
         "title": "Демоны",
-        "artist": "Три дня дождя",
+        "artist": "Три дня дождя - Topic",
         "playlist": "Dead inside",
         "duration": "3:25"
     },
@@ -5732,7 +5732,7 @@ const musicData = [
     },
     {
         "title": "Я вб'ю всіх богів",
-        "artist": "хейтспіч",
+        "artist": "хейтспіч - Topic",
         "playlist": "Dead inside",
         "duration": "3:39"
     },
@@ -5750,13 +5750,13 @@ const musicData = [
     },
     {
         "title": "Наталія Валевська – Палала [official video]",
-        "artist": "Наталія Валевська",
+        "artist": "Наталія Валевська VALEVSKA",
         "playlist": "Dead inside",
         "duration": "3:44"
     },
     {
         "title": "Prince",
-        "artist": "auratoshi",
+        "artist": "auratoshi - Topic",
         "playlist": "Dead inside",
         "duration": "1:48"
     },
@@ -5786,7 +5786,7 @@ const musicData = [
     },
     {
         "title": "Мы с севера",
-        "artist": "G Sound",
+        "artist": "G. Sound - Topic",
         "playlist": "Dead inside",
         "duration": "2:00"
     },
@@ -5846,7 +5846,7 @@ const musicData = [
     },
     {
         "title": "Down by the River",
-        "artist": "Borislav Slavov",
+        "artist": "Borislav Slavov - Topic",
         "playlist": "Dead inside",
         "duration": "2:22"
     },
@@ -5900,7 +5900,7 @@ const musicData = [
     },
     {
         "title": "Кінець фільму",
-        "artist": "BaWN",
+        "artist": "BaWN - Topic",
         "playlist": "Dead inside",
         "duration": "2:59"
     },
