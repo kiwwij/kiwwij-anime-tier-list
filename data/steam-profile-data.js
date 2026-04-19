@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 20.2,
+            "playtime_2weeks": 20.0,
             "hours": 3320.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -28,20 +28,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1283400"
         },
         {
+            "appid": 1286580,
+            "name": "Ship of Fools",
+            "playtime_2weeks": 2.5,
+            "hours": 19.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
+            "url": "https://store.steampowered.com/app/1286580"
+        },
+        {
             "appid": 952060,
             "name": "Resident Evil 3",
             "playtime_2weeks": 2.2,
             "hours": 2.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/header.jpg",
             "url": "https://store.steampowered.com/app/952060"
-        },
-        {
-            "appid": 1286580,
-            "name": "Ship of Fools",
-            "playtime_2weeks": 1.5,
-            "hours": 18.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
-            "url": "https://store.steampowered.com/app/1286580"
         },
         {
             "appid": 3764200,
