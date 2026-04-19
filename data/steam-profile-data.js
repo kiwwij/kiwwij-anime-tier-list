@@ -28,20 +28,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1283400"
         },
         {
-            "appid": 3764200,
-            "name": "Resident Evil Requiem",
-            "playtime_2weeks": 2.5,
-            "hours": 7.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3764200/header.jpg",
-            "url": "https://store.steampowered.com/app/3764200"
-        },
-        {
             "appid": 952060,
             "name": "Resident Evil 3",
             "playtime_2weeks": 2.2,
             "hours": 2.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/header.jpg",
             "url": "https://store.steampowered.com/app/952060"
+        },
+        {
+            "appid": 3764200,
+            "name": "Resident Evil Requiem",
+            "playtime_2weeks": 1.4,
+            "hours": 7.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3764200/header.jpg",
+            "url": "https://store.steampowered.com/app/3764200"
         },
         {
             "appid": 431960,
