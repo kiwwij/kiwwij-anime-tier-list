@@ -14,16 +14,16 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 21.7,
-            "hours": 3320.0,
+            "playtime_2weeks": 22.1,
+            "hours": 3320.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1283400,
             "name": "Steelrising",
-            "playtime_2weeks": 6.1,
-            "hours": 6.1,
+            "playtime_2weeks": 6.6,
+            "hours": 6.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
             "url": "https://store.steampowered.com/app/1283400"
         },
@@ -56,7 +56,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3320.0,
+            "hours": 3320.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
