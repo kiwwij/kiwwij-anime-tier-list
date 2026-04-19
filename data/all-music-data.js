@@ -110,7 +110,7 @@ const musicData = [
     },
     {
         "title": "цена",
-        "artist": "madk1d",
+        "artist": "madk1d - Topic",
         "playlist": "Main",
         "duration": "2:19"
     },
