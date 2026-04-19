@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/54fb03a0ca8d211e6ec2b285bc9277ab839f5c34_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50"
+        "status": "Offline",
+        "statusColor": "#9E9E9E"
     },
     "stats": {
         "total_games": 257
@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 1286580,
             "name": "Ship of Fools",
-            "playtime_2weeks": 3.0,
-            "hours": 19.5,
+            "playtime_2weeks": 3.5,
+            "hours": 20.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
             "url": "https://store.steampowered.com/app/1286580"
         },
