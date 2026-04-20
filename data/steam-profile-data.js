@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 20.0,
+            "playtime_2weeks": 19.9,
             "hours": 3320.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -22,16 +22,16 @@ const steamData = {
         {
             "appid": 1286580,
             "name": "Ship of Fools",
-            "playtime_2weeks": 14.3,
-            "hours": 30.8,
+            "playtime_2weeks": 15.3,
+            "hours": 31.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
             "url": "https://store.steampowered.com/app/1286580"
         },
         {
             "appid": 1283400,
             "name": "Steelrising",
-            "playtime_2weeks": 6.9,
-            "hours": 6.9,
+            "playtime_2weeks": 8.0,
+            "hours": 8.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
             "url": "https://store.steampowered.com/app/1283400"
         },
