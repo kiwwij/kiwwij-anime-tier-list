@@ -12,20 +12,20 @@ const steamData = {
     },
     "recent_games": [
         {
+            "appid": 1286580,
+            "name": "Ship of Fools",
+            "playtime_2weeks": 21.2,
+            "hours": 37.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
+            "url": "https://store.steampowered.com/app/1286580"
+        },
+        {
             "appid": 570,
             "name": "Dota 2",
             "playtime_2weeks": 20.0,
             "hours": 3320.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
-        },
-        {
-            "appid": 1286580,
-            "name": "Ship of Fools",
-            "playtime_2weeks": 19.7,
-            "hours": 36.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
-            "url": "https://store.steampowered.com/app/1286580"
         },
         {
             "appid": 1283400,
