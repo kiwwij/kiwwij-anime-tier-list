@@ -361,12 +361,6 @@ const musicData = [
         "duration": "2:56"
     },
     {
-        "title": "ivycraft — люблю москву но снится london",
-        "artist": "Russian SoundCloud",
-        "playlist": "Main",
-        "duration": "1:33"
-    },
-    {
         "title": "норман грейсон - таролог",
         "artist": "fiveclown",
         "playlist": "Main",
@@ -3343,7 +3337,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О, Боже, какой мужчина!",
+        "title": "О боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -6203,6 +6197,12 @@ const musicData = [
         "artist": "wifiskeleton",
         "playlist": "Dead inside",
         "duration": "1:22"
+    },
+    {
+        "title": "ivycraft — люблю москву но снится london",
+        "artist": "Russian SoundCloud",
+        "playlist": "Dead inside",
+        "duration": "1:33"
     },
     {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
