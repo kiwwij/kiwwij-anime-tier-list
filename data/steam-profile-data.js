@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 1286580,
             "name": "Ship of Fools",
-            "playtime_2weeks": 30.2,
-            "hours": 46.7,
+            "playtime_2weeks": 31.1,
+            "hours": 47.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
             "url": "https://store.steampowered.com/app/1286580"
         },
@@ -50,6 +50,14 @@ const steamData = {
             "hours": 7.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3764200/header.jpg",
             "url": "https://store.steampowered.com/app/3764200"
+        },
+        {
+            "appid": 1169040,
+            "name": "Necesse",
+            "playtime_2weeks": 0.5,
+            "hours": 25.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
+            "url": "https://store.steampowered.com/app/1169040"
         },
         {
             "appid": 431960,
