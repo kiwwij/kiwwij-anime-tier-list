@@ -5438,13 +5438,13 @@ const musicData = [
     },
     {
         "title": "Даже если",
-        "artist": "5opka - Topic",
+        "artist": "5opka",
         "playlist": "Dead inside",
         "duration": "2:27"
     },
     {
         "title": "У моєму тихому вирі",
-        "artist": "Smetana Band - Topic",
+        "artist": "Сметана band",
         "playlist": "Dead inside",
         "duration": "4:18"
     },
@@ -5474,7 +5474,7 @@ const musicData = [
     },
     {
         "title": "Демоны",
-        "artist": "Три дня дождя - Topic",
+        "artist": "Три дня дождя",
         "playlist": "Dead inside",
         "duration": "3:25"
     },
@@ -5498,7 +5498,7 @@ const musicData = [
     },
     {
         "title": "Teenage Dirtbag",
-        "artist": "Wheatus - Topic",
+        "artist": "Wheatus",
         "playlist": "Dead inside",
         "duration": "4:02"
     },
@@ -5641,7 +5641,7 @@ const musicData = [
         "duration": "2:06"
     },
     {
-        "title": "MORGENSHTERN - Flower (Lyric Video, 2026)",
+        "title": "Flower",
         "artist": "MORGENSHTERN",
         "playlist": "Dead inside",
         "duration": "2:36"
@@ -5738,7 +5738,7 @@ const musicData = [
     },
     {
         "title": "Грязный Кайф",
-        "artist": "Kishlak - Topic",
+        "artist": "Кишлак",
         "playlist": "Dead inside",
         "duration": "2:46"
     },
@@ -5756,7 +5756,7 @@ const musicData = [
     },
     {
         "title": "таб***ки",
-        "artist": "Голодный - Topic",
+        "artist": "голодный",
         "playlist": "Dead inside",
         "duration": "1:39"
     },
@@ -5780,7 +5780,7 @@ const musicData = [
     },
     {
         "title": "раздевайся",
-        "artist": "семьсот семь - Topic",
+        "artist": "семьсот семь",
         "playlist": "Dead inside",
         "duration": "2:41"
     },
@@ -5834,7 +5834,7 @@ const musicData = [
     },
     {
         "title": "Останній день",
-        "artist": "SadSvit - Topic",
+        "artist": "SadSvit",
         "playlist": "Dead inside",
         "duration": "3:00"
     },
@@ -5900,7 +5900,7 @@ const musicData = [
     },
     {
         "title": "болен",
-        "artist": "dope17 - Topic",
+        "artist": "dope17",
         "playlist": "Dead inside",
         "duration": "1:28"
     },
