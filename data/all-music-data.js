@@ -13,40 +13,10 @@ const musicData = [
         "duration": "1:34"
     },
     {
-        "title": "greyrock, tewiq, madk1d – распять (Сингл, 2025)",
-        "artist": "Mentrez Music",
-        "playlist": "Main",
-        "duration": "2:00"
-    },
-    {
         "title": "ты че обиделась",
         "artist": "madk1d",
         "playlist": "Main",
         "duration": "1:30"
-    },
-    {
-        "title": "слова",
-        "artist": "Violetta Sokolova",
-        "playlist": "Main",
-        "duration": "2:45"
-    },
-    {
-        "title": "так похуй",
-        "artist": "madk1d",
-        "playlist": "Main",
-        "duration": "1:48"
-    },
-    {
-        "title": "возьму гитару",
-        "artist": "schastlivj",
-        "playlist": "Main",
-        "duration": "2:14"
-    },
-    {
-        "title": "Круче чем вы (feat. CUPSIZE)",
-        "artist": "madk1d",
-        "playlist": "Main",
-        "duration": "1:40"
     },
     {
         "title": "общага",
@@ -55,106 +25,16 @@ const musicData = [
         "duration": "1:48"
     },
     {
-        "title": "стало похуй",
-        "artist": "kurokov",
-        "playlist": "Main",
-        "duration": "2:09"
-    },
-    {
-        "title": "Nope your too late i already died",
-        "artist": "wifiskeleton",
-        "playlist": "Main",
-        "duration": "1:31"
-    },
-    {
-        "title": "tuborosho, Anonymous Ember - europa fm",
-        "artist": "suenushka",
-        "playlist": "Main",
-        "duration": "1:53"
-    },
-    {
-        "title": "web 2.0",
-        "artist": "тёмный принц & silver gloria",
-        "playlist": "Main",
-        "duration": "1:24"
-    },
-    {
         "title": "Естафета страждань",
         "artist": "Апатія",
         "playlist": "Main",
         "duration": "3:02"
     },
     {
-        "title": "Не прокинусь",
-        "artist": "BaWN",
-        "playlist": "Main",
-        "duration": "3:22"
-    },
-    {
-        "title": "ELF",
-        "artist": "Violetta Sokolova",
-        "playlist": "Main",
-        "duration": "4:10"
-    },
-    {
-        "title": "Гештальт",
-        "artist": "Апатія",
-        "playlist": "Main",
-        "duration": "2:40"
-    },
-    {
-        "title": "скинь",
-        "artist": "яшенька",
-        "playlist": "Main",
-        "duration": "1:53"
-    },
-    {
-        "title": "цена",
-        "artist": "madk1d",
-        "playlist": "Main",
-        "duration": "2:19"
-    },
-    {
-        "title": "твои пальцы",
-        "artist": "fallen777angel",
-        "playlist": "Main",
-        "duration": "1:22"
-    },
-    {
-        "title": "аромат цветов",
-        "artist": "PLUSIX",
-        "playlist": "Main",
-        "duration": "2:18"
-    },
-    {
         "title": "pedobear›⩊‹",
         "artist": "тёмный принц",
         "playlist": "Main",
         "duration": "1:24"
-    },
-    {
-        "title": "усну навсегда",
-        "artist": "яшенька",
-        "playlist": "Main",
-        "duration": "1:28"
-    },
-    {
-        "title": "целуй меня",
-        "artist": "cardinparis",
-        "playlist": "Main",
-        "duration": "1:16"
-    },
-    {
-        "title": "на небесах",
-        "artist": "kouru",
-        "playlist": "Main",
-        "duration": "2:29"
-    },
-    {
-        "title": "ПАПА",
-        "artist": "тёмный принц",
-        "playlist": "Main",
-        "duration": "1:43"
     },
     {
         "title": "face vlone remix - salem slut",
@@ -167,12 +47,6 @@ const musicData = [
         "artist": "Violetta Sokolova",
         "playlist": "Main",
         "duration": "2:11"
-    },
-    {
-        "title": "СВЕТЛАНА!",
-        "artist": "NEXTIME",
-        "playlist": "Main",
-        "duration": "1:36"
     },
     {
         "title": "Виріжу очі",
@@ -199,34 +73,16 @@ const musicData = [
         "duration": "1:30"
     },
     {
-        "title": "тянка - HANAHAKI (song lyrics)",
-        "artist": "тянка хиккует",
-        "playlist": "Main",
-        "duration": "2:27"
-    },
-    {
         "title": "В реальності новій",
         "artist": "Апатія",
         "playlist": "Main",
         "duration": "2:45"
     },
     {
-        "title": "вклубе",
-        "artist": "тёмный принц",
-        "playlist": "Main",
-        "duration": "1:40"
-    },
-    {
         "title": "fake ur face",
         "artist": "s0rrow",
         "playlist": "Main",
         "duration": "1:55"
-    },
-    {
-        "title": "Ворую алкоголь - Floki, звсэ(slowed down version)",
-        "artist": "kayy",
-        "playlist": "Main",
-        "duration": "3:03"
     },
     {
         "title": "нарратор",
@@ -239,12 +95,6 @@ const musicData = [
         "artist": "CMH",
         "playlist": "Main",
         "duration": "2:38"
-    },
-    {
-        "title": "stalk ur socials",
-        "artist": "s0rrow",
-        "playlist": "Main",
-        "duration": "1:19"
     },
     {
         "title": "чёрный шёлк",
@@ -265,12 +115,6 @@ const musicData = [
         "duration": "2:12"
     },
     {
-        "title": "я не приду на выпускной",
-        "artist": "ashleytears",
-        "playlist": "Main",
-        "duration": "1:34"
-    },
-    {
         "title": "шизофрения",
         "artist": "kurokov",
         "playlist": "Main",
@@ -287,18 +131,6 @@ const musicData = [
         "artist": "KERASINN",
         "playlist": "Main",
         "duration": "1:24"
-    },
-    {
-        "title": "отвратительный король",
-        "artist": "тёмный принц",
-        "playlist": "Main",
-        "duration": "1:52"
-    },
-    {
-        "title": "#ЛЯШКИВКУСНЯШКИ (prod.by Kolji)",
-        "artist": "ЯКОРЪ",
-        "playlist": "Main",
-        "duration": "1:40"
     },
     {
         "title": "она свободна (feat. морали нет)",
@@ -365,6 +197,18 @@ const musicData = [
         "artist": "fiveclown",
         "playlist": "Main",
         "duration": "1:55"
+    },
+    {
+        "title": "Kingslayer (Lyric Video) (feat. BABYMETAL)",
+        "artist": "Bring Me The Horizon",
+        "playlist": "Main",
+        "duration": "3:41"
+    },
+    {
+        "title": "распять (folk remix)",
+        "artist": "stel11a",
+        "playlist": "Main",
+        "duration": "1:31"
     },
     {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
@@ -437,12 +281,6 @@ const musicData = [
         "artist": "妖精帝國",
         "playlist": "Off Screen",
         "duration": "4:00"
-    },
-    {
-        "title": "椎名もた(siinamota) - Young Girl A / 少女A",
-        "artist": "siinamota",
-        "playlist": "Off Screen",
-        "duration": "4:03"
     },
     {
         "title": "熱情のスペクトラム - Netsujo No Spectrum",
@@ -535,12 +373,6 @@ const musicData = [
         "duration": "2:11"
     },
     {
-        "title": "Marshmallow (feat. Hatsune Miku)",
-        "artist": "DECO*27",
-        "playlist": "Off Screen",
-        "duration": "2:58"
-    },
-    {
         "title": "ルル - RuLe",
         "artist": "Ado",
         "playlist": "Off Screen",
@@ -607,12 +439,6 @@ const musicData = [
         "duration": "1:31"
     },
     {
-        "title": "TVアニメ『この素晴らしい世界に爆焔を！』 ノンクレジットED",
-        "artist": "KADOKAWAanime",
-        "playlist": "Off Screen",
-        "duration": "1:31"
-    },
-    {
         "title": "Re:Re: (Anime Size)",
         "artist": "ASIAN KUNG-FU GENERATION",
         "playlist": "Off Screen",
@@ -667,22 +493,10 @@ const musicData = [
         "duration": "5:58"
     },
     {
-        "title": "Serial Experiments Lain Opening (HD/60fps/Creditless)",
-        "artist": "Degurechaff",
-        "playlist": "Off Screen",
-        "duration": "1:42"
-    },
-    {
         "title": "Kimi Ga Iru Kara (feat. Hikari)",
         "artist": "The Black Velvet and Friends",
         "playlist": "Off Screen",
         "duration": "5:52"
-    },
-    {
-        "title": "Kill La Kill (Ruyko's theme) \"Don't lose your way\"",
-        "artist": "Asuka_WWE BG!",
-        "playlist": "Off Screen",
-        "duration": "3:18"
     },
     {
         "title": "ステップ！に合わせて本田未央ちゃんがぽよぽよするやつ",
@@ -695,6 +509,12 @@ const musicData = [
         "artist": "rusino",
         "playlist": "Off Screen",
         "duration": "2:15"
+    },
+    {
+        "title": "Duvet",
+        "artist": "bôa",
+        "playlist": "Off Screen",
+        "duration": "3:24"
     },
     {
         "title": "Лёд",
@@ -6205,6 +6025,162 @@ const musicData = [
         "duration": "1:33"
     },
     {
+        "title": "распять",
+        "artist": "greyrock, tewiq, & madk1d",
+        "playlist": "Dead inside",
+        "duration": "2:00"
+    },
+    {
+        "title": "так похуй",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "1:48"
+    },
+    {
+        "title": "Круче чем вы (feat. CUPSIZE)",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "1:40"
+    },
+    {
+        "title": "стало похуй",
+        "artist": "kurokov",
+        "playlist": "Dead inside",
+        "duration": "2:09"
+    },
+    {
+        "title": "europa fm",
+        "artist": "The pAura",
+        "playlist": "Dead inside",
+        "duration": "1:53"
+    },
+    {
+        "title": "web 2.0",
+        "artist": "тёмный принц & silver gloria",
+        "playlist": "Dead inside",
+        "duration": "1:24"
+    },
+    {
+        "title": "Не прокинусь",
+        "artist": "BaWN",
+        "playlist": "Dead inside",
+        "duration": "3:22"
+    },
+    {
+        "title": "ELF",
+        "artist": "Violetta Sokolova",
+        "playlist": "Dead inside",
+        "duration": "4:10"
+    },
+    {
+        "title": "Гештальт",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "2:40"
+    },
+    {
+        "title": "скинь",
+        "artist": "яшенька",
+        "playlist": "Dead inside",
+        "duration": "1:53"
+    },
+    {
+        "title": "цена",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "2:19"
+    },
+    {
+        "title": "твои пальцы",
+        "artist": "fallen777angel",
+        "playlist": "Dead inside",
+        "duration": "1:22"
+    },
+    {
+        "title": "усну навсегда",
+        "artist": "яшенька",
+        "playlist": "Dead inside",
+        "duration": "1:28"
+    },
+    {
+        "title": "целуй меня",
+        "artist": "cardinparis",
+        "playlist": "Dead inside",
+        "duration": "1:16"
+    },
+    {
+        "title": "на небесах",
+        "artist": "kouru",
+        "playlist": "Dead inside",
+        "duration": "2:29"
+    },
+    {
+        "title": "ПАПА",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:43"
+    },
+    {
+        "title": "СВЕТЛАНА!",
+        "artist": "NEXTIME",
+        "playlist": "Dead inside",
+        "duration": "1:36"
+    },
+    {
+        "title": "HANAHAKI",
+        "artist": "тянка",
+        "playlist": "Dead inside",
+        "duration": "2:27"
+    },
+    {
+        "title": "вклубе",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:40"
+    },
+    {
+        "title": "Lost Soul",
+        "artist": "batuzane",
+        "playlist": "Dead inside",
+        "duration": "2:30"
+    },
+    {
+        "title": "stalk ur socials",
+        "artist": "s0rrow",
+        "playlist": "Dead inside",
+        "duration": "1:19"
+    },
+    {
+        "title": "я не приду на выпускной",
+        "artist": "ashleytears",
+        "playlist": "Dead inside",
+        "duration": "1:34"
+    },
+    {
+        "title": "губы",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:35"
+    },
+    {
+        "title": "отвратительный король",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:52"
+    },
+    {
+        "title": "#ЛЯШКИВКУСНЯШКИ (prod.by Kolji)",
+        "artist": "ЯКОРЪ",
+        "playlist": "Dead inside",
+        "duration": "1:40"
+    },
+    {
+        "title": "Стань моїм вбивцею",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "3:45"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6381,6 +6357,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 689,
-    "totalDurationSec": 173121,
+    "totalDurationSec": 172584,
     "lastUpdated": "Auto-generated"
 };
