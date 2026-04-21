@@ -697,6 +697,12 @@ const musicData = [
         "duration": "0:50"
     },
     {
+        "title": "ループザルーム (feat. Hatsune Miku)",
+        "artist": "rusino",
+        "playlist": "Off Screen",
+        "duration": "2:15"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -757,7 +763,7 @@ const musicData = [
         "duration": "2:48"
     },
     {
-        "title": "Аризона-бошки (Fast Remix)",
+        "title": "Аризона (Fast Remix)",
         "artist": "badCurt",
         "playlist": "Dead inside",
         "duration": "1:48"
@@ -6375,6 +6381,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 689,
-    "totalDurationSec": 172986,
+    "totalDurationSec": 173121,
     "lastUpdated": "Auto-generated"
 };
