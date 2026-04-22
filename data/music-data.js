@@ -11,32 +11,7 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "greyrock, tewiq, madk1d – распять (Сингл, 2025)",
-        "artist": "Mentrez Music",
-        "playlist": "Main"
-    },
-    {
         "title": "ты че обиделась",
-        "artist": "madk1d",
-        "playlist": "Main"
-    },
-    {
-        "title": "слова",
-        "artist": "Violetta Sokolova",
-        "playlist": "Main"
-    },
-    {
-        "title": "так похуй",
-        "artist": "madk1d",
-        "playlist": "Main"
-    },
-    {
-        "title": "возьму гитару",
-        "artist": "schastlivj",
-        "playlist": "Main"
-    },
-    {
-        "title": "Круче чем вы (feat. CUPSIZE)",
         "artist": "madk1d",
         "playlist": "Main"
     },
@@ -46,87 +21,12 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "стало похуй",
-        "artist": "kurokov",
-        "playlist": "Main"
-    },
-    {
-        "title": "Nope your too late i already died",
-        "artist": "wifiskeleton",
-        "playlist": "Main"
-    },
-    {
-        "title": "tuborosho, Anonymous Ember - europa fm",
-        "artist": "suenushka",
-        "playlist": "Main"
-    },
-    {
-        "title": "web 2.0",
-        "artist": "тёмный принц & silver gloria",
-        "playlist": "Main"
-    },
-    {
         "title": "Естафета страждань",
         "artist": "Апатія",
         "playlist": "Main"
     },
     {
-        "title": "Не прокинусь",
-        "artist": "BaWN",
-        "playlist": "Main"
-    },
-    {
-        "title": "ELF",
-        "artist": "Violetta Sokolova",
-        "playlist": "Main"
-    },
-    {
-        "title": "Гештальт",
-        "artist": "Апатія",
-        "playlist": "Main"
-    },
-    {
-        "title": "скинь",
-        "artist": "яшенька",
-        "playlist": "Main"
-    },
-    {
-        "title": "цена",
-        "artist": "madk1d",
-        "playlist": "Main"
-    },
-    {
-        "title": "твои пальцы",
-        "artist": "fallen777angel",
-        "playlist": "Main"
-    },
-    {
-        "title": "аромат цветов",
-        "artist": "PLUSIX",
-        "playlist": "Main"
-    },
-    {
         "title": "pedobear›⩊‹",
-        "artist": "тёмный принц",
-        "playlist": "Main"
-    },
-    {
-        "title": "усну навсегда",
-        "artist": "яшенька",
-        "playlist": "Main"
-    },
-    {
-        "title": "целуй меня",
-        "artist": "cardinparis",
-        "playlist": "Main"
-    },
-    {
-        "title": "на небесах",
-        "artist": "kouru",
-        "playlist": "Main"
-    },
-    {
-        "title": "ПАПА",
         "artist": "тёмный принц",
         "playlist": "Main"
     },
@@ -138,11 +38,6 @@ const musicData = [
     {
         "title": "Деревья, сгнившие до ствола",
         "artist": "Violetta Sokolova",
-        "playlist": "Main"
-    },
-    {
-        "title": "СВЕТЛАНА!",
-        "artist": "NEXTIME",
         "playlist": "Main"
     },
     {
@@ -166,28 +61,13 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "тянка - HANAHAKI (song lyrics)",
-        "artist": "тянка хиккует",
-        "playlist": "Main"
-    },
-    {
         "title": "В реальності новій",
         "artist": "Апатія",
         "playlist": "Main"
     },
     {
-        "title": "вклубе",
-        "artist": "тёмный принц",
-        "playlist": "Main"
-    },
-    {
         "title": "fake ur face",
         "artist": "s0rrow",
-        "playlist": "Main"
-    },
-    {
-        "title": "Ворую алкоголь - Floki, звсэ(slowed down version)",
-        "artist": "kayy",
         "playlist": "Main"
     },
     {
@@ -198,11 +78,6 @@ const musicData = [
     {
         "title": "бесконечное лето",
         "artist": "CMH",
-        "playlist": "Main"
-    },
-    {
-        "title": "stalk ur socials",
-        "artist": "s0rrow",
         "playlist": "Main"
     },
     {
@@ -221,11 +96,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "я не приду на выпускной",
-        "artist": "ashleytears",
-        "playlist": "Main"
-    },
-    {
         "title": "шизофрения",
         "artist": "kurokov",
         "playlist": "Main"
@@ -238,16 +108,6 @@ const musicData = [
     {
         "title": "пароли",
         "artist": "KERASINN",
-        "playlist": "Main"
-    },
-    {
-        "title": "отвратительный король",
-        "artist": "тёмный принц",
-        "playlist": "Main"
-    },
-    {
-        "title": "#ЛЯШКИВКУСНЯШКИ (prod.by Kolji)",
-        "artist": "ЯКОРЪ",
         "playlist": "Main"
     },
     {
@@ -301,17 +161,22 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "ivycraft — люблю москву но снится london",
-        "artist": "Russian SoundCloud",
+        "title": "норман грейсон - таролог",
+        "artist": "fiveclown",
         "playlist": "Main"
     },
     {
-        "title": "норман грейсон - таролог",
-        "artist": "fiveclown",
+        "title": "Kingslayer (Lyric Video) (feat. BABYMETAL)",
+        "artist": "Bring Me The Horizon",
+        "playlist": "Main"
+    },
+    {
+        "title": "распять (folk remix)",
+        "artist": "stel11a",
         "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 18,
-    "totalDurationSec": 7772
+    "totalDurationSec": 4536
 };
