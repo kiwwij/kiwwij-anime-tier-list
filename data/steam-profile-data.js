@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 1169040,
             "name": "Necesse",
-            "playtime_2weeks": 11.2,
-            "hours": 36.3,
+            "playtime_2weeks": 12.2,
+            "hours": 37.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
             "url": "https://store.steampowered.com/app/1169040"
         },
@@ -52,20 +52,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/952060"
         },
         {
-            "appid": 3764200,
-            "name": "Resident Evil Requiem",
-            "playtime_2weeks": 1.4,
-            "hours": 7.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3764200/header.jpg",
-            "url": "https://store.steampowered.com/app/3764200"
-        },
-        {
             "appid": 1281590,
             "name": "The Dark Pictures Anthology: House of Ashes",
             "playtime_2weeks": 1.2,
             "hours": 1.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281590/header.jpg",
             "url": "https://store.steampowered.com/app/1281590"
+        },
+        {
+            "appid": 3764200,
+            "name": "Resident Evil Requiem",
+            "playtime_2weeks": 0.9,
+            "hours": 7.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3764200/header.jpg",
+            "url": "https://store.steampowered.com/app/3764200"
         },
         {
             "appid": 431960,
