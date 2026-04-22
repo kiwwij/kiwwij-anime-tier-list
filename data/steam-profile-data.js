@@ -38,8 +38,8 @@ const steamData = {
         {
             "appid": 1169040,
             "name": "Necesse",
-            "playtime_2weeks": 5.9,
-            "hours": 31.0,
+            "playtime_2weeks": 7.9,
+            "hours": 33.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
             "url": "https://store.steampowered.com/app/1169040"
         },
@@ -58,6 +58,14 @@ const steamData = {
             "hours": 7.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3764200/header.jpg",
             "url": "https://store.steampowered.com/app/3764200"
+        },
+        {
+            "appid": 1281590,
+            "name": "The Dark Pictures Anthology: House of Ashes",
+            "playtime_2weeks": 1.2,
+            "hours": 1.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281590/header.jpg",
+            "url": "https://store.steampowered.com/app/1281590"
         },
         {
             "appid": 431960,
