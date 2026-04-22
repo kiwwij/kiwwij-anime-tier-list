@@ -4171,12 +4171,6 @@ const musicData = [
         "duration": "1:39"
     },
     {
-        "title": "唱个喀秋莎！！",
-        "artist": "果宝",
-        "playlist": "Dead inside",
-        "duration": "1:30"
-    },
-    {
         "title": "Я никогда не стану феминисткой",
         "artist": "Nodahsa",
         "playlist": "Dead inside",
@@ -6357,6 +6351,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 689,
-    "totalDurationSec": 172584,
+    "totalDurationSec": 172494,
     "lastUpdated": "Auto-generated"
 };
