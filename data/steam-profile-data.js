@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1283400"
         },
         {
+            "appid": 1169040,
+            "name": "Necesse",
+            "playtime_2weeks": 3.9,
+            "hours": 29.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
+            "url": "https://store.steampowered.com/app/1169040"
+        },
+        {
             "appid": 952060,
             "name": "Resident Evil 3",
             "playtime_2weeks": 2.2,
             "hours": 2.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/header.jpg",
             "url": "https://store.steampowered.com/app/952060"
-        },
-        {
-            "appid": 1169040,
-            "name": "Necesse",
-            "playtime_2weeks": 1.9,
-            "hours": 27.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
-            "url": "https://store.steampowered.com/app/1169040"
         },
         {
             "appid": 3764200,
