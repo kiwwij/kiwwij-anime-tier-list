@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 1169040,
             "name": "Necesse",
-            "playtime_2weeks": 17.7,
-            "hours": 42.8,
+            "playtime_2weeks": 18.7,
+            "hours": 43.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
             "url": "https://store.steampowered.com/app/1169040"
         },
@@ -58,6 +58,14 @@ const steamData = {
             "hours": 1.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281590/header.jpg",
             "url": "https://store.steampowered.com/app/1281590"
+        },
+        {
+            "appid": 1245620,
+            "name": "ELDEN RING",
+            "playtime_2weeks": 0.8,
+            "hours": 251.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
+            "url": "https://store.steampowered.com/app/1245620"
         },
         {
             "appid": 3764200,
@@ -102,7 +110,7 @@ const steamData = {
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "hours": 250.3,
+            "hours": 251.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
         },
