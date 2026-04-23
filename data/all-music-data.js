@@ -6175,6 +6175,12 @@ const musicData = [
         "duration": "3:45"
     },
     {
+        "title": "would u love me?",
+        "artist": "s0rrow",
+        "playlist": "Dead inside",
+        "duration": "2:23"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6351,6 +6357,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 689,
-    "totalDurationSec": 172494,
+    "totalDurationSec": 172637,
     "lastUpdated": "Auto-generated"
 };
