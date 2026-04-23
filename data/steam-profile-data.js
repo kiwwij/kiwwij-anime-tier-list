@@ -8,7 +8,7 @@ const steamData = {
         "statusColor": "#4CAF50"
     },
     "stats": {
-        "total_games": 259
+        "total_games": 260
     },
     "recent_games": [
         {
@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 1169040,
             "name": "Necesse",
-            "playtime_2weeks": 13.7,
-            "hours": 38.8,
+            "playtime_2weeks": 15.7,
+            "hours": 40.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
             "url": "https://store.steampowered.com/app/1169040"
         },
