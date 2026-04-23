@@ -22,8 +22,8 @@ const steamData = {
         {
             "appid": 1169040,
             "name": "Necesse",
-            "playtime_2weeks": 26.7,
-            "hours": 51.8,
+            "playtime_2weeks": 28.2,
+            "hours": 53.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
             "url": "https://store.steampowered.com/app/1169040"
         },
