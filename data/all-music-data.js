@@ -5012,7 +5012,7 @@ const musicData = [
     },
     {
         "title": "миниюбка",
-        "artist": "emoslut666",
+        "artist": "emoslut666 & Аверьянова Наталия Викторовна",
         "playlist": "Dead inside",
         "duration": "1:19"
     },
