@@ -22,7 +22,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 20.9,
+            "playtime_2weeks": 19.9,
             "hours": 3323.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 1169040,
             "name": "Necesse",
-            "playtime_2weeks": 18.7,
-            "hours": 43.8,
+            "playtime_2weeks": 19.7,
+            "hours": 44.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
             "url": "https://store.steampowered.com/app/1169040"
         },
@@ -52,20 +52,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/952060"
         },
         {
+            "appid": 1245620,
+            "name": "ELDEN RING",
+            "playtime_2weeks": 1.3,
+            "hours": 251.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
+            "url": "https://store.steampowered.com/app/1245620"
+        },
+        {
             "appid": 1281590,
             "name": "The Dark Pictures Anthology: House of Ashes",
             "playtime_2weeks": 1.2,
             "hours": 1.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281590/header.jpg",
             "url": "https://store.steampowered.com/app/1281590"
-        },
-        {
-            "appid": 1245620,
-            "name": "ELDEN RING",
-            "playtime_2weeks": 0.8,
-            "hours": 251.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
-            "url": "https://store.steampowered.com/app/1245620"
         },
         {
             "appid": 3764200,
@@ -110,7 +110,7 @@ const steamData = {
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "hours": 251.1,
+            "hours": 251.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
         },
