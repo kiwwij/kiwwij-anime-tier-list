@@ -22,8 +22,8 @@ const steamData = {
         {
             "appid": 1169040,
             "name": "Necesse",
-            "playtime_2weeks": 23.7,
-            "hours": 48.8,
+            "playtime_2weeks": 25.2,
+            "hours": 50.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
             "url": "https://store.steampowered.com/app/1169040"
         },
@@ -76,20 +76,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/3764200"
         },
         {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.1,
-            "hours": 20.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
-        },
-        {
             "appid": 3969990,
             "name": "Ghost Hunting Journal Demo",
             "playtime_2weeks": 0.1,
             "hours": 0.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3969990/header.jpg",
             "url": "https://store.steampowered.com/app/3969990"
+        },
+        {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.0,
+            "hours": 20.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
