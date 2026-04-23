@@ -2959,8 +2959,8 @@ const musicData = [
         "duration": "4:17"
     },
     {
-        "title": "I Was Made For Lovin' You",
-        "artist": "Kiss",
+        "title": "Kiss - I Was Made For Lovin' You",
+        "artist": "KissVEVO",
         "playlist": "Dead inside",
         "duration": "3:59"
     },
@@ -3019,7 +3019,7 @@ const musicData = [
         "duration": "3:43"
     },
     {
-        "title": "Зима-холода (Remix)",
+        "title": "EBAN'KO, Ksenon - Зима-холода (Remix) Премьера зимней сказки, 2024  ❄️",
         "artist": "Ksenon",
         "playlist": "Dead inside",
         "duration": "2:28"
@@ -3403,8 +3403,8 @@ const musicData = [
         "duration": "3:14"
     },
     {
-        "title": "TiK ToK (Official HD Video)",
-        "artist": "Ke$ha",
+        "title": "Ke$ha - TiK ToK (Official HD Video)",
+        "artist": "keshaVEVO",
         "playlist": "Dead inside",
         "duration": "3:36"
     },
@@ -3457,8 +3457,8 @@ const musicData = [
         "duration": "3:27"
     },
     {
-        "title": "Два кусочека колбаски",
-        "artist": "Kombinaciya",
+        "title": "Комбинация - Два кусочека колбаски",
+        "artist": "МЕДИАТЕКА ДЖЕМ",
         "playlist": "Dead inside",
         "duration": "4:00"
     },
@@ -3470,7 +3470,7 @@ const musicData = [
     },
     {
         "title": "i kissed",
-        "artist": "yungalligator",
+        "artist": "yungalligator - Topic",
         "playlist": "Dead inside",
         "duration": "2:43"
     },
