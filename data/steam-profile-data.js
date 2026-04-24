@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 1169040,
             "name": "Necesse",
-            "playtime_2weeks": 33.2,
-            "hours": 58.3,
+            "playtime_2weeks": 34.2,
+            "hours": 59.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
             "url": "https://store.steampowered.com/app/1169040"
         },
@@ -66,14 +66,6 @@ const steamData = {
             "hours": 1.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281590/header.jpg",
             "url": "https://store.steampowered.com/app/1281590"
-        },
-        {
-            "appid": 3764200,
-            "name": "Resident Evil Requiem",
-            "playtime_2weeks": 0.3,
-            "hours": 7.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3764200/header.jpg",
-            "url": "https://store.steampowered.com/app/3764200"
         },
         {
             "appid": 3969990,
