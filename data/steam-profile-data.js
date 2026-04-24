@@ -8,14 +8,14 @@ const steamData = {
         "statusColor": "#4CAF50"
     },
     "stats": {
-        "total_games": 261
+        "total_games": 262
     },
     "recent_games": [
         {
             "appid": 1169040,
             "name": "Necesse",
-            "playtime_2weeks": 34.2,
-            "hours": 59.3,
+            "playtime_2weeks": 35.7,
+            "hours": 60.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
             "url": "https://store.steampowered.com/app/1169040"
         },
@@ -46,7 +46,7 @@ const steamData = {
         {
             "appid": 952060,
             "name": "Resident Evil 3",
-            "playtime_2weeks": 2.2,
+            "playtime_2weeks": 1.7,
             "hours": 2.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/header.jpg",
             "url": "https://store.steampowered.com/app/952060"
