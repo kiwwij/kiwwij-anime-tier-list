@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50"
+        "status": "Offline",
+        "statusColor": "#9E9E9E"
     },
     "stats": {
         "total_games": 263
@@ -46,8 +46,8 @@ const steamData = {
         {
             "appid": 433340,
             "name": "Slime Rancher",
-            "playtime_2weeks": 3.5,
-            "hours": 32.5,
+            "playtime_2weeks": 4.0,
+            "hours": 33.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
             "url": "https://store.steampowered.com/app/433340"
         },
@@ -70,7 +70,7 @@ const steamData = {
         {
             "appid": 952060,
             "name": "Resident Evil 3",
-            "playtime_2weeks": 0.4,
+            "playtime_2weeks": 0.3,
             "hours": 2.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/header.jpg",
             "url": "https://store.steampowered.com/app/952060"
