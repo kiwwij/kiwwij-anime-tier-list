@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 21.3,
-            "hours": 3327.8,
+            "playtime_2weeks": 22.0,
+            "hours": 3328.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -60,20 +60,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1281590"
         },
         {
-            "appid": 952060,
-            "name": "Resident Evil 3",
-            "playtime_2weeks": 1.3,
-            "hours": 2.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/header.jpg",
-            "url": "https://store.steampowered.com/app/952060"
-        },
-        {
             "appid": 1245620,
             "name": "ELDEN RING",
             "playtime_2weeks": 1.3,
             "hours": 251.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
+        },
+        {
+            "appid": 952060,
+            "name": "Resident Evil 3",
+            "playtime_2weeks": 0.4,
+            "hours": 2.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/header.jpg",
+            "url": "https://store.steampowered.com/app/952060"
         },
         {
             "appid": 431960,
@@ -96,7 +96,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3327.8,
+            "hours": 3328.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
