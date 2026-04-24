@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 1169040,
             "name": "Necesse",
-            "playtime_2weeks": 39.7,
-            "hours": 64.8,
+            "playtime_2weeks": 40.5,
+            "hours": 65.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
             "url": "https://store.steampowered.com/app/1169040"
         },
@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 20.6,
-            "hours": 3326.5,
+            "playtime_2weeks": 20.8,
+            "hours": 3327.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -88,7 +88,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3326.5,
+            "hours": 3327.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -221,7 +221,7 @@ const steamData = {
         {
             "appid": 1169040,
             "name": "Necesse",
-            "hours": 64.8,
+            "hours": 65.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
             "url": "https://store.steampowered.com/app/1169040"
         }
