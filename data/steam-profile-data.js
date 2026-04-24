@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 20.8,
-            "hours": 3327.3,
+            "playtime_2weeks": 21.3,
+            "hours": 3327.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -46,8 +46,8 @@ const steamData = {
         {
             "appid": 433340,
             "name": "Slime Rancher",
-            "playtime_2weeks": 3.0,
-            "hours": 32.0,
+            "playtime_2weeks": 3.5,
+            "hours": 32.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
             "url": "https://store.steampowered.com/app/433340"
         },
@@ -62,7 +62,7 @@ const steamData = {
         {
             "appid": 952060,
             "name": "Resident Evil 3",
-            "playtime_2weeks": 1.7,
+            "playtime_2weeks": 1.3,
             "hours": 2.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/header.jpg",
             "url": "https://store.steampowered.com/app/952060"
@@ -76,27 +76,27 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1245620"
         },
         {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.2,
+            "hours": 20.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
+        },
+        {
             "appid": 3969990,
             "name": "Ghost Hunting Journal Demo",
             "playtime_2weeks": 0.1,
             "hours": 0.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3969990/header.jpg",
             "url": "https://store.steampowered.com/app/3969990"
-        },
-        {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.1,
-            "hours": 20.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3327.3,
+            "hours": 3327.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
