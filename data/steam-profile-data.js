@@ -8,14 +8,14 @@ const steamData = {
         "statusColor": "#4CAF50"
     },
     "stats": {
-        "total_games": 262
+        "total_games": 263
     },
     "recent_games": [
         {
             "appid": 1169040,
             "name": "Necesse",
-            "playtime_2weeks": 35.7,
-            "hours": 60.8,
+            "playtime_2weeks": 37.2,
+            "hours": 62.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
             "url": "https://store.steampowered.com/app/1169040"
         },
@@ -44,6 +44,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1283400"
         },
         {
+            "appid": 1281590,
+            "name": "The Dark Pictures Anthology: House of Ashes",
+            "playtime_2weeks": 2.4,
+            "hours": 2.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281590/header.jpg",
+            "url": "https://store.steampowered.com/app/1281590"
+        },
+        {
             "appid": 952060,
             "name": "Resident Evil 3",
             "playtime_2weeks": 1.7,
@@ -58,14 +66,6 @@ const steamData = {
             "hours": 251.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
-        },
-        {
-            "appid": 1281590,
-            "name": "The Dark Pictures Anthology: House of Ashes",
-            "playtime_2weeks": 1.2,
-            "hours": 1.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281590/header.jpg",
-            "url": "https://store.steampowered.com/app/1281590"
         },
         {
             "appid": 3969990,
@@ -219,11 +219,11 @@ const steamData = {
             "url": "https://store.steampowered.com/app/626690"
         },
         {
-            "appid": 444090,
-            "name": "Paladins",
-            "hours": 62.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/444090/header.jpg",
-            "url": "https://store.steampowered.com/app/444090"
+            "appid": 1169040,
+            "name": "Necesse",
+            "hours": 62.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
+            "url": "https://store.steampowered.com/app/1169040"
         }
     ]
 };
