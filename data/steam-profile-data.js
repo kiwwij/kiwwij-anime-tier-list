@@ -44,20 +44,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1283400"
         },
         {
+            "appid": 433340,
+            "name": "Slime Rancher",
+            "playtime_2weeks": 3.0,
+            "hours": 32.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
+            "url": "https://store.steampowered.com/app/433340"
+        },
+        {
             "appid": 1281590,
             "name": "The Dark Pictures Anthology: House of Ashes",
             "playtime_2weeks": 2.4,
             "hours": 2.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281590/header.jpg",
             "url": "https://store.steampowered.com/app/1281590"
-        },
-        {
-            "appid": 433340,
-            "name": "Slime Rancher",
-            "playtime_2weeks": 2.0,
-            "hours": 31.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
-            "url": "https://store.steampowered.com/app/433340"
         },
         {
             "appid": 952060,
