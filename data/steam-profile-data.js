@@ -52,6 +52,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1281590"
         },
         {
+            "appid": 433340,
+            "name": "Slime Rancher",
+            "playtime_2weeks": 2.0,
+            "hours": 31.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
+            "url": "https://store.steampowered.com/app/433340"
+        },
+        {
             "appid": 952060,
             "name": "Resident Evil 3",
             "playtime_2weeks": 1.7,
@@ -66,14 +74,6 @@ const steamData = {
             "hours": 251.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
-        },
-        {
-            "appid": 433340,
-            "name": "Slime Rancher",
-            "playtime_2weeks": 1.0,
-            "hours": 30.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
-            "url": "https://store.steampowered.com/app/433340"
         },
         {
             "appid": 3969990,
