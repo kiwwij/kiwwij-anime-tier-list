@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/570"
         },
         {
+            "appid": 433340,
+            "name": "Slime Rancher",
+            "playtime_2weeks": 7.6,
+            "hours": 36.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
+            "url": "https://store.steampowered.com/app/433340"
+        },
+        {
             "appid": 1283400,
             "name": "Steelrising",
             "playtime_2weeks": 7.4,
             "hours": 8.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
             "url": "https://store.steampowered.com/app/1283400"
-        },
-        {
-            "appid": 433340,
-            "name": "Slime Rancher",
-            "playtime_2weeks": 7.1,
-            "hours": 36.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
-            "url": "https://store.steampowered.com/app/433340"
         },
         {
             "appid": 1281590,
