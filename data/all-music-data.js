@@ -3536,7 +3536,7 @@ const musicData = [
     },
     {
         "title": "На стол",
-        "artist": "LonelyStash & Готлиб",
+        "artist": "LonelyStash",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
@@ -4015,7 +4015,7 @@ const musicData = [
         "duration": "2:03"
     },
     {
-        "title": "Мама удалила роблокс",
+        "title": "Мама удалила роблокс (feat. Gulyashik & Qurorr)",
         "artist": "Lemaier",
         "playlist": "Dead inside",
         "duration": "3:04"
@@ -6356,7 +6356,7 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 689,
+    "totalViews": 710,
     "totalDurationSec": 172637,
     "lastUpdated": "Auto-generated"
 };
