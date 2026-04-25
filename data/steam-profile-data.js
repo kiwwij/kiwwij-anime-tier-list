@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 19.7,
+            "playtime_2weeks": 18.9,
             "hours": 3328.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -54,16 +54,16 @@ const steamData = {
         {
             "appid": 1657630,
             "name": "Slime Rancher 2",
-            "playtime_2weeks": 5.5,
-            "hours": 34.8,
+            "playtime_2weeks": 6.5,
+            "hours": 35.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/header.jpg",
             "url": "https://store.steampowered.com/app/1657630"
         },
         {
             "appid": 1281590,
             "name": "The Dark Pictures Anthology: House of Ashes",
-            "playtime_2weeks": 3.4,
-            "hours": 3.4,
+            "playtime_2weeks": 3.8,
+            "hours": 3.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281590/header.jpg",
             "url": "https://store.steampowered.com/app/1281590"
         },
