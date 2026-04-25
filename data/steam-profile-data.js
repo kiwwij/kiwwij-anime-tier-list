@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E"
+        "status": "In Game",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 263
@@ -46,8 +46,8 @@ const steamData = {
         {
             "appid": 433340,
             "name": "Slime Rancher",
-            "playtime_2weeks": 4.0,
-            "hours": 33.0,
+            "playtime_2weeks": 5.1,
+            "hours": 34.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
             "url": "https://store.steampowered.com/app/433340"
         },
