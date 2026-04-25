@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 21.6,
+            "playtime_2weeks": 20.7,
             "hours": 3328.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -54,8 +54,8 @@ const steamData = {
         {
             "appid": 1657630,
             "name": "Slime Rancher 2",
-            "playtime_2weeks": 3.0,
-            "hours": 32.3,
+            "playtime_2weeks": 4.0,
+            "hours": 33.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/header.jpg",
             "url": "https://store.steampowered.com/app/1657630"
         },
