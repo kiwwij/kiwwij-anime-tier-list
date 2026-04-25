@@ -68,6 +68,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1245620"
         },
         {
+            "appid": 1657630,
+            "name": "Slime Rancher 2",
+            "playtime_2weeks": 1.0,
+            "hours": 30.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/header.jpg",
+            "url": "https://store.steampowered.com/app/1657630"
+        },
+        {
             "appid": 952060,
             "name": "Resident Evil 3",
             "playtime_2weeks": 0.3,
@@ -82,14 +90,6 @@ const steamData = {
             "hours": 20.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 3969990,
-            "name": "Ghost Hunting Journal Demo",
-            "playtime_2weeks": 0.1,
-            "hours": 0.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3969990/header.jpg",
-            "url": "https://store.steampowered.com/app/3969990"
         }
     ],
     "top_games": [
