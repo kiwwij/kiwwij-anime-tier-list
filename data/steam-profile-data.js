@@ -60,20 +60,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1281590"
         },
         {
+            "appid": 1657630,
+            "name": "Slime Rancher 2",
+            "playtime_2weeks": 2.0,
+            "hours": 31.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/header.jpg",
+            "url": "https://store.steampowered.com/app/1657630"
+        },
+        {
             "appid": 1245620,
             "name": "ELDEN RING",
             "playtime_2weeks": 1.3,
             "hours": 251.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
-        },
-        {
-            "appid": 1657630,
-            "name": "Slime Rancher 2",
-            "playtime_2weeks": 1.0,
-            "hours": 30.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/header.jpg",
-            "url": "https://store.steampowered.com/app/1657630"
         },
         {
             "appid": 952060,
