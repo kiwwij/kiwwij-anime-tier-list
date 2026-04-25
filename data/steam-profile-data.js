@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/570"
         },
         {
+            "appid": 1657630,
+            "name": "Slime Rancher 2",
+            "playtime_2weeks": 9.0,
+            "hours": 38.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/header.jpg",
+            "url": "https://store.steampowered.com/app/1657630"
+        },
+        {
             "appid": 433340,
             "name": "Slime Rancher",
             "playtime_2weeks": 8.8,
             "hours": 37.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
             "url": "https://store.steampowered.com/app/433340"
-        },
-        {
-            "appid": 1657630,
-            "name": "Slime Rancher 2",
-            "playtime_2weeks": 8.0,
-            "hours": 37.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/header.jpg",
-            "url": "https://store.steampowered.com/app/1657630"
         },
         {
             "appid": 1283400,
