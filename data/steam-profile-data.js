@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50"
+        "status": "Offline",
+        "statusColor": "#9E9E9E"
     },
     "stats": {
         "total_games": 263
@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 18.9,
+            "playtime_2weeks": 18.1,
             "hours": 3328.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -38,8 +38,8 @@ const steamData = {
         {
             "appid": 1657630,
             "name": "Slime Rancher 2",
-            "playtime_2weeks": 10.5,
-            "hours": 39.8,
+            "playtime_2weeks": 11.2,
+            "hours": 40.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/header.jpg",
             "url": "https://store.steampowered.com/app/1657630"
         },
