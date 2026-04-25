@@ -222,3 +222,17 @@ if (typeof tabButtons !== 'undefined') {
 }
 
 setTimeout(maybeSpawnZoro, 1000);
+
+const infoAlert = document.getElementById('infoAlert');
+const closeInfoAlertBtn = document.getElementById('closeInfoAlertBtn');
+
+if (infoAlert && closeInfoAlertBtn) {
+    if (localStorage.getItem('moviesInfoAlertDismissed') === 'true') {
+        infoAlert.style.display = 'none';
+    }
+
+    closeInfoAlertBtn.addEventListener('click', () => {
+        infoAlert.style.display = 'none';
+        localStorage.setItem('moviesInfoAlertDismissed', 'true'); 
+    });
+}

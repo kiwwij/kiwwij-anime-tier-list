@@ -142,13 +142,18 @@ async function startAnalysis() {
 
 function analyzeDropReasons() {
     totalEpsWasted = 0;
+    episodeDrops = { "1-я серия": 0, "2-я серия": 0, "3-я серия": 0, "4-я серия": 0, "5+ серий": 0 };
+
     droppedData.forEach(item => {
-        const match = item.review.match(/на (\d+)-?[йя]/);
+        const match = item.review.match(/на (\d+)/);
         if (match) {
             const ep = parseInt(match[1], 10);
             totalEpsWasted += ep;
             
-            if (ep === 0) episodeDrops["Скип"]++;
+            if (ep === 0) {
+                if (episodeDrops["Скип"] === undefined) episodeDrops["Скип"] = 0;
+                episodeDrops["Скип"]++;
+            }
             else if (ep === 1) episodeDrops["1-я серия"]++;
             else if (ep === 2) episodeDrops["2-я серия"]++;
             else if (ep === 3) episodeDrops["3-я серия"]++;
@@ -157,7 +162,8 @@ function analyzeDropReasons() {
         }
     });
 
-    const wastedHours = Math.round((totalEpsWasted * 24) / 60);
+    const wastedHours = Math.round((totalEpsWasted * 20) / 60);
+    
     const wastedEl = document.getElementById('wastedStats');
     if (wastedEl) {
         wastedEl.innerHTML = `Посмотрено перед дропом: <b>${totalEpsWasted} серий</b> <br> <span style="font-size: 0.8rem;">(~${wastedHours} часов потраченного времени впустую 💀)</span>`;

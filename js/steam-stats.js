@@ -38,10 +38,19 @@ function renderGames() {
     const recentSection = document.getElementById('recentSection');
     
     if (steamData.recent_games && steamData.recent_games.length > 0) {
-        if (recentSection) recentSection.style.display = 'block';
-        steamData.recent_games.forEach(game => {
-            if (recentContainer) recentContainer.appendChild(createGameCard(game, 'recent'));
+        const filteredRecentGames = steamData.recent_games.filter(game => {
+            const playtime = parseFloat(game.playtime_2weeks);
+            return !isNaN(playtime) && playtime >= 3;
         });
+
+        if (filteredRecentGames.length > 0) {
+            if (recentSection) recentSection.style.display = 'block';
+            filteredRecentGames.forEach(game => {
+                if (recentContainer) recentContainer.appendChild(createGameCard(game, 'recent'));
+            });
+        } else {
+            if (recentSection) recentSection.style.display = 'none';
+        }
     } else {
         if (recentSection) recentSection.style.display = 'none';
     }

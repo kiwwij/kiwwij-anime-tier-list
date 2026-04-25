@@ -60,6 +60,11 @@ if (typeof tierListData !== 'undefined') {
                 review: "Эпичный финал арки. Грустный финал Шаулы.", 
                 img: "rezero/25.webp"
             },
+            { 
+                title: "Re:Zero Ранобэ Том 38", 
+                review: "Новая Ехидна. Отличные битвы. Присцилла Бариель.", 
+                img: "rezero/38.webp"
+            },
             ],
         'A': [
             { 
@@ -227,38 +232,33 @@ if (typeof tierListData !== 'undefined') {
         'E': [],
         'F': [
             { 
-                title: "Re:Zero Ранобэ Том 38", 
-                review: "", 
-                img: "rezero/38.webp"
-            },
-            { 
                 title: "Re:Zero Ранобэ Том 39", 
-                review: "", 
+                review: "",
                 img: "rezero/39.webp"
             },
             { 
                 title: "Re:Zero Ранобэ Том 40", 
-                review: "", 
+                review: "",
                 img: "rezero/40.webp"
             },
             { 
                 title: "Re:Zero Ранобэ Том 41", 
-                review: "", 
+                review: "",
                 img: "rezero/41.webp"
             },
             { 
                 title: "Re:Zero Ранобэ Том 42", 
-                review: "", 
+                review: "",
                 img: "rezero/42.webp"
             },
             { 
                 title: "Re:Zero Ранобэ Том 43", 
-                review: "", 
+                review: "",
                 img: "rezero/43.webp"
             },
             { 
                 title: "Re:Zero Ранобэ Том 44", 
-                review: "", 
+                review: "",
                 img: "rezero/44.webp"
             },
             ]
