@@ -5846,7 +5846,7 @@ const musicData = [
     },
     {
         "title": "ex-freundin",
-        "artist": "luu, Nosgov, & iwannabemissed",
+        "artist": "luu & Nosgov",
         "playlist": "Dead inside",
         "duration": "1:35"
     },
