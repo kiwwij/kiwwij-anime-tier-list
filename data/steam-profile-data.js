@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 16.2,
+            "playtime_2weeks": 15.4,
             "hours": 3328.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -46,8 +46,8 @@ const steamData = {
         {
             "appid": 2050650,
             "name": "Resident Evil 4",
-            "playtime_2weeks": 10.5,
-            "hours": 42.4,
+            "playtime_2weeks": 11.0,
+            "hours": 42.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
             "url": "https://store.steampowered.com/app/2050650"
         },
