@@ -5317,34 +5317,10 @@ const musicData = [
         "duration": "1:34"
     },
     {
-        "title": "Весь этот мир",
-        "artist": "Русский Размер",
-        "playlist": "Dead inside",
-        "duration": "3:45"
-    },
-    {
-        "title": "Отпускай",
-        "artist": "Три дня дождя",
-        "playlist": "Dead inside",
-        "duration": "3:28"
-    },
-    {
-        "title": "Dabbackwood - Код Гиасс (случайно провалился в мир си)",
-        "artist": "Каидже",
-        "playlist": "Dead inside",
-        "duration": "2:28"
-    },
-    {
         "title": "По судьбе",
         "artist": "sqaute",
         "playlist": "Dead inside",
         "duration": "2:04"
-    },
-    {
-        "title": "Ствол 2",
-        "artist": "Sharingan",
-        "playlist": "Dead inside",
-        "duration": "1:06"
     },
     {
         "title": "стреляй",
@@ -5359,28 +5335,10 @@ const musicData = [
         "duration": "2:43"
     },
     {
-        "title": "шрамы",
-        "artist": "Violetta Sokolova",
-        "playlist": "Dead inside",
-        "duration": "2:55"
-    },
-    {
         "title": "Jane!",
         "artist": "The Long Faces",
         "playlist": "Dead inside",
         "duration": "3:07"
-    },
-    {
-        "title": "гладиатор/рыцарь",
-        "artist": "fallen777angel",
-        "playlist": "Dead inside",
-        "duration": "1:45"
-    },
-    {
-        "title": "МОЙ БАТЯ",
-        "artist": "ПОЛАРОЙД",
-        "playlist": "Dead inside",
-        "duration": "1:59"
     },
     {
         "title": "крестики-нолики",
@@ -5389,46 +5347,10 @@ const musicData = [
         "duration": "2:09"
     },
     {
-        "title": "let me go",
-        "artist": "otuka",
-        "playlist": "Dead inside",
-        "duration": "2:22"
-    },
-    {
         "title": "Reverie",
         "artist": "KRISTIEE",
         "playlist": "Dead inside",
         "duration": "2:10"
-    },
-    {
-        "title": "я не собираюсь мешать",
-        "artist": "KRISTIEE",
-        "playlist": "Dead inside",
-        "duration": "2:08"
-    },
-    {
-        "title": "Baby Melo, FADE031 - Сломана",
-        "artist": "SmokeSipper",
-        "playlist": "Dead inside",
-        "duration": "2:24"
-    },
-    {
-        "title": "Не забывай",
-        "artist": "sqaute",
-        "playlist": "Dead inside",
-        "duration": "2:15"
-    },
-    {
-        "title": "1-800",
-        "artist": "bbno$",
-        "playlist": "Dead inside",
-        "duration": "3:28"
-    },
-    {
-        "title": "From the Start",
-        "artist": "Good Kid",
-        "playlist": "Dead inside",
-        "duration": "2:31"
     },
     {
         "title": "Даже если",
@@ -5473,46 +5395,16 @@ const musicData = [
         "duration": "3:25"
     },
     {
-        "title": "Шиншиллы",
-        "artist": "ЛСП",
-        "playlist": "Dead inside",
-        "duration": "2:30"
-    },
-    {
-        "title": "fake ur face",
-        "artist": "s0rrow",
-        "playlist": "Dead inside",
-        "duration": "1:55"
-    },
-    {
-        "title": "hunter eyes (slowed)",
-        "artist": "laydownrot",
-        "playlist": "Dead inside",
-        "duration": "1:46"
-    },
-    {
         "title": "Teenage Dirtbag",
         "artist": "Wheatus",
         "playlist": "Dead inside",
         "duration": "4:02"
     },
     {
-        "title": "больше не будет",
-        "artist": "кариолемма",
-        "playlist": "Dead inside",
-        "duration": "2:41"
-    },
-    {
         "title": "ee nado x)",
         "artist": "dj trippie flameboy",
         "playlist": "Dead inside",
         "duration": "1:45"
-    },
-    {
-        "title": "mirrors demo (funk slowed)",
-        "artist": "overtonight throwaways, overtonight, & ovg!",
-        "playlist": "Dead inside",
-        "duration": "1:30"
     },
     {
         "title": "unhappy",
@@ -5527,40 +5419,16 @@ const musicData = [
         "duration": "2:20"
     },
     {
-        "title": "ALASKA PUFFER",
-        "artist": "паранойя",
-        "playlist": "Dead inside",
-        "duration": "2:02"
-    },
-    {
         "title": "сєрьожа//даремно",
         "artist": "Сметана band",
         "playlist": "Dead inside",
         "duration": "2:22"
     },
     {
-        "title": "целовал",
-        "artist": "THESCAMY",
-        "playlist": "Dead inside",
-        "duration": "1:19"
-    },
-    {
         "title": "Я вб'ю всіх богів",
         "artist": "хейтспіч",
         "playlist": "Dead inside",
         "duration": "3:39"
-    },
-    {
-        "title": "На стол",
-        "artist": "LonelyStash",
-        "playlist": "Dead inside",
-        "duration": "2:14"
-    },
-    {
-        "title": "Babydoll",
-        "artist": "Dominic Fike",
-        "playlist": "Dead inside",
-        "duration": "1:38"
     },
     {
         "title": "Наталія Валевська – Палала [official video]",
@@ -5573,12 +5441,6 @@ const musicData = [
         "artist": "auratoshi",
         "playlist": "Dead inside",
         "duration": "1:48"
-    },
-    {
-        "title": "Саня",
-        "artist": "ФРЭНК",
-        "playlist": "Dead inside",
-        "duration": "1:51"
     },
     {
         "title": "MARTINE ROSE",
@@ -5611,18 +5473,6 @@ const musicData = [
         "duration": "1:29"
     },
     {
-        "title": "Тупой",
-        "artist": "Юпи & boogshi",
-        "playlist": "Dead inside",
-        "duration": "1:50"
-    },
-    {
-        "title": "TryToFriend",
-        "artist": "FORTUNA 812",
-        "playlist": "Dead inside",
-        "duration": "1:53"
-    },
-    {
         "title": "Никогда",
         "artist": "Руслан Утюг",
         "playlist": "Dead inside",
@@ -5647,18 +5497,6 @@ const musicData = [
         "duration": "2:48"
     },
     {
-        "title": "Сліди Насильства",
-        "artist": "Апатія",
-        "playlist": "Dead inside",
-        "duration": "2:36"
-    },
-    {
-        "title": "Turbo (Majestic)",
-        "artist": "Big Baby Tape",
-        "playlist": "Dead inside",
-        "duration": "2:56"
-    },
-    {
         "title": "Down by the River",
         "artist": "Borislav Slavov",
         "playlist": "Dead inside",
@@ -5671,46 +5509,16 @@ const musicData = [
         "duration": "2:04"
     },
     {
-        "title": "rises the moon",
-        "artist": "DyadDiary",
-        "playlist": "Dead inside",
-        "duration": "1:37"
-    },
-    {
         "title": "Dragonborn",
         "artist": "Jeremy Soule",
         "playlist": "Dead inside",
         "duration": "3:56"
     },
     {
-        "title": "Lullaby for Cain (Instrumental)",
-        "artist": "Sinéad O'Connor",
-        "playlist": "Dead inside",
-        "duration": "3:29"
-    },
-    {
-        "title": "Feel",
-        "artist": "Lies of P",
-        "playlist": "Dead inside",
-        "duration": "3:58"
-    },
-    {
-        "title": "we fell in love in october",
-        "artist": "girl in red",
-        "playlist": "Dead inside",
-        "duration": "3:05"
-    },
-    {
         "title": "The End Has No End",
         "artist": "The Strokes",
         "playlist": "Dead inside",
         "duration": "3:06"
-    },
-    {
-        "title": "Dog of Flanders (1975 Nippon Animation Variant)- Japanese Opening",
-        "artist": "Don Hi",
-        "playlist": "Dead inside",
-        "duration": "1:22"
     },
     {
         "title": "Кінець фільму",
@@ -5723,12 +5531,6 @@ const musicData = [
         "artist": "Hitomi",
         "playlist": "Dead inside",
         "duration": "5:20"
-    },
-    {
-        "title": "Социально болен",
-        "artist": "Ручной рептилоид",
-        "playlist": "Dead inside",
-        "duration": "2:24"
     },
     {
         "title": "Грязный Кайф",
@@ -5755,52 +5557,16 @@ const musicData = [
         "duration": "1:39"
     },
     {
-        "title": "Болею тобой",
-        "artist": "Кишлак",
-        "playlist": "Dead inside",
-        "duration": "2:23"
-    },
-    {
         "title": "интернет любовь",
         "artist": "fallen777angel",
         "playlist": "Dead inside",
         "duration": "1:56"
     },
     {
-        "title": "Листівки",
-        "artist": "Electrobirds",
-        "playlist": "Dead inside",
-        "duration": "4:01"
-    },
-    {
         "title": "раздевайся",
         "artist": "семьсот семь",
         "playlist": "Dead inside",
         "duration": "2:41"
-    },
-    {
-        "title": "дайте выпилиться тут",
-        "artist": "лиззз",
-        "playlist": "Dead inside",
-        "duration": "3:16"
-    },
-    {
-        "title": "бывает больно 2.0",
-        "artist": "kurokov",
-        "playlist": "Dead inside",
-        "duration": "1:49"
-    },
-    {
-        "title": "8 миля",
-        "artist": "madk1d",
-        "playlist": "Dead inside",
-        "duration": "1:56"
-    },
-    {
-        "title": "Always",
-        "artist": "madk1d",
-        "playlist": "Dead inside",
-        "duration": "2:25"
     },
     {
         "title": "Демон",
@@ -5815,28 +5581,10 @@ const musicData = [
         "duration": "2:21"
     },
     {
-        "title": "слова",
-        "artist": "Violetta Sokolova",
-        "playlist": "Dead inside",
-        "duration": "2:45"
-    },
-    {
-        "title": "Ты не пришла и х с тобой",
-        "artist": "Мой Двор",
-        "playlist": "Dead inside",
-        "duration": "2:34"
-    },
-    {
         "title": "Останній день",
         "artist": "SadSvit",
         "playlist": "Dead inside",
         "duration": "3:00"
-    },
-    {
-        "title": "Race",
-        "artist": "Alex G",
-        "playlist": "Dead inside",
-        "duration": "3:44"
     },
     {
         "title": "таким как я",
@@ -5849,48 +5597,6 @@ const musicData = [
         "artist": "luu & Nosgov",
         "playlist": "Dead inside",
         "duration": "1:35"
-    },
-    {
-        "title": "Колготки",
-        "artist": "trepet",
-        "playlist": "Dead inside",
-        "duration": "1:25"
-    },
-    {
-        "title": "Вдячність",
-        "artist": "Luna Rozza",
-        "playlist": "Dead inside",
-        "duration": "1:49"
-    },
-    {
-        "title": "Дівчина з Порнхабу",
-        "artist": "Сусіди Стерплять",
-        "playlist": "Dead inside",
-        "duration": "2:47"
-    },
-    {
-        "title": "67 (Six Seven)",
-        "artist": "Gazan",
-        "playlist": "Dead inside",
-        "duration": "1:24"
-    },
-    {
-        "title": "Popipo ЖИВЧИК Parody | Ukr cover by  Sontheia",
-        "artist": "KitsuNetsu",
-        "playlist": "Dead inside",
-        "duration": "1:46"
-    },
-    {
-        "title": "migraine",
-        "artist": "jaydes",
-        "playlist": "Dead inside",
-        "duration": "0:32"
-    },
-    {
-        "title": "BANG BANG BANG - Chainsaw Man Song",
-        "artist": "Dark Tempo",
-        "playlist": "Dead inside",
-        "duration": "3:11"
     },
     {
         "title": "болен",
@@ -5909,12 +5615,6 @@ const musicData = [
         "artist": "nyan.mp3",
         "playlist": "Dead inside",
         "duration": "1:46"
-    },
-    {
-        "title": "слон",
-        "artist": "Violetta Sokolova",
-        "playlist": "Dead inside",
-        "duration": "2:18"
     },
     {
         "title": "阿修羅ちゃん - Ashura-chan",
@@ -6357,6 +6057,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 710,
-    "totalDurationSec": 172637,
+    "totalDurationSec": 165602,
     "lastUpdated": "Auto-generated"
 };
