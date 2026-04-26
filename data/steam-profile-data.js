@@ -54,7 +54,7 @@ const steamData = {
         {
             "appid": 1283400,
             "name": "Steelrising",
-            "playtime_2weeks": 7.4,
+            "playtime_2weeks": 6.7,
             "hours": 8.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
             "url": "https://store.steampowered.com/app/1283400"
@@ -76,20 +76,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1245620"
         },
         {
+            "appid": 2050650,
+            "name": "Resident Evil 4",
+            "playtime_2weeks": 1.0,
+            "hours": 32.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
+            "url": "https://store.steampowered.com/app/2050650"
+        },
+        {
             "appid": 952060,
             "name": "Resident Evil 3",
             "playtime_2weeks": 0.3,
             "hours": 2.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/header.jpg",
             "url": "https://store.steampowered.com/app/952060"
-        },
-        {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.2,
-            "hours": 20.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
