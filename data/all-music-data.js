@@ -721,12 +721,6 @@ const musicData = [
         "duration": "4:05"
     },
     {
-        "title": "YASUHA - Flyday Chinatown (rus sub) русские субтитры",
-        "artist": "XxillyLishieXD",
-        "playlist": "Dead inside",
-        "duration": "3:30"
-    },
-    {
         "title": "Banochka S Okurkami",
         "artist": "KOSMONAVTOV NET",
         "playlist": "Dead inside",
@@ -755,12 +749,6 @@ const musicData = [
         "artist": "mawshiro",
         "playlist": "Dead inside",
         "duration": "1:49"
-    },
-    {
-        "title": "Алена Швец- Токсичная (speed up)",
-        "artist": "alyonaxxg",
-        "playlist": "Dead inside",
-        "duration": "1:33"
     },
     {
         "title": "“Below The Surface” - FNAF SISTER LOCATION SONG | by Griffinilla",
@@ -881,12 +869,6 @@ const musicData = [
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:32"
-    },
-    {
-        "title": "5opka, MellSher x SLAVA MARLOW - Забуду Хламидию [Мэшап]",
-        "artist": "1NFERR",
-        "playlist": "Dead inside",
-        "duration": "2:05"
     },
     {
         "title": "Freaks",
@@ -1165,12 +1147,6 @@ const musicData = [
         "duration": "2:53"
     },
     {
-        "title": "MATRANG - Медуза",
-        "artist": "GAZ LIVE",
-        "playlist": "Dead inside",
-        "duration": "2:57"
-    },
-    {
         "title": "MellSher, 5opka - Киношка (lpshkaa diss)",
         "artist": "ФУГА TV",
         "playlist": "Dead inside",
@@ -1279,12 +1255,6 @@ const musicData = [
         "duration": "1:51"
     },
     {
-        "title": "Cupid (Twin Version)",
-        "artist": "FIFTY FIFTY",
-        "playlist": "Dead inside",
-        "duration": "3:23"
-    },
-    {
         "title": "uma2rman - Кажется",
         "artist": "nuts kh",
         "playlist": "Dead inside",
@@ -1339,12 +1309,6 @@ const musicData = [
         "duration": "1:57"
     },
     {
-        "title": "Патрон",
-        "artist": "Miyagi & Andy Panda",
-        "playlist": "Dead inside",
-        "duration": "3:45"
-    },
-    {
         "title": "MiyaGi feat. Эндшпиль - Тамада (2016)",
         "artist": "Baku Beats",
         "playlist": "Dead inside",
@@ -1373,12 +1337,6 @@ const musicData = [
         "artist": "DZIDZIO",
         "playlist": "Dead inside",
         "duration": "3:21"
-    },
-    {
-        "title": "Kill Eva - Psyho Dreams(SpeedUp|Nightcore)|| Я схожу с ума мерцая, как полярная звезда!",
-        "artist": "Dasford",
-        "playlist": "Dead inside",
-        "duration": "2:04"
     },
     {
         "title": "Толпы (Speed Up)",
@@ -1615,12 +1573,6 @@ const musicData = [
         "duration": "3:01"
     },
     {
-        "title": "GLICHERY - SEA OF PROBLEMS   ( EDIT PHONK )",
-        "artist": "KaiserZ",
-        "playlist": "Dead inside",
-        "duration": "1:51"
-    },
-    {
         "title": "разъедаешь мне нутро",
         "artist": "конец солнечных дней",
         "playlist": "Dead inside",
@@ -1643,12 +1595,6 @@ const musicData = [
         "artist": "Bonnie Black (marikuna)",
         "playlist": "Dead inside",
         "duration": "3:50"
-    },
-    {
-        "title": "2:00 (speed up)",
-        "artist": "enveel",
-        "playlist": "Dead inside",
-        "duration": "1:41"
     },
     {
         "title": "реквием",
@@ -1697,12 +1643,6 @@ const musicData = [
         "artist": "BUL LET",
         "playlist": "Dead inside",
         "duration": "3:24"
-    },
-    {
-        "title": "MUPP, prompto - Gotham",
-        "artist": "DUPkY",
-        "playlist": "Dead inside",
-        "duration": "1:51"
     },
     {
         "title": "NBSPLV - The lost soul down X Lost soul  [ Chainsaw Man Girls ]  ART: Inoitoh",
@@ -1957,12 +1897,6 @@ const musicData = [
         "duration": "2:01"
     },
     {
-        "title": "TIRED OF PROBLEMS (SPED UP)",
-        "artist": "TOLCHONOV",
-        "playlist": "Dead inside",
-        "duration": "1:50"
-    },
-    {
         "title": "раздевайся",
         "artist": "семьсот семь",
         "playlist": "Dead inside",
@@ -2111,18 +2045,6 @@ const musicData = [
         "artist": "Toast",
         "playlist": "Dead inside",
         "duration": "0:48"
-    },
-    {
-        "title": "Candy s3rl | MEME【OC】",
-        "artist": "レネさん",
-        "playlist": "Dead inside",
-        "duration": "0:55"
-    },
-    {
-        "title": "Hatsune Miku -  Boom, Boom, Boom, Boom!! (Cover)",
-        "artist": "Pinkcat",
-        "playlist": "Dead inside",
-        "duration": "2:35"
     },
     {
         "title": "EKATZE — Потрачено (Official Music Video)",
@@ -2305,12 +2227,6 @@ const musicData = [
         "duration": "0:59"
     },
     {
-        "title": "What Is Love (Baby Don't Hurt Me) [DDLC Animatic]",
-        "artist": "Hinaten",
-        "playlist": "Dead inside",
-        "duration": "1:26"
-    },
-    {
         "title": ": speed songs ::  Ooes права - Сквозь мои пальцы тянется лето Где бы ты не был здесь тебя нету ::",
         "artist": "нюся",
         "playlist": "Dead inside",
@@ -2413,12 +2329,6 @@ const musicData = [
         "duration": "1:15"
     },
     {
-        "title": "Не твоя",
-        "artist": "OTURRO",
-        "playlist": "Dead inside",
-        "duration": "1:56"
-    },
-    {
         "title": "верните в моду любовь",
         "artist": "две тысячи ярдов",
         "playlist": "Dead inside",
@@ -2435,12 +2345,6 @@ const musicData = [
         "artist": "Mada",
         "playlist": "Dead inside",
         "duration": "2:26"
-    },
-    {
-        "title": "МЫ - Возможно",
-        "artist": "Yakov Milenky",
-        "playlist": "Dead inside",
-        "duration": "2:17"
     },
     {
         "title": "Эрнест Меркель (Ernest Merkel) — Шайлушай (Полный трек, 2023)",
@@ -2563,22 +2467,10 @@ const musicData = [
         "duration": "3:25"
     },
     {
-        "title": "Shukusei!! Loli Kami Requiem! - Ui Shigure (RUS cover) by HaruWei",
-        "artist": "HaruWei",
-        "playlist": "Dead inside",
-        "duration": "4:34"
-    },
-    {
         "title": "Wham! - Last Christmas I gave you my heart (Last Christmas) (Lyrics)",
         "artist": "Cakes & Eclairs",
         "playlist": "Dead inside",
         "duration": "4:22"
-    },
-    {
-        "title": "VIDEOCLUB - Amour plastique (Lyrics / Paroles)",
-        "artist": "Sep 26, 2023",
-        "playlist": "Dead inside",
-        "duration": "3:53"
     },
     {
         "title": "Не отдам",
@@ -2591,12 +2483,6 @@ const musicData = [
         "artist": "Mada",
         "playlist": "Dead inside",
         "duration": "1:40"
-    },
-    {
-        "title": "Suicidal idol - ecstacy [prod. buhguul] (Slowed)",
-        "artist": "trynabeus archive ",
-        "playlist": "Dead inside",
-        "duration": "1:59"
     },
     {
         "title": "I'm So Lucky Lucky [4K]",
@@ -2755,12 +2641,6 @@ const musicData = [
         "duration": "2:39"
     },
     {
-        "title": "All Girls Are The Same",
-        "artist": "Juice WRLD",
-        "playlist": "Dead inside",
-        "duration": "2:57"
-    },
-    {
         "title": "Небо",
         "artist": "SadSvit",
         "playlist": "Dead inside",
@@ -2891,12 +2771,6 @@ const musicData = [
         "artist": "relax music",
         "playlist": "Dead inside",
         "duration": "2:25"
-    },
-    {
-        "title": "#BrooklynBloodPop!",
-        "artist": "SyKo",
-        "playlist": "Dead inside",
-        "duration": "2:26"
     },
     {
         "title": "Бесприданница",
@@ -3049,12 +2923,6 @@ const musicData = [
         "duration": "2:02"
     },
     {
-        "title": "You look lonely, I can fix that",
-        "artist": "IDLEGLANCE",
-        "playlist": "Dead inside",
-        "duration": "3:09"
-    },
-    {
         "title": "Мой мармеладный ( My Marmelade) - Katya Lel | Shania Yan Cover",
         "artist": "Shania Yan",
         "playlist": "Dead inside",
@@ -3173,12 +3041,6 @@ const musicData = [
         "artist": "Face Music",
         "playlist": "Dead inside",
         "duration": "3:01"
-    },
-    {
-        "title": "Нефертити (feat. Игорь цыба)",
-        "artist": "Ицык Цыпер",
-        "playlist": "Dead inside",
-        "duration": "2:10"
     },
     {
         "title": "Prekrasnoe Dalyoko",
@@ -3649,12 +3511,6 @@ const musicData = [
         "duration": "2:26"
     },
     {
-        "title": "Eban'ko — Запой",
-        "artist": "Eban'ko",
-        "playlist": "Dead inside",
-        "duration": "2:27"
-    },
-    {
         "title": "Утро",
         "artist": "Dayte tank (!)",
         "playlist": "Dead inside",
@@ -3755,12 +3611,6 @@ const musicData = [
         "artist": "Jbng",
         "playlist": "Dead inside",
         "duration": "3:07"
-    },
-    {
-        "title": "Sea of Thieves Tavern Tunes: We Shall Sail Together",
-        "artist": "Rare Ltd",
-        "playlist": "Dead inside",
-        "duration": "2:16"
     },
     {
         "title": "Зродились ми великої години COVER by Hibikit || Гімн ОУН УПА",
@@ -3991,12 +3841,6 @@ const musicData = [
         "duration": "2:56"
     },
     {
-        "title": "АКА, ШГШ - Последняя Любовь | COVER",
-        "artist": "ШГШ",
-        "playlist": "Dead inside",
-        "duration": "1:23"
-    },
-    {
         "title": "Plants vs Zombies Music Video",
         "artist": "Plants vs. Zombies",
         "playlist": "Dead inside",
@@ -4141,12 +3985,6 @@ const musicData = [
         "duration": "2:59"
     },
     {
-        "title": "Модный танец Арамзамзам",
-        "artist": "Diskoteka Avariya",
-        "playlist": "Dead inside",
-        "duration": "4:18"
-    },
-    {
         "title": "сладкая боль",
         "artist": "5mewmet",
         "playlist": "Dead inside",
@@ -4267,12 +4105,6 @@ const musicData = [
         "duration": "2:18"
     },
     {
-        "title": "FUNK DO BOUNCE (Super Slowed)",
-        "artist": "Ariis",
-        "playlist": "Dead inside",
-        "duration": "1:48"
-    },
-    {
         "title": "Cassette - Remix",
         "artist": "Walras",
         "playlist": "Dead inside",
@@ -4313,12 +4145,6 @@ const musicData = [
         "artist": "asteria",
         "playlist": "Dead inside",
         "duration": "2:04"
-    },
-    {
-        "title": "It's Going Down Now",
-        "artist": "Azumi Takahashi",
-        "playlist": "Dead inside",
-        "duration": "3:07"
     },
     {
         "title": "чай вдвоем - просто друг \\\\ speed up nightcore",
@@ -4541,12 +4367,6 @@ const musicData = [
         "artist": "ФРЭНК",
         "playlist": "Dead inside",
         "duration": "1:50"
-    },
-    {
-        "title": "Cafeteria Song | The Rainbooms | Full Color Coded Lyrics",
-        "artist": "•rosie•",
-        "playlist": "Dead inside",
-        "duration": "2:56"
     },
     {
         "title": "Equestria Girls (Cafeteria Song)",
@@ -5053,12 +4873,6 @@ const musicData = [
         "duration": "1:31"
     },
     {
-        "title": "FUKKIRETA / Ochame Kinou UKR cover by Kori || LamazeP ft. Kasane Teto українською",
-        "artist": "Hibikit",
-        "playlist": "Dead inside",
-        "duration": "1:31"
-    },
-    {
         "title": "аромат цветов",
         "artist": "PLUSIX",
         "playlist": "Dead inside",
@@ -5251,12 +5065,6 @@ const musicData = [
         "duration": "1:35"
     },
     {
-        "title": "＜エンディング映像フル＞「The 1」muque／TVアニメ「ONE PIECE」",
-        "artist": "ONE PIECE Official YouTube Channel",
-        "playlist": "Dead inside",
-        "duration": "1:31"
-    },
-    {
         "title": "Mushoku Tensei ED / Ending 4 - Creditless | 4K | 60fps | Lyrics",
         "artist": "Animeke Channel",
         "playlist": "Dead inside",
@@ -5305,12 +5113,6 @@ const musicData = [
         "duration": "1:52"
     },
     {
-        "title": "h4rtbrkr - i hate you",
-        "artist": "sick-sayu",
-        "playlist": "Dead inside",
-        "duration": "1:34"
-    },
-    {
         "title": "Весь этот мир",
         "artist": "Русский Размер",
         "playlist": "Dead inside",
@@ -5357,12 +5159,6 @@ const musicData = [
         "artist": "Violetta Sokolova",
         "playlist": "Dead inside",
         "duration": "2:55"
-    },
-    {
-        "title": "Jane!",
-        "artist": "The Long Faces",
-        "playlist": "Dead inside",
-        "duration": "3:07"
     },
     {
         "title": "гладиатор/рыцарь",
@@ -5539,22 +5335,10 @@ const musicData = [
         "duration": "1:19"
     },
     {
-        "title": "Я вб'ю всіх богів",
-        "artist": "хейтспіч",
-        "playlist": "Dead inside",
-        "duration": "3:39"
-    },
-    {
         "title": "На стол",
         "artist": "LonelyStash",
         "playlist": "Dead inside",
         "duration": "2:14"
-    },
-    {
-        "title": "Babydoll",
-        "artist": "Dominic Fike",
-        "playlist": "Dead inside",
-        "duration": "1:38"
     },
     {
         "title": "Наталія Валевська – Палала [official video]",
@@ -5623,12 +5407,6 @@ const musicData = [
         "duration": "2:55"
     },
     {
-        "title": "#ЛЯШКИВКУСНЯШКИ (EDIT VERSION) (prod.by Kolji)",
-        "artist": "ЯКОРЪ",
-        "playlist": "Dead inside",
-        "duration": "2:06"
-    },
-    {
         "title": "Flower",
         "artist": "MORGENSHTERN",
         "playlist": "Dead inside",
@@ -5669,12 +5447,6 @@ const musicData = [
         "artist": "DyadDiary",
         "playlist": "Dead inside",
         "duration": "1:37"
-    },
-    {
-        "title": "Dragonborn",
-        "artist": "Jeremy Soule",
-        "playlist": "Dead inside",
-        "duration": "3:56"
     },
     {
         "title": "Lullaby for Cain (Instrumental)",
@@ -6351,6 +6123,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 710,
-    "totalDurationSec": 172542,
+    "totalDurationSec": 166898,
     "lastUpdated": "Auto-generated"
 };
