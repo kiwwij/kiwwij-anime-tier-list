@@ -3475,12 +3475,6 @@ const musicData = [
         "duration": "2:43"
     },
     {
-        "title": "Мое видео",
-        "artist": "Hilli",
-        "playlist": "Dead inside",
-        "duration": "1:35"
-    },
-    {
         "title": "Джарахов, Тилэкс, Big Russian Boss, Young P&H, DK, MORGENSHTERN & ХЛЕБ — Гена Букин",
         "artist": "ДЖАРАХОВ",
         "playlist": "Dead inside",
@@ -6357,6 +6351,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 710,
-    "totalDurationSec": 172637,
+    "totalDurationSec": 172542,
     "lastUpdated": "Auto-generated"
 };
