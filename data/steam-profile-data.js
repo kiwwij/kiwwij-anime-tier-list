@@ -62,24 +62,24 @@ const steamData = {
         {
             "appid": 1281590,
             "name": "The Dark Pictures Anthology: House of Ashes",
-            "playtime_2weeks": 4.8,
-            "hours": 4.8,
+            "playtime_2weeks": 5.3,
+            "hours": 5.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281590/header.jpg",
             "url": "https://store.steampowered.com/app/1281590"
         },
         {
             "appid": 2050650,
             "name": "Resident Evil 4",
-            "playtime_2weeks": 3.0,
-            "hours": 34.9,
+            "playtime_2weeks": 3.5,
+            "hours": 35.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
             "url": "https://store.steampowered.com/app/2050650"
         },
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "playtime_2weeks": 1.3,
-            "hours": 251.6,
+            "playtime_2weeks": 1.4,
+            "hours": 251.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
         },
@@ -110,7 +110,7 @@ const steamData = {
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "hours": 251.6,
+            "hours": 251.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
         },
