@@ -211,6 +211,12 @@ const musicData = [
         "duration": "1:31"
     },
     {
+        "title": "ivycraft — люблю москву но снится london",
+        "artist": "Russian SoundCloud",
+        "playlist": "Main",
+        "duration": "1:33"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -1045,12 +1051,6 @@ const musicData = [
         "duration": "3:30"
     },
     {
-        "title": "mockingbird (speed up)",
-        "artist": "yadzy",
-        "playlist": "Dead inside",
-        "duration": "3:49"
-    },
-    {
         "title": "Ах мальчик-красавчик (trap remix) | (ft. Bass Line)",
         "artist": "Proof Nation",
         "playlist": "Dead inside",
@@ -1193,12 +1193,6 @@ const musicData = [
         "artist": "Alena Sergeevna",
         "playlist": "Dead inside",
         "duration": "3:33"
-    },
-    {
-        "title": "Somebody That I Used to Know (feat. Kimbra)",
-        "artist": "Gotye",
-        "playlist": "Dead inside",
-        "duration": "4:04"
     },
     {
         "title": "LOVV66 10М ОТ ДОМА COVER official music video",
@@ -1627,12 +1621,6 @@ const musicData = [
         "duration": "3:40"
     },
     {
-        "title": "Bumble bee - speed up",
-        "artist": "FawSongs",
-        "playlist": "Dead inside",
-        "duration": "2:44"
-    },
-    {
         "title": "Скучно",
         "artist": "билборды",
         "playlist": "Dead inside",
@@ -1649,12 +1637,6 @@ const musicData = [
         "artist": "taisynara",
         "playlist": "Dead inside",
         "duration": "2:15"
-    },
-    {
-        "title": "Neco Arc - Young Girl A / 少女A [AI cover]",
-        "artist": "KanareyDiBud",
-        "playlist": "Dead inside",
-        "duration": "4:03"
     },
     {
         "title": "Зеркало, скажи мне кто прекраснее всех... | Кирукиру Амо | Аниме клип",
@@ -1951,12 +1933,6 @@ const musicData = [
         "duration": "1:37"
     },
     {
-        "title": "Тетрадь Путина/Putin's Note",
-        "artist": "Chem99",
-        "playlist": "Dead inside",
-        "duration": "1:14"
-    },
-    {
         "title": "Пепел",
         "artist": "билборды",
         "playlist": "Dead inside",
@@ -2069,12 +2045,6 @@ const musicData = [
         "artist": "RdnStrider",
         "playlist": "Dead inside",
         "duration": "4:39"
-    },
-    {
-        "title": "Открываю пивко",
-        "artist": "Василий Дидляков",
-        "playlist": "Dead inside",
-        "duration": "3:10"
     },
     {
         "title": "Все мои друзья",
@@ -2677,12 +2647,6 @@ const musicData = [
         "duration": "1:45"
     },
     {
-        "title": "DARKSIDE",
-        "artist": "Neoni",
-        "playlist": "Dead inside",
-        "duration": "2:45"
-    },
-    {
         "title": "9MM x LOLI SHIGURE UI",
         "artist": "IDLEGLANCE",
         "playlist": "Dead inside",
@@ -2813,12 +2777,6 @@ const musicData = [
         "artist": "𝓦𝓱𝓲𝓽𝓮 𝓜𝓾𝓼𝓲𝓬 ❷",
         "playlist": "Dead inside",
         "duration": "1:09"
-    },
-    {
-        "title": "MXRBLE- Оставь свою депрессию дома",
-        "artist": "PhayeZz",
-        "playlist": "Dead inside",
-        "duration": "0:54"
     },
     {
         "title": "toxi$ — hurtz (speed up)",
@@ -3289,12 +3247,6 @@ const musicData = [
         "duration": "2:09"
     },
     {
-        "title": "alyona alyona & Jerry Heil - Teresa & Maria (LIVE) | Ukraine 🇺🇦 | First Semi-Final | Eurovision 2024",
-        "artist": "Eurovision Song Contest",
-        "playlist": "Dead inside",
-        "duration": "3:27"
-    },
-    {
         "title": "ЮЛЯ ТИМОШЕНКО - ЗУБАЖИННЯ by MONROTE",
         "artist": "MONROTE",
         "playlist": "Dead inside",
@@ -3445,12 +3397,6 @@ const musicData = [
         "duration": "1:56"
     },
     {
-        "title": "Steve Lacy – Static (Lyrics) English Or Spanish Song",
-        "artist": "Future Vibes",
-        "playlist": "Dead inside",
-        "duration": "2:39"
-    },
-    {
         "title": "Jump Up, Super Star! TikTok Remix",
         "artist": "E & T Vlogs",
         "playlist": "Dead inside",
@@ -3529,12 +3475,6 @@ const musicData = [
         "duration": "2:06"
     },
     {
-        "title": "Монеточка - кис кис кис | ANIMATED VIDEO |OCs|",
-        "artist": "Komrukko",
-        "playlist": "Dead inside",
-        "duration": "1:14"
-    },
-    {
         "title": "vira - I don't care",
         "artist": "nayhhz",
         "playlist": "Dead inside",
@@ -3545,12 +3485,6 @@ const musicData = [
         "artist": "Hibikit",
         "playlist": "Dead inside",
         "duration": "3:03"
-    },
-    {
-        "title": "A Cruel Angel's Thesis UKR cover by AriannaFray || Neon Genesis Evangelion українською",
-        "artist": "Hibikit",
-        "playlist": "Dead inside",
-        "duration": "4:04"
     },
     {
         "title": "PARTY LIKE A ROCKSTAR 「生徒会にも穴はある!」",
@@ -3607,12 +3541,6 @@ const musicData = [
         "duration": "1:20"
     },
     {
-        "title": "Barely Know You",
-        "artist": "Jbng",
-        "playlist": "Dead inside",
-        "duration": "3:07"
-    },
-    {
         "title": "Зродились ми великої години COVER by Hibikit || Гімн ОУН УПА",
         "artist": "Hibikit",
         "playlist": "Dead inside",
@@ -3653,12 +3581,6 @@ const musicData = [
         "artist": "Stintik ",
         "playlist": "Dead inside",
         "duration": "2:11"
-    },
-    {
-        "title": "One Reason | Deadman Wonderland (English Cover by KEH)",
-        "artist": "K",
-        "playlist": "Dead inside",
-        "duration": "4:23"
     },
     {
         "title": "One Piece - Ending 20 | Dear Sunrise",
@@ -3949,12 +3871,6 @@ const musicData = [
         "duration": "2:35"
     },
     {
-        "title": "TheFatRat, Slaydit & Anjulie - Stronger [Monstercat Release]",
-        "artist": "TheFatRat",
-        "playlist": "Dead inside",
-        "duration": "3:25"
-    },
-    {
         "title": "STYX HELIX",
         "artist": "MYTH & ROID",
         "playlist": "Dead inside",
@@ -4093,12 +4009,6 @@ const musicData = [
         "duration": "3:01"
     },
     {
-        "title": "alyona alyona & Jerry Heil - Teresa & Maria (LIVE) | Ukraine 🇺🇦 | Grand Final | Eurovision 2024",
-        "artist": "Eurovision Song Contest",
-        "playlist": "Dead inside",
-        "duration": "3:25"
-    },
-    {
         "title": "Танцуй или умри",
         "artist": "Lida",
         "playlist": "Dead inside",
@@ -4139,12 +4049,6 @@ const musicData = [
         "artist": "СТРУКТУРА ЩАСТЯ",
         "playlist": "Dead inside",
         "duration": "3:08"
-    },
-    {
-        "title": "WORST NIGHTM4RE (Slowed Down)",
-        "artist": "asteria",
-        "playlist": "Dead inside",
-        "duration": "2:04"
     },
     {
         "title": "чай вдвоем - просто друг \\\\ speed up nightcore",
@@ -4237,12 +4141,6 @@ const musicData = [
         "duration": "2:52"
     },
     {
-        "title": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai ED Part SectionFukashigi no Cart Theme",
-        "artist": "RØNIN 私",
-        "playlist": "Dead inside",
-        "duration": "4:00"
-    },
-    {
         "title": "Лиза",
         "artist": "Матис",
         "playlist": "Dead inside",
@@ -4301,12 +4199,6 @@ const musicData = [
         "artist": "5mewmet",
         "playlist": "Dead inside",
         "duration": "1:27"
-    },
-    {
-        "title": "Лизогуб, Давид Туров - ЭЩ ЭЩ (ПРЕМЬЕРА КЛИПА 2023)",
-        "artist": "LIZOGUB",
-        "playlist": "Dead inside",
-        "duration": "3:02"
     },
     {
         "title": "Lumi Athena - SMOKE IT OFF! ☆ ft. jnhygs",
@@ -4861,12 +4753,6 @@ const musicData = [
         "duration": "1:39"
     },
     {
-        "title": "STEP - Mio Honda / ЗАТКНИСЬ (для вп)",
-        "artist": "Очумелая Инес",
-        "playlist": "Dead inside",
-        "duration": "1:44"
-    },
-    {
         "title": "распять (folk remix)",
         "artist": "stel11a",
         "playlist": "Dead inside",
@@ -4913,12 +4799,6 @@ const musicData = [
         "artist": "loudcrime",
         "playlist": "Dead inside",
         "duration": "1:17"
-    },
-    {
-        "title": "Странное",
-        "artist": "Вещие Ослы",
-        "playlist": "Dead inside",
-        "duration": "4:23"
     },
     {
         "title": "Пятница",
@@ -5143,12 +5023,6 @@ const musicData = [
         "duration": "1:06"
     },
     {
-        "title": "стреляй",
-        "artist": "zhanulka",
-        "playlist": "Dead inside",
-        "duration": "1:48"
-    },
-    {
         "title": "СИЛУЕТИ (Апатія Remix)",
         "artist": "СТРУКТУРА ЩАСТЯ",
         "playlist": "Dead inside",
@@ -5347,12 +5221,6 @@ const musicData = [
         "duration": "3:44"
     },
     {
-        "title": "Prince",
-        "artist": "auratoshi",
-        "playlist": "Dead inside",
-        "duration": "1:48"
-    },
-    {
         "title": "Саня",
         "artist": "ФРЭНК",
         "playlist": "Dead inside",
@@ -5531,12 +5399,6 @@ const musicData = [
         "artist": "fallen777angel",
         "playlist": "Dead inside",
         "duration": "1:56"
-    },
-    {
-        "title": "Листівки",
-        "artist": "Electrobirds",
-        "playlist": "Dead inside",
-        "duration": "4:01"
     },
     {
         "title": "раздевайся",
@@ -6123,6 +5985,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 710,
-    "totalDurationSec": 166898,
+    "totalDurationSec": 162714,
     "lastUpdated": "Auto-generated"
 };
