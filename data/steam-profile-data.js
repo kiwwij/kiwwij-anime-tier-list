@@ -62,16 +62,16 @@ const steamData = {
         {
             "appid": 1281590,
             "name": "The Dark Pictures Anthology: House of Ashes",
-            "playtime_2weeks": 3.8,
-            "hours": 3.8,
+            "playtime_2weeks": 4.8,
+            "hours": 4.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281590/header.jpg",
             "url": "https://store.steampowered.com/app/1281590"
         },
         {
             "appid": 2050650,
             "name": "Resident Evil 4",
-            "playtime_2weeks": 2.0,
-            "hours": 33.9,
+            "playtime_2weeks": 3.0,
+            "hours": 34.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
             "url": "https://store.steampowered.com/app/2050650"
         },
