@@ -38,8 +38,8 @@ const steamData = {
         {
             "appid": 2050650,
             "name": "Resident Evil 4",
-            "playtime_2weeks": 12.0,
-            "hours": 43.9,
+            "playtime_2weeks": 13.0,
+            "hours": 44.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
             "url": "https://store.steampowered.com/app/2050650"
         },
