@@ -52,20 +52,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/433340"
         },
         {
+            "appid": 2050650,
+            "name": "Resident Evil 4",
+            "playtime_2weeks": 7.0,
+            "hours": 38.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
+            "url": "https://store.steampowered.com/app/2050650"
+        },
+        {
             "appid": 1283400,
             "name": "Steelrising",
             "playtime_2weeks": 6.2,
             "hours": 8.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
             "url": "https://store.steampowered.com/app/1283400"
-        },
-        {
-            "appid": 2050650,
-            "name": "Resident Evil 4",
-            "playtime_2weeks": 6.0,
-            "hours": 37.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
-            "url": "https://store.steampowered.com/app/2050650"
         },
         {
             "appid": 1281590,
