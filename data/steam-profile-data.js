@@ -70,16 +70,16 @@ const steamData = {
         {
             "appid": 2050650,
             "name": "Resident Evil 4",
-            "playtime_2weeks": 3.5,
-            "hours": 35.4,
+            "playtime_2weeks": 5.0,
+            "hours": 36.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
             "url": "https://store.steampowered.com/app/2050650"
         },
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "playtime_2weeks": 1.4,
-            "hours": 251.7,
+            "playtime_2weeks": 2.5,
+            "hours": 252.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
         },
@@ -110,7 +110,7 @@ const steamData = {
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "hours": 251.7,
+            "hours": 252.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
         },
