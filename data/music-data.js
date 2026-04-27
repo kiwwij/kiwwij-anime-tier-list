@@ -174,9 +174,14 @@ const musicData = [
         "title": "распять (folk remix)",
         "artist": "stel11a",
         "playlist": "Main"
+    },
+    {
+        "title": "ivycraft — люблю москву но снится london",
+        "artist": "Russian SoundCloud",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 18,
-    "totalDurationSec": 4536
+    "totalDurationSec": 4629
 };
