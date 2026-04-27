@@ -76,20 +76,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1283400"
         },
         {
+            "appid": 1326470,
+            "name": "Sons Of The Forest",
+            "playtime_2weeks": 3.0,
+            "hours": 36.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
+            "url": "https://store.steampowered.com/app/1326470"
+        },
+        {
             "appid": 1245620,
             "name": "ELDEN RING",
             "playtime_2weeks": 2.5,
             "hours": 252.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
-        },
-        {
-            "appid": 1326470,
-            "name": "Sons Of The Forest",
-            "playtime_2weeks": 2.0,
-            "hours": 35.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
-            "url": "https://store.steampowered.com/app/1326470"
         }
     ],
     "top_games": [
