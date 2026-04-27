@@ -86,8 +86,8 @@ const steamData = {
         {
             "appid": 1326470,
             "name": "Sons Of The Forest",
-            "playtime_2weeks": 0.5,
-            "hours": 34.2,
+            "playtime_2weeks": 2.0,
+            "hours": 35.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
             "url": "https://store.steampowered.com/app/1326470"
         }
