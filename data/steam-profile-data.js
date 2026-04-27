@@ -30,15 +30,15 @@ const steamData = {
         {
             "appid": 2050650,
             "name": "Resident Evil 4",
-            "playtime_2weeks": 15.9,
-            "hours": 47.8,
+            "playtime_2weeks": 17.9,
+            "hours": 49.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
             "url": "https://store.steampowered.com/app/2050650"
         },
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 15.3,
+            "playtime_2weeks": 14.5,
             "hours": 3328.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -60,20 +60,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/433340"
         },
         {
-            "appid": 1283400,
-            "name": "Steelrising",
-            "playtime_2weeks": 6.2,
-            "hours": 8.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
-            "url": "https://store.steampowered.com/app/1283400"
-        },
-        {
             "appid": 1281590,
             "name": "The Dark Pictures Anthology: House of Ashes",
             "playtime_2weeks": 5.3,
             "hours": 5.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281590/header.jpg",
             "url": "https://store.steampowered.com/app/1281590"
+        },
+        {
+            "appid": 1283400,
+            "name": "Steelrising",
+            "playtime_2weeks": 4.9,
+            "hours": 8.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
+            "url": "https://store.steampowered.com/app/1283400"
         },
         {
             "appid": 1245620,
