@@ -2509,7 +2509,7 @@ const musicData = [
         "duration": "4:27"
     },
     {
-        "title": "Happy Nation - Radio Edit",
+        "title": "Happy Nation (radio edit)",
         "artist": "Ace of Base",
         "playlist": "Dead inside",
         "duration": "3:32"
