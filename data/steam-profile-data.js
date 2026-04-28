@@ -60,20 +60,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/433340"
         },
         {
+            "appid": 1326470,
+            "name": "Sons Of The Forest",
+            "playtime_2weeks": 7.6,
+            "hours": 41.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
+            "url": "https://store.steampowered.com/app/1326470"
+        },
+        {
             "appid": 1281590,
             "name": "The Dark Pictures Anthology: House of Ashes",
             "playtime_2weeks": 5.3,
             "hours": 5.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281590/header.jpg",
             "url": "https://store.steampowered.com/app/1281590"
-        },
-        {
-            "appid": 1326470,
-            "name": "Sons Of The Forest",
-            "playtime_2weeks": 5.1,
-            "hours": 38.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
-            "url": "https://store.steampowered.com/app/1326470"
         },
         {
             "appid": 1283400,
