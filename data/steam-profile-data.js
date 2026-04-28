@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E"
+        "status": "In Game",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 263
@@ -68,20 +68,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1281590"
         },
         {
+            "appid": 1326470,
+            "name": "Sons Of The Forest",
+            "playtime_2weeks": 5.1,
+            "hours": 38.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
+            "url": "https://store.steampowered.com/app/1326470"
+        },
+        {
             "appid": 1283400,
             "name": "Steelrising",
             "playtime_2weeks": 4.7,
             "hours": 8.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
             "url": "https://store.steampowered.com/app/1283400"
-        },
-        {
-            "appid": 1326470,
-            "name": "Sons Of The Forest",
-            "playtime_2weeks": 4.1,
-            "hours": 37.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
-            "url": "https://store.steampowered.com/app/1326470"
         },
         {
             "appid": 1245620,
