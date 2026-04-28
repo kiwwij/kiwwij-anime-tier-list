@@ -84,12 +84,12 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1283400"
         },
         {
-            "appid": 1245620,
-            "name": "ELDEN RING",
+            "appid": 620,
+            "name": "Portal 2",
             "playtime_2weeks": 2.5,
-            "hours": 252.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
-            "url": "https://store.steampowered.com/app/1245620"
+            "hours": 20.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/620/header.jpg",
+            "url": "https://store.steampowered.com/app/620"
         }
     ],
     "top_games": [
