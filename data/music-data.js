@@ -179,9 +179,14 @@ const musicData = [
         "title": "ivycraft — люблю москву но снится london",
         "artist": "Russian SoundCloud",
         "playlist": "Main"
+    },
+    {
+        "title": "SIDEL ODIN HARDSTYLE",
+        "artist": "Riversmelt",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 18,
-    "totalDurationSec": 4629
+    "totalDurationSec": 4733
 };
