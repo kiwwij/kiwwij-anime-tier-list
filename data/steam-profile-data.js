@@ -44,20 +44,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/570"
         },
         {
+            "appid": 1326470,
+            "name": "Sons Of The Forest",
+            "playtime_2weeks": 11.6,
+            "hours": 45.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
+            "url": "https://store.steampowered.com/app/1326470"
+        },
+        {
             "appid": 1657630,
             "name": "Slime Rancher 2",
             "playtime_2weeks": 11.2,
             "hours": 40.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/header.jpg",
             "url": "https://store.steampowered.com/app/1657630"
-        },
-        {
-            "appid": 1326470,
-            "name": "Sons Of The Forest",
-            "playtime_2weeks": 9.6,
-            "hours": 43.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
-            "url": "https://store.steampowered.com/app/1326470"
         },
         {
             "appid": 433340,
