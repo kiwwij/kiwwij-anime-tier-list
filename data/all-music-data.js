@@ -2281,12 +2281,6 @@ const musicData = [
         "duration": "2:30"
     },
     {
-        "title": "Эрнест Меркель — Шайлушай (Сниппет)",
-        "artist": "Бибизяна Манки",
-        "playlist": "Dead inside",
-        "duration": "0:21"
-    },
-    {
         "title": "Фанера",
         "artist": "MellSher",
         "playlist": "Dead inside",
@@ -2497,12 +2491,6 @@ const musicData = [
         "duration": "3:19"
     },
     {
-        "title": "Банкомат",
-        "artist": "Dead Blonde",
-        "playlist": "Dead inside",
-        "duration": "3:20"
-    },
-    {
         "title": "Музыка нас связала",
         "artist": "Мираж",
         "playlist": "Dead inside",
@@ -2531,12 +2519,6 @@ const musicData = [
         "artist": "Lida",
         "playlist": "Dead inside",
         "duration": "2:57"
-    },
-    {
-        "title": "МакSим-не отдам (speed up)",
-        "artist": "—stop_music",
-        "playlist": "Dead inside",
-        "duration": "2:27"
     },
     {
         "title": "Клан",
@@ -3131,12 +3113,6 @@ const musicData = [
         "artist": "Алюминий",
         "playlist": "Dead inside",
         "duration": "2:32"
-    },
-    {
-        "title": "5mewmet - Покажи мне свои тити (Speed Up)",
-        "artist": "Mini Up",
-        "playlist": "Dead inside",
-        "duration": "1:31"
     },
     {
         "title": "Последняя Любовь (Acoustic Live)",
@@ -4927,12 +4903,6 @@ const musicData = [
         "duration": "3:31"
     },
     {
-        "title": "黄昏のBAY CITY",
-        "artist": "八神純子",
-        "playlist": "Dead inside",
-        "duration": "4:11"
-    },
-    {
         "title": "真夜中のドア〜stay with me (Original club mix) - Mayonaka no Door~stay with me (Original club mix)",
         "artist": "Miki Matsubara",
         "playlist": "Dead inside",
@@ -5985,6 +5955,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 792,
-    "totalDurationSec": 162714,
+    "totalDurationSec": 162004,
     "lastUpdated": "Auto-generated"
 };
