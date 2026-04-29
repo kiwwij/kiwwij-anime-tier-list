@@ -84,12 +84,12 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1283400"
         },
         {
-            "appid": 620,
-            "name": "Portal 2",
-            "playtime_2weeks": 3.8,
-            "hours": 21.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/620/header.jpg",
-            "url": "https://store.steampowered.com/app/620"
+            "appid": 1943950,
+            "name": "Escape the Backrooms",
+            "playtime_2weeks": 4.5,
+            "hours": 10.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1943950/header.jpg",
+            "url": "https://store.steampowered.com/app/1943950"
         }
     ],
     "top_games": [
