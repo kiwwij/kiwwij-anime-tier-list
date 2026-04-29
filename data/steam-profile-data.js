@@ -68,6 +68,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/433340"
         },
         {
+            "appid": 1943950,
+            "name": "Escape the Backrooms",
+            "playtime_2weeks": 5.5,
+            "hours": 11.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1943950/header.jpg",
+            "url": "https://store.steampowered.com/app/1943950"
+        },
+        {
             "appid": 1281590,
             "name": "The Dark Pictures Anthology: House of Ashes",
             "playtime_2weeks": 5.3,
@@ -82,14 +90,6 @@ const steamData = {
             "hours": 8.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
             "url": "https://store.steampowered.com/app/1283400"
-        },
-        {
-            "appid": 1943950,
-            "name": "Escape the Backrooms",
-            "playtime_2weeks": 4.5,
-            "hours": 10.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1943950/header.jpg",
-            "url": "https://store.steampowered.com/app/1943950"
         }
     ],
     "top_games": [
