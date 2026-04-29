@@ -1478,7 +1478,7 @@ const musicData = [
     },
     {
         "title": "Следующая станция",
-        "artist": "xMax",
+        "artist": "suramura",
         "playlist": "Dead inside",
         "duration": "2:50"
     },
@@ -2749,7 +2749,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О, Боже, какой мужчина!",
+        "title": "О боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
