@@ -5425,6 +5425,12 @@ const musicData = [
         "duration": "2:23"
     },
     {
+        "title": "свалка",
+        "artist": "тёмный принц & ashleyrossmith",
+        "playlist": "Dead inside",
+        "duration": "1:22"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -5601,6 +5607,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 793,
-    "totalDurationSec": 148299,
+    "totalDurationSec": 148381,
     "lastUpdated": "Auto-generated"
 };
