@@ -8,7 +8,7 @@ const steamData = {
         "statusColor": "#4CAF50"
     },
     "stats": {
-        "total_games": 263
+        "total_games": 264
     },
     "recent_games": [
         {
@@ -30,8 +30,8 @@ const steamData = {
         {
             "appid": 2050650,
             "name": "Resident Evil 4",
-            "playtime_2weeks": 28.3,
-            "hours": 60.1,
+            "playtime_2weeks": 30.8,
+            "hours": 62.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
             "url": "https://store.steampowered.com/app/2050650"
         },
