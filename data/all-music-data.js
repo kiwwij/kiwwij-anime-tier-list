@@ -2803,6 +2803,12 @@ const musicData = [
         "duration": "0:13"
     },
     {
+        "title": "GAYAZOV $ BROTHER $ - CREDO | 2018 The premiere",
+        "artist": "Zhara Music",
+        "playlist": "Dead inside",
+        "duration": "3:23"
+    },
+    {
         "title": "(текст) Песня о привязанности - Автоспорт",
         "artist": "VIRGIN",
         "playlist": "Dead inside",
@@ -5607,6 +5613,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 814,
-    "totalDurationSec": 148381,
+    "totalDurationSec": 148584,
     "lastUpdated": "Auto-generated"
 };
