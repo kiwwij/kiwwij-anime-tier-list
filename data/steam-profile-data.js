@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50"
+        "status": "Offline",
+        "statusColor": "#9E9E9E"
     },
     "stats": {
         "total_games": 263
@@ -76,20 +76,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1943950"
         },
         {
+            "appid": 4397180,
+            "name": "Your Friend's Mom",
+            "playtime_2weeks": 6.2,
+            "hours": 6.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4397180/header.jpg",
+            "url": "https://store.steampowered.com/app/4397180"
+        },
+        {
             "appid": 250380,
             "name": "Knock-knock",
             "playtime_2weeks": 5.5,
             "hours": 8.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/250380/header.jpg",
             "url": "https://store.steampowered.com/app/250380"
-        },
-        {
-            "appid": 1281590,
-            "name": "The Dark Pictures Anthology: House of Ashes",
-            "playtime_2weeks": 5.3,
-            "hours": 5.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281590/header.jpg",
-            "url": "https://store.steampowered.com/app/1281590"
         }
     ],
     "top_games": [
