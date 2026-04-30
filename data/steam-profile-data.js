@@ -46,8 +46,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 13.0,
-            "hours": 3329.3,
+            "playtime_2weeks": 13.1,
+            "hours": 3329.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -76,27 +76,27 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1943950"
         },
         {
+            "appid": 250380,
+            "name": "Knock-knock",
+            "playtime_2weeks": 5.5,
+            "hours": 8.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/250380/header.jpg",
+            "url": "https://store.steampowered.com/app/250380"
+        },
+        {
             "appid": 1281590,
             "name": "The Dark Pictures Anthology: House of Ashes",
             "playtime_2weeks": 5.3,
             "hours": 5.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281590/header.jpg",
             "url": "https://store.steampowered.com/app/1281590"
-        },
-        {
-            "appid": 250380,
-            "name": "Knock-knock",
-            "playtime_2weeks": 4.4,
-            "hours": 7.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/250380/header.jpg",
-            "url": "https://store.steampowered.com/app/250380"
         }
     ],
     "top_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3329.3,
+            "hours": 3329.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
