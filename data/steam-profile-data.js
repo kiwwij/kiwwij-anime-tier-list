@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E"
+        "status": "In Game",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 263
@@ -46,7 +46,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 13.7,
+            "playtime_2weeks": 13.0,
             "hours": 3329.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -84,12 +84,12 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1281590"
         },
         {
-            "appid": 1283400,
-            "name": "Steelrising",
-            "playtime_2weeks": 4.7,
-            "hours": 8.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
-            "url": "https://store.steampowered.com/app/1283400"
+            "appid": 620,
+            "name": "Portal 2",
+            "playtime_2weeks": 3.8,
+            "hours": 21.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/620/header.jpg",
+            "url": "https://store.steampowered.com/app/620"
         }
     ],
     "top_games": [
