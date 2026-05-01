@@ -223,6 +223,12 @@ const musicData = [
         "duration": "1:44"
     },
     {
+        "title": "В РОССИИ КЛАССНО!",
+        "artist": "Лирик & st4rdust",
+        "playlist": "Main",
+        "duration": "1:59"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -5613,6 +5619,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 818,
-    "totalDurationSec": 148584,
+    "totalDurationSec": 148703,
     "lastUpdated": "Auto-generated"
 };
