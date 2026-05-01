@@ -2803,7 +2803,7 @@ const musicData = [
         "duration": "0:13"
     },
     {
-        "title": "GAYAZOV $ BROTHER $ - CREDO | 2018 The premiere",
+        "title": "GAYAZOV$ BROTHER$ - КРЕДО | 2018 Премьера",
         "artist": "Zhara Music",
         "playlist": "Dead inside",
         "duration": "3:23"
