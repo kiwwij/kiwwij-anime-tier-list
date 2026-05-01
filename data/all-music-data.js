@@ -223,12 +223,6 @@ const musicData = [
         "duration": "1:44"
     },
     {
-        "title": "В РОССИИ КЛАССНО!",
-        "artist": "Лирик & st4rdust",
-        "playlist": "Main",
-        "duration": "1:59"
-    },
-    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -697,12 +691,6 @@ const musicData = [
         "duration": "2:47"
     },
     {
-        "title": "vendetta!",
-        "artist": "MUPP",
-        "playlist": "Dead inside",
-        "duration": "1:48"
-    },
-    {
         "title": "дети немой страны",
         "artist": "конец солнечных дней",
         "playlist": "Dead inside",
@@ -901,18 +889,6 @@ const musicData = [
         "duration": "2:35"
     },
     {
-        "title": "Murder in My Mind (Slowed + Reverb)",
-        "artist": "Kordhell",
-        "playlist": "Dead inside",
-        "duration": "2:25"
-    },
-    {
-        "title": "ОН НЕ БЫЛ ПРЕДАТЕЛЕМ | Among Us | Сыендук x MiatriSs",
-        "artist": "sndk",
-        "playlist": "Dead inside",
-        "duration": "4:06"
-    },
-    {
         "title": "Степень искренности",
         "artist": "Volkprod",
         "playlist": "Dead inside",
@@ -985,12 +961,6 @@ const musicData = [
         "duration": "3:59"
     },
     {
-        "title": "Tom's Diner",
-        "artist": "Suzanne Vega",
-        "playlist": "Dead inside",
-        "duration": "3:48"
-    },
-    {
         "title": "Human",
         "artist": "Rag'n'Bone Man",
         "playlist": "Dead inside",
@@ -1045,12 +1015,6 @@ const musicData = [
         "duration": "2:58"
     },
     {
-        "title": "сумасшедшая speed up",
-        "artist": "qizzix",
-        "playlist": "Dead inside",
-        "duration": "2:16"
-    },
-    {
         "title": "финала не будет",
         "artist": "конец солнечных дней",
         "playlist": "Dead inside",
@@ -1073,12 +1037,6 @@ const musicData = [
         "artist": "ФУГА TV",
         "playlist": "Dead inside",
         "duration": "3:45"
-    },
-    {
-        "title": "Opening de Arcane 2021/ League of Legends",
-        "artist": "Guardians Origins. ",
-        "playlist": "Dead inside",
-        "duration": "1:08"
     },
     {
         "title": "Кинь мне крест",
@@ -1225,12 +1183,6 @@ const musicData = [
         "duration": "3:53"
     },
     {
-        "title": "Говновоз (клип)",
-        "artist": "Баклажан Баклажанов",
-        "playlist": "Dead inside",
-        "duration": "4:01"
-    },
-    {
         "title": "5sta Family - Зачем (Официальное видео)",
         "artist": "5sta Family",
         "playlist": "Dead inside",
@@ -1253,12 +1205,6 @@ const musicData = [
         "artist": "Baby Cute",
         "playlist": "Dead inside",
         "duration": "2:13"
-    },
-    {
-        "title": "MiyaGi feat. Эндшпиль - Тамада (2016)",
-        "artist": "Baku Beats",
-        "playlist": "Dead inside",
-        "duration": "4:22"
     },
     {
         "title": "Король и Шут-Кукла Колдуна{speed up}",
@@ -1387,12 +1333,6 @@ const musicData = [
         "duration": "4:12"
     },
     {
-        "title": "ooes – последнее лето SPEED UP",
-        "artist": "LOVELIIII",
-        "playlist": "Dead inside",
-        "duration": "1:45"
-    },
-    {
         "title": "CRASH BASH",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
@@ -1401,12 +1341,6 @@ const musicData = [
     {
         "title": "Mercury: Retrograde",
         "artist": "GHOSTEMANE",
-        "playlist": "Dead inside",
-        "duration": "2:06"
-    },
-    {
-        "title": "Kill Eva & ENCASSATOR - Psycho Dreams (Sped Up)",
-        "artist": "ＴＲＡＳＨ 新 ドラゴン",
         "playlist": "Dead inside",
         "duration": "2:06"
     },
@@ -1427,12 +1361,6 @@ const musicData = [
         "artist": "Lorde",
         "playlist": "Dead inside",
         "duration": "2:36"
-    },
-    {
-        "title": "PINOCCHIOP – Anonymous M • Delikora × @RouKage • RUS cover",
-        "artist": "Delikora",
-        "playlist": "Dead inside",
-        "duration": "2:43"
     },
     {
         "title": "ты ушел и я одна",
@@ -1457,12 +1385,6 @@ const musicData = [
         "artist": "ddeks",
         "playlist": "Dead inside",
         "duration": "1:40"
-    },
-    {
-        "title": "Hikikomori Kai, Shadowraze - skyline ryodan (текст песни)",
-        "artist": "BestBeat381",
-        "playlist": "Dead inside",
-        "duration": "1:26"
     },
     {
         "title": "Звезда упала",
@@ -1567,12 +1489,6 @@ const musicData = [
         "duration": "2:25"
     },
     {
-        "title": "𝐂𝐡𝐚𝐢𝐧𝐬𝐚𝐰 𝐌𝐚𝐧 𝐆𝐢𝐫𝐥𝐬 𝐄𝐝𝐢𝐭 ││ 𝐓𝐡𝐞 𝐥𝐨𝐬𝐭 𝐬𝐨𝐮𝐥 𝐝𝐨𝐰𝐧 𝐗 𝐋𝐨𝐬𝐭 𝐬𝐨𝐮𝐥 - 𝐍𝐁𝐒𝐏𝐋𝐕",
-        "artist": "Hilli",
-        "playlist": "Dead inside",
-        "duration": "2:15"
-    },
-    {
         "title": "skyline ryodan x Cats",
         "artist": "Rossi",
         "playlist": "Dead inside",
@@ -1595,12 +1511,6 @@ const musicData = [
         "artist": "CrazyLajla",
         "playlist": "Dead inside",
         "duration": "0:43"
-    },
-    {
-        "title": "Butterfly",
-        "artist": "Nenadid",
-        "playlist": "Dead inside",
-        "duration": "3:06"
     },
     {
         "title": "cmh - айм сорри (speed up)",
@@ -1805,12 +1715,6 @@ const musicData = [
         "artist": "twix1",
         "playlist": "Dead inside",
         "duration": "2:10"
-    },
-    {
-        "title": "Танцы в труселях",
-        "artist": "Мирби",
-        "playlist": "Dead inside",
-        "duration": "0:34"
     },
     {
         "title": "[AMV]   Little Dark Age「Neon Genesis Evangelion」",
@@ -2077,12 +1981,6 @@ const musicData = [
         "duration": "0:59"
     },
     {
-        "title": "Mobius",
-        "artist": "Project Mons",
-        "playlist": "Dead inside",
-        "duration": "2:16"
-    },
-    {
         "title": "А может просто негром стать",
         "artist": "TepHoBbl1 kycT",
         "playlist": "Dead inside",
@@ -2111,12 +2009,6 @@ const musicData = [
         "artist": "лось",
         "playlist": "Dead inside",
         "duration": "0:37"
-    },
-    {
-        "title": "Ивангай - Нафиг (анимация)",
-        "artist": "лось",
-        "playlist": "Dead inside",
-        "duration": "0:28"
     },
     {
         "title": "Alan Walker - The Spectre",
@@ -2197,12 +2089,6 @@ const musicData = [
         "duration": "2:56"
     },
     {
-        "title": "Котик",
-        "artist": "enveel",
-        "playlist": "Dead inside",
-        "duration": "2:13"
-    },
-    {
         "title": "Салют, Вера",
         "artist": "Валерий Меладзе и Константин Меладзе",
         "playlist": "Dead inside",
@@ -2213,12 +2099,6 @@ const musicData = [
         "artist": "SuperEDEDI",
         "playlist": "Dead inside",
         "duration": "3:11"
-    },
-    {
-        "title": "【最新版】ホロライブメンバーが歌い上げる「強風オールバック」 full.",
-        "artist": "きゃきゃろっと【ホロライブ切り抜きch】",
-        "playlist": "Dead inside",
-        "duration": "2:15"
     },
     {
         "title": "raingurl - meme | bright colors",
@@ -2249,12 +2129,6 @@ const musicData = [
         "artist": "Vampirus",
         "playlist": "Dead inside",
         "duration": "1:12"
-    },
-    {
-        "title": "I Really Want to Stay at Your House / Cyberpunk Edgerunners | Rrrr Music Cover ft.庭米 @mi0922 |",
-        "artist": "Rrrr Music",
-        "playlist": "Dead inside",
-        "duration": "4:34"
     },
     {
         "title": "Лизогуб, Давид Туров - ЭЩ ЭЩ (ПРЕМЬЕРА)",
@@ -2429,12 +2303,6 @@ const musicData = [
         "artist": "Rae Sremmurd",
         "playlist": "Dead inside",
         "duration": "4:52"
-    },
-    {
-        "title": "Anguish, Exiled - Гуляю рассветы встречаю",
-        "artist": "Top Music",
-        "playlist": "Dead inside",
-        "duration": "2:25"
     },
     {
         "title": "Царица",
@@ -2863,12 +2731,6 @@ const musicData = [
         "duration": "3:34"
     },
     {
-        "title": "Ai Hoshino sings Ievan Polkka (Ai Cover)",
-        "artist": "RKoth",
-        "playlist": "Dead inside",
-        "duration": "2:27"
-    },
-    {
         "title": "ee nado x)",
         "artist": "dj trippie flameboy",
         "playlist": "Dead inside",
@@ -3031,12 +2893,6 @@ const musicData = [
         "duration": "3:27"
     },
     {
-        "title": "Два кусочека колбаски",
-        "artist": "Kombinaciya",
-        "playlist": "Dead inside",
-        "duration": "4:00"
-    },
-    {
         "title": "Зайчик Шнуфель - Послушай!.mp4",
         "artist": "Андрей Чубко",
         "playlist": "Dead inside",
@@ -3197,12 +3053,6 @@ const musicData = [
         "artist": "asteria",
         "playlist": "Dead inside",
         "duration": "2:03"
-    },
-    {
-        "title": "It's my life (Russian version)",
-        "artist": "Dav1d",
-        "playlist": "Dead inside",
-        "duration": "2:26"
     },
     {
         "title": "Утро",
@@ -3445,12 +3295,6 @@ const musicData = [
         "duration": "2:31"
     },
     {
-        "title": "мужиков надо любить",
-        "artist": "Любовь Березовская",
-        "playlist": "Dead inside",
-        "duration": "2:51"
-    },
-    {
         "title": "Katy Perry - Hot N Cold (Lyrics)",
         "artist": "bemu",
         "playlist": "Dead inside",
@@ -3581,12 +3425,6 @@ const musicData = [
         "artist": "ФУГА TV",
         "playlist": "Dead inside",
         "duration": "2:35"
-    },
-    {
-        "title": "STYX HELIX",
-        "artist": "MYTH & ROID",
-        "playlist": "Dead inside",
-        "duration": "4:46"
     },
     {
         "title": "Ёлка - Прованс (yayaheart hardstyle remix)",
@@ -3731,12 +3569,6 @@ const musicData = [
         "artist": "Матис",
         "playlist": "Dead inside",
         "duration": "2:34"
-    },
-    {
-        "title": "Wasteland",
-        "artist": "Royal & the Serpent",
-        "playlist": "Dead inside",
-        "duration": "2:42"
     },
     {
         "title": "ELCOFFF - KISS KISS MALCHIK (HARDSTYLE REMIX) FULL",
@@ -4165,12 +3997,6 @@ const musicData = [
         "duration": "2:56"
     },
     {
-        "title": "Anor Londo",
-        "artist": "auratoshi",
-        "playlist": "Dead inside",
-        "duration": "1:46"
-    },
-    {
         "title": "возьму гитару",
         "artist": "schastlivj",
         "playlist": "Dead inside",
@@ -4279,12 +4105,6 @@ const musicData = [
         "duration": "3:47"
     },
     {
-        "title": "nowayback - зачем (ft.5sta) (jerk remix)",
-        "artist": "vampire",
-        "playlist": "Dead inside",
-        "duration": "2:37"
-    },
-    {
         "title": "Распять на баяне(madk1d + tewiq + stel11a)",
         "artist": "ера",
         "playlist": "Dead inside",
@@ -4295,12 +4115,6 @@ const musicData = [
         "artist": "Erika de Bonis",
         "playlist": "Dead inside",
         "duration": "3:17"
-    },
-    {
-        "title": "tewiq - распять [ALT VER / EVIL VERSION]",
-        "artist": "idk secret channel",
-        "playlist": "Dead inside",
-        "duration": "1:51"
     },
     {
         "title": "Правило 34",
@@ -4591,12 +4405,6 @@ const musicData = [
         "duration": "3:31"
     },
     {
-        "title": "真夜中のドア〜stay with me (Original club mix) - Mayonaka no Door~stay with me (Original club mix)",
-        "artist": "Miki Matsubara",
-        "playlist": "Dead inside",
-        "duration": "5:47"
-    },
-    {
         "title": "Mushoku Tensei ED / Ending 4 - Creditless | 4K | 60fps | Lyrics",
         "artist": "Animeke Channel",
         "playlist": "Dead inside",
@@ -4637,12 +4445,6 @@ const musicData = [
         "artist": "IGN",
         "playlist": "Dead inside",
         "duration": "2:11"
-    },
-    {
-        "title": "shotgun.",
-        "artist": "overtonight",
-        "playlist": "Dead inside",
-        "duration": "1:52"
     },
     {
         "title": "Весь этот мир",
@@ -4951,22 +4753,10 @@ const musicData = [
         "duration": "2:56"
     },
     {
-        "title": "Let's Be Friends (Lena Theme)",
-        "artist": "Sergey Eybog",
-        "playlist": "Dead inside",
-        "duration": "2:04"
-    },
-    {
         "title": "rises the moon",
         "artist": "DyadDiary",
         "playlist": "Dead inside",
         "duration": "1:37"
-    },
-    {
-        "title": "Feel",
-        "artist": "Lies of P",
-        "playlist": "Dead inside",
-        "duration": "3:58"
     },
     {
         "title": "we fell in love in october",
@@ -4979,12 +4769,6 @@ const musicData = [
         "artist": "The Strokes",
         "playlist": "Dead inside",
         "duration": "3:06"
-    },
-    {
-        "title": "Dog of Flanders (1975 Nippon Animation Variant)- Japanese Opening",
-        "artist": "Don Hi",
-        "playlist": "Dead inside",
-        "duration": "1:22"
     },
     {
         "title": "Кінець фільму",
@@ -5443,6 +5227,12 @@ const musicData = [
         "duration": "1:22"
     },
     {
+        "title": "В РОССИИ КЛАССНО!",
+        "artist": "Лирик & st4rdust",
+        "playlist": "Dead inside",
+        "duration": "1:59"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -5619,6 +5409,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 818,
-    "totalDurationSec": 148703,
+    "totalDurationSec": 143154,
     "lastUpdated": "Auto-generated"
 };
