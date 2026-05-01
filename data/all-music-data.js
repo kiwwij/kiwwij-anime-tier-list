@@ -535,6 +535,12 @@ const musicData = [
         "duration": "3:13"
     },
     {
+        "title": "よふかしのうた - Yofukashino Uta",
+        "artist": "Creepy Nuts",
+        "playlist": "Off Screen",
+        "duration": "3:58"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -707,12 +713,6 @@ const musicData = [
         "artist": "конец солнечных дней",
         "playlist": "Dead inside",
         "duration": "3:41"
-    },
-    {
-        "title": "TVアニメ『よふかしのうた』ノンクレジットED【Creepy Nuts「よふかしのうた」】| 毎週木曜日24時55分からフジテレビ\"ノイタミナ\"ほかにて放送中！",
-        "artist": "【フジテレビ】アニメ公式チャンネル",
-        "playlist": "Dead inside",
-        "duration": "1:37"
     },
     {
         "title": "Эмо хардкор",
@@ -5409,6 +5409,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 818,
-    "totalDurationSec": 143154,
+    "totalDurationSec": 143295,
     "lastUpdated": "Auto-generated"
 };
