@@ -1213,8 +1213,8 @@ const musicData = [
         "duration": "3:06"
     },
     {
-        "title": "Василина",
-        "artist": "Dzidzio - Topic",
+        "title": "Василина (feat. Іван Попович)",
+        "artist": "DZIDZIO",
         "playlist": "Dead inside",
         "duration": "3:21"
     },
@@ -1417,7 +1417,7 @@ const musicData = [
         "duration": "3:01"
     },
     {
-        "title": "The Limba - Секрет (Lyric video)",
+        "title": "Секрет",
         "artist": "The Limba",
         "playlist": "Dead inside",
         "duration": "2:48"
@@ -1585,7 +1585,7 @@ const musicData = [
         "duration": "3:44"
     },
     {
-        "title": "RAIZHELL - Castles",
+        "title": "Castles (Slowed)",
         "artist": "RAIZHELL",
         "playlist": "Dead inside",
         "duration": "2:35"
@@ -1609,7 +1609,7 @@ const musicData = [
         "duration": "0:10"
     },
     {
-        "title": "GONE.Fludd - БАНАНОВЫЙ СОК [prod. by CAKEboy ]",
+        "title": "БАНАНОВЫЙ СОК",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "3:40"
@@ -1652,7 +1652,7 @@ const musicData = [
     },
     {
         "title": "СЕТИ",
-        "artist": "GONE.Fludd - Topic",
+        "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "2:21"
     },
@@ -1664,7 +1664,7 @@ const musicData = [
     },
     {
         "title": "GLAM!",
-        "artist": "GONE.Fludd - Topic",
+        "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "2:45"
     },
