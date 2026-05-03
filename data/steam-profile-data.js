@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 1286580,
             "name": "Ship of Fools",
-            "playtime_2weeks": 30.1,
+            "playtime_2weeks": 29.3,
             "hours": 47.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
             "url": "https://store.steampowered.com/app/1286580"
@@ -124,7 +124,7 @@ const steamData = {
         {
             "appid": 105600,
             "name": "Terraria",
-            "hours": 177.4,
+            "hours": 177.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
         },
