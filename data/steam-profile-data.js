@@ -20,20 +20,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1169040"
         },
         {
-            "appid": 1286580,
-            "name": "Ship of Fools",
-            "playtime_2weeks": 31.1,
-            "hours": 47.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
-            "url": "https://store.steampowered.com/app/1286580"
-        },
-        {
             "appid": 2050650,
             "name": "Resident Evil 4",
             "playtime_2weeks": 30.9,
             "hours": 62.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
             "url": "https://store.steampowered.com/app/2050650"
+        },
+        {
+            "appid": 1286580,
+            "name": "Ship of Fools",
+            "playtime_2weeks": 30.1,
+            "hours": 47.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
+            "url": "https://store.steampowered.com/app/1286580"
         },
         {
             "appid": 1326470,
@@ -124,7 +124,7 @@ const steamData = {
         {
             "appid": 105600,
             "name": "Terraria",
-            "hours": 175.9,
+            "hours": 177.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
         },
