@@ -4,11 +4,11 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50"
     },
     "stats": {
-        "total_games": 266
+        "total_games": 267
     },
     "recent_games": [
         {
@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2050650"
         },
         {
-            "appid": 570,
-            "name": "Dota 2",
-            "playtime_2weeks": 15.6,
-            "hours": 3335.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
-            "url": "https://store.steampowered.com/app/570"
-        },
-        {
             "appid": 1326470,
             "name": "Sons Of The Forest",
             "playtime_2weeks": 15.3,
             "hours": 49.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
             "url": "https://store.steampowered.com/app/1326470"
+        },
+        {
+            "appid": 570,
+            "name": "Dota 2",
+            "playtime_2weeks": 14.7,
+            "hours": 3335.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
+            "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1657630,
@@ -124,7 +124,7 @@ const steamData = {
         {
             "appid": 105600,
             "name": "Terraria",
-            "hours": 174.3,
+            "hours": 174.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
         },
