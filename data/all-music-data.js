@@ -2623,7 +2623,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О, Боже, какой мужчина!",
+        "title": "О боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -4063,12 +4063,6 @@ const musicData = [
         "duration": "1:09"
     },
     {
-        "title": "Стальной алхимик - Братья (милая мама)",
-        "artist": "Music & Anime",
-        "playlist": "Dead inside",
-        "duration": "3:54"
-    },
-    {
         "title": "НЕ СКУЧАЙ",
         "artist": "ТРОЕТОЧИЕ",
         "playlist": "Dead inside",
@@ -5409,6 +5403,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 824,
-    "totalDurationSec": 143295,
+    "totalDurationSec": 143061,
     "lastUpdated": "Auto-generated"
 };
