@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2050650"
         },
         {
+            "appid": 570,
+            "name": "Dota 2",
+            "playtime_2weeks": 15.7,
+            "hours": 3334.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
+            "url": "https://store.steampowered.com/app/570"
+        },
+        {
             "appid": 1326470,
             "name": "Sons Of The Forest",
             "playtime_2weeks": 15.3,
             "hours": 49.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
             "url": "https://store.steampowered.com/app/1326470"
-        },
-        {
-            "appid": 570,
-            "name": "Dota 2",
-            "playtime_2weeks": 14.9,
-            "hours": 3333.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
-            "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1657630,
@@ -96,7 +96,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3333.4,
+            "hours": 3334.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
