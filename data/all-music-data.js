@@ -2107,12 +2107,6 @@ const musicData = [
         "duration": "0:26"
     },
     {
-        "title": "Gummy bear｜meme",
-        "artist": "水綿",
-        "playlist": "Dead inside",
-        "duration": "1:15"
-    },
-    {
         "title": "Senko San - Наше Лето (AI cover)",
         "artist": "b0nk",
         "playlist": "Dead inside",
@@ -3581,12 +3575,6 @@ const musicData = [
         "artist": "СТРУКТУРА ЩАСТЯ",
         "playlist": "Dead inside",
         "duration": "3:08"
-    },
-    {
-        "title": "чай вдвоем - просто друг \\\\ speed up nightcore",
-        "artist": "Kishka",
-        "playlist": "Dead inside",
-        "duration": "3:07"
     },
     {
         "title": "Psycho Dreams",
@@ -5403,6 +5391,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 824,
-    "totalDurationSec": 143061,
+    "totalDurationSec": 142799,
     "lastUpdated": "Auto-generated"
 };
