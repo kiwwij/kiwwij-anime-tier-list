@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -46,7 +46,7 @@ const steamData = {
         {
             "appid": 1286580,
             "name": "Ship of Fools",
-            "playtime_2weeks": 13.9,
+            "playtime_2weeks": 12.7,
             "hours": 47.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
             "url": "https://store.steampowered.com/app/1286580"
@@ -70,16 +70,16 @@ const steamData = {
         {
             "appid": 1281930,
             "name": "tModLoader",
-            "playtime_2weeks": 7.8,
-            "hours": 7.8,
+            "playtime_2weeks": 8.5,
+            "hours": 8.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281930/header.jpg",
             "url": "https://store.steampowered.com/app/1281930"
         },
         {
             "appid": 105600,
             "name": "Terraria",
-            "playtime_2weeks": 7.8,
-            "hours": 182.2,
+            "playtime_2weeks": 8.5,
+            "hours": 182.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
         },
@@ -124,7 +124,7 @@ const steamData = {
         {
             "appid": 105600,
             "name": "Terraria",
-            "hours": 182.2,
+            "hours": 182.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
         },
