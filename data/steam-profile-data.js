@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 1286580,
             "name": "Ship of Fools",
-            "playtime_2weeks": 22.9,
+            "playtime_2weeks": 21.1,
             "hours": 47.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
             "url": "https://store.steampowered.com/app/1286580"
