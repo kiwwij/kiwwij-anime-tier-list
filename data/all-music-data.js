@@ -2911,12 +2911,6 @@ const musicData = [
         "duration": "3:14"
     },
     {
-        "title": "ты не пришла и х*й с тобой",
-        "artist": "Slobodya ",
-        "playlist": "Dead inside",
-        "duration": "2:20"
-    },
-    {
         "title": "Трудный возраст",
         "artist": "MakSim",
         "playlist": "Dead inside",
@@ -3767,12 +3761,6 @@ const musicData = [
         "artist": "stippi stippi",
         "playlist": "Dead inside",
         "duration": "2:50"
-    },
-    {
-        "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
-        "artist": "AlexTheSchutz",
-        "playlist": "Dead inside",
-        "duration": "4:23"
     },
     {
         "title": "ФРЭНК - Саня (Анимационный Клип)",
@@ -4939,12 +4927,6 @@ const musicData = [
         "duration": "2:18"
     },
     {
-        "title": "阿修羅ちゃん - Ashura-chan",
-        "artist": "Ado",
-        "playlist": "Dead inside",
-        "duration": "3:16"
-    },
-    {
         "title": "Ты моё сердце из чистого золота",
         "artist": "Emily Danielyan",
         "playlist": "Dead inside",
@@ -5391,6 +5373,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 825,
-    "totalDurationSec": 142799,
+    "totalDurationSec": 142200,
     "lastUpdated": "Auto-generated"
 };
