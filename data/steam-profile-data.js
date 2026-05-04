@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/570"
         },
         {
-            "appid": 1286580,
-            "name": "Ship of Fools",
-            "playtime_2weeks": 15.3,
-            "hours": 47.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
-            "url": "https://store.steampowered.com/app/1286580"
-        },
-        {
             "appid": 1326470,
             "name": "Sons Of The Forest",
             "playtime_2weeks": 15.3,
             "hours": 49.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
             "url": "https://store.steampowered.com/app/1326470"
+        },
+        {
+            "appid": 1286580,
+            "name": "Ship of Fools",
+            "playtime_2weeks": 13.9,
+            "hours": 47.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
+            "url": "https://store.steampowered.com/app/1286580"
         },
         {
             "appid": 1657630,
@@ -68,28 +68,28 @@ const steamData = {
             "url": "https://store.steampowered.com/app/433340"
         },
         {
-            "appid": 1943950,
-            "name": "Escape the Backrooms",
-            "playtime_2weeks": 6.6,
-            "hours": 13.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1943950/header.jpg",
-            "url": "https://store.steampowered.com/app/1943950"
-        },
-        {
             "appid": 1281930,
             "name": "tModLoader",
-            "playtime_2weeks": 6.3,
-            "hours": 6.3,
+            "playtime_2weeks": 7.8,
+            "hours": 7.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281930/header.jpg",
             "url": "https://store.steampowered.com/app/1281930"
         },
         {
             "appid": 105600,
             "name": "Terraria",
-            "playtime_2weeks": 6.3,
-            "hours": 180.7,
+            "playtime_2weeks": 7.8,
+            "hours": 182.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
+        },
+        {
+            "appid": 1943950,
+            "name": "Escape the Backrooms",
+            "playtime_2weeks": 6.6,
+            "hours": 13.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1943950/header.jpg",
+            "url": "https://store.steampowered.com/app/1943950"
         }
     ],
     "top_games": [
@@ -124,7 +124,7 @@ const steamData = {
         {
             "appid": 105600,
             "name": "Terraria",
-            "hours": 180.7,
+            "hours": 182.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
         },
