@@ -28,20 +28,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2050650"
         },
         {
-            "appid": 1286580,
-            "name": "Ship of Fools",
-            "playtime_2weeks": 17.1,
-            "hours": 47.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
-            "url": "https://store.steampowered.com/app/1286580"
-        },
-        {
             "appid": 570,
             "name": "Dota 2",
             "playtime_2weeks": 16.2,
             "hours": 3336.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
+        },
+        {
+            "appid": 1286580,
+            "name": "Ship of Fools",
+            "playtime_2weeks": 15.3,
+            "hours": 47.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
+            "url": "https://store.steampowered.com/app/1286580"
         },
         {
             "appid": 1326470,
@@ -76,20 +76,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1943950"
         },
         {
-            "appid": 4397180,
-            "name": "Your Friend's Mom",
-            "playtime_2weeks": 6.2,
-            "hours": 6.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4397180/header.jpg",
-            "url": "https://store.steampowered.com/app/4397180"
+            "appid": 1281930,
+            "name": "tModLoader",
+            "playtime_2weeks": 6.3,
+            "hours": 6.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281930/header.jpg",
+            "url": "https://store.steampowered.com/app/1281930"
         },
         {
-            "appid": 250380,
-            "name": "Knock-knock",
-            "playtime_2weeks": 5.5,
-            "hours": 8.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/250380/header.jpg",
-            "url": "https://store.steampowered.com/app/250380"
+            "appid": 105600,
+            "name": "Terraria",
+            "playtime_2weeks": 6.3,
+            "hours": 180.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
+            "url": "https://store.steampowered.com/app/105600"
         }
     ],
     "top_games": [
@@ -124,7 +124,7 @@ const steamData = {
         {
             "appid": 105600,
             "name": "Terraria",
-            "hours": 178.7,
+            "hours": 180.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
         },
