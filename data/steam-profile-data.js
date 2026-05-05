@@ -76,20 +76,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/105600"
         },
         {
-            "appid": 1286580,
-            "name": "Ship of Fools",
-            "playtime_2weeks": 7.2,
-            "hours": 47.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
-            "url": "https://store.steampowered.com/app/1286580"
-        },
-        {
             "appid": 1943950,
             "name": "Escape the Backrooms",
             "playtime_2weeks": 6.6,
             "hours": 13.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1943950/header.jpg",
             "url": "https://store.steampowered.com/app/1943950"
+        },
+        {
+            "appid": 4397180,
+            "name": "Your Friend's Mom",
+            "playtime_2weeks": 6.2,
+            "hours": 6.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4397180/header.jpg",
+            "url": "https://store.steampowered.com/app/4397180"
         }
     ],
     "top_games": [
