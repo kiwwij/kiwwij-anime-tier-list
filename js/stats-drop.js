@@ -1,4 +1,4 @@
-const CACHE_KEY = 'dropped_anime_stats_cache_v1';
+const CACHE_KEY = 'dropped_anime_stats_cache_v2';
 const BATCH_SIZE = 50; 
 const BATCH_DELAY = 450; 
 
