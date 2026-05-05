@@ -4724,7 +4724,7 @@ const musicData = [
     },
     {
         "title": "rises the moon",
-        "artist": "DyadDiary",
+        "artist": "starryMelodist",
         "playlist": "Dead inside",
         "duration": "1:37"
     },
