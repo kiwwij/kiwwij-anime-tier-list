@@ -2617,7 +2617,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О, Боже, какой мужчина!",
+        "title": "О боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -3455,6 +3455,12 @@ const musicData = [
         "artist": "дамир",
         "playlist": "Dead inside",
         "duration": "1:39"
+    },
+    {
+        "title": "唱个喀秋莎！！",
+        "artist": "杨柳",
+        "playlist": "Dead inside",
+        "duration": "1:30"
     },
     {
         "title": "Я никогда не стану феминисткой",
@@ -5373,6 +5379,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 825,
-    "totalDurationSec": 142200,
+    "totalDurationSec": 142290,
     "lastUpdated": "Auto-generated"
 };
