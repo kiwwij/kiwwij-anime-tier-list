@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
-        "statusColor": "#4CAF50"
+        "status": "Away",
+        "statusColor": "#FFC107"
     },
     "stats": {
         "total_games": 267
@@ -44,20 +44,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1326470"
         },
         {
-            "appid": 1286580,
-            "name": "Ship of Fools",
-            "playtime_2weeks": 12.0,
-            "hours": 47.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
-            "url": "https://store.steampowered.com/app/1286580"
-        },
-        {
             "appid": 1657630,
             "name": "Slime Rancher 2",
             "playtime_2weeks": 11.2,
             "hours": 40.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/header.jpg",
             "url": "https://store.steampowered.com/app/1657630"
+        },
+        {
+            "appid": 1286580,
+            "name": "Ship of Fools",
+            "playtime_2weeks": 10.1,
+            "hours": 47.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1286580/header.jpg",
+            "url": "https://store.steampowered.com/app/1286580"
         },
         {
             "appid": 433340,
