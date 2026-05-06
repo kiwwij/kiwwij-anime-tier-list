@@ -12,20 +12,20 @@ const steamData = {
     },
     "recent_games": [
         {
-            "appid": 1169040,
-            "name": "Necesse",
-            "playtime_2weeks": 31.8,
-            "hours": 65.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
-            "url": "https://store.steampowered.com/app/1169040"
-        },
-        {
             "appid": 2050650,
             "name": "Resident Evil 4",
             "playtime_2weeks": 30.9,
             "hours": 62.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
             "url": "https://store.steampowered.com/app/2050650"
+        },
+        {
+            "appid": 1169040,
+            "name": "Necesse",
+            "playtime_2weeks": 30.3,
+            "hours": 65.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
+            "url": "https://store.steampowered.com/app/1169040"
         },
         {
             "appid": 1326470,
@@ -38,7 +38,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 14.2,
+            "playtime_2weeks": 14.1,
             "hours": 3336.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -52,28 +52,28 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1657630"
         },
         {
-            "appid": 433340,
-            "name": "Slime Rancher",
-            "playtime_2weeks": 8.8,
-            "hours": 37.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
-            "url": "https://store.steampowered.com/app/433340"
-        },
-        {
             "appid": 1281930,
             "name": "tModLoader",
-            "playtime_2weeks": 8.5,
-            "hours": 8.5,
+            "playtime_2weeks": 10.2,
+            "hours": 10.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281930/header.jpg",
             "url": "https://store.steampowered.com/app/1281930"
         },
         {
             "appid": 105600,
             "name": "Terraria",
-            "playtime_2weeks": 8.5,
-            "hours": 182.9,
+            "playtime_2weeks": 10.2,
+            "hours": 184.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
+        },
+        {
+            "appid": 433340,
+            "name": "Slime Rancher",
+            "playtime_2weeks": 8.8,
+            "hours": 37.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
+            "url": "https://store.steampowered.com/app/433340"
         },
         {
             "appid": 1943950,
@@ -124,7 +124,7 @@ const steamData = {
         {
             "appid": 105600,
             "name": "Terraria",
-            "hours": 182.9,
+            "hours": 184.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
         },
