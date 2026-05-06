@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50"
+        "status": "Offline",
+        "statusColor": "#9E9E9E"
     },
     "stats": {
         "total_games": 267
@@ -36,28 +36,28 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1326470"
         },
         {
-            "appid": 570,
-            "name": "Dota 2",
-            "playtime_2weeks": 13.1,
-            "hours": 3336.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
-            "url": "https://store.steampowered.com/app/570"
-        },
-        {
             "appid": 1281930,
             "name": "tModLoader",
-            "playtime_2weeks": 12.9,
-            "hours": 12.9,
+            "playtime_2weeks": 14.0,
+            "hours": 14.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281930/header.jpg",
             "url": "https://store.steampowered.com/app/1281930"
         },
         {
             "appid": 105600,
             "name": "Terraria",
-            "playtime_2weeks": 12.8,
-            "hours": 187.2,
+            "playtime_2weeks": 14.0,
+            "hours": 188.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
+        },
+        {
+            "appid": 570,
+            "name": "Dota 2",
+            "playtime_2weeks": 13.1,
+            "hours": 3336.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
+            "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1657630,
@@ -124,7 +124,7 @@ const steamData = {
         {
             "appid": 105600,
             "name": "Terraria",
-            "hours": 187.2,
+            "hours": 188.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
         },
