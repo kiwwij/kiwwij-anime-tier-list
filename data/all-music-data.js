@@ -5197,6 +5197,12 @@ const musicData = [
         "duration": "1:59"
     },
     {
+        "title": "кошка",
+        "artist": "enveel",
+        "playlist": "Dead inside",
+        "duration": "1:43"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -5373,6 +5379,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 826,
-    "totalDurationSec": 142200,
+    "totalDurationSec": 142303,
     "lastUpdated": "Auto-generated"
 };
