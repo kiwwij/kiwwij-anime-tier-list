@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50"
+        "status": "Away",
+        "statusColor": "#FFC107"
     },
     "stats": {
         "total_games": 267
@@ -38,10 +38,26 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 14.1,
+            "playtime_2weeks": 13.1,
             "hours": 3336.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
+        },
+        {
+            "appid": 1281930,
+            "name": "tModLoader",
+            "playtime_2weeks": 11.4,
+            "hours": 11.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281930/header.jpg",
+            "url": "https://store.steampowered.com/app/1281930"
+        },
+        {
+            "appid": 105600,
+            "name": "Terraria",
+            "playtime_2weeks": 11.3,
+            "hours": 185.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
+            "url": "https://store.steampowered.com/app/105600"
         },
         {
             "appid": 1657630,
@@ -50,22 +66,6 @@ const steamData = {
             "hours": 40.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/header.jpg",
             "url": "https://store.steampowered.com/app/1657630"
-        },
-        {
-            "appid": 1281930,
-            "name": "tModLoader",
-            "playtime_2weeks": 10.2,
-            "hours": 10.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281930/header.jpg",
-            "url": "https://store.steampowered.com/app/1281930"
-        },
-        {
-            "appid": 105600,
-            "name": "Terraria",
-            "playtime_2weeks": 10.2,
-            "hours": 184.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
-            "url": "https://store.steampowered.com/app/105600"
         },
         {
             "appid": 433340,
@@ -124,7 +124,7 @@ const steamData = {
         {
             "appid": 105600,
             "name": "Terraria",
-            "hours": 184.6,
+            "hours": 185.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
         },
