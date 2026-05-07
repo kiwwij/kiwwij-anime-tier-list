@@ -739,7 +739,7 @@ const musicData = [
         "duration": "2:01"
     },
     {
-        "title": "Naruto Shippuden Opening 3 Blue Bird   ナルト В память о Сергее Хромове",
+        "title": "Blue Bird",
         "artist": "Ai Mori",
         "playlist": "Dead inside",
         "duration": "4:34"
