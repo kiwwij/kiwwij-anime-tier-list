@@ -5203,6 +5203,12 @@ const musicData = [
         "duration": "1:43"
     },
     {
+        "title": "странный дом",
+        "artist": "#меланхолик",
+        "playlist": "Dead inside",
+        "duration": "1:14"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -5379,6 +5385,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 826,
-    "totalDurationSec": 142303,
+    "totalDurationSec": 142377,
     "lastUpdated": "Auto-generated"
 };
