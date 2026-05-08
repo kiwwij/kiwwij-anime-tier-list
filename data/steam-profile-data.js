@@ -68,14 +68,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/433340"
         },
         {
-            "appid": 1169040,
-            "name": "Necesse",
-            "playtime_2weeks": 7.4,
-            "hours": 65.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
-            "url": "https://store.steampowered.com/app/1169040"
-        },
-        {
             "appid": 1943950,
             "name": "Escape the Backrooms",
             "playtime_2weeks": 6.6,
@@ -90,6 +82,14 @@ const steamData = {
             "hours": 6.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4397180/header.jpg",
             "url": "https://store.steampowered.com/app/4397180"
+        },
+        {
+            "appid": 1169040,
+            "name": "Necesse",
+            "playtime_2weeks": 5.9,
+            "hours": 65.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
+            "url": "https://store.steampowered.com/app/1169040"
         }
     ],
     "top_games": [
