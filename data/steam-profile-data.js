@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "Snooze",
+        "statusColor": "#673AB7"
     },
     "stats": {
         "total_games": 267
@@ -84,12 +84,12 @@ const steamData = {
             "url": "https://store.steampowered.com/app/620"
         },
         {
-            "appid": 1657630,
-            "name": "Slime Rancher 2",
+            "appid": 304930,
+            "name": "Unturned",
             "playtime_2weeks": 2.5,
-            "hours": 40.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/header.jpg",
-            "url": "https://store.steampowered.com/app/1657630"
+            "hours": 13.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/304930/header.jpg",
+            "url": "https://store.steampowered.com/app/304930"
         }
     ],
     "top_games": [
