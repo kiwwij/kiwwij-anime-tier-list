@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "Online",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 267
@@ -52,20 +52,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/570"
         },
         {
-            "appid": 1657630,
-            "name": "Slime Rancher 2",
-            "playtime_2weeks": 7.3,
-            "hours": 40.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/header.jpg",
-            "url": "https://store.steampowered.com/app/1657630"
-        },
-        {
             "appid": 1943950,
             "name": "Escape the Backrooms",
             "playtime_2weeks": 6.6,
             "hours": 13.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1943950/header.jpg",
             "url": "https://store.steampowered.com/app/1943950"
+        },
+        {
+            "appid": 1657630,
+            "name": "Slime Rancher 2",
+            "playtime_2weeks": 6.4,
+            "hours": 40.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/header.jpg",
+            "url": "https://store.steampowered.com/app/1657630"
         },
         {
             "appid": 4397180,
