@@ -2917,7 +2917,7 @@ const musicData = [
         "duration": "3:27"
     },
     {
-        "title": "у меня внутри (prod by xmindmemories)",
+        "title": "у меня внутри",
         "artist": "cold carti",
         "playlist": "Dead inside",
         "duration": "2:37"
