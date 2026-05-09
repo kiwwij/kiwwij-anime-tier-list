@@ -84,12 +84,12 @@ const steamData = {
             "url": "https://store.steampowered.com/app/250380"
         },
         {
-            "appid": 433340,
-            "name": "Slime Rancher",
-            "playtime_2weeks": 4.6,
-            "hours": 37.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
-            "url": "https://store.steampowered.com/app/433340"
+            "appid": 620,
+            "name": "Portal 2",
+            "playtime_2weeks": 3.8,
+            "hours": 21.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/620/header.jpg",
+            "url": "https://store.steampowered.com/app/620"
         }
     ],
     "top_games": [
