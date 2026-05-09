@@ -60,14 +60,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1943950"
         },
         {
-            "appid": 1657630,
-            "name": "Slime Rancher 2",
-            "playtime_2weeks": 6.4,
-            "hours": 40.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/header.jpg",
-            "url": "https://store.steampowered.com/app/1657630"
-        },
-        {
             "appid": 4397180,
             "name": "Your Friend's Mom",
             "playtime_2weeks": 6.2,
@@ -82,6 +74,14 @@ const steamData = {
             "hours": 8.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/250380/header.jpg",
             "url": "https://store.steampowered.com/app/250380"
+        },
+        {
+            "appid": 1657630,
+            "name": "Slime Rancher 2",
+            "playtime_2weeks": 5.4,
+            "hours": 40.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/header.jpg",
+            "url": "https://store.steampowered.com/app/1657630"
         },
         {
             "appid": 620,
