@@ -78,7 +78,7 @@ const steamData = {
         {
             "appid": 1657630,
             "name": "Slime Rancher 2",
-            "playtime_2weeks": 5.4,
+            "playtime_2weeks": 4.3,
             "hours": 40.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/header.jpg",
             "url": "https://store.steampowered.com/app/1657630"
