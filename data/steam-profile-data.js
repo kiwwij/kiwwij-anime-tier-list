@@ -12,20 +12,20 @@ const steamData = {
     },
     "recent_games": [
         {
-            "appid": 2050650,
-            "name": "Resident Evil 4",
-            "playtime_2weeks": 20.0,
-            "hours": 62.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
-            "url": "https://store.steampowered.com/app/2050650"
-        },
-        {
             "appid": 570,
             "name": "Dota 2",
             "playtime_2weeks": 19.3,
             "hours": 3347.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
+        },
+        {
+            "appid": 2050650,
+            "name": "Resident Evil 4",
+            "playtime_2weeks": 19.2,
+            "hours": 62.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
+            "url": "https://store.steampowered.com/app/2050650"
         },
         {
             "appid": 1281930,
