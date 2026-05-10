@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 2050650,
             "name": "Resident Evil 4",
-            "playtime_2weeks": 30.9,
+            "playtime_2weeks": 30.6,
             "hours": 62.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
             "url": "https://store.steampowered.com/app/2050650"
@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/105600"
         },
         {
+            "appid": 570,
+            "name": "Dota 2",
+            "playtime_2weeks": 15.7,
+            "hours": 3344.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
+            "url": "https://store.steampowered.com/app/570"
+        },
+        {
             "appid": 1326470,
             "name": "Sons Of The Forest",
             "playtime_2weeks": 15.3,
             "hours": 49.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
             "url": "https://store.steampowered.com/app/1326470"
-        },
-        {
-            "appid": 570,
-            "name": "Dota 2",
-            "playtime_2weeks": 13.7,
-            "hours": 3342.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
-            "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1943950,
@@ -96,7 +96,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3342.2,
+            "hours": 3344.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
