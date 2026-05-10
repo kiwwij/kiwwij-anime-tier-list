@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 2050650,
             "name": "Resident Evil 4",
-            "playtime_2weeks": 24.4,
+            "playtime_2weeks": 23.4,
             "hours": 62.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
             "url": "https://store.steampowered.com/app/2050650"
