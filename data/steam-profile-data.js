@@ -14,10 +14,18 @@ const steamData = {
         {
             "appid": 2050650,
             "name": "Resident Evil 4",
-            "playtime_2weeks": 22.4,
+            "playtime_2weeks": 21.5,
             "hours": 62.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
             "url": "https://store.steampowered.com/app/2050650"
+        },
+        {
+            "appid": 570,
+            "name": "Dota 2",
+            "playtime_2weeks": 18.1,
+            "hours": 3346.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
+            "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1281930,
@@ -34,14 +42,6 @@ const steamData = {
             "hours": 192.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
-        },
-        {
-            "appid": 570,
-            "name": "Dota 2",
-            "playtime_2weeks": 17.1,
-            "hours": 3345.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
-            "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1326470,
@@ -96,7 +96,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3345.6,
+            "hours": 3346.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
