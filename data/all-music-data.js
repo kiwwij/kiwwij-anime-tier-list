@@ -5209,6 +5209,18 @@ const musicData = [
         "duration": "1:14"
     },
     {
+        "title": "okay any day now",
+        "artist": "funeral",
+        "playlist": "Dead inside",
+        "duration": "2:42"
+    },
+    {
+        "title": "lie.mp3",
+        "artist": "funeral",
+        "playlist": "Dead inside",
+        "duration": "2:09"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -5385,6 +5397,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 826,
-    "totalDurationSec": 142377,
+    "totalDurationSec": 142668,
     "lastUpdated": "Auto-generated"
 };
