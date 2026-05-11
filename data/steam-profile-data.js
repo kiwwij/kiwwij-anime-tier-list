@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 19.3,
-            "hours": 3347.9,
+            "playtime_2weeks": 19.8,
+            "hours": 3348.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -46,7 +46,7 @@ const steamData = {
         {
             "appid": 2050650,
             "name": "Resident Evil 4",
-            "playtime_2weeks": 12.4,
+            "playtime_2weeks": 10.3,
             "hours": 62.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
             "url": "https://store.steampowered.com/app/2050650"
@@ -96,7 +96,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3347.9,
+            "hours": 3348.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
