@@ -176,7 +176,7 @@ const musicData = [
     },
     {
         "title": "ЛАБУБУ",
-        "artist": "YUNG FIMOZ - Topic",
+        "artist": "YUNG FIMOZ",
         "playlist": "Main",
         "duration": "2:00"
     },
@@ -4406,7 +4406,7 @@ const musicData = [
     },
     {
         "title": "ЛАБУБУ",
-        "artist": "YUNG FIMOZ - Topic",
+        "artist": "YUNG FIMOZ",
         "playlist": "Dead inside",
         "duration": "2:00"
     },
