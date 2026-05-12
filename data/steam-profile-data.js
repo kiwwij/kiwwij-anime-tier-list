@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
-        "statusColor": "#4CAF50"
+        "status": "Away",
+        "statusColor": "#FFC107"
     },
     "stats": {
         "total_games": 267
@@ -68,14 +68,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/250380"
         },
         {
-            "appid": 1326470,
-            "name": "Sons Of The Forest",
-            "playtime_2weeks": 4.3,
-            "hours": 49.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
-            "url": "https://store.steampowered.com/app/1326470"
-        },
-        {
             "appid": 620,
             "name": "Portal 2",
             "playtime_2weeks": 3.8,
@@ -90,6 +82,14 @@ const steamData = {
             "hours": 13.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/304930/header.jpg",
             "url": "https://store.steampowered.com/app/304930"
+        },
+        {
+            "appid": 1192670,
+            "name": "CODE VEIN Demo",
+            "playtime_2weeks": 1.6,
+            "hours": 2.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1192670/header.jpg",
+            "url": "https://store.steampowered.com/app/1192670"
         }
     ],
     "top_games": [
