@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50"
+        "status": "Away",
+        "statusColor": "#FFC107"
     },
     "stats": {
         "total_games": 267
@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 22.8,
-            "hours": 3352.2,
+            "playtime_2weeks": 23.1,
+            "hours": 3352.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -76,27 +76,27 @@ const steamData = {
             "url": "https://store.steampowered.com/app/304930"
         },
         {
-            "appid": 620,
-            "name": "Portal 2",
-            "playtime_2weeks": 1.9,
-            "hours": 21.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/620/header.jpg",
-            "url": "https://store.steampowered.com/app/620"
-        },
-        {
             "appid": 1192670,
             "name": "CODE VEIN Demo",
             "playtime_2weeks": 1.6,
             "hours": 2.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1192670/header.jpg",
             "url": "https://store.steampowered.com/app/1192670"
+        },
+        {
+            "appid": 1608070,
+            "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
+            "playtime_2weeks": 1.1,
+            "hours": 1.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
+            "url": "https://store.steampowered.com/app/1608070"
         }
     ],
     "top_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3352.2,
+            "hours": 3352.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
