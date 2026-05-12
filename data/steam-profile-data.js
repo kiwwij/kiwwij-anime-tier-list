@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E"
+        "status": "Online",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 267
@@ -44,14 +44,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2050650"
         },
         {
-            "appid": 1326470,
-            "name": "Sons Of The Forest",
-            "playtime_2weeks": 6.6,
-            "hours": 49.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
-            "url": "https://store.steampowered.com/app/1326470"
-        },
-        {
             "appid": 1943950,
             "name": "Escape the Backrooms",
             "playtime_2weeks": 6.6,
@@ -74,6 +66,14 @@ const steamData = {
             "hours": 8.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/250380/header.jpg",
             "url": "https://store.steampowered.com/app/250380"
+        },
+        {
+            "appid": 1326470,
+            "name": "Sons Of The Forest",
+            "playtime_2weeks": 4.3,
+            "hours": 49.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
+            "url": "https://store.steampowered.com/app/1326470"
         },
         {
             "appid": 620,
