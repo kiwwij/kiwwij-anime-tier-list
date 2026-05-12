@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "In Game",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 267
@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 21.3,
-            "hours": 3350.7,
+            "playtime_2weeks": 22.8,
+            "hours": 3352.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -68,20 +68,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/250380"
         },
         {
-            "appid": 620,
-            "name": "Portal 2",
-            "playtime_2weeks": 3.8,
-            "hours": 21.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/620/header.jpg",
-            "url": "https://store.steampowered.com/app/620"
-        },
-        {
             "appid": 304930,
             "name": "Unturned",
             "playtime_2weeks": 2.5,
             "hours": 13.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/304930/header.jpg",
             "url": "https://store.steampowered.com/app/304930"
+        },
+        {
+            "appid": 620,
+            "name": "Portal 2",
+            "playtime_2weeks": 1.9,
+            "hours": 21.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/620/header.jpg",
+            "url": "https://store.steampowered.com/app/620"
         },
         {
             "appid": 1192670,
@@ -96,7 +96,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3350.7,
+            "hours": 3352.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
