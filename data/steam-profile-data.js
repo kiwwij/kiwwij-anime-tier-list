@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/105600"
         },
         {
-            "appid": 1943950,
-            "name": "Escape the Backrooms",
-            "playtime_2weeks": 6.6,
-            "hours": 13.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1943950/header.jpg",
-            "url": "https://store.steampowered.com/app/1943950"
-        },
-        {
             "appid": 4397180,
             "name": "Your Friend's Mom",
             "playtime_2weeks": 6.2,
             "hours": 6.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4397180/header.jpg",
             "url": "https://store.steampowered.com/app/4397180"
+        },
+        {
+            "appid": 1943950,
+            "name": "Escape the Backrooms",
+            "playtime_2weeks": 6.0,
+            "hours": 13.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1943950/header.jpg",
+            "url": "https://store.steampowered.com/app/1943950"
         },
         {
             "appid": 250380,
@@ -68,14 +68,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/304930"
         },
         {
-            "appid": 2050650,
-            "name": "Resident Evil 4",
-            "playtime_2weeks": 2.0,
-            "hours": 62.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
-            "url": "https://store.steampowered.com/app/2050650"
-        },
-        {
             "appid": 1192670,
             "name": "CODE VEIN Demo",
             "playtime_2weeks": 1.6,
@@ -90,6 +82,14 @@ const steamData = {
             "hours": 1.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
             "url": "https://store.steampowered.com/app/1608070"
+        },
+        {
+            "appid": 1905180,
+            "name": "OBS Studio",
+            "playtime_2weeks": 1.1,
+            "hours": 184.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
+            "url": "https://store.steampowered.com/app/1905180"
         }
     ],
     "top_games": [
