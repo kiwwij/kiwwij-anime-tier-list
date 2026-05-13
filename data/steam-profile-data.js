@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 24.2,
-            "hours": 3353.5,
+            "playtime_2weeks": 24.7,
+            "hours": 3354.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -44,20 +44,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/4397180"
         },
         {
-            "appid": 1943950,
-            "name": "Escape the Backrooms",
-            "playtime_2weeks": 6.0,
-            "hours": 13.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1943950/header.jpg",
-            "url": "https://store.steampowered.com/app/1943950"
-        },
-        {
             "appid": 250380,
             "name": "Knock-knock",
             "playtime_2weeks": 5.5,
             "hours": 8.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/250380/header.jpg",
             "url": "https://store.steampowered.com/app/250380"
+        },
+        {
+            "appid": 1943950,
+            "name": "Escape the Backrooms",
+            "playtime_2weeks": 3.8,
+            "hours": 13.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1943950/header.jpg",
+            "url": "https://store.steampowered.com/app/1943950"
         },
         {
             "appid": 304930,
@@ -96,7 +96,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3353.5,
+            "hours": 3354.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
