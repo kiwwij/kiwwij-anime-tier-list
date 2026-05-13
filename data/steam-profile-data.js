@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
-        "statusColor": "#4CAF50"
+        "status": "Offline",
+        "statusColor": "#9E9E9E"
     },
     "stats": {
         "total_games": 267
@@ -60,14 +60,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/304930"
         },
         {
-            "appid": 1943950,
-            "name": "Escape the Backrooms",
-            "playtime_2weeks": 1.8,
-            "hours": 13.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1943950/header.jpg",
-            "url": "https://store.steampowered.com/app/1943950"
-        },
-        {
             "appid": 1192670,
             "name": "CODE VEIN Demo",
             "playtime_2weeks": 1.6,
@@ -90,6 +82,14 @@ const steamData = {
             "hours": 184.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
+        },
+        {
+            "appid": 3733960,
+            "name": "CODE VEIN II - Character Creator Demo",
+            "playtime_2weeks": 0.9,
+            "hours": 1.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3733960/header.jpg",
+            "url": "https://store.steampowered.com/app/3733960"
         }
     ],
     "top_games": [
