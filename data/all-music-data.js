@@ -44,7 +44,7 @@ const musicData = [
     },
     {
         "title": "Деревья, сгнившие до ствола",
-        "artist": "Violetta Sokolova - Topic",
+        "artist": "Violetta Sokolova",
         "playlist": "Main",
         "duration": "2:11"
     },
@@ -56,7 +56,7 @@ const musicData = [
     },
     {
         "title": "Так прикро",
-        "artist": "Апатія - Topic",
+        "artist": "Апатія",
         "playlist": "Main",
         "duration": "3:00"
     },
@@ -98,7 +98,7 @@ const musicData = [
     },
     {
         "title": "чёрный шёлк",
-        "artist": "3umph - Topic",
+        "artist": "3umph",
         "playlist": "Main",
         "duration": "1:58"
     },
@@ -116,7 +116,7 @@ const musicData = [
     },
     {
         "title": "шизофрения",
-        "artist": "kurokov - Topic",
+        "artist": "kurokov",
         "playlist": "Main",
         "duration": "1:19"
     },
@@ -128,7 +128,7 @@ const musicData = [
     },
     {
         "title": "пароли",
-        "artist": "KERASINN - Topic",
+        "artist": "KERASINN",
         "playlist": "Main",
         "duration": "1:24"
     },
@@ -158,7 +158,7 @@ const musicData = [
     },
     {
         "title": "MARTINE ROSE",
-        "artist": "madk1d - Topic",
+        "artist": "madk1d",
         "playlist": "Main",
         "duration": "3:07"
     },
@@ -182,7 +182,7 @@ const musicData = [
     },
     {
         "title": "Не помирай",
-        "artist": "Апатія - Topic",
+        "artist": "Апатія",
         "playlist": "Main",
         "duration": "2:20"
     },
@@ -1171,7 +1171,7 @@ const musicData = [
         "duration": "2:52"
     },
     {
-        "title": "Sqwore - Всего лишь сон",
+        "title": "Всего лишь сон",
         "artist": "Sqwore",
         "playlist": "Dead inside",
         "duration": "1:51"
@@ -1537,8 +1537,8 @@ const musicData = [
         "duration": "2:15"
     },
     {
-        "title": "MGMT - Little Dark Age (Official Video)",
-        "artist": "MGMTVEVO",
+        "title": "Little Dark Age (Official Video)",
+        "artist": "MGMT",
         "playlist": "Dead inside",
         "duration": "5:11"
     },
@@ -1603,7 +1603,7 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "GONE.Fludd - КУБИК ЛЬДА [Prod. SHVRP PRICKLES] (TEASER)",
+        "title": "КУБИК ЛЬДА",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "0:10"
@@ -1682,7 +1682,7 @@ const musicData = [
     },
     {
         "title": "раздевайся",
-        "artist": "семьсот семь - Topic",
+        "artist": "семьсот семь",
         "playlist": "Dead inside",
         "duration": "2:41"
     },
