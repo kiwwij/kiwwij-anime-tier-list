@@ -46,7 +46,7 @@ const steamData = {
         {
             "appid": 250380,
             "name": "Knock-knock",
-            "playtime_2weeks": 2.6,
+            "playtime_2weeks": 2.5,
             "hours": 8.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/250380/header.jpg",
             "url": "https://store.steampowered.com/app/250380"
