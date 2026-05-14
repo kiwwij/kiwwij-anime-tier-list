@@ -5215,12 +5215,6 @@ const musicData = [
         "duration": "2:42"
     },
     {
-        "title": "lie.mp3",
-        "artist": "funeral",
-        "playlist": "Dead inside",
-        "duration": "2:09"
-    },
-    {
         "title": "Дорогу молодым",
         "artist": "Кишлак",
         "playlist": "Dead inside",
@@ -5231,6 +5225,12 @@ const musicData = [
         "artist": "The Long Faces",
         "playlist": "Dead inside",
         "duration": "3:07"
+    },
+    {
+        "title": "DIVE IN!",
+        "artist": "JELEEL!",
+        "playlist": "Dead inside",
+        "duration": "1:41"
     },
     {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
@@ -5409,6 +5409,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 142999,
+    "totalDurationSec": 142971,
     "lastUpdated": "Auto-generated"
 };
