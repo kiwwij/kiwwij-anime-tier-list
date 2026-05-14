@@ -541,6 +541,12 @@ const musicData = [
         "duration": "3:58"
     },
     {
+        "title": "逆様 - SAKASAMA",
+        "artist": "Polkadot Stingray",
+        "playlist": "Off Screen",
+        "duration": "2:51"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -5415,6 +5421,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 143097,
+    "totalDurationSec": 143268,
     "lastUpdated": "Auto-generated"
 };
