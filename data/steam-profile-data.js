@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Snooze",
-        "statusColor": "#673AB7"
+        "status": "Away",
+        "statusColor": "#FFC107"
     },
     "stats": {
         "total_games": 267
@@ -46,7 +46,7 @@ const steamData = {
         {
             "appid": 250380,
             "name": "Knock-knock",
-            "playtime_2weeks": 5.5,
+            "playtime_2weeks": 3.9,
             "hours": 8.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/250380/header.jpg",
             "url": "https://store.steampowered.com/app/250380"
@@ -58,14 +58,6 @@ const steamData = {
             "hours": 13.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/304930/header.jpg",
             "url": "https://store.steampowered.com/app/304930"
-        },
-        {
-            "appid": 1192670,
-            "name": "CODE VEIN Demo",
-            "playtime_2weeks": 1.6,
-            "hours": 2.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1192670/header.jpg",
-            "url": "https://store.steampowered.com/app/1192670"
         },
         {
             "appid": 1608070,
@@ -90,6 +82,14 @@ const steamData = {
             "hours": 1.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3733960/header.jpg",
             "url": "https://store.steampowered.com/app/3733960"
+        },
+        {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.9,
+            "hours": 21.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
