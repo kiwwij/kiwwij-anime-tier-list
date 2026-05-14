@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "Offline",
+        "statusColor": "#9E9E9E"
     },
     "stats": {
         "total_games": 267
@@ -44,22 +44,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1608070"
         },
         {
-            "appid": 4397180,
-            "name": "Your Friend's Mom",
-            "playtime_2weeks": 1.5,
-            "hours": 6.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4397180/header.jpg",
-            "url": "https://store.steampowered.com/app/4397180"
-        },
-        {
-            "appid": 304930,
-            "name": "Unturned",
-            "playtime_2weeks": 1.2,
-            "hours": 13.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/304930/header.jpg",
-            "url": "https://store.steampowered.com/app/304930"
-        },
-        {
             "appid": 1905180,
             "name": "OBS Studio",
             "playtime_2weeks": 1.1,
@@ -90,6 +74,14 @@ const steamData = {
             "hours": 16.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
             "url": "https://store.steampowered.com/app/920490"
+        },
+        {
+            "appid": 4397180,
+            "name": "Your Friend's Mom",
+            "playtime_2weeks": 0.1,
+            "hours": 6.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4397180/header.jpg",
+            "url": "https://store.steampowered.com/app/4397180"
         }
     ],
     "top_games": [
