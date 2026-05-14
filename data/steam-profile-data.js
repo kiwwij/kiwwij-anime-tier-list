@@ -36,9 +36,17 @@ const steamData = {
             "url": "https://store.steampowered.com/app/105600"
         },
         {
+            "appid": 1608070,
+            "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
+            "playtime_2weeks": 1.7,
+            "hours": 1.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
+            "url": "https://store.steampowered.com/app/1608070"
+        },
+        {
             "appid": 4397180,
             "name": "Your Friend's Mom",
-            "playtime_2weeks": 3.4,
+            "playtime_2weeks": 1.5,
             "hours": 6.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4397180/header.jpg",
             "url": "https://store.steampowered.com/app/4397180"
@@ -46,18 +54,10 @@ const steamData = {
         {
             "appid": 304930,
             "name": "Unturned",
-            "playtime_2weeks": 2.5,
+            "playtime_2weeks": 1.2,
             "hours": 13.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/304930/header.jpg",
             "url": "https://store.steampowered.com/app/304930"
-        },
-        {
-            "appid": 1608070,
-            "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
-            "playtime_2weeks": 1.7,
-            "hours": 1.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
-            "url": "https://store.steampowered.com/app/1608070"
         },
         {
             "appid": 1905180,
