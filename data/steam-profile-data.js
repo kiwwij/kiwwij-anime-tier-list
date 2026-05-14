@@ -74,14 +74,6 @@ const steamData = {
             "hours": 16.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
             "url": "https://store.steampowered.com/app/920490"
-        },
-        {
-            "appid": 4397180,
-            "name": "Your Friend's Mom",
-            "playtime_2weeks": 0.1,
-            "hours": 6.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4397180/header.jpg",
-            "url": "https://store.steampowered.com/app/4397180"
         }
     ],
     "top_games": [
