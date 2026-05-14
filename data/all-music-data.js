@@ -5227,6 +5227,12 @@ const musicData = [
         "duration": "2:24"
     },
     {
+        "title": "Jane!",
+        "artist": "The Long Faces",
+        "playlist": "Dead inside",
+        "duration": "3:07"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -5403,6 +5409,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 142812,
+    "totalDurationSec": 142999,
     "lastUpdated": "Auto-generated"
 };
