@@ -5233,6 +5233,12 @@ const musicData = [
         "duration": "1:41"
     },
     {
+        "title": "мы бежим, вдвоём",
+        "artist": "#меланхолик",
+        "playlist": "Dead inside",
+        "duration": "2:06"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -5409,6 +5415,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 142971,
+    "totalDurationSec": 143097,
     "lastUpdated": "Auto-generated"
 };
