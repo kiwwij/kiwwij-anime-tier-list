@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "Offline",
+        "statusColor": "#9E9E9E"
     },
     "stats": {
         "total_games": 267
@@ -38,7 +38,7 @@ const steamData = {
         {
             "appid": 4397180,
             "name": "Your Friend's Mom",
-            "playtime_2weeks": 6.2,
+            "playtime_2weeks": 5.2,
             "hours": 6.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4397180/header.jpg",
             "url": "https://store.steampowered.com/app/4397180"
@@ -46,7 +46,7 @@ const steamData = {
         {
             "appid": 250380,
             "name": "Knock-knock",
-            "playtime_2weeks": 3.9,
+            "playtime_2weeks": 2.6,
             "hours": 8.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/250380/header.jpg",
             "url": "https://store.steampowered.com/app/250380"
@@ -62,8 +62,8 @@ const steamData = {
         {
             "appid": 1608070,
             "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
-            "playtime_2weeks": 1.1,
-            "hours": 1.1,
+            "playtime_2weeks": 1.7,
+            "hours": 1.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
             "url": "https://store.steampowered.com/app/1608070"
         },
