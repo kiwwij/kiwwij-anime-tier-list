@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "In Game",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 267
@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 26.2,
-            "hours": 3355.6,
+            "playtime_2weeks": 27.2,
+            "hours": 3356.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -46,18 +46,10 @@ const steamData = {
         {
             "appid": 1905180,
             "name": "OBS Studio",
-            "playtime_2weeks": 1.1,
-            "hours": 184.7,
+            "playtime_2weeks": 1.2,
+            "hours": 184.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
-        },
-        {
-            "appid": 3733960,
-            "name": "CODE VEIN II - Character Creator Demo",
-            "playtime_2weeks": 0.9,
-            "hours": 1.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3733960/header.jpg",
-            "url": "https://store.steampowered.com/app/3733960"
         },
         {
             "appid": 431960,
@@ -80,7 +72,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3355.6,
+            "hours": 3356.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
