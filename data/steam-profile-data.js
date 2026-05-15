@@ -22,16 +22,16 @@ const steamData = {
         {
             "appid": 1281930,
             "name": "tModLoader",
-            "playtime_2weeks": 21.8,
-            "hours": 21.8,
+            "playtime_2weeks": 22.8,
+            "hours": 22.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281930/header.jpg",
             "url": "https://store.steampowered.com/app/1281930"
         },
         {
             "appid": 105600,
             "name": "Terraria",
-            "playtime_2weeks": 21.8,
-            "hours": 196.1,
+            "playtime_2weeks": 22.8,
+            "hours": 197.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
         },
@@ -100,7 +100,7 @@ const steamData = {
         {
             "appid": 105600,
             "name": "Terraria",
-            "hours": 196.1,
+            "hours": 197.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
         },
