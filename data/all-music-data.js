@@ -565,6 +565,12 @@ const musicData = [
         "duration": "4:50"
     },
     {
+        "title": "TRUE「Sincerely」 MV Full Size 『ヴァイオレット・エヴァーガーデン』OP主題歌/\"violet-evergarden\" Opning Theme「Sincerely」",
+        "artist": "TRUE",
+        "playlist": "Off Screen",
+        "duration": "4:43"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -5439,6 +5445,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 144336,
+    "totalDurationSec": 144619,
     "lastUpdated": "Auto-generated"
 };
