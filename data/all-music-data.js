@@ -559,6 +559,12 @@ const musicData = [
         "duration": "9:50"
     },
     {
+        "title": "茅原実里「みちしるべ」 MV  Full Size 『ヴァイオレット・エヴァーガーデン』ED主題歌 / \"violet-evergarden\" Ending Theme Michishirube",
+        "artist": "Minori Chihara",
+        "playlist": "Off Screen",
+        "duration": "4:50"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -5433,6 +5439,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 144046,
+    "totalDurationSec": 144336,
     "lastUpdated": "Auto-generated"
 };
