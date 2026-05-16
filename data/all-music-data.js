@@ -1346,7 +1346,7 @@ const musicData = [
     },
     {
         "title": "Mercury: Retrograde",
-        "artist": "GHOSTEMANE",
+        "artist": "Ghostemane",
         "playlist": "Dead inside",
         "duration": "2:06"
     },
@@ -2150,7 +2150,7 @@ const musicData = [
     },
     {
         "title": "Не отдам",
-        "artist": "MakSim",
+        "artist": "Maksim",
         "playlist": "Dead inside",
         "duration": "3:22"
     },
@@ -2276,7 +2276,7 @@ const musicData = [
     },
     {
         "title": "Одиночество-сука",
-        "artist": "Slava",
+        "artist": "SLAVA",
         "playlist": "Dead inside",
         "duration": "3:21"
     },
@@ -2623,7 +2623,7 @@ const musicData = [
         "duration": "3:45"
     },
     {
-        "title": "О, Боже, какой мужчина!",
+        "title": "О боже, какой мужчина!",
         "artist": "Natali",
         "playlist": "Dead inside",
         "duration": "3:30"
@@ -2918,7 +2918,7 @@ const musicData = [
     },
     {
         "title": "Трудный возраст",
-        "artist": "MakSim",
+        "artist": "Maksim",
         "playlist": "Dead inside",
         "duration": "3:27"
     },
@@ -4118,7 +4118,7 @@ const musicData = [
     },
     {
         "title": "Ліпший день",
-        "artist": "СТРУКТУРА ЩАСТЯ",
+        "artist": "Апатія",
         "playlist": "Dead inside",
         "duration": "2:37"
     },
