@@ -3164,7 +3164,7 @@ const musicData = [
     },
     {
         "title": "Кабанчик",
-        "artist": "В'ячеслав Кукоба",
+        "artist": "Вячеслав Кукоба - Topic",
         "playlist": "Dead inside",
         "duration": "3:21"
     },
@@ -4088,7 +4088,7 @@ const musicData = [
     },
     {
         "title": "I Don't Know (radio mix)",
-        "artist": "Erika de Bonis",
+        "artist": "Erika",
         "playlist": "Dead inside",
         "duration": "3:17"
     },
