@@ -553,6 +553,12 @@ const musicData = [
         "duration": "2:51"
     },
     {
+        "title": "Light of the Seven",
+        "artist": "Ramin Djawadi",
+        "playlist": "Off Screen",
+        "duration": "9:50"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -5427,6 +5433,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 143456,
+    "totalDurationSec": 144046,
     "lastUpdated": "Auto-generated"
 };
