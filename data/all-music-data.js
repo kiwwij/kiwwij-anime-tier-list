@@ -3164,7 +3164,7 @@ const musicData = [
     },
     {
         "title": "Кабанчик",
-        "artist": "Вячеслав Кукоба - Topic",
+        "artist": "В'ячеслав Кукоба",
         "playlist": "Dead inside",
         "duration": "3:21"
     },
