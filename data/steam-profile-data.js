@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/dd3b01483c34a221451057ce5058c642af52bc94_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107"
+        "status": "In Game",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 267
@@ -38,8 +38,8 @@ const steamData = {
         {
             "appid": 1608070,
             "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
-            "playtime_2weeks": 1.3,
-            "hours": 1.7,
+            "playtime_2weeks": 1.8,
+            "hours": 2.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
             "url": "https://store.steampowered.com/app/1608070"
         },
