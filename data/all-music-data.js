@@ -223,6 +223,12 @@ const musicData = [
         "duration": "1:44"
     },
     {
+        "title": "АПАТІЯ - НЕДОСТУПНІ [OFFICIAL VIDEO]",
+        "artist": "Апатія",
+        "playlist": "Main",
+        "duration": "3:08"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -5421,6 +5427,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 143268,
+    "totalDurationSec": 143456,
     "lastUpdated": "Auto-generated"
 };
