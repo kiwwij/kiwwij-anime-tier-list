@@ -184,9 +184,14 @@ const musicData = [
         "title": "SIDEL ODIN HARDSTYLE",
         "artist": "Riversmelt",
         "playlist": "Main"
+    },
+    {
+        "title": "АПАТІЯ - НЕДОСТУПНІ [OFFICIAL VIDEO]",
+        "artist": "Апатія",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 19,
-    "totalDurationSec": 4733
+    "totalDurationSec": 4921
 };
