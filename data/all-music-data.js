@@ -2438,7 +2438,7 @@ const musicData = [
     },
     {
         "title": "Бесприданница",
-        "artist": "Dead Blonde - Topic",
+        "artist": "DEAD BLONDE",
         "playlist": "Dead inside",
         "duration": "3:01"
     },
