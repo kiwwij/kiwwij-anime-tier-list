@@ -229,6 +229,12 @@ const musicData = [
         "duration": "3:08"
     },
     {
+        "title": "Garcon Maigre - ☆popstar☆",
+        "artist": "odium",
+        "playlist": "Main",
+        "duration": "1:31"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -5445,6 +5451,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 144619,
+    "totalDurationSec": 144710,
     "lastUpdated": "Auto-generated"
 };
