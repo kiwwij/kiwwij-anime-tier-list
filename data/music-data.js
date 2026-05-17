@@ -189,9 +189,14 @@ const musicData = [
         "title": "АПАТІЯ - НЕДОСТУПНІ [OFFICIAL VIDEO]",
         "artist": "Апатія",
         "playlist": "Main"
+    },
+    {
+        "title": "Garcon Maigre - ☆popstar☆",
+        "artist": "odium",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 19,
-    "totalDurationSec": 4921
+    "totalDurationSec": 5012
 };
