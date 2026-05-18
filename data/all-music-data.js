@@ -5275,6 +5275,12 @@ const musicData = [
         "duration": "2:06"
     },
     {
+        "title": "Дотеры всегда попадают в ад",
+        "artist": "Twinky",
+        "playlist": "Dead inside",
+        "duration": "3:04"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -5451,6 +5457,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 144710,
+    "totalDurationSec": 144894,
     "lastUpdated": "Auto-generated"
 };
