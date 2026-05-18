@@ -38,7 +38,7 @@ const steamData = {
         {
             "appid": 1608070,
             "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
-            "playtime_2weeks": 2.1,
+            "playtime_2weeks": 2.0,
             "hours": 2.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
             "url": "https://store.steampowered.com/app/1608070"
