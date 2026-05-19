@@ -46,15 +46,15 @@ const steamData = {
         {
             "appid": 1905180,
             "name": "OBS Studio",
-            "playtime_2weeks": 1.4,
-            "hours": 185.0,
+            "playtime_2weeks": 1.6,
+            "hours": 185.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
         },
         {
             "appid": 920490,
             "name": "Driver Booster for Steam",
-            "playtime_2weeks": 0.9,
+            "playtime_2weeks": 0.5,
             "hours": 16.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
             "url": "https://store.steampowered.com/app/920490"
@@ -62,7 +62,7 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.6,
+            "playtime_2weeks": 0.4,
             "hours": 21.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
