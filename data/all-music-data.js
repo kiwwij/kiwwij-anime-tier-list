@@ -235,6 +235,12 @@ const musicData = [
         "duration": "1:31"
     },
     {
+        "title": "Весна (кожній тварі по парі)",
+        "artist": "Ashatana Music",
+        "playlist": "Main",
+        "duration": "2:56"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -5457,6 +5463,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 144894,
+    "totalDurationSec": 145070,
     "lastUpdated": "Auto-generated"
 };
