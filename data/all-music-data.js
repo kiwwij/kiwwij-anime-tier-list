@@ -235,10 +235,10 @@ const musicData = [
         "duration": "1:31"
     },
     {
-        "title": "Весна (кожній тварі по парі)",
-        "artist": "Ashatana Music",
+        "title": "что тебя гложет",
+        "artist": "k0vertessence & B4YLUm",
         "playlist": "Main",
-        "duration": "2:56"
+        "duration": "2:33"
     },
     {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
@@ -5281,10 +5281,22 @@ const musicData = [
         "duration": "2:06"
     },
     {
-        "title": "Дотеры всегда попадают в ад",
-        "artist": "Twinky",
+        "title": "NORMAN, TWINKY - DOTA PLAYERS ALWAYS GO TO HELL (Official Music Video)",
+        "artist": "NORMAN",
         "playlist": "Dead inside",
         "duration": "3:04"
+    },
+    {
+        "title": "Малышка любит бустера",
+        "artist": "NORMAN",
+        "playlist": "Dead inside",
+        "duration": "2:38"
+    },
+    {
+        "title": "Весна (кожній тварі по парі)",
+        "artist": "Ashatana Music",
+        "playlist": "Dead inside",
+        "duration": "2:56"
     },
     {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
@@ -5463,6 +5475,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 145070,
+    "totalDurationSec": 145381,
     "lastUpdated": "Auto-generated"
 };
