@@ -194,9 +194,14 @@ const musicData = [
         "title": "Garcon Maigre - ☆popstar☆",
         "artist": "odium",
         "playlist": "Main"
+    },
+    {
+        "title": "что тебя гложет",
+        "artist": "k0vertessence & B4YLUm",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 19,
-    "totalDurationSec": 5012
+    "totalDurationSec": 5165
 };
