@@ -2558,7 +2558,7 @@ const musicData = [
     },
     {
         "title": "Миллион чувств",
-        "artist": "badCurt",
+        "artist": "BadCurt - Topic",
         "playlist": "Dead inside",
         "duration": "2:41"
     },
@@ -2659,8 +2659,8 @@ const musicData = [
         "duration": "3:30"
     },
     {
-        "title": "Мой мармеладный (Я не права)",
-        "artist": "Katya Lel",
+        "title": "Katya Lel – My Marmeladny (Official Music Video, 2004)",
+        "artist": "MAXIM FADEEV",
         "playlist": "Dead inside",
         "duration": "3:21"
     },
@@ -2672,13 +2672,13 @@ const musicData = [
     },
     {
         "title": "Prekrasnoe Dalyoko",
-        "artist": "PARTICLES, кошечка, & Atomic Heart",
+        "artist": "PARTICLES - Topic",
         "playlist": "Dead inside",
         "duration": "2:01"
     },
     {
         "title": "Zvenit Yanvarskaya Vyuga",
-        "artist": "Братство Атома, BassnPanda, Квашеная, and Atomic Heart",
+        "artist": "Братство Атома - Topic",
         "playlist": "Dead inside",
         "duration": "3:18"
     },
@@ -2911,7 +2911,7 @@ const musicData = [
         "duration": "5:22"
     },
     {
-        "title": "Зараза",
+        "title": "«ЗАРАЗА» (видеоклип) – Николай Басков",
         "artist": "Nikolay Baskov",
         "playlist": "Dead inside",
         "duration": "5:39"
