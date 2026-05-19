@@ -2101,7 +2101,7 @@ const musicData = [
         "duration": "1:57"
     },
     {
-        "title": "Самая (Speed Up)",
+        "title": "Mada - Самая (Official music)",
         "artist": "Mada",
         "playlist": "Dead inside",
         "duration": "2:26"
