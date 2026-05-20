@@ -5281,6 +5281,192 @@ const musicData = [
         "duration": "2:56"
     },
     {
+        "title": "дырки в штанах",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "1:47"
+    },
+    {
+        "title": "sexyswag2010",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "1:30"
+    },
+    {
+        "title": "В реальності новій",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "2:45"
+    },
+    {
+        "title": "нарратор",
+        "artist": "lafkrat",
+        "playlist": "Dead inside",
+        "duration": "2:24"
+    },
+    {
+        "title": "бесконечное лето",
+        "artist": "CMH",
+        "playlist": "Dead inside",
+        "duration": "2:38"
+    },
+    {
+        "title": "чёрный шёлк",
+        "artist": "3umph",
+        "playlist": "Dead inside",
+        "duration": "1:58"
+    },
+    {
+        "title": "овердоз",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:29"
+    },
+    {
+        "title": "unhappy (remix)",
+        "artist": "s0rrow",
+        "playlist": "Dead inside",
+        "duration": "2:12"
+    },
+    {
+        "title": "шизофрения",
+        "artist": "kurokov",
+        "playlist": "Dead inside",
+        "duration": "1:19"
+    },
+    {
+        "title": "губы",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:35"
+    },
+    {
+        "title": "пароли",
+        "artist": "KERASINN",
+        "playlist": "Dead inside",
+        "duration": "1:24"
+    },
+    {
+        "title": "она свободна (feat. морали нет)",
+        "artist": "диссоциативное расстройство",
+        "playlist": "Dead inside",
+        "duration": "1:21"
+    },
+    {
+        "title": "Стань моїм вбивцею",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "3:45"
+    },
+    {
+        "title": "Тело похудело",
+        "artist": "КОРЗА",
+        "playlist": "Dead inside",
+        "duration": "2:25"
+    },
+    {
+        "title": "сиськи",
+        "artist": "trepet",
+        "playlist": "Dead inside",
+        "duration": "1:45"
+    },
+    {
+        "title": "MARTINE ROSE",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "3:07"
+    },
+    {
+        "title": "Катюха",
+        "artist": "whitek3d",
+        "playlist": "Dead inside",
+        "duration": "1:18"
+    },
+    {
+        "title": "ЛАБУБУ",
+        "artist": "YUNG FIMOZ",
+        "playlist": "Dead inside",
+        "duration": "2:00"
+    },
+    {
+        "title": "Не помирай",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "2:20"
+    },
+    {
+        "title": "Лунный Лик",
+        "artist": "GONE.Fludd",
+        "playlist": "Dead inside",
+        "duration": "2:56"
+    },
+    {
+        "title": "таролог",
+        "artist": "норман грейсон",
+        "playlist": "Dead inside",
+        "duration": "1:55"
+    },
+    {
+        "title": "Kingslayer (feat. BABYMETAL)",
+        "artist": "Bring Me The Horizon",
+        "playlist": "Dead inside",
+        "duration": "3:41"
+    },
+    {
+        "title": "распять (folk remix)",
+        "artist": "stel11a",
+        "playlist": "Dead inside",
+        "duration": "1:31"
+    },
+    {
+        "title": "ivycraft — люблю москву но снится london",
+        "artist": "Russian SoundCloud",
+        "playlist": "Dead inside",
+        "duration": "1:33"
+    },
+    {
+        "title": "SIDEL ODIN HARDSTYLE",
+        "artist": "Riversmelt",
+        "playlist": "Dead inside",
+        "duration": "1:44"
+    },
+    {
+        "title": "Недоступні",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "3:03"
+    },
+    {
+        "title": "popstar (feat. Перемотка)",
+        "artist": "Garcon Maigre",
+        "playlist": "Dead inside",
+        "duration": "1:25"
+    },
+    {
+        "title": "что тебя гложет",
+        "artist": "k0vertessence & B4YLUm",
+        "playlist": "Dead inside",
+        "duration": "2:33"
+    },
+    {
+        "title": "web 2.0",
+        "artist": "тёмный принц & silver gloria",
+        "playlist": "Dead inside",
+        "duration": "1:24"
+    },
+    {
+        "title": "целуй меня",
+        "artist": "cardinparis",
+        "playlist": "Dead inside",
+        "duration": "1:16"
+    },
+    {
+        "title": "PO PI PO HARDTEKK",
+        "artist": "Riversmelt, RXDL, & MOGGER",
+        "playlist": "Dead inside",
+        "duration": "1:13"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -5457,6 +5643,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 145018,
+    "totalDurationSec": 148814,
     "lastUpdated": "Auto-generated"
 };
