@@ -6,11 +6,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "держаться за руки",
-        "artist": "кариолемма",
-        "playlist": "Main"
-    },
-    {
         "title": "ты че обиделась",
         "artist": "madk1d",
         "playlist": "Main"
@@ -63,11 +58,6 @@ const musicData = [
     {
         "title": "В реальності новій",
         "artist": "Апатія",
-        "playlist": "Main"
-    },
-    {
-        "title": "fake ur face",
-        "artist": "s0rrow",
         "playlist": "Main"
     },
     {
@@ -136,11 +126,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Ты не пришла и х с тобой",
-        "artist": "Мой Двор",
-        "playlist": "Main"
-    },
-    {
         "title": "Катюха",
         "artist": "whitek3d",
         "playlist": "Main"
@@ -203,5 +188,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 19,
-    "totalDurationSec": 5165
+    "totalDurationSec": 4802
 };
