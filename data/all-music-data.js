@@ -7,12 +7,6 @@ const musicData = [
         "duration": "2:17"
     },
     {
-        "title": "держаться за руки",
-        "artist": "кариолемма",
-        "playlist": "Main",
-        "duration": "1:34"
-    },
-    {
         "title": "ты че обиделась",
         "artist": "madk1d",
         "playlist": "Main",
@@ -77,12 +71,6 @@ const musicData = [
         "artist": "Апатія",
         "playlist": "Main",
         "duration": "2:45"
-    },
-    {
-        "title": "fake ur face",
-        "artist": "s0rrow",
-        "playlist": "Main",
-        "duration": "1:55"
     },
     {
         "title": "нарратор",
@@ -161,12 +149,6 @@ const musicData = [
         "artist": "madk1d",
         "playlist": "Main",
         "duration": "3:07"
-    },
-    {
-        "title": "Ты не пришла и х с тобой",
-        "artist": "Мой Двор",
-        "playlist": "Main",
-        "duration": "2:34"
     },
     {
         "title": "Катюха",
@@ -5281,8 +5263,8 @@ const musicData = [
         "duration": "2:06"
     },
     {
-        "title": "Дотеры всегда попадают в ад",
-        "artist": "Twinky",
+        "title": "NORMAN, TWINKY - DOTA PLAYERS ALWAYS GO TO HELL (Official Music Video)",
+        "artist": "NORMAN",
         "playlist": "Dead inside",
         "duration": "3:04"
     },
@@ -5475,6 +5457,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 145381,
+    "totalDurationSec": 145018,
     "lastUpdated": "Auto-generated"
 };
