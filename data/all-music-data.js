@@ -5281,8 +5281,8 @@ const musicData = [
         "duration": "2:06"
     },
     {
-        "title": "Дотеры всегда попадают в ад",
-        "artist": "Twinky",
+        "title": "NORMAN, TWINKY - DOTA PLAYERS ALWAYS GO TO HELL (Official Music Video)",
+        "artist": "NORMAN",
         "playlist": "Dead inside",
         "duration": "3:04"
     },
