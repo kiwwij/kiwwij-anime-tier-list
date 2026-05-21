@@ -14,7 +14,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 30.1,
+            "playtime_2weeks": 28.9,
             "hours": 3366.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -36,20 +36,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/105600"
         },
         {
+            "appid": 1962700,
+            "name": "Subnautica 2",
+            "playtime_2weeks": 5.1,
+            "hours": 5.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1962700/header.jpg",
+            "url": "https://store.steampowered.com/app/1962700"
+        },
+        {
             "appid": 1608070,
             "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
             "playtime_2weeks": 2.0,
             "hours": 2.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
             "url": "https://store.steampowered.com/app/1608070"
-        },
-        {
-            "appid": 1962700,
-            "name": "Subnautica 2",
-            "playtime_2weeks": 1.9,
-            "hours": 1.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1962700/header.jpg",
-            "url": "https://store.steampowered.com/app/1962700"
         },
         {
             "appid": 1905180,
