@@ -8,7 +8,7 @@ const steamData = {
         "statusColor": "#4CAF50"
     },
     "stats": {
-        "total_games": 268
+        "total_games": 269
     },
     "recent_games": [
         {
@@ -22,7 +22,7 @@ const steamData = {
         {
             "appid": 1281930,
             "name": "tModLoader",
-            "playtime_2weeks": 9.7,
+            "playtime_2weeks": 7.8,
             "hours": 24.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281930/header.jpg",
             "url": "https://store.steampowered.com/app/1281930"
@@ -30,7 +30,7 @@ const steamData = {
         {
             "appid": 105600,
             "name": "Terraria",
-            "playtime_2weeks": 9.7,
+            "playtime_2weeks": 7.8,
             "hours": 198.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
@@ -38,8 +38,8 @@ const steamData = {
         {
             "appid": 1962700,
             "name": "Subnautica 2",
-            "playtime_2weeks": 5.1,
-            "hours": 5.1,
+            "playtime_2weeks": 5.2,
+            "hours": 5.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1962700/header.jpg",
             "url": "https://store.steampowered.com/app/1962700"
         },
@@ -60,20 +60,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1905180"
         },
         {
+            "appid": 920490,
+            "name": "Driver Booster for Steam",
+            "playtime_2weeks": 1.3,
+            "hours": 17.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
+            "url": "https://store.steampowered.com/app/920490"
+        },
+        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.4,
             "hours": 21.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 920490,
-            "name": "Driver Booster for Steam",
-            "playtime_2weeks": 0.3,
-            "hours": 16.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
-            "url": "https://store.steampowered.com/app/920490"
         }
     ],
     "top_games": [
