@@ -4,11 +4,11 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/09f5c3a0f71de7094263d1820134fab9667a9839_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50"
     },
     "stats": {
-        "total_games": 267
+        "total_games": 268
     },
     "recent_games": [
         {
@@ -42,6 +42,14 @@ const steamData = {
             "hours": 2.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
             "url": "https://store.steampowered.com/app/1608070"
+        },
+        {
+            "appid": 1962700,
+            "name": "Subnautica 2",
+            "playtime_2weeks": 1.9,
+            "hours": 1.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1962700/header.jpg",
+            "url": "https://store.steampowered.com/app/1962700"
         },
         {
             "appid": 1905180,
