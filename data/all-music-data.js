@@ -223,6 +223,12 @@ const musicData = [
         "duration": "2:33"
     },
     {
+        "title": "разъедаешь мне нутро",
+        "artist": "конец солнечных дней",
+        "playlist": "Main",
+        "duration": "3:47"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -5643,6 +5649,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 148814,
+    "totalDurationSec": 149041,
     "lastUpdated": "Auto-generated"
 };
