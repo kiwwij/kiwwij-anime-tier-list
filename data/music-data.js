@@ -81,11 +81,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "unhappy (remix)",
-        "artist": "s0rrow",
-        "playlist": "Main"
-    },
-    {
         "title": "шизофрения",
         "artist": "kurokov",
         "playlist": "Main"
@@ -184,9 +179,14 @@ const musicData = [
         "title": "что тебя гложет",
         "artist": "k0vertessence & B4YLUm",
         "playlist": "Main"
+    },
+    {
+        "title": "мориарти",
+        "artist": "k1n1ch",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 19,
-    "totalDurationSec": 4802
+    "totalDurationSec": 4745
 };
