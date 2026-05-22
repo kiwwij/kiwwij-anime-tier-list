@@ -574,7 +574,7 @@ const musicData = [
         "title": "По*уй",
         "artist": "KVESTAR",
         "playlist": "Dead inside",
-        "duration": "2:00"
+        "duration": "2:02"
     },
     {
         "title": "Код",
@@ -5479,6 +5479,12 @@ const musicData = [
         "duration": "3:47"
     },
     {
+        "title": "призрак",
+        "artist": "greyrock",
+        "playlist": "Dead inside",
+        "duration": "1:45"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -5655,6 +5661,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 149098,
+    "totalDurationSec": 149205,
     "lastUpdated": "Auto-generated"
 };
