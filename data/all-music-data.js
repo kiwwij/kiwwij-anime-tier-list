@@ -217,6 +217,12 @@ const musicData = [
         "duration": "2:33"
     },
     {
+        "title": "мориарти",
+        "artist": "k1n1ch",
+        "playlist": "Main",
+        "duration": "1:15"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -5649,6 +5655,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 149023,
+    "totalDurationSec": 149098,
     "lastUpdated": "Auto-generated"
 };
