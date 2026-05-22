@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/09f5c3a0f71de7094263d1820134fab9667a9839_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50"
+        "status": "Away",
+        "statusColor": "#FFC107"
     },
     "stats": {
         "total_games": 269
@@ -44,6 +44,22 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1962700"
         },
         {
+            "appid": 2444750,
+            "name": "Shape of Dreams",
+            "playtime_2weeks": 2.4,
+            "hours": 15.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
+            "url": "https://store.steampowered.com/app/2444750"
+        },
+        {
+            "appid": 1905180,
+            "name": "OBS Studio",
+            "playtime_2weeks": 1.8,
+            "hours": 185.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
+            "url": "https://store.steampowered.com/app/1905180"
+        },
+        {
             "appid": 1608070,
             "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
             "playtime_2weeks": 1.8,
@@ -52,28 +68,12 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1608070"
         },
         {
-            "appid": 1905180,
-            "name": "OBS Studio",
-            "playtime_2weeks": 1.6,
-            "hours": 185.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
-            "url": "https://store.steampowered.com/app/1905180"
-        },
-        {
             "appid": 920490,
             "name": "Driver Booster for Steam",
             "playtime_2weeks": 1.3,
             "hours": 17.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
             "url": "https://store.steampowered.com/app/920490"
-        },
-        {
-            "appid": 2444750,
-            "name": "Shape of Dreams",
-            "playtime_2weeks": 0.5,
-            "hours": 13.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
-            "url": "https://store.steampowered.com/app/2444750"
         },
         {
             "appid": 431960,
