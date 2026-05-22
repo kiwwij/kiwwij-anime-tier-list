@@ -229,12 +229,6 @@ const musicData = [
         "duration": "3:47"
     },
     {
-        "title": "прощай",
-        "artist": "k0vertessence",
-        "playlist": "Main",
-        "duration": "1:54"
-    },
-    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -5477,6 +5471,12 @@ const musicData = [
         "artist": "Riversmelt, RXDL, & MOGGER",
         "playlist": "Dead inside",
         "duration": "1:13"
+    },
+    {
+        "title": "прощай",
+        "artist": "k0vertessence",
+        "playlist": "Dead inside",
+        "duration": "1:54"
     },
     {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
