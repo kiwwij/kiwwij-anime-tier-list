@@ -97,12 +97,6 @@ const musicData = [
         "duration": "1:29"
     },
     {
-        "title": "unhappy (remix)",
-        "artist": "s0rrow",
-        "playlist": "Main",
-        "duration": "2:12"
-    },
-    {
         "title": "шизофрения",
         "artist": "kurokov",
         "playlist": "Main",
@@ -221,12 +215,6 @@ const musicData = [
         "artist": "k0vertessence & B4YLUm",
         "playlist": "Main",
         "duration": "2:33"
-    },
-    {
-        "title": "разъедаешь мне нутро",
-        "artist": "конец солнечных дней",
-        "playlist": "Main",
-        "duration": "3:47"
     },
     {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
@@ -5479,6 +5467,12 @@ const musicData = [
         "duration": "1:54"
     },
     {
+        "title": "разъедаешь мне нутро",
+        "artist": "конец солнечных дней",
+        "playlist": "Dead inside",
+        "duration": "3:47"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -5655,6 +5649,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 149155,
+    "totalDurationSec": 149023,
     "lastUpdated": "Auto-generated"
 };
