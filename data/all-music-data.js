@@ -574,7 +574,7 @@ const musicData = [
         "title": "По*уй",
         "artist": "KVESTAR",
         "playlist": "Dead inside",
-        "duration": "2:02"
+        "duration": "2:00"
     },
     {
         "title": "Код",
@@ -5661,6 +5661,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 149205,
+    "totalDurationSec": 149203,
     "lastUpdated": "Auto-generated"
 };
