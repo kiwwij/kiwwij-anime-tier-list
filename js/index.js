@@ -95,7 +95,24 @@ function renderTierList() {
     if (!categoryData) return;
 
     const type = categoryData.type || 'anime';
-    
+    const searchContainer = document.querySelector('.search-container');
+    const searchInput = document.getElementById('animeSearch');
+    const clearBtn = document.getElementById('clearSearch');
+    const searchResultsContainer = document.getElementById('searchResultsContainer');
+
+    if (searchContainer) {
+        if (type !== 'anime' || category === 'Энергетики' || category.includes('Re:Zero')) {
+            searchContainer.style.display = 'none';
+            
+            if (searchInput) searchInput.value = '';
+            if (clearBtn) clearBtn.style.display = 'none';
+            if (searchResultsContainer) searchResultsContainer.style.display = 'none';
+            tierListContainer.style.display = 'block';
+        } else {
+            searchContainer.style.display = 'block';
+        }
+    }
+
     const droppedLink = document.getElementById('droppedLinkContainer');
     if (droppedLink) {
         if (type === 'anime' && !category.includes('Re:Zero')) {
@@ -121,7 +138,7 @@ function renderTierList() {
         disclaimer.style.maxWidth = '800px';
         disclaimer.style.textAlign = 'center';
         disclaimer.style.borderLeftColor = '#facc15';
-        disclaimer.innerHTML = '<strong>Небольшая ремарка:</strong> Довольно тяжело объективно оценивать и сравнивать в одном списке ко-оп, мультиплеерные и сюжетные синглплеерные игры. Так что не удивляйтесь немного странной расстановке − это сугубо моё личное восприятие!';
+        disclaimer.innerHTML = '<strong>Небольшая ремарка:</strong> Довольно тяжело объективно оценивать и сравнивать в одном списке ко-оп, мультиплеерные и сюжетные синглплеерные игры. Так что не удивляйтесь немного странной расстановке − это сугубо моё личное восприятие! Также постреы погут быть не правильными из-за плохого, но бессплатного API RAWG, который я использую для получения обложек и рейтингов.';
         tierListContainer.appendChild(disclaimer);
     }
 
@@ -143,7 +160,6 @@ function renderTierList() {
             card.dataset.type = type;
             card.dataset.item = JSON.stringify(item);
 
-            // attachReZeroSound(card, item.title);
             attachReZeroSound(card, item.title, category);
 
             const loader = document.createElement('div');
@@ -398,6 +414,152 @@ function attachReZeroSound(cardElement, title, category) {
     cardElement.addEventListener('mouseleave', () => {
         cardElement.classList.remove('witch-active');
     });
+}
+
+const searchInput = document.getElementById('animeSearch');
+const clearBtn = document.getElementById('clearSearch');
+const searchResultsContainer = document.getElementById('searchResultsContainer');
+
+if (searchInput && searchResultsContainer && clearBtn) {
+    clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        searchInput.dispatchEvent(new Event('input'));
+        searchInput.focus();
+    });
+
+    searchInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        const mainContainer = document.getElementById('tierListContainer');
+        const droppedLink = document.getElementById('droppedLinkContainer');
+        clearBtn.style.display = query.length > 0 ? 'flex' : 'none';
+
+        if (query.length < 2) {
+            searchResultsContainer.style.display = 'none';
+            mainContainer.style.display = 'block';
+            if (droppedLink) droppedLink.style.display = 'block';
+            return;
+        }
+
+        mainContainer.style.display = 'none';
+        if (droppedLink) droppedLink.style.display = 'none';
+        searchResultsContainer.style.display = 'grid';
+        searchResultsContainer.innerHTML = '';
+
+        const results = [];
+        const dataKeys = ['S', 'A', 'B', 'C', 'D', 'E', 'F'];
+
+        for (const [categoryName, categoryData] of Object.entries(tierListData)) {
+            const type = categoryData.type || 'anime';
+
+            if (
+                type !== 'anime' || 
+                categoryName === 'Энергетики' || 
+                categoryName.includes('Re:Zero')
+            ) {
+                continue;
+            }
+
+            dataKeys.forEach(tier => {
+                const items = categoryData.data ? categoryData.data[tier] : (categoryData[tier] || []);
+                items.forEach(item => {
+                    const titleEng = (item.title || "").toLowerCase();
+                    const titleRu = (item.ruTitle || "").toLowerCase();
+                    
+                    if (titleEng.includes(query) || titleRu.includes(query)) {
+                        results.push({ item, year: categoryName, tier });
+                    }
+                });
+            });
+        }
+
+        if (results.length === 0) {
+            searchResultsContainer.innerHTML = '<div class="search-empty">Ничего не найдено 😔</div>';
+            return;
+        }
+
+        const tierColors = {
+            'S': '#ef4444', 'A': '#f97316', 'B': '#facc15', 
+            'C': '#22c55e', 'D': '#3b82f6', 'E': '#a855f7', 'F': '#4b5563'
+        };
+
+        results.forEach(res => {
+            const card = document.createElement('div');
+            card.className = 'search-card';
+
+            const imgWrapper = document.createElement('div');
+            imgWrapper.className = 'img-wrapper';
+
+            const loader = document.createElement('div');
+            loader.className = 'card-loader';
+            loader.textContent = res.item.ruTitle || res.item.title;
+            imgWrapper.appendChild(loader);
+
+            const info = document.createElement('div');
+            info.className = 'search-card-info';
+
+            const title = document.createElement('div');
+            title.className = 'search-card-title';
+            title.textContent = res.item.ruTitle || res.item.title;
+
+            const meta = document.createElement('div');
+            meta.className = 'search-card-meta';
+
+            const tierBadge = document.createElement('span');
+            tierBadge.className = 'search-tier-badge';
+            tierBadge.textContent = res.tier;
+            tierBadge.style.backgroundColor = tierColors[res.tier] || '#ccc';
+
+            const yearBadge = document.createElement('span');
+            yearBadge.className = 'search-year-badge';
+            yearBadge.textContent = res.year;
+
+            meta.appendChild(tierBadge);
+            meta.appendChild(yearBadge);
+            info.appendChild(title);
+            info.appendChild(meta);
+            
+            card.appendChild(imgWrapper);
+            card.appendChild(info);
+            searchResultsContainer.appendChild(card);
+
+            loadSearchImage(imgWrapper, res.item, res.item.title, 'anime');
+
+            card.onclick = () => {
+                const cachedData = apiCache[res.item.title];
+                openModal(res.item, cachedData ? cachedData.imgLarge.replace('http://', 'https://') : null, cachedData);
+            };
+        });
+    });
+}
+
+async function loadSearchImage(container, item, query, type) {
+    let data = apiCache[query];
+    
+    if (item.img) {
+        applyImg(container, `img/${item.img}`);
+        return;
+    }
+
+    if (!data || !data.imgSmall) {
+        data = await addRequestToQueue(query, type);
+    }
+
+    if (data && data.imgSmall) {
+        applyImg(container, data.imgSmall);
+    } else {
+        const loader = container.querySelector('.card-loader');
+        if (loader) loader.textContent = "Нет фото";
+    }
+}
+
+function applyImg(container, src) {
+    const img = document.createElement('img');
+    img.src = src.replace('http://', 'https://');
+    img.onload = () => {
+        const loader = container.querySelector('.card-loader');
+        if (loader) loader.remove();
+        container.appendChild(img);
+    };
 }
 
 function maybeSpawnZoro() {

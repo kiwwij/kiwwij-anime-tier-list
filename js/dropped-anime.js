@@ -224,6 +224,57 @@ function activateGlitchMode() {
     }, 5000);
 }
 
+const searchInput = document.getElementById('animeSearch');
+const clearBtn = document.getElementById('clearSearch');
+
+if (searchInput && clearBtn && droppedListContainer) {
+    clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        searchInput.dispatchEvent(new Event('input')); 
+        searchInput.focus(); 
+    });
+
+    searchInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        
+        clearBtn.style.display = query.length > 0 ? 'flex' : 'none';
+
+        let hasVisibleCards = false;
+        const cards = droppedListContainer.querySelectorAll('.card');
+        
+        cards.forEach(card => {
+            const item = JSON.parse(card.dataset.item);
+            const titleEng = (item.title || "").toLowerCase();
+            const titleRu = (item.ruTitle || "").toLowerCase();
+
+            if (titleEng.includes(query) || titleRu.includes(query)) {
+                card.style.display = 'block';
+                hasVisibleCards = true;
+            } else {
+                card.style.display = 'none';
+            }
+        });
+
+        let emptyMsg = droppedListContainer.querySelector('.search-empty');
+        if (!hasVisibleCards) {
+            if (!emptyMsg) {
+                emptyMsg = document.createElement('div');
+                emptyMsg.className = 'search-empty';
+                emptyMsg.style.gridColumn = '1 / -1';
+                emptyMsg.style.padding = '2rem';
+                emptyMsg.style.textAlign = 'center';
+                emptyMsg.style.color = 'var(--text-muted)';
+                emptyMsg.textContent = 'Ничего не найдено 😔';
+                droppedListContainer.appendChild(emptyMsg);
+            } else {
+                emptyMsg.style.display = 'block';
+            }
+        } else if (emptyMsg) {
+            emptyMsg.style.display = 'none';
+        }
+    });
+}
+
 function maybeSpawnZoro() {
     if (Math.random() > 0.05) return; 
 

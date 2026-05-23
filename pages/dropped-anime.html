@@ -34,7 +34,17 @@
     <main>
         <div class="dropped-header">
             <p>Аниме, которые не смогли меня удержать или стали скучными в процессе просмотра</p>
-            <p>(могут быть проблемы с постерами)</p>
+            <!-- <p>(могут быть проблемы с постерами)</p> -->
+        </div>
+
+        <div class="controls-wrapper" style="margin-bottom: 2rem;">
+            <div class="top-controls-row">
+                <div class="search-container">
+                    <i class='bx bx-search search-icon'></i>
+                    <input type="text" id="animeSearch" class="search-input" placeholder="Найти аниме по названию" autocomplete="off">
+                    <button id="clearSearch" class="clear-search-btn" style="display: none;"><i class="bx bx-x"></i></button>
+                </div>
+            </div>
         </div>
 
         <div id="droppedListContainer" class="dropped-grid"></div>

@@ -139,6 +139,13 @@
     color: var(--text-muted);
 }
 
+.profile-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 640px) {
     .steam-header {
         flex-direction: column;

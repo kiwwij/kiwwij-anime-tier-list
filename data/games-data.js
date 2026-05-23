@@ -108,6 +108,10 @@ if (typeof tierListData !== 'undefined') {
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/2622380/",
                 },
                 {
+                    title: "Subnautica 2",
+                    review: "Играли с другом, по началу было не понятно, но спустя пару часиков понравилось. Играли почти с самого релиза, так что контента было не так много, но всё равно достаточно.",
+                },
+                {
                     title: "Sekiro: shadows die twice",
                     review: "Ревью - https://steamcommunity.com/profiles/76561199512523461/recommended/814380/",
                 },
@@ -122,6 +126,10 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "Raft",
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/648800/",
+                },
+                {
+                    title: "Shape of Dreams: Prologue",
+                    review: "Играл с другом, что-то по типу RoR2. Очень понравилась Мист, прокачал её до фулла. Открыл всех персонажей. Если бы играл с кем-то, то прошёл бы на 100%. А так со временем надоедает.",
                 },
                 {
                     title: "Tomb Raider (2013)",
@@ -228,10 +236,6 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "Hollow Knight",
                     review: "Кайфовая метроидвания с атмосферой.",
-                },
-                {
-                    title: "Shape of Dreams: Prologue",
-                    review: "Играл с другом, что-то по типу RoR2. (название игры в стиме без 'Prologue')",
                 },
                 {
                     title: "Soulcalibur VI",
