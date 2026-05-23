@@ -1694,7 +1694,7 @@ const musicData = [
     },
     {
         "title": "Пиглины",
-        "artist": "OTURRO",
+        "artist": "5opka",
         "playlist": "Dead inside",
         "duration": "1:59"
     },
