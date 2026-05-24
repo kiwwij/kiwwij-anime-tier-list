@@ -3055,7 +3055,7 @@ const musicData = [
         "duration": "3:41"
     },
     {
-        "title": "aldn - icantbelieveiletyougetaway (official music video)",
+        "title": "icantbelieveiletyougetaway",
         "artist": "aldn",
         "playlist": "Dead inside",
         "duration": "2:30"
@@ -3067,8 +3067,8 @@ const musicData = [
         "duration": "2:03"
     },
     {
-        "title": "Дайте танк (!) - Утро",
-        "artist": "Дайте танк (!)",
+        "title": "Утро",
+        "artist": "Dayte tank (!)",
         "playlist": "Dead inside",
         "duration": "2:41"
     },
@@ -3121,7 +3121,7 @@ const musicData = [
         "duration": "4:21"
     },
     {
-        "title": "ANTHEM OF THE KURSK PEOPLE'S REPUBLIC",
+        "title": "ГІМН КУРСЬКОЇ НАРОДНЬОЇ РЕСПУБЛІКИ",
         "artist": "Володимир Зеленський",
         "playlist": "Dead inside",
         "duration": "2:32"
@@ -3344,7 +3344,7 @@ const musicData = [
     },
     {
         "title": "наколки",
-        "artist": "zhanulka",
+        "artist": "Zhanulka",
         "playlist": "Dead inside",
         "duration": "2:03"
     },
