@@ -31,12 +31,6 @@ const musicData = [
         "duration": "1:24"
     },
     {
-        "title": "face vlone remix - salem slut",
-        "artist": "soundcloud mixtape",
-        "playlist": "Main",
-        "duration": "2:11"
-    },
-    {
         "title": "Деревья, сгнившие до ствола",
         "artist": "Violetta Sokolova",
         "playlist": "Main",
@@ -199,12 +193,6 @@ const musicData = [
         "duration": "1:44"
     },
     {
-        "title": "АПАТІЯ - НЕДОСТУПНІ [OFFICIAL VIDEO]",
-        "artist": "Апатія",
-        "playlist": "Main",
-        "duration": "3:08"
-    },
-    {
         "title": "Garcon Maigre - ☆popstar☆",
         "artist": "odium",
         "playlist": "Main",
@@ -221,6 +209,30 @@ const musicData = [
         "artist": "k1n1ch",
         "playlist": "Main",
         "duration": "1:15"
+    },
+    {
+        "title": "europa fm",
+        "artist": "The pAura",
+        "playlist": "Main",
+        "duration": "1:53"
+    },
+    {
+        "title": "Vlone",
+        "artist": "FACE",
+        "playlist": "Main",
+        "duration": "2:24"
+    },
+    {
+        "title": "8 миля",
+        "artist": "madk1d",
+        "playlist": "Main",
+        "duration": "1:56"
+    },
+    {
+        "title": "вклубе",
+        "artist": "тёмный принц",
+        "playlist": "Main",
+        "duration": "1:40"
     },
     {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
@@ -563,6 +575,84 @@ const musicData = [
         "artist": "TRUE",
         "playlist": "Off Screen",
         "duration": "4:43"
+    },
+    {
+        "title": "シルエット - Silhouette",
+        "artist": "KANA-BOON",
+        "playlist": "Off Screen",
+        "duration": "4:01"
+    },
+    {
+        "title": "KICK BACK",
+        "artist": "Kenshi Yonezu",
+        "playlist": "Off Screen",
+        "duration": "3:14"
+    },
+    {
+        "title": "インフェルノ - Inferno",
+        "artist": "Mrs. GREEN APPLE",
+        "playlist": "Off Screen",
+        "duration": "3:33"
+    },
+    {
+        "title": "ホタルノヒカリ - Hotarunohikari",
+        "artist": "Ikimonogakari",
+        "playlist": "Off Screen",
+        "duration": "4:05"
+    },
+    {
+        "title": "心臓を捧げよ！ - Shinzo wo Sasageyo !",
+        "artist": "Linked Horizon",
+        "playlist": "Off Screen",
+        "duration": "5:42"
+    },
+    {
+        "title": "Touch off",
+        "artist": "UVERworld",
+        "playlist": "Off Screen",
+        "duration": "4:21"
+    },
+    {
+        "title": "Hero's Come Back!!",
+        "artist": "nobodyknows+",
+        "playlist": "Off Screen",
+        "duration": "4:34"
+    },
+    {
+        "title": "the WORLD",
+        "artist": "NIGHTMARE",
+        "playlist": "Off Screen",
+        "duration": "3:55"
+    },
+    {
+        "title": "遥か彼方 - Haruka Kanata",
+        "artist": "ASIAN KUNG-FU GENERATION",
+        "playlist": "Off Screen",
+        "duration": "4:03"
+    },
+    {
+        "title": "残酷な天使のテーゼ - Zankoku na Tenshi no Thesis",
+        "artist": "Yoko Takahashi",
+        "playlist": "Off Screen",
+        "duration": "4:06"
+    },
+    {
+        "title": "ブルーバード - Blue Bird",
+        "artist": "Ikimonogakari",
+        "playlist": "Off Screen",
+        "duration": "3:39"
+    },
+    {
+        "title": "カワキヲアメク - Kawakiwoameku",
+        "artist": "minami",
+        "playlist": "Off Screen",
+        "duration": "4:12"
+    },
+    {
+        "title": "紅蓮華 - Gurenge",
+        "artist": "LiSA",
+        "playlist": "Off Screen",
+        "duration": "3:58"
     },
     {
         "title": "Лёд",
@@ -5485,6 +5575,24 @@ const musicData = [
         "duration": "1:45"
     },
     {
+        "title": "ты не одна",
+        "artist": "диссоциативное расстройство",
+        "playlist": "Dead inside",
+        "duration": "1:57"
+    },
+    {
+        "title": "общага",
+        "artist": "диссоциативное расстройство",
+        "playlist": "Dead inside",
+        "duration": "1:48"
+    },
+    {
+        "title": "face vlone remix - salem slut",
+        "artist": "soundcloud mixtape",
+        "playlist": "Dead inside",
+        "duration": "2:11"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -5661,6 +5769,6 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 828,
-    "totalDurationSec": 149203,
+    "totalDurationSec": 152916,
     "lastUpdated": "Auto-generated"
 };
