@@ -2,7 +2,7 @@ import json
 import os
 import re
 from ytmusicapi import YTMusic
--
+
 OUTPUT_FILENAME = 'all-music-data.js'
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
