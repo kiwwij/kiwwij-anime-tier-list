@@ -2,24 +2,21 @@ import json
 import os
 import re
 from ytmusicapi import YTMusic
-
-# --- НАСТРОЙКИ ---
-# Имя выходного файла (Для страницы HUB)
+-
 OUTPUT_FILENAME = 'all-music-data.js'
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(script_dir) 
 output_path = os.path.join(project_root, 'data', 'all-music-data.js')
 
-# --- СПИСОК ПЛЕЙЛИСТОВ (ВСЕ 4) ---
 playlists = [
     {"id": "PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C", "name": "Main"},
     {"id": "PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ", "name": "Off Screen"},
     {"id": "PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2", "name": "Dead inside"},
-    {"id": "PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ", "name": "Game OSTs"}
+    {"id": "PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ", "name": "Game OSTs"},
+    {"id": "PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk", "name": "Sewerslvt"}
 ]
 
-# --- ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ ---
 def parse_views(view_text):
     if not view_text: return 0
     text = view_text.lower().replace('views', '').strip().replace(',', '')
@@ -37,10 +34,10 @@ def parse_duration(duration_text):
     elif len(parts) == 3: return int(parts[0]) * 3600 + int(parts[1]) * 60 + int(parts[2])
     return 0
 
-# --- ОСНОВНАЯ ЛОГИКА ---
 def main():
     yt = YTMusic(language='en')
     all_tracks = []
+    playlists_meta = {}
     total_duration_seconds = 0
     total_playlist_views = 0
 
@@ -50,6 +47,15 @@ def main():
         try:
             print(f"📥 Скачиваю: {pl['name']}...")
             response = yt.get_playlist(pl["id"], limit=None)
+            
+            thumbnails = response.get('thumbnails', [])
+            poster_url = ""
+            if thumbnails:
+                poster_url = thumbnails[-1]['url']
+
+            playlists_meta[pl["name"]] = {
+                "poster": poster_url
+            }
             
             raw_views = str(response.get('views', '0'))
             clean_views = parse_views(raw_views)
@@ -83,11 +89,10 @@ def main():
         "lastUpdated": "Auto-generated"
     }
 
-    # Мы сохраняем переменные с теми же именами (musicData, musicStats),
-    # т.к. они загружаются на РАЗНЫХ html страницах.
     js_content = f"""// Этот файл сгенерирован автоматически скриптом update_all_music.py
 const musicData = {json.dumps(all_tracks, ensure_ascii=False, indent=4)};
 const musicStats = {json.dumps(stats_obj, ensure_ascii=False, indent=4)};
+const playlistsMeta = {json.dumps(playlists_meta, ensure_ascii=False, indent=4)};
 """
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
