@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 34.2,
-            "hours": 3382.1,
+            "playtime_2weeks": 34.9,
+            "hours": 3382.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -38,8 +38,8 @@ const steamData = {
         {
             "appid": 1962700,
             "name": "Subnautica 2",
-            "playtime_2weeks": 5.2,
-            "hours": 5.2,
+            "playtime_2weeks": 5.5,
+            "hours": 5.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1962700/header.jpg",
             "url": "https://store.steampowered.com/app/1962700"
         },
@@ -88,7 +88,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3382.1,
+            "hours": 3382.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
