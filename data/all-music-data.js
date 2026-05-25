@@ -5765,10 +5765,471 @@ const musicData = [
         "artist": "RAT BOY & IBDY",
         "playlist": "Game OSTs",
         "duration": "1:57"
+    },
+    {
+        "title": "Luciferians",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "4:48"
+    },
+    {
+        "title": "Squids",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "5:45"
+    },
+    {
+        "title": "Suicide in Fragments",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "4:22"
+    },
+    {
+        "title": "Blacklight",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "4:38"
+    },
+    {
+        "title": "Jvnko Loves You",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "6:49"
+    },
+    {
+        "title": "Lolibox",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "8:30"
+    },
+    {
+        "title": "Nothingness",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "15:52"
+    },
+    {
+        "title": "Lexapro Delirium",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "7:16"
+    },
+    {
+        "title": "This Fleeting Feeling",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "3:32"
+    },
+    {
+        "title": "Mr. Kill Myself",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "7:52"
+    },
+    {
+        "title": "Slowdeath",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "8:13"
+    },
+    {
+        "title": "A Thousand Lonely",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "2:18"
+    },
+    {
+        "title": "MAKE-ME-SAD",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "6:16"
+    },
+    {
+        "title": "Psychosis",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "3:50"
+    },
+    {
+        "title": "Something of Value Less Than That",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "4:36"
+    },
+    {
+        "title": "Ruined Snowy Day",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "4:20"
+    },
+    {
+        "title": "I Really Like You pt2",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "7:04"
+    },
+    {
+        "title": "Jvnko Still Loves You",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "7:00"
+    },
+    {
+        "title": "I Break My Heart & Yours",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "4:35"
+    },
+    {
+        "title": "Restlessness",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "3:29"
+    },
+    {
+        "title": "Existing Everywhere",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "5:43"
+    },
+    {
+        "title": "Purple Hearts In Her Eyes",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "6:35"
+    },
+    {
+        "title": "Slvtcrvsher",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "2:34"
+    },
+    {
+        "title": "Antidepressant",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "4:48"
+    },
+    {
+        "title": "Never Existed",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "6:30"
+    },
+    {
+        "title": "Blooming Iridescent Flower",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "5:59"
+    },
+    {
+        "title": "dissociating",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "5:43"
+    },
+    {
+        "title": "self destruction worldwide broadcast",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "4:47"
+    },
+    {
+        "title": "all the joy in life was gone once you left",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "6:36"
+    },
+    {
+        "title": "the last thing she sent me",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "3:47"
+    },
+    {
+        "title": "light at the end of the tunnel",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "5:57"
+    },
+    {
+        "title": "whatever",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "4:38"
+    },
+    {
+        "title": "inertia status",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "4:24"
+    },
+    {
+        "title": "die alone",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "7:12"
+    },
+    {
+        "title": "sick, twisted, demented",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "4:43"
+    },
+    {
+        "title": "her",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "7:20"
+    },
+    {
+        "title": "goodbye",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "17:01"
+    },
+    {
+        "title": "Newlove",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "6:00"
+    },
+    {
+        "title": "Kawaii Razor Blades",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "5:39"
+    },
+    {
+        "title": "Euphoric Filth (Cheru's Theme)",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "4:06"
+    },
+    {
+        "title": "dissociating",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "5:43"
+    },
+    {
+        "title": "self destruction worldwide broadcast",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "4:47"
+    },
+    {
+        "title": "all the joy in life was gone once you left",
+        "artist": "Sewerslvt",
+        "playlist": "Sewerslvt",
+        "duration": "6:36"
+    },
+    {
+        "title": "Theme Of Cynthoni",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "3:00"
+    },
+    {
+        "title": "Death Of The Endless",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "5:12"
+    },
+    {
+        "title": "Lychee Ice",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "2:22"
+    },
+    {
+        "title": "Flickering In The Gloom (feat. Projekt Melody)",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "3:48"
+    },
+    {
+        "title": "Monolithic Cyan Tsunami",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "3:44"
+    },
+    {
+        "title": "Dancing Dots",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "4:45"
+    },
+    {
+        "title": "System Link",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "2:50"
+    },
+    {
+        "title": "Meh.Tuhl.Hedz",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "6:03"
+    },
+    {
+        "title": "Ekstaasi",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "3:25"
+    },
+    {
+        "title": "Oublier",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "3:46"
+    },
+    {
+        "title": "Highly Toxic Carcinogenic Poison",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "3:00"
+    },
+    {
+        "title": "Dork After Dark",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "7:38"
+    },
+    {
+        "title": "Cynthoni Of Flames",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "9:18"
+    },
+    {
+        "title": "Lvstlove",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "6:07"
+    },
+    {
+        "title": "Lvstlove (Night Drive At 177mph Mix)",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "12:55"
+    },
+    {
+        "title": "Lexapro Doesn't Work",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "7:24"
+    },
+    {
+        "title": "Lvstlove",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "6:07"
+    },
+    {
+        "title": "Yandere Era",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "3:48"
+    },
+    {
+        "title": "Swan Dive Into Eternity",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "6:03"
+    },
+    {
+        "title": "The Feeling Is Gone",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "4:35"
+    },
+    {
+        "title": "Femcels",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "4:57"
+    },
+    {
+        "title": "Even Further Down The Drain",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "8:03"
+    },
+    {
+        "title": "Slowburn",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "7:08"
+    },
+    {
+        "title": "Long Division",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "5:38"
+    },
+    {
+        "title": "Felt Sentient, Might Delete",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "4:46"
+    },
+    {
+        "title": "SNØWCR4SH N' BURN",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "5:14"
+    },
+    {
+        "title": "Take Flight, Earth-Noid!",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "3:41"
+    },
+    {
+        "title": "Lost in Her Virtual Eyes",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "4:22"
+    },
+    {
+        "title": "SNØWCR4SH N' BURN",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "5:14"
+    },
+    {
+        "title": "Felt Sentient, Might Delete",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "4:46"
+    },
+    {
+        "title": "CYNT",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "4:19"
     }
 ];
 const musicStats = {
-    "totalViews": 828,
-    "totalDurationSec": 152916,
+    "totalViews": 840,
+    "totalDurationSec": 178247,
     "lastUpdated": "Auto-generated"
+};
+const playlistsMeta = {
+    "Main": {
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJP_0NAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3mWBDRu76fOYA2zayNbQ6N9gZKbqA"
+    },
+    "Off Screen": {
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJP_0NAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kVhO95hOHTHkcypwm3rDZOyvCKBQ"
+    },
+    "Dead inside": {
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJP_0NAG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nrCKqc_G5FvHy3xF-LbITXPm_zwA"
+    },
+    "Game OSTs": {
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJf_0NAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3m_r4sH9u1L4kacCa21sDMGFf6ezQ"
+    },
+    "Sewerslvt": {
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJf_0NAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kueX7w028a9CuAXRki0xAQsBx8AA"
+    }
 };

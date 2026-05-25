@@ -26,11 +26,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "face vlone remix - salem slut",
-        "artist": "soundcloud mixtape",
-        "playlist": "Main"
-    },
-    {
         "title": "Деревья, сгнившие до ствола",
         "artist": "Violetta Sokolova",
         "playlist": "Main"
@@ -166,11 +161,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "АПАТІЯ - НЕДОСТУПНІ [OFFICIAL VIDEO]",
-        "artist": "Апатія",
-        "playlist": "Main"
-    },
-    {
         "title": "Garcon Maigre - ☆popstar☆",
         "artist": "odium",
         "playlist": "Main"
@@ -184,9 +174,29 @@ const musicData = [
         "title": "мориарти",
         "artist": "k1n1ch",
         "playlist": "Main"
+    },
+    {
+        "title": "europa fm",
+        "artist": "The pAura",
+        "playlist": "Main"
+    },
+    {
+        "title": "Vlone",
+        "artist": "FACE",
+        "playlist": "Main"
+    },
+    {
+        "title": "8 миля",
+        "artist": "madk1d",
+        "playlist": "Main"
+    },
+    {
+        "title": "вклубе",
+        "artist": "тёмный принц",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 19,
-    "totalDurationSec": 4745
+    "totalDurationSec": 4899
 };
