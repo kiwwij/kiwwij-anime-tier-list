@@ -3211,7 +3211,7 @@ const musicData = [
         "duration": "4:21"
     },
     {
-        "title": "ANTHEM OF THE KURSK PEOPLE'S REPUBLIC",
+        "title": "ГІМН КУРСЬКОЇ НАРОДНЬОЇ РЕСПУБЛІКИ",
         "artist": "Володимир Зеленський",
         "playlist": "Dead inside",
         "duration": "2:32"
@@ -3301,8 +3301,8 @@ const musicData = [
         "duration": "2:58"
     },
     {
-        "title": "Нервы - Батареи",
-        "artist": "StarPro",
+        "title": "Батареи",
+        "artist": "Nervy",
         "playlist": "Dead inside",
         "duration": "2:53"
     },
@@ -3325,7 +3325,7 @@ const musicData = [
         "duration": "3:06"
     },
     {
-        "title": "MellSher - Мне хорошо (Премьера 2024)",
+        "title": "Мне хорошо",
         "artist": "MellSher",
         "playlist": "Dead inside",
         "duration": "2:40"
@@ -3404,7 +3404,7 @@ const musicData = [
     },
     {
         "title": "Я буду",
-        "artist": "5sta Family - Topic",
+        "artist": "5sta Family",
         "playlist": "Dead inside",
         "duration": "3:07"
     },
@@ -3433,8 +3433,8 @@ const musicData = [
         "duration": "2:03"
     },
     {
-        "title": "Мама удалила роблокс",
-        "artist": "Lemaier - Topic",
+        "title": "Мама удалила роблокс (feat. Gulyashik & Qurorr)",
+        "artist": "Lemaier",
         "playlist": "Dead inside",
         "duration": "3:04"
     },
@@ -3487,8 +3487,8 @@ const musicData = [
         "duration": "1:47"
     },
     {
-        "title": "ПОЛМАТЕРИ, нексюша - счастливы вместе",
-        "artist": "нексюша",
+        "title": "счастливы вместе",
+        "artist": "плм",
         "playlist": "Dead inside",
         "duration": "2:50"
     },
@@ -6236,18 +6236,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLHI1tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3lkbjAeeFjq52F9N9Vp-WVNiryXdg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMye19AG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3mqNxRT6BU3Uh2ivreRl_0IVVDF9Q"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLHI1tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3n9I5Jf_6BsGg9X8BrRL3JSqd7aTg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMye19AG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3k4yW1rrKLfnTKZg8Ppp0VxRxUAFA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CLLI1tAG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lMXHmZR0v15iIqXM9K_NRjSnwDrg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CM2e19AG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mqce3ZJplpScfMo9jOZ1oj0i4QSw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLfI1tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mMO0WL0rSTtm_kA-Dis_sqFxRYnA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNKe19AG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lgyzIUJbGVfGqvEzBtPcRlmbrnLw"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLfI1tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lAHeuqwQFcgjsLd2tS8QIwAo5dIw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNKe19AG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mwcdT3cBxle1OGpAK16NLkz85KBg"
     }
 };
