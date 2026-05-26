@@ -3211,7 +3211,7 @@ const musicData = [
         "duration": "4:21"
     },
     {
-        "title": "ГІМН КУРСЬКОЇ НАРОДНЬОЇ РЕСПУБЛІКИ",
+        "title": "ANTHEM OF THE KURSK PEOPLE'S REPUBLIC",
         "artist": "Володимир Зеленський",
         "playlist": "Dead inside",
         "duration": "2:32"
@@ -3301,8 +3301,8 @@ const musicData = [
         "duration": "2:58"
     },
     {
-        "title": "Батареи",
-        "artist": "Nervy",
+        "title": "Нервы - Батареи",
+        "artist": "StarPro",
         "playlist": "Dead inside",
         "duration": "2:53"
     },
@@ -3325,7 +3325,7 @@ const musicData = [
         "duration": "3:06"
     },
     {
-        "title": "Мне хорошо",
+        "title": "MellSher - Мне хорошо (Премьера 2024)",
         "artist": "MellSher",
         "playlist": "Dead inside",
         "duration": "2:40"
@@ -3397,12 +3397,6 @@ const musicData = [
         "duration": "2:31"
     },
     {
-        "title": "Katy Perry - Hot N Cold (Lyrics)",
-        "artist": "bemu",
-        "playlist": "Dead inside",
-        "duration": "3:39"
-    },
-    {
         "title": "Caramella Girls - Caramelldansen (Official English Version)",
         "artist": "Caramella Girls",
         "playlist": "Dead inside",
@@ -3410,7 +3404,7 @@ const musicData = [
     },
     {
         "title": "Я буду",
-        "artist": "5sta Family",
+        "artist": "5sta Family - Topic",
         "playlist": "Dead inside",
         "duration": "3:07"
     },
@@ -3439,8 +3433,8 @@ const musicData = [
         "duration": "2:03"
     },
     {
-        "title": "Мама удалила роблокс (feat. Gulyashik & Qurorr)",
-        "artist": "Lemaier",
+        "title": "Мама удалила роблокс",
+        "artist": "Lemaier - Topic",
         "playlist": "Dead inside",
         "duration": "3:04"
     },
@@ -3493,8 +3487,8 @@ const musicData = [
         "duration": "1:47"
     },
     {
-        "title": "счастливы вместе",
-        "artist": "плм",
+        "title": "ПОЛМАТЕРИ, нексюша - счастливы вместе",
+        "artist": "нексюша",
         "playlist": "Dead inside",
         "duration": "2:50"
     },
@@ -6237,23 +6231,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 840,
-    "totalDurationSec": 178492,
+    "totalDurationSec": 178273,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJjx1dAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3kG9XKT4_x0yxP8ss8kZUDRvjH3Xg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLHI1tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3lkbjAeeFjq52F9N9Vp-WVNiryXdg"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJnx1dAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3magIu4Cva2gh-rzWuTN68wmE3GBQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLHI1tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3n9I5Jf_6BsGg9X8BrRL3JSqd7aTg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJnx1dAG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mLnxa_Pfc-ieCQS--S3j6Oq_xI3g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CLLI1tAG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lMXHmZR0v15iIqXM9K_NRjSnwDrg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJzx1dAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lNejtkw_SaqQ_2JrdMxtjWmlMhsg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLfI1tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mMO0WL0rSTtm_kA-Dis_sqFxRYnA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJ3x1dAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nCELUuKvEUSfnTdlefU6zQpnec4g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLfI1tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lAHeuqwQFcgjsLd2tS8QIwAo5dIw"
     }
 };
