@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/09f5c3a0f71de7094263d1820134fab9667a9839_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50"
     },
     "stats": {
@@ -14,8 +14,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 33.4,
-            "hours": 3382.8,
+            "playtime_2weeks": 32.6,
+            "hours": 3383.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -76,6 +76,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/920490"
         },
         {
+            "appid": 2129530,
+            "name": "REANIMAL",
+            "playtime_2weeks": 0.3,
+            "hours": 0.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2129530/header.jpg",
+            "url": "https://store.steampowered.com/app/2129530"
+        },
+        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.2,
@@ -88,7 +96,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3382.8,
+            "hours": 3383.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
