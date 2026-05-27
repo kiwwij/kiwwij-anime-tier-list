@@ -5611,6 +5611,36 @@ const musicData = [
         "duration": "0:46"
     },
     {
+        "title": "хиросима",
+        "artist": "мистер модератор",
+        "playlist": "Dead inside",
+        "duration": "1:14"
+    },
+    {
+        "title": "я выберу тебя",
+        "artist": "mapt0v",
+        "playlist": "Dead inside",
+        "duration": "1:14"
+    },
+    {
+        "title": "Тупой",
+        "artist": "Юпи & boogshi",
+        "playlist": "Dead inside",
+        "duration": "1:50"
+    },
+    {
+        "title": "снайпер",
+        "artist": "tewiq",
+        "playlist": "Dead inside",
+        "duration": "1:49"
+    },
+    {
+        "title": "ALASKA PUFFER",
+        "artist": "паранойя",
+        "playlist": "Dead inside",
+        "duration": "2:02"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6231,23 +6261,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 842,
-    "totalDurationSec": 178273,
+    "totalDurationSec": 178762,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIXt2dAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3lvhoCTSeXaGXLNKM3eGRxGlQ7PGw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPKp2tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3k1lIvDTyQx_PDt5ggVUNrgrdMw7w"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CIXt2dAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mKvQtTOUUMtzhDXb8xYiEHwdmUSQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPKp2tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nlxCc3miwCY7jd91LSgiLQkXs_bQ"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CIbt2dAG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mrrOvz7JDpkgghy5-syNhNulP3hw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CPOp2tAG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kwrOgg47zAQMYfrSsnjsG5Ou6FXA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CInt2dAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lOS9OBik-OlrGo9DHw2ufNvoDFlA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CPep2tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kh92KW_oOqh5QIiFsSBrVas23FsQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIrt2dAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3m4tC7LAskszLla_hdovWELDNZhew"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CPep2tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lVExECSSaDEBSpdsLuERORYSmlLA"
     }
 };
