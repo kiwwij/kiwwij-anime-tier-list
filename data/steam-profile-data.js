@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/09f5c3a0f71de7094263d1820134fab9667a9839_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E"
+        "status": "In Game",
+        "statusColor": "#4CAF50"
     },
     "stats": {
         "total_games": 269
@@ -68,20 +68,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1608070"
         },
         {
+            "appid": 2129530,
+            "name": "REANIMAL",
+            "playtime_2weeks": 1.2,
+            "hours": 1.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2129530/header.jpg",
+            "url": "https://store.steampowered.com/app/2129530"
+        },
+        {
             "appid": 920490,
             "name": "Driver Booster for Steam",
             "playtime_2weeks": 1.0,
             "hours": 17.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
             "url": "https://store.steampowered.com/app/920490"
-        },
-        {
-            "appid": 2129530,
-            "name": "REANIMAL",
-            "playtime_2weeks": 0.3,
-            "hours": 0.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2129530/header.jpg",
-            "url": "https://store.steampowered.com/app/2129530"
         },
         {
             "appid": 431960,
