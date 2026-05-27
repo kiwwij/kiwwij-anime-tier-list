@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/09f5c3a0f71de7094263d1820134fab9667a9839_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50"
+        "status": "Away",
+        "statusColor": "#FFC107"
     },
     "stats": {
         "total_games": 269
@@ -14,10 +14,18 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 30.9,
+            "playtime_2weeks": 29.8,
             "hours": 3383.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
+        },
+        {
+            "appid": 1962700,
+            "name": "Subnautica 2",
+            "playtime_2weeks": 7.4,
+            "hours": 7.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1962700/header.jpg",
+            "url": "https://store.steampowered.com/app/1962700"
         },
         {
             "appid": 1281930,
@@ -36,28 +44,12 @@ const steamData = {
             "url": "https://store.steampowered.com/app/105600"
         },
         {
-            "appid": 1962700,
-            "name": "Subnautica 2",
-            "playtime_2weeks": 5.5,
-            "hours": 5.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1962700/header.jpg",
-            "url": "https://store.steampowered.com/app/1962700"
-        },
-        {
             "appid": 2444750,
             "name": "Shape of Dreams",
             "playtime_2weeks": 2.4,
             "hours": 15.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
             "url": "https://store.steampowered.com/app/2444750"
-        },
-        {
-            "appid": 1905180,
-            "name": "OBS Studio",
-            "playtime_2weeks": 1.8,
-            "hours": 185.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
-            "url": "https://store.steampowered.com/app/1905180"
         },
         {
             "appid": 1608070,
@@ -82,6 +74,14 @@ const steamData = {
             "hours": 17.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
             "url": "https://store.steampowered.com/app/920490"
+        },
+        {
+            "appid": 1905180,
+            "name": "OBS Studio",
+            "playtime_2weeks": 0.8,
+            "hours": 185.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
+            "url": "https://store.steampowered.com/app/1905180"
         },
         {
             "appid": 431960,
