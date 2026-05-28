@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/09f5c3a0f71de7094263d1820134fab9667a9839_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50"
+        "status": "Away",
+        "statusColor": "#FFC107"
     },
     "stats": {
         "total_games": 269
@@ -22,16 +22,16 @@ const steamData = {
         {
             "appid": 1281930,
             "name": "tModLoader",
-            "playtime_2weeks": 8.0,
-            "hours": 25.8,
+            "playtime_2weeks": 9.2,
+            "hours": 27.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281930/header.jpg",
             "url": "https://store.steampowered.com/app/1281930"
         },
         {
             "appid": 105600,
             "name": "Terraria",
-            "playtime_2weeks": 8.0,
-            "hours": 200.2,
+            "playtime_2weeks": 9.2,
+            "hours": 201.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
         },
@@ -124,7 +124,7 @@ const steamData = {
         {
             "appid": 105600,
             "name": "Terraria",
-            "hours": 200.2,
+            "hours": 201.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
         },
