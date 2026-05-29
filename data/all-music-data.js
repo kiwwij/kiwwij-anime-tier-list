@@ -32,7 +32,7 @@ const musicData = [
     },
     {
         "title": "Деревья, сгнившие до ствола",
-        "artist": "Violetta Sokolova - Topic",
+        "artist": "Violetta Sokolova",
         "playlist": "Main",
         "duration": "2:11"
     },
@@ -62,7 +62,7 @@ const musicData = [
     },
     {
         "title": "В реальності новій",
-        "artist": "Апатія - Topic",
+        "artist": "Апатія",
         "playlist": "Main",
         "duration": "2:45"
     },
@@ -80,7 +80,7 @@ const musicData = [
     },
     {
         "title": "чёрный шёлк",
-        "artist": "3umph - Topic",
+        "artist": "3umph",
         "playlist": "Main",
         "duration": "1:58"
     },
@@ -146,7 +146,7 @@ const musicData = [
     },
     {
         "title": "ЛАБУБУ",
-        "artist": "YUNG FIMOZ - Topic",
+        "artist": "YUNG FIMOZ",
         "playlist": "Main",
         "duration": "2:00"
     },
@@ -200,7 +200,7 @@ const musicData = [
     },
     {
         "title": "что тебя гложет",
-        "artist": "k0vertessence - Topic",
+        "artist": "k0vertessence & B4YLUm",
         "playlist": "Main",
         "duration": "2:33"
     },
@@ -218,7 +218,7 @@ const musicData = [
     },
     {
         "title": "Vlone",
-        "artist": "FACE - Topic",
+        "artist": "FACE",
         "playlist": "Main",
         "duration": "2:24"
     },
@@ -230,7 +230,7 @@ const musicData = [
     },
     {
         "title": "вклубе",
-        "artist": "тёмный принц - Topic",
+        "artist": "тёмный принц",
         "playlist": "Main",
         "duration": "1:40"
     },
@@ -302,7 +302,7 @@ const musicData = [
     },
     {
         "title": "空想メソロギヰ",
-        "artist": "Yosei Teikoku - Topic",
+        "artist": "妖精帝國",
         "playlist": "Off Screen",
         "duration": "4:00"
     },
@@ -332,7 +332,7 @@ const musicData = [
     },
     {
         "title": "ムスビメ",
-        "artist": "Yuiko Ohara - Topic",
+        "artist": "大原ゆい子",
         "playlist": "Off Screen",
         "duration": "4:51"
     },
@@ -344,7 +344,7 @@ const musicData = [
     },
     {
         "title": "Please Mr.Lostman",
-        "artist": "the pillows - Topic",
+        "artist": "the pillows",
         "playlist": "Off Screen",
         "duration": "4:09"
     },
@@ -404,13 +404,13 @@ const musicData = [
     },
     {
         "title": "ぼうやの夢よ",
-        "artist": "Release - Topic",
+        "artist": "エミリア（CV:高橋李依）",
         "playlist": "Off Screen",
         "duration": "3:31"
     },
     {
         "title": "Wishing",
-        "artist": "Release - Topic",
+        "artist": "レム（CV:水瀬いのり）",
         "playlist": "Off Screen",
         "duration": "6:01"
     },
@@ -572,7 +572,7 @@ const musicData = [
     },
     {
         "title": "TRUE「Sincerely」 MV Full Size 『ヴァイオレット・エヴァーガーデン』OP主題歌/\"violet-evergarden\" Opning Theme「Sincerely」",
-        "artist": "Lantis Channel",
+        "artist": "TRUE",
         "playlist": "Off Screen",
         "duration": "4:43"
     },
@@ -649,8 +649,8 @@ const musicData = [
         "duration": "4:12"
     },
     {
-        "title": "Gurenge",
-        "artist": "LiSA - Topic",
+        "title": "紅蓮華 - Gurenge",
+        "artist": "LiSA",
         "playlist": "Off Screen",
         "duration": "3:58"
     },
@@ -692,7 +692,7 @@ const musicData = [
     },
     {
         "title": "astral step",
-        "artist": "Shadowraze - Topic",
+        "artist": "shadowraze",
         "playlist": "Dead inside",
         "duration": "2:02"
     },
@@ -710,7 +710,7 @@ const musicData = [
     },
     {
         "title": "Aomine Daiki",
-        "artist": "quiizzzmeow - Topic",
+        "artist": "quiizzzmeow",
         "playlist": "Dead inside",
         "duration": "2:48"
     },
@@ -775,7 +775,7 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "Twinky - ghoul prod. LLIIEEDD",
+        "title": "Ghoul",
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:15"
@@ -812,7 +812,7 @@ const musicData = [
     },
     {
         "title": "дети немой страны",
-        "artist": "конец солнечных дней - Topic",
+        "artist": "конец солнечных дней",
         "playlist": "Dead inside",
         "duration": "2:13"
     },
@@ -842,7 +842,7 @@ const musicData = [
     },
     {
         "title": "Tokyo Ghoul OP  / Опенинг Токийский Гуль cover by Ai Mori",
-        "artist": "АйMori",
+        "artist": "Ai Mori",
         "playlist": "Dead inside",
         "duration": "4:13"
     },
@@ -1052,7 +1052,7 @@ const musicData = [
     },
     {
         "title": "Я жизнь люблю...",
-        "artist": "Serebryanaya Svad'ba - Topic",
+        "artist": "Серебряная Свадьба",
         "playlist": "Dead inside",
         "duration": "3:13"
     },
@@ -1136,7 +1136,7 @@ const musicData = [
     },
     {
         "title": "Пиво",
-        "artist": "Twinky - Topic",
+        "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:30"
     },
@@ -1213,7 +1213,7 @@ const musicData = [
         "duration": "0:20"
     },
     {
-        "title": "MAMA RUSSIA. Клип \"Никола Тесла\"",
+        "title": "Никола Тесла",
         "artist": "MAMA RUSSIA",
         "playlist": "Dead inside",
         "duration": "3:04"
@@ -4292,7 +4292,7 @@ const musicData = [
     },
     {
         "title": "Seventh Heaven",
-        "artist": "INOHA - Topic",
+        "artist": "INOHA",
         "playlist": "Dead inside",
         "duration": "3:55"
     },
@@ -4304,7 +4304,7 @@ const musicData = [
     },
     {
         "title": "mirrors demo",
-        "artist": "overtonight throwaways - Topic",
+        "artist": "overtonight throwaways",
         "playlist": "Dead inside",
         "duration": "1:46"
     },
@@ -4340,7 +4340,7 @@ const musicData = [
     },
     {
         "title": "Все сигареты мира",
-        "artist": "Чучело - Topic",
+        "artist": "Чучело",
         "playlist": "Dead inside",
         "duration": "3:01"
     },
@@ -4370,7 +4370,7 @@ const musicData = [
     },
     {
         "title": "покажи",
-        "artist": "kurokov - Topic",
+        "artist": "kurokov",
         "playlist": "Dead inside",
         "duration": "2:01"
     },
@@ -4382,7 +4382,7 @@ const musicData = [
     },
     {
         "title": "Пожалуйста, только не домой",
-        "artist": "Автоспорт - Topic",
+        "artist": "Автоспорт",
         "playlist": "Dead inside",
         "duration": "3:06"
     },
@@ -4394,7 +4394,7 @@ const musicData = [
     },
     {
         "title": "Песня о привязанности",
-        "artist": "Автоспорт - Topic",
+        "artist": "Автоспорт",
         "playlist": "Dead inside",
         "duration": "3:08"
     },
@@ -4406,7 +4406,7 @@ const musicData = [
     },
     {
         "title": "виски с молоком",
-        "artist": "снялцепи - Topic",
+        "artist": "снялцепи",
         "playlist": "Dead inside",
         "duration": "1:02"
     },
@@ -4430,13 +4430,13 @@ const musicData = [
     },
     {
         "title": "Кент",
-        "artist": "KSB muzic - Topic",
+        "artist": "KSB muzic",
         "playlist": "Dead inside",
         "duration": "2:45"
     },
     {
         "title": "ПЫХ-ПЫХ",
-        "artist": "SQWOZ BAB - Topic",
+        "artist": "SQWOZ BAB",
         "playlist": "Dead inside",
         "duration": "2:20"
     },
@@ -4448,7 +4448,7 @@ const musicData = [
     },
     {
         "title": "полина",
-        "artist": "плм - Topic",
+        "artist": "плм",
         "playlist": "Dead inside",
         "duration": "2:31"
     },
@@ -4460,7 +4460,7 @@ const musicData = [
     },
     {
         "title": "нарратор",
-        "artist": "lafkrat - Topic",
+        "artist": "lafkrat",
         "playlist": "Dead inside",
         "duration": "2:24"
     },
@@ -4550,7 +4550,7 @@ const musicData = [
     },
     {
         "title": "По судьбе",
-        "artist": "sqaute - Topic",
+        "artist": "sqaute",
         "playlist": "Dead inside",
         "duration": "2:04"
     },
@@ -4562,19 +4562,19 @@ const musicData = [
     },
     {
         "title": "СИЛУЕТИ (Апатія Remix)",
-        "artist": "СТРУКТУРА ЩАСТЯ - Topic",
+        "artist": "СТРУКТУРА ЩАСТЯ",
         "playlist": "Dead inside",
         "duration": "2:43"
     },
     {
         "title": "шрамы",
-        "artist": "Violetta Sokolova - Topic",
+        "artist": "Violetta Sokolova",
         "playlist": "Dead inside",
         "duration": "2:55"
     },
     {
         "title": "гладиатор/рыцарь",
-        "artist": "fallen777angel - Topic",
+        "artist": "fallen777angel",
         "playlist": "Dead inside",
         "duration": "1:45"
     },
@@ -4646,13 +4646,13 @@ const musicData = [
     },
     {
         "title": "Але якщо ти...",
-        "artist": "Do Sliz - Topic",
+        "artist": "Do Sliz",
         "playlist": "Dead inside",
         "duration": "3:14"
     },
     {
         "title": "Що з тобою",
-        "artist": "Апатія - Topic",
+        "artist": "Апатія",
         "playlist": "Dead inside",
         "duration": "3:27"
     },
@@ -4664,13 +4664,13 @@ const musicData = [
     },
     {
         "title": "twenty four",
-        "artist": "overtonight - Topic",
+        "artist": "overtonight",
         "playlist": "Dead inside",
         "duration": "2:06"
     },
     {
         "title": "Демоны",
-        "artist": "Три дня дождя - Topic",
+        "artist": "Три дня дождя",
         "playlist": "Dead inside",
         "duration": "3:25"
     },
@@ -4706,7 +4706,7 @@ const musicData = [
     },
     {
         "title": "ee nado x)",
-        "artist": "dj trippie flameboy - Topic",
+        "artist": "dj trippie flameboy",
         "playlist": "Dead inside",
         "duration": "1:45"
     },
@@ -4718,13 +4718,13 @@ const musicData = [
     },
     {
         "title": "unhappy",
-        "artist": "s0rrow - Topic",
+        "artist": "s0rrow",
         "playlist": "Dead inside",
         "duration": "1:39"
     },
     {
         "title": "Не помирай",
-        "artist": "Апатія - Topic",
+        "artist": "Апатія",
         "playlist": "Dead inside",
         "duration": "2:20"
     },
@@ -4736,7 +4736,7 @@ const musicData = [
     },
     {
         "title": "сєрьожа//даремно",
-        "artist": "Smetana Band - Topic",
+        "artist": "Сметана band",
         "playlist": "Dead inside",
         "duration": "2:22"
     },
@@ -4748,7 +4748,7 @@ const musicData = [
     },
     {
         "title": "На стол",
-        "artist": "LonelyStash - Topic",
+        "artist": "LonelyStash",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
@@ -4778,7 +4778,7 @@ const musicData = [
     },
     {
         "title": "Ляжки (feat. babypills)",
-        "artist": "MIGAS - Topic",
+        "artist": "MIGAS",
         "playlist": "Dead inside",
         "duration": "2:04"
     },
@@ -6272,18 +6272,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CISw5NAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3mZTKcis0u-t4vQiM4VNZ8W0xbS1g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIqm5dAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3l87WlJaK9x4wSqC4qfmuiDAFTjqg"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CISw5NAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3k0xqCugARCEmpedroFWvTZoDEMCw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CIqm5dAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nMkoVdQNHBd5oouHtUOKncs7Wnig"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CIWw5NAG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lJBK0Ol-HVw3lsl8C8_O6Qpjl80A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CIum5dAG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lP1Jo4yytjy32G4ivhnw7fTzcrLA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CImw5NAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nAeR6T0GxDT903CzUvBIiXrlP-SQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CI-m5dAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3n5bkbPMQjigTC-sI8dRNin3vz2ig"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIqw5NAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lPzFatq5L1wht45LqKTEUfzdcaSg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CI-m5dAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lHee4fq0mfeH0cdEZiBgUzjFBxoQ"
     }
 };
