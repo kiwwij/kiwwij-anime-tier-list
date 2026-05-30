@@ -52,14 +52,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2444750"
         },
         {
-            "appid": 1608070,
-            "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
-            "playtime_2weeks": 1.2,
-            "hours": 2.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
-            "url": "https://store.steampowered.com/app/1608070"
-        },
-        {
             "appid": 2129530,
             "name": "REANIMAL",
             "playtime_2weeks": 1.2,
@@ -90,6 +82,14 @@ const steamData = {
             "hours": 0.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3674060/header.jpg",
             "url": "https://store.steampowered.com/app/3674060"
+        },
+        {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.2,
+            "hours": 21.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
