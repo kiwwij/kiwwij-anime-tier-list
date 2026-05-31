@@ -10,37 +10,75 @@ function initGlobalSummary() {
     
     const levelEl = document.getElementById('steamLevel');
     const ageEl = document.getElementById('steamAge');
-    const valueEl = document.getElementById('steamValue');
+    const topGenreEl = document.getElementById('steamTopGenre');
     const totalHoursEl = document.getElementById('steamTotalHours');
 
     if (levelEl) levelEl.textContent = p.level || "???";
     if (ageEl) ageEl.textContent = p.age || "???";
-    if (valueEl) valueEl.textContent = p.estimatedValue || "???";
 
-    // Считаем общие часы из топа игр
     let totalHours = 0;
+    const genreCounts = {};
+
     if (steamData.top_games) {
         steamData.top_games.forEach(game => {
-            totalHours += parseFloat(game.hours || 0);
+            const hours = parseFloat(game.hours || 0);
+            totalHours += hours;
+            
+            if (game.tags && Array.isArray(game.tags)) {
+                game.tags.forEach(tag => {
+                    genreCounts[tag] = (genreCounts[tag] || 0) + hours;
+                });
+            }
         });
     }
     
-    // Добавляем скрытые часы (например, если Dota 2 скрыта настройками Valve)
     if (p.hiddenHours) {
         totalHours += parseFloat(p.hiddenHours);
     }
+    
+    if (steamData.profile && steamData.profile.hiddenDotaHours) {
+        genreCounts["MOBA"] = (genreCounts["MOBA"] || 0) + steamData.profile.hiddenDotaHours;
+        genreCounts["Киберспорт"] = (genreCounts["Киберспорт"] || 0) + steamData.profile.hiddenDotaHours;
+    }
 
     if (totalHoursEl) totalHoursEl.textContent = Math.round(totalHours).toLocaleString('ru-RU');
+
+    if (topGenreEl) {
+        let topGenre = "Нет данных";
+        let maxHours = 0;
+        
+        for (const [genre, hours] of Object.entries(genreCounts)) {
+            if (hours > maxHours) {
+                maxHours = hours;
+                topGenre = genre;
+            }
+        }
+        
+        topGenreEl.textContent = topGenre;
+        
+        if (topGenre.length > 12) {
+            topGenreEl.style.fontSize = '1.2rem';
+        }
+    }
 }
 
 function initSteamGenresChart() {
+    const genresHeader = document.querySelector('.genres-header');
+    const genresContent = document.querySelector('.genres-content');
+    const genresIcon = document.querySelector('.genres-toggle-icon');
+
+    if (genresHeader && genresContent) {
+        genresHeader.addEventListener('click', () => {
+            genresContent.classList.toggle('collapsed');
+            if (genresIcon) genresIcon.classList.toggle('rotated');
+        });
+    }
+
     const ctx = document.getElementById('steamGenresChart');
     if (!ctx) return;
 
     const genreCounts = {};
     let hasGenres = false;
-
-    // Считаем часы по тегам
     if (steamData.top_games) {
         steamData.top_games.forEach(game => {
             if (game.tags && Array.isArray(game.tags)) {
@@ -53,7 +91,6 @@ function initSteamGenresChart() {
         });
     }
 
-    // Если в Dota 2 наиграно много, а её нет в top_games, добавляем вручную из профиля
     if (steamData.profile && steamData.profile.hiddenDotaHours) {
         hasGenres = true;
         genreCounts["MOBA"] = (genreCounts["MOBA"] || 0) + steamData.profile.hiddenDotaHours;
@@ -67,7 +104,7 @@ function initSteamGenresChart() {
 
     const sortedGenres = Object.entries(genreCounts)
         .sort((a, b) => b[1] - a[1])
-        .slice(0, 10); // Берем Топ-10 жанров
+        .slice(0, 10);
 
     const isLight = document.body.classList.contains('light-theme');
     const textColor = isLight ? '#000000' : '#f3f4f6';
@@ -108,7 +145,6 @@ function initSteamGenresChart() {
         }
     });
 
-    // Обработка смены темы для графика
     const themeToggle = document.getElementById('themeToggle');
     if (themeToggle) {
         themeToggle.addEventListener('change', () => {

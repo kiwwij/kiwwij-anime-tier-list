@@ -22,6 +22,11 @@ loadCardContent = async function(card, item, query, type) {
         return; 
     }
 
+    if (type !== 'game' && item.img) {
+        applyImageToCard(card, `img/${item.img}`, item, `img/${item.img}`, null);
+        return;
+    }
+
     let data = apiCache[query];
 
     if (!data || !data.imgSmall) {
@@ -139,6 +144,11 @@ applyImageToCard = function(card, thumbSrc, item, hdSrc, apiDetails = null) {
 
 loadSearchImage = async function(container, item, query, type) {
     if (type === 'game' && LOCAL_ONLY_GAMES.includes(item.title) && item.img) {
+        applyImg(container, `img/${item.img}`, null, item);
+        return;
+    }
+
+    if (type !== 'game' && item.img) {
         applyImg(container, `img/${item.img}`, null, item);
         return;
     }

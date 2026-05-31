@@ -186,6 +186,49 @@
     color: var(--text-main);
 }
 
+.genres-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.genres-header h2 {
+    margin-bottom: 0;
+}
+
+.genres-toggle-icon {
+    font-size: 1.8rem;
+    color: var(--text-muted);
+    transition: transform 0.4s ease, color 0.3s ease;
+}
+
+.genres-header:hover .genres-toggle-icon {
+    color: var(--accent);
+}
+
+.genres-toggle-icon.rotated {
+    transform: rotate(-180deg);
+}
+
+.genres-content {
+    display: grid;
+    grid-template-rows: 1fr;
+    transition: grid-template-rows 0.4s ease, opacity 0.4s ease;
+    opacity: 1;
+}
+
+.genres-content.collapsed {
+    grid-template-rows: 0fr;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.genres-inner {
+    overflow: hidden;
+}
+
 @media (max-width: 768px) {
     .steam-summary {
         grid-template-columns: repeat(2, 1fr);

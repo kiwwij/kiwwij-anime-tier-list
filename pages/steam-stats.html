@@ -66,16 +66,23 @@
                     <small class="text-muted">часов</small>
                 </div>
                 <div class="stat-card">
-                    <h3>Стоимость (SteamDB)</h3>
-                    <span class="stat-number" id="steamValue">~$0</span>
+                    <h3>Любимый жанр</h3>
+                    <span class="stat-number" id="steamTopGenre">...</span>
                 </div>
             </div>
         </div>
 
         <div class="glass-panel genres-section">
-            <h2 class="panel-title-accent purple-accent">Распределение времени по жанрам</h2>
-            <div class="chart-wrapper" style="height: 300px;">
-                <canvas id="steamGenresChart"></canvas>
+            <div class="genres-header">
+                <h2 class="panel-title-accent purple-accent">Распределение времени по жанрам</h2>
+                <i class='bx bx-chevron-down genres-toggle-icon'></i>
+            </div>
+            <div class="genres-content collapsed">
+                <div class="genres-inner">
+                    <div class="chart-wrapper" style="height: 300px; margin-top: 1.5rem;">
+                        <canvas id="steamGenresChart"></canvas>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -115,6 +122,7 @@
 
     <script src="../data/steam-profile-data.js"></script>
     <script src="../js/steam-stats.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="../js/steam-extra-stats.js"></script>
     <script src="../js/holidays.js" defer></script>
     <script>
