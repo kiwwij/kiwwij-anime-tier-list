@@ -131,15 +131,27 @@ function renderTierList() {
     const scales = scaleSource[currentScale];
     const dataKeys = ['S', 'A', 'B', 'C', 'D', 'E', 'F'];
 
-    if (type === 'game') {
+    if (type === 'game' && !localStorage.getItem('gameDisclaimerClosed')) {
         const disclaimer = document.createElement('div');
         disclaimer.className = 'modal-review-box';
         disclaimer.style.margin = '0 auto 25px';
         disclaimer.style.maxWidth = '800px';
         disclaimer.style.textAlign = 'center';
         disclaimer.style.borderLeftColor = '#facc15';
-        disclaimer.innerHTML = '<strong>Небольшая ремарка:</strong> Довольно тяжело объективно оценивать и сравнивать в одном списке ко-оп, мультиплеерные и сюжетные синглплеерные игры. Так что не удивляйтесь немного странной расстановке − это сугубо моё личное восприятие! Также постреы погут быть не правильными из-за плохого, но бессплатного API RAWG, который я использую для получения обложек и рейтингов.';
+        disclaimer.style.position = 'relative';
+        disclaimer.style.paddingRight = '30px';
+
+        disclaimer.innerHTML = `
+            <button id="closeGameDisclaimer" style="position: absolute; top: 10px; right: 10px; background: none; border: none; font-size: 1.5rem; line-height: 1; cursor: pointer; color: var(--text-muted); transition: 0.2s;" onmouseover="this.style.color='var(--text-main)'" onmouseout="this.style.color='var(--text-muted)'">&times;</button>
+            <strong>Небольшая ремарка:</strong> Довольно тяжело объективно оценивать и сравнивать в одном списке ко-оп, мультиплеерные и сюжетные синглплеерные игры. Так что не удивляйтесь немного странной расстановке − это сугубо моё личное восприятие! Также постеры могут быть неправильными из-за плохого, но бесплатного API RAWG, который я использую для получения обложек и рейтингов.
+        `;
+        
         tierListContainer.appendChild(disclaimer);
+
+        document.getElementById('closeGameDisclaimer').addEventListener('click', () => {
+            disclaimer.style.display = 'none';
+            localStorage.setItem('gameDisclaimerClosed', 'true');
+        });
     }
 
     scales.forEach((scale, idx) => {

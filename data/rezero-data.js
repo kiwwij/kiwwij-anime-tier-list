@@ -37,7 +37,7 @@ if (typeof tierListData !== 'undefined') {
             },
             { 
                 title: "Arc 9 – Light of a Nameless Star", 
-                review: "Думаю, мои эмоции я хорошо передел в совём посте в тг-к - (ссылка) + пиар канала)", 
+                review: "Думаю, мои эмоции я хорошо передел в совём посте в тг-к - https://t.me/kiwwijs/158", 
                 img: "rezero/9.png"
             },
             { 
@@ -162,6 +162,11 @@ if (typeof tierListData !== 'undefined') {
                 review: "Фельт и её лагери/банда против Ала. Вильгельм против Дракона. Рем и её воспоминания. Яэ Тэнза.",
                 img: "rezero/41.webp"
             },
+            { 
+                title: "Re:Zero Ранобэ Том 42", 
+                review: "Рем вернула память. Яэ Тэндзэн. Финальные битвы.",
+                img: "rezero/42.webp"
+            },
             ],
         'B': [
             { 
@@ -276,6 +281,11 @@ if (typeof tierListData !== 'undefined') {
                 review: "Больше информации про второстепенных героев и империю. Подготовка к наподению.", 
                 img: "rezero/36.webp"
             },
+            { 
+                title: "Re:Zero Ранобэ Том 43", 
+                review: "Перечёркивание всех стараний героев. Возвращение к началу.",
+                img: "rezero/43.webp"
+            },
             ],
         'D': [
             { 
@@ -290,16 +300,6 @@ if (typeof tierListData !== 'undefined') {
                 title: "Arc 10 – The Land of the Lion Kings", 
                 review: "10-ая арка...", 
                 img: "rezero/10.png"
-            },
-            { 
-                title: "Re:Zero Ранобэ Том 42", 
-                review: "",
-                img: "rezero/42.webp"
-            },
-            { 
-                title: "Re:Zero Ранобэ Том 43", 
-                review: "",
-                img: "rezero/43.webp"
             },
             { 
                 title: "Re:Zero Ранобэ Том 44", 

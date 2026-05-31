@@ -110,6 +110,7 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "Subnautica 2",
                     review: "Играли с другом, по началу было не понятно, но спустя пару часиков понравилось. Играли почти с самого релиза, так что контента было не так много, но всё равно достаточно.",
+                    img: "games/Subnautica_2.jpg",
                 },
                 {
                     title: "Sekiro: shadows die twice",
@@ -273,6 +274,7 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "PEAK",
                     review: "Играл с другом, было весело.",
+                    img: "games/PEAK.jpg",
                 },
                 {
                     title: "Golf With Your Friends",
@@ -447,6 +449,7 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "Resident Evil Requiem",
                     review: "Небольшое ревью - https://telegra.ph/Resident-Evil-Requiem-review-04-01",
+                    img: "games/Resident_Evil_Requiem.jpg",
                 },
                 {
                     title: "The Elder Scrolls IV: Oblivion Remastered",
@@ -459,6 +462,7 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "The Dark Queen of Mortholme",
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/3587610/",
+                    img: "games/The_Dark_Queen_of_Mortholme.jpg",
                 },
                 {
                     title: "Knock-knock",
@@ -533,6 +537,7 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "Chasing Tails ~A Promise in the Snow~",
                     review: "",
+                    img: "games/Chasing_Tails_A-Promise_in_the_Snow.webp",
                 },
                 {
                     title: "HENTAI - World War II",
@@ -541,6 +546,7 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "Hitler is My Crush: Love and Fascism",
                     review: "",
+                    img: "games/Hitler_is_My_Crush_Love_and_Fascism.jpg",
                 },
                 {
                     title: "Stalker",
@@ -576,6 +582,10 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "Rust",
                     review: "",
+                },
+                {
+                    title: "Reanimal",
+                    review: "Те же маленькие кошмары, только скучнее. Управленеи всё ещё не удобное. Я в моменте тильтанул и незахотел играть. Радует что есть френд пасс.",
                 },
                 {
                     title: "Grand Theft Auto V",

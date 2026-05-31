@@ -48,6 +48,37 @@
             </div>
         </div>
 
+        <div class="glass-panel global-summary-section">
+            <h2 class="panel-title-accent blue-accent">Глобальная сводка</h2>
+            <div class="stats-summary steam-summary">
+                <div class="stat-card">
+                    <h3>Уровень Steam</h3>
+                    <span class="stat-number" id="steamLevel">0</span>
+                </div>
+                <div class="stat-card">
+                    <h3>Возраст аккаунта</h3>
+                    <span class="stat-number" id="steamAge">0</span>
+                    <small class="text-muted">лет</small>
+                </div>
+                <div class="stat-card top-artist-card" style="border-bottom-color: #66c0f4;">
+                    <h3>Суммарное время</h3>
+                    <span class="stat-number" id="steamTotalHours">0</span>
+                    <small class="text-muted">часов</small>
+                </div>
+                <div class="stat-card">
+                    <h3>Стоимость (SteamDB)</h3>
+                    <span class="stat-number" id="steamValue">~$0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="glass-panel genres-section">
+            <h2 class="panel-title-accent purple-accent">Распределение времени по жанрам</h2>
+            <div class="chart-wrapper" style="height: 300px;">
+                <canvas id="steamGenresChart"></canvas>
+            </div>
+        </div>
+
         <div class="glass-panel" id="recentSection">
             <h2 class="panel-title-accent blue-accent">Недавно запускал</h2>
             <div class="games-grid compact-grid" id="recentGames"></div>
@@ -84,6 +115,7 @@
 
     <script src="../data/steam-profile-data.js"></script>
     <script src="../js/steam-stats.js"></script>
+    <script src="../js/steam-extra-stats.js"></script>
     <script src="../js/holidays.js" defer></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {

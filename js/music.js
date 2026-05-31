@@ -216,7 +216,8 @@ function loadMoreSongs() {
             if (song.playlist === 'Main') badgeColor = '#ef4444';
             else if (song.playlist === 'Off Screen') badgeColor = '#f472b6';
             else if (song.playlist === 'Game OSTs') badgeColor = '#3b82f6';
-            else if (song.playlist === 'Dead inside') badgeColor = '#a78bfa';
+            else if (song.playlist === 'Sewerslvt') badgeColor = '#a78bfa';
+            else if (song.playlist === 'Dead inside') badgeColor = '#64748b';
 
             plBadge = `<span class="playlist-badge" style="font-size:0.7em; opacity:0.6; margin-left:8px; color: ${badgeColor};">${song.playlist}</span>`;
         }
