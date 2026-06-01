@@ -194,9 +194,14 @@ const musicData = [
         "title": "вклубе",
         "artist": "тёмный принц",
         "playlist": "Main"
+    },
+    {
+        "title": "тебе нравится",
+        "artist": "призрак крови",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 19,
-    "totalDurationSec": 4899
+    "totalDurationSec": 5016
 };
