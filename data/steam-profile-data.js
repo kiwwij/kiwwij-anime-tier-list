@@ -70,20 +70,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/920490"
         },
         {
-            "appid": 1905180,
-            "name": "OBS Studio",
-            "playtime_2weeks": 0.7,
-            "hours": 185.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
-            "url": "https://store.steampowered.com/app/1905180"
-        },
-        {
             "appid": 3674060,
             "name": "Dispatch Demo",
             "playtime_2weeks": 0.5,
             "hours": 0.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3674060/header.jpg",
             "url": "https://store.steampowered.com/app/3674060"
+        },
+        {
+            "appid": 1905180,
+            "name": "OBS Studio",
+            "playtime_2weeks": 0.2,
+            "hours": 185.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
+            "url": "https://store.steampowered.com/app/1905180"
         },
         {
             "appid": 431960,
