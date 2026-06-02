@@ -241,6 +241,12 @@ const musicData = [
         "duration": "1:57"
     },
     {
+        "title": "Колготки",
+        "artist": "trepet",
+        "playlist": "Main",
+        "duration": "1:25"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -5665,6 +5671,42 @@ const musicData = [
         "duration": "2:06"
     },
     {
+        "title": "тебе нравится",
+        "artist": "призрак крови",
+        "playlist": "Dead inside",
+        "duration": "1:57"
+    },
+    {
+        "title": "тень",
+        "artist": "призрак крови",
+        "playlist": "Dead inside",
+        "duration": "1:27"
+    },
+    {
+        "title": "имена",
+        "artist": "призрак крови",
+        "playlist": "Dead inside",
+        "duration": "1:37"
+    },
+    {
+        "title": "монстр",
+        "artist": "призрак крови",
+        "playlist": "Dead inside",
+        "duration": "1:44"
+    },
+    {
+        "title": "странный дом",
+        "artist": "#меланхолик",
+        "playlist": "Dead inside",
+        "duration": "1:14"
+    },
+    {
+        "title": "Can You Feel My Heart",
+        "artist": "Bring Me The Horizon",
+        "playlist": "Dead inside",
+        "duration": "3:49"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6285,23 +6327,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 853,
-    "totalDurationSec": 179372,
+    "totalDurationSec": 180165,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKHi-dAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3kNNDwbIrY6XL_eC5z8Lumul4Ooow"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CObr-tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3nCQVoFlJSo_EsLoL9-nLHQpPGpiA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKHi-dAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3k47hjuIBQvxYyIoYtJZjlzVkG20A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CObr-tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mYoj6B4jCkvK2bliHPsl6zivHoaw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKLi-dAG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kB9f5T-3pwxvpBxqm-46Ca4jwjfg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=COfr-tAG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kncfcja_6C5w0ZAiNj_eqV2u4W3Q"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKXi-dAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nqPppycaZVvN584-GIO_K4V6c_GA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COrr-tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kWuyx8DSVInEMO7aYujMWh4WT2ww"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKXi-dAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kiV6VQxzObHsqzp10VaPPTIZIJHw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COrr-tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lj6ux2vJCcE_1FZcrNhh13VpGikQ"
     }
 };
