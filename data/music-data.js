@@ -199,9 +199,14 @@ const musicData = [
         "title": "тебе нравится",
         "artist": "призрак крови",
         "playlist": "Main"
+    },
+    {
+        "title": "Колготки",
+        "artist": "trepet",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 19,
-    "totalDurationSec": 5016
+    "totalDurationSec": 5101
 };
