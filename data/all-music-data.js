@@ -3937,8 +3937,8 @@ const musicData = [
         "duration": "2:37"
     },
     {
-        "title": "Белочка с Армлетом (Rock Version)",
-        "artist": "AICOVERGIRL",
+        "title": "Белочка с Армлетом (ROCK VERSION)",
+        "artist": "youraifu",
         "playlist": "Dead inside",
         "duration": "1:55"
     },
@@ -5707,6 +5707,216 @@ const musicData = [
         "duration": "3:49"
     },
     {
+        "title": "Так прикро",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "3:00"
+    },
+    {
+        "title": "дырки в штанах",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "1:47"
+    },
+    {
+        "title": "sexyswag2010",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "1:30"
+    },
+    {
+        "title": "В реальності новій",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "2:45"
+    },
+    {
+        "title": "нарратор",
+        "artist": "lafkrat",
+        "playlist": "Dead inside",
+        "duration": "2:24"
+    },
+    {
+        "title": "бесконечное лето",
+        "artist": "CMH",
+        "playlist": "Dead inside",
+        "duration": "2:38"
+    },
+    {
+        "title": "чёрный шёлк",
+        "artist": "3umph",
+        "playlist": "Dead inside",
+        "duration": "1:58"
+    },
+    {
+        "title": "овердоз",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:29"
+    },
+    {
+        "title": "шизофрения",
+        "artist": "kurokov",
+        "playlist": "Dead inside",
+        "duration": "1:19"
+    },
+    {
+        "title": "губы",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:35"
+    },
+    {
+        "title": "пароли",
+        "artist": "KERASINN",
+        "playlist": "Dead inside",
+        "duration": "1:24"
+    },
+    {
+        "title": "она свободна (feat. морали нет)",
+        "artist": "диссоциативное расстройство",
+        "playlist": "Dead inside",
+        "duration": "1:21"
+    },
+    {
+        "title": "Стань моїм вбивцею",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "3:45"
+    },
+    {
+        "title": "Тело похудело",
+        "artist": "КОРЗА",
+        "playlist": "Dead inside",
+        "duration": "2:25"
+    },
+    {
+        "title": "сиськи",
+        "artist": "trepet",
+        "playlist": "Dead inside",
+        "duration": "1:45"
+    },
+    {
+        "title": "MARTINE ROSE",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "3:07"
+    },
+    {
+        "title": "Катюха",
+        "artist": "whitek3d",
+        "playlist": "Dead inside",
+        "duration": "1:18"
+    },
+    {
+        "title": "ЛАБУБУ",
+        "artist": "YUNG FIMOZ",
+        "playlist": "Dead inside",
+        "duration": "2:00"
+    },
+    {
+        "title": "Не помирай",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "2:20"
+    },
+    {
+        "title": "Лунный Лик",
+        "artist": "GONE.Fludd",
+        "playlist": "Dead inside",
+        "duration": "2:56"
+    },
+    {
+        "title": "таролог",
+        "artist": "норман грейсон",
+        "playlist": "Dead inside",
+        "duration": "1:55"
+    },
+    {
+        "title": "Kingslayer (feat. BABYMETAL)",
+        "artist": "Bring Me The Horizon",
+        "playlist": "Dead inside",
+        "duration": "3:41"
+    },
+    {
+        "title": "распять (folk remix)",
+        "artist": "stel11a",
+        "playlist": "Dead inside",
+        "duration": "1:31"
+    },
+    {
+        "title": "ivycraft — люблю москву но снится london",
+        "artist": "Russian SoundCloud",
+        "playlist": "Dead inside",
+        "duration": "1:33"
+    },
+    {
+        "title": "SIDEL ODIN HARDSTYLE",
+        "artist": "Riversmelt",
+        "playlist": "Dead inside",
+        "duration": "1:44"
+    },
+    {
+        "title": "europa fm",
+        "artist": "The pAura",
+        "playlist": "Dead inside",
+        "duration": "1:53"
+    },
+    {
+        "title": "Vlone",
+        "artist": "FACE",
+        "playlist": "Dead inside",
+        "duration": "2:24"
+    },
+    {
+        "title": "вклубе",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:40"
+    },
+    {
+        "title": "Колготки",
+        "artist": "trepet",
+        "playlist": "Dead inside",
+        "duration": "1:25"
+    },
+    {
+        "title": "popstar (feat. Перемотка)",
+        "artist": "Garcon Maigre",
+        "playlist": "Dead inside",
+        "duration": "1:25"
+    },
+    {
+        "title": "что тебя гложет",
+        "artist": "k0vertessence & B4YLUm",
+        "playlist": "Dead inside",
+        "duration": "2:33"
+    },
+    {
+        "title": "мориарти",
+        "artist": "k1n1ch",
+        "playlist": "Dead inside",
+        "duration": "1:15"
+    },
+    {
+        "title": "8 миля",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "1:56"
+    },
+    {
+        "title": "тебе нравится",
+        "artist": "призрак крови",
+        "playlist": "Dead inside",
+        "duration": "1:57"
+    },
+    {
+        "title": "детская травма",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "2:13"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6327,23 +6537,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 853,
-    "totalDurationSec": 180165,
+    "totalDurationSec": 184476,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CK6q_tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3mxKjQFypTwp9ImtTFsjFzWE8uTKA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIqBgdEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3npAOgh4x6qz5k0TCYSVgDoOPVT3A"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CK6q_tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lyvszszohaXbhNcRd-T4bw_qRBzQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CIuBgdEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mDveowoF8ShRTmBLutu1vqHVjjEg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CK-q_tAG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kReWAQsqms4O9_-ZAUhIjqLtUSwQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CIuBgdEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nKYgSNSoYozA1mXmb0x5WAoyr3og"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLOq_tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3ljPMLeguWJzO5jdnOlypT-a8mxrQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CI-BgdEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3k4b6wo9MQPW-zdJ1fvPPzTa1pwCg"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLOq_tAG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3n4ykWbtvsv8VvOJldLNFEheeuKXw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CI-BgdEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kLT87PNLUBTFgpP2XmX7SllYyZyA"
     }
 };
