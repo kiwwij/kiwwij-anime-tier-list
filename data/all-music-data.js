@@ -3043,7 +3043,7 @@ const musicData = [
         "duration": "3:27"
     },
     {
-        "title": "у меня внутри (prod by xmindmemories)",
+        "title": "у меня внутри",
         "artist": "cold carti",
         "playlist": "Dead inside",
         "duration": "2:37"
@@ -3925,14 +3925,14 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "Луз за лузом",
-        "artist": "youraifu",
+        "title": "Луз за Лузом",
+        "artist": "AICOVERGIRL",
         "playlist": "Dead inside",
         "duration": "2:36"
     },
     {
-        "title": "Гроза лесных крипов",
-        "artist": "youraifu",
+        "title": "Гроза Лесных Крипов",
+        "artist": "AICOVERGIRL",
         "playlist": "Dead inside",
         "duration": "2:37"
     },
@@ -4082,7 +4082,7 @@ const musicData = [
     },
     {
         "title": "(не) уходи",
-        "artist": "fallen777angel",
+        "artist": "fallen777angel & mapt0v",
         "playlist": "Dead inside",
         "duration": "1:58"
     },
@@ -6554,18 +6554,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPmFhtEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3lcM3IwjJJDrOvlMxloQpSwN-aqzQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNvOhtEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3kWqjd0Sj3byBW7WGLVtOTb6Bm2Ww"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPmFhtEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mZZADxehctfFUCiMc10gGHcP40ng"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNvOhtEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3k-urFjVnDHMzAA5-QRBorcfBptzA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CPmFhtEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nf97Zu4n91lsGGX4rXrwiteLPKrA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNzOhtEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3muRzodoYQiP-92cFqGHa-Jb1JEow"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CP2FhtEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3n6GHcNbWvfpboEctTTGmbCtIBD3Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COLOhtEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3loR9ya7iNPEJFJ5o8AIXIRaogosg"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CP2FhtEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mqFzFW54B-0kCKgeThwUM9zrEbgw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COLOhtEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3npIeVA_xUbHXa4sk97PLK0K0zxMg"
     }
 };
