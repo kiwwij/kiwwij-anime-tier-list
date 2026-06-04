@@ -1993,8 +1993,8 @@ const musicData = [
         "duration": "1:23"
     },
     {
-        "title": "Cumback",
-        "artist": "Nekoglai",
+        "title": "NEKOGLAI - CUMBACK (Премьера 2022)",
+        "artist": "nekoglai",
         "playlist": "Dead inside",
         "duration": "1:49"
     },
@@ -2293,7 +2293,7 @@ const musicData = [
         "duration": "4:03"
     },
     {
-        "title": "Перший дзвоник",
+        "title": "Олеся та Станіслава Май - Перший дзвоник",
         "artist": "Наталія Май",
         "playlist": "Dead inside",
         "duration": "2:37"
@@ -6554,18 +6554,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CK3Zh9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3mnBmWEzkaSIcYbuUkWez0QgL9lrg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJvmh9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3mqGrJmRO4yoof-k4Pgs022mC12rw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CK3Zh9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mhHk1UIkbkNylEui68F8GX_uFOiA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJvmh9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nGGDsf3T2-tPe0zpkG54qJYXJa9Q"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CK7Zh9EG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kQDK4845geCoWNeQZYe5zZ7mA0hg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJzmh9EG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nkzQIOnQKFoDrpZYuShcInH9wDrw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLLZh9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mjUHTP_I8Lu2oGqbUB16ZSPh3fKQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKDmh9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3k--k0gAgy3YSm6OepPc8G2ipOOzA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLLZh9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mfblmtf1y729Kh_D-KPBMMHv6a3A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKHmh9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kp5vfhMgq89bQm5mlsgK9OMi2NfA"
     }
 };
