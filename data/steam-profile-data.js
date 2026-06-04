@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 1962700,
             "name": "Subnautica 2",
-            "playtime_2weeks": 7.4,
+            "playtime_2weeks": 5.1,
             "hours": 7.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1962700/header.jpg",
             "url": "https://store.steampowered.com/app/1962700"
