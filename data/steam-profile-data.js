@@ -38,14 +38,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/105600"
         },
         {
-            "appid": 2444750,
-            "name": "Shape of Dreams",
-            "playtime_2weeks": 2.4,
-            "hours": 15.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2444750/header.jpg",
-            "url": "https://store.steampowered.com/app/2444750"
-        },
-        {
             "appid": 1962700,
             "name": "Subnautica 2",
             "playtime_2weeks": 2.2,
@@ -72,18 +64,10 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.3,
+            "playtime_2weeks": 0.2,
             "hours": 22.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 1905180,
-            "name": "OBS Studio",
-            "playtime_2weeks": 0.2,
-            "hours": 185.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
-            "url": "https://store.steampowered.com/app/1905180"
         }
     ],
     "top_games": [
