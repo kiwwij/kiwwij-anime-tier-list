@@ -2779,12 +2779,6 @@ const musicData = [
         "duration": "3:08"
     },
     {
-        "title": "Врал самому себе но так и не поверил speed up",
-        "artist": "Yasya",
-        "playlist": "Dead inside",
-        "duration": "2:08"
-    },
-    {
         "title": "СЕРЕГА ПИРАТ, Barikader - Как же он силен (Официальная премьера трека)",
         "artist": "soyuzmusic",
         "playlist": "Dead inside",
@@ -2957,12 +2951,6 @@ const musicData = [
         "artist": "НАВЕРНОЕ ПОЭТ",
         "playlist": "Dead inside",
         "duration": "1:40"
-    },
-    {
-        "title": "Что если \"Я когда-нибудь уйду\" станет Аниме Опенингом?",
-        "artist": "Ai Cover",
-        "playlist": "Dead inside",
-        "duration": "2:10"
     },
     {
         "title": "Кайто омежка",
@@ -6549,23 +6537,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 855,
-    "totalDurationSec": 184785,
+    "totalDurationSec": 184527,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CP6Ci9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3lVEKancWV80smW8xr8-hg_M7vkyw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMjfi9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3kBPGDbbN5ihQxE4CGLLPTTOmnFOQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CP6Ci9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3noHWYQJYxvXHiF5qBFxUiO6gq0rw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMjfi9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mcyYNlbYZlPhRrK2jTlpvw25SQkQ"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CP-Ci9EG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lGKZRY07sNg31FfOYc0nHMLSvyqw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMjfi9EG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mVPTDVbJ4KIElT9RPjJhCltATo1A"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIODi9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lrNO_-LRdtL51R8Jmq-0SryKPb0Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CM3fi9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nF1Q4BMHrWttaDe2ZujU4nCRG_lQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIODi9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mcn2auCLh8JtcMs5pKjaX3eP_HVA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CM3fi9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lqPLN8XdA9aPW99ikJGzwEDQE1Jw"
     }
 };
