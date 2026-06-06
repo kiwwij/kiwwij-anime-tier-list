@@ -2377,12 +2377,6 @@ const musicData = [
         "duration": "2:16"
     },
     {
-        "title": "ИВАН ЗОЛО спел ЭТО НЕ ПРОСТО ГНЕВ? | Ai Cover",
-        "artist": "тучка",
-        "playlist": "Dead inside",
-        "duration": "3:01"
-    },
-    {
         "title": "Едем к тебе или в отель? - speed up (lecsons music)",
         "artist": "lecsons music",
         "playlist": "Dead inside",
@@ -3325,12 +3319,6 @@ const musicData = [
         "duration": "2:40"
     },
     {
-        "title": "八王子P 「気まぐれメルシィ  feat. 初音ミク」(6/15発売Best AL「Eight」収録） - Blue Star",
-        "artist": "Hachiouji P",
-        "playlist": "Dead inside",
-        "duration": "3:29"
-    },
-    {
         "title": "succubus",
         "artist": "rizza",
         "playlist": "Dead inside",
@@ -4109,12 +4097,6 @@ const musicData = [
         "artist": "𓆩hikxdfe𓆪",
         "playlist": "Dead inside",
         "duration": "1:38"
-    },
-    {
-        "title": "FALLING IN LOVE",
-        "artist": "xxtristanxo",
-        "playlist": "Dead inside",
-        "duration": "1:52"
     },
     {
         "title": "общага",
@@ -5671,12 +5653,6 @@ const musicData = [
         "duration": "1:27"
     },
     {
-        "title": "имена",
-        "artist": "призрак крови",
-        "playlist": "Dead inside",
-        "duration": "1:37"
-    },
-    {
         "title": "монстр",
         "artist": "призрак крови",
         "playlist": "Dead inside",
@@ -6537,23 +6513,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 855,
-    "totalDurationSec": 184527,
+    "totalDurationSec": 183928,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COazjdEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjcurLQBg&rs=AMzJL3mv7HGoKOV67GFXYTp2CtUVK2NBxg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMu9jtEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjWyI3RBg&rs=AMzJL3mt6EhGbCBUgugYY6hPpCAQhhaNZA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COazjdEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nyEK9iSsPfK71Tg4qvSEXuMdejSw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMu9jtEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lSbHz5v8AF4MXIVYDehHBoFn4XPA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=COazjdEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mB22qb6iJSGAwv3LNoaQVriZRZ8Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMu9jtEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3n6TSeJO88tdjBnoHw6_Q2Uz5SDhA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COqzjdEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nZThkBFWSwB7Zujy8hADEisqdKjw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CM-9jtEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3m3YuC_N6kMdo-WwV4xj2_H3LlULA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COqzjdEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kJmDf8288JjMHK1v0CgZRr_pi8ZQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CM-9jtEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kWM1UN1gGPUIu-NbDuf6tJzbHXBw"
     }
 };
