@@ -3301,12 +3301,6 @@ const musicData = [
         "duration": "3:02"
     },
     {
-        "title": "X.U. UKR cover by sovenya || Seraph of the end OP українською",
-        "artist": "Hibikit",
-        "playlist": "Dead inside",
-        "duration": "4:42"
-    },
-    {
         "title": "Ой, хто п'є, тому наливайте",
         "artist": "Борис Сичевський",
         "playlist": "Dead inside",
@@ -4049,12 +4043,6 @@ const musicData = [
         "artist": "Fizzika NET",
         "playlist": "Dead inside",
         "duration": "1:22"
-    },
-    {
-        "title": "Lilian - Eu sem você (Por que te vás) // Letra/legendado",
-        "artist": "𝒮 t͟★ɾɾყ ! ໒",
-        "playlist": "Dead inside",
-        "duration": "3:09"
     },
     {
         "title": "(не) уходи",
@@ -6513,23 +6501,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 857,
-    "totalDurationSec": 183928,
+    "totalDurationSec": 183457,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNmdkNEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjWyI3RBg&rs=AMzJL3n9hZUCn59AK5LOWsottsDkmD30bw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLXnkNEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjWyI3RBg&rs=AMzJL3nkWCGwRCwK4W5YmKaLQgMgDmdoYw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNmdkNEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nP8rhcPliB8DoSV78Xqnc2tVLL1A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLXnkNEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3m4AgKApe_JkoCQJRq0ILGtnS_a6g"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNmdkNEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3m1kbcM0e11aeBxxPQESpXjF7D-Qg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CLXnkNEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kCVypEWdycadPuaUq3fQAE8SRRRA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CN2dkNEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mhIfZ_0VhM4zm3lP3NOfjC0qM0dg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLnnkNEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3n8zF26XtUn-qPe3LZgl5oO_Ijk8g"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CN2dkNEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kONiEWIWFSbGKeTSOrw6JA3dsSXw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLnnkNEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nERBLg6F66UQsSTTB3sLKXkjlU-w"
     }
 };
