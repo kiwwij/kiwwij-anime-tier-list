@@ -40,8 +40,8 @@ const steamData = {
         {
             "appid": 2592160,
             "name": "Dispatch",
-            "playtime_2weeks": 2.6,
-            "hours": 2.6,
+            "playtime_2weeks": 4.1,
+            "hours": 4.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2592160/header.jpg",
             "url": "https://store.steampowered.com/app/2592160"
         },
