@@ -204,9 +204,14 @@ const musicData = [
         "title": "Колготки",
         "artist": "trepet",
         "playlist": "Main"
+    },
+    {
+        "title": "Цветок",
+        "artist": "MORGENSHTERN",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 20,
-    "totalDurationSec": 5101
+    "totalDurationSec": 5257
 };
