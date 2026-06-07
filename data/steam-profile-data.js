@@ -4,13 +4,13 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/09f5c3a0f71de7094263d1820134fab9667a9839_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.3
     },
     "stats": {
-        "total_games": 274
+        "total_games": 275
     },
     "recent_games": [
         {
@@ -20,6 +20,14 @@ const steamData = {
             "hours": 3413.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
+        },
+        {
+            "appid": 2592160,
+            "name": "Dispatch",
+            "playtime_2weeks": 4.6,
+            "hours": 4.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2592160/header.jpg",
+            "url": "https://store.steampowered.com/app/2592160"
         },
         {
             "appid": 1281930,
@@ -36,14 +44,6 @@ const steamData = {
             "hours": 203.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
-        },
-        {
-            "appid": 2592160,
-            "name": "Dispatch",
-            "playtime_2weeks": 4.1,
-            "hours": 4.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2592160/header.jpg",
-            "url": "https://store.steampowered.com/app/2592160"
         },
         {
             "appid": 1962700,
