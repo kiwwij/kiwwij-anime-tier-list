@@ -62,20 +62,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2129530"
         },
         {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.5,
+            "hours": 22.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
+        },
+        {
             "appid": 3674060,
             "name": "Dispatch Demo",
             "playtime_2weeks": 0.5,
             "hours": 0.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3674060/header.jpg",
             "url": "https://store.steampowered.com/app/3674060"
-        },
-        {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.3,
-            "hours": 22.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
