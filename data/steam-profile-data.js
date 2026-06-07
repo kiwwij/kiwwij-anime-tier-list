@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/09f5c3a0f71de7094263d1820134fab9667a9839_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50",
+        "status": "Away",
+        "statusColor": "#FFC107",
         "level": 41,
         "age": 6.3
     },
@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 36.9,
+            "playtime_2weeks": 35.3,
             "hours": 3413.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -46,20 +46,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1962700"
         },
         {
+            "appid": 2592160,
+            "name": "Dispatch",
+            "playtime_2weeks": 1.7,
+            "hours": 1.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2592160/header.jpg",
+            "url": "https://store.steampowered.com/app/2592160"
+        },
+        {
             "appid": 2129530,
             "name": "REANIMAL",
             "playtime_2weeks": 1.2,
             "hours": 1.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2129530/header.jpg",
             "url": "https://store.steampowered.com/app/2129530"
-        },
-        {
-            "appid": 2592160,
-            "name": "Dispatch",
-            "playtime_2weeks": 1.0,
-            "hours": 1.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2592160/header.jpg",
-            "url": "https://store.steampowered.com/app/2592160"
         },
         {
             "appid": 3674060,
