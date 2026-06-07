@@ -247,6 +247,12 @@ const musicData = [
         "duration": "1:25"
     },
     {
+        "title": "Цветок",
+        "artist": "MORGENSHTERN",
+        "playlist": "Main",
+        "duration": "2:36"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -745,12 +751,6 @@ const musicData = [
         "duration": "2:01"
     },
     {
-        "title": "Леро4ка - Каждый кто делал тебе больно покойник (Phonk remix by Miska Beats)",
-        "artist": "Sad Nation",
-        "playlist": "Dead inside",
-        "duration": "2:03"
-    },
-    {
         "title": "За цвет голубых очей (Remix)",
         "artist": "Adecvat_production",
         "playlist": "Dead inside",
@@ -883,12 +883,6 @@ const musicData = [
         "duration": "2:32"
     },
     {
-        "title": "CMH, GSPD, DEAD BLONDE - бесконечное лето (speed up + reverb)",
-        "artist": "nurikwav**",
-        "playlist": "Dead inside",
-        "duration": "2:23"
-    },
-    {
         "title": "Ghost Rider - MONSTER[skillet]",
         "artist": "KINGSTON H",
         "playlist": "Dead inside",
@@ -935,12 +929,6 @@ const musicData = [
         "artist": "Кис-Кис",
         "playlist": "Dead inside",
         "duration": "2:56"
-    },
-    {
-        "title": "Look What You Made Me Do",
-        "artist": "Taylor Swift",
-        "playlist": "Dead inside",
-        "duration": "4:16"
     },
     {
         "title": "Лицо",
@@ -1079,12 +1067,6 @@ const musicData = [
         "artist": "ooes",
         "playlist": "Dead inside",
         "duration": "2:18"
-    },
-    {
-        "title": "miki matsubara - stay with me [speed up ♡ nightcore]",
-        "artist": "mxsics",
-        "playlist": "Dead inside",
-        "duration": "3:59"
     },
     {
         "title": "Human",
@@ -1273,12 +1255,6 @@ const musicData = [
         "duration": "2:02"
     },
     {
-        "title": "\"Miss You\" -  Oliver Tree (Ultimate Music Cover)",
-        "artist": "UMC",
-        "playlist": "Dead inside",
-        "duration": "1:17"
-    },
-    {
         "title": "daryana & daybe - Заставлял (Ты заставлял меня со****, но я тебе не со****) | Премьера трека 2023",
         "artist": "Five Music",
         "playlist": "Dead inside",
@@ -1297,12 +1273,6 @@ const musicData = [
         "duration": "2:52"
     },
     {
-        "title": "Всего лишь сон",
-        "artist": "Sqwore",
-        "playlist": "Dead inside",
-        "duration": "1:51"
-    },
-    {
         "title": "uma2rman - Кажется",
         "artist": "nuts kh",
         "playlist": "Dead inside",
@@ -1319,12 +1289,6 @@ const musicData = [
         "artist": "ЛЯЛЬКА",
         "playlist": "Dead inside",
         "duration": "2:28"
-    },
-    {
-        "title": "NIKITA - Машина [speed up] | (как же красиво он ведёт машину)",
-        "artist": "Waylope",
-        "playlist": "Dead inside",
-        "duration": "2:43"
     },
     {
         "title": "Baby Detroit",
@@ -2039,12 +2003,6 @@ const musicData = [
         "artist": "Plume",
         "playlist": "Dead inside",
         "duration": "3:36"
-    },
-    {
-        "title": "【Honkai：Star Rail MMD／4K／60FPS】Stelle【[A]ddiction】",
-        "artist": "Akashi",
-        "playlist": "Dead inside",
-        "duration": "3:37"
     },
     {
         "title": "Имя 505",
@@ -3145,12 +3103,6 @@ const musicData = [
         "duration": "2:41"
     },
     {
-        "title": "SUPERPOWER ft. KISS OF LIFE and Mark Tuan (Official Music Video) // VALORANT Champions 2024 Anthem",
-        "artist": "VALORANT",
-        "playlist": "Dead inside",
-        "duration": "3:11"
-    },
-    {
         "title": "Ocean Love - Двенадцатый этаж (prod. by forzen)",
         "artist": "Renenad",
         "playlist": "Dead inside",
@@ -3179,12 +3131,6 @@ const musicData = [
         "artist": "Polina Poliakova",
         "playlist": "Dead inside",
         "duration": "5:16"
-    },
-    {
-        "title": "KICK BACK UKR cover by SHNUR || Chainsaw Man OP українською",
-        "artist": "Hibikit",
-        "playlist": "Dead inside",
-        "duration": "1:26"
     },
     {
         "title": "чайлдфри (Live) (feat. Monetochka)",
@@ -3677,12 +3623,6 @@ const musicData = [
         "artist": "K0DEIN ",
         "playlist": "Dead inside",
         "duration": "1:39"
-    },
-    {
-        "title": "Хризантеми",
-        "artist": "анастимоза",
-        "playlist": "Dead inside",
-        "duration": "2:57"
     },
     {
         "title": "zhanulka - наколки hardstyle remix",
@@ -6485,27 +6425,45 @@ const musicData = [
         "artist": "Cynthoni",
         "playlist": "Sewerslvt",
         "duration": "4:19"
+    },
+    {
+        "title": "02. Sewerslvt - inlove",
+        "artist": "Sewerslvt Archive",
+        "playlist": "Sewerslvt",
+        "duration": "2:43"
+    },
+    {
+        "title": "03. Sewerslvt - inmelancholy (foxxy dekay & 4649nadeshiko - 37564 Remix)",
+        "artist": "Sewerslvt Archive",
+        "playlist": "Sewerslvt",
+        "duration": "2:43"
+    },
+    {
+        "title": "05. Sewerslvt - intheend",
+        "artist": "Sewerslvt Archive",
+        "playlist": "Sewerslvt",
+        "duration": "4:08"
     }
 ];
 const musicStats = {
     "totalViews": 858,
-    "totalDurationSec": 183104,
+    "totalDurationSec": 182051,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMull9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjWyI3RBg&rs=AMzJL3nMSruWH2Vsns9cKC8ykyqAq-09Rg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CL23l9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiwtJfRBg&rs=AMzJL3lBJPtM_KgZFMHCZSs1VwgUabs9Nw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMull9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kbaY3SQotVxT68bKbSny7G5vfciA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CL23l9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kZvrjeDaoQKgxqiHA2pOHJUqHaew"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMyll9EG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3ngmEJqI_C5miYxGUhV3eioyD3j9g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CL63l9EG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3njJLUjAG_1zAH58x43KaYJghgwBg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNCll9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3l75qYz1mp8SqODtCFpLpoAy4vuPw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMK3l9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kJJdwqKkjC34jg4cUSVNkAd5QYAA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNCll9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3ktV9jxsiib_lkFu08ZlxoFJb-h9g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMK3l9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3m0Z25m35pKXpwsR1TEt0Xs7qQQkA"
     }
 };
