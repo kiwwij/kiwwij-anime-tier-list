@@ -209,9 +209,19 @@ const musicData = [
         "title": "Цветок",
         "artist": "MORGENSHTERN",
         "playlist": "Main"
+    },
+    {
+        "title": "искры хрома (Speed Up)",
+        "artist": "metaego",
+        "playlist": "Main"
+    },
+    {
+        "title": "вся моя жизнь говно",
+        "artist": "CUPSIZE",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 20,
-    "totalDurationSec": 5257
+    "totalDurationSec": 5692
 };
