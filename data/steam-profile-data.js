@@ -7,7 +7,7 @@ const steamData = {
         "status": "Online",
         "statusColor": "#4CAF50",
         "level": 41,
-        "age": 6.3
+        "age": 6.4
     },
     "stats": {
         "total_games": 275
@@ -24,8 +24,8 @@ const steamData = {
         {
             "appid": 2592160,
             "name": "Dispatch",
-            "playtime_2weeks": 4.6,
-            "hours": 4.6,
+            "playtime_2weeks": 7.6,
+            "hours": 7.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2592160/header.jpg",
             "url": "https://store.steampowered.com/app/2592160"
         },
