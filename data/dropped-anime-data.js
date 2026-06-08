@@ -30,11 +30,6 @@ const droppedData = [
         "review": "Дропнул на 4-й серии из 13."
     },
     {
-        "title": "Darker than Black",
-        "ruTitle": "Темнее чёрного",
-        "review": "Дропнул на 1-й серии из 25."
-    },
-    {
         "title": "The Kingdoms of Ruin",
         "ruTitle": "Королевство руин",
         "review": "Дропнул на 1-й серии из 12."

@@ -32,40 +32,40 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 const steamGallery = [
-    { year: 2025, src: 'img/about me/steam25.1.png' },
-    { year: 2024, src: 'img/about me/steam24.1.png' },
-    { year: 2023, src: 'img/about me/steam23.1.png' },
-    { year: 2022, src: 'img/about me/steam22.1.png' }
+    { year: 2025, src: '../img/about me/steam25.1.png' },
+    { year: 2024, src: '../img/about me/steam24.1.png' },
+    { year: 2023, src: '../img/about me/steam23.1.png' },
+    { year: 2022, src: '../img/about me/steam22.1.png' }
 ];
 
 const twitchGallery = [
-    { year: 2025, src: 'img/about me/twitch25.png' },
-    { year: 2024, src: 'img/about me/twitch24.png' },
-    { year: 2023, src: 'img/about me/twitch23.png' }
+    { year: 2025, src: '../img/about me/twitch25.png' },
+    { year: 2024, src: '../img/about me/twitch24.png' },
+    { year: 2023, src: '../img/about me/twitch23.png' }
 ];
 
 const discordGallery2025 = [
-    { year: 2025, src: 'img/about me/discrod 2025/1.png' },
-    { year: 2025, src: 'img/about me/discrod 2025/2.png' },
-    { year: 2025, src: 'img/about me/discrod 2025/3.png' },
-    { year: 2025, src: 'img/about me/discrod 2025/4.png' },
-    { year: 2025, src: 'img/about me/discrod 2025/5.png' },
-    { year: 2025, src: 'img/about me/discrod 2025/6.png' },
-    { year: 2025, src: 'img/about me/discrod 2025/7.png' },
-    { year: 2025, src: 'img/about me/discrod 2025/8.png' },
-    { year: 2025, src: 'img/about me/discrod 2025/9.png' }
+    { year: 2025, src: '../img/about me/discrod 2025/1.png' },
+    { year: 2025, src: '../img/about me/discrod 2025/2.png' },
+    { year: 2025, src: '../img/about me/discrod 2025/3.png' },
+    { year: 2025, src: '../img/about me/discrod 2025/4.png' },
+    { year: 2025, src: '../img/about me/discrod 2025/5.png' },
+    { year: 2025, src: '../img/about me/discrod 2025/6.png' },
+    { year: 2025, src: '../img/about me/discrod 2025/7.png' },
+    { year: 2025, src: '../img/about me/discrod 2025/8.png' },
+    { year: 2025, src: '../img/about me/discrod 2025/9.png' }
 ];
 
 const discordGallery2026 = [
-    { year: 2025, src: 'img/about me/discrod 2026/1.png' },
-    { year: 2025, src: 'img/about me/discrod 2026/2.png' },
-    { year: 2025, src: 'img/about me/discrod 2026/3.png' },
-    { year: 2025, src: 'img/about me/discrod 2026/4.png' },
-    { year: 2025, src: 'img/about me/discrod 2026/5.png' },
-    { year: 2025, src: 'img/about me/discrod 2026/6.png' },
-    { year: 2025, src: 'img/about me/discrod 2026/7.png' },
-    { year: 2025, src: 'img/about me/discrod 2026/8.png' },
-    { year: 2025, src: 'img/about me/discrod 2026/9.png' }
+    { year: 2025, src: '../img/about me/discrod 2026/1.png' },
+    { year: 2025, src: '../img/about me/discrod 2026/2.png' },
+    { year: 2025, src: '../img/about me/discrod 2026/3.png' },
+    { year: 2025, src: '../img/about me/discrod 2026/4.png' },
+    { year: 2025, src: '../img/about me/discrod 2026/5.png' },
+    { year: 2025, src: '../img/about me/discrod 2026/6.png' },
+    { year: 2025, src: '../img/about me/discrod 2026/7.png' },
+    { year: 2025, src: '../img/about me/discrod 2026/8.png' },
+    { year: 2025, src: '../img/about me/discrod 2026/9.png' }
 ];
 
 steamGallery.sort((a, b) => a.year - b.year);

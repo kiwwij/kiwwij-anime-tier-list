@@ -11,13 +11,16 @@ const CACHE_KEY_POSTERS = 'site_posters_cache_v6';
 const MAX_CONCURRENT_REQUESTS = 10;
 const REQUEST_DELAY = 700;
 
-const categorySelect = document.getElementById('categorySelect');
+const animeSelect = document.getElementById('animeSelect');
+const ranobeSelect = document.getElementById('ranobeSelect');
+const iconButtonsContainer = document.getElementById('iconButtonsContainer');
 const tierListContainer = document.getElementById('tierListContainer');
 const modal = document.getElementById('detailsModal');
 const themeToggle = document.getElementById('themeToggle');
 const tabButtons = document.querySelectorAll('.tab-btn');
 
 let currentScale = 'standard';
+let currentCategory = '';
 let apiCache = JSON.parse(localStorage.getItem(CACHE_KEY_POSTERS) || '{}');
 let requestQueue = [];
 let activeRequests = 0;
@@ -40,16 +43,53 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function init() {
     const keys = Object.keys(tierListData).sort((a, b) => b - a);
+    const currentYear = new Date().getFullYear().toString();
+    currentCategory = tierListData[currentYear] ? currentYear : keys[0];
+
+    const specialCategories = {
+        'Игры': { icon: 'bx-joystick', text: 'Игры' },
+        'Энергетики': { icon: 'bx-bolt', text: 'Энергетики' }
+    };
+
+    animeSelect.innerHTML = '<option value="" disabled>Аниме по годам</option>';
+    ranobeSelect.innerHTML = '<option value="" disabled>Ранобэ</option>';
+    iconButtonsContainer.innerHTML = '';
+
     keys.forEach(key => {
-        const opt = document.createElement('option');
-        opt.value = key; opt.textContent = key;
-        categorySelect.appendChild(opt);
+        const data = tierListData[key];
+        const type = data.type || 'anime';
+
+        if (specialCategories[key]) {
+            const btn = document.createElement('button');
+            btn.className = 'icon-btn';
+            btn.innerHTML = `<i class='bx ${specialCategories[key].icon}'></i><span>${specialCategories[key].text}</span>`;
+            btn.dataset.category = key;
+            
+            if (key === currentCategory) btn.classList.add('active');
+            
+            btn.onclick = () => switchCategory(key);
+            iconButtonsContainer.appendChild(btn);
+        } else if (type === 'ranobe' || key.includes('Re:Zero')) {
+            const opt = document.createElement('option');
+            opt.value = key; 
+            opt.textContent = key;
+            ranobeSelect.appendChild(opt);
+        } else {
+            const opt = document.createElement('option');
+            opt.value = key; 
+            opt.textContent = key;
+            animeSelect.appendChild(opt);
+        }
     });
 
-    const currentYear = new Date().getFullYear().toString();
-    categorySelect.value = tierListData[currentYear] ? currentYear : keys[0];
+    if (tierListData[currentCategory]?.type === 'ranobe' || currentCategory.includes('Re:Zero')) {
+        ranobeSelect.value = currentCategory;
+    } else if (!specialCategories[currentCategory]) {
+        animeSelect.value = currentCategory;
+    }
 
-    categorySelect.addEventListener('change', renderTierList);
+    animeSelect.addEventListener('change', (e) => switchCategory(e.target.value));
+    ranobeSelect.addEventListener('change', (e) => switchCategory(e.target.value));
     
     tabButtons.forEach(btn => {
         btn.addEventListener('click', () => {
@@ -61,7 +101,6 @@ function init() {
     });
 
     const savedTheme = localStorage.getItem('theme') || 'dark';
-
     if (savedTheme === 'light') {
         document.body.classList.add('light-theme');
         if(themeToggle) themeToggle.checked = false; 
@@ -86,11 +125,39 @@ function init() {
     renderTierList();
 }
 
+function switchCategory(key) {
+    currentCategory = key;
+
+    document.querySelectorAll('.icon-btn').forEach(btn => {
+        if (btn.dataset.category === key) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
+
+    const isAnime = Array.from(animeSelect.options).some(opt => opt.value === key);
+    if (isAnime) {
+        animeSelect.value = key;
+    } else {
+        animeSelect.value = ""; 
+    }
+
+    const isRanobe = Array.from(ranobeSelect.options).some(opt => opt.value === key);
+    if (isRanobe) {
+        ranobeSelect.value = key;
+    } else {
+        ranobeSelect.value = ""; 
+    }
+
+    renderTierList();
+}
+
 function renderTierList() {
     tierListContainer.querySelectorAll('.card').forEach(card => lazyLoadObserver.unobserve(card));
 
     tierListContainer.innerHTML = '';
-    const category = categorySelect.value;
+    const category = currentCategory;
     const categoryData = tierListData[category];
     if (!categoryData) return;
 
@@ -98,24 +165,28 @@ function renderTierList() {
     const searchContainer = document.querySelector('.search-container');
     const searchInput = document.getElementById('animeSearch');
     const clearBtn = document.getElementById('clearSearch');
+    const searchIcon = document.querySelector('.search-icon');
     const searchResultsContainer = document.getElementById('searchResultsContainer');
 
     if (searchContainer) {
-        if (type !== 'anime' || category === 'Энергетики' || category.includes('Re:Zero')) {
-            searchContainer.style.display = 'none';
-            
-            if (searchInput) searchInput.value = '';
+        if (category === 'Энергетики' || category.includes('Re:Zero')) {
+            searchInput.disabled = true;
+            searchInput.placeholder = "Поиск недоступен";
+            searchInput.value = '';
             if (clearBtn) clearBtn.style.display = 'none';
+            if (searchIcon) searchIcon.style.opacity = '0.5';
             if (searchResultsContainer) searchResultsContainer.style.display = 'none';
             tierListContainer.style.display = 'block';
         } else {
-            searchContainer.style.display = 'block';
+            searchInput.disabled = false;
+            searchInput.placeholder = "Найти по названию";
+            if (searchIcon) searchIcon.style.opacity = '1';
         }
     }
 
     const droppedLink = document.getElementById('droppedLinkContainer');
     if (droppedLink) {
-        if (type === 'anime' && !category.includes('Re:Zero')) {
+        if (type === 'anime' && !category.includes('Re:Zero') && type !== 'ranobe') {
             droppedLink.style.display = 'block';
         } else {
             droppedLink.style.display = 'none';
@@ -151,6 +222,29 @@ function renderTierList() {
         document.getElementById('closeGameDisclaimer').addEventListener('click', () => {
             disclaimer.style.display = 'none';
             localStorage.setItem('gameDisclaimerClosed', 'true');
+        });
+    }
+
+    if (type === 'anime' && !category.includes('Re:Zero') && !localStorage.getItem('animeSortDisclaimerClosed')) {
+        const animeDisclaimer = document.createElement('div');
+        animeDisclaimer.className = 'modal-review-box';
+        animeDisclaimer.style.margin = '0 auto 25px';
+        animeDisclaimer.style.maxWidth = '800px';
+        animeDisclaimer.style.textAlign = 'center';
+        animeDisclaimer.style.borderLeftColor = 'var(--accent)';
+        animeDisclaimer.style.position = 'relative';
+        animeDisclaimer.style.paddingRight = '30px';
+
+        animeDisclaimer.innerHTML = `
+            <button id="closeAnimeDisclaimer" style="position: absolute; top: 10px; right: 10px; background: none; border: none; font-size: 1.5rem; line-height: 1; cursor: pointer; color: var(--text-muted); transition: 0.2s;" onmouseover="this.style.color='var(--text-main)'" onmouseout="this.style.color='var(--text-muted)'">&times;</button>
+            <strong>Обратите внимание:</strong> Тайтлы внутри категорий распределены исключительно по порядку их добавления, а не по уровню крутости. Более детальное сопоставление и разборы между ними я провожу уже в самих тир-листах!
+        `;
+        
+        tierListContainer.appendChild(animeDisclaimer);
+
+        document.getElementById('closeAnimeDisclaimer').addEventListener('click', () => {
+            animeDisclaimer.style.display = 'none';
+            localStorage.setItem('animeSortDisclaimerClosed', 'true');
         });
     }
 
@@ -445,6 +539,29 @@ if (searchInput && searchResultsContainer && clearBtn) {
         const droppedLink = document.getElementById('droppedLinkContainer');
         clearBtn.style.display = query.length > 0 ? 'flex' : 'none';
 
+        const activeCategory = currentCategory;
+        const currentType = tierListData[activeCategory]?.type || 'anime';
+
+        if (currentType === 'game') {
+            searchResultsContainer.style.display = 'none';
+            mainContainer.style.display = 'block';
+            
+            const cards = mainContainer.querySelectorAll('.card');
+            
+            cards.forEach(card => {
+                const itemData = JSON.parse(card.dataset.item || "{}");
+                const titleEng = (itemData.title || "").toLowerCase();
+                const titleRu = (itemData.ruTitle || "").toLowerCase();
+                
+                if (query.length === 0 || titleEng.includes(query) || titleRu.includes(query)) {
+                    card.classList.remove('dimmed-card');
+                } else {
+                    card.classList.add('dimmed-card');
+                }
+            });
+            return;
+        }
+
         if (query.length < 2) {
             searchResultsContainer.style.display = 'none';
             mainContainer.style.display = 'block';
@@ -464,7 +581,7 @@ if (searchInput && searchResultsContainer && clearBtn) {
             const type = categoryData.type || 'anime';
 
             if (
-                type !== 'anime' || 
+                type === 'game' || 
                 categoryName === 'Энергетики' || 
                 categoryName.includes('Re:Zero')
             ) {

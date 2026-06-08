@@ -129,7 +129,34 @@
         document.addEventListener('DOMContentLoaded', () => {
             const themeToggle = document.getElementById('themeToggle');
             const body = document.body;
-            const scrollBtn = document.getElementById("scrollTopBtn");
+            function updateChartColors() {
+                const isLight = body.classList.contains('light-theme');
+                const textColor = isLight ? '#1e293b' : '#f8fafc'; 
+                const gridColor = isLight ? '#e2e8f0' : 'rgba(255, 255, 255, 0.1)';
+
+                Chart.defaults.color = textColor;
+                Chart.defaults.borderColor = gridColor;
+
+                for (let id in Chart.instances) {
+                    let chart = Chart.instances[id];
+                    
+                    if (chart.options.plugins && chart.options.plugins.legend) {
+                        chart.options.plugins.legend.labels.color = textColor;
+                    }
+                    
+                    if (chart.options.scales) {
+                        for (let scale in chart.options.scales) {
+                            if (chart.options.scales[scale].ticks) {
+                                chart.options.scales[scale].ticks.color = textColor;
+                            }
+                            if (chart.options.scales[scale].grid) {
+                                chart.options.scales[scale].grid.color = gridColor;
+                            }
+                        }
+                    }
+                    chart.update();
+                }
+            }
 
             const savedTheme = localStorage.getItem('theme') || 'dark';
             if (savedTheme === 'light') {
@@ -139,6 +166,8 @@
                 themeToggle.checked = true;
             }
 
+            setTimeout(updateChartColors, 100);
+
             themeToggle.addEventListener('change', () => {
                 if (themeToggle.checked) {
                     body.classList.remove('light-theme');
@@ -147,14 +176,9 @@
                     body.classList.add('light-theme');
                     localStorage.setItem('theme', 'light');
                 }
+                updateChartColors();
             });
         });
-    </script>
-    <script>
-        const yearElement = document.getElementById('current-year');
-            if (yearElement) {
-                yearElement.textContent = new Date().getFullYear();
-            }
     </script>
 </body>
 </html>

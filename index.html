@@ -1,155 +1,133 @@
 <!doctype html>
 <html lang="ru">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Мой Аниме Тир-Лист</title>
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="https://i.pinimg.com/originals/53/a0/3d/53a03dfe10d137fe7427b48471e2c5aa.gif"
-    />
+    
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/53/a0/3d/53a03dfe10d137fe7427b48471e2c5aa.gif" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/tierlist-styles.css" />
-  </head>
-  <body class="tierlist-page">
+</head>
+<body class="tierlist-page">
     <header>
-      <div class="header-content">
-        <div class="top-row">
-          <h1 class="logo-text">
-            <a href="extra/anime-list.html" target="_blank">Тир листы</a>
-          </h1>
-          <label class="switch">
-            <input type="checkbox" id="themeToggle" />
-            <span class="slider"></span>
-          </label>
-        </div>
-
-        <div class="controls-wrapper">
-          <div class="top-controls-row">
-            <div class="search-container">
-              <i class='bx bx-search search-icon'></i>
-              <input type="text" id="animeSearch" class="search-input" placeholder="Найти аниме по названию" autocomplete="off">
-              <button id="clearSearch" class="clear-search-btn" style="display: none;"><i class="bx bx-x"></i></button>
+        <div class="header-content">
+            <div class="top-row">
+                <h1 class="logo-text">
+                    <a href="extra/anime-list.html" target="_blank">Тир листы</a>
+                </h1>
+                <label class="switch">
+                    <input type="checkbox" id="themeToggle" />
+                    <span class="slider"></span>
+                </label>
             </div>
-            
-            <select id="categorySelect" class="category-dropdown"></select>
-          </div>
 
-          <div class="scale-tabs" id="scaleTabs">
-            <button class="tab-btn active" data-scale="standard">
-              Стандартная
-            </button>
-            <button class="tab-btn" data-scale="personal">Личная</button>
-          </div>
+            <div class="controls-wrapper">
+                <div class="top-controls-row">
+                    <div class="search-container">
+                        <i class='bx bx-search search-icon'></i>
+                        <input type="text" id="animeSearch" class="search-input" placeholder="Найти по названию" autocomplete="off">
+                        <button id="clearSearch" class="clear-search-btn" style="display: none;"><i class="bx bx-x"></i></button>
+                    </div>
+                    
+                    <div class="right-controls-group">
+                        <select id="animeSelect" class="category-dropdown">
+                            <option value="" disabled>Аниме по годам</option>
+                        </select>
+                        
+                        <select id="ranobeSelect" class="category-dropdown">
+                            <option value="" disabled>Ранобэ</option>
+                        </select>
+
+                        <div id="iconButtonsContainer" class="icon-buttons-container"></div>
+                    </div>
+                </div>
+
+                <div class="scale-tabs" id="scaleTabs">
+                    <button class="tab-btn active" data-scale="standard">Стандартная</button>
+                    <button class="tab-btn" data-scale="personal">Личная</button>
+                </div>
+            </div>
+
+            <nav class="nav-links">
+                <a href="pages/steam-stats.html" class="btn-link"><i class="bx bxl-steam"></i> Steam</a>
+                <a href="pages/movies.html" class="btn-link"><i class="bx bx-movie-play"></i> Фильмы</a>
+                <a href="pages/music.html" class="btn-link"><i class="bx bx-music"></i> Музыка</a>
+                <a href="pages/stats.html" class="btn-link"><i class="bx bx-bar-chart-alt-2"></i> Статистика</a>
+                <a href="pages/about-me.html" class="btn-link"><i class="bx bx-user"></i> Обо мне</a>
+            </nav>
         </div>
-
-        <nav class="nav-links">
-          <a href="pages/steam-stats.html" class="btn-link"
-            ><i class="bx bxl-steam"></i> Steam</a
-          >
-          <a href="pages/movies.html" class="btn-link"
-            ><i class="bx bx-movie-play"></i> Фильмы</a
-          >
-          <a href="pages/music.html" class="btn-link"
-            ><i class="bx bx-music"></i> Музыка</a
-          >
-          <!-- <a href="pages/recommended-anime.html" class="btn-link top-highlight"
-            ><i class="bx bxs-star"></i> Топ-Избранное</a
-          > -->
-          <a href="pages/stats.html" class="btn-link"
-            ><i class="bx bx-bar-chart-alt-2"></i> Статистика</a
-          >
-          <a href="pages/about-me.html" class="btn-link"
-            ><i class="bx bx-user"></i> Обо мне</a
-          >
-        </nav>
-      </div>
     </header>
 
     <main id="tierListContainer"></main>
+    
     <div id="searchResultsContainer" class="search-results-grid" style="display: none;"></div>
 
     <div class="dropped-link-container" id="droppedLinkContainer">
-      <a href="pages/dropped-anime.html" class="dropped-link"
-        >Список брошенных аниме</a
-      >
+        <a href="pages/dropped-anime.html" class="dropped-link">Список брошенных аниме</a>
     </div>
 
     <dialog id="detailsModal">
-      <div class="modal-content">
-        <button class="close-modal" id="closeModal">
-          <i class="bx bx-x"></i>
-        </button>
-        <div class="modal-header">
-          <img src="" alt="" class="modal-img" id="modalImg" />
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal">
+                <i class="bx bx-x"></i>
+            </button>
+            <div class="modal-header">
+                <img src="" alt="" class="modal-img" id="modalImg" />
+            </div>
+            <div class="modal-body">
+                <h2 id="modalTitle"></h2>
+                <p id="modalAltTitle" class="modal-subtitle"></p>
+                <div id="modalRating" class="modal-meta"></div>
+                <div class="modal-review-box">
+                    <h3>Мой отзыв:</h3>
+                    <p id="modalReview"></p>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-          <h2 id="modalTitle"></h2>
-          <p id="modalAltTitle" class="modal-subtitle"></p>
-          <div id="modalRating" class="modal-meta"></div>
-          <div class="modal-review-box">
-            <h3>Мой отзыв:</h3>
-            <p id="modalReview"></p>
-          </div>
-        </div>
-      </div>
     </dialog>
 
     <footer class="site-footer">
-      <div class="footer-content">
-        <div class="footer-info">
-          <span class="footer-logo">kiwwij</span>
-          <p class="footer-copyright">
-            © <span id="current-year"></span>. No Copyright.
-          </p>
+        <div class="footer-content">
+            <div class="footer-info">
+                <span class="footer-logo">kiwwij</span>
+                <p class="footer-copyright">
+                    © <span id="current-year"></span>. No Copyright.
+                </p>
+            </div>
+
+            <nav class="footer-nav-center">
+                <a href="pages/navigation.html" class="social-link" title="Навигация">
+                    <i class="bx bx-map-alt"></i>
+                </a>
+            </nav>
+
+            <nav class="footer-socials">
+                <a href="https://github.com/kiwwij" class="social-link" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="https://kiwwij.github.io/my-projects/html/kiwwij's-social-media-links.html" class="social-link" target="_blank"><i class="bx bx-link-alt"></i></a>
+            </nav>
         </div>
-
-        <nav class="footer-nav-center">
-          <a href="pages/navigation.html" class="social-link" title="Навигация">
-            <i class="bx bx-map-alt"></i>
-          </a>
-        </nav>
-
-        <nav class="footer-socials">
-          <a
-            href="https://github.com/kiwwij"
-            class="social-link"
-            target="_blank"
-            ><i class="bx bxl-github"></i
-          ></a>
-          <a
-            href="https://kiwwij.github.io/my-projects/html/kiwwij's-social-media-links.html"
-            class="social-link"
-            target="_blank"
-            ><i class="bx bx-link-alt"></i
-          ></a>
-        </nav>
-      </div>
     </footer>
 
     <script src="data/anime-data.js" defer></script>
     <script src="data/rezero-data.js" defer></script>
     <script src="data/energydrink-data.js" defer></script>
     <script src="data/games-data.js" defer></script>
+    <script src="data/mushoku-tensei-data.js" defer></script>
     <script src="js/index.js" defer></script>
     <script src="js/games-steam-posters.js" defer></script>
     <script src="js/holidays.js" defer></script>
+    
     <script>
-      const yearElement = document.getElementById("current-year");
-      if (yearElement) {
-        yearElement.textContent = new Date().getFullYear();
-      }
+        const yearElement = document.getElementById("current-year");
+        if (yearElement) {
+            yearElement.textContent = new Date().getFullYear();
+        }
     </script>
-  </body>
+</body>
 </html>
