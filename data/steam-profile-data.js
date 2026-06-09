@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 33.4,
+            "playtime_2weeks": 33.0,
             "hours": 3416.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -56,7 +56,7 @@ const steamData = {
         {
             "appid": 2129530,
             "name": "REANIMAL",
-            "playtime_2weeks": 1.2,
+            "playtime_2weeks": 0.8,
             "hours": 1.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2129530/header.jpg",
             "url": "https://store.steampowered.com/app/2129530"
