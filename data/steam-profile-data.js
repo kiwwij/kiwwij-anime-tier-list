@@ -4,13 +4,13 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/09f5c3a0f71de7094263d1820134fab9667a9839_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107",
+        "status": "Online",
+        "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.4
     },
     "stats": {
-        "total_games": 275
+        "total_games": 276
     },
     "recent_games": [
         {
@@ -62,6 +62,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2129530"
         },
         {
+            "appid": 1263470,
+            "name": "ATRI -My Dear Moments- Demo",
+            "playtime_2weeks": 0.5,
+            "hours": 0.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1263470/header.jpg",
+            "url": "https://store.steampowered.com/app/1263470"
+        },
+        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.5,
@@ -76,14 +84,6 @@ const steamData = {
             "hours": 0.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3674060/header.jpg",
             "url": "https://store.steampowered.com/app/3674060"
-        },
-        {
-            "appid": 1263470,
-            "name": "ATRI -My Dear Moments- Demo",
-            "playtime_2weeks": 0.1,
-            "hours": 0.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1263470/header.jpg",
-            "url": "https://store.steampowered.com/app/1263470"
         }
     ],
     "top_games": [
@@ -106,8 +106,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg",
             "url": "https://store.steampowered.com/app/730",
             "tags": [
-                "Экшены",
-                "Бесплатные"
+                "Без жанра"
             ]
         },
         {
