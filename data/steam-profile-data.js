@@ -4,13 +4,13 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/09f5c3a0f71de7094263d1820134fab9667a9839_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Snooze",
-        "statusColor": "#673AB7",
+        "status": "Away",
+        "statusColor": "#FFC107",
         "level": 41,
         "age": 6.4
     },
     "stats": {
-        "total_games": 277
+        "total_games": 279
     },
     "recent_games": [
         {
@@ -28,22 +28,6 @@ const steamData = {
             "hours": 7.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2592160/header.jpg",
             "url": "https://store.steampowered.com/app/2592160"
-        },
-        {
-            "appid": 1281930,
-            "name": "tModLoader",
-            "playtime_2weeks": 1.6,
-            "hours": 28.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281930/header.jpg",
-            "url": "https://store.steampowered.com/app/1281930"
-        },
-        {
-            "appid": 105600,
-            "name": "Terraria",
-            "playtime_2weeks": 1.6,
-            "hours": 203.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
-            "url": "https://store.steampowered.com/app/105600"
         },
         {
             "appid": 431960,
