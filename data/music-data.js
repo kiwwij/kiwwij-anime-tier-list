@@ -219,9 +219,24 @@ const musicData = [
         "title": "вся моя жизнь говно",
         "artist": "CUPSIZE",
         "playlist": "Main"
+    },
+    {
+        "title": "детская травма",
+        "artist": "CUPSIZE",
+        "playlist": "Main"
+    },
+    {
+        "title": "семнадцать ножевых",
+        "artist": "CUPSIZE",
+        "playlist": "Main"
+    },
+    {
+        "title": "будка",
+        "artist": "CUPSIZE",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 20,
-    "totalDurationSec": 5692
+    "totalDurationSec": 6219
 };
