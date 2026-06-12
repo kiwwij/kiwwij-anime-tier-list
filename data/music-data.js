@@ -234,9 +234,14 @@ const musicData = [
         "title": "будка",
         "artist": "CUPSIZE",
         "playlist": "Main"
+    },
+    {
+        "title": "следак",
+        "artist": "CUPSIZE",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 20,
-    "totalDurationSec": 6219
+    "totalDurationSec": 6357
 };
