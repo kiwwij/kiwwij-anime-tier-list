@@ -239,9 +239,14 @@ const musicData = [
         "title": "следак",
         "artist": "CUPSIZE",
         "playlist": "Main"
+    },
+    {
+        "title": "ЗППП",
+        "artist": "CUPSIZE",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 20,
-    "totalDurationSec": 6357
+    "totalDurationSec": 6507
 };
