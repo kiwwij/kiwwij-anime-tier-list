@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/09f5c3a0f71de7094263d1820134fab9667a9839_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.4
@@ -16,8 +16,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 41.9,
-            "hours": 3435.4,
+            "playtime_2weeks": 40.2,
+            "hours": 3436.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -28,6 +28,14 @@ const steamData = {
             "hours": 7.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2592160/header.jpg",
             "url": "https://store.steampowered.com/app/2592160"
+        },
+        {
+            "appid": 678960,
+            "name": "CODE VEIN",
+            "playtime_2weeks": 1.3,
+            "hours": 2.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/header.jpg",
+            "url": "https://store.steampowered.com/app/678960"
         },
         {
             "appid": 431960,
@@ -50,7 +58,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3435.4,
+            "hours": 3436.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
