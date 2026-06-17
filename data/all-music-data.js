@@ -3890,7 +3890,7 @@ const musicData = [
     },
     {
         "title": "Гроза лесных крипов",
-        "artist": "youraifu - Topic",
+        "artist": "youraifu",
         "playlist": "Dead inside",
         "duration": "2:37"
     },
@@ -3908,7 +3908,7 @@ const musicData = [
     },
     {
         "title": "Малышка в Uniqlo",
-        "artist": "nessqchai - Topic",
+        "artist": "nessqchai",
         "playlist": "Dead inside",
         "duration": "1:39"
     },
@@ -3962,7 +3962,7 @@ const musicData = [
     },
     {
         "title": "Робот",
-        "artist": "t.A.T.u. - Topic",
+        "artist": "t.A.T.u.",
         "playlist": "Dead inside",
         "duration": "3:52"
     },
@@ -3974,7 +3974,7 @@ const musicData = [
     },
     {
         "title": "буду космонавтом",
-        "artist": "кариолемма - Topic",
+        "artist": "кариолемма",
         "playlist": "Dead inside",
         "duration": "1:32"
     },
@@ -4004,7 +4004,7 @@ const musicData = [
     },
     {
         "title": "забери",
-        "artist": "Madama - Topic",
+        "artist": "MADAMA",
         "playlist": "Dead inside",
         "duration": "1:52"
     },
@@ -4034,7 +4034,7 @@ const musicData = [
     },
     {
         "title": "(не) уходи",
-        "artist": "fallen777angel - Topic",
+        "artist": "fallen777angel",
         "playlist": "Dead inside",
         "duration": "1:58"
     },
@@ -4177,7 +4177,7 @@ const musicData = [
         "duration": "3:28"
     },
     {
-        "title": "АПАТІЯ & СТРУКТУРА ЩАСТЯ - ЛІПШИЙ ДЕНЬ [LYRIC VIDEO]",
+        "title": "Ліпший день",
         "artist": "Апатія",
         "playlist": "Dead inside",
         "duration": "2:37"
@@ -4226,7 +4226,7 @@ const musicData = [
     },
     {
         "title": "АНОР ЛОНДО",
-        "artist": "murasame - Topic",
+        "artist": "murasame",
         "playlist": "Dead inside",
         "duration": "1:35"
     },
@@ -6596,18 +6596,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CI2GzNEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiwtJfRBg&rs=AMzJL3nWueE7gU-B69ygQfASa-UOAs9eAQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKOxzNEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiwtJfRBg&rs=AMzJL3lyELgBgnxi96UzFgvm2lVJlGrXIQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CI2GzNEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3l8SeZ4SJvAtIVIgcO3Q0BFUIARRg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKOxzNEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kBG1mgYEWZcQP36SoaqfZBqTvEcw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CI6GzNEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3m529BSuEuEuO-Qun2RZTlt5o_5ng"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKSxzNEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mVKsn_PGjI9TtRc4g-rvTLOO88ZA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJOGzNEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3ksL-cCS4QeOwu_zXF7tslt1h3B4A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKixzNEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lkT9z3LiAIpWv7V0li7R_9u94blw"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJSGzNEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3m_Ue1496tpvbQuec--9hEly_EJIw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKixzNEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3m9s58vj5s1Ai_n8sclWKsHGCIMag"
     }
 };
