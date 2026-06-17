@@ -3151,7 +3151,7 @@ const musicData = [
         "duration": "2:30"
     },
     {
-        "title": "DIE FOR YOU",
+        "title": "asteria - DIE FOR YOU (Official Visualizer)",
         "artist": "asteria",
         "playlist": "Dead inside",
         "duration": "2:03"
@@ -3199,8 +3199,8 @@ const musicData = [
         "duration": "4:21"
     },
     {
-        "title": "キミと××××したいだけ - Just Wanna xxxx With You",
-        "artist": "Phantom Siita",
+        "title": "Phantom Siita \"Just Wanna xxxx With You\" (OFFICIAL MUSIC VIDEO)",
+        "artist": "ファントムシータ",
         "playlist": "Dead inside",
         "duration": "3:47"
     },
@@ -3601,7 +3601,7 @@ const musicData = [
         "duration": "2:57"
     },
     {
-        "title": "Заводская",
+        "title": "нексюша - Заводская",
         "artist": "нексюша",
         "playlist": "Dead inside",
         "duration": "3:09"
@@ -3649,8 +3649,8 @@ const musicData = [
         "duration": "1:30"
     },
     {
-        "title": "Силуети",
-        "artist": "СТРУКТУРА ЩАСТЯ",
+        "title": "SadSvit - Silhouettes (feat. СТРУКТУРА ЩАСТЯ) Lyric video",
+        "artist": "SadSvit",
         "playlist": "Dead inside",
         "duration": "3:08"
     },
@@ -6596,18 +6596,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKz7ydEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiwtJfRBg&rs=AMzJL3kURpMVnDhE0JWhb4GHkWrXiHFlYw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMPNytEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiwtJfRBg&rs=AMzJL3l1CQE1zVXFjm8WAqH0gLRHVVf69w"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CK37ydEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3m1VNPwHBvybvstxi3-gXnRA-Fo-g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMPNytEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lszv-Bba0Dw85BxF0dJztLqkWtxw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CK37ydEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3l9gtWdzvAnSThRNXDStIbFGE7pvg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMTNytEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nk016DDFWR06vlIwaFq014MnYjvg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLH7ydEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mo7clClYvjk-gGRuj2Wc4zvUkubg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMnNytEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3l7t91Yw00UTVMjkc9nSf-OnSIF7w"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLH7ydEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mCHcZsa7jKtdnpZ4LhHKJQvEoNVA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMnNytEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lZAJ6OTelWgGMa8wygUqzygRFfBA"
     }
 };
