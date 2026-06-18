@@ -10,14 +10,14 @@ const steamData = {
         "age": 6.4
     },
     "stats": {
-        "total_games": 281
+        "total_games": 283
     },
     "recent_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 48.0,
-            "hours": 3448.3,
+            "playtime_2weeks": 50.1,
+            "hours": 3450.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -66,7 +66,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3448.3,
+            "hours": 3450.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
