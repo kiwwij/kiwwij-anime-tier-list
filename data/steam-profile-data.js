@@ -2,10 +2,10 @@
 const steamData = {
     "profile": {
         "nickname": "kiwwij",
-        "avatar": "https://avatars.steamstatic.com/09f5c3a0f71de7094263d1820134fab9667a9839_full.jpg",
+        "avatar": "https://avatars.steamstatic.com/5f9e6b099c01bbf18b4e88ace7152f54579886e6_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50",
+        "status": "Offline",
+        "statusColor": "#9E9E9E",
         "level": 41,
         "age": 6.4
     },
@@ -22,20 +22,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/570"
         },
         {
+            "appid": 678960,
+            "name": "CODE VEIN",
+            "playtime_2weeks": 8.7,
+            "hours": 10.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/header.jpg",
+            "url": "https://store.steampowered.com/app/678960"
+        },
+        {
             "appid": 2592160,
             "name": "Dispatch",
             "playtime_2weeks": 7.6,
             "hours": 7.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2592160/header.jpg",
             "url": "https://store.steampowered.com/app/2592160"
-        },
-        {
-            "appid": 678960,
-            "name": "CODE VEIN",
-            "playtime_2weeks": 7.3,
-            "hours": 8.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/header.jpg",
-            "url": "https://store.steampowered.com/app/678960"
         },
         {
             "appid": 1905180,
