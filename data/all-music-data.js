@@ -1675,12 +1675,6 @@ const musicData = [
         "duration": "1:36"
     },
     {
-        "title": "CMH X DEAD BLONDE - Моя младшая сестра (SPEED UP)",
-        "artist": "HC0R3",
-        "playlist": "Dead inside",
-        "duration": "3:04"
-    },
-    {
         "title": "ℂ𝕙𝕒𝕚𝕟𝕤𝕒𝕨 𝕄𝕒𝕟 𝔾𝕚𝕣𝕝𝕤 [ 𝟰𝗸 ] ℝ𝕖𝕒𝕝 𝕃𝕚𝕗𝕖 𝕍𝕖𝕣𝕤𝕚𝕠𝕟",
         "artist": "Modelli AI",
         "playlist": "Dead inside",
@@ -6597,23 +6591,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 870,
-    "totalDurationSec": 187464,
+    "totalDurationSec": 187280,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMXU1dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiwtJfRBg&rs=AMzJL3kBN8STuWIrCMX1wVdvg9bA00f1EQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKvw1dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiwtJfRBg&rs=AMzJL3mZzpLfYEKXOaTk2Mp32Od7INj_og"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMXU1dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3k9nPno4rECpTlloYXIBnPQFKlGGQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKvw1dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lfZr9485PqL-Ihvcs5LuC3TCTRsg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMXU1dEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3neDXsx9G1Mhgo_WpR6Hn4Gw-xo7A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKvw1dEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lwSc0h9tDuuBrbCw1mNW5IAHq-xw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMrU1dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lH70YS2n26vMvLDKux1bm9YmcDpQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CK_w1dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3msMtDfN39CWGvDNNrABg0kYP0Ozg"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMrU1dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lCBqqLbVk0W-YxaUUM1UdUQr-PUQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CK_w1dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kYOinmRSQaFW5ETP3JD2BxxUuNCQ"
     }
 };
