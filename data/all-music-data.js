@@ -2383,12 +2383,6 @@ const musicData = [
         "duration": "2:15"
     },
     {
-        "title": "2077",
-        "artist": "do not resurrect",
-        "playlist": "Dead inside",
-        "duration": "2:16"
-    },
-    {
         "title": "Едем к тебе или в отель? - speed up (lecsons music)",
         "artist": "lecsons music",
         "playlist": "Dead inside",
@@ -2867,12 +2861,6 @@ const musicData = [
         "artist": "DK",
         "playlist": "Dead inside",
         "duration": "3:46"
-    },
-    {
-        "title": "Последний серафим OP( на русском)",
-        "artist": "Ameli May",
-        "playlist": "Dead inside",
-        "duration": "1:29"
     },
     {
         "title": "Fern: the Walking Meme",
@@ -4133,12 +4121,6 @@ const musicData = [
         "artist": "EKB_BASED",
         "playlist": "Dead inside",
         "duration": "1:21"
-    },
-    {
-        "title": "Альтушка",
-        "artist": "Neverlove",
-        "playlist": "Dead inside",
-        "duration": "3:47"
     },
     {
         "title": "Распять на баяне(madk1d + tewiq + stel11a)",
@@ -6591,23 +6573,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 870,
-    "totalDurationSec": 187280,
+    "totalDurationSec": 186828,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMmI2dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiwtJfRBg&rs=AMzJL3ln7FD-wN1C848JDcEQBdn4_HoEtQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMS82dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiwtJfRBg&rs=AMzJL3llO5DMYemNQbc2EIRQ7zOfZk0Ljw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMmI2dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3muAIC5E-Ps7qs2iwE55hC2QUBSXw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMS82dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mSUyQ-1yr0S5W9SDCHBwbZsgejHw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMqI2dEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lwnW1nAHXSyOig3UUrl-lKrBqdTQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMW82dEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3l5N2FNwgGvVnyQnPEt1v90Y8Xbgw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CM2I2dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lxJdFX53HeuUxoHUS_3wiMBWT7_w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMi82dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lpDfQ3zpEvEqfbWGRL34kYtArHXw"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CM2I2dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lhshHz0x-PE3FCAheIM8DhPclqmA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMi82dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lCzB6BBRxLgQZdToqGKj-awkiT4A"
     }
 };
