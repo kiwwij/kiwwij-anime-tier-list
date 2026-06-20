@@ -1477,12 +1477,6 @@ const musicData = [
         "duration": "3:20"
     },
     {
-        "title": "[Oshi no Ko на русском] YOASOBI - IDOL (Cover by Sati Akura)",
-        "artist": "Sati Akura",
-        "playlist": "Dead inside",
-        "duration": "4:12"
-    },
-    {
         "title": "CRASH BASH",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
@@ -1505,12 +1499,6 @@ const musicData = [
         "artist": "VALORANT",
         "playlist": "Dead inside",
         "duration": "3:38"
-    },
-    {
-        "title": "Everybody Wants To Rule The World (From “The Hunger Games: Catching Fire” Soundtrack)",
-        "artist": "Lorde",
-        "playlist": "Dead inside",
-        "duration": "2:36"
     },
     {
         "title": "ты ушел и я одна",
@@ -2411,12 +2399,6 @@ const musicData = [
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:00"
-    },
-    {
-        "title": "Black Beatles (feat. Gucci Mane)",
-        "artist": "Rae Sremmurd",
-        "playlist": "Dead inside",
-        "duration": "4:52"
     },
     {
         "title": "Царица",
@@ -6561,23 +6543,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 870,
-    "totalDurationSec": 186449,
+    "totalDurationSec": 185749,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CImM2tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiwtJfRBg&rs=AMzJL3k4623IEFlni69pnd8YWWozxj5iVg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJDG2tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiwtJfRBg&rs=AMzJL3meEhnCqAvgbeljDBTV_iY1bD2BnQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CImM2tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lkL-Fm4G4_y2u2cYXESfqgRWN1WQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJDG2tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3n_18R3QuCA4dre3TkfeADBx5xLmA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CIqM2tEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nCpCGLtl5-Fvv9YcG_8C0gb0lyYg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJHG2tEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3m4z9UOB5m-bV-mtPODjX1NzlcFRw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CI2M2tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mie6Ow0vIQBDFZQaI5WbAtXX-Lhg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJTG2tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mo1TxTOruiu6uSF0zMUoT0_SGiHw"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CI6M2tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kdezKbDqnmRXygok32EzHTZfuaJA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJTG2tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lNFl_t1k4h26N_WZzQbP8eDSf5hw"
     }
 };
