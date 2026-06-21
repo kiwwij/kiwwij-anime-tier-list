@@ -1993,8 +1993,8 @@ const musicData = [
         "duration": "1:23"
     },
     {
-        "title": "Cumback",
-        "artist": "Nekoglai",
+        "title": "NEKOGLAI - CUMBACK (Премьера 2022)",
+        "artist": "nekoglai",
         "playlist": "Dead inside",
         "duration": "1:49"
     },
@@ -2059,7 +2059,7 @@ const musicData = [
         "duration": "3:56"
     },
     {
-        "title": "Тролль",
+        "title": "Время и Стекло - Тролль",
         "artist": "Время и Стекло",
         "playlist": "Dead inside",
         "duration": "3:17"
@@ -2263,8 +2263,8 @@ const musicData = [
         "duration": "4:22"
     },
     {
-        "title": "Не отдам",
-        "artist": "Maksim",
+        "title": "МакSим - Не отдам | Official Video",
+        "artist": "WOW TV",
         "playlist": "Dead inside",
         "duration": "3:22"
     },
@@ -2312,18 +2312,18 @@ const musicData = [
     },
     {
         "title": "АФТЕРПАТИ (feat. xxxmanera)",
-        "artist": "uniqe",
+        "artist": "UNIQE - Topic",
         "playlist": "Dead inside",
         "duration": "3:19"
     },
     {
         "title": "Музыка нас связала",
-        "artist": "Мираж",
+        "artist": "Мираж - Topic",
         "playlist": "Dead inside",
         "duration": "4:27"
     },
     {
-        "title": "Happy Nation (radio edit)",
+        "title": "Ace of Base - Happy Nation (Official Music Video)",
         "artist": "Ace of Base",
         "playlist": "Dead inside",
         "duration": "3:32"
@@ -2467,7 +2467,7 @@ const musicData = [
         "duration": "2:59"
     },
     {
-        "title": "Прощание",
+        "title": "Три дня дождя, MONA — Прощание (melancholia, Album 2023)",
         "artist": "Три дня дождя",
         "playlist": "Dead inside",
         "duration": "3:57"
@@ -2515,8 +2515,8 @@ const musicData = [
         "duration": "5:01"
     },
     {
-        "title": "ПАЗЛ",
-        "artist": "Кажанна",
+        "title": "КАЖАННА - ПАЗЛ",
+        "artist": "Кажанна ",
         "playlist": "Dead inside",
         "duration": "2:11"
     },
@@ -2600,7 +2600,7 @@ const musicData = [
     },
     {
         "title": "Тело",
-        "artist": "MARSIAGA",
+        "artist": "MARSIAGA - Topic",
         "playlist": "Dead inside",
         "duration": "3:43"
     },
@@ -2738,13 +2738,13 @@ const musicData = [
     },
     {
         "title": "Prekrasnoe Dalyoko",
-        "artist": "PARTICLES, кошечка, & Atomic Heart",
+        "artist": "PARTICLES - Topic",
         "playlist": "Dead inside",
         "duration": "2:01"
     },
     {
         "title": "Zvenit Yanvarskaya Vyuga",
-        "artist": "Братство Атома, BassnPanda, Квашеная, and Atomic Heart",
+        "artist": "Братство Атома - Topic",
         "playlist": "Dead inside",
         "duration": "3:18"
     },
@@ -2797,14 +2797,14 @@ const musicData = [
         "duration": "2:27"
     },
     {
-        "title": "Метагерой",
-        "artist": "Mirèle",
+        "title": "Mirèle - Метагерой (Official video)",
+        "artist": "MIRÈLE",
         "playlist": "Dead inside",
         "duration": "2:45"
     },
     {
-        "title": "Скинь Котиков (Slowed + Reverb)",
-        "artist": "Mirèle",
+        "title": "Mirèle - Скинь котиков",
+        "artist": "MIRÈLE",
         "playlist": "Dead inside",
         "duration": "2:41"
     },
@@ -2827,8 +2827,8 @@ const musicData = [
         "duration": "1:47"
     },
     {
-        "title": "Можно я с тобой",
-        "artist": "AP$ENT",
+        "title": "AP$ENT - Можно я с тобой?",
+        "artist": "ApSent",
         "playlist": "Dead inside",
         "duration": "2:14"
     },
@@ -2983,7 +2983,7 @@ const musicData = [
         "duration": "7:29"
     },
     {
-        "title": "Мне 20",
+        "title": "просто Лера  - Мне 20 (ПРЕМЬЕРА КЛИПА)",
         "artist": "просто Лера",
         "playlist": "Dead inside",
         "duration": "3:14"
@@ -3121,8 +3121,8 @@ const musicData = [
         "duration": "2:03"
     },
     {
-        "title": "Утро",
-        "artist": "Dayte tank (!)",
+        "title": "Дайте танк (!) - Утро",
+        "artist": "Дайте танк (!)",
         "playlist": "Dead inside",
         "duration": "2:41"
     },
@@ -5539,8 +5539,8 @@ const musicData = [
         "duration": "1:49"
     },
     {
-        "title": "ALASKA PUFFER",
-        "artist": "паранойя",
+        "title": "ALASKA PUFFER (prod. by 555kenichi, fumiko, speenzy)",
+        "artist": "паранойя - Topic",
         "playlist": "Dead inside",
         "duration": "2:02"
     },
@@ -5630,7 +5630,7 @@ const musicData = [
     },
     {
         "title": "чёрный шёлк",
-        "artist": "3umph",
+        "artist": "3umph - Topic",
         "playlist": "Dead inside",
         "duration": "1:58"
     },
@@ -5648,13 +5648,13 @@ const musicData = [
     },
     {
         "title": "губы",
-        "artist": "тёмный принц",
+        "artist": "тёмный принц - Topic",
         "playlist": "Dead inside",
         "duration": "1:35"
     },
     {
         "title": "пароли",
-        "artist": "KERASINN",
+        "artist": "KERASINN - Topic",
         "playlist": "Dead inside",
         "duration": "1:24"
     },
@@ -5762,7 +5762,7 @@ const musicData = [
     },
     {
         "title": "Колготки",
-        "artist": "trepet",
+        "artist": "trepet - Topic",
         "playlist": "Dead inside",
         "duration": "1:25"
     },
@@ -5798,7 +5798,7 @@ const musicData = [
     },
     {
         "title": "детская травма",
-        "artist": "CUPSIZE",
+        "artist": "CUPSIZE - Topic",
         "playlist": "Dead inside",
         "duration": "2:13"
     },
@@ -5828,7 +5828,7 @@ const musicData = [
     },
     {
         "title": "розовая могила",
-        "artist": "CUPSIZE",
+        "artist": "CUPSIZE - Topic",
         "playlist": "Dead inside",
         "duration": "3:23"
     },
@@ -5840,7 +5840,7 @@ const musicData = [
     },
     {
         "title": "попал",
-        "artist": "tewiq",
+        "artist": "tewiq - Topic",
         "playlist": "Dead inside",
         "duration": "1:47"
     },
@@ -5852,7 +5852,7 @@ const musicData = [
     },
     {
         "title": "Я ненавижу тебя",
-        "artist": "Кристина Прилепина",
+        "artist": "Кристина Прилепина - Topic",
         "playlist": "Dead inside",
         "duration": "4:10"
     },
@@ -6548,18 +6548,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CK-j3NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiwtJfRBg&rs=AMzJL3nLLkAOehnPD3oAJ5XkWulHd4zoZw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMDb3NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiwtJfRBg&rs=AMzJL3n4fEcuen1IkvdYcG6LdOrhaAOIQA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CK-j3NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kJhkEz3oZCG7EmNhptuY9lS5ViIQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMDb3NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3ljtJ8eTcrX26E1VCuFifm4sv5O6w"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CLCj3NEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mG9nntNZ6mRz9aw8tFSBFusRPq3g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMDb3NEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lCgrH6rfTglXhvnKa_9zlVrG7v6Q"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLOj3NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lDLp1o0hUqe_62u5k1lye24CPh9g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMjb3NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nl0YnaIlYDNnv3Q6WPJIvINWgoxg"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLOj3NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kTcD22OLUN_Bjp1Fs7afcNrKx8NA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMjb3NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mUVQMyfD8J7orxS5QMFUvxkPJRYQ"
     }
 };
