@@ -24,15 +24,15 @@ const steamData = {
         {
             "appid": 678960,
             "name": "CODE VEIN",
-            "playtime_2weeks": 11.4,
-            "hours": 13.0,
+            "playtime_2weeks": 11.7,
+            "hours": 13.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/header.jpg",
             "url": "https://store.steampowered.com/app/678960"
         },
         {
             "appid": 2592160,
             "name": "Dispatch",
-            "playtime_2weeks": 4.0,
+            "playtime_2weeks": 2.9,
             "hours": 7.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2592160/header.jpg",
             "url": "https://store.steampowered.com/app/2592160"
