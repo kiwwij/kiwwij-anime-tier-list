@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/5f9e6b099c01bbf18b4e88ace7152f54579886e6_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.4
@@ -24,15 +24,15 @@ const steamData = {
         {
             "appid": 678960,
             "name": "CODE VEIN",
-            "playtime_2weeks": 9.4,
-            "hours": 11.0,
+            "playtime_2weeks": 10.2,
+            "hours": 11.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/header.jpg",
             "url": "https://store.steampowered.com/app/678960"
         },
         {
             "appid": 2592160,
             "name": "Dispatch",
-            "playtime_2weeks": 5.8,
+            "playtime_2weeks": 5.4,
             "hours": 7.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2592160/header.jpg",
             "url": "https://store.steampowered.com/app/2592160"
