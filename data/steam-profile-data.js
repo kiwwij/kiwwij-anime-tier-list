@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 44.9,
+            "playtime_2weeks": 44.5,
             "hours": 3458.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -60,6 +60,14 @@ const steamData = {
             "hours": 0.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1263470/header.jpg",
             "url": "https://store.steampowered.com/app/1263470"
+        },
+        {
+            "appid": 2622380,
+            "name": "ELDEN RING NIGHTREIGN",
+            "playtime_2weeks": 0.4,
+            "hours": 52.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2622380/header.jpg",
+            "url": "https://store.steampowered.com/app/2622380"
         },
         {
             "appid": 431960,
