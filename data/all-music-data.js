@@ -8,13 +8,13 @@ const musicData = [
     },
     {
         "title": "ты че обиделась",
-        "artist": "madk1d",
+        "artist": "madk1d - Topic",
         "playlist": "Main",
         "duration": "1:30"
     },
     {
         "title": "общага",
-        "artist": "диссоциативное расстройство",
+        "artist": "диссоциативное расстройство - Topic",
         "playlist": "Main",
         "duration": "1:48"
     },
@@ -44,7 +44,7 @@ const musicData = [
     },
     {
         "title": "Так прикро",
-        "artist": "Апатія",
+        "artist": "Апатія - Topic",
         "playlist": "Main",
         "duration": "3:00"
     },
@@ -56,7 +56,7 @@ const musicData = [
     },
     {
         "title": "sexyswag2010",
-        "artist": "madk1d",
+        "artist": "madk1d - Topic",
         "playlist": "Main",
         "duration": "1:30"
     },
@@ -68,7 +68,7 @@ const musicData = [
     },
     {
         "title": "нарратор",
-        "artist": "lafkrat",
+        "artist": "lafkrat - Topic",
         "playlist": "Main",
         "duration": "2:24"
     },
@@ -86,7 +86,7 @@ const musicData = [
     },
     {
         "title": "овердоз",
-        "artist": "тёмный принц",
+        "artist": "тёмный принц - Topic",
         "playlist": "Main",
         "duration": "1:29"
     },
@@ -116,7 +116,7 @@ const musicData = [
     },
     {
         "title": "Стань моїм вбивцею",
-        "artist": "Апатія",
+        "artist": "Апатія - Topic",
         "playlist": "Main",
         "duration": "3:45"
     },
@@ -188,7 +188,7 @@ const musicData = [
     },
     {
         "title": "SIDEL ODIN HARDSTYLE",
-        "artist": "Riversmelt",
+        "artist": "Riversmelt - Topic",
         "playlist": "Main",
         "duration": "1:44"
     },
@@ -236,7 +236,7 @@ const musicData = [
     },
     {
         "title": "тебе нравится",
-        "artist": "призрак крови",
+        "artist": "призрак крови - Topic",
         "playlist": "Main",
         "duration": "1:57"
     },
@@ -272,7 +272,7 @@ const musicData = [
     },
     {
         "title": "семнадцать ножевых",
-        "artist": "CUPSIZE",
+        "artist": "CUPSIZE - Topic",
         "playlist": "Main",
         "duration": "2:25"
     },
@@ -2065,7 +2065,7 @@ const musicData = [
         "duration": "3:36"
     },
     {
-        "title": "Имя 505",
+        "title": "Время и Стекло - Имя 505",
         "artist": "Время и Стекло",
         "playlist": "Dead inside",
         "duration": "3:38"
@@ -2173,7 +2173,7 @@ const musicData = [
         "duration": "2:30"
     },
     {
-        "title": "Фанера",
+        "title": "MellSher - Фанера (Mood video)",
         "artist": "MellSher",
         "playlist": "Dead inside",
         "duration": "2:48"
@@ -2468,7 +2468,7 @@ const musicData = [
     },
     {
         "title": "ВАЙБИК*",
-        "artist": "Pepel Nahudi",
+        "artist": "Pepel Nahudi - Topic",
         "playlist": "Dead inside",
         "duration": "2:03"
     },
@@ -3895,7 +3895,7 @@ const musicData = [
         "duration": "1:31"
     },
     {
-        "title": "ThxSoMch - SPIT IN MY FACE! (Official Audio)",
+        "title": "SPIT IN MY FACE!",
         "artist": "ThxSoMch",
         "playlist": "Dead inside",
         "duration": "2:28"
@@ -6584,18 +6584,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNrJ5tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3mrML0e8p8XxGxqOQu1dZhjI55W2Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIX05tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3nwggNOeCOmdhFwVFoLVXIbmXLRmg"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNrJ5tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nT9dupFc5w85MiU_L0S6lKIOn-yA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CIf05tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kOGa75hzpdJXSHs0rUvXfQ3Y3-PA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNvJ5tEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mI4EXIWxZyi74XpzLWvkkVACHukw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CIf05tEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mNoU1JNsNMvi0E9a5WMc4U1cKhHQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CN7J5tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lpQRYPat7_PHnYa1jVvYwft8ECYg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CI_05tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3ktl_la1bjVqSCX83JSRbFypiJ-0g"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CN_J5tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kVq84kwtWSWZ5Unl8tIIqBPFsf1w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CI_05tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3ns0a6NGNxXgsmRY833IRvAxPfTTQ"
     }
 };
