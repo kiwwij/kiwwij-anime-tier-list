@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/5f9e6b099c01bbf18b4e88ace7152f54579886e6_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.4
@@ -16,8 +16,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 42.0,
-            "hours": 3455.6,
+            "playtime_2weeks": 42.9,
+            "hours": 3456.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -46,14 +46,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/4148250"
         },
         {
-            "appid": 2592160,
-            "name": "Dispatch",
-            "playtime_2weeks": 1.3,
-            "hours": 7.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2592160/header.jpg",
-            "url": "https://store.steampowered.com/app/2592160"
-        },
-        {
             "appid": 2904000,
             "name": "The Spell Brigade",
             "playtime_2weeks": 1.1,
@@ -64,7 +56,7 @@ const steamData = {
         {
             "appid": 1263470,
             "name": "ATRI -My Dear Moments- Demo",
-            "playtime_2weeks": 0.5,
+            "playtime_2weeks": 0.4,
             "hours": 0.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1263470/header.jpg",
             "url": "https://store.steampowered.com/app/1263470"
@@ -82,7 +74,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3455.6,
+            "hours": 3456.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
