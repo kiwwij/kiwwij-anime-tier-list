@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/5f9e6b099c01bbf18b4e88ace7152f54579886e6_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E",
+        "status": "Online",
+        "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.4
     },
@@ -30,14 +30,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/678960"
         },
         {
-            "appid": 2592160,
-            "name": "Dispatch",
-            "playtime_2weeks": 2.9,
-            "hours": 7.6,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2592160/header.jpg",
-            "url": "https://store.steampowered.com/app/2592160"
-        },
-        {
             "appid": 1905180,
             "name": "OBS Studio",
             "playtime_2weeks": 1.9,
@@ -52,6 +44,14 @@ const steamData = {
             "hours": 1.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4148250/header.jpg",
             "url": "https://store.steampowered.com/app/4148250"
+        },
+        {
+            "appid": 2592160,
+            "name": "Dispatch",
+            "playtime_2weeks": 1.3,
+            "hours": 7.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2592160/header.jpg",
+            "url": "https://store.steampowered.com/app/2592160"
         },
         {
             "appid": 2904000,
