@@ -6557,27 +6557,45 @@ const musicData = [
         "artist": "Sewerslvt Archive",
         "playlist": "Sewerslvt",
         "duration": "2:47"
+    },
+    {
+        "title": "04. Sewerslvt - Pretty Cvnt",
+        "artist": "Sewerslvt Archive",
+        "playlist": "Sewerslvt",
+        "duration": "3:41"
+    },
+    {
+        "title": "05. Daft Punk - Doin' It Right (Sewerslvt Remix)",
+        "artist": "Sewerslvt Archive",
+        "playlist": "Sewerslvt",
+        "duration": "6:36"
+    },
+    {
+        "title": "09. Sewerslvt - Catharsis",
+        "artist": "Sewerslvt Archive",
+        "playlist": "Sewerslvt",
+        "duration": "6:56"
     }
 ];
 const musicStats = {
     "totalViews": 781,
-    "totalDurationSec": 186109,
+    "totalDurationSec": 187142,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKXb5NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3ksobO55Phkt_8HbTzgMYEDL2Dstg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CN7f5dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3nqIKmb3UR_N8m5jQhnZL91NHNxGw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKXb5NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kUxBB0KFFIJXyRU09bdsHwg9p7RA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CN_f5dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lTuyyRzvI4BwcTNC3s5nHKg765kQ"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKXb5NEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kFhzQzYEEDqdN0kd8cusf7KTECmg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CN_f5dEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nJBQBanyRzLmB-dDSa2yP7GNMnUQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKrb5NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3l0Y_B1bg0wdxFahifId-fRPBmlOg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COPf5dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nVW7RaHtuR0kOhHJ7X21pK_E6uSg"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKrb5NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3n9tpwt3cRFDdF47HpJT5DQs8FXmw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COTf5dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lhpBN75zfGIkPTmYw2fVP2IMGP4A"
     }
 };
