@@ -751,6 +751,18 @@ const musicData = [
         "duration": "1:06"
     },
     {
+        "title": "Меланхолия Харухи Судзумии - OP2 (Русский Вокал)",
+        "artist": "Аниме в России",
+        "playlist": "Off Screen",
+        "duration": "1:31"
+    },
+    {
+        "title": "Меланхолия Харухи Судзумии - ED2 (Русский Вокал)",
+        "artist": "Аниме в России",
+        "playlist": "Off Screen",
+        "duration": "1:05"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -1501,8 +1513,8 @@ const musicData = [
         "duration": "2:58"
     },
     {
-        "title": "Mercury: Retrograde",
-        "artist": "Ghostemane",
+        "title": "GHOSTEMANE - Mercury",
+        "artist": "ＴＲＡＳＨ 新 ドラゴン",
         "playlist": "Dead inside",
         "duration": "2:06"
     },
@@ -1544,7 +1556,7 @@ const musicData = [
     },
     {
         "title": "Звезда упала",
-        "artist": "Sqwore",
+        "artist": "Sqwore - Topic",
         "playlist": "Dead inside",
         "duration": "1:36"
     },
@@ -1621,7 +1633,7 @@ const musicData = [
         "duration": "3:40"
     },
     {
-        "title": "Скучно",
+        "title": "билборды - скучно",
         "artist": "билборды",
         "playlist": "Dead inside",
         "duration": "2:36"
@@ -1771,7 +1783,7 @@ const musicData = [
         "duration": "2:46"
     },
     {
-        "title": "Проснулся В Темноте",
+        "title": "GONE.Fludd - Проснулся В Темноте [prod. by SHVRP PRICKLES & lagune]",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "2:45"
@@ -1892,7 +1904,7 @@ const musicData = [
     },
     {
         "title": "КОЖНУ НОЧЬ ПЕРЕД СНОМ",
-        "artist": "YOXDEN",
+        "artist": "Yoxden - Topic",
         "playlist": "Dead inside",
         "duration": "1:46"
     },
@@ -5618,7 +5630,7 @@ const musicData = [
     },
     {
         "title": "sexyswag2010",
-        "artist": "madk1d",
+        "artist": "madk1d - Topic",
         "playlist": "Dead inside",
         "duration": "1:30"
     },
@@ -5648,13 +5660,13 @@ const musicData = [
     },
     {
         "title": "овердоз",
-        "artist": "тёмный принц",
+        "artist": "тёмный принц - Topic",
         "playlist": "Dead inside",
         "duration": "1:29"
     },
     {
         "title": "шизофрения",
-        "artist": "kurokov",
+        "artist": "kurokov - Topic",
         "playlist": "Dead inside",
         "duration": "1:19"
     },
@@ -5690,13 +5702,13 @@ const musicData = [
     },
     {
         "title": "сиськи",
-        "artist": "trepet",
+        "artist": "trepet - Topic",
         "playlist": "Dead inside",
         "duration": "1:45"
     },
     {
         "title": "MARTINE ROSE",
-        "artist": "madk1d",
+        "artist": "madk1d - Topic",
         "playlist": "Dead inside",
         "duration": "3:07"
     },
@@ -5731,14 +5743,14 @@ const musicData = [
         "duration": "1:55"
     },
     {
-        "title": "Kingslayer (feat. BABYMETAL)",
-        "artist": "Bring Me The Horizon",
+        "title": "Kingslayer",
+        "artist": "Bring Me The Horizon - Topic",
         "playlist": "Dead inside",
         "duration": "3:41"
     },
     {
-        "title": "распять (folk remix)",
-        "artist": "stel11a",
+        "title": "распять (folk Remix)",
+        "artist": "stel11a - Topic",
         "playlist": "Dead inside",
         "duration": "1:31"
     },
@@ -5750,7 +5762,7 @@ const musicData = [
     },
     {
         "title": "SIDEL ODIN HARDSTYLE",
-        "artist": "Riversmelt",
+        "artist": "Riversmelt - Topic",
         "playlist": "Dead inside",
         "duration": "1:44"
     },
@@ -5779,8 +5791,8 @@ const musicData = [
         "duration": "1:25"
     },
     {
-        "title": "popstar (feat. Перемотка)",
-        "artist": "Garcon Maigre",
+        "title": "popstar",
+        "artist": "Garcon Maigre - Topic",
         "playlist": "Dead inside",
         "duration": "1:25"
     },
@@ -6597,23 +6609,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 781,
-    "totalDurationSec": 188422,
+    "totalDurationSec": 188578,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJmN7NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3k3wIIq8a8UVh0mWOzznmFHHyP1wQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJqf7NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3mCmEZUIUn3IdHefAmpcHqaGXqQGg"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJqN7NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nCfh3AnhZ4ODBJhx9wTZ42Is8Wfw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJqf7NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lkHNH2ALGQu3kWLX5y9DCUCnuVrA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJqN7NEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3liEvo3yeY3mBbKcZVYWa_68YlO5A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJuf7NEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3koD1DcSPHRTcYJD0yYyBfs7ZXGiQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKCN7NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nmSBf9-pYeBczWfmlOWOlOZOfgJA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKKf7NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lWB8_PLR25_jYGZMA0ne5Ho3W3EQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKCN7NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3m92l9A3xSVQ_aB3NOm-a-QK0pPoA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKKf7NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mArGsH55JahrkPsvRi-BKa3O-4Iw"
     }
 };
