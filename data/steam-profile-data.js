@@ -16,8 +16,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 40.4,
-            "hours": 3462.7,
+            "playtime_2weeks": 41.4,
+            "hours": 3463.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -54,14 +54,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2904000"
         },
         {
-            "appid": 1263470,
-            "name": "ATRI -My Dear Moments- Demo",
-            "playtime_2weeks": 0.4,
-            "hours": 0.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1263470/header.jpg",
-            "url": "https://store.steampowered.com/app/1263470"
-        },
-        {
             "appid": 2622380,
             "name": "ELDEN RING NIGHTREIGN",
             "playtime_2weeks": 0.4,
@@ -76,13 +68,21 @@ const steamData = {
             "hours": 22.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 1263470,
+            "name": "ATRI -My Dear Moments- Demo",
+            "playtime_2weeks": 0.1,
+            "hours": 0.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1263470/header.jpg",
+            "url": "https://store.steampowered.com/app/1263470"
         }
     ],
     "top_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3462.7,
+            "hours": 3463.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
