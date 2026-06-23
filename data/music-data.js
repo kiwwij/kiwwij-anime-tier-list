@@ -244,9 +244,14 @@ const musicData = [
         "title": "ЗППП",
         "artist": "CUPSIZE",
         "playlist": "Main"
+    },
+    {
+        "title": "Sk8er Boi",
+        "artist": "Avril Lavigne",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 20,
-    "totalDurationSec": 6507
+    "totalDurationSec": 6711
 };
