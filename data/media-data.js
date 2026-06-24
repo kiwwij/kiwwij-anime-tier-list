@@ -58,10 +58,10 @@ const mediaData = [
     { "title": "The Legend of Aang: The Last Airbender", "ruTitle": "Легенда об Аанге: Последний маг воздуха", "year": "2026", "myRating": 9, "imdbRating": 0.0, "imdbLink": "https://www.imdb.com/title/tt18259538/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_The%20Legend%20of%20Aang%3A%20The%20Last%20Airbender" },
     { "title": "Balls Up", "ruTitle": "Шары вверх", "year": "2026", "myRating": 4, "imdbRating": 4.6, "imdbLink": "https://www.imdb.com/title/tt26735622/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Balls%20Up" },
     { "title": "Chernobyl", "ruTitle": "Чернобыль", "year": "2019", "myRating": 10, "imdbRating": 9.3, "imdbLink": "https://www.imdb.com/title/tt7366338/" },
+    { "title": "Cargo 200", "ruTitle": "Груз 200", "year": "2007", "myRating": 5, "imdbRating": 7.1, "imdbLink": "https://www.imdb.com/title/tt0847880/?ref_=nv_sr_srsg_0_tt_2_nm_0_in_0_q_%D0%93%D1%80%D1%83%D0%B7%20200" },
+    { "title": "The Green Elephant", "ruTitle": "Зелёный Слоник", "year": "1999", "myRating": 1, "imdbRating": 5.3, "imdbLink": "https://www.imdb.com/title/tt1003080/" },
     // { "title": "Parasite in Love", "ruTitle": "Влюблённый паразит", "year": "2021", "myRating": 0, "imdbRating": 6.0, "imdbLink": "https://www.imdb.com/title/tt16059146/" },
-    // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
-    // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
-    // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
+    // // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
 ];

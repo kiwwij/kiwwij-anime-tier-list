@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    const themeToggle = document.getElementById('themeToggle');
+    const body = document.body;
+    
     if (typeof steamData === 'undefined') {
         console.error("❌ Ошибка: Файл data/steam-profile-data.js не найден.");
         const nickEl = document.getElementById('steamNick');

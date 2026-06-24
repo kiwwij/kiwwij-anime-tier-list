@@ -20,7 +20,10 @@ const elements = {
     processedCount: document.getElementById('processedCount'),
     progressBar: document.getElementById('progressBar'),
     loadingPercent: document.getElementById('loadingPercent'),
-    ctx: document.getElementById('genresChart')?.getContext('2d'),
+    ctxGenres: document.getElementById('genresChart')?.getContext('2d'),
+    ctxTiers: document.getElementById('tiersChart')?.getContext('2d'),
+    genresChartCanvas: document.getElementById('genresChart'),
+    tiersChartCanvas: document.getElementById('tiersChart'),
     yearsGrid: document.getElementById('yearsGrid'),
     modal: document.getElementById('yearModal'),
     modalTitle: document.getElementById('modalYearTitle'),
@@ -28,19 +31,24 @@ const elements = {
     closeBtn: document.getElementById('closeYearModal'),
     themeToggle: document.getElementById('themeToggle'),
     toggleGenresBtn: document.getElementById('toggleGenresBtn'),
-    genresTitle: document.getElementById('genresTitle')
+    genresTitle: document.getElementById('genresTitle'),
+    showGenresBtn: document.getElementById('showGenresBtn'),
+    showTiersBtn: document.getElementById('showTiersBtn')
 };
 
 let showAllGenres = false;
 let uniqueTitles = new Set(); 
+let uniqueAnimeTiers = {};
 let genreCounts = {};
 let animeByYear = {}; 
 let myChart = null;
+let tiersChart = null;
 let apiCache = JSON.parse(localStorage.getItem(CACHE_KEY) || '{}');
 
 document.addEventListener('DOMContentLoaded', () => {
     initTheme();
     setupModalEvents();
+    setupChartToggles();
     
     if (elements.toggleGenresBtn) {
         elements.toggleGenresBtn.addEventListener('click', () => {
@@ -72,6 +80,12 @@ function initTheme() {
             myChart.options.plugins.legend.labels.color = isDark ? '#f3f4f6' : '#000000';
             myChart.update();
         }
+
+        if (tiersChart) {
+            tiersChart.options.scales.y.ticks.color = isDark ? '#f3f4f6' : '#000000';
+            tiersChart.options.scales.x.ticks.color = isDark ? '#f3f4f6' : '#000000';
+            tiersChart.update();
+        }
     });
 }
 
@@ -85,6 +99,30 @@ function setupModalEvents() {
     elements.closeBtn?.addEventListener('click', close);
     elements.modal.addEventListener('click', (e) => e.target === elements.modal && close());
     elements.modal.addEventListener('cancel', close);
+}
+
+function setupChartToggles() {
+    if (!elements.showGenresBtn || !elements.showTiersBtn) return;
+
+    elements.showGenresBtn.addEventListener('click', () => {
+        elements.genresChartCanvas.style.display = 'block';
+        elements.tiersChartCanvas.style.display = 'none';
+        elements.toggleGenresBtn.style.display = 'inline-flex';
+        elements.genresTitle.textContent = showAllGenres ? "Все жанры" : "Топ-15 Жанров";
+        
+        elements.showGenresBtn.classList.add('active');
+        elements.showTiersBtn.classList.remove('active');
+    });
+
+    elements.showTiersBtn.addEventListener('click', () => {
+        elements.genresChartCanvas.style.display = 'none';
+        elements.tiersChartCanvas.style.display = 'block';
+        elements.toggleGenresBtn.style.display = 'none';
+        elements.genresTitle.textContent = "Распределение по тирам без повторов";
+        
+        elements.showTiersBtn.classList.add('active');
+        elements.showGenresBtn.classList.remove('active');
+    });
 }
 
 function openYearModal(year) {
@@ -111,8 +149,8 @@ async function startAnalysis() {
     elements.totalCount.textContent = totalEntriesCount;
     elements.processedCount.textContent = uniqueTitles.size;
 
-    
     initChart();
+    initTiersChart();
     
     const titles = Array.from(uniqueTitles);
     let processed = 0;
@@ -210,7 +248,7 @@ function renderYearsStats() {
 
 function initChart() {
     const isLight = document.body.classList.contains('light-theme');
-    myChart = new Chart(elements.ctx, {
+    myChart = new Chart(elements.ctxGenres, {
         type: 'doughnut',
         data: {
             labels: [],
@@ -219,6 +257,42 @@ function initChart() {
         options: {
             responsive: true, maintainAspectRatio: false,
             plugins: { legend: { position: 'right', labels: { color: isLight ? '#000000' : '#f3f4f6', font: { size: 12 } } } }
+        }
+    });
+}
+
+function initTiersChart() {
+    if (!elements.ctxTiers) return;
+    const isLight = document.body.classList.contains('light-theme');
+
+    const tierCounts = { 'S': 0, 'A': 0, 'B': 0, 'C': 0, 'D': 0, 'E': 0, 'F': 0 };
+    Object.values(uniqueAnimeTiers).forEach(anime => {
+        if (tierCounts[anime.tier] !== undefined) {
+            tierCounts[anime.tier]++;
+        }
+    });
+
+    tiersChart = new Chart(elements.ctxTiers, {
+        type: 'bar',
+        data: {
+            labels: ['S', 'A', 'B', 'C', 'D', 'E', 'F'],
+            datasets: [{
+                label: 'Количество',
+                data: [tierCounts['S'], tierCounts['A'], tierCounts['B'], tierCounts['C'], tierCounts['D'], tierCounts['E'], tierCounts['F']],
+                backgroundColor: ['#ef4444', '#f97316', '#facc15', '#22c55e', '#3b82f6', '#a855f7', '#4b5563'],
+                borderWidth: 1,
+                borderColor: 'rgba(255, 255, 255, 0.1)',
+                borderRadius: 4
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: {
+                y: { beginAtZero: true, ticks: { color: isLight ? '#000000' : '#f3f4f6', precision: 0 } },
+                x: { ticks: { color: isLight ? '#000000' : '#f3f4f6', font: { weight: 'bold', size: 14 } } }
+            }
         }
     });
 }
@@ -251,13 +325,15 @@ function updateChart() {
 function collectUniqueTitles() {
     uniqueTitles.clear();
     totalEntriesCount = 0;
+    uniqueAnimeTiers = {}; 
 
     const seen = new Set();
 
-    Object.keys(tierListData).forEach(key => {
-        if (key === 'Энергетики') return;
+    Object.keys(tierListData).forEach(year => {
+        if (year === 'Энергетики' || !year.match(/^\d{4}$/)) return;
 
-        Object.values(tierListData[key]).forEach(list => {
+        Object.keys(tierListData[year]).forEach(tier => {
+            const list = tierListData[year][tier];
             if (!Array.isArray(list)) return;
 
             list.forEach(item => {
@@ -272,6 +348,11 @@ function collectUniqueTitles() {
                     seen.add(lower);
                     uniqueTitles.add(clean);
                 }
+
+                uniqueAnimeTiers[clean] = {
+                    title: clean,
+                    tier: tier
+                };
             });
         });
     });

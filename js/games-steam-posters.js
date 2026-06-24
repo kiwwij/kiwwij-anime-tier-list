@@ -13,6 +13,7 @@ const LOCAL_ONLY_GAMES = [
     "Resident Evil Requiem",
     "Chasing Tails ~A Promise in the Snow~",
     "Hitler is My Crush: Love and Fascism",
+    "Slender: The Eight Pages",
     // "",
 ];
 

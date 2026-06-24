@@ -179,7 +179,7 @@ function renderTierList() {
             tierListContainer.style.display = 'block';
         } else {
             searchInput.disabled = false;
-            searchInput.placeholder = "Найти по названию";
+            searchInput.placeholder = "Найти по названию или тиру";
             if (searchIcon) searchIcon.style.opacity = '1';
         }
     }
@@ -542,6 +542,9 @@ if (searchInput && searchResultsContainer && clearBtn) {
         const activeCategory = currentCategory;
         const currentType = tierListData[activeCategory]?.type || 'anime';
 
+        const validTiers = ['s', 'a', 'b', 'c', 'd', 'e', 'f'];
+        const isTierSearch = validTiers.includes(query);
+
         if (currentType === 'game') {
             searchResultsContainer.style.display = 'none';
             mainContainer.style.display = 'block';
@@ -552,8 +555,18 @@ if (searchInput && searchResultsContainer && clearBtn) {
                 const itemData = JSON.parse(card.dataset.item || "{}");
                 const titleEng = (itemData.title || "").toLowerCase();
                 const titleRu = (itemData.ruTitle || "").toLowerCase();
+                const tierRank = card.closest('.tier-row')?.querySelector('.tier-label')?.dataset.rank?.toLowerCase() || "";
                 
-                if (query.length === 0 || titleEng.includes(query) || titleRu.includes(query)) {
+                let isMatch = false;
+                if (query.length === 0) {
+                    isMatch = true;
+                } else if (isTierSearch) {
+                    isMatch = (tierRank === query);
+                } else {
+                    isMatch = titleEng.includes(query) || titleRu.includes(query);
+                }
+
+                if (isMatch) {
                     card.classList.remove('dimmed-card');
                 } else {
                     card.classList.add('dimmed-card');
@@ -562,7 +575,7 @@ if (searchInput && searchResultsContainer && clearBtn) {
             return;
         }
 
-        if (query.length < 2) {
+        if (query.length < 2 && !isTierSearch) {
             searchResultsContainer.style.display = 'none';
             mainContainer.style.display = 'block';
             if (droppedLink) droppedLink.style.display = 'block';
@@ -594,7 +607,14 @@ if (searchInput && searchResultsContainer && clearBtn) {
                     const titleEng = (item.title || "").toLowerCase();
                     const titleRu = (item.ruTitle || "").toLowerCase();
                     
-                    if (titleEng.includes(query) || titleRu.includes(query)) {
+                    let isMatch = false;
+                    if (isTierSearch) {
+                        isMatch = (tier.toLowerCase() === query);
+                    } else {
+                        isMatch = titleEng.includes(query) || titleRu.includes(query);
+                    }
+                    
+                    if (isMatch) {
                         results.push({ item, year: categoryName, tier });
                     }
                 });

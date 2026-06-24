@@ -147,6 +147,11 @@ if (typeof tierListData !== 'undefined') {
                 img: "energydrink/Monster Energy 300 Java French Vanilla Triple Shot.png"
             },
             { 
+                title: "Monster Energy Java Irish Creme",
+                review: "Такойже как и 300 Java, но послевкусие какое-то другое. Молочное чтоли и немного горьковатое. Тоже советую пить горячем.",
+                img: "energydrink/Monster Energy Java Irish Creme.png"
+            },
+            { 
                 title: "Monster Energy Ultra Fiesta Mango", 
                 review: "Обычный вкус манго, MangoLoco был повкуснее.", 
                 img: "energydrink/Monster Energy Ultra Fiesta Mango.png"

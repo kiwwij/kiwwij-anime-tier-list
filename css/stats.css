@@ -78,6 +78,31 @@
     padding: 1.5rem;
 }
 
+.panel-header-controls {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.chart-toggles {
+    display: flex; 
+    gap: 0.5rem;
+}
+
+.chart-toggles .btn-link {
+    padding: 0.4rem 0.8rem; 
+    font-size: 0.85rem;
+}
+
+.chart-toggles .btn-link.active {
+    background: var(--accent);
+    color: #ffffff;
+    border-color: var(--accent);
+}
+
 .panel-title {
     font-size: 1.1rem;
     text-align: center;
@@ -95,8 +120,9 @@
 }
 
 .chart-wrapper {
-    height: 450px;
+    height: 400px;
     position: relative;
+    width: 100%;
 }
 
 .years-grid {
@@ -243,4 +269,6 @@
     .year-anime-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
     .year-modal-header { padding: 1rem 1.5rem; }
     .year-modal-body { padding: 1.5rem; }
+    .panel-header-controls { flex-direction: column; align-items: stretch; }
+    .chart-toggles { justify-content: center; }
 }
