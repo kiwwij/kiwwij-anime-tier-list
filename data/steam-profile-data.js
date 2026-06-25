@@ -24,8 +24,8 @@ const steamData = {
         {
             "appid": 678960,
             "name": "CODE VEIN",
-            "playtime_2weeks": 19.2,
-            "hours": 20.9,
+            "playtime_2weeks": 21.1,
+            "hours": 22.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/header.jpg",
             "url": "https://store.steampowered.com/app/678960"
         },
