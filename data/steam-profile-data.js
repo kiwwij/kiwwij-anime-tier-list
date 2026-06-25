@@ -24,8 +24,8 @@ const steamData = {
         {
             "appid": 678960,
             "name": "CODE VEIN",
-            "playtime_2weeks": 17.0,
-            "hours": 18.6,
+            "playtime_2weeks": 19.2,
+            "hours": 20.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/header.jpg",
             "url": "https://store.steampowered.com/app/678960"
         },
@@ -54,6 +54,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2904000"
         },
         {
+            "appid": 2642840,
+            "name": "Humans are not that against Lizardwomen 2",
+            "playtime_2weeks": 0.9,
+            "hours": 0.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2642840/header.jpg",
+            "url": "https://store.steampowered.com/app/2642840"
+        },
+        {
             "appid": 2622380,
             "name": "ELDEN RING NIGHTREIGN",
             "playtime_2weeks": 0.4,
@@ -64,7 +72,7 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.2,
+            "playtime_2weeks": 0.3,
             "hours": 22.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
