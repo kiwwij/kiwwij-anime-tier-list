@@ -6617,27 +6617,69 @@ const musicData = [
         "artist": "Sewerslvt Archive",
         "playlist": "Sewerslvt",
         "duration": "3:52"
+    },
+    {
+        "title": "02.  XXXTentacion - Slipknxt (Sewerslvt Remix) [Instrumental]",
+        "artist": "Sewerslvt Archive",
+        "playlist": "Sewerslvt",
+        "duration": "3:30"
+    },
+    {
+        "title": "01. Sadboy Sheldon - My Beautiful Dark Teenage Robot",
+        "artist": "Sewerslvt Archive",
+        "playlist": "Sewerslvt",
+        "duration": "4:17"
+    },
+    {
+        "title": "02. Sadboy Sheldon - Sad Halation",
+        "artist": "Sewerslvt Archive",
+        "playlist": "Sewerslvt",
+        "duration": "5:53"
+    },
+    {
+        "title": "05. Sadboy Sheldon - Guilty Warfare",
+        "artist": "Sewerslvt Archive",
+        "playlist": "Sewerslvt",
+        "duration": "4:15"
+    },
+    {
+        "title": "06. Sadboy Sheldon - My VA-11, My HALL-A",
+        "artist": "Sewerslvt Archive",
+        "playlist": "Sewerslvt",
+        "duration": "2:16"
+    },
+    {
+        "title": "07. Sadboy Sheldon - Smol Nozomi's High Quality Smolventure",
+        "artist": "Sewerslvt Archive",
+        "playlist": "Sewerslvt",
+        "duration": "5:09"
+    },
+    {
+        "title": "08. Sadboy Sheldon - Not In Style",
+        "artist": "Sewerslvt Archive",
+        "playlist": "Sewerslvt",
+        "duration": "3:47"
     }
 ];
 const musicStats = {
     "totalViews": 782,
-    "totalDurationSec": 189263,
+    "totalDurationSec": 191010,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNjG9dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3mHyJgK_OIoQ9CkLvgvDmmFugM9bA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKea9tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3mWEqlZp2Dob-x28CyDDh2KzKVWYw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNjG9dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3ma9pXP-tvY19Bvm9C92Gzg-_VfTg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKea9tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kBGCsZqN9Rk4KDsmkK6z8KzvjfkA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNnG9dEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3k6cAr1QCHFqquHNEvlR1GRAwTxAQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKia9tEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3llU7CC9JgO8Le63BlTkpW_aq4wqg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CODG9dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mH1lOD9d5vRWGWlKENeZFayb14Jw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CK2a9tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lWeQqYkyIWVoNdJ-M7pL1IyNP4EA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CODG9dEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nlI1cK_H7RZNoQgtSW30eJ2AjVbw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CK2a9tEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mo5Gq_ffdlmVyHTD_xTigBWQArBw"
     }
 };
