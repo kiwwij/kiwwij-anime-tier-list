@@ -249,9 +249,14 @@ const musicData = [
         "title": "Тысячи этажей",
         "artist": "Лоло",
         "playlist": "Main"
+    },
+    {
+        "title": "Моя квітнева розгубленість",
+        "artist": "Re-read",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 20,
-    "totalDurationSec": 6557
+    "totalDurationSec": 6821
 };
