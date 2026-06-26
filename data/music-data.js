@@ -244,9 +244,14 @@ const musicData = [
         "title": "Sk8er Boi",
         "artist": "Avril Lavigne",
         "playlist": "Main"
+    },
+    {
+        "title": "Тысячи этажей",
+        "artist": "Лоло",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 20,
-    "totalDurationSec": 6490
+    "totalDurationSec": 6557
 };
