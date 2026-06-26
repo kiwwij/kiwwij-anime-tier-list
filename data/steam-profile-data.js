@@ -10,22 +10,22 @@ const steamData = {
         "age": 6.4
     },
     "stats": {
-        "total_games": 287
+        "total_games": 288
     },
     "recent_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 50.7,
-            "hours": 3479.9,
+            "playtime_2weeks": 50.0,
+            "hours": 3481.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 678960,
             "name": "CODE VEIN",
-            "playtime_2weeks": 32.6,
-            "hours": 34.2,
+            "playtime_2weeks": 34.6,
+            "hours": 36.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/header.jpg",
             "url": "https://store.steampowered.com/app/678960"
         },
@@ -90,7 +90,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3479.9,
+            "hours": 3481.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
