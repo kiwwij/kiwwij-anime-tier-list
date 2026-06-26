@@ -141,11 +141,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Kingslayer (Lyric Video) (feat. BABYMETAL)",
-        "artist": "Bring Me The Horizon",
-        "playlist": "Main"
-    },
-    {
         "title": "распять (folk remix)",
         "artist": "stel11a",
         "playlist": "Main"
@@ -253,5 +248,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 20,
-    "totalDurationSec": 6711
+    "totalDurationSec": 6490
 };
