@@ -6689,27 +6689,45 @@ const musicData = [
         "artist": "Sewerslvt Archive",
         "playlist": "Sewerslvt",
         "duration": "3:47"
+    },
+    {
+        "title": "01. Sadboy Sheldon - SHADOW-DASH",
+        "artist": "Sewerslvt Archive",
+        "playlist": "Sewerslvt",
+        "duration": "6:06"
+    },
+    {
+        "title": "02. Sadboy Sheldon - Crystal Halation, All The Time",
+        "artist": "Sewerslvt Archive",
+        "playlist": "Sewerslvt",
+        "duration": "5:29"
+    },
+    {
+        "title": "04. Sadboy Sheldon - I Love You For Light Years",
+        "artist": "Sewerslvt Archive",
+        "playlist": "Sewerslvt",
+        "duration": "4:40"
     }
 ];
 const musicStats = {
     "totalViews": 782,
-    "totalDurationSec": 191832,
+    "totalDurationSec": 192807,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CO_h-9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3k4o-RZw-n_ZsM9Oxrz_n6PJ4_Blg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLiR_NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3kt9lkQjiCj3WbWrQwtuxWDCVtQ6Q"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CO_h-9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3keLj4MEGIfjUbdafk0Ywn3rveKAw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLiR_NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3keFmBc4RN7Lg89FYmVbC5j4FwsJQ"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CPDh-9EG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nxTQLnWUKxp_drefJce9VtJnRcmg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CLmR_NEG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nTfg6s3jMo7BG2-w4Ll1PFFXrBFQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CPTh-9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lSHPBWlJKj1EEWP4sz--8BuL_K3A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CL6R_NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kBxFEisUIFTC9v4485XJk2cZIHww"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CPTh-9EG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nooX03AbwR5Eu--ssJaHEb0cdiWA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CL6R_NEG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kQppNVYyvgaCU6VEzdv7hJdTtc_g"
     }
 };
