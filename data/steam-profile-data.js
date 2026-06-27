@@ -16,16 +16,16 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 54.0,
-            "hours": 3485.1,
+            "playtime_2weeks": 55.5,
+            "hours": 3486.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 678960,
             "name": "CODE VEIN",
-            "playtime_2weeks": 43.9,
-            "hours": 45.5,
+            "playtime_2weeks": 45.4,
+            "hours": 47.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/header.jpg",
             "url": "https://store.steampowered.com/app/678960"
         },
@@ -90,7 +90,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3485.1,
+            "hours": 3486.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
