@@ -1273,12 +1273,6 @@ const musicData = [
         "duration": "2:59"
     },
     {
-        "title": "RISE (ft. The Glitch Mob, Mako, and The Word Alive) | Worlds 2018 - League of Legends",
-        "artist": "League of Legends",
-        "playlist": "Dead inside",
-        "duration": "3:31"
-    },
-    {
         "title": "я не боюсь ошибаться",
         "artist": "MZLFF",
         "playlist": "Dead inside",
@@ -2843,12 +2837,6 @@ const musicData = [
         "artist": "Mirèle",
         "playlist": "Dead inside",
         "duration": "2:41"
-    },
-    {
-        "title": "Мистер Пятёрка, 5opka - Царица (AI COVER)",
-        "artist": "dimilin000",
-        "playlist": "Dead inside",
-        "duration": "3:34"
     },
     {
         "title": "ee nado x)",
@@ -6711,23 +6699,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 782,
-    "totalDurationSec": 192807,
+    "totalDurationSec": 192382,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIamgNIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3nTyHhpRmCYvT4EajFACJl61jg-3w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJDfgNIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3mx-Bbo0tUc6cWAAZyoiTeJLmnmGA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CIamgNIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3m3qEhY0yNjHkGH0NKxWIy9_eV6ow"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJDfgNIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nE63MlV-Gv9qx3h5lV_XFURzNqnw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CIamgNIG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nDhp_x6vA-Tv-FXcuiHR6LyojK6g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJDfgNIG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nSBTlixdI38UOseqpoZfDnq-hrqA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIqmgNIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mjJHyBjuJh__EpfB_6PxykG9HYaQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJXfgNIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3l8xeId0HzYGfY_wsrggvDxko-jWw"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIqmgNIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3khEKaAGD5AUfYXJpZrso6wJ7n2rA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJXfgNIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3ks-yyGdrD6VSvA8z27qT6d6MbVgA"
     }
 };
