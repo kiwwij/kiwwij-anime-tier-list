@@ -14,20 +14,20 @@ const steamData = {
     },
     "recent_games": [
         {
+            "appid": 570,
+            "name": "Dota 2",
+            "playtime_2weeks": 57.0,
+            "hours": 3492.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
+            "url": "https://store.steampowered.com/app/570"
+        },
+        {
             "appid": 678960,
             "name": "CODE VEIN",
             "playtime_2weeks": 56.1,
             "hours": 57.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/header.jpg",
             "url": "https://store.steampowered.com/app/678960"
-        },
-        {
-            "appid": 570,
-            "name": "Dota 2",
-            "playtime_2weeks": 56.0,
-            "hours": 3491.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
-            "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1905180,
@@ -84,13 +84,21 @@ const steamData = {
             "hours": 22.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 4102950,
+            "name": "Hyperborea: Hornysolation",
+            "playtime_2weeks": 0.2,
+            "hours": 0.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4102950/header.jpg",
+            "url": "https://store.steampowered.com/app/4102950"
         }
     ],
     "top_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3491.4,
+            "hours": 3492.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
