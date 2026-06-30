@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 62.3,
+            "playtime_2weeks": 60.7,
             "hours": 3501.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -54,14 +54,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2642840"
         },
         {
-            "appid": 4148250,
-            "name": "Echoes of Aincrad DEMO Version",
-            "playtime_2weeks": 0.8,
-            "hours": 1.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4148250/header.jpg",
-            "url": "https://store.steampowered.com/app/4148250"
-        },
-        {
             "appid": 2622380,
             "name": "ELDEN RING NIGHTREIGN",
             "playtime_2weeks": 0.4,
@@ -92,6 +84,14 @@ const steamData = {
             "hours": 22.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 4102950,
+            "name": "Hyperborea: Hornysolation",
+            "playtime_2weeks": 0.2,
+            "hours": 0.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4102950/header.jpg",
+            "url": "https://store.steampowered.com/app/4102950"
         }
     ],
     "top_games": [
