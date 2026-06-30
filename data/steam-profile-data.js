@@ -38,14 +38,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1905180"
         },
         {
-            "appid": 4148250,
-            "name": "Echoes of Aincrad DEMO Version",
-            "playtime_2weeks": 1.4,
-            "hours": 1.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4148250/header.jpg",
-            "url": "https://store.steampowered.com/app/4148250"
-        },
-        {
             "appid": 2904000,
             "name": "The Spell Brigade",
             "playtime_2weeks": 1.1,
@@ -60,6 +52,14 @@ const steamData = {
             "hours": 0.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2642840/header.jpg",
             "url": "https://store.steampowered.com/app/2642840"
+        },
+        {
+            "appid": 4148250,
+            "name": "Echoes of Aincrad DEMO Version",
+            "playtime_2weeks": 0.8,
+            "hours": 1.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4148250/header.jpg",
+            "url": "https://store.steampowered.com/app/4148250"
         },
         {
             "appid": 2622380,
