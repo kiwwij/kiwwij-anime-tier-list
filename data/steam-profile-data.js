@@ -16,15 +16,15 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 62.3,
-            "hours": 3506.2,
+            "playtime_2weeks": 61.8,
+            "hours": 3507.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 678960,
             "name": "CODE VEIN",
-            "playtime_2weeks": 50.9,
+            "playtime_2weeks": 50.7,
             "hours": 57.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/header.jpg",
             "url": "https://store.steampowered.com/app/678960"
@@ -36,6 +36,14 @@ const steamData = {
             "hours": 187.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
+        },
+        {
+            "appid": 105600,
+            "name": "Terraria",
+            "playtime_2weeks": 1.5,
+            "hours": 204.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
+            "url": "https://store.steampowered.com/app/105600"
         },
         {
             "appid": 2904000,
@@ -84,21 +92,13 @@ const steamData = {
             "hours": 0.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4102950/header.jpg",
             "url": "https://store.steampowered.com/app/4102950"
-        },
-        {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.1,
-            "hours": 22.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3506.2,
+            "hours": 3507.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
@@ -144,7 +144,7 @@ const steamData = {
         {
             "appid": 105600,
             "name": "Terraria",
-            "hours": 203.0,
+            "hours": 204.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600",
             "tags": [
