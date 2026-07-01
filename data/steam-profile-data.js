@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 61.8,
+            "playtime_2weeks": 61.5,
             "hours": 3507.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -30,20 +30,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/678960"
         },
         {
+            "appid": 105600,
+            "name": "Terraria",
+            "playtime_2weeks": 3.2,
+            "hours": 205.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
+            "url": "https://store.steampowered.com/app/105600"
+        },
+        {
             "appid": 1905180,
             "name": "OBS Studio",
             "playtime_2weeks": 1.9,
             "hours": 187.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
-        },
-        {
-            "appid": 105600,
-            "name": "Terraria",
-            "playtime_2weeks": 1.5,
-            "hours": 204.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
-            "url": "https://store.steampowered.com/app/105600"
         },
         {
             "appid": 2904000,
@@ -78,20 +78,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2531310"
         },
         {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.3,
+            "hours": 22.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
+        },
+        {
             "appid": 4081840,
             "name": "Escape from Yandere",
             "playtime_2weeks": 0.2,
             "hours": 0.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4081840/header.jpg",
             "url": "https://store.steampowered.com/app/4081840"
-        },
-        {
-            "appid": 4102950,
-            "name": "Hyperborea: Hornysolation",
-            "playtime_2weeks": 0.2,
-            "hours": 0.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4102950/header.jpg",
-            "url": "https://store.steampowered.com/app/4102950"
         }
     ],
     "top_games": [
@@ -144,7 +144,7 @@ const steamData = {
         {
             "appid": 105600,
             "name": "Terraria",
-            "hours": 204.5,
+            "hours": 205.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600",
             "tags": [
