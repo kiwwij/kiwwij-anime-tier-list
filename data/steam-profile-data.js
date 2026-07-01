@@ -4,20 +4,20 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/5f9e6b099c01bbf18b4e88ace7152f54579886e6_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.4
     },
     "stats": {
-        "total_games": 289
+        "total_games": 290
     },
     "recent_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 61.5,
-            "hours": 3507.0,
+            "playtime_2weeks": 62.4,
+            "hours": 3508.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -32,8 +32,8 @@ const steamData = {
         {
             "appid": 105600,
             "name": "Terraria",
-            "playtime_2weeks": 3.2,
-            "hours": 205.8,
+            "playtime_2weeks": 4.4,
+            "hours": 207.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
         },
@@ -70,20 +70,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2622380"
         },
         {
-            "appid": 2531310,
-            "name": "The Last of Us™ Part II Remastered",
-            "playtime_2weeks": 0.3,
-            "hours": 0.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2531310/header.jpg",
-            "url": "https://store.steampowered.com/app/2531310"
-        },
-        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.3,
             "hours": 22.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 2531310,
+            "name": "The Last of Us™ Part II Remastered",
+            "playtime_2weeks": 0.3,
+            "hours": 0.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2531310/header.jpg",
+            "url": "https://store.steampowered.com/app/2531310"
         },
         {
             "appid": 4081840,
@@ -98,7 +98,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3507.0,
+            "hours": 3508.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
@@ -144,7 +144,7 @@ const steamData = {
         {
             "appid": 105600,
             "name": "Terraria",
-            "hours": 205.8,
+            "hours": 207.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600",
             "tags": [
