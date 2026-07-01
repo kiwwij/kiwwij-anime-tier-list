@@ -78,20 +78,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/4081840"
         },
         {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.2,
-            "hours": 22.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
-        },
-        {
             "appid": 4102950,
             "name": "Hyperborea: Hornysolation",
             "playtime_2weeks": 0.2,
             "hours": 0.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4102950/header.jpg",
             "url": "https://store.steampowered.com/app/4102950"
+        },
+        {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.1,
+            "hours": 22.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
