@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/5f9e6b099c01bbf18b4e88ace7152f54579886e6_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.4
@@ -16,8 +16,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 58.4,
-            "hours": 3508.3,
+            "playtime_2weeks": 58.8,
+            "hours": 3509.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -54,14 +54,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1905180"
         },
         {
-            "appid": 2904000,
-            "name": "The Spell Brigade",
-            "playtime_2weeks": 1.1,
-            "hours": 1.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2904000/header.jpg",
-            "url": "https://store.steampowered.com/app/2904000"
-        },
-        {
             "appid": 2642840,
             "name": "Humans are not that against Lizardwomen 2",
             "playtime_2weeks": 0.9,
@@ -92,13 +84,21 @@ const steamData = {
             "hours": 23.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 2531310,
+            "name": "The Last of Us™ Part II Remastered",
+            "playtime_2weeks": 0.3,
+            "hours": 0.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2531310/header.jpg",
+            "url": "https://store.steampowered.com/app/2531310"
         }
     ],
     "top_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3508.3,
+            "hours": 3509.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
