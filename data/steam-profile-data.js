@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/5f9e6b099c01bbf18b4e88ace7152f54579886e6_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50",
+        "status": "Away",
+        "statusColor": "#FFC107",
         "level": 41,
         "age": 6.4
     },
@@ -54,20 +54,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1905180"
         },
         {
+            "appid": 4081840,
+            "name": "Escape from Yandere",
+            "playtime_2weeks": 1.4,
+            "hours": 1.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4081840/header.jpg",
+            "url": "https://store.steampowered.com/app/4081840"
+        },
+        {
             "appid": 2642840,
             "name": "Humans are not that against Lizardwomen 2",
             "playtime_2weeks": 0.9,
             "hours": 0.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2642840/header.jpg",
             "url": "https://store.steampowered.com/app/2642840"
-        },
-        {
-            "appid": 4081840,
-            "name": "Escape from Yandere",
-            "playtime_2weeks": 0.8,
-            "hours": 0.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4081840/header.jpg",
-            "url": "https://store.steampowered.com/app/4081840"
         },
         {
             "appid": 2622380,
