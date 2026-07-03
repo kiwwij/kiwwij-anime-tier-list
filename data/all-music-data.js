@@ -818,7 +818,7 @@ const musicData = [
     },
     {
         "title": "Ничтожество",
-        "artist": "Климлордс - Topic",
+        "artist": "Климлордс",
         "playlist": "Dead inside",
         "duration": "2:01"
     },
@@ -902,7 +902,7 @@ const musicData = [
     },
     {
         "title": "Погоди",
-        "artist": "DSPRITE - Topic",
+        "artist": "DSPRITE",
         "playlist": "Dead inside",
         "duration": "1:53"
     },
@@ -1148,7 +1148,7 @@ const musicData = [
     },
     {
         "title": "Дурак и молния",
-        "artist": "Korol i Shut - Topic",
+        "artist": "Король и Шут",
         "playlist": "Dead inside",
         "duration": "1:55"
     },
@@ -1183,8 +1183,8 @@ const musicData = [
         "duration": "4:21"
     },
     {
-        "title": "кис-кис - молчи",
-        "artist": "кис-кис",
+        "title": "молчи",
+        "artist": "Кис-Кис",
         "playlist": "Dead inside",
         "duration": "3:18"
     },
@@ -1279,8 +1279,8 @@ const musicData = [
         "duration": "2:59"
     },
     {
-        "title": "Серега Пират, mzlff - я не боюсь ошибаться (prod. Living Puff)",
-        "artist": "СЕРЕГА ПИРАТ",
+        "title": "я не боюсь ошибаться",
+        "artist": "MZLFF",
         "playlist": "Dead inside",
         "duration": "2:53"
     },
@@ -1309,8 +1309,8 @@ const musicData = [
         "duration": "3:04"
     },
     {
-        "title": "Клава Кока & NILETTO - Краш (official video)",
-        "artist": "Клава Кока",
+        "title": "Краш",
+        "artist": "Klava Koka",
         "playlist": "Dead inside",
         "duration": "2:52"
     },
@@ -1339,8 +1339,8 @@ const musicData = [
         "duration": "2:14"
     },
     {
-        "title": "Tenderlybae - Я урод #яуродчеллендж",
-        "artist": "Tenderlybae каждый день",
+        "title": "Я урод",
+        "artist": "Tenderlybae",
         "playlist": "Dead inside",
         "duration": "1:53"
     },
@@ -1405,8 +1405,8 @@ const musicData = [
         "duration": "3:21"
     },
     {
-        "title": "madk1d - Толпы (Официальная премьера трека)",
-        "artist": "soyuzmusic",
+        "title": "Толпы (Speed Up)",
+        "artist": "madk1d",
         "playlist": "Dead inside",
         "duration": "1:50"
     },
@@ -1705,8 +1705,8 @@ const musicData = [
         "duration": "2:15"
     },
     {
-        "title": "MGMT - Little Dark Age (Official Video)",
-        "artist": "MGMTVEVO",
+        "title": "Little Dark Age (Official Video)",
+        "artist": "MGMT",
         "playlist": "Dead inside",
         "duration": "5:11"
     },
@@ -1765,7 +1765,7 @@ const musicData = [
         "duration": "2:36"
     },
     {
-        "title": "GONE.Fludd - КУБИК ЛЬДА [Prod. SHVRP PRICKLES] (TEASER)",
+        "title": "КУБИК ЛЬДА",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "0:10"
@@ -1820,7 +1820,7 @@ const musicData = [
     },
     {
         "title": "Холодные Ребра (feat. Techno)",
-        "artist": "GONE.Fludd - Topic",
+        "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "3:26"
     },
@@ -1951,7 +1951,7 @@ const musicData = [
         "duration": "1:26"
     },
     {
-        "title": "《Powerful wind, Slicked-back hair》【Real Challenge ,The Latest Craze! Reality!】",
+        "title": "強風オールバック【リアルver.】",
         "artist": "SUSHI RAMEN【Riku】",
         "playlist": "Dead inside",
         "duration": "2:17"
@@ -2575,8 +2575,8 @@ const musicData = [
         "duration": "1:22"
     },
     {
-        "title": "Kiss - I Was Made For Lovin' You",
-        "artist": "KissVEVO",
+        "title": "I Was Made For Lovin' You",
+        "artist": "Kiss",
         "playlist": "Dead inside",
         "duration": "3:59"
     },
@@ -2593,7 +2593,7 @@ const musicData = [
         "duration": "3:32"
     },
     {
-        "title": "NORMAN - ДЕВОЧКА-КЕРРИ (ОФИЦИАЛЬНЫЙ КЛИП)",
+        "title": "Девочка-керри",
         "artist": "NORMAN",
         "playlist": "Dead inside",
         "duration": "2:41"
@@ -2803,8 +2803,8 @@ const musicData = [
         "duration": "4:06"
     },
     {
-        "title": "Imanbek & BYOR - Belly Dancer (Official Audio)",
-        "artist": "Spinnin' Records",
+        "title": "Belly Dancer",
+        "artist": "Imanbek",
         "playlist": "Dead inside",
         "duration": "2:35"
     },
@@ -2936,7 +2936,7 @@ const musicData = [
     },
     {
         "title": "Кайто омежка",
-        "artist": "JERRY - Topic",
+        "artist": "JERRY",
         "playlist": "Dead inside",
         "duration": "2:29"
     },
@@ -3242,7 +3242,7 @@ const musicData = [
     },
     {
         "title": "Eban'ko — Рома",
-        "artist": "Eban'ko [Ебанько]",
+        "artist": "Eban'ko",
         "playlist": "Dead inside",
         "duration": "3:37"
     },
@@ -3301,8 +3301,8 @@ const musicData = [
         "duration": "2:30"
     },
     {
-        "title": "Juice WRLD - Lucid Dreams (Official Music Video)",
-        "artist": "Lyrical Lemonade",
+        "title": "Lucid Dreams",
+        "artist": "Juice WRLD",
         "playlist": "Dead inside",
         "duration": "3:51"
     },
@@ -3362,7 +3362,7 @@ const musicData = [
     },
     {
         "title": "Я буду",
-        "artist": "5sta Family - Topic",
+        "artist": "5sta Family",
         "playlist": "Dead inside",
         "duration": "3:07"
     },
@@ -3409,8 +3409,8 @@ const musicData = [
         "duration": "2:28"
     },
     {
-        "title": "asteria - FBM (feat. 6arelyhuman & kets4eki) (Official Visualizer)",
-        "artist": "asteria",
+        "title": "asteria - FBM (Official Visualizer) (feat. asteria, kets4eki & Britney Manson)",
+        "artist": "Anarchist Sanctuary",
         "playlist": "Dead inside",
         "duration": "2:35"
     },
@@ -3427,8 +3427,8 @@ const musicData = [
         "duration": "4:27"
     },
     {
-        "title": "Кошка (Что ей снится, когда слезы на ее ресницах) - Рычаги Машин - Koshka / Cat",
-        "artist": "Рычаги Машин",
+        "title": "Кошка (feat. Ольга Артуровна)",
+        "artist": "Rychagy Mashin",
         "playlist": "Dead inside",
         "duration": "3:52"
     },
@@ -3445,8 +3445,8 @@ const musicData = [
         "duration": "1:47"
     },
     {
-        "title": "ПОЛМАТЕРИ, нексюша - счастливы вместе",
-        "artist": "нексюша",
+        "title": "счастливы вместе",
+        "artist": "плм",
         "playlist": "Dead inside",
         "duration": "2:50"
     },
@@ -3470,7 +3470,7 @@ const musicData = [
     },
     {
         "title": "Фото со звездой",
-        "artist": "LIDA - Topic",
+        "artist": "Lida",
         "playlist": "Dead inside",
         "duration": "2:03"
     },
@@ -3607,8 +3607,8 @@ const musicData = [
         "duration": "2:18"
     },
     {
-        "title": "SadSvit - Касета (Cassette 2021)",
-        "artist": "SadSvit",
+        "title": "Cassette - Remix",
+        "artist": "Walras",
         "playlist": "Dead inside",
         "duration": "2:25"
     },
@@ -3631,8 +3631,8 @@ const musicData = [
         "duration": "1:30"
     },
     {
-        "title": "SadSvit - Silhouettes (feat. СТРУКТУРА ЩАСТЯ) Lyric video",
-        "artist": "SadSvit",
+        "title": "Силуети",
+        "artist": "СТРУКТУРА ЩАСТЯ",
         "playlist": "Dead inside",
         "duration": "3:08"
     },
@@ -3746,13 +3746,13 @@ const musicData = [
     },
     {
         "title": "Самый лучший день",
-        "artist": "Kishlak - Topic",
+        "artist": "Кишлак",
         "playlist": "Dead inside",
         "duration": "1:34"
     },
     {
-        "title": "Кишлак - Грязный кайф (Премьера клипа 2024)",
-        "artist": "Кишлак",
+        "title": "Грязный Кайф",
+        "artist": "Kishlak",
         "playlist": "Dead inside",
         "duration": "2:47"
     },
@@ -3764,7 +3764,7 @@ const musicData = [
     },
     {
         "title": "Мефистофель",
-        "artist": "5mewmet - Topic",
+        "artist": "5mewmet",
         "playlist": "Dead inside",
         "duration": "1:27"
     },
@@ -5660,13 +5660,13 @@ const musicData = [
     },
     {
         "title": "губы",
-        "artist": "тёмный принц - Topic",
+        "artist": "тёмный принц",
         "playlist": "Dead inside",
         "duration": "1:35"
     },
     {
         "title": "пароли",
-        "artist": "KERASINN - Topic",
+        "artist": "KERASINN",
         "playlist": "Dead inside",
         "duration": "1:24"
     },
@@ -5714,7 +5714,7 @@ const musicData = [
     },
     {
         "title": "Не помирай",
-        "artist": "Апатія - Topic",
+        "artist": "Апатія",
         "playlist": "Dead inside",
         "duration": "2:20"
     },
@@ -5726,7 +5726,7 @@ const musicData = [
     },
     {
         "title": "таролог",
-        "artist": "норман грейсон - Topic",
+        "artist": "норман грейсон",
         "playlist": "Dead inside",
         "duration": "1:55"
     },
@@ -5822,7 +5822,7 @@ const musicData = [
     },
     {
         "title": "следак",
-        "artist": "CUPSIZE - Topic",
+        "artist": "CUPSIZE",
         "playlist": "Dead inside",
         "duration": "2:18"
     },
@@ -5834,13 +5834,13 @@ const musicData = [
     },
     {
         "title": "семнадцать ножевых",
-        "artist": "CUPSIZE - Topic",
+        "artist": "CUPSIZE",
         "playlist": "Dead inside",
         "duration": "2:25"
     },
     {
         "title": "розовая могила",
-        "artist": "CUPSIZE - Topic",
+        "artist": "CUPSIZE",
         "playlist": "Dead inside",
         "duration": "3:23"
     },
@@ -5852,7 +5852,7 @@ const musicData = [
     },
     {
         "title": "попал",
-        "artist": "tewiq - Topic",
+        "artist": "tewiq",
         "playlist": "Dead inside",
         "duration": "1:47"
     },
@@ -5882,7 +5882,7 @@ const musicData = [
     },
     {
         "title": "Дорога в ад",
-        "artist": "Чучело - Topic",
+        "artist": "Чучело",
         "playlist": "Dead inside",
         "duration": "3:16"
     },
@@ -5894,7 +5894,7 @@ const musicData = [
     },
     {
         "title": "Моя квітнева розгубленість",
-        "artist": "Re-read - Topic",
+        "artist": "Re-read",
         "playlist": "Dead inside",
         "duration": "4:24"
     },
@@ -6722,18 +6722,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNz3ntIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3kDW4zWnooQbqYfjZj-wVhJXPVZVQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIiOn9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3lIwE0KcVIb2NrTmkB2wMyk7qXt8Q"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CN33ntIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3k6AUxogMCEAJWwhwWWN_zDJy28IQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CImOn9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lKteeZWCFk2UlNykN3KrZnYHGnow"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CN33ntIG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nJRSI3MBL9Fz21gr3FBoaDfN2mAQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CImOn9IG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3li8FDMFNpuJsFJzT26Szh-A8k9Rg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COP3ntIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lp350gdwXvkjUv-dASw1GIpAXvww"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CI6On9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nk777gRcR35_TUc6RKHD-4AAYvUw"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COP3ntIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kLWfeGI4UokgU8UMrajyFG7mrD9A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CI6On9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kMpd3FIcZ914oOdWmkUGjUlZqr-w"
     }
 };
