@@ -3871,8 +3871,8 @@ const musicData = [
         "duration": "2:37"
     },
     {
-        "title": "Белочка с Армлетом (ROCK Version)",
-        "artist": "youraifu - Topic",
+        "title": "Белочка с Армлетом (ROCK VERSION)",
+        "artist": "youraifu",
         "playlist": "Dead inside",
         "duration": "1:55"
     },
@@ -3992,7 +3992,7 @@ const musicData = [
     },
     {
         "title": "улыбка",
-        "artist": "volhey - Topic",
+        "artist": "volhey",
         "playlist": "Dead inside",
         "duration": "1:50"
     },
@@ -4117,8 +4117,8 @@ const musicData = [
         "duration": "1:31"
     },
     {
-        "title": "Erika - I Don't Know [Official Video]",
-        "artist": "Time Records",
+        "title": "I Don't Know (Instrumental Radio)",
+        "artist": "Erika",
         "playlist": "Dead inside",
         "duration": "3:17"
     },
@@ -4189,7 +4189,7 @@ const musicData = [
         "duration": "2:45"
     },
     {
-        "title": "BaWN - Девʼять поверхів [LYRIC VIDEO] | Post Punk | Doomer Music",
+        "title": "Девʼять поверхів",
         "artist": "BaWN",
         "playlist": "Dead inside",
         "duration": "2:52"
@@ -4250,7 +4250,7 @@ const musicData = [
     },
     {
         "title": "аромат цветов",
-        "artist": "PLUSIX - Topic",
+        "artist": "PLUSIX",
         "playlist": "Dead inside",
         "duration": "2:18"
     },
@@ -4298,7 +4298,7 @@ const musicData = [
     },
     {
         "title": "Лиза",
-        "artist": "FACE - Topic",
+        "artist": "FACE",
         "playlist": "Dead inside",
         "duration": "3:01"
     },
@@ -6722,18 +6722,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPnMn9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3ksLGz500pqURX0G2le3nCs-MuKRA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COTan9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3mT_NdTvu--Onx3Jln0w4Lbgyhhgw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPrMn9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lIWDon-fQERqKyWEopBDTW0XHuFw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COXan9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mV6PAhZPjf_9AXFc6kgJnJbc_-cA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CPrMn9IG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3n9dm5xzeh4WrTUJwPFP4TCx0MeCg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=COXan9IG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3md9Iu9tNoN-HIr0uWxEufz_BB8uQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIDNn9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kwmpDP0m3bBvLrL8NA_H-9LBmr5g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COnan9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3notUCm1XR_8RQpZcRqBfaXvQWNJg"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIHNn9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mSM4ypZaPxQPBJVUcCXEhSoTyypw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COnan9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kzJU7zfPpmPoDbgPdndmtEVpmJog"
     }
 };
