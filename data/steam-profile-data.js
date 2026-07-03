@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/5f9e6b099c01bbf18b4e88ace7152f54579886e6_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E",
+        "status": "Online",
+        "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.4
     },
@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 678960,
             "name": "CODE VEIN",
-            "playtime_2weeks": 50.7,
+            "playtime_2weeks": 49.7,
             "hours": 57.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/header.jpg",
             "url": "https://store.steampowered.com/app/678960"
@@ -78,20 +78,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2622380"
         },
         {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.3,
-            "hours": 23.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
-        },
-        {
             "appid": 2531310,
             "name": "The Last of Us™ Part II Remastered",
             "playtime_2weeks": 0.3,
             "hours": 0.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2531310/header.jpg",
             "url": "https://store.steampowered.com/app/2531310"
+        },
+        {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.3,
+            "hours": 23.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
