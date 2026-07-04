@@ -30,20 +30,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/678960"
         },
         {
+            "appid": 1903340,
+            "name": "Clair Obscur: Expedition 33",
+            "playtime_2weeks": 4.8,
+            "hours": 4.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
+            "url": "https://store.steampowered.com/app/1903340"
+        },
+        {
             "appid": 105600,
             "name": "Terraria",
             "playtime_2weeks": 4.4,
             "hours": 207.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600"
-        },
-        {
-            "appid": 1903340,
-            "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 3.7,
-            "hours": 3.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
-            "url": "https://store.steampowered.com/app/1903340"
         },
         {
             "appid": 3553500,
