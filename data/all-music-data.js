@@ -6109,6 +6109,48 @@ const musicData = [
         "duration": "4:04"
     },
     {
+        "title": "Spring Meadows - Linen and Cotton",
+        "artist": "Lorien Testard",
+        "playlist": "Game OSTs",
+        "duration": "3:47"
+    },
+    {
+        "title": "Lune",
+        "artist": "Lorien Testard",
+        "playlist": "Game OSTs",
+        "duration": "3:21"
+    },
+    {
+        "title": "World Map - Taking Down the Paintress",
+        "artist": "Lorien Testard",
+        "playlist": "Game OSTs",
+        "duration": "2:43"
+    },
+    {
+        "title": "Flying Waters - Goblu",
+        "artist": "Lorien Testard",
+        "playlist": "Game OSTs",
+        "duration": "2:56"
+    },
+    {
+        "title": "Flying Waters - Serpenphare",
+        "artist": "Lorien Testard",
+        "playlist": "Game OSTs",
+        "duration": "3:08"
+    },
+    {
+        "title": "Ancient Sanctuary - Megabot#33",
+        "artist": "Lorien Testard",
+        "playlist": "Game OSTs",
+        "duration": "4:12"
+    },
+    {
+        "title": "Sciel",
+        "artist": "Lorien Testard",
+        "playlist": "Game OSTs",
+        "duration": "3:28"
+    },
+    {
         "title": "Luciferians",
         "artist": "Sewerslvt",
         "playlist": "Sewerslvt",
@@ -6713,27 +6755,33 @@ const musicData = [
         "artist": "Sewerslvt Archive",
         "playlist": "Sewerslvt",
         "duration": "4:40"
+    },
+    {
+        "title": "Fearful Avoidant Disorganised Attachment",
+        "artist": "Cynthoni",
+        "playlist": "Sewerslvt",
+        "duration": "4:24"
     }
 ];
 const musicStats = {
     "totalViews": 819,
-    "totalDurationSec": 193083,
+    "totalDurationSec": 194762,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIC4pNIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3ncEewWd3Rk6tJWWeRzxHJ8pcV-kQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJTZpNIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3n8a_X7t4E6bU8ND77pWPANU7O3uA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CIG4pNIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3ltRrbkQn7rj_GogS9PWWFlDs2NFw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJTZpNIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3krxHNWK-WP9HeOKVKa27hlV3XDfg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CIG4pNIG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kPML7l15ajcGpKt5-ffW8-AbHvJQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJXZpNIG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nm4buCe5XFLNdmCwI-y8EeS_f_dw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIW4pNIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3moMyg_bJc0wforziID3CkNXuwQPA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJjZpNIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3k9uA0agFuGPxB9LBlWCbfiGWqv_g"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIW4pNIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3n3xbjzInfjzUTkvbgp_D6jck70kA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJjZpNIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nJm8iNENy1KUwMjw7gYQEwHpkzXQ"
     }
 };
