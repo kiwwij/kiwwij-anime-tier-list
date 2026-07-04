@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/5f9e6b099c01bbf18b4e88ace7152f54579886e6_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.4
@@ -46,6 +46,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1903340"
         },
         {
+            "appid": 3553500,
+            "name": "SIGame",
+            "playtime_2weeks": 1.5,
+            "hours": 1.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3553500/header.jpg",
+            "url": "https://store.steampowered.com/app/3553500"
+        },
+        {
             "appid": 4081840,
             "name": "Escape from Yandere",
             "playtime_2weeks": 1.4,
@@ -84,14 +92,6 @@ const steamData = {
             "hours": 23.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 4102950,
-            "name": "Hyperborea: Hornysolation",
-            "playtime_2weeks": 0.2,
-            "hours": 0.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4102950/header.jpg",
-            "url": "https://store.steampowered.com/app/4102950"
         }
     ],
     "top_games": [
