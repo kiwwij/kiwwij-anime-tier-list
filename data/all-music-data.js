@@ -49,7 +49,7 @@ const musicData = [
         "duration": "3:00"
     },
     {
-        "title": "madk1d - дырки в штанах (music video) ",
+        "title": "дырки в штанах",
         "artist": "madk1d",
         "playlist": "Main",
         "duration": "1:49"
@@ -98,13 +98,13 @@ const musicData = [
     },
     {
         "title": "губы",
-        "artist": "тёмный принц - Topic",
+        "artist": "тёмный принц",
         "playlist": "Main",
         "duration": "1:35"
     },
     {
         "title": "пароли",
-        "artist": "KERASINN - Topic",
+        "artist": "KERASINN",
         "playlist": "Main",
         "duration": "1:24"
     },
@@ -146,7 +146,7 @@ const musicData = [
     },
     {
         "title": "ЛАБУБУ",
-        "artist": "YUNG FIMOZ - Topic",
+        "artist": "YUNG FIMOZ",
         "playlist": "Main",
         "duration": "2:00"
     },
@@ -158,7 +158,7 @@ const musicData = [
     },
     {
         "title": "Лунный Лик",
-        "artist": "GONE.Fludd - Topic",
+        "artist": "GONE.Fludd",
         "playlist": "Main",
         "duration": "2:56"
     },
@@ -194,7 +194,7 @@ const musicData = [
     },
     {
         "title": "что тебя гложет",
-        "artist": "k0vertessence - Topic",
+        "artist": "k0vertessence & B4YLUm",
         "playlist": "Main",
         "duration": "2:33"
     },
@@ -212,13 +212,13 @@ const musicData = [
     },
     {
         "title": "Vlone",
-        "artist": "FACE - Topic",
+        "artist": "FACE",
         "playlist": "Main",
         "duration": "2:24"
     },
     {
         "title": "8 миля",
-        "artist": "madk1d - Topic",
+        "artist": "madk1d",
         "playlist": "Main",
         "duration": "1:56"
     },
@@ -266,13 +266,13 @@ const musicData = [
     },
     {
         "title": "семнадцать ножевых",
-        "artist": "CUPSIZE - Topic",
+        "artist": "CUPSIZE",
         "playlist": "Main",
         "duration": "2:25"
     },
     {
         "title": "будка",
-        "artist": "CUPSIZE - Topic",
+        "artist": "CUPSIZE",
         "playlist": "Main",
         "duration": "4:09"
     },
@@ -6770,18 +6770,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMaGqtIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3lHI7CwAGbiohaajcmr9h9NXDzxBg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLaYqtIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3m2jyv4Z-SxA8fbZCeHOMd0YGkDrQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMiGqtIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nbO6yAl9bp_To_DVzOIQWAAJUXYg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLeYqtIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kYj4eTDvHPR9RqNij3BQlaotmfDg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMiGqtIG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lzITpCes_uFtN2lksojiDd74M-eA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CLeYqtIG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nDD3hF4z0fRGoNIK1bHdLZhpOVgg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CM2GqtIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3njBWfDYgLjYUGO9fNynoMxK0ZmwQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLuYqtIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mUdh0r1QY5NMCkSOnFpt8m5_Sebg"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CM6GqtIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3ntj_Pu5s-49fJNOh5MGNyVjQ4oJA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLuYqtIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3khnNqKDtVttIT6Cboa3FHSXO9kSA"
     }
 };
