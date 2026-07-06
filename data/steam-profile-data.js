@@ -16,8 +16,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 58.6,
-            "hours": 3517.0,
+            "playtime_2weeks": 60.0,
+            "hours": 3518.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -70,14 +70,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2642840"
         },
         {
-            "appid": 2622380,
-            "name": "ELDEN RING NIGHTREIGN",
-            "playtime_2weeks": 0.4,
-            "hours": 52.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2622380/header.jpg",
-            "url": "https://store.steampowered.com/app/2622380"
-        },
-        {
             "appid": 2531310,
             "name": "The Last of Us™ Part II Remastered",
             "playtime_2weeks": 0.3,
@@ -92,13 +84,21 @@ const steamData = {
             "hours": 23.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 4102950,
+            "name": "Hyperborea: Hornysolation",
+            "playtime_2weeks": 0.2,
+            "hours": 0.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4102950/header.jpg",
+            "url": "https://store.steampowered.com/app/4102950"
         }
     ],
     "top_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3517.0,
+            "hours": 3518.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
