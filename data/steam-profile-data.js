@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 60.0,
+            "playtime_2weeks": 59.7,
             "hours": 3518.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -48,8 +48,8 @@ const steamData = {
         {
             "appid": 3553500,
             "name": "SIGame",
-            "playtime_2weeks": 1.5,
-            "hours": 1.5,
+            "playtime_2weeks": 3.0,
+            "hours": 3.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3553500/header.jpg",
             "url": "https://store.steampowered.com/app/3553500"
         },
