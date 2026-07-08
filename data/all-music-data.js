@@ -3541,7 +3541,7 @@ const musicData = [
         "duration": "3:43"
     },
     {
-        "title": "Animal I Have Become (Official Video)",
+        "title": "Animal I Have Become",
         "artist": "Three Days Grace",
         "playlist": "Dead inside",
         "duration": "3:51"
@@ -6139,6 +6139,12 @@ const musicData = [
         "duration": "4:12"
     },
     {
+        "title": "Sirène - Robe de Jour",
+        "artist": "Lorien Testard",
+        "playlist": "Game OSTs",
+        "duration": "2:21"
+    },
+    {
         "title": "Luciferians",
         "artist": "Sewerslvt",
         "playlist": "Sewerslvt",
@@ -6759,23 +6765,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 819,
-    "totalDurationSec": 194985,
+    "totalDurationSec": 195126,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CP2_udIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3l9cyMUcCxXrvqSs9A4KhHD_GkYww"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COr9udIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3keH7VUgNA4awm-i1jk_Vd2wZOZUg"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CP6_udIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mfYlbK2jn0dYEJmWRaAm7_7vSbLQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COv9udIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mB-GDoRXjoX77jZw24QoQhEbAPyw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CP6_udIG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mQVXZyoH56aAt-4_4FaV0wCGyBOw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=COv9udIG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3ltF-ZbEwHNH2ZTAJQ938BnKTGoOw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIPAudIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3l6Pwo9RjOCTqkFn0K6AJ1jcsxGMA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CPH9udIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nZM_7uleVWBSYEc3lkcpaukSAMGQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIPAudIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lyaOHqtsdEXwlYJ0NPg-HQ-81LtQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CPH9udIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nMengfYVIEjL8nlO5WvvhW1XSqiw"
     }
 };
