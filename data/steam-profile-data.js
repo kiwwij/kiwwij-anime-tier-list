@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/5f9e6b099c01bbf18b4e88ace7152f54579886e6_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.4
@@ -70,6 +70,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2642840"
         },
         {
+            "appid": 1905180,
+            "name": "OBS Studio",
+            "playtime_2weeks": 0.5,
+            "hours": 187.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
+            "url": "https://store.steampowered.com/app/1905180"
+        },
+        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.3,
@@ -84,14 +92,6 @@ const steamData = {
             "hours": 0.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2531310/header.jpg",
             "url": "https://store.steampowered.com/app/2531310"
-        },
-        {
-            "appid": 4102950,
-            "name": "Hyperborea: Hornysolation",
-            "playtime_2weeks": 0.2,
-            "hours": 0.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4102950/header.jpg",
-            "url": "https://store.steampowered.com/app/4102950"
         }
     ],
     "top_games": [
@@ -172,7 +172,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/489830/header.jpg",
             "url": "https://store.steampowered.com/app/489830",
             "tags": [
-                "Без жанра"
+                "Ролевые игры"
             ]
         },
         {
