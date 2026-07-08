@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 54.7,
+            "playtime_2weeks": 53.7,
             "hours": 3520.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -172,7 +172,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/489830/header.jpg",
             "url": "https://store.steampowered.com/app/489830",
             "tags": [
-                "Ролевые игры"
+                "Без жанра"
             ]
         },
         {
