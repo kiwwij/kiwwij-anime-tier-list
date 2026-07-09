@@ -872,7 +872,7 @@ const musicData = [
     },
     {
         "title": "hyperpop luv",
-        "artist": "whyalive",
+        "artist": "whyalive & Denya8",
         "playlist": "Dead inside",
         "duration": "1:26"
     },
@@ -3248,7 +3248,7 @@ const musicData = [
     },
     {
         "title": "Eban'ko — Рома",
-        "artist": "Eban'ko [Ебанько]",
+        "artist": "Eban'ko",
         "playlist": "Dead inside",
         "duration": "3:37"
     },
@@ -3415,8 +3415,8 @@ const musicData = [
         "duration": "2:28"
     },
     {
-        "title": "asteria - FBM (feat. 6arelyhuman & kets4eki) (Official Visualizer)",
-        "artist": "asteria",
+        "title": "asteria - FBM (Official Visualizer) (feat. asteria, kets4eki & Britney Manson)",
+        "artist": "Anarchist Sanctuary",
         "playlist": "Dead inside",
         "duration": "2:35"
     },
@@ -3578,7 +3578,7 @@ const musicData = [
     },
     {
         "title": "пускают стрелы",
-        "artist": "fallen777angel - Topic",
+        "artist": "fallen777angel",
         "playlist": "Dead inside",
         "duration": "2:00"
     },
@@ -3637,8 +3637,8 @@ const musicData = [
         "duration": "1:30"
     },
     {
-        "title": "SadSvit - Silhouettes (feat. СТРУКТУРА ЩАСТЯ) Lyric video",
-        "artist": "SadSvit",
+        "title": "Силуети",
+        "artist": "СТРУКТУРА ЩАСТЯ",
         "playlist": "Dead inside",
         "duration": "3:08"
     },
@@ -3757,8 +3757,8 @@ const musicData = [
         "duration": "1:34"
     },
     {
-        "title": "Кишлак - Грязный кайф (Премьера клипа 2024)",
-        "artist": "Кишлак",
+        "title": "Грязный Кайф",
+        "artist": "Kishlak",
         "playlist": "Dead inside",
         "duration": "2:47"
     },
@@ -3770,7 +3770,7 @@ const musicData = [
     },
     {
         "title": "Мефистофель",
-        "artist": "5mewmet - Topic",
+        "artist": "5mewmet",
         "playlist": "Dead inside",
         "duration": "1:27"
     },
@@ -6770,18 +6770,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CISIv9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3l9fk7ImB97T23U5kN9Uvle4fruVQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CI-9v9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3koRPgnC6nzIPM2nhiCqOselZs5wg"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CIWIv9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3l955yGPKlvPi4Jz3zwULUPLKeqog"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJC9v9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lH7gu1liKB0SBlRP4c1EbMdBCkeg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CIWIv9IG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kuDqXLb-en5Ugi2ETu4BdoBBekcQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJG9v9IG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mdgPctPfFBZ2WgYvH_XAzxUTpp3w"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIqIv9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lCJkxQgSxVJn_8VunfJSfNPjYv2Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJS9v9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nWYctPi2umO0KjmFbmM40kFSiyFQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIqIv9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3n8ezSIeJaPpio7kQ-W9XOO17w-rQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJW9v9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mbXcZloExuKn15lBX30mE-kmpUPQ"
     }
 };
