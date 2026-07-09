@@ -890,7 +890,7 @@ const musicData = [
     },
     {
         "title": "Mary Jane (Night Core)",
-        "artist": "lil 17th",
+        "artist": "Lil 17th - Topic",
         "playlist": "Dead inside",
         "duration": "2:36"
     },
@@ -1057,7 +1057,7 @@ const musicData = [
         "duration": "4:48"
     },
     {
-        "title": "Герой из аниме",
+        "title": "Twinky, kirkiimad, nowkie - Герой из аниме prod.LLIIEEDD",
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:48"
@@ -1166,7 +1166,7 @@ const musicData = [
     },
     {
         "title": "Neurotoxin",
-        "artist": "DEEP-EX-SENSE",
+        "artist": "DEEP-EX-SENSE - Topic",
         "playlist": "Dead inside",
         "duration": "2:38"
     },
@@ -1177,8 +1177,8 @@ const musicData = [
         "duration": "2:18"
     },
     {
-        "title": "Human",
-        "artist": "Rag'n'Bone Man",
+        "title": "Rag'n'Bone Man - Human (Official Video)",
+        "artist": "RagnBoneManVEVO",
         "playlist": "Dead inside",
         "duration": "3:18"
     },
@@ -1273,7 +1273,7 @@ const musicData = [
         "duration": "4:21"
     },
     {
-        "title": "Давай взорвём",
+        "title": "VERBEE - Давай взорвем (Премьера, 2019)",
         "artist": "VERBEE",
         "playlist": "Dead inside",
         "duration": "2:18"
@@ -6770,18 +6770,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CN2gvtIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3miWoVvNmLs_rkcf_zn6Nod2MJOCg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLemvtIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3mcfaThEC4Yvb4NYQpjfZzUOXfacQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CN2gvtIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nZ8m2YH1rP2V_E4hKQfqRu__7BOw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLemvtIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lhY24CgQ7_hiz3VnwtXIqz0hiyzg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CN6gvtIG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mWpSmFY59M2lnzJw6uwBJJh1-xzA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CLimvtIG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kvODcn831Jxf8mzLoNUGcIYxIN2g"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COGgvtIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mDjuFr_ll5qXBaf1tiqkF-tu5BOQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CL2mvtIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mcrg7KNdHHk0UZRrzM-n1rkLz6ag"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COKgvtIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nfynEFD1mZnn95j4MXMXMuj3ytTg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CL2mvtIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lFQYBfrwxS91PgvAx8aO--5LILLA"
     }
 };
