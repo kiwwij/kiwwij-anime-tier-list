@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/5f9e6b099c01bbf18b4e88ace7152f54579886e6_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
-        "statusColor": "#4CAF50",
+        "status": "Away",
+        "statusColor": "#FFC107",
         "level": 41,
         "age": 6.4
     },
@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 678960,
             "name": "CODE VEIN",
-            "playtime_2weeks": 38.3,
+            "playtime_2weeks": 35.7,
             "hours": 57.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/header.jpg",
             "url": "https://store.steampowered.com/app/678960"
@@ -70,14 +70,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/4081840"
         },
         {
-            "appid": 2642840,
-            "name": "Humans are not that against Lizardwomen 2",
-            "playtime_2weeks": 0.9,
-            "hours": 0.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2642840/header.jpg",
-            "url": "https://store.steampowered.com/app/2642840"
-        },
-        {
             "appid": 2531310,
             "name": "The Last of Us™ Part II Remastered",
             "playtime_2weeks": 0.3,
@@ -92,6 +84,14 @@ const steamData = {
             "hours": 23.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 4102950,
+            "name": "Hyperborea: Hornysolation",
+            "playtime_2weeks": 0.2,
+            "hours": 0.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4102950/header.jpg",
+            "url": "https://store.steampowered.com/app/4102950"
         }
     ],
     "top_games": [
