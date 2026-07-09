@@ -77,12 +77,12 @@ const musicData = [
     },
     {
         "title": "шизофрения",
-        "artist": "kurokov - Topic",
+        "artist": "kurokov",
         "playlist": "Main"
     },
     {
         "title": "губы",
-        "artist": "тёмный принц - Topic",
+        "artist": "тёмный принц",
         "playlist": "Main"
     },
     {
@@ -107,7 +107,7 @@ const musicData = [
     },
     {
         "title": "сиськи",
-        "artist": "trepet - Topic",
+        "artist": "trepet",
         "playlist": "Main"
     },
     {
@@ -127,7 +127,7 @@ const musicData = [
     },
     {
         "title": "Не помирай",
-        "artist": "Апатія - Topic",
+        "artist": "Апатія",
         "playlist": "Main"
     },
     {
@@ -182,7 +182,7 @@ const musicData = [
     },
     {
         "title": "8 миля",
-        "artist": "madk1d - Topic",
+        "artist": "madk1d",
         "playlist": "Main"
     },
     {
@@ -197,7 +197,7 @@ const musicData = [
     },
     {
         "title": "Колготки",
-        "artist": "trepet - Topic",
+        "artist": "trepet",
         "playlist": "Main"
     },
     {
@@ -217,7 +217,7 @@ const musicData = [
     },
     {
         "title": "детская травма",
-        "artist": "CUPSIZE - Topic",
+        "artist": "CUPSIZE",
         "playlist": "Main"
     },
     {
@@ -237,12 +237,12 @@ const musicData = [
     },
     {
         "title": "ЗППП",
-        "artist": "CUPSIZE - Topic",
+        "artist": "CUPSIZE",
         "playlist": "Main"
     },
     {
         "title": "Sk8er Boi",
-        "artist": "Avril Lavigne - Topic",
+        "artist": "Avril Lavigne",
         "playlist": "Main"
     },
     {
