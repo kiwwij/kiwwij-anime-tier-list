@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 50.4,
+            "playtime_2weeks": 49.3,
             "hours": 3532.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 678960,
             "name": "CODE VEIN",
-            "playtime_2weeks": 19.1,
+            "playtime_2weeks": 18.0,
             "hours": 57.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/header.jpg",
             "url": "https://store.steampowered.com/app/678960"
@@ -32,8 +32,8 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 7.8,
-            "hours": 7.8,
+            "playtime_2weeks": 8.8,
+            "hours": 8.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
         },
