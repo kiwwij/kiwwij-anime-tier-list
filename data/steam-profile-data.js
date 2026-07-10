@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 53.6,
+            "playtime_2weeks": 53.5,
             "hours": 3525.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -70,14 +70,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/4081840"
         },
         {
-            "appid": 2531310,
-            "name": "The Last of Us™ Part II Remastered",
-            "playtime_2weeks": 0.3,
-            "hours": 0.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2531310/header.jpg",
-            "url": "https://store.steampowered.com/app/2531310"
-        },
-        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.3,
@@ -92,6 +84,14 @@ const steamData = {
             "hours": 0.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4102950/header.jpg",
             "url": "https://store.steampowered.com/app/4102950"
+        },
+        {
+            "appid": 920490,
+            "name": "Driver Booster for Steam",
+            "playtime_2weeks": 0.1,
+            "hours": 17.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
+            "url": "https://store.steampowered.com/app/920490"
         }
     ],
     "top_games": [
