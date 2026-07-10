@@ -27,7 +27,7 @@ const musicData = [
     },
     {
         "title": "Деревья, сгнившие до ствола",
-        "artist": "Violetta Sokolova - Topic",
+        "artist": "Violetta Sokolova",
         "playlist": "Main"
     },
     {
@@ -52,7 +52,7 @@ const musicData = [
     },
     {
         "title": "В реальності новій",
-        "artist": "Апатія - Topic",
+        "artist": "Апатія",
         "playlist": "Main"
     },
     {
@@ -67,12 +67,12 @@ const musicData = [
     },
     {
         "title": "чёрный шёлк",
-        "artist": "3umph - Topic",
+        "artist": "3umph",
         "playlist": "Main"
     },
     {
         "title": "овердоз",
-        "artist": "тёмный принц - Topic",
+        "artist": "тёмный принц",
         "playlist": "Main"
     },
     {
@@ -82,12 +82,12 @@ const musicData = [
     },
     {
         "title": "губы",
-        "artist": "тёмный принц - Topic",
+        "artist": "тёмный принц",
         "playlist": "Main"
     },
     {
         "title": "пароли",
-        "artist": "KERASINN - Topic",
+        "artist": "KERASINN",
         "playlist": "Main"
     },
     {
@@ -127,7 +127,7 @@ const musicData = [
     },
     {
         "title": "Не помирай",
-        "artist": "Апатія - Topic",
+        "artist": "Апатія",
         "playlist": "Main"
     },
     {
@@ -187,7 +187,7 @@ const musicData = [
     },
     {
         "title": "вклубе",
-        "artist": "тёмный принц - Topic",
+        "artist": "тёмный принц",
         "playlist": "Main"
     },
     {
@@ -217,12 +217,12 @@ const musicData = [
     },
     {
         "title": "детская травма",
-        "artist": "CUPSIZE - Topic",
+        "artist": "CUPSIZE",
         "playlist": "Main"
     },
     {
         "title": "семнадцать ножевых",
-        "artist": "CUPSIZE - Topic",
+        "artist": "CUPSIZE",
         "playlist": "Main"
     },
     {
