@@ -61,11 +61,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "бесконечное лето",
-        "artist": "CMH",
-        "playlist": "Main"
-    },
-    {
         "title": "чёрный шёлк",
         "artist": "3umph",
         "playlist": "Main"
@@ -206,11 +201,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "искры хрома (Speed Up)",
-        "artist": "metaego",
-        "playlist": "Main"
-    },
-    {
         "title": "вся моя жизнь говно",
         "artist": "CUPSIZE",
         "playlist": "Main"
@@ -258,5 +248,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 20,
-    "totalDurationSec": 6821
+    "totalDurationSec": 6399
 };
