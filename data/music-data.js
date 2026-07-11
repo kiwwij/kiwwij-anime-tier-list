@@ -244,9 +244,14 @@ const musicData = [
         "title": "Моя квітнева розгубленість",
         "artist": "Re-read",
         "playlist": "Main"
+    },
+    {
+        "title": "ты не одна",
+        "artist": "диссоциативное расстройство",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 20,
-    "totalDurationSec": 6399
+    "totalDurationSec": 6516
 };
