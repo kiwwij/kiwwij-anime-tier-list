@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/5f9e6b099c01bbf18b4e88ace7152f54579886e6_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
-        "statusColor": "#4CAF50",
+        "status": "Offline",
+        "statusColor": "#9E9E9E",
         "level": 41,
         "age": 6.4
     },
@@ -68,14 +68,6 @@ const steamData = {
             "hours": 23.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 920490,
-            "name": "Driver Booster for Steam",
-            "playtime_2weeks": 0.1,
-            "hours": 17.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
-            "url": "https://store.steampowered.com/app/920490"
         }
     ],
     "top_games": [
