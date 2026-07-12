@@ -5947,6 +5947,12 @@ const musicData = [
         "duration": "2:17"
     },
     {
+        "title": "Hello Juliet",
+        "artist": "Clarion",
+        "playlist": "Dead inside",
+        "duration": "3:28"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6167,6 +6173,24 @@ const musicData = [
         "artist": "Lorien Testard",
         "playlist": "Game OSTs",
         "duration": "2:21"
+    },
+    {
+        "title": "Sirène - Rouge d'Iris",
+        "artist": "Lorien Testard",
+        "playlist": "Game OSTs",
+        "duration": "3:19"
+    },
+    {
+        "title": "Clair-Obscur",
+        "artist": "Lorien Testard",
+        "playlist": "Game OSTs",
+        "duration": "3:39"
+    },
+    {
+        "title": "Maelle",
+        "artist": "Lorien Testard",
+        "playlist": "Game OSTs",
+        "duration": "2:50"
     },
     {
         "title": "Luciferians",
@@ -6789,23 +6813,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 868,
-    "totalDurationSec": 195644,
+    "totalDurationSec": 196440,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKXRz9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3kEJpfuksM-bhLtgMOCinC-jGTr_A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJOT0NIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgjfpOTRBg&rs=AMzJL3njOs6XXcNTxxgmuPbuvJEjDZ_4jg"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKXRz9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nMu-zLWU7LTMoaCTNLpQiWMYup_w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJOT0NIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3l1ZPtZfTTPArEnCTxoWALt7E2KXA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKXRz9IG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3l8AK9PkQp0PJpeS8I-V7vdV7-30A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJST0NIG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kk3ZHQGu1yydWIjl0Hm3wo4TQYMQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKrRz9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lymDklk3DJph_E5zixAt6Qk7jzLA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJmT0NIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nsWdTH67mi8Xf6jrmHZhkuA_XpIQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKrRz9IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lRkl-RkX20J9ovVKEUSGwEOgIemQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJmT0NIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mpwuzvah73NYMjJ7zs0XWCfqtLkg"
     }
 };
