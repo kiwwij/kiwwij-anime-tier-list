@@ -54,14 +54,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1905180"
         },
         {
-            "appid": 678960,
-            "name": "CODE VEIN",
-            "playtime_2weeks": 1.4,
-            "hours": 57.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/header.jpg",
-            "url": "https://store.steampowered.com/app/678960"
-        },
-        {
             "appid": 4081840,
             "name": "Escape from Yandere",
             "playtime_2weeks": 1.4,
