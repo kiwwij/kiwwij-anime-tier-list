@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/5f9e6b099c01bbf18b4e88ace7152f54579886e6_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.4
@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 47.2,
+            "playtime_2weeks": 45.0,
             "hours": 3545.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -56,10 +56,18 @@ const steamData = {
         {
             "appid": 4081840,
             "name": "Escape from Yandere",
-            "playtime_2weeks": 1.4,
+            "playtime_2weeks": 1.1,
             "hours": 1.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4081840/header.jpg",
             "url": "https://store.steampowered.com/app/4081840"
+        },
+        {
+            "appid": 1313140,
+            "name": "Cult of the Lamb",
+            "playtime_2weeks": 0.5,
+            "hours": 0.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/header.jpg",
+            "url": "https://store.steampowered.com/app/1313140"
         },
         {
             "appid": 431960,
@@ -68,6 +76,14 @@ const steamData = {
             "hours": 23.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 1145350,
+            "name": "Hades II",
+            "playtime_2weeks": 0.1,
+            "hours": 0.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145350/header.jpg",
+            "url": "https://store.steampowered.com/app/1145350"
         }
     ],
     "top_games": [
