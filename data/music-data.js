@@ -249,9 +249,14 @@ const musicData = [
         "title": "ты не одна",
         "artist": "диссоциативное расстройство",
         "playlist": "Main"
+    },
+    {
+        "title": "Отпусти меня",
+        "artist": "ЯРЧЕ СОЛНЦА",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 20,
-    "totalDurationSec": 6516
+    "totalDurationSec": 6718
 };
