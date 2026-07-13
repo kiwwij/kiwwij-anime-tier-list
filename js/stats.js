@@ -118,7 +118,7 @@ function setupChartToggles() {
         elements.genresChartCanvas.style.display = 'none';
         elements.tiersChartCanvas.style.display = 'block';
         elements.toggleGenresBtn.style.display = 'none';
-        elements.genresTitle.textContent = "Распределение по тирам без повторов";
+        elements.genresTitle.textContent = "Распределение по тирам без дубликатов";
         
         elements.showTiersBtn.classList.add('active');
         elements.showGenresBtn.classList.remove('active');

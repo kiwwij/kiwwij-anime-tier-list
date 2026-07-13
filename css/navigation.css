@@ -1,7 +1,7 @@
 .nav-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -51,7 +51,8 @@ body.light-theme .nav-card {
 .icon-music { color: #f48fb1; }    
 .icon-steam { color: #1e88e5; }      
 .icon-notes { color: #ffa726; }      
-.icon-about { color: #ffffff; }      
+.icon-about { color: #ffffff; }  
+.icon-stats-games { color: #f59e0b; }    
 
 body.light-theme .icon-about { color: #000000; }
 
@@ -90,4 +91,42 @@ body.light-theme .icon-about { color: #000000; }
 .nav-header {
     text-align: center;
     margin: 40px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin: 30px 0 10px;
+    color: var(--text-main);
+}
+
+@media (max-width: 768px) {
+    .nav-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
+        padding: 15px 10px;
+    }
+
+    .nav-card {
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .nav-card i {
+        font-size: 2.2rem;
+    }
+
+    .nav-card h2 {
+        font-size: 1.1rem;
+    }
+
+    .nav-card p {
+        font-size: 0.85rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
 }

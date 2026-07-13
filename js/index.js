@@ -179,7 +179,7 @@ function renderTierList() {
             tierListContainer.style.display = 'block';
         } else {
             searchInput.disabled = false;
-            searchInput.placeholder = "Найти по названию или тиру";
+            searchInput.placeholder = "Поиск по названию или тиру";
             if (searchIcon) searchIcon.style.opacity = '1';
         }
     }
@@ -192,7 +192,36 @@ function renderTierList() {
             droppedLink.style.display = 'none';
         }
     }
-    
+
+    const navLinks = document.querySelector('.nav-links');
+    if (navLinks) {
+        let gameStatsBtn = document.getElementById('navGameStatsBtn');
+        
+        const animeStatsBtn = Array.from(navLinks.children).find(el => el.getAttribute('href') === 'pages/stats.html');
+        
+        if (type === 'game') {
+            if (!gameStatsBtn) {
+                gameStatsBtn = document.createElement('a');
+                gameStatsBtn.id = 'navGameStatsBtn';
+                gameStatsBtn.href = 'extra/games-stats.html';
+                gameStatsBtn.className = 'btn-link';
+                gameStatsBtn.innerHTML = `<i class='bx bx-pie-chart-alt-2'></i> Статистика игр`;
+                gameStatsBtn.style.color = '#facc15';
+                gameStatsBtn.style.borderColor = '#facc15';
+                
+                navLinks.appendChild(gameStatsBtn);
+            }
+            gameStatsBtn.style.display = 'inline-flex';
+            if (animeStatsBtn) animeStatsBtn.style.display = 'none';
+            
+        } else {
+            if (gameStatsBtn) {
+                gameStatsBtn.style.display = 'none';
+            }
+            if (animeStatsBtn) animeStatsBtn.style.display = 'inline-flex';
+        }
+    }
+
     let scaleSource;
     if (type === 'game') scaleSource = gameRatingScales;
     else if (category === 'Энергетики') scaleSource = energyRatingScales;

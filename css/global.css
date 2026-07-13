@@ -199,12 +199,15 @@ input:checked + .slider:before {
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    position: relative;
 }
 
 .footer-nav-center {
     display: flex;
     justify-content: center;
-    flex: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .footer-nav-center i {
@@ -242,15 +245,14 @@ body.light-theme .modal-review-box a:hover {
     border-bottom: 1px solid #1d4ed8;
 }
 
-
-
-
 @media (max-width: 600px) {
     .footer-content {
         flex-direction: column;
         text-align: center;
     }
     .footer-nav-center {
+        position: static;
+        transform: none;
         order: -1;
     }
 }

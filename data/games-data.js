@@ -45,10 +45,6 @@ if (typeof tierListData !== 'undefined') {
                     title: "Tiny Bunny",
                     review: "Одна из первых и лучших визуальных новелл, что я играл. Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1421250/",
                 },
-                {
-                    title: "CRISIS CORE –FINAL FANTASY VII– REUNION",
-                    review: "Ревью - ",
-                },
             ],
             'A': [
                 {
@@ -61,7 +57,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Stellar Blade",
-                    review: "Эта игра выше других соулсов только, потому что я там играл за красивую женщину, и был нормальный сюжет. Ревью - https://steamcommunity.com/id/serhiosergey/recommended/3489700/",
+                    review: "Эта игра выше других соулсов только, потому что я там играл за красивую женщину, и был +- нормальный сюжет. Но с точки зрения кайфа от геймплея Lies of P и Dark Souls I-II покруче. Ревью - https://steamcommunity.com/id/serhiosergey/recommended/3489700/",
                 },
                 {
                     title: "Lies of P",
@@ -70,6 +66,10 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "Dark Souls III",
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/374320/",
+                },
+                {
+                    title: "Cyberpunk 2077",
+                    review: "Крутая атмосфера игра с хорошей музыкой и персонажами. Моя 1-ая концовка просто дроп с крыши. Есть возможность создавать разные билды.",
                 },
                 {
                     title: "FINAL FANTASY VII REMAKE INTERGRADE",
@@ -88,12 +88,16 @@ if (typeof tierListData !== 'undefined') {
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/335300/",
                 },
                 {
-                    title: "Cyberpunk 2077",
-                    review: "Крутая атмосфера игра с хорошей музыкой и персонажами. Моя 1-ая концовка просто дроп с крыши. Есть возможность создавать разные билды.",
+                    title: "Clair Obscur: Expedition 33",
+                    review: "Ревью - ",
                 },
                 {
                     title: "CODE VEIN",
-                    review: "Ревью - ",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/678960/",
+                },
+                {
+                    title: "CRISIS CORE –FINAL FANTASY VII– REUNION",
+                    review: "Прошёл ради того, чтобы узнать предысторию Зака и закрыть гештальн по играм 7-ой финалки. Ревью - ",
                 },
                 {
                     title: "Hollow Knight: Silksong",
@@ -109,7 +113,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Elden Ring NIGHTREIGN",
-                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/2622380/",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/2622380/ Я побровал с другом поиграть спустя год. Мы зашли, всё позабыли и ливнули с позором.",
                 },
                 {
                     title: "Raft",
@@ -150,6 +154,10 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "Slime Rancher",
                     review: "Прикольная игра на расслабон. Проходил очень много раз.",
+                },
+                {
+                    title: "SIGame",
+                    review: "Поставил эту игру в A тир, т.к. при наличии хорошего ведущего, хорошего пака и хорошей компании играть в одно удовольствие. Но если хотя бы 1 из этих пунктов не будет соблюдён, то игра будет скучной и неинтересной.",
                 },
             ],
             'B': [
@@ -457,6 +465,14 @@ if (typeof tierListData !== 'undefined') {
                     img: "games/Resident_Evil_Requiem.jpg",
                 },
                 {
+                    title: "Cult of the Lamb",
+                    review: "Прикольная красивая игрушка, но лично мне она показалась скучной. Возможно, если бы я играл в неё с другом, то было бы интереснее, но а для одного игрока так себе.",
+                },
+                {
+                    title: "Neighbours back From Hell",
+                    review: "За выслугу лет. 1-ая часть соседа самая имбовая. Все следующие части хуже.",
+                },
+                {
                     title: "Knock-knock",
                     review: "За выслугу лет. Крутая страшная игра с прикольным сюжетом. Когда-то снимал видосы по ней.",
                 },
@@ -492,6 +508,10 @@ if (typeof tierListData !== 'undefined') {
                     review: "Играли с другом, прошли 2-3 миссии и застряли. Ну и решили дропнуть, но в целом неплохая игра.",
                 },
                 {
+                    title: "The Last of Us Part II Remastered",
+                    review: "У меня просто не хватило оперативки, чтобы зупустить эту игру.",
+                },
+                {
                     title: "The Elder Scrolls IV: Oblivion Remastered",
                     review: "Небольшое ревью - https://telegra.ph/The-Elder-Scrolls-IV-Oblivion-Remastered-review-03-14",
                 },
@@ -508,8 +528,17 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Humans are not that against Lizardwomen",
-                    review: "Пик игровой индустрии.",
+                    review: "Пик игровой индустрии 1.",
                     img: "games/Humans_are_not_that_against_Lizardwomen.jpg",
+                },
+                {
+                    title: "Giperboreya Xornizolyacziya",
+                    review: "Пик игровой индустрии 0.",
+                    img: "games/Giperboreya_Xornizolyacziya.jpeg",
+                },
+                {
+                    title: "Escape from Yandere",
+                    review: "На пару часиков норм.",
                 },
                 {
                     title: "Magicka 2",
@@ -591,6 +620,11 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "Rainbow Six Siege",
                     review: "",
+                },
+                {
+                    title: "Hades II",
+                    review: "Я совсем по другому представлял себе геймплей этой игры. Мне вообще не понравилось. Персонажи крутые, красиво нарисованные, но не более.",
+                    img: "games/Hades_II.jpg",
                 },
                 {
                     title: "Astroneers",

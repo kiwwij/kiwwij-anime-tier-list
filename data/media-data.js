@@ -61,7 +61,12 @@ const mediaData = [
     { "title": "Cargo 200", "ruTitle": "Груз 200", "year": "2007", "myRating": 5, "imdbRating": 7.1, "imdbLink": "https://www.imdb.com/title/tt0847880/?ref_=nv_sr_srsg_0_tt_2_nm_0_in_0_q_%D0%93%D1%80%D1%83%D0%B7%20200" },
     { "title": "The Green Elephant", "ruTitle": "Зелёный Слоник", "year": "1999", "myRating": 1, "imdbRating": 5.3, "imdbLink": "https://www.imdb.com/title/tt1003080/" },
     // { "title": "Parasite in Love", "ruTitle": "Влюблённый паразит", "year": "2021", "myRating": 0, "imdbRating": 6.0, "imdbLink": "https://www.imdb.com/title/tt16059146/" },
-    // // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
+    { "title": "Obsession", "ruTitle": "Обсессия", "year": "2025", "myRating": 3, "imdbRating": 8.1, "imdbLink": "https://www.imdb.com/title/tt37287335/" },
+    { "title": "Pinocchio", "ruTitle": "Буратино", "year": "2026", "myRating": 6, "imdbRating": 4.8, "imdbLink": "https://www.imdb.com/title/tt32118517/" },
+    { "title": "Molodoy chelovek", "ruTitle": "Молодой Человек", "year": "2022", "myRating": 5, "imdbRating": 6.5, "imdbLink": "https://www.imdb.com/title/tt21031650/" },
+    { "title": "House of the Dragon", "ruTitle": "Дом Дракона", "year": "2022", "myRating": 9, "imdbRating": 8.3, "imdbLink": "https://www.imdb.com/title/tt11198330/" },
+    // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
+    // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
 ];

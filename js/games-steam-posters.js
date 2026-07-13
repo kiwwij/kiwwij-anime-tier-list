@@ -14,6 +14,9 @@ const LOCAL_ONLY_GAMES = [
     "Chasing Tails ~A Promise in the Snow~",
     "Hitler is My Crush: Love and Fascism",
     "Slender: The Eight Pages",
+    "Hades II",
+    // "",
+    // "",
     // "",
 ];
 

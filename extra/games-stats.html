@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игровая статистика | kiwwij</title>
+    <meta name="author" content="kiwwij">
+    <link rel="icon" type="image/x-icon" href="https://media1.tenor.com/m/J3BHzgjAEOgAAAAd/6-7-usada-pekora.gif">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/stats.css">
+    <link rel="stylesheet" href="../css/stats-movies.css">
+</head>
+<style>
+    #progressContainer p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
+    #progressContainer i {
+        font-size: 1.3rem;
+    }
+    body.light-theme #gameMediaModal {
+        background: #f1f5f9;
+        color: #1e293b;
+        border-color: #cbd5e1;
+    }
+    body.light-theme .modal-overview {
+        background: #ffffff;
+        color: #334155;
+        border-color: #e2e8f0;
+    }
+    body.light-theme .meta-item-box {
+        background: #ffffff;
+        border-color: #e2e8f0;
+    }
+    body.light-theme .meta-item-box span {
+        color: #0f172a;
+    }
+    body.light-theme .modal-main-title, 
+    body.light-theme .modal-sub-title {
+        color: #0f172a;
+    }
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+        background: var(--bg-body);
+    }
+    ::-webkit-scrollbar-thumb {
+        background: var(--accent);
+        border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #4f46e5;
+    }
+    #gameMediaModal {
+        background: #1e293b;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        color: #f8fafc;
+    }
+    #gameMediaModal::backdrop {
+        background: rgba(0, 0, 0, 0.75);
+        backdrop-filter: blur(10px);
+    }
+    body.light-theme #gameMediaModal {
+        background: #ffffff;
+        border: 1px solid #cbd5e1;
+        color: #0f172a;
+        box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    }
+    body.light-theme #gameMediaModal::backdrop {
+        background: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(10px);
+    }
+    body.light-theme .modal-overview {
+        background: #f8fafc;
+        color: #334155;
+        border: 1px solid #e2e8f0;
+    }
+    body.light-theme .meta-item-box {
+        background: #f8fafc;
+        border: 1px solid #e2e8f0;
+    }
+    body.light-theme .meta-item-box label {
+        color: #64748b;
+    }
+    body.light-theme .meta-item-box span {
+        color: #0f172a;
+    }
+    body.light-theme .modal-main-title, 
+    body.light-theme .modal-sub-title {
+        color: #0f172a;
+    }
+    body.light-theme .close-modal {
+        background: rgba(0, 0, 0, 0.05);
+        color: #0f172a;
+        border: 1px solid #cbd5e1;
+    }
+    body.light-theme .close-modal:hover {
+        background: #ef4444;
+        color: white;
+        border-color: transparent;
+    }
+    body.light-theme ::-webkit-scrollbar-track {
+        background: #f1f5f9;
+    }
+</style>
+<body class="tierlist-page">
+
+    <header>
+        <div class="header-content">
+            <div class="top-row">
+                <h1 class="logo-text">Статистика игр</h1>
+                <label class="switch">
+                    <input type="checkbox" id="themeToggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <nav class="nav-links">
+                <a href="../index.html" class="btn-link"><i class='bx bx-home-alt'></i> На главную</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="stats-container">
+        <div class="stats-summary" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));">
+            <div class="stat-card">
+                <h3>Всего игр</h3>
+                <span class="stat-number" id="totalGamesCount">0</span>
+            </div>
+            <div class="stat-card">
+                <h3>Обработано</h3>
+                <span class="stat-number" id="processedCount">0</span>
+            </div>
+            <div class="stat-card">
+                <h3>Средняя оценка</h3>
+                <span class="stat-number" id="avgRating">0</span>
+            </div>
+        </div>
+
+        <div class="glass-panel api-progress-section">
+            <div class="progress-container" id="progressContainer">
+                <p>Синхронизация с RAWG и Steam API: <span id="loadingPercent">0%</span></p>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressBar"></div>
+                </div>
+                <small class="text-muted" id="progressStatus">Загружаем жанры, разработчиков и постеры...</small>
+            </div>
+        </div>
+
+        <div class="anime-stats-grid">
+            <div class="glass-panel timeline-panel">
+                <h2 class="panel-title">Хронология игровых релизов</h2>
+                <p class="panel-subtitle">Распределение игр по годам их выхода</p>
+                <div class="chart-wrapper">
+                    <canvas id="gameYearsChart"></canvas>
+                </div>
+            </div>
+
+            <div class="glass-panel genres-panel">
+                <div class="panel-header-controls">
+                    <h2 class="panel-title" style="margin-bottom: 0;">Жанры и издатели</h2>
+                    <div class="chart-toggles">
+                        <button id="showGenresBtn" class="btn-link active">Жанры</button>
+                        <button id="showDevsBtn" class="btn-link">Издатели</button>
+                    </div>
+                </div>
+                <div class="chart-wrapper">
+                    <canvas id="gameGenresChart"></canvas>
+                    <canvas id="gameDevsChart" style="display: none;"></canvas>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="glass-panel media-explorer-section" style="max-width: 1200px; margin: 0 auto 2rem; padding: 1.5rem;">
+        <h2 class="panel-title">Детальный игровой архив</h2>
+        <p class="panel-subtitle">Выбери любую игру, чтобы узнать дополнительную информацию</p>
+        
+        <div class="explorer-controls">
+            <div class="search-wrapper" style="width: 100%; max-width: 400px;">
+                <i class='bx bx-search'></i>
+                <input type="text" id="gameExplorerSearch" placeholder="Поиск по названию или издателю..." autocomplete="off">
+            </div>
+        </div>
+        
+        <div class="explorer-grid" id="gameExplorerGrid"></div>
+    </div>
+
+    <dialog id="gameMediaModal">
+        <div class="modal-content glass-panel">
+            <button class="close-modal" id="closeGameModal"><i class='bx bx-x'></i></button>
+            <div class="modal-layout" id="gameModalLayout">
+            </div>
+        </div>
+    </dialog>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <span class="footer-logo">kiwwij</span>
+                <p class="footer-copyright">© <span id="current-year"></span>. No Copyright.</p>
+            </div>
+            <nav class="footer-nav-center">
+                <a href="navigation.html" class="social-link" title="Навигация"><i class='bx bx-map-alt'></i></a>
+            </nav>
+            <nav class="footer-socials">
+                <a href="https://github.com/kiwwij" class="social-link" target="_blank"><i class='bx bxl-github'></i></a>
+            </nav>
+        </div>
+    </footer>
+
+    <script>let tierListData = {};</script>
+    <script src="../data/games-data.js"></script>
+    <script src="../js/stats-games.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggle = document.getElementById('themeToggle');
+            const body = document.body;
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+
+            if (savedTheme === 'light') {
+                body.classList.add('light-theme');
+                themeToggle.checked = false;
+            } else {
+                themeToggle.checked = true;
+            }
+
+            themeToggle.addEventListener('change', () => {
+                if (themeToggle.checked) {
+                    body.classList.remove('light-theme');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.classList.add('light-theme');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
+    <script>
+        const yearElement = document.getElementById('current-year');
+            if (yearElement) {
+                yearElement.textContent = new Date().getFullYear();
+            }
+    </script>
+    <script src="js/holidays.js" defer></script>
+</body>
+</html>
