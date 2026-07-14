@@ -48,8 +48,8 @@ const steamData = {
         {
             "appid": 1905180,
             "name": "OBS Studio",
-            "playtime_2weeks": 2.1,
-            "hours": 189.4,
+            "playtime_2weeks": 3.1,
+            "hours": 190.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
         },
