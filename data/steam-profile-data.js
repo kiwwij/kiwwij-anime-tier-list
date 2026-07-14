@@ -231,7 +231,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570940/header.jpg",
             "url": "https://store.steampowered.com/app/570940",
             "tags": [
-                "Экшены"
+                "Без жанра"
             ]
         },
         {
