@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/5f9e6b099c01bbf18b4e88ace7152f54579886e6_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50",
+        "status": "Offline",
+        "statusColor": "#9E9E9E",
         "level": 41,
         "age": 6.4
     },
@@ -48,8 +48,8 @@ const steamData = {
         {
             "appid": 1905180,
             "name": "OBS Studio",
-            "playtime_2weeks": 3.1,
-            "hours": 190.4,
+            "playtime_2weeks": 3.7,
+            "hours": 191.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
         },
@@ -106,8 +106,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg",
             "url": "https://store.steampowered.com/app/730",
             "tags": [
-                "Экшены",
-                "Бесплатные"
+                "Без жанра"
             ]
         },
         {
@@ -298,8 +297,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/626690/header.jpg",
             "url": "https://store.steampowered.com/app/626690",
             "tags": [
-                "Экшены",
-                "Ролевые игры"
+                "Без жанра"
             ]
         },
         {
