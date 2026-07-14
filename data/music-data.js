@@ -257,6 +257,6 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 20,
+    "totalViews": 21,
     "totalDurationSec": 6718
 };
