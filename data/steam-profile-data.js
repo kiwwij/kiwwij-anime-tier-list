@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/5f9e6b099c01bbf18b4e88ace7152f54579886e6_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E",
+        "status": "Online",
+        "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.4
     },
@@ -231,7 +231,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570940/header.jpg",
             "url": "https://store.steampowered.com/app/570940",
             "tags": [
-                "Без жанра"
+                "Экшены"
             ]
         },
         {
