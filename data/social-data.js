@@ -8,6 +8,6 @@ const socialData = {
     },
     "telegram": {
         "channelName": "kiwwijs",
-        "lastPostId": "149"
+        "lastPostId": "159"
     }
 };
