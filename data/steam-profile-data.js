@@ -106,7 +106,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg",
             "url": "https://store.steampowered.com/app/730",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Бесплатные"
             ]
         },
         {
@@ -297,7 +298,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/626690/header.jpg",
             "url": "https://store.steampowered.com/app/626690",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Ролевые игры"
             ]
         },
         {
