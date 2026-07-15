@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 46.2,
+            "playtime_2weeks": 45.8,
             "hours": 3553.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -46,20 +46,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/3553500"
         },
         {
-            "appid": 105600,
-            "name": "Terraria",
-            "playtime_2weeks": 2.2,
-            "hours": 207.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
-            "url": "https://store.steampowered.com/app/105600"
-        },
-        {
             "appid": 4081840,
             "name": "Escape from Yandere",
             "playtime_2weeks": 1.1,
             "hours": 1.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4081840/header.jpg",
             "url": "https://store.steampowered.com/app/4081840"
+        },
+        {
+            "appid": 105600,
+            "name": "Terraria",
+            "playtime_2weeks": 1.1,
+            "hours": 207.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
+            "url": "https://store.steampowered.com/app/105600"
         },
         {
             "appid": 1313140,
