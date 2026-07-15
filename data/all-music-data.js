@@ -3254,7 +3254,7 @@ const musicData = [
     },
     {
         "title": "Кабанчик",
-        "artist": "В'ячеслав Кукоба",
+        "artist": "Вячеслав Кукоба - Topic",
         "playlist": "Dead inside",
         "duration": "3:21"
     },
@@ -3289,8 +3289,8 @@ const musicData = [
         "duration": "2:53"
     },
     {
-        "title": "Были танцы",
-        "artist": "Bianka",
+        "title": "БЬЯНКА - Были танцы",
+        "artist": "BIANKA",
         "playlist": "Dead inside",
         "duration": "3:02"
     },
@@ -3308,7 +3308,7 @@ const musicData = [
     },
     {
         "title": "succubus",
-        "artist": "rizza",
+        "artist": "rizza - Topic",
         "playlist": "Dead inside",
         "duration": "1:38"
     },
@@ -3445,8 +3445,8 @@ const musicData = [
         "duration": "4:27"
     },
     {
-        "title": "Кошка (feat. Ольга Артуровна)",
-        "artist": "Rychagy Mashin",
+        "title": "Кошка (Что ей снится, когда слезы на ее ресницах) - Рычаги Машин - Koshka / Cat",
+        "artist": "Рычаги Машин",
         "playlist": "Dead inside",
         "duration": "3:52"
     },
@@ -3638,7 +3638,7 @@ const musicData = [
     },
     {
         "title": "типичная ситуация",
-        "artist": "madk1d",
+        "artist": "madk1d - Topic",
         "playlist": "Dead inside",
         "duration": "2:11"
     },
@@ -3770,7 +3770,7 @@ const musicData = [
     },
     {
         "title": "Самый лучший день",
-        "artist": "Кишлак",
+        "artist": "Kishlak - Topic",
         "playlist": "Dead inside",
         "duration": "1:34"
     },
@@ -6830,18 +6830,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMzu39IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj8mNDSBg&rs=AMzJL3kSz1xASXAdwgnsHfFE10p17pCyiQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNL_39IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj8mNDSBg&rs=AMzJL3nQ04mXcMsLelCN7OTBu3v9L10agg"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMzu39IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lr6s0OIe9cjk5BTMOYVc4dGEH18w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNP_39IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mSSGbn0J3RG5UjM-6wOPV1OQEyLg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CM3u39IG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nTK18KVtrb2vJDFNfzIaAGd-FNCA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNP_39IG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kdjXYRPkRAvY9mFJvGPDi0FBV7Fw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNHu39IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kk-tzFBB3EdznlWThf-Lb8PGgoQw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNn_39IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mqPpTRehPng5qZzBUkid_2tAaFJA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNLu39IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3ns2ubh7Jpfb5XlT6x3XyhwBGa_lQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNn_39IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kPXYrAnKYD_C6SdT7wK8vKSakXYQ"
     }
 };
