@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 45.8,
+            "playtime_2weeks": 44.9,
             "hours": 3553.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -52,14 +52,6 @@ const steamData = {
             "hours": 1.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4081840/header.jpg",
             "url": "https://store.steampowered.com/app/4081840"
-        },
-        {
-            "appid": 105600,
-            "name": "Terraria",
-            "playtime_2weeks": 1.1,
-            "hours": 207.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
-            "url": "https://store.steampowered.com/app/105600"
         },
         {
             "appid": 1313140,
