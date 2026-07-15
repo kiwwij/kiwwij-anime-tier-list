@@ -10,14 +10,14 @@ const steamData = {
         "age": 6.5
     },
     "stats": {
-        "total_games": 290
+        "total_games": 291
     },
     "recent_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 44.3,
-            "hours": 3550.8,
+            "playtime_2weeks": 45.3,
+            "hours": 3552.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -28,14 +28,6 @@ const steamData = {
             "hours": 13.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
-        },
-        {
-            "appid": 105600,
-            "name": "Terraria",
-            "playtime_2weeks": 4.4,
-            "hours": 207.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
-            "url": "https://store.steampowered.com/app/105600"
         },
         {
             "appid": 1905180,
@@ -52,6 +44,14 @@ const steamData = {
             "hours": 3.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3553500/header.jpg",
             "url": "https://store.steampowered.com/app/3553500"
+        },
+        {
+            "appid": 105600,
+            "name": "Terraria",
+            "playtime_2weeks": 3.4,
+            "hours": 207.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
+            "url": "https://store.steampowered.com/app/105600"
         },
         {
             "appid": 4081840,
@@ -90,7 +90,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3550.8,
+            "hours": 3552.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
