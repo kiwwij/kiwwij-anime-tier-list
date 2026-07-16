@@ -5630,7 +5630,7 @@ const musicData = [
     },
     {
         "title": "Так прикро",
-        "artist": "Апатія - Topic",
+        "artist": "Апатія",
         "playlist": "Dead inside",
         "duration": "3:00"
     },
@@ -5648,7 +5648,7 @@ const musicData = [
     },
     {
         "title": "В реальності новій",
-        "artist": "Апатія - Topic",
+        "artist": "Апатія",
         "playlist": "Dead inside",
         "duration": "2:45"
     },
@@ -5678,13 +5678,13 @@ const musicData = [
     },
     {
         "title": "шизофрения",
-        "artist": "kurokov - Topic",
+        "artist": "kurokov",
         "playlist": "Dead inside",
         "duration": "1:19"
     },
     {
         "title": "губы",
-        "artist": "тёмный принц - Topic",
+        "artist": "тёмный принц",
         "playlist": "Dead inside",
         "duration": "1:35"
     },
@@ -5738,7 +5738,7 @@ const musicData = [
     },
     {
         "title": "Не помирай",
-        "artist": "Апатія - Topic",
+        "artist": "Апатія",
         "playlist": "Dead inside",
         "duration": "2:20"
     },
@@ -5798,7 +5798,7 @@ const musicData = [
     },
     {
         "title": "Колготки",
-        "artist": "trepet - Topic",
+        "artist": "trepet",
         "playlist": "Dead inside",
         "duration": "1:25"
     },
@@ -5834,7 +5834,7 @@ const musicData = [
     },
     {
         "title": "детская травма",
-        "artist": "CUPSIZE - Topic",
+        "artist": "CUPSIZE",
         "playlist": "Dead inside",
         "duration": "2:13"
     },
@@ -5882,7 +5882,7 @@ const musicData = [
     },
     {
         "title": "10М ОТ ДОМА",
-        "artist": "LOVV66 - Topic",
+        "artist": "LOVV66",
         "playlist": "Dead inside",
         "duration": "2:15"
     },
@@ -5906,7 +5906,7 @@ const musicData = [
     },
     {
         "title": "Дорога в ад",
-        "artist": "Чучело - Topic",
+        "artist": "Чучело",
         "playlist": "Dead inside",
         "duration": "3:16"
     },
@@ -5924,7 +5924,7 @@ const musicData = [
     },
     {
         "title": "DIOR SAUVAGE",
-        "artist": "дмитрий уткин - Topic",
+        "artist": "дмитрий уткин",
         "playlist": "Dead inside",
         "duration": "2:04"
     },
@@ -6830,18 +6830,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJq_5dIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj8mNDSBg&rs=AMzJL3leMj4Uei3YfXBlTf0wPCoY4HgXMg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMrb5dIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj8mNDSBg&rs=AMzJL3kMVp9_oXKz7iAYdQXQ_C9pHsApCg"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJq_5dIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3m1lqdV3h3i30XaH39iZh5kjfkMIg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMrb5dIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lV_GV26Q4dVwXseFeylhsHjyk_Gg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJu_5dIG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kngknZ_nQIfMaTcfgQwstcguElXg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMvb5dIG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3n9pkK_JTJM0NwEaLeCFxYktTeK4A"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKC_5dIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3n44hr7S_8t2tV_4h2WGFtqGvyRKA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CM_b5dIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nU65quM5Q3UzY1QpIX1M4wIIriOQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKC_5dIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lXKblxIhKPhfy82BKOLs1eca5J9g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CM_b5dIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kNAtlicdXk_Dm8bKkeXTDyBYAfZg"
     }
 };
