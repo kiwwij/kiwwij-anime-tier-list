@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/5f9e6b099c01bbf18b4e88ace7152f54579886e6_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.5
@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 44.0,
+            "playtime_2weeks": 43.2,
             "hours": 3553.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -44,6 +44,14 @@ const steamData = {
             "hours": 3.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3553500/header.jpg",
             "url": "https://store.steampowered.com/app/3553500"
+        },
+        {
+            "appid": 1245620,
+            "name": "ELDEN RING",
+            "playtime_2weeks": 0.6,
+            "hours": 253.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
+            "url": "https://store.steampowered.com/app/1245620"
         },
         {
             "appid": 4081840,
@@ -105,7 +113,7 @@ const steamData = {
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "hours": 252.8,
+            "hours": 253.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620",
             "tags": [
