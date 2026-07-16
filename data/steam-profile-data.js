@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 12.1,
+            "playtime_2weeks": 10.8,
             "hours": 13.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
@@ -48,7 +48,7 @@ const steamData = {
         {
             "appid": 4081840,
             "name": "Escape from Yandere",
-            "playtime_2weeks": 1.1,
+            "playtime_2weeks": 1.0,
             "hours": 1.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4081840/header.jpg",
             "url": "https://store.steampowered.com/app/4081840"
