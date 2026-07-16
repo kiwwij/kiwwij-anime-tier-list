@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/5f9e6b099c01bbf18b4e88ace7152f54579886e6_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.5
@@ -48,18 +48,10 @@ const steamData = {
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "playtime_2weeks": 0.6,
-            "hours": 253.4,
+            "playtime_2weeks": 1.6,
+            "hours": 254.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
-        },
-        {
-            "appid": 4081840,
-            "name": "Escape from Yandere",
-            "playtime_2weeks": 0.5,
-            "hours": 1.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4081840/header.jpg",
-            "url": "https://store.steampowered.com/app/4081840"
         },
         {
             "appid": 1313140,
@@ -113,7 +105,7 @@ const steamData = {
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "hours": 253.4,
+            "hours": 254.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620",
             "tags": [
