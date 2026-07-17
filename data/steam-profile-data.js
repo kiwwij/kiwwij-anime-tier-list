@@ -48,7 +48,7 @@ const steamData = {
         {
             "appid": 3553500,
             "name": "SIGame",
-            "playtime_2weeks": 3.7,
+            "playtime_2weeks": 2.9,
             "hours": 3.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3553500/header.jpg",
             "url": "https://store.steampowered.com/app/3553500"
