@@ -30,20 +30,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1903340"
         },
         {
+            "appid": 1245620,
+            "name": "ELDEN RING",
+            "playtime_2weeks": 5.2,
+            "hours": 257.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
+            "url": "https://store.steampowered.com/app/1245620"
+        },
+        {
             "appid": 1905180,
             "name": "OBS Studio",
             "playtime_2weeks": 4.3,
             "hours": 191.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
-        },
-        {
-            "appid": 1245620,
-            "name": "ELDEN RING",
-            "playtime_2weeks": 4.2,
-            "hours": 256.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
-            "url": "https://store.steampowered.com/app/1245620"
         },
         {
             "appid": 3553500,
@@ -105,7 +105,7 @@ const steamData = {
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "hours": 256.9,
+            "hours": 257.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620",
             "tags": [
