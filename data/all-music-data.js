@@ -5965,6 +5965,12 @@ const musicData = [
         "duration": "3:22"
     },
     {
+        "title": "Кащенко, whyfall, Крайп, ФОРТИ - Рыжая давалка | 2025",
+        "artist": "SILK",
+        "playlist": "Dead inside",
+        "duration": "1:37"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6825,23 +6831,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 900,
-    "totalDurationSec": 196844,
+    "totalDurationSec": 196941,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMCS6tIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj8mNDSBg&rs=AMzJL3logkJREbvEdaRseKy96-M0m_bYpg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJ-r6tIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj8mNDSBg&rs=AMzJL3kbvyGwAoGQa9UJJF4lLwO4XfQsUg"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMCS6tIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3l17sf1l7VeFuSs7RN0Uh260_krGw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJ-r6tIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mJHbdIUFL0GE4eEVuLVst2W0habw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMGS6tIG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nIJ3W7XCZ5_wX66M9Eu11gMD9_0A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJ-r6tIG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lpMF4hEoI8xXJ8FrA7HMNP-2XZnQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMSS6tIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mAGO-yva7F3psqrcK45YhwrH0AsA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKWr6tIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3njiMEzu7n8YG72XlV3FBFA4qcyFQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMWS6tIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kPSrdOke4vTQPf-ehIQvi4p_e6eg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKWr6tIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3neh-LH-bBFx9wa52pS37WIrIYebQ"
     }
 };
