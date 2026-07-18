@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import sys
 from playwright.sync_api import sync_playwright
 
 PROFILE_URL = "https://ru.yummyani.me/users/id114344"
@@ -20,7 +21,7 @@ def main():
         try:
             page.goto(PROFILE_URL, timeout=30000)
             
-            print("⏳ Ожидание загрузки статистики (может занять пару секунд)...")
+            print("⏳ Ожидание загрузки статистики...")
             page.wait_for_selector("text='Время продолжительности эпизодов'", timeout=15000)
             
             clean_text = page.locator("body").inner_text()
@@ -32,7 +33,6 @@ def main():
             if block_index != -1:
                 print("✅ Найден нужный блок. Анализируем...")
                 block_text = clean_text[block_index : block_index + 250]
-                
                 matches = re.findall(r'(\d+)\s*[чЧ]', block_text)
                 
                 if matches:
@@ -58,6 +58,7 @@ def main():
 
         except Exception as e:
             print(f"❌ Ошибка парсинга: {e}")
+            sys.exit(1)
         finally:
             browser.close()
 
