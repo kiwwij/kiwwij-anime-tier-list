@@ -12,36 +12,25 @@ project_root = os.path.dirname(script_dir)
 output_path = os.path.join(project_root, "data", OUTPUT_FILENAME)
 
 def main():
-    print("🚀 Запуск браузера для сбора данных с YummyAnime...")
-    
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
+        context = browser.new_context(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+        page = context.new_page()
         
         try:
-            page.goto(PROFILE_URL, timeout=30000)
+            print("🚀 Переход на страницу...")
+            page.goto(PROFILE_URL, timeout=40000)
             
-            print("⏳ Ожидание загрузки статистики...")
-            page.wait_for_selector("text='Время продолжительности эпизодов'", timeout=15000)
+            print("⏳ Ожидание статистики...")
+            page.wait_for_selector(".xU", timeout=25000)
             
             clean_text = page.locator("body").inner_text()
+
+            matches = re.findall(r'(\d+)\s*ч', clean_text)
             
-            hours = 0
-            block_keyword = "Время продолжительности эпизодов"
-            block_index = clean_text.find(block_keyword)
+            hours = max(map(int, matches)) if matches else 0
             
-            if block_index != -1:
-                print("✅ Найден нужный блок. Анализируем...")
-                block_text = clean_text[block_index : block_index + 250]
-                matches = re.findall(r'(\d+)\s*[чЧ]', block_text)
-                
-                if matches:
-                    hours = max(map(int, matches))
-                    print(f"✅ Найдено часов: {hours}")
-                else:
-                    print("⚠️ Не удалось найти цифры внутри блока.")
-            else:
-                print("⚠️ Блок 'Время продолжительности эпизодов' не найден.")
+            print(f"✅ Найдено часов: {hours}")
 
             anime_data = {
                 "totalHours": hours,
@@ -53,11 +42,11 @@ def main():
             os.makedirs(os.path.dirname(output_path), exist_ok=True)
             with open(output_path, "w", encoding="utf-8") as f:
                 f.write(js_content)
-                
-            print(f"✅ Данные успешно сохранены в {OUTPUT_FILENAME}")
+            print(f"✅ Файл сохранен.")
 
         except Exception as e:
-            print(f"❌ Ошибка парсинга: {e}")
+            page.screenshot(path="error_screenshot.png")
+            print(f"❌ Ошибка: {e}")
             sys.exit(1)
         finally:
             browser.close()
