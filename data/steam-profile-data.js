@@ -24,8 +24,8 @@ const steamData = {
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "playtime_2weeks": 11.2,
-            "hours": 264.0,
+            "playtime_2weeks": 12.2,
+            "hours": 265.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
         },
@@ -105,7 +105,7 @@ const steamData = {
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "hours": 264.0,
+            "hours": 265.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620",
             "tags": [
