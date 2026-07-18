@@ -80,16 +80,16 @@ if (typeof tierListData !== 'undefined') {
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1086940/",
                 },
                 {
+                    title: "Clair Obscur: Expedition 33",
+                    review: "Ревью - ",
+                },
+                {
                     title: "Dark Souls: Remastered",
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/570940/",
                 },
                 {
                     title: "Dark Souls II: Scholar of the First Sin",
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/335300/",
-                },
-                {
-                    title: "Clair Obscur: Expedition 33",
-                    review: "Ревью - ",
                 },
                 {
                     title: "CODE VEIN",

@@ -15,6 +15,15 @@ const genreTranslations = {
     "Demons": "Демоны", "Historical": "Историческое", "Samurai": "Самураи", "Space": "Космос", "Police": "Полиция", "Dementia": "Безумие", "Kids": "Дети", "Gore": "Гуро", "Parody": "Пародия", "Hentai": "Хентай", "Family": "Семья"
 };
 
+function declension(number, words) {
+    const value = Math.abs(number) % 100;
+    const num = value % 10;
+    if (value > 10 && value < 20) return words[2];
+    if (num > 1 && num < 5) return words[1];
+    if (num === 1) return words[0];
+    return words[2];
+}
+
 const elements = {
     totalCount: document.getElementById('totalCount'),
     processedCount: document.getElementById('processedCount'),
@@ -50,6 +59,22 @@ document.addEventListener('DOMContentLoaded', () => {
     setupModalEvents();
     setupChartToggles();
     
+    if (typeof yummyAnimeData !== 'undefined' && yummyAnimeData.totalHours > 0) {
+        const hoursElement = document.getElementById('yummyHoursCounter');
+        const textElement = document.getElementById('yummyTextCounter');
+        
+        if (hoursElement && textElement) {
+            const hours = yummyAnimeData.totalHours;
+            const days = Math.round(hours / 24);
+            
+            const hoursWord = declension(hours, ['час', 'часа', 'часов']);
+            const daysWord = declension(days, ['день', 'дня', 'дней']);
+            
+            hoursElement.textContent = hours;
+            textElement.innerHTML = `${hoursWord} ≈ ${days} ${daysWord}`;
+        }
+    }
+
     if (elements.toggleGenresBtn) {
         elements.toggleGenresBtn.addEventListener('click', () => {
             showAllGenres = !showAllGenres;
