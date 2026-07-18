@@ -410,7 +410,7 @@ const musicData = [
     },
     {
         "title": "spiral",
-        "artist": "LONGMAN - Topic",
+        "artist": "LONGMAN",
         "playlist": "Off Screen",
         "duration": "3:52"
     },
@@ -506,7 +506,7 @@ const musicData = [
     },
     {
         "title": "Believe in you",
-        "artist": "nonoc - Topic",
+        "artist": "nonoc",
         "playlist": "Off Screen",
         "duration": "4:40"
     },
@@ -518,7 +518,7 @@ const musicData = [
     },
     {
         "title": "Sing My Pleasure",
-        "artist": "Vivy (Vo.Kairi Yagi) - Topic",
+        "artist": "Vivy (Vo.Kairi Yagi)",
         "playlist": "Off Screen",
         "duration": "4:50"
     },
@@ -619,8 +619,8 @@ const musicData = [
         "duration": "3:13"
     },
     {
-        "title": "Yofukashino Uta",
-        "artist": "Creepy Nuts - Topic",
+        "title": "よふかしのうた - Yofukashino Uta",
+        "artist": "Creepy Nuts",
         "playlist": "Off Screen",
         "duration": "3:58"
     },
@@ -692,7 +692,7 @@ const musicData = [
     },
     {
         "title": "the WORLD",
-        "artist": "NIGHTMARE - Topic",
+        "artist": "NIGHTMARE",
         "playlist": "Off Screen",
         "duration": "3:55"
     },
@@ -703,8 +703,8 @@ const musicData = [
         "duration": "4:03"
     },
     {
-        "title": "残酷な天使のテーゼ",
-        "artist": "Yoko Takahashi - Topic",
+        "title": "残酷な天使のテーゼ - Zankoku na Tenshi no Thesis",
+        "artist": "Yoko Takahashi",
         "playlist": "Off Screen",
         "duration": "4:06"
     },
@@ -6842,18 +6842,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNLu79IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj8mNDSBg&rs=AMzJL3mzchPDbkT3VMSCw6sK7chDDQ4rbQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLWA8NIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj8mNDSBg&rs=AMzJL3nGDxMdmOXdWKzH1lRMGZiFrNPt0A"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNPu79IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3niu2Jm0yHGUSvegcOmZFKdxG_g6Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLWA8NIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mgUD3IeXP_ewKtwjIiTp943_2OEg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNTu79IG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kmeT0d2fqffMDy_evMAkMsEcmf-Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CLaA8NIG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lQ7v6QAjJoG_KxD0-8Jd15AIvbpg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNju79IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mg7t1I_1c0qr3eJ5WOff3-yf4wKA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLqA8NIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3l82SRLD9QUYqeArhipXI8PLAp8fw"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNnu79IG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mpDC-x4j2hgopoTf2dg_G0VYflzw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLqA8NIG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kDHrkNFKzxRX_ZLQYkCBClUk59UA"
     }
 };
