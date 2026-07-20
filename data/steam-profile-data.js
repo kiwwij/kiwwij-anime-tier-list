@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/1297e4bb539badaf2d4e54feb659ae9f7137c03e_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107",
+        "status": "In Game",
+        "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.5
     },
@@ -16,8 +16,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 38.9,
-            "hours": 3557.3,
+            "playtime_2weeks": 39.4,
+            "hours": 3557.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -46,20 +46,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1905180"
         },
         {
-            "appid": 3553500,
-            "name": "SIGame",
-            "playtime_2weeks": 1.2,
-            "hours": 3.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3553500/header.jpg",
-            "url": "https://store.steampowered.com/app/3553500"
-        },
-        {
             "appid": 1313140,
             "name": "Cult of the Lamb",
             "playtime_2weeks": 0.5,
             "hours": 0.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/header.jpg",
             "url": "https://store.steampowered.com/app/1313140"
+        },
+        {
+            "appid": 3553500,
+            "name": "SIGame",
+            "playtime_2weeks": 0.2,
+            "hours": 3.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3553500/header.jpg",
+            "url": "https://store.steampowered.com/app/3553500"
         },
         {
             "appid": 1145350,
@@ -82,7 +82,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3557.3,
+            "hours": 3557.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
