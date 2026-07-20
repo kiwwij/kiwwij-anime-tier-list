@@ -16,16 +16,16 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 39.4,
-            "hours": 3557.8,
+            "playtime_2weeks": 39.8,
+            "hours": 3558.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "playtime_2weeks": 17.4,
-            "hours": 270.2,
+            "playtime_2weeks": 17.9,
+            "hours": 270.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
         },
@@ -54,14 +54,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1313140"
         },
         {
-            "appid": 3553500,
-            "name": "SIGame",
-            "playtime_2weeks": 0.2,
-            "hours": 3.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3553500/header.jpg",
-            "url": "https://store.steampowered.com/app/3553500"
-        },
-        {
             "appid": 1145350,
             "name": "Hades II",
             "playtime_2weeks": 0.1,
@@ -82,7 +74,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3557.8,
+            "hours": 3558.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
@@ -105,7 +97,7 @@ const steamData = {
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "hours": 270.2,
+            "hours": 270.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620",
             "tags": [
