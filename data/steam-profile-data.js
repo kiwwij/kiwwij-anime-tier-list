@@ -32,8 +32,8 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 13.5,
-            "hours": 21.4,
+            "playtime_2weeks": 15.1,
+            "hours": 22.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
         },
@@ -44,6 +44,14 @@ const steamData = {
             "hours": 191.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
+        },
+        {
+            "appid": 1222140,
+            "name": "Detroit: Become Human",
+            "playtime_2weeks": 0.6,
+            "hours": 0.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222140/header.jpg",
+            "url": "https://store.steampowered.com/app/1222140"
         },
         {
             "appid": 1313140,
@@ -137,7 +145,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Бесплатные"
             ]
         },
         {
