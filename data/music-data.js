@@ -259,9 +259,14 @@ const musicData = [
         "title": "прости я не знаю",
         "artist": "СЕРЕГА ПИРАТ",
         "playlist": "Main"
+    },
+    {
+        "title": "misery.",
+        "artist": "pupsies",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 21,
-    "totalDurationSec": 6854
+    "totalDurationSec": 7021
 };
