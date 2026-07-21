@@ -32,8 +32,8 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 15.1,
-            "hours": 22.9,
+            "playtime_2weeks": 16.1,
+            "hours": 23.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
         },
@@ -48,8 +48,8 @@ const steamData = {
         {
             "appid": 1222140,
             "name": "Detroit: Become Human",
-            "playtime_2weeks": 0.6,
-            "hours": 0.6,
+            "playtime_2weeks": 1.2,
+            "hours": 1.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222140/header.jpg",
             "url": "https://store.steampowered.com/app/1222140"
         },
