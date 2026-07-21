@@ -169,7 +169,7 @@ function renderTierList() {
     const searchResultsContainer = document.getElementById('searchResultsContainer');
 
     if (searchContainer) {
-        if (category === 'Энергетики' || category.includes('Re:Zero')) {
+        if (category === 'Энергетики' || category.includes('Re:Zero') || type === 'ranobe' || category.includes('Реинкарнация безработного')) {
             searchInput.disabled = true;
             searchInput.placeholder = "Поиск недоступен";
             searchInput.value = '';
@@ -466,7 +466,8 @@ const REZERO_COMMON_SOUNDS = [
     'returne_to_death_1.mp3',
     'returne_to_death_2.mp3',
     'returne_to_death_3.mp3',
-    'returne_to_death_4.mp3'
+    'returne_to_death_4.mp3',
+    'returne_to_death_5.mp3'
 ];
 
 const REZERO_RARE_SOUND = 'returne_to_death_meme.mp3';
@@ -625,7 +626,9 @@ if (searchInput && searchResultsContainer && clearBtn) {
             if (
                 type === 'game' || 
                 categoryName === 'Энергетики' || 
-                categoryName.includes('Re:Zero')
+                categoryName.includes('Re:Zero') ||
+                type === 'ranobe' ||
+                categoryName.includes('Реинкарнация безработного')
             ) {
                 continue;
             }
@@ -650,7 +653,27 @@ if (searchInput && searchResultsContainer && clearBtn) {
             });
         }
 
-        if (results.length === 0) {
+        const uniqueResultsMap = new Map();
+
+        results.forEach(res => {
+            const key = res.item.title;
+            
+            if (uniqueResultsMap.has(key)) {
+                const existingRes = uniqueResultsMap.get(key);
+                const currentYear = parseInt(res.year) || 0;
+                const existingYear = parseInt(existingRes.year) || 0;
+                
+                if (currentYear > existingYear) {
+                    uniqueResultsMap.set(key, res);
+                }
+            } else {
+                uniqueResultsMap.set(key, res);
+            }
+        });
+
+        const finalResults = Array.from(uniqueResultsMap.values());
+
+        if (finalResults.length === 0) {
             searchResultsContainer.innerHTML = '<div class="search-empty">Ничего не найдено 😔</div>';
             return;
         }
@@ -660,7 +683,7 @@ if (searchInput && searchResultsContainer && clearBtn) {
             'C': '#22c55e', 'D': '#3b82f6', 'E': '#a855f7', 'F': '#4b5563'
         };
 
-        results.forEach(res => {
+        finalResults.forEach(res => {
             const card = document.createElement('div');
             card.className = 'search-card';
 

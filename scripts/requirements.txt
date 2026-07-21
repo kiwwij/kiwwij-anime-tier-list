@@ -1,3 +1,2 @@
 ytmusicapi
 requests
-playwright

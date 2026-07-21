@@ -56,12 +56,12 @@ if (typeof tierListData !== 'undefined') {
                     review: "Сюжет ремейка 7-ой финалки крутой, но из-за того что она разделена на части, но не могу всю серию поставить в 1 ряд. 2-ая часть лучше 1-ой. Ревью - https://steamcommunity.com/id/serhiosergey/recommended/2909400/",
                 },
                 {
-                    title: "Stellar Blade",
-                    review: "Эта игра выше других соулсов только, потому что я там играл за красивую женщину, и был +- нормальный сюжет. Но с точки зрения кайфа от геймплея Lies of P и Dark Souls I-II покруче. Ревью - https://steamcommunity.com/id/serhiosergey/recommended/3489700/",
-                },
-                {
                     title: "Lies of P",
                     review: "Ниже Евы только из-за персонажа. Геймплей ближе к даркам, что мне более приятно. Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1627720/",
+                },
+                {
+                    title: "Clair Obscur: Expedition 33",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1903340/",
                 },
                 {
                     title: "Dark Souls III",
@@ -80,20 +80,20 @@ if (typeof tierListData !== 'undefined') {
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1086940/",
                 },
                 {
-                    title: "Clair Obscur: Expedition 33",
-                    review: "Ревью - ",
+                    title: "Stellar Blade",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/3489700/",
                 },
                 {
                     title: "Dark Souls: Remastered",
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/570940/",
                 },
                 {
-                    title: "Dark Souls II: Scholar of the First Sin",
-                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/335300/",
-                },
-                {
                     title: "CODE VEIN",
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/678960/",
+                },
+                {
+                    title: "Dark Souls II: Scholar of the First Sin",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/335300/",
                 },
                 {
                     title: "CRISIS CORE –FINAL FANTASY VII– REUNION",
@@ -186,6 +186,10 @@ if (typeof tierListData !== 'undefined') {
                     review: "Ревью - https://steamcommunity.com/profiles/76561199512523461/recommended/2215430/",
                 },
                 {
+                    title: "Lords of the Fallen",
+                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1501750/",
+                },
+                {
                     title: "Shadow of the Tomb Raider",
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/750920/",
                 },
@@ -205,10 +209,6 @@ if (typeof tierListData !== 'undefined') {
                     title: "Subnautica 2",
                     review: "Играли с другом, по началу было не понятно, но спустя пару часиков понравилось. Играли почти с самого релиза, так что контента было не так много, но всё равно достаточно.",
                     img: "games/Subnautica_2.jpg",
-                },
-                {
-                    title: "Lords of the Fallen",
-                    review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1501750/",
                 },
                 {
                     title: "Hollow Knight",
@@ -285,6 +285,14 @@ if (typeof tierListData !== 'undefined') {
                     review: "",
                 },
                 {
+                    title: "Grounded",
+                    review: "",
+                },
+                {
+                    title: "Kingdom two Crowns",
+                    review: "",
+                },
+                {
                     title: "Uno",
                     review: "",
                 },
@@ -298,14 +306,6 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "Pummel Party",
-                    review: "",
-                },
-                {
-                    title: "Grounded",
-                    review: "",
-                },
-                {
-                    title: "Kingdom two Crowns",
                     review: "",
                 },
                 {
@@ -393,10 +393,6 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "We Were Here Forever",
                     review: "",
-                },
-                {
-                    title: "Sally Face",
-                    review: "Смотреть видосы интереснее, чем играть самому.",
                 },
                 {
                     title: "Trine 4: The Nightmare Prince",
@@ -498,6 +494,10 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "Resident Evil 3",
                     review: "Я уже устал от резиков, так что дропнул эту часть, но она не самая плохая.",
+                },
+                {
+                    title: "Sally Face",
+                    review: "Смотреть видосы интереснее, чем играть самому.",
                 },
                 {
                     title: "Reus",
