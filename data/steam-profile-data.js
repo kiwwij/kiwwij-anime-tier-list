@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 40.4,
+            "playtime_2weeks": 40.0,
             "hours": 3559.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -48,8 +48,8 @@ const steamData = {
         {
             "appid": 1222140,
             "name": "Detroit: Become Human",
-            "playtime_2weeks": 1.2,
-            "hours": 1.2,
+            "playtime_2weeks": 2.3,
+            "hours": 2.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222140/header.jpg",
             "url": "https://store.steampowered.com/app/1222140"
         },
