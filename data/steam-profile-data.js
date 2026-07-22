@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 40.0,
+            "playtime_2weeks": 38.8,
             "hours": 3559.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -24,8 +24,8 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 25.8,
-            "hours": 33.6,
+            "playtime_2weeks": 27.2,
+            "hours": 35.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
         },
