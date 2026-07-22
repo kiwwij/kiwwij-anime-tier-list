@@ -24,8 +24,8 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 27.2,
-            "hours": 35.1,
+            "playtime_2weeks": 28.8,
+            "hours": 36.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
         },
@@ -62,20 +62,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1313140"
         },
         {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.1,
+            "hours": 23.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
+        },
+        {
             "appid": 1145350,
             "name": "Hades II",
             "playtime_2weeks": 0.1,
             "hours": 0.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145350/header.jpg",
             "url": "https://store.steampowered.com/app/1145350"
-        },
-        {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.1,
-            "hours": 23.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
