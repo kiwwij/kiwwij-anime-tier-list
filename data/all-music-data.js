@@ -1615,12 +1615,6 @@ const musicData = [
         "duration": "2:41"
     },
     {
-        "title": "Следующая станция",
-        "artist": "suramura",
-        "playlist": "Dead inside",
-        "duration": "2:50"
-    },
-    {
         "title": "Когда ты умрешь",
         "artist": "нексюша",
         "playlist": "Dead inside",
@@ -3431,12 +3425,6 @@ const musicData = [
         "artist": "Lemaier",
         "playlist": "Dead inside",
         "duration": "3:04"
-    },
-    {
-        "title": "𝙫𝙞𝙙𝙚𝙤𝙘𝙡𝙪𝙗 - 𝙍𝙊𝙄 | 𝙄𝙉𝙎𝙏𝙍𝙐𝙈𝙀𝙉𝙏𝘼𝙇 | 𝘼𝙨𝙪𝙠𝙖 - 𝙀𝙫𝙖𝙣𝙜𝙚𝙡𝙞𝙤𝙣 [𝙏𝙞𝙠𝙏𝙤𝙠 𝙀𝙙𝙞𝙩]",
-        "artist": "𝕻𝖚𝖒𝖕",
-        "playlist": "Dead inside",
-        "duration": "3:35"
     },
     {
         "title": "Surf Curse - Freaks [Official Audio]",
@@ -6855,23 +6843,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 900,
-    "totalDurationSec": 197734,
+    "totalDurationSec": 197349,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMCPiNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj8mNDSBg&rs=AMzJL3kklwnzxaVTOAe1SqQnTMCXfyXP7A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COHIiNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj8mNDSBg&rs=AMzJL3k4CyJzwUGBNiQmLMJCObyoqdkUDA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMCPiNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lQp9J5fHRFjROJkpE8D2sTyHGLEw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COLIiNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nmcrkjClOrKA19hpeOSzXG_1fJ_A"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMGPiNMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3l4cDIYfv1GSTYjFjMNjTzY6MoxfQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=COLIiNMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nUhn78r4gMiq75Vq-r5MBPEoz2HA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMWPiNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kJ1_T5FYji99-M_-lP5ZKBRW92Fg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CObIiNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lF5Y_GsqvC6jzebQCzbpWgTR6Gng"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMWPiNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mN6grQ8Xt9cofrid8zRLWszH45Kw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COfIiNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kA7ybR57klAqobtpOMm47ERG5uCA"
     }
 };
