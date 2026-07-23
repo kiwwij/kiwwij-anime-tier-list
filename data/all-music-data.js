@@ -1213,12 +1213,6 @@ const musicData = [
         "duration": "3:18"
     },
     {
-        "title": "\"Позови меня с собой\". Алла Пугачева",
-        "artist": "VieParadis",
-        "playlist": "Dead inside",
-        "duration": "4:21"
-    },
-    {
         "title": "молчи",
         "artist": "Кис-Кис",
         "playlist": "Dead inside",
@@ -2527,12 +2521,6 @@ const musicData = [
         "duration": "2:59"
     },
     {
-        "title": "Прощание",
-        "artist": "Три дня дождя",
-        "playlist": "Dead inside",
-        "duration": "3:57"
-    },
-    {
         "title": "Дора – Младшая сестра [treepside remix] (Ремикс, 2022)",
         "artist": "Mentrez Music",
         "playlist": "Dead inside",
@@ -3269,12 +3257,6 @@ const musicData = [
         "artist": "В'ячеслав Кукоба",
         "playlist": "Dead inside",
         "duration": "3:21"
-    },
-    {
-        "title": "Eban'ko — Рома",
-        "artist": "Eban'ko",
-        "playlist": "Dead inside",
-        "duration": "3:37"
     },
     {
         "title": "Courtesy Call",
@@ -6843,23 +6825,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 900,
-    "totalDurationSec": 197349,
+    "totalDurationSec": 196634,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COHIiNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj8mNDSBg&rs=AMzJL3k4CyJzwUGBNiQmLMJCObyoqdkUDA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLCIidMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj8mNDSBg&rs=AMzJL3mLiV67edSiSKvunkrLd4TSUVAkog"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COLIiNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nmcrkjClOrKA19hpeOSzXG_1fJ_A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLCIidMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3n1YvdsL6TBAUmFLhXCOH8PpluSkg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=COLIiNMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nUhn78r4gMiq75Vq-r5MBPEoz2HA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CLGIidMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nIGFj-PXdVVnVa7pJPQKCMJaV0ww"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CObIiNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lF5Y_GsqvC6jzebQCzbpWgTR6Gng"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLWIidMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3l49MMATM8gOFy-NPCMyMsUakEGPQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COfIiNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kA7ybR57klAqobtpOMm47ERG5uCA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLaIidMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nd7R56uvFT2x6mFSLgv-ZCAusY1A"
     }
 };
