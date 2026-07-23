@@ -10,22 +10,22 @@ const steamData = {
         "age": 6.5
     },
     "stats": {
-        "total_games": 292
+        "total_games": 293
     },
     "recent_games": [
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 42.5,
-            "hours": 50.4,
+            "playtime_2weeks": 44.5,
+            "hours": 52.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
         },
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 42.3,
-            "hours": 3565.7,
+            "playtime_2weeks": 42.6,
+            "hours": 3566.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -82,7 +82,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3565.7,
+            "hours": 3566.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
