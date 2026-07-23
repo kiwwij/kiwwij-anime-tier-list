@@ -16,15 +16,15 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 45.5,
-            "hours": 53.4,
+            "playtime_2weeks": 46.5,
+            "hours": 54.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
         },
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 42.6,
+            "playtime_2weeks": 42.4,
             "hours": 3566.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -32,8 +32,8 @@ const steamData = {
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "playtime_2weeks": 21.4,
-            "hours": 274.2,
+            "playtime_2weeks": 21.7,
+            "hours": 274.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
         },
@@ -105,7 +105,7 @@ const steamData = {
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "hours": 274.2,
+            "hours": 274.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620",
             "tags": [
