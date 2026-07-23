@@ -24,8 +24,8 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 33.8,
-            "hours": 41.6,
+            "playtime_2weeks": 35.8,
+            "hours": 43.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
         },
@@ -38,20 +38,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1245620"
         },
         {
+            "appid": 1222140,
+            "name": "Detroit: Become Human",
+            "playtime_2weeks": 3.2,
+            "hours": 3.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222140/header.jpg",
+            "url": "https://store.steampowered.com/app/1222140"
+        },
+        {
             "appid": 1905180,
             "name": "OBS Studio",
             "playtime_2weeks": 2.8,
             "hours": 191.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
-        },
-        {
-            "appid": 1222140,
-            "name": "Detroit: Become Human",
-            "playtime_2weeks": 2.3,
-            "hours": 2.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222140/header.jpg",
-            "url": "https://store.steampowered.com/app/1222140"
         },
         {
             "appid": 1313140,
@@ -145,8 +145,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Экшены",
-                "Бесплатные"
+                "Без жанра"
             ]
         },
         {
