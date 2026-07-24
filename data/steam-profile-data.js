@@ -16,16 +16,16 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 51.3,
-            "hours": 59.1,
+            "playtime_2weeks": 53.3,
+            "hours": 61.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
         },
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 40.6,
-            "hours": 3569.1,
+            "playtime_2weeks": 39.5,
+            "hours": 3569.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -64,8 +64,8 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.1,
-            "hours": 23.2,
+            "playtime_2weeks": 0.3,
+            "hours": 23.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
         },
@@ -82,7 +82,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3569.1,
+            "hours": 3569.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
