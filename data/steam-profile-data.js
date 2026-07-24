@@ -16,16 +16,16 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 56.4,
-            "hours": 64.2,
+            "playtime_2weeks": 57.9,
+            "hours": 65.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
         },
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 39.2,
-            "hours": 3571.5,
+            "playtime_2weeks": 39.7,
+            "hours": 3572.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -82,7 +82,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3571.5,
+            "hours": 3572.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
@@ -295,15 +295,13 @@ const steamData = {
             ]
         },
         {
-            "appid": 1169040,
-            "name": "Necesse",
-            "hours": 65.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
-            "url": "https://store.steampowered.com/app/1169040",
+            "appid": 1903340,
+            "name": "Clair Obscur: Expedition 33",
+            "hours": 65.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
+            "url": "https://store.steampowered.com/app/1903340",
             "tags": [
                 "Экшены",
-                "Приключенческие игры",
-                "Инди",
                 "Ролевые игры"
             ]
         }
