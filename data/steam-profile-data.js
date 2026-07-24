@@ -16,8 +16,8 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 57.9,
-            "hours": 65.7,
+            "playtime_2weeks": 59.4,
+            "hours": 67.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
         },
@@ -32,8 +32,8 @@ const steamData = {
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "playtime_2weeks": 21.9,
-            "hours": 274.7,
+            "playtime_2weeks": 22.9,
+            "hours": 275.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
         },
@@ -64,7 +64,7 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.3,
+            "playtime_2weeks": 0.2,
             "hours": 23.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
@@ -105,7 +105,7 @@ const steamData = {
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "hours": 274.7,
+            "hours": 275.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620",
             "tags": [
@@ -284,22 +284,22 @@ const steamData = {
             ]
         },
         {
-            "appid": 626690,
-            "name": "Sword Art Online: Fatal Bullet",
-            "hours": 65.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/626690/header.jpg",
-            "url": "https://store.steampowered.com/app/626690",
+            "appid": 1903340,
+            "name": "Clair Obscur: Expedition 33",
+            "hours": 67.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
+            "url": "https://store.steampowered.com/app/1903340",
             "tags": [
                 "Экшены",
                 "Ролевые игры"
             ]
         },
         {
-            "appid": 1903340,
-            "name": "Clair Obscur: Expedition 33",
-            "hours": 65.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
-            "url": "https://store.steampowered.com/app/1903340",
+            "appid": 626690,
+            "name": "Sword Art Online: Fatal Bullet",
+            "hours": 65.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/626690/header.jpg",
+            "url": "https://store.steampowered.com/app/626690",
             "tags": [
                 "Экшены",
                 "Ролевые игры"
