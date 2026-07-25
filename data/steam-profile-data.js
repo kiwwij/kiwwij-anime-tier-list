@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/1297e4bb539badaf2d4e54feb659ae9f7137c03e_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.5
@@ -52,6 +52,14 @@ const steamData = {
             "hours": 191.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
+        },
+        {
+            "appid": 2674810,
+            "name": "Dragon's Dogma 2 Character Creator & Storage",
+            "playtime_2weeks": 0.8,
+            "hours": 1.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2674810/header.jpg",
+            "url": "https://store.steampowered.com/app/2674810"
         },
         {
             "appid": 1313140,
