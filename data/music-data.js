@@ -21,11 +21,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "pedobear›⩊‹",
-        "artist": "тёмный принц",
-        "playlist": "Main"
-    },
-    {
         "title": "Деревья, сгнившие до ствола",
         "artist": "Violetta Sokolova",
         "playlist": "Main"
@@ -63,11 +58,6 @@ const musicData = [
     {
         "title": "чёрный шёлк",
         "artist": "3umph",
-        "playlist": "Main"
-    },
-    {
-        "title": "овердоз",
-        "artist": "тёмный принц",
         "playlist": "Main"
     },
     {
@@ -268,5 +258,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 21,
-    "totalDurationSec": 7021
+    "totalDurationSec": 6848
 };
