@@ -25,12 +25,6 @@ const musicData = [
         "duration": "3:02"
     },
     {
-        "title": "pedobear›⩊‹",
-        "artist": "тёмный принц",
-        "playlist": "Main",
-        "duration": "1:24"
-    },
-    {
         "title": "Деревья, сгнившие до ствола",
         "artist": "Violetta Sokolova",
         "playlist": "Main",
@@ -77,12 +71,6 @@ const musicData = [
         "artist": "3umph",
         "playlist": "Main",
         "duration": "1:58"
-    },
-    {
-        "title": "овердоз",
-        "artist": "тёмный принц",
-        "playlist": "Main",
-        "duration": "1:29"
     },
     {
         "title": "шизофрения",
@@ -2203,7 +2191,7 @@ const musicData = [
         "duration": "0:51"
     },
     {
-        "title": "SPIT IN MY FACE! - ThxSoMch | FLCL | AMV",
+        "title": "SPIT IN MY FACE! - ThxSoMch | FLCL",
         "artist": "plz",
         "playlist": "Dead inside",
         "duration": "2:30"
@@ -6837,23 +6825,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 900,
-    "totalDurationSec": 197225,
+    "totalDurationSec": 197052,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPyvmdMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3ngdcFwFePzSPRjPKhruxYXFj6KFw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNW9mdMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lrVamI4LaAC_q9aNsGZOtXaxGtWQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPyvmdMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nEwPa3SCRQygEY_zh_I1DTTCtMEw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNa9mdMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3l6D0k3TRM9vJD_Pc7Rg_4e43v8_A"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CP2vmdMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3n4t2D6DztNT8uIvPtofbcexUFJpA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNa9mdMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mGxGQrVEJZZGiMzPvNm0dez5C9Hw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIGwmdMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3ktV2uqIjvAto3BO4qtYFZ2jlTW1g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNq9mdMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nPEVisCL8Qz3HGjY9lQnLdaaUetA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIKwmdMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mhyTDFNWa9KMvGtQADmNfc3VIf9A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNq9mdMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kSUo3GFp7uOKHKE47jJEifPcxomA"
     }
 };
