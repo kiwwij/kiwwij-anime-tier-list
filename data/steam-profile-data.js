@@ -10,7 +10,7 @@ const steamData = {
         "age": 6.5
     },
     "stats": {
-        "total_games": 293
+        "total_games": 294
     },
     "recent_games": [
         {
@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 38.9,
+            "playtime_2weeks": 37.6,
             "hours": 3580.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
