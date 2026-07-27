@@ -3944,7 +3944,7 @@ const musicData = [
     },
     {
         "title": "Робот",
-        "artist": "t.A.T.u. - Topic",
+        "artist": "t.A.T.u.",
         "playlist": "Dead inside",
         "duration": "3:52"
     },
@@ -3980,7 +3980,7 @@ const musicData = [
     },
     {
         "title": "молчи",
-        "artist": "kyNZai - Topic",
+        "artist": "kyNZai",
         "playlist": "Dead inside",
         "duration": "1:54"
     },
@@ -4016,7 +4016,7 @@ const musicData = [
     },
     {
         "title": "(не) уходи",
-        "artist": "fallen777angel - Topic",
+        "artist": "fallen777angel",
         "playlist": "Dead inside",
         "duration": "1:58"
     },
@@ -4063,7 +4063,7 @@ const musicData = [
         "duration": "1:48"
     },
     {
-        "title": "SQWOZ BAB - ПЫХ ПЫХ (Премьера клипа 2024)",
+        "title": "Пых-Пых",
         "artist": "SQWOZ BAB",
         "playlist": "Dead inside",
         "duration": "2:31"
@@ -4153,7 +4153,7 @@ const musicData = [
         "duration": "3:28"
     },
     {
-        "title": "АПАТІЯ & СТРУКТУРА ЩАСТЯ - ЛІПШИЙ ДЕНЬ [LYRIC VIDEO]",
+        "title": "Ліпший день",
         "artist": "Апатія",
         "playlist": "Dead inside",
         "duration": "2:37"
@@ -4178,7 +4178,7 @@ const musicData = [
     },
     {
         "title": "адреналин",
-        "artist": "erix - Topic",
+        "artist": "erix",
         "playlist": "Dead inside",
         "duration": "2:29"
     },
@@ -4202,7 +4202,7 @@ const musicData = [
     },
     {
         "title": "АНОР ЛОНДО",
-        "artist": "murasame - Topic",
+        "artist": "murasame",
         "playlist": "Dead inside",
         "duration": "1:35"
     },
@@ -4238,7 +4238,7 @@ const musicData = [
     },
     {
         "title": "Правило 34",
-        "artist": "Denks - Topic",
+        "artist": "Denks",
         "playlist": "Dead inside",
         "duration": "3:32"
     },
@@ -4394,7 +4394,7 @@ const musicData = [
     },
     {
         "title": "Сайт",
-        "artist": "Раковая Выхухоль - Topic",
+        "artist": "Раковая Выхухоль",
         "playlist": "Dead inside",
         "duration": "2:26"
     },
@@ -6836,18 +6836,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMHBn9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mxsrWRkKSkXOlPXhqAnaOtIkAC8w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLffn9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kxKOS1vj_9Zb6zOlvB8PrLLm80yg"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMHBn9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mGhhrlpqLc_aqsUOmafklPTiKCjQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLffn9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kgig3bo32u1zBFbbPGJH03ylOcZA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMLBn9MG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3k91jXaHF1R_tB3FtIHXKFhZhYupA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CLffn9MG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mX3qddE05XSLUS1lF7qEPiemuAWg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMfBn9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nhvAvSyjAeDkoM9UDFf15YcrRq_A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLvfn9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kpwpIBVeWFQUjkhDojD0pS8WPnew"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMfBn9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3l4kw1kzXsIVQ7Myj1QK9hLKFuy-w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLvfn9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kqWyMo-cvzIValsOy65_g0TJQtdg"
     }
 };
