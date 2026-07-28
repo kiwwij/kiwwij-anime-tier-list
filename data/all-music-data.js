@@ -805,6 +805,36 @@ const musicData = [
         "duration": "5:14"
     },
     {
+        "title": "04. Maho Minami - Sly",
+        "artist": "Dan",
+        "playlist": "Off Screen",
+        "duration": "2:26"
+    },
+    {
+        "title": "08. Chiemi Kuniyoshi - Genki wo Dashite",
+        "artist": "Dan",
+        "playlist": "Off Screen",
+        "duration": "3:58"
+    },
+    {
+        "title": "09. The Dying Breed feat. Yukio Tanaka - Moon on the Water",
+        "artist": "Dan",
+        "playlist": "Off Screen",
+        "duration": "4:56"
+    },
+    {
+        "title": "21. Koyuki Tanaka & Maho Minami - Moon on the Water",
+        "artist": "Dan",
+        "playlist": "Off Screen",
+        "duration": "3:17"
+    },
+    {
+        "title": "光 - Hikari",
+        "artist": "Yui Sakurai",
+        "playlist": "Off Screen",
+        "duration": "4:01"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -6831,23 +6861,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 900,
-    "totalDurationSec": 197366,
+    "totalDurationSec": 198484,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLXBotMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lgEGc6xRrAkR9cUzuQjAKSYy4aJA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNr5otMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kyjXlxYh2m0kDJIbKVbT-usHZ-QQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLbBotMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mwmS9S8XjbRJtLyq5qKqmjMb9E_w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNr5otMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nXYsscBugC-Ft9M9YZH_TtPomt7A"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CLbBotMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lvpWP7Pfj8foQGVhaTCKt1VdyP6w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNv5otMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3m9wf6yNxFJvkub11OAhffn0N_SeQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLrBotMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mTRF8vBWI7ceFV6_680cuS5ZRFKA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CN_5otMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3k5beAG7X4ka3__9OWuGpNy5ztx1g"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLrBotMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nlie8xwpVWwNQyG1RHJHrKjMsNSA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COD5otMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mhFLShnYnkPqQC7Yuej2c7Js8Gtw"
     }
 };
