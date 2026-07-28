@@ -4490,7 +4490,7 @@ const musicData = [
     },
     {
         "title": "Весь этот мир",
-        "artist": "Russkiy Razmer - Topic",
+        "artist": "Русский Размер",
         "playlist": "Dead inside",
         "duration": "3:45"
     },
@@ -4592,13 +4592,13 @@ const musicData = [
     },
     {
         "title": "Даже если",
-        "artist": "5opka - Topic",
+        "artist": "5opka",
         "playlist": "Dead inside",
         "duration": "2:27"
     },
     {
         "title": "У моєму тихому вирі",
-        "artist": "Smetana Band - Topic",
+        "artist": "Сметана band",
         "playlist": "Dead inside",
         "duration": "4:18"
     },
@@ -4664,7 +4664,7 @@ const musicData = [
     },
     {
         "title": "ee nado x)",
-        "artist": "dj trippie flameboy - Topic",
+        "artist": "dj trippie flameboy",
         "playlist": "Dead inside",
         "duration": "1:45"
     },
@@ -4676,13 +4676,13 @@ const musicData = [
     },
     {
         "title": "unhappy",
-        "artist": "s0rrow - Topic",
+        "artist": "s0rrow",
         "playlist": "Dead inside",
         "duration": "1:39"
     },
     {
         "title": "Не помирай",
-        "artist": "Апатія - Topic",
+        "artist": "Апатія",
         "playlist": "Dead inside",
         "duration": "2:20"
     },
@@ -4736,7 +4736,7 @@ const musicData = [
     },
     {
         "title": "Ляжки (feat. babypills)",
-        "artist": "MIGAS - Topic",
+        "artist": "MIGAS",
         "playlist": "Dead inside",
         "duration": "2:04"
     },
@@ -4838,7 +4838,7 @@ const musicData = [
     },
     {
         "title": "таб***ки",
-        "artist": "Голодный - Topic",
+        "artist": "голодный",
         "playlist": "Dead inside",
         "duration": "1:39"
     },
@@ -4982,7 +4982,7 @@ const musicData = [
     },
     {
         "title": "У батарей",
-        "artist": "nyan.mp3 - Topic",
+        "artist": "nyan.mp3",
         "playlist": "Dead inside",
         "duration": "1:46"
     },
@@ -6007,6 +6007,12 @@ const musicData = [
         "duration": "2:45"
     },
     {
+        "title": "В твоих снах",
+        "artist": "Violetta Sokolova",
+        "playlist": "Dead inside",
+        "duration": "1:44"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6873,23 +6879,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 900,
-    "totalDurationSec": 198814,
+    "totalDurationSec": 198918,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNGvpNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mtRvKJpUF8cg62TfPcdtKF-hSoYw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIzTpNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lLUClYOLwEta1Iy2ryX7Q2SmSRPw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNGvpNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mCDg2k_84IfDYMXUFe4FvMiBjgrw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CIzTpNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3m7VvFXibi8xo_XU4Il59EwG2qA9g"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNKvpNMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mrCWJ4athatXaI50-S-Yt3Xfivfw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CI3TpNMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mSmsRst5YS-ew07kb7saA7xtKwEg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNavpNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3luBZk3JY8qDJ-bCmfUIimFNY68iQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJHTpNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kK9Gh88MKDxF5obkJZCzw1SRtzEA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNevpNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mrN7dwE43M1VOsGQ30rzxInJ1iRw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJHTpNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nxDV9DwMs_IHt5tX7IONrwazkjvA"
     }
 };
