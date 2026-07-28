@@ -254,9 +254,14 @@ const musicData = [
         "title": "misery.",
         "artist": "pupsies",
         "playlist": "Main"
+    },
+    {
+        "title": "VILLIAN, madk1d - ДИНАСТИЯ (official music video)",
+        "artist": "VILLIAN",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 21,
-    "totalDurationSec": 6848
+    "totalDurationSec": 7013
 };
