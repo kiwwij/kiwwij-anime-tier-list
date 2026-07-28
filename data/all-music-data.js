@@ -1195,7 +1195,7 @@ const musicData = [
         "duration": "2:38"
     },
     {
-        "title": "последнее лето",
+        "title": "ooes — последнее лето",
         "artist": "ooes",
         "playlist": "Dead inside",
         "duration": "2:18"
@@ -2761,8 +2761,8 @@ const musicData = [
         "duration": "3:30"
     },
     {
-        "title": "Мой мармеладный (Я не права)",
-        "artist": "Katya Lel",
+        "title": "Катя Лель - Мой мармеладный",
+        "artist": "MAXIM FADEEV",
         "playlist": "Dead inside",
         "duration": "3:21"
     },
@@ -4778,7 +4778,7 @@ const musicData = [
     },
     {
         "title": "Социально болен",
-        "artist": "Ручной Рептилоид",
+        "artist": "Ручной Рептилоид - Topic",
         "playlist": "Dead inside",
         "duration": "2:24"
     },
@@ -6836,18 +6836,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMrroNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nK5COTAOYTkD9cvdRWUtWjBZWhzQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNWbodMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kKMeuPrVAyZnFmdzPnwtc4GxUr4Q"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMrroNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kLxB5r3tdevzAphuSLYg0jHxL7nw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNWbodMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3knZ9m75n6-JuZfEdKQJT8MBONkrQ"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMrroNMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3muMPkae85UT647CarJ3LOg4_z84Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNabodMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kf7H5RMWlGpnMUeZt_pWIjQUjW8g"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CM7roNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mtWmxpBscljnzlUjC8joqO44jeXA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNqbodMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mwLG-JEvKqofGy80RBVSOLvGyndw"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CM_roNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kl45IXm0FZTRIfilmHa2EZSVg5yw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNqbodMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3k_nd2MZt2b6xxnAwT1qwfsJO8dug"
     }
 };
