@@ -307,6 +307,12 @@ const musicData = [
         "duration": "2:47"
     },
     {
+        "title": "VILLIAN, madk1d - ДИНАСТИЯ (official music video)",
+        "artist": "VILLIAN",
+        "playlist": "Main",
+        "duration": "2:45"
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -5995,6 +6001,12 @@ const musicData = [
         "duration": "2:10"
     },
     {
+        "title": "VILLIAN, madk1d - ДИНАСТИЯ (official music video)",
+        "artist": "VILLIAN",
+        "playlist": "Dead inside",
+        "duration": "2:45"
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -6861,23 +6873,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 900,
-    "totalDurationSec": 198484,
+    "totalDurationSec": 198814,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKjIo9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3m2s0cVGY_D2uG6f7MxWKobAflESg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJjno9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mmSB-8dt_4ydrThEIymLg0nfcxkw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKnIo9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3ndGCGnx7uqPlqy5nPdyGL49SD9pA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJjno9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nQBWczhmxdwSctJG8p9KMNzwj62w"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKnIo9MG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3khT35Sma-2kyX947rIdswtEPEjxg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJjno9MG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3k4i41ZP693lYYqiWmY0-dIa71n-w"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CK7Io9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lQT4uItlpgFkOHsbYn3s77_mxbEw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJ3no9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3ll_pQKlPBsRsk5asd7XnRPkXcv5g"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CK7Io9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mhzIahPDa8KugxO069PPvD73w25Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJ3no9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3n4T4hJ8salNqU9xtSufSXqG-rwbg"
     }
 };
