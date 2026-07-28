@@ -4490,7 +4490,7 @@ const musicData = [
     },
     {
         "title": "Весь этот мир",
-        "artist": "Русский Размер",
+        "artist": "Russkiy Razmer - Topic",
         "playlist": "Dead inside",
         "duration": "3:45"
     },
@@ -4592,13 +4592,13 @@ const musicData = [
     },
     {
         "title": "Даже если",
-        "artist": "5opka",
+        "artist": "5opka - Topic",
         "playlist": "Dead inside",
         "duration": "2:27"
     },
     {
         "title": "У моєму тихому вирі",
-        "artist": "Сметана band",
+        "artist": "Smetana Band - Topic",
         "playlist": "Dead inside",
         "duration": "4:18"
     },
@@ -4664,7 +4664,7 @@ const musicData = [
     },
     {
         "title": "ee nado x)",
-        "artist": "dj trippie flameboy",
+        "artist": "dj trippie flameboy - Topic",
         "playlist": "Dead inside",
         "duration": "1:45"
     },
@@ -4676,13 +4676,13 @@ const musicData = [
     },
     {
         "title": "unhappy",
-        "artist": "s0rrow",
+        "artist": "s0rrow - Topic",
         "playlist": "Dead inside",
         "duration": "1:39"
     },
     {
         "title": "Не помирай",
-        "artist": "Апатія",
+        "artist": "Апатія - Topic",
         "playlist": "Dead inside",
         "duration": "2:20"
     },
@@ -4736,7 +4736,7 @@ const musicData = [
     },
     {
         "title": "Ляжки (feat. babypills)",
-        "artist": "MIGAS",
+        "artist": "MIGAS - Topic",
         "playlist": "Dead inside",
         "duration": "2:04"
     },
@@ -4838,7 +4838,7 @@ const musicData = [
     },
     {
         "title": "таб***ки",
-        "artist": "голодный",
+        "artist": "Голодный - Topic",
         "playlist": "Dead inside",
         "duration": "1:39"
     },
@@ -4982,7 +4982,7 @@ const musicData = [
     },
     {
         "title": "У батарей",
-        "artist": "nyan.mp3",
+        "artist": "nyan.mp3 - Topic",
         "playlist": "Dead inside",
         "duration": "1:46"
     },
@@ -6878,18 +6878,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COKepNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kLWUdHdHsvFyH_uQKMANM1iYgqjg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNGvpNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mtRvKJpUF8cg62TfPcdtKF-hSoYw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COKepNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kddaf3hbo9Bpz32r5B5KghXWYRCg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNGvpNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mCDg2k_84IfDYMXUFe4FvMiBjgrw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=COOepNMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mzh0MzhnpOWIL-y5DM1c0WDMP8Vw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNKvpNMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mrCWJ4athatXaI50-S-Yt3Xfivfw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COeepNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lyckXM1Bsq8nLVzAa8cA-xS2DfiQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNavpNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3luBZk3JY8qDJ-bCmfUIimFNY68iQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COiepNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3m2shIlsZIjksmJ3bBgYtFGP30JFw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNevpNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mrN7dwE43M1VOsGQ30rzxInJ1iRw"
     }
 };
