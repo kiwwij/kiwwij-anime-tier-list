@@ -6260,7 +6260,7 @@ const musicData = [
     },
     {
         "title": "Squids",
-        "artist": "Sewerslvt",
+        "artist": "Sewerslvt - Topic",
         "playlist": "Sewerslvt",
         "duration": "5:45"
     },
@@ -6380,7 +6380,7 @@ const musicData = [
     },
     {
         "title": "Purple Hearts In Her Eyes",
-        "artist": "Sewerslvt",
+        "artist": "Sewerslvt - Topic",
         "playlist": "Sewerslvt",
         "duration": "6:35"
     },
@@ -6458,7 +6458,7 @@ const musicData = [
     },
     {
         "title": "sick, twisted, demented",
-        "artist": "Sewerslvt",
+        "artist": "Sewerslvt - Topic",
         "playlist": "Sewerslvt",
         "duration": "4:43"
     },
@@ -6488,7 +6488,7 @@ const musicData = [
     },
     {
         "title": "Euphoric Filth (Cheru's Theme)",
-        "artist": "Sewerslvt",
+        "artist": "Sewerslvt - Topic",
         "playlist": "Sewerslvt",
         "duration": "4:06"
     },
@@ -6524,7 +6524,7 @@ const musicData = [
     },
     {
         "title": "Lychee Ice",
-        "artist": "Cynthoni",
+        "artist": "Cynthoni - Topic",
         "playlist": "Sewerslvt",
         "duration": "2:22"
     },
@@ -6542,7 +6542,7 @@ const musicData = [
     },
     {
         "title": "Dancing Dots",
-        "artist": "Cynthoni",
+        "artist": "Cynthoni - Topic",
         "playlist": "Sewerslvt",
         "duration": "4:45"
     },
@@ -6632,7 +6632,7 @@ const musicData = [
     },
     {
         "title": "Femcels",
-        "artist": "Cynthoni",
+        "artist": "Cynthoni - Topic",
         "playlist": "Sewerslvt",
         "duration": "4:57"
     },
@@ -6644,7 +6644,7 @@ const musicData = [
     },
     {
         "title": "Slowburn",
-        "artist": "Cynthoni",
+        "artist": "Cynthoni - Topic",
         "playlist": "Sewerslvt",
         "duration": "7:08"
     },
@@ -6884,18 +6884,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMeyqNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kLqef-zUgmoFRcMaUjg3EmkIuGkA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKPuqNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mKeqw7eBpxwIU-B-OjLTWveREk9w"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMeyqNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nf5WMxisQJU3QE432mLPX-Ws2Pig"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKPuqNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nvEuWanhqxaf0QRutxTqCPlEYfoA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMeyqNMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lZ39LMUuP1apWlugMdd-vFOoiHsg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKTuqNMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3k4r_bmbkeqkhxY3u8qGRJRrpBMug"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMyyqNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nkIjVzwVXusJWUY-6W-5zI1JF1sA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKjuqNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mSW9FNJMgy0MLd29QxuuJWBuXl2Q"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMyyqNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3ka6Ka67K2RuuGATdoHBLjBDEUAtA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKjuqNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mu36njKyK_H3Q_iLUCOXLi5IoeGA"
     }
 };
