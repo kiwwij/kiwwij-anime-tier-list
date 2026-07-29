@@ -841,6 +841,12 @@ const musicData = [
         "duration": "4:01"
     },
     {
+        "title": "Spider-Man: Across the Spider-Verse | \"Calling\" by Metro Boomin x Nav x A Boogie with Swae Lee",
+        "artist": "Sony Pictures Animation",
+        "playlist": "Off Screen",
+        "duration": "2:00"
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO",
         "playlist": "Dead inside",
@@ -1007,12 +1013,6 @@ const musicData = [
         "artist": "конец солнечных дней",
         "playlist": "Dead inside",
         "duration": "3:41"
-    },
-    {
-        "title": "Эмо хардкор",
-        "artist": "LIDA",
-        "playlist": "Dead inside",
-        "duration": "4:05"
     },
     {
         "title": "Banochka S Okurkami",
@@ -2087,12 +2087,6 @@ const musicData = [
         "artist": "…meоnikа…",
         "playlist": "Dead inside",
         "duration": "1:42"
-    },
-    {
-        "title": "Spider-Man: Across the Spider-Verse | \"Calling\" by Metro Boomin x Nav x A Boogie with Swae Lee",
-        "artist": "Sony Pictures Animation",
-        "playlist": "Dead inside",
-        "duration": "2:00"
     },
     {
         "title": "найтивыход - спектрофобия",
@@ -6873,23 +6867,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 900,
-    "totalDurationSec": 198733,
+    "totalDurationSec": 198488,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJ-tqdMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nPzWqVEkCKoVEigaBpU2SQBiVPTQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COPpqdMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kY4UQR4bYsVaJzryPgUv7A6qB0lA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKCtqdMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mD661bPphPFHaZT5odxXidyVn41g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COPpqdMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kOlyhhtVSxmYnXuv7d4fqKwiryYw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKCtqdMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3m7dcAm8NeLHe2mt7Jo1-vlEqd9JA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=COTpqdMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nxExBFTRNoOuCzOoOYyM6qHQyz3A"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKStqdMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kjMnPwsNubOkl--Js-rVjwxapRyA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COjpqdMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3l07OL-Tee8gLIf98vzT313mqmmhw"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKStqdMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mw_Ddyhg_Oj-tT1Lt7fSz7Tpcsrw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COjpqdMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3neJXWNhZ8QRcwzhWMtlh1TDtu8RA"
     }
 };
