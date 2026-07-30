@@ -259,9 +259,14 @@ const musicData = [
         "title": "VILLIAN, madk1d - ДИНАСТИЯ (official music video)",
         "artist": "VILLIAN",
         "playlist": "Main"
+    },
+    {
+        "title": "9mice, K - Нет Тебя (music video)",
+        "artist": "9mice",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 21,
-    "totalDurationSec": 7013
+    "totalDurationSec": 7234
 };
