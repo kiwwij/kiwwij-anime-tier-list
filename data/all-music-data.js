@@ -3121,12 +3121,6 @@ const musicData = [
         "duration": "3:12"
     },
     {
-        "title": "CUPSIZE – Ты любишь танцевать",
-        "artist": "падик капсайза",
-        "playlist": "Dead inside",
-        "duration": "1:56"
-    },
-    {
         "title": "SSaSke Нарезки x iiRN x h1tn3s - ПЛАН СКАМ (ft. Валюха1950, 5opka) prod. DDAti, Tunixp",
         "artist": "SSaSke Нарезки",
         "playlist": "Dead inside",
@@ -6867,23 +6861,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 903,
-    "totalDurationSec": 198488,
+    "totalDurationSec": 198372,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CN7GrNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3n60FdlHqV1mGx4Ih9dhkjMXWQ1Mg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKb5rNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3n_F08D0-haTqUf-piaDA9yEx0fiA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CN7GrNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mJtNrd9OMFpcWgnTLSCCvw12N8KA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKb5rNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mPn9wcVhQ_S-5rmX1tCKeKSUjllg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CN7GrNMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3k7OXgDC5mNRQDCXPWsOOQeSHLsIg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKf5rNMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kaO75frv2ng2BUOSTG_HpnHgLphQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COLGrNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3k4rCAEz5xvzyjV-Oh9kwzdl83M5Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKv5rNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mRm-AbodJWxAuA7C0jP9oFVTZBIA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COLGrNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mFXm6Hlm-reA7YrX5M0A9sP_wzfA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKv5rNMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3k0gbcFYlNUbbzqmakeyw6cpvcQYA"
     }
 };
