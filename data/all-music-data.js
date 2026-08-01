@@ -2539,12 +2539,6 @@ const musicData = [
         "duration": "2:59"
     },
     {
-        "title": "Дора – Младшая сестра [treepside remix] (Ремикс, 2022)",
-        "artist": "Mentrez Music",
-        "playlist": "Dead inside",
-        "duration": "3:06"
-    },
-    {
         "title": "Princess Chelsea - I Love My Boyfriend Lyrics",
         "artist": "AP Tech",
         "playlist": "Dead inside",
@@ -2771,12 +2765,6 @@ const musicData = [
         "artist": "CLONNEX",
         "playlist": "Dead inside",
         "duration": "1:57"
-    },
-    {
-        "title": "Lida, Серёга Пират – ЧСВ (Сингл, 2024)",
-        "artist": "Mentrez Music",
-        "playlist": "Dead inside",
-        "duration": "3:45"
     },
     {
         "title": "О, Боже, какой мужчина!",
@@ -3517,12 +3505,6 @@ const musicData = [
         "duration": "1:45"
     },
     {
-        "title": "Toxi$, Lida – ТРЯСИ (Сингл, 2024)",
-        "artist": "Mentrez Music",
-        "playlist": "Dead inside",
-        "duration": "2:59"
-    },
-    {
         "title": "сладкая боль",
         "artist": "5mewmet",
         "playlist": "Dead inside",
@@ -3677,12 +3659,6 @@ const musicData = [
         "artist": "CUPSIZE",
         "playlist": "Dead inside",
         "duration": "3:08"
-    },
-    {
-        "title": "Big Baby Tape – Turbo (Majestic) (Сингл, 2024)",
-        "artist": "Mentrez Music",
-        "playlist": "Dead inside",
-        "duration": "2:56"
     },
     {
         "title": "верните в моду любовь × (hardstyle remix by danya hooligan)",
@@ -6861,23 +6837,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 903,
-    "totalDurationSec": 198479,
+    "totalDurationSec": 197713,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLSottMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nwczIXjTVq83fUNULuEuGAds6cLA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COrxttMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3ldHAa0-ZaUoB0mFeDw5wl_x72vNg"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLSottMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3k7SYDHrEGq9wdXCgfvcg9K3ScO8A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COrxttMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mBwTBFJYm23wVfgDIbiy2IG6-ddg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CLWottMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3n3wtlVskSLgDpv_Fa9NAq_2sAWdg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=COrxttMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nPjAXAhuNyFbJbYoXDUU1LCaMC6g"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLiottMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3muXsrNEGIQ3DKzvyeK9iEvvHEM8w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CO7xttMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kRuvNGXG5GdN7pZlEzMBhqJfHyoA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLiottMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mAItYp2E-8_QdPDS3ZnXzHZlSiMw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CO7xttMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lQtty2CMK8mz8R-4_ovTHZXAK3qQ"
     }
 };
