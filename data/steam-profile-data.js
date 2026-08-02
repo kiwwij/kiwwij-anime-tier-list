@@ -56,8 +56,8 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.3,
-            "hours": 23.4,
+            "playtime_2weeks": 0.4,
+            "hours": 23.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
         },
