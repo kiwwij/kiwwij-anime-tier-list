@@ -24,15 +24,15 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 45.1,
-            "hours": 3599.4,
+            "playtime_2weeks": 46.1,
+            "hours": 3600.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "playtime_2weeks": 10.7,
+            "playtime_2weeks": 10.2,
             "hours": 278.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
@@ -74,7 +74,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3599.4,
+            "hours": 3600.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
