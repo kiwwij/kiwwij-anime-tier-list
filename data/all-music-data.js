@@ -367,8 +367,8 @@ const musicData = [
         "duration": "4:07"
     },
     {
-        "title": "光るなら-TV size- - Hikarunara TV Size",
-        "artist": "Goose house",
+        "title": "Hikarunara TV Size",
+        "artist": "Goose house - Topic",
         "playlist": "Off Screen",
         "duration": "1:33"
     },
@@ -416,7 +416,7 @@ const musicData = [
     },
     {
         "title": "ムスビメ",
-        "artist": "大原ゆい子",
+        "artist": "Yuiko Ohara - Topic",
         "playlist": "Off Screen",
         "duration": "4:51"
     },
@@ -650,7 +650,7 @@ const musicData = [
     },
     {
         "title": "茅原実里「みちしるべ」 MV  Full Size 『ヴァイオレット・エヴァーガーデン』ED主題歌 / \"violet-evergarden\" Ending Theme Michishirube",
-        "artist": "Minori Chihara",
+        "artist": "Lantis Channel",
         "playlist": "Off Screen",
         "duration": "4:50"
     },
@@ -709,8 +709,8 @@ const musicData = [
         "duration": "3:55"
     },
     {
-        "title": "遥か彼方 - Haruka Kanata",
-        "artist": "ASIAN KUNG-FU GENERATION",
+        "title": "Haruka Kanata",
+        "artist": "Asian Kung-Fu Generation - Topic",
         "playlist": "Off Screen",
         "duration": "4:03"
     },
@@ -811,8 +811,8 @@ const musicData = [
         "duration": "5:24"
     },
     {
-        "title": "芽吹の唄 - Mebuki no Uta",
-        "artist": "Yuiko Ohara",
+        "title": "芽吹の唄",
+        "artist": "Yuiko Ohara - Topic",
         "playlist": "Off Screen",
         "duration": "5:14"
     },
@@ -6860,18 +6860,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKylw9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3njBFcHN2Yd_hu62RdKIPPt_zsQcw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMvSw9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mfFXyF-PaRFkItZf7vSUtjB6UB3w"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKylw9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mhyIo5GE5kWhZ6H7WyZvNEwJvkhw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMvSw9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nfo-lOYgIbDOvfVHYaEx2QMLe9gA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CK2lw9MG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nhNJ1edJeqvLh8XcJrXrbyRLH3-Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMzSw9MG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lMnn2sV-CVLedYFvAmOqa9NFc9Nw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLGlw9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nB2ezG5w_frJcEStuzlrP751srmw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNHSw9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3l_lkZrIUM7Dl1lM5riA7zvwTTK3g"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLGlw9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3l5GFqArFpFrrRSnKoPsM3PzFORNg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNHSw9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3k6spafflZymdcuEwt7hde2ZAnZaQ"
     }
 };
