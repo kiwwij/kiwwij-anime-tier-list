@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/1297e4bb539badaf2d4e54feb659ae9f7137c03e_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.5
@@ -16,15 +16,15 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 52.3,
-            "hours": 3608.3,
+            "playtime_2weeks": 53.3,
+            "hours": 3609.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 51.8,
+            "playtime_2weeks": 51.4,
             "hours": 69.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
@@ -74,7 +74,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3608.3,
+            "hours": 3609.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
@@ -224,7 +224,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Ролевые игры"
+                "Без жанра"
             ]
         },
         {
