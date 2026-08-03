@@ -367,8 +367,8 @@ const musicData = [
         "duration": "4:07"
     },
     {
-        "title": "Hikarunara TV Size",
-        "artist": "Goose house - Topic",
+        "title": "光るなら-TV size- - Hikarunara TV Size",
+        "artist": "Goose house",
         "playlist": "Off Screen",
         "duration": "1:33"
     },
@@ -416,7 +416,7 @@ const musicData = [
     },
     {
         "title": "ムスビメ",
-        "artist": "Yuiko Ohara - Topic",
+        "artist": "大原ゆい子",
         "playlist": "Off Screen",
         "duration": "4:51"
     },
@@ -650,7 +650,7 @@ const musicData = [
     },
     {
         "title": "茅原実里「みちしるべ」 MV  Full Size 『ヴァイオレット・エヴァーガーデン』ED主題歌 / \"violet-evergarden\" Ending Theme Michishirube",
-        "artist": "Lantis Channel",
+        "artist": "Minori Chihara",
         "playlist": "Off Screen",
         "duration": "4:50"
     },
@@ -709,8 +709,8 @@ const musicData = [
         "duration": "3:55"
     },
     {
-        "title": "Haruka Kanata",
-        "artist": "Asian Kung-Fu Generation - Topic",
+        "title": "遥か彼方 - Haruka Kanata",
+        "artist": "ASIAN KUNG-FU GENERATION",
         "playlist": "Off Screen",
         "duration": "4:03"
     },
@@ -811,8 +811,8 @@ const musicData = [
         "duration": "5:24"
     },
     {
-        "title": "芽吹の唄",
-        "artist": "Yuiko Ohara - Topic",
+        "title": "芽吹の唄 - Mebuki no Uta",
+        "artist": "Yuiko Ohara",
         "playlist": "Off Screen",
         "duration": "5:14"
     },
@@ -2129,12 +2129,6 @@ const musicData = [
         "artist": "ZAMination",
         "playlist": "Dead inside",
         "duration": "4:25"
-    },
-    {
-        "title": "Nightcore - Suzume",
-        "artist": "Plume",
-        "playlist": "Dead inside",
-        "duration": "3:36"
     },
     {
         "title": "Имя 505",
@@ -6855,23 +6849,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 903,
-    "totalDurationSec": 198387,
+    "totalDurationSec": 198171,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMvSw9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mfFXyF-PaRFkItZf7vSUtjB6UB3w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJPiw9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mySPxNeowMasAqq2yf5F5H8HTg-A"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMvSw9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nfo-lOYgIbDOvfVHYaEx2QMLe9gA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJPiw9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3npITvDdNRHes1lwohGsiav2SZndA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMzSw9MG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lMnn2sV-CVLedYFvAmOqa9NFc9Nw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJTiw9MG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3l_fFaby6nKX8v6QXa7AcIfs8gvwg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNHSw9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3l_lkZrIUM7Dl1lM5riA7zvwTTK3g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJniw9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nPQSAHoZ-gktmMBc2lmvvbzNevCQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNHSw9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3k6spafflZymdcuEwt7hde2ZAnZaQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJniw9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lfiwE-0GtObaLRPGFEv4CK8AbdBg"
     }
 };
