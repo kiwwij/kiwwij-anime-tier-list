@@ -1093,7 +1093,7 @@ const musicData = [
         "duration": "2:31"
     },
     {
-        "title": "LITTLE BIG - HYPNODANCER (Official Music Video)",
+        "title": "Hypnodancer",
         "artist": "Little Big",
         "playlist": "Dead inside",
         "duration": "4:36"
@@ -1135,7 +1135,7 @@ const musicData = [
         "duration": "4:48"
     },
     {
-        "title": "Twinky, kirkiimad, nowkie - Герой из аниме prod.LLIIEEDD",
+        "title": "Герой из аниме",
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:48"
@@ -1160,7 +1160,7 @@ const musicData = [
     },
     {
         "title": "Freaks",
-        "artist": "Surf Curse - Topic",
+        "artist": "Surf Curse",
         "playlist": "Dead inside",
         "duration": "2:28"
     },
@@ -1184,7 +1184,7 @@ const musicData = [
     },
     {
         "title": "Степень искренности",
-        "artist": "Volkprod - Topic",
+        "artist": "Volkprod",
         "playlist": "Dead inside",
         "duration": "2:58"
     },
@@ -1238,7 +1238,7 @@ const musicData = [
     },
     {
         "title": "Neurotoxin",
-        "artist": "DEEP-EX-SENSE - Topic",
+        "artist": "DEEP-EX-SENSE",
         "playlist": "Dead inside",
         "duration": "2:38"
     },
@@ -1249,8 +1249,8 @@ const musicData = [
         "duration": "2:18"
     },
     {
-        "title": "Rag'n'Bone Man - Human (Official Video)",
-        "artist": "RagnBoneManVEVO",
+        "title": "Human",
+        "artist": "Rag'n'Bone Man",
         "playlist": "Dead inside",
         "duration": "3:18"
     },
@@ -6848,18 +6848,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPysx9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kiRjUOi2PVZi1MQB10Xu2lqyE4oA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIHax9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3k3nIggZu0u-aIS4mNxpj6hTuNl9A"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPysx9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mjTz5X8rmB34ihsV1CJeOzaMQL_w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CIHax9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lsGyVP_--dqkrOloEb-nlKDat3-w"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CPysx9MG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nQx7Bp1vK2dSDWCctA9uoDeZiIkA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CIHax9MG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lzNvzd3Gsx_6ThFIALOvpEjH7Tkw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIGtx9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3n1jRc5UxvFxhQHq69U7EFMJKpxEg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIXax9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lb8xMAVVh0fegPjDHaRACWm7hgvg"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIGtx9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kRJnPGY-EYMVpa3idG2PA1-D1WOg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIbax9MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3njuKg2KJgi_4lYAItJyWBS5TkXoA"
     }
 };
