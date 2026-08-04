@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/1297e4bb539badaf2d4e54feb659ae9f7137c03e_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.5
@@ -16,15 +16,15 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 55.7,
-            "hours": 3613.9,
+            "playtime_2weeks": 56.2,
+            "hours": 3614.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 42.3,
+            "playtime_2weeks": 40.8,
             "hours": 69.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
@@ -32,7 +32,7 @@ const steamData = {
         {
             "appid": 1245620,
             "name": "ELDEN RING",
-            "playtime_2weeks": 5.6,
+            "playtime_2weeks": 5.2,
             "hours": 278.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
@@ -82,7 +82,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3613.9,
+            "hours": 3614.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
@@ -233,7 +233,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Без жанра"
+                "Ролевые игры"
             ]
         },
         {
