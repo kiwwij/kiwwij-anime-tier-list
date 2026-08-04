@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 46.9,
+            "playtime_2weeks": 45.5,
             "hours": 69.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
@@ -40,7 +40,7 @@ const steamData = {
         {
             "appid": 1222140,
             "name": "Detroit: Become Human",
-            "playtime_2weeks": 2.5,
+            "playtime_2weeks": 2.0,
             "hours": 3.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222140/header.jpg",
             "url": "https://store.steampowered.com/app/1222140"
@@ -232,7 +232,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Без жанра"
+                "Ролевые игры"
             ]
         },
         {
@@ -254,7 +254,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры"
             ]
         },
         {
