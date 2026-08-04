@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 49.0,
+            "playtime_2weeks": 46.9,
             "hours": 69.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
@@ -40,7 +40,7 @@ const steamData = {
         {
             "appid": 1222140,
             "name": "Detroit: Become Human",
-            "playtime_2weeks": 3.2,
+            "playtime_2weeks": 2.5,
             "hours": 3.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222140/header.jpg",
             "url": "https://store.steampowered.com/app/1222140"
@@ -62,10 +62,18 @@ const steamData = {
             "url": "https://store.steampowered.com/app/431960"
         },
         {
+            "appid": 4258630,
+            "name": "Evil School Demo",
+            "playtime_2weeks": 0.2,
+            "hours": 0.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4258630/header.jpg",
+            "url": "https://store.steampowered.com/app/4258630"
+        },
+        {
             "appid": 1905180,
             "name": "OBS Studio",
             "playtime_2weeks": 0.1,
-            "hours": 191.7,
+            "hours": 191.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
         }
@@ -224,7 +232,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Ролевые игры"
+                "Без жанра"
             ]
         },
         {
