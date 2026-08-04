@@ -3,12 +3,10 @@ import os
 import re
 from ytmusicapi import YTMusic
 
-# --- НАСТРОЙКА ПУТЕЙ ---
 script_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(script_dir)
 output_path = os.path.join(project_root, 'data', 'music-data.js')
 
-# --- СКРАПИНГ ---
 yt = YTMusic(language='en')
 
 playlists = [
@@ -28,18 +26,14 @@ for pl in playlists:
     try:
         response = yt.get_playlist(pl["id"], limit=None)
         
-        # --- ПРОСТОЙ ПАРСИНГ ---
-        # Получаем строку (например "12K views" или "12,345 views")
         raw_views = str(response.get('views', '0'))
         
-        # Оставляем ТОЛЬКО цифры (удаляем K, M, views, запятые и т.д.)
         digits_only = re.sub(r'\D', '', raw_views)
         
         clean_views = int(digits_only) if digits_only else 0
         
         total_playlist_views += clean_views
         print(f"Плейлист {pl['name']}: {clean_views} (сырые данные: {raw_views})")
-        # -----------------------
 
         for track in response['tracks']:
             if track.get('title') and track.get('artists'):
@@ -62,7 +56,6 @@ for pl in playlists:
     except Exception as e:
         print(f"Ошибка с плейлистом {pl['name']}: {e}")
 
-# Формируем данные
 stats_obj = {
     "totalViews": total_playlist_views,
     "totalDurationSec": total_duration_seconds

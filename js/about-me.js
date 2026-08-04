@@ -184,12 +184,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (ytBox && socialData.youtube && socialData.youtube.lastVideoId) {
         const videoId = socialData.youtube.lastVideoId;
-        const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`; // превью
+        const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
 
         ytBox.innerHTML = `
             <a href="https://www.youtube.com/watch?v=${videoId}" target="_blank" class="yt-preview-link">
                 <img src="${thumbnailUrl}" alt="YouTube видео" class="yt-preview-img">
-                <div class="yt-play-icon">▶</div>
+                <div class="yt-play-icon"><i class='bx bx-play'></i></div>
             </a>
         `;
     } else if (ytBox) {

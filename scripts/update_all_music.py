@@ -1,6 +1,5 @@
 import json
 import os
-import re
 from ytmusicapi import YTMusic
 
 OUTPUT_FILENAME = 'all-music-data.js'
@@ -30,8 +29,11 @@ def parse_views(view_text):
 def parse_duration(duration_text):
     if not duration_text: return 0
     parts = duration_text.split(':')
-    if len(parts) == 2: return int(parts[0]) * 60 + int(parts[1])
-    elif len(parts) == 3: return int(parts[0]) * 3600 + int(parts[1]) * 60 + int(parts[2])
+    try:
+        if len(parts) == 2: return int(parts[0]) * 60 + int(parts[1])
+        elif len(parts) == 3: return int(parts[0]) * 3600 + int(parts[1]) * 60 + int(parts[2])
+    except ValueError:
+        return 0
     return 0
 
 def main():
@@ -49,9 +51,7 @@ def main():
             response = yt.get_playlist(pl["id"], limit=None)
             
             thumbnails = response.get('thumbnails', [])
-            poster_url = ""
-            if thumbnails:
-                poster_url = thumbnails[-1]['url']
+            poster_url = thumbnails[-1]['url'] if thumbnails else ""
 
             playlists_meta[pl["name"]] = {
                 "poster": poster_url
@@ -62,26 +62,30 @@ def main():
             total_playlist_views += clean_views
             
             for track in response.get('tracks', []):
-                if not track.get('title'): continue
+                if not track.get('title'): 
+                    continue
 
                 seconds = track.get('duration_seconds')
-                if not seconds and 'duration' in track:
+                if not seconds and track.get('duration'):
                     seconds = parse_duration(track['duration'])
                 
-                if seconds: total_duration_seconds += seconds
+                if seconds: 
+                    total_duration_seconds += seconds
 
-                artist_name = "Unknown"
-                if track.get('artists') and len(track['artists']) > 0:
-                    artist_name = track['artists'][0]['name']
+                artists_data = track.get('artists', [])
+                artists_names = [artist['name'] for artist in artists_data if 'name' in artist]
+                
+                final_artist_string = ", ".join(artists_names) if artists_names else "Unknown"
 
                 all_tracks.append({
                     "title": track['title'],
-                    "artist": artist_name,
+                    "artist": final_artist_string,
                     "playlist": pl["name"],
-                    "duration": track.get('duration', '0:00')
+                    "duration": track.get('duration', '0:00'),
+                    "durationSeconds": seconds or 0
                 })
         except Exception as e:
-            print(f"❌ ОШИБКА с {pl['name']}: {e}")
+            print(f"❌ ОШИБКА с плейлистом {pl['name']}: {e}")
 
     stats_obj = {
         "totalViews": total_playlist_views,

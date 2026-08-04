@@ -38,6 +38,11 @@ const lazyLoadObserver = new IntersectionObserver((entries, observer) => {
 
 document.addEventListener('DOMContentLoaded', () => {
     if (typeof tierListData === 'undefined') return;
+    
+    if (typeof tierListData2 !== 'undefined') {
+        Object.assign(tierListData, tierListData2);
+    }
+    
     init();
 });
 

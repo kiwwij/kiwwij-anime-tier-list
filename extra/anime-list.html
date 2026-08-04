@@ -2,1030 +2,489 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мои списки аниме</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <link rel="icon" type="image/x-icon" href="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXE3bTQ5eGphYThrNTYwZDNkbXNucWMyYnljeG14NjRvejZzZTB6bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/OpYV9CBVZOb1S/giphy.gif" />
+
     <style>
-        table td {
-            vertical-align: top;
+        :root {
+            --bg-body: #0f172a;
+            --bg-card: #1e293b;
+            --bg-card-hover: #2a374a;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: rgba(255, 255, 255, 0.1);
+            --accent: #6366f1;
+            
+            --score-masterpiece: #facc15; 
+            --score-good: #22c55e;        
+            --score-mid: #3b82f6;         
+            --score-bad: #ef4444;         
         }
-        table li{
+
+        body.light-theme {
+            --bg-body: #f1f5f9;
+            --bg-card: #ffffff;
+            --bg-card-hover: #e2e8f0;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border-color: #cbd5e1;
+            --accent: #4f46e5;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px 10px;
+            transition: background 0.4s ease, color 0.4s ease;
+        }
+
+        .top-wrapper {
             position: relative;
-            margin-right: 25px;
+            max-width: 1400px;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 25px;
         }
-        table li:not(:has(vote)){
-            margin-right: 0;
+
+        .switch { 
+            position: absolute; 
+            right: 10px; 
+            top: 0;
+            width: 3.5em; 
+            height: 2em; 
         }
-        table li:hover{
-            background: #fff9c9;
-            cursor: pointer;
+        .switch input { opacity: 0; width: 0; height: 0; }
+        .slider { 
+            position: absolute; 
+            cursor: pointer; 
+            top: 0; left: 0; right: 0; bottom: 0; 
+            background-color: #f4f4f5;
+            transition: .4s; 
+            border-radius: 30px; 
         }
-        vote{
+        .slider:before { 
+            position: absolute; 
+            content: ""; 
+            height: 1.4em; width: 1.4em; 
+            border-radius: 50%; 
+            left: 0.3em; top: 50%; 
+            transform: translateY(-50%); 
+            background: linear-gradient(40deg, #ff0080, #ff8c00 70%); 
+            transition: .4s; 
+            box-shadow: 0 0 10px rgba(255, 140, 0, 0.5); 
+        }
+        input:checked + .slider { background-color: #303136; }
+        input:checked + .slider:before { 
+            left: calc(100% - 1.7em);
+            background: transparent; 
+            box-shadow: inset -5px -2px 0px 0px #ffffff, inset -6px -2px 0px 0px #a3dafb; 
+        }
+
+        .header h2 {
+            font-size: 1.8rem;
+            margin: 0 0 5px 0;
+        }
+
+        .header p {
+            color: var(--text-muted);
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        .header a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .search-container {
+            position: relative;
+            max-width: 400px;
+            margin: 15px auto 30px auto;
+        }
+        .search-input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px 35px 10px 15px;
+            background: var(--bg-card);
+            color: var(--text-main);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            font-family: inherit;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        .search-input:focus { border-color: var(--accent); }
+        .clear-search-btn {
             position: absolute;
-            right: -34px;
+            right: 10px;
             top: 50%;
             transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.4rem;
+            cursor: pointer;
+            display: none;
         }
-        #dialogs{
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 15px;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .list-column {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            background: rgba(0, 0, 0, 0.1);
+            padding: 12px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+
+        body.light-theme .list-column {
+            background: rgba(0, 0, 0, 0.02);
+        }
+
+        .column-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-bottom: 5px;
+        }
+
+        .column-header h3 {
+            margin: 0;
+            font-size: 1.15rem;
+        }
+
+        .stats-summary {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .anime-card {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg-card);
+            padding: 8px 10px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: 0.2s ease;
+            margin-bottom: 6px;
+        }
+
+        .anime-card:hover {
+            border-color: var(--accent);
+            background: var(--bg-card-hover);
+        }
+
+        .anime-info {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding-right: 10px;
+        }
+
+        .anime-title {
+            font-weight: 600;
+            font-size: 0.85rem;
+            line-height: 1.3;
+        }
+
+        .fav-icon {
+            color: #ef4444;
+            font-size: 1.1rem;
+        }
+
+        .anime-score {
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 800;
+            font-size: 0.75rem;
+            background: rgba(255, 255, 255, 0.05);
+            flex-shrink: 0;
+        }
+
+        body.light-theme .anime-score {
+            background: rgba(0, 0, 0, 0.05);
+        }
+
+        #toast-container {
             position: fixed;
-            bottom: 0;
-            right: 0;
-            width: 300px;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 1000;
         }
-        #dialogs .dialog-message{
-            background: #a6ff9c;
-            padding: 5px;
+
+        .toast {
+            background: var(--accent);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+            animation: slideUp 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
+
+        @keyframes slideUp {
+            from { transform: translateY(100%); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes fadeOut {
+            to { opacity: 0; transform: translateY(-10px) scale(0.95); }
+        }
+
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: var(--bg-body); }
+        ::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
     </style>
+</head>
+<body>
+
+    <div class="top-wrapper">
+        <label class="switch" title="Сменить тему">
+            <input type="checkbox" id="themeToggle" />
+            <span class="slider"></span>
+        </label>
+        
+        <div class="header">
+            <h2>Все списки аниме</h2>
+            <p>Источник: <a href="https://site.yummyani.me/" target="_blank">site.yummyani.me</a></p>
+            <p>Загружено: 5 августа 2026 г.</p>
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="animeSearch" class="search-input" placeholder="Найти аниме по названию..." autocomplete="off">
+            <button id="clearSearch" class="clear-search-btn" title="Очистить">&times;</button>
+        </div>
+    </div>
+
+    <div class="dashboard" id="dashboard">
+        <!-- тут все аниме -->
+    </div>
+
+    <div id="toast-container"></div>
+
 <script>
-    document.addEventListener('click', function(e){
-        if(e.target?.tagName==='LI'){
-            let text = e.target.childNodes[0]?.textContent
-            if(text)
-                navigator.clipboard.writeText(text).then(function(){
-                    const dialogs = document.getElementById('dialogs');
-                    dialogs.innerHTML += `<div class="dialog-message">Название успешно скопировано</div>`
-                    setTimeout(()=>{
-                        dialogs.children[0].remove();
-                    }, 5000);
-                }).catch(e=>{alert('Не могу скопировать название:\n'+e)})
+    const themeToggle = document.getElementById('themeToggle');
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+
+    if (savedTheme === 'light') {
+        document.body.classList.add('light-theme');
+        themeToggle.checked = false; 
+    } else {
+        document.body.classList.remove('light-theme');
+        themeToggle.checked = true;
+    }
+
+    themeToggle.addEventListener('change', () => {
+        if (themeToggle.checked) {
+            document.body.classList.remove('light-theme');
+            localStorage.setItem('theme', 'dark');
+        } else {
+            document.body.classList.add('light-theme');
+            localStorage.setItem('theme', 'light');
         }
     });
-</script>
-<body>
-<h2>Мои списки аниме</h2>
 
-<p>Источник: <a href="https://site.yummyani.me/users/id114344" target="_blank">site.yummyani.me</a><br>08.07.2026</p>
+    const columnsConfig = {
+        watching: { title: "Смотрю", order: 1 },
+        planned: { title: "В Планах", order: 2 },
+        completed: { title: "Просмотрено", order: 3 },
+        dropped: { title: "Брошено", order: 4 },
+        favorites: { title: "Любимые", order: 5 }
+    };
 
-<table>
-    <tr>
-                    <td data-list-id="0">
-                <h3>Смотрю</h3>
-                <ul>
-<li data-shiki-id="60059" data-wa-id="12730" data-id="15270">Юный лорд — мастер побега 2</li>
-<li data-shiki-id="20853" data-wa-id="1740" data-id="4971">Чайка - принцесса с гробом</li>
-<li data-shiki-id="62936" data-wa-id="12752" data-id="24948" data-vote='6'>Я влюбился в тебя, когда ты бежала в лунной ночи<vote>6⭐</vote></li>
-<li data-shiki-id="62856" data-wa-id="12674" data-id="24524" data-vote='4'>История электричества в двадцатом веке<vote>4⭐</vote></li>
-<li data-shiki-id="63508" data-wa-id="12796" data-id="26774" data-vote='6'>Необыкновенный неудачник — Дневник переродившегося колдуна S-ранга<vote>6⭐</vote></li>
-<li data-shiki-id="63366" data-wa-id="12773" data-id="26297">Ты, фейерверки и обещание</li>
-<li data-shiki-id="63403" data-wa-id="12783" data-id="26429" data-vote='2'>Табакошка<vote>2⭐</vote></li>
-<li data-shiki-id="61897" data-wa-id="12520" data-id="21452">Старик из деревни становится Святым мечом 2</li>
-<li data-shiki-id="60522" data-wa-id="12314" data-id="16874" data-vote='5'>Рыцарь-скелет в ином мире 2<vote>5⭐</vote></li>
-<li data-shiki-id="59193" data-wa-id="12435" data-id="13271" data-vote='10'>Реинкарнация безработного: История о приключениях в другом мире 3<vote>10⭐</vote></li>
-<li data-shiki-id="58929" data-wa-id="12114" data-id="26358" data-vote='6'>Призрак в доспехах (2026)<vote>6⭐</vote></li>
-<li data-shiki-id="54000" data-wa-id="11612" data-id="10867">Мир отомэ-игр — это тяжёлый мир для мобов 2</li>
-<li data-shiki-id="63736" data-wa-id="0" data-id="27437">Мастера Меча Онлайн: Безответная бабочка</li>
-<li data-shiki-id="59741" data-wa-id="12221" data-id="14472" data-vote='5'>Изгнанный реинкарнированный тяжёлый рыцарь не имеет себе равных в знаниях игры<vote>5⭐</vote></li>
-<li data-shiki-id="63100" data-wa-id="12717" data-id="25544" data-vote='5'>Железный котелок Жана!<vote>5⭐</vote></li>
-<li data-shiki-id="63082" data-wa-id="12715" data-id="25463" data-vote='6'>Дара из Рэйвы<vote>6⭐</vote></li>
-<li data-shiki-id="61126" data-wa-id="12387" data-id="26272">Хочу любить тебя до самой смерти</li>
-<li data-shiki-id="7311" data-wa-id="7714" data-id="2063">Исчезновение Харухи Судзумии</li>
-<li data-shiki-id="59970" data-wa-id="12241" data-id="15066" data-vote='6'>О моём перерождении в слизь 4<vote>6⭐</vote></li>
-                </ul>
-                    <div class="list-stats" style="margin-top: 10px; font-size: 0.85rem; color: var(--text-muted); padding: 5px; border-top: 1px solid var(--border-color);">
-                        <span class="count"></span> | <span class="avg"></span>
-                    </div>
-            </td>
-                    
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-                    <td data-list-id="1">
-                <h3>В Планах</h3>
-                <ul>
-<li data-shiki-id="61301" data-wa-id="12429" data-id="19570">Демоны строят козни</li>
-<li data-shiki-id="64534" data-wa-id="12951" data-id="29499">Ледяная стена 2</li>
-<li data-shiki-id="64528" data-wa-id="12943" data-id="29494">Ведьма и гончая</li>
-<li data-shiki-id="64552" data-wa-id="0" data-id="29544">Мои дочери — искательницы приключений S-ранга, которые мной очень сильно увлеклись</li>
-<li data-shiki-id="64553" data-wa-id="12953" data-id="29545">Непринуждённая жизнь в другом мире экс-кандидата в герои, оказавшегося читером со второго уровня 2</li>
-<li data-shiki-id="64555" data-wa-id="12956" data-id="29608">Мурсьелаго</li>
-<li data-shiki-id="47917" data-wa-id="10810" data-id="4689">Одинокий рокер!</li>
-<li data-shiki-id="57" data-wa-id="2671" data-id="7992">Бек</li>
-<li data-shiki-id="64546" data-wa-id="12947" data-id="29534">Поднятие уровня в одиночку: За пределами Системы</li>
-<li data-shiki-id="6547" data-wa-id="7634" data-id="33">Ангельские ритмы!</li>
-<li data-shiki-id="64516" data-wa-id="0" data-id="29444">Ателье колдовских колпаков 2</li>
-<li data-shiki-id="64500" data-wa-id="0" data-id="29417">Меч и жезл Вистории 3</li>
-<li data-shiki-id="64428" data-wa-id="12908" data-id="29214">Мой родной город — самый лучший!</li>
-<li data-shiki-id="63409" data-wa-id="12784" data-id="26452">Я ведьма, которую возлюбленный попросил создать любовное зелье</li>
-<li data-shiki-id="63824" data-wa-id="0" data-id="29223">Магическая битва: Смертельная миграция | Часть 2</li>
-<li data-shiki-id="64463" data-wa-id="0" data-id="29340">Добро пожаловать в класс превосходства 5</li>
-<li data-shiki-id="64449" data-wa-id="0" data-id="29273">Когда плачут цикады (2027)</li>
-<li data-shiki-id="5675" data-wa-id="7131" data-id="8843">Басквош</li>
-<li data-shiki-id="0" data-wa-id="0" data-id="29248">Дьявол может плакать 3</li>
-<li data-shiki-id="54250" data-wa-id="11632" data-id="22601">Созданный в Бездне: Тайна пробуждения</li>
-<li data-shiki-id="38668" data-wa-id="10243" data-id="5792">Дорохедоро</li>
-<li data-shiki-id="64266" data-wa-id="0" data-id="28636">Первородный грех Такопи: Спасибо, увидимся завтра</li>
-<li data-shiki-id="35062" data-wa-id="9157" data-id="988">Невеста чародея</li>
-<li data-shiki-id="61990" data-wa-id="12537" data-id="21748">Киберпанк: Бегущие по краю 2</li>
-<li data-shiki-id="64213" data-wa-id="0" data-id="28502">Гигант</li>
-<li data-shiki-id="50668" data-wa-id="11195" data-id="10604">Ночь ведьм</li>
-<li data-shiki-id="339" data-wa-id="6" data-id="10158">Эксперименты Лэйн</li>
-<li data-shiki-id="64107" data-wa-id="0" data-id="28305">Моя геройская академия: Я тоже герой</li>
-<li data-shiki-id="63850" data-wa-id="0" data-id="27514">Золотое божество: Неуправляемый поезд</li>
-<li data-shiki-id="32648" data-wa-id="8652" data-id="6448">Ханда</li>
-<li data-shiki-id="64058" data-wa-id="0" data-id="28079">Кагурабати</li>
-<li data-shiki-id="63147" data-wa-id="0" data-id="25658">Гачиакута 2</li>
-<li data-shiki-id="0" data-wa-id="41160" data-id="10876">Аватар: Легенда о Корре</li>
-<li data-shiki-id="57557" data-wa-id="11956" data-id="11546">Ван-Пис. Ремейк</li>
-<li data-shiki-id="59787" data-wa-id="12685" data-id="15921">Военная хроника Ромелии</li>
-<li data-shiki-id="56732" data-wa-id="11892" data-id="11235">Лучший в мире ассасин, переродившийся в другом мире как аристократ 2</li>
-<li data-shiki-id="63970" data-wa-id="0" data-id="27856">Перо, наручники и гражданский брак</li>
-<li data-shiki-id="63958" data-wa-id="0" data-id="27813">Ведьма и наёмник</li>
-<li data-shiki-id="58919" data-wa-id="12112" data-id="12659">Стометровка</li>
-<li data-shiki-id="63423" data-wa-id="12791" data-id="26514">Тебе, находящейся дальше, чем кто-либо</li>
-<li data-shiki-id="62546" data-wa-id="0" data-id="23651">Клинок, рассекающий демонов: Бесконечный замок 2</li>
-<li data-shiki-id="63912" data-wa-id="12858" data-id="27630">Повелитель тьмы: Другая история мира 3</li>
-<li data-shiki-id="3588" data-wa-id="6814" data-id="1180">Пожиратель Душ</li>
-<li data-shiki-id="57584" data-wa-id="11960" data-id="11553">Восхождение в тени! Реверберация</li>
-<li data-shiki-id="62896" data-wa-id="12679" data-id="24791">Суперпринцесса Кагуя!</li>
-<li data-shiki-id="63816" data-wa-id="12847" data-id="27416">Провожающая в последний путь Фрирен: Золотая земля</li>
-<li data-shiki-id="63822" data-wa-id="12850" data-id="27428">Я получил читерские способности в другом мире и стал экстраординарным в реальном мире: История о том, как повышение уровня изменило мою жизнь 2</li>
-<li data-shiki-id="63820" data-wa-id="12849" data-id="27427">Приговорённый быть героем: Тюремные записи 9004 штрафного отряда героев 2</li>
-<li data-shiki-id="62582" data-wa-id="12640" data-id="23763">Этот глупый свин не понимает мечту дорогого друга</li>
-<li data-shiki-id="62312" data-wa-id="12592" data-id="22973">Сэкиро: Без поражения</li>
-<li data-shiki-id="63735" data-wa-id="12818" data-id="27160">Опасность в моём сердце 3</li>
-<li data-shiki-id="53529" data-wa-id="11533" data-id="10636">Мастера Меча Онлайн: Область целостности</li>
-<li data-shiki-id="62808" data-wa-id="12793" data-id="24324">Иссики хочет узнать о любви</li>
-<li data-shiki-id="60253" data-wa-id="12269" data-id="15981">Юный попаданец остаётся на том же уровне</li>
-<li data-shiki-id="61015" data-wa-id="0" data-id="18412">Содержанец принцессы-рыцаря</li>
-<li data-shiki-id="63254" data-wa-id="0" data-id="25923">Гениальный целитель, который исцелял в одно мгновение, но был изгнан как бесполезный, теперь наслаждается жизнью в качестве тёмного целителя 2</li>
-<li data-shiki-id="63442" data-wa-id="0" data-id="26553">Может, я встречу тебя в подземелье? 6</li>
-<li data-shiki-id="50392" data-wa-id="11144" data-id="10729">Раб спецотряда демонического города</li>
-<li data-shiki-id="62081" data-wa-id="0" data-id="22101">Я парировал всё время, чтобы стать сильнейшим авантюристом 2</li>
-<li data-shiki-id="60525" data-wa-id="0" data-id="16876">Нежеланно бессмертный авантюрист 2</li>
-<li data-shiki-id="59971" data-wa-id="12363" data-id="15067">О моём перерождении в слизь: Слёзы синего моря</li>
-<li data-shiki-id="0" data-wa-id="0" data-id="23776">Genshin Impact</li>
-<li data-shiki-id="63193" data-wa-id="12745" data-id="25804">Ванпанчмен 3 | Часть 2</li>
-<li data-shiki-id="62953" data-wa-id="0" data-id="25079">Я убираю мусор в опустошённом мире</li>
-<li data-shiki-id="59139" data-wa-id="12132" data-id="13183">Лунное путешествие приведёт к новому миру 3</li>
-<li data-shiki-id="63129" data-wa-id="0" data-id="25629">О моём перерождении в слизь 4 | Часть 2</li>
-<li data-shiki-id="61578" data-wa-id="12481" data-id="20398">Даже у студсовета есть косяки!</li>
-<li data-shiki-id="56008" data-wa-id="11834" data-id="10812">Биско-ржавоед 2</li>
-<li data-shiki-id="54688" data-wa-id="11822" data-id="11115">Наруто (новый сериал)</li>
-<li data-shiki-id="62567" data-wa-id="12636" data-id="23709">Перерождение: Монстр 2</li>
-<li data-shiki-id="61338" data-wa-id="12445" data-id="19733">Рубеж Шангри-Ла: Любитель игрошлака бросает вызов топ-игре 3</li>
-<li data-shiki-id="61135" data-wa-id="0" data-id="18980">Гигантская леди</li>
-<li data-shiki-id="52480" data-wa-id="11409" data-id="10267">Детектив уже мертв 2</li>
-<li data-shiki-id="62989" data-wa-id="12694" data-id="25101">Раз уж мы рисуем</li>
-                </ul>
-                    <div class="list-stats" style="margin-top: 10px; font-size: 0.85rem; color: var(--text-muted); padding: 5px; border-top: 1px solid var(--border-color);">
-                        <span class="count"></span> | <span class="avg"></span>
-                    </div>
-            </td>
-                    
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-                    <td data-list-id="2">
-                <h3>Просмотрено</h3>
-                <ul>
-<li data-shiki-id="38163" data-wa-id="10084" data-id="10240" data-vote='3'>Изобрази отвращение и покажи трусики 2<vote>3⭐</vote></li>
-<li data-shiki-id="330" data-wa-id="852" data-id="9573" data-vote='3'>Дни Мидори<vote>3⭐</vote></li>
-<li data-shiki-id="0" data-wa-id="0" data-id="28618" data-vote='8'>Легенда о Вокс Макине 4<vote>8⭐</vote></li>
-<li data-shiki-id="44881" data-wa-id="10716" data-id="1642" data-vote='6'>Я стою на миллионах трупов 2<vote>6⭐</vote></li>
-<li data-shiki-id="41380" data-wa-id="10409" data-id="1641" data-vote='6'>Я стою на миллионах трупов<vote>6⭐</vote></li>
-<li data-shiki-id="4382" data-wa-id="7288" data-id="7854" data-vote='6'>Меланхолия Харухи Судзумии 2<vote>6⭐</vote></li>
-<li data-shiki-id="34825" data-wa-id="9123" data-id="182" data-vote='5'>Чистюля Аояма<vote>5⭐</vote></li>
-<li data-shiki-id="849" data-wa-id="5793" data-id="7860" data-vote='8'>Меланхолия Харухи Судзумии<vote>8⭐</vote></li>
-<li data-shiki-id="61316" data-wa-id="12434" data-id="19627" data-vote='10'>Re:Zero. Жизнь с нуля в альтернативном мире 4<vote>10⭐</vote></li>
-<li data-shiki-id="62001" data-wa-id="12542" data-id="21798" data-vote='8'>Цугаи загробного мира<vote>8⭐</vote></li>
-<li data-shiki-id="64080" data-wa-id="0" data-id="28197" data-vote='8'>Магическая битва: Модуль PV<vote>8⭐</vote></li>
-<li data-shiki-id="59708" data-wa-id="12217" data-id="14388" data-vote='6'>Добро пожаловать в класс превосходства 4<vote>6⭐</vote></li>
-<li data-shiki-id="59983" data-wa-id="12243" data-id="15107" data-vote='3'>Меч и жезл Вистории 2<vote>3⭐</vote></li>
-<li data-shiki-id="60852" data-wa-id="12643" data-id="17994" data-vote='7'>Ледяная стена<vote>7⭐</vote></li>
-<li data-shiki-id="0" data-wa-id="0" data-id="22956" data-vote='8'>Дьявол может плакать 2<vote>8⭐</vote></li>
-<li data-shiki-id="56734" data-wa-id="11890" data-id="20353" data-vote='6'>Я подружился со второй самой симпатичной девушкой в классе<vote>6⭐</vote></li>
-<li data-shiki-id="62604" data-wa-id="12736" data-id="25739" data-vote='5'>Где те девушки, что были бы добры к отаку?<vote>5⭐</vote></li>
-<li data-shiki-id="51553" data-wa-id="12152" data-id="13329" data-vote='5'>Ателье колдовских колпаков<vote>5⭐</vote></li>
-<li data-shiki-id="36862" data-wa-id="9942" data-id="1380" data-vote='10'>Созданный в Бездне: Рассвет глубокой души<vote>10⭐</vote></li>
-<li data-shiki-id="34599" data-wa-id="9080" data-id="1377" data-vote='10'>Созданный в бездне<vote>10⭐</vote></li>
-<li data-shiki-id="41084" data-wa-id="10368" data-id="5029" data-vote='10'>Созданный в Бездне 2<vote>10⭐</vote></li>
-<li data-shiki-id="62076" data-wa-id="12562" data-id="22083">История о перекуре за супермаркетом</li>
-<li data-shiki-id="37987" data-wa-id="9749" data-id="1509" data-vote='8'>Вайолет Эвергарден — Фильм<vote>8⭐</vote></li>
-<li data-shiki-id="58125" data-wa-id="12010" data-id="11875" data-vote='6'>Оглянись<vote>6⭐</vote></li>
-<li data-shiki-id="63830" data-wa-id="0" data-id="27447" data-vote='5'>Re:Zero. Перерыв с нуля 4<vote>5⭐</vote></li>
-<li data-shiki-id="59985" data-wa-id="12244" data-id="15108" data-vote='6'>Опасность в моём сердце — Фильм<vote>6⭐</vote></li>
-<li data-shiki-id="1519" data-wa-id="6015" data-id="1081" data-vote='7'>Пираты «Чёрной лагуны»: Второй залп<vote>7⭐</vote></li>
-<li data-shiki-id="889" data-wa-id="4975" data-id="1080" data-vote='7'>Пираты «Чёрной лагуны»<vote>7⭐</vote></li>
-<li data-shiki-id="54915" data-wa-id="11736" data-id="10479" data-vote='6'>Пять невест — Спешл<vote>6⭐</vote></li>
-<li data-shiki-id="39741" data-wa-id="10116" data-id="1508" data-vote='8'>Вайолет Эвергарден: Вечность и призрак пера<vote>8⭐</vote></li>
-<li data-shiki-id="37095" data-wa-id="9999999" data-id="1507" data-vote='6'>Вайолет Эвергарден: День, когда ты поймёшь, что я люблю тебя, обязательно наступит<vote>6⭐</vote></li>
-<li data-shiki-id="33352" data-wa-id="9268" data-id="1506" data-vote='9'>Вайолет Эвергарден<vote>9⭐</vote></li>
-<li data-shiki-id="45620" data-wa-id="10734" data-id="5242" data-vote='5'>Никуко из Рыбацкой гавани<vote>5⭐</vote></li>
-<li data-shiki-id="0" data-wa-id="121573" data-id="12558" data-vote='7'>Дьявол может плакать<vote>7⭐</vote></li>
-<li data-shiki-id="55772" data-wa-id="11796" data-id="10591" data-vote='9'>Золотое божество 5<vote>9⭐</vote></li>
-<li data-shiki-id="63130" data-wa-id="12878" data-id="25630" data-vote='7'>Моя геройская академия: Больше<vote>7⭐</vote></li>
-<li data-shiki-id="164" data-wa-id="77" data-id="2064" data-vote='8'>Принцесса Мононоке<vote>8⭐</vote></li>
-<li data-shiki-id="50275" data-wa-id="11120" data-id="10403" data-vote='7'>Мастера Меча Онлайн: Прогрессив - Скерцо глубокой ночи<vote>7⭐</vote></li>
-<li data-shiki-id="50528" data-wa-id="11159" data-id="4923" data-vote='5'>Золотое божество 4<vote>5⭐</vote></li>
-<li data-shiki-id="40059" data-wa-id="10155" data-id="1702" data-vote='7'>Золотое божество 3<vote>7⭐</vote></li>
-<li data-shiki-id="37989" data-wa-id="9744" data-id="1705" data-vote='8'>Золотое божество 2<vote>8⭐</vote></li>
-<li data-shiki-id="36028" data-wa-id="9355" data-id="1703" data-vote='7'>Золотое божество<vote>7⭐</vote></li>
-<li data-shiki-id="0" data-wa-id="108852" data-id="27888" data-vote='10'>Легенда об Аанге: Последний маг воздуха<vote>10⭐</vote></li>
-<li data-shiki-id="58714" data-wa-id="12085" data-id="12420" data-vote='7'>Самый известный диктор создаёт самый великий в мире клан<vote>7⭐</vote></li>
-<li data-shiki-id="62155" data-wa-id="12575" data-id="27002">Изобрази отвращение и покажи мне свои трусики: Возвращение</li>
-<li data-shiki-id="54133" data-wa-id="0" data-id="4783" data-vote='6'>Не издевайся, Нагаторо: Вторая атака – Мини-аниме<vote>6⭐</vote></li>
-<li data-shiki-id="24991" data-wa-id="0" data-id="11367" data-vote='6'>Нет игры — нет жизни: Спецвыпуски<vote>6⭐</vote></li>
-<li data-shiki-id="42361" data-wa-id="10540" data-id="947" data-vote='6'>Не издевайся, Нагаторо<vote>6⭐</vote></li>
-<li data-shiki-id="51535" data-wa-id="11300" data-id="10225" data-vote='3'>Атака титанов: Финал – Заключительная глава<vote>3⭐</vote></li>
-<li data-shiki-id="48583" data-wa-id="10873" data-id="1634" data-vote='8'>Атака титанов: Финал | Часть 2<vote>8⭐</vote></li>
-<li data-shiki-id="40028" data-wa-id="10135" data-id="6230" data-vote='8'>Атака титанов: Финал<vote>8⭐</vote></li>
-<li data-shiki-id="0" data-wa-id="0" data-id="11714" data-vote='7'>Легенда о Вокс Макине 3<vote>7⭐</vote></li>
-<li data-shiki-id="0" data-wa-id="99999" data-id="10889" data-vote='8'>Легенда о Вокс Макине 2<vote>8⭐</vote></li>
-<li data-shiki-id="0" data-wa-id="97996" data-id="10890" data-vote='8'>Легенда о Вокс Макине<vote>8⭐</vote></li>
-<li data-shiki-id="38935" data-wa-id="9934" data-id="1382" data-vote='4'>Созерцая колготки<vote>4⭐</vote></li>
-<li data-shiki-id="59848" data-wa-id="12228" data-id="14771" data-vote='6'>Невинный панк<vote>6⭐</vote></li>
-<li data-shiki-id="59229" data-wa-id="12158" data-id="13354" data-vote='7'>Пламенная бригада пожарных 3 | Часть 2<vote>7⭐</vote></li>
-<li data-shiki-id="54857" data-wa-id="11727" data-id="10560" data-vote='9'>Re:Zero. Жизнь с нуля в альтернативном мире 3<vote>9⭐</vote></li>
-<li data-shiki-id="42203" data-wa-id="10627" data-id="1695" data-vote='8'>Re:Zero. Жизнь с нуля в альтернативном мире 2 | Часть 2<vote>8⭐</vote></li>
-<li data-shiki-id="39587" data-wa-id="10061" data-id="1246" data-vote='8'>Re:Zero. Жизнь с нуля в альтернативном мире 2<vote>8⭐</vote></li>
-<li data-shiki-id="31240" data-wa-id="8388" data-id="1248" data-vote='9'>Re:Zero. Жизнь с нуля в альтернативном мире<vote>9⭐</vote></li>
-<li data-shiki-id="55825" data-wa-id="11805" data-id="10643" data-vote='8'>Адский рай 2<vote>8⭐</vote></li>
-<li data-shiki-id="54703" data-wa-id="11682" data-id="10256" data-vote='8'>Для тебя, Бессмертный 3<vote>8⭐</vote></li>
-<li data-shiki-id="63794" data-wa-id="12840" data-id="27382">Звёздное дитя 4</li>
-<li data-shiki-id="59978" data-wa-id="12242" data-id="15084" data-vote='10'>Провожающая в последний путь Фрирен 2<vote>10⭐</vote></li>
-<li data-shiki-id="56009" data-wa-id="11835" data-id="10814" data-vote='9'>Приговорённый быть героем: Тюремные записи 9004 штрафного отряда героев<vote>9⭐</vote></li>
-<li data-shiki-id="61942" data-wa-id="12530" data-id="21630" data-vote='5'>Моя геройская академия: Вне закона 2<vote>5⭐</vote></li>
-<li data-shiki-id="57658" data-wa-id="11973" data-id="11641" data-vote='7'>Магическая битва: Смертельная миграция<vote>7⭐</vote></li>
-<li data-shiki-id="61217" data-wa-id="12411" data-id="19335" data-vote='6'>Герой-мерзавец<vote>6⭐</vote></li>
-<li data-shiki-id="17397" data-wa-id="1357" data-id="7968" data-vote='5'>Девушка-циклоп Сайпу<vote>5⭐</vote></li>
-<li data-shiki-id="35676" data-wa-id="0" data-id="6665" data-vote='6'>Берсерк: Воспоминания ведьмы<vote>6⭐</vote></li>
-<li data-shiki-id="41899" data-wa-id="10496" data-id="1350" data-vote='5'>Сильнейший герой, обученный в тайном подземелье!<vote>5⭐</vote></li>
-<li data-shiki-id="35203" data-wa-id="9191" data-id="1498" data-vote='4'>В другом мире со смартфоном<vote>4⭐</vote></li>
-<li data-shiki-id="15809" data-wa-id="6807" data-id="1277" data-vote='5'>Сатана на подработке<vote>5⭐</vote></li>
-<li data-shiki-id="37407" data-wa-id="9589" data-id="8221" data-vote='6'>Тайная жизнь пингвинов<vote>6⭐</vote></li>
-<li data-shiki-id="42916" data-wa-id="10613" data-id="802" data-vote='6'>Мастера Меча Онлайн: Прогрессив - Ария в беззвёздной ночи<vote>6⭐</vote></li>
-<li data-shiki-id="44059" data-wa-id="10787" data-id="11980" data-vote='4'>Ложнококон<vote>4⭐</vote></li>
-<li data-shiki-id="2236" data-wa-id="5822" data-id="2041" data-vote='9'>Девочка, покорившая время<vote>9⭐</vote></li>
-<li data-shiki-id="40750" data-wa-id="10293" data-id="764" data-vote='6'>Маг-целитель: Новый старт<vote>6⭐</vote></li>
-<li data-shiki-id="40908" data-wa-id="10340" data-id="517" data-vote='7'>Инцидент Кэмоно<vote>7⭐</vote></li>
-<li data-shiki-id="15391" data-wa-id="1868" data-id="8873" data-vote='4'>Всё ради науки<vote>4⭐</vote></li>
-<li data-shiki-id="23283" data-wa-id="2245" data-id="1259" data-vote='6'>Эхо террора<vote>6⭐</vote></li>
-<li data-shiki-id="41353" data-wa-id="10401" data-id="158" data-vote='7'>Бог старшей школы<vote>7⭐</vote></li>
-<li data-shiki-id="50594" data-wa-id="11171" data-id="10258" data-vote='5'>Судзумэ, закрывающая двери<vote>5⭐</vote></li>
-<li data-shiki-id="59207" data-wa-id="12150" data-id="13309" data-vote='6'>Три сестры Микадоно оказались неожиданно простыми<vote>6⭐</vote></li>
-<li data-shiki-id="29786" data-wa-id="8210" data-id="1367" data-vote='6'>Скучный мир, в котором не существует самой концепции похабных шуток<vote>6⭐</vote></li>
-<li data-shiki-id="36847" data-wa-id="9477" data-id="9282" data-vote='4'>Семь небесных добродетелей<vote>4⭐</vote></li>
-<li data-shiki-id="31845" data-wa-id="8650" data-id="8031" data-vote='5'>Магическая академия Атараксия: Гибрид x Сердце<vote>5⭐</vote></li>
-<li data-shiki-id="49605" data-wa-id="11013" data-id="245" data-vote='4'>Доки, ты справишься!<vote>4⭐</vote></li>
-<li data-shiki-id="50587" data-wa-id="11168" data-id="11806" data-vote='6'>Вселенная Гридмена<vote>6⭐</vote></li>
-<li data-shiki-id="40870" data-wa-id="10497" data-id="6625" data-vote='6'>Диназенон<vote>6⭐</vote></li>
-<li data-shiki-id="5958" data-wa-id="7332" data-id="1053" data-vote='4'>Утраченное небесами<vote>4⭐</vote></li>
-<li data-shiki-id="52991" data-wa-id="11466" data-id="10661" data-vote='10'>Провожающая в последний путь Фрирен<vote>10⭐</vote></li>
-<li data-shiki-id="59452" data-wa-id="12183" data-id="13760" data-vote='6'>Старик из деревни становится Святым мечом<vote>6⭐</vote></li>
-<li data-shiki-id="53065" data-wa-id="11472" data-id="10235" data-vote='7'>Эта фарфоровая кукла влюбилась 2<vote>7⭐</vote></li>
-<li data-shiki-id="48736" data-wa-id="10893" data-id="5466" data-vote='7'>Эта фарфоровая кукла влюбилась<vote>7⭐</vote></li>
-<li data-shiki-id="34480" data-wa-id="10110" data-id="8304" data-vote='7'>Кулинарные поединки Сомы — OVA-2<vote>7⭐</vote></li>
-<li data-shiki-id="40902" data-wa-id="10343" data-id="5755" data-vote='7'>Кулинарные поединки Сомы: Пятое блюдо<vote>7⭐</vote></li>
-<li data-shiki-id="39940" data-wa-id="10111" data-id="6590" data-vote='7'>Кулинарные поединки Сомы: Четвёртое блюдо<vote>7⭐</vote></li>
-<li data-shiki-id="36949" data-wa-id="9510" data-id="7874" data-vote='7'>Кулинарные поединки Сомы: Третье блюдо | Часть 2<vote>7⭐</vote></li>
-<li data-shiki-id="35788" data-wa-id="9295" data-id="2308" data-vote='7'>Кулинарные поединки Сомы: Третье блюдо<vote>7⭐</vote></li>
-<li data-shiki-id="32282" data-wa-id="8598" data-id="2291" data-vote='7'>Кулинарные поединки Сомы: Второе блюдо<vote>7⭐</vote></li>
-<li data-shiki-id="28171" data-wa-id="5533" data-id="2266" data-vote='7'>Кулинарные поединки Сомы<vote>7⭐</vote></li>
-<li data-shiki-id="10589" data-wa-id="2517" data-id="126" data-vote='8'>Наруто: Ураганные хроники — Кровавая тюрьма<vote>8⭐</vote></li>
-<li data-shiki-id="30240" data-wa-id="2683" data-id="4884" data-vote='6'>Школа-тюрьма<vote>6⭐</vote></li>
-<li data-shiki-id="49596" data-wa-id="11009" data-id="4694" data-vote='2'>Синяя тюрьма: Блю Лок<vote>2⭐</vote></li>
-<li data-shiki-id="54913" data-wa-id="11895" data-id="11239" data-vote='6'>Невероятный новичок средних лет, прошедший тренировки на грани смерти<vote>6⭐</vote></li>
-<li data-shiki-id="53730" data-wa-id="11569" data-id="10871" data-vote='6'>Другой мир не может противостоять силе мгновенной смерти<vote>6⭐</vote></li>
-<li data-shiki-id="57524" data-wa-id="11951" data-id="11571" data-vote='6'>Слишком много проигравших героинь!<vote>6⭐</vote></li>
-<li data-shiki-id="53128" data-wa-id="11477" data-id="10925" data-vote='6'>Атри: Мои дорогие моменты<vote>6⭐</vote></li>
-<li data-shiki-id="57100" data-wa-id="11921" data-id="11656" data-vote='6'>Новые врата<vote>6⭐</vote></li>
-<li data-shiki-id="51648" data-wa-id="11314" data-id="10683" data-vote='6'>Нежеланно бессмертный авантюрист<vote>6⭐</vote></li>
-<li data-shiki-id="53434" data-wa-id="11519" data-id="11405" data-vote='6'>Я, владыка демонов, взял эльфийку-рабыню в жёны. И как же мне её любить?<vote>6⭐</vote></li>
-<li data-shiki-id="58449" data-wa-id="12050" data-id="12071" data-vote='7'>Моя подруга — демон<vote>7⭐</vote></li>
-<li data-shiki-id="54724" data-wa-id="11698" data-id="11178" data-vote='7'>Юный лорд — мастер побега<vote>7⭐</vote></li>
-<li data-shiki-id="53407" data-wa-id="11512" data-id="10674" data-vote='6'>Бармен: Бокал бога<vote>6⭐</vote></li>
-<li data-shiki-id="58080" data-wa-id="12008" data-id="11854" data-vote='6'>Борьба в прямом эфире<vote>6⭐</vote></li>
-<li data-shiki-id="54900" data-wa-id="11734" data-id="10651" data-vote='7'>Ветролом<vote>7⭐</vote></li>
-<li data-shiki-id="59160" data-wa-id="12138" data-id="13216" data-vote='7'>Ветролом 2<vote>7⭐</vote></li>
-<li data-shiki-id="54199" data-wa-id="11628" data-id="10748" data-vote='7'>Мистика, юные девы и загадочное исчезновение<vote>7⭐</vote></li>
-<li data-shiki-id="55265" data-wa-id="11766" data-id="10728" data-vote='6'>Перерождение в аристократа со способностью анализа<vote>6⭐</vote></li>
-<li data-shiki-id="56690" data-wa-id="11884" data-id="11207" data-vote='8'>Перерождение: Монстр<vote>8⭐</vote></li>
-<li data-shiki-id="58059" data-wa-id="12006" data-id="11842" data-vote='7'>Меч и жезл Вистории<vote>7⭐</vote></li>
-<li data-shiki-id="51705" data-wa-id="11323" data-id="10363" data-vote='6'>Галактика по соседству<vote>6⭐</vote></li>
-<li data-shiki-id="53126" data-wa-id="11482" data-id="10325" data-vote='6'>Моя любовь 999 уровня к Ямаде<vote>6⭐</vote></li>
-<li data-shiki-id="53393" data-wa-id="11510" data-id="10326" data-vote='7'>Великая небесная стена<vote>7⭐</vote></li>
-<li data-shiki-id="54883" data-wa-id="11732" data-id="10478" data-vote='7'>История о мононокэ 2<vote>7⭐</vote></li>
-<li data-shiki-id="50384" data-wa-id="11143" data-id="4628" data-vote='7'>История о мононокэ<vote>7⭐</vote></li>
-<li data-shiki-id="50796" data-wa-id="11215" data-id="10380" data-vote='6'>Бессонница после школы<vote>6⭐</vote></li>
-<li data-shiki-id="52976" data-wa-id="11458" data-id="4838" data-vote='7'>Берсерк: Золотой век. Памятное издание<vote>7⭐</vote></li>
-<li data-shiki-id="34055" data-wa-id="8932" data-id="75" data-vote='8'>Берсерк 3<vote>8⭐</vote></li>
-<li data-shiki-id="32379" data-wa-id="8654" data-id="74" data-vote='8'>Берсерк 2<vote>8⭐</vote></li>
-<li data-shiki-id="33" data-wa-id="3" data-id="70" data-vote='10'>Берсерк<vote>10⭐</vote></li>
-<li data-shiki-id="51213" data-wa-id="11266" data-id="5409" data-vote='6'>Вермейл в золотом<vote>6⭐</vote></li>
-<li data-shiki-id="48414" data-wa-id="10834" data-id="4916" data-vote='8'>Биско-ржавоед<vote>8⭐</vote></li>
-<li data-shiki-id="44961" data-wa-id="10720" data-id="1086" data-vote='3'>Платиновый предел<vote>3⭐</vote></li>
-<li data-shiki-id="49220" data-wa-id="10953" data-id="4777" data-vote='6'>Перерождение Дяди<vote>6⭐</vote></li>
-<li data-shiki-id="59130" data-wa-id="12357" data-id="13180" data-vote='6'>Апокалипсис Миногры: Покорение другого мира начинается с разрушенной цивилизации<vote>6⭐</vote></li>
-<li data-shiki-id="42627" data-wa-id="10567" data-id="6341" data-vote='6'>Персиковый мальчик с того берега<vote>6⭐</vote></li>
-<li data-shiki-id="40938" data-wa-id="10559" data-id="6229" data-vote='6'>Я побрился. И приютил школьницу<vote>6⭐</vote></li>
-<li data-shiki-id="43439" data-wa-id="10658" data-id="4829" data-vote='4'>Дом теней<vote>4⭐</vote></li>
-<li data-shiki-id="38610" data-wa-id="9865" data-id="377" data-vote='6'>Фокусница-старшеклассница<vote>6⭐</vote></li>
-<li data-shiki-id="42351" data-wa-id="10539" data-id="858" data-vote='6'>Мой сэмпай раздражает!<vote>6⭐</vote></li>
-<li data-shiki-id="42192" data-wa-id="10521" data-id="1008" data-vote='6'>Нулевой Эдем<vote>6⭐</vote></li>
-<li data-shiki-id="59088" data-wa-id="12425" data-id="13079">Токийские мстители: Битва трёх небожителей</li>
-<li data-shiki-id="54918" data-wa-id="11737" data-id="10607" data-vote='6'>Токийские мстители: Поднебесье<vote>6⭐</vote></li>
-<li data-shiki-id="50608" data-wa-id="11180" data-id="4712" data-vote='6'>Токийские мстители: Рождественская битва<vote>6⭐</vote></li>
-<li data-shiki-id="42249" data-wa-id="10526" data-id="1435" data-vote='7'>Токийские мстители<vote>7⭐</vote></li>
-<li data-shiki-id="50631" data-wa-id="11188" data-id="4748" data-vote='7'>У Коми проблемы с общением 2<vote>7⭐</vote></li>
-<li data-shiki-id="48926" data-wa-id="10922" data-id="1467" data-vote='7'>У Коми проблемы с общением<vote>7⭐</vote></li>
-<li data-shiki-id="40904" data-wa-id="10687" data-id="4931" data-vote='7'>Ремейк нашей жизни<vote>7⭐</vote></li>
-<li data-shiki-id="48483" data-wa-id="10856" data-id="224" data-vote='7'>Девочка, которая видит это<vote>7⭐</vote></li>
-<li data-shiki-id="41456" data-wa-id="10427" data-id="5012" data-vote='7'>Комбатанты будут высланы!<vote>7⭐</vote></li>
-<li data-shiki-id="42544" data-wa-id="10557" data-id="5321" data-vote='7'>Фена: Принцесса пиратов<vote>7⭐</vote></li>
-<li data-shiki-id="40594" data-wa-id="10264" data-id="536" data-vote='7'>История о пареньке из деревни, расположенной перед сложнейшим подземельем<vote>7⭐</vote></li>
-<li data-shiki-id="48761" data-wa-id="10896" data-id="204" data-vote='6'>Далёкий паладин<vote>6⭐</vote></li>
-<li data-shiki-id="50803" data-wa-id="11649" data-id="10488" data-vote='4'>Низкоуровневый персонаж Томодзаки 2<vote>4⭐</vote></li>
-<li data-shiki-id="40530" data-wa-id="10248" data-id="5922" data-vote='6'>Низкоуровневый персонаж Томодзаки<vote>6⭐</vote></li>
-<li data-shiki-id="45604" data-wa-id="0" data-id="6480" data-vote='6'>Низкоуровневый персонаж Томодзаки OVA<vote>6⭐</vote></li>
-<li data-shiki-id="0" data-wa-id="93205" data-id="10928" data-vote='7'>DOTA: Кровь дракона 2<vote>7⭐</vote></li>
-<li data-shiki-id="0" data-wa-id="93205" data-id="10927" data-vote='7'>DOTA: Кровь дракона<vote>7⭐</vote></li>
-<li data-shiki-id="0" data-wa-id="93205" data-id="10929" data-vote='6'>DOTA: кровь дракона 3<vote>6⭐</vote></li>
-<li data-shiki-id="48471" data-wa-id="10855" data-id="691" data-vote='7'>Луна, Лайка и Носферату<vote>7⭐</vote></li>
-<li data-shiki-id="42897" data-wa-id="10608" data-id="2283" data-vote='7'>Хоримия<vote>7⭐</vote></li>
-<li data-shiki-id="48556" data-wa-id="10869" data-id="1416" data-vote='8'>Такт Опус. Судьба<vote>8⭐</vote></li>
-<li data-shiki-id="57058" data-wa-id="11917" data-id="12046" data-vote='6'>Я парировал всё время, чтобы стать сильнейшим авантюристом<vote>6⭐</vote></li>
-<li data-shiki-id="59095" data-wa-id="12358" data-id="13095" data-vote='6'>Я перевоплотился в седьмого принца, так что я буду совершенствовать свою магию, как захочу 2<vote>6⭐</vote></li>
-<li data-shiki-id="53516" data-wa-id="11530" data-id="10659" data-vote='6'>Я перевоплотился в седьмого принца, так что я буду совершенствовать свою магию, как захочу<vote>6⭐</vote></li>
-<li data-shiki-id="37984" data-wa-id="9763" data-id="1007" data-vote='8'>Да, я паук, и что?<vote>8⭐</vote></li>
-<li data-shiki-id="48580" data-wa-id="10874" data-id="4803" data-vote='8'>Мемуары Ванитаса<vote>8⭐</vote></li>
-<li data-shiki-id="49114" data-wa-id="11051" data-id="5657" data-vote='8'>Мемуары Ванитаса 2<vote>8⭐</vote></li>
-<li data-shiki-id="41619" data-wa-id="10465" data-id="77" data-vote='6'>Бездарная Нана<vote>6⭐</vote></li>
-<li data-shiki-id="40010" data-wa-id="10130" data-id="7540" data-vote='8'>Межвидовые рецензенты<vote>8⭐</vote></li>
-<li data-shiki-id="39017" data-wa-id="9954" data-id="7537" data-vote='7'>Ложные выводы<vote>7⭐</vote></li>
-<li data-shiki-id="44204" data-wa-id="10690" data-id="4715" data-vote='7'>Ложные выводы 2<vote>7⭐</vote></li>
-<li data-shiki-id="53050" data-wa-id="11471" data-id="10342" data-vote='5'>Девушка на час 3<vote>5⭐</vote></li>
-<li data-shiki-id="42963" data-wa-id="10621" data-id="5337" data-vote='6'>Девушка на час 2<vote>6⭐</vote></li>
-<li data-shiki-id="58369" data-wa-id="0" data-id="16622" data-vote='6'>Девушка на час 3: Вызов девушки на час<vote>6⭐</vote></li>
-<li data-shiki-id="54075" data-wa-id="0" data-id="11365" data-vote='7'>Девушка на час 2: Вызов девушки на час<vote>7⭐</vote></li>
-<li data-shiki-id="40839" data-wa-id="10329" data-id="226" data-vote='7'>Девушка на час<vote>7⭐</vote></li>
-<li data-shiki-id="42670" data-wa-id="10577" data-id="4808" data-vote='6'>Связь принцесс! Новое погружение 2<vote>6⭐</vote></li>
-<li data-shiki-id="39292" data-wa-id="9984" data-id="4822" data-vote='6'>Связь принцесс! Повторное погружение<vote>6⭐</vote></li>
-<li data-shiki-id="59989" data-wa-id="12246" data-id="15116" data-vote='7'>Башня Бога 2: Битва при Мастерской<vote>7⭐</vote></li>
-<li data-shiki-id="52635" data-wa-id="11426" data-id="10623" data-vote='7'>Башня Бога 2<vote>7⭐</vote></li>
-<li data-shiki-id="40221" data-wa-id="10389" data-id="5482" data-vote='8'>Башня Бога<vote>8⭐</vote></li>
-<li data-shiki-id="40956" data-wa-id="10352" data-id="5168" data-vote='8'>Пламенная бригада пожарных 2<vote>8⭐</vote></li>
-<li data-shiki-id="38671" data-wa-id="9878" data-id="1084" data-vote='8'>Пламенная бригада пожарных<vote>8⭐</vote></li>
-<li data-shiki-id="40004" data-wa-id="10129" data-id="901" data-vote='6'>Мы не можем учиться! 2<vote>6⭐</vote></li>
-<li data-shiki-id="38186" data-wa-id="9810" data-id="7368" data-vote='6'>Мы не можем учиться!<vote>6⭐</vote></li>
-<li data-shiki-id="43814" data-wa-id="10680" data-id="6423" data-vote='7'>Битва через 5 секунд после встречи<vote>7⭐</vote></li>
-<li data-shiki-id="58755" data-wa-id="12166" data-id="12476" data-vote='6'>Пять невест: Медовый месяц<vote>6⭐</vote></li>
-<li data-shiki-id="39783" data-wa-id="10085" data-id="1216" data-vote='8'>Пять невест 2<vote>8⭐</vote></li>
-<li data-shiki-id="38101" data-wa-id="9793" data-id="1215" data-vote='8'>Пять невест<vote>8⭐</vote></li>
-<li data-shiki-id="40356" data-wa-id="10273" data-id="1616" data-vote='6'>Восхождение героя щита 2<vote>6⭐</vote></li>
-<li data-shiki-id="35790" data-wa-id="9297" data-id="1615" data-vote='8'>Восхождение героя щита<vote>8⭐</vote></li>
-<li data-shiki-id="37446" data-wa-id="9606" data-id="6497" data-vote='4'>Повелитель Рагнарека и покровитель эйнхерий<vote>4⭐</vote></li>
-<li data-shiki-id="12189" data-wa-id="305" data-id="6963" data-vote='7'>Хёка<vote>7⭐</vote></li>
-<li data-shiki-id="13469" data-wa-id="1548" data-id="6964" data-vote='7'>Хёка: То, что нужно каждому<vote>7⭐</vote></li>
-<li data-shiki-id="37475" data-wa-id="9616" data-id="6936" data-vote='7'>Джульетта из школы-интерната<vote>7⭐</vote></li>
-<li data-shiki-id="48895" data-wa-id="10918" data-id="5366" data-vote='8'>Повелитель 4<vote>8⭐</vote></li>
-<li data-shiki-id="37675" data-wa-id="9667" data-id="1170" data-vote='8'>Повелитель 3<vote>8⭐</vote></li>
-<li data-shiki-id="35073" data-wa-id="9163" data-id="1169" data-vote='8'>Повелитель 2<vote>8⭐</vote></li>
-<li data-shiki-id="29803" data-wa-id="8207" data-id="1166" data-vote='8'>Повелитель<vote>8⭐</vote></li>
-<li data-shiki-id="24455" data-wa-id="2589" data-id="8026" data-vote='4'>Король магических стрел и Ванадис<vote>4⭐</vote></li>
-<li data-shiki-id="38397" data-wa-id="9838" data-id="1668" data-vote='6'>Зачем Вы здесь, учитель?!<vote>6⭐</vote></li>
-<li data-shiki-id="32901" data-wa-id="8965" data-id="355" data-vote='6'>Эроманга-сэнсэй<vote>6⭐</vote></li>
-<li data-shiki-id="9919" data-wa-id="8124" data-id="1351" data-vote='7'>Синий экзорцист<vote>7⭐</vote></li>
-<li data-shiki-id="34618" data-wa-id="9269" data-id="4989" data-vote='5'>Садистская смесь<vote>5⭐</vote></li>
-<li data-shiki-id="30" data-wa-id="32" data-id="363" data-vote='7'>Евангелион<vote>7⭐</vote></li>
-<li data-shiki-id="35237" data-wa-id="9304" data-id="9910" data-vote='7'>Моя первая гяру OVA<vote>7⭐</vote></li>
-<li data-shiki-id="34403" data-wa-id="9025" data-id="6417" data-vote='7'>Моя первая гяру<vote>7⭐</vote></li>
-<li data-shiki-id="35712" data-wa-id="9331" data-id="865" data-vote='5'>Моя девушка - убежденная извращенка-девственница<vote>5⭐</vote></li>
-<li data-shiki-id="39247" data-wa-id="9982" data-id="326" data-vote='7'>Дракон-горничная госпожи Кобаяси 2<vote>7⭐</vote></li>
-<li data-shiki-id="33206" data-wa-id="8990" data-id="327" data-vote='7'>Дракон-горничная госпожи Кобаяси<vote>7⭐</vote></li>
-<li data-shiki-id="56738" data-wa-id="11894" data-id="11219" data-vote='6'>Смертоносный герцог и его чёрная горничная 3<vote>6⭐</vote></li>
-<li data-shiki-id="49858" data-wa-id="11345" data-id="10714" data-vote='6'>Смертоносный герцог и его чёрная горничная 2<vote>6⭐</vote></li>
-<li data-shiki-id="47257" data-wa-id="10778" data-id="4907" data-vote='6'>Смертоносный герцог и его чёрная горничная<vote>6⭐</vote></li>
-<li data-shiki-id="33487" data-wa-id="4750" data-id="7175" data-vote='7'>Месть Масамунэ-куна<vote>7⭐</vote></li>
-<li data-shiki-id="51498" data-wa-id="11295" data-id="10476" data-vote='6'>Месть Масамунэ-куна 2<vote>6⭐</vote></li>
-<li data-shiki-id="40708" data-wa-id="10284" data-id="246" data-vote='6'>Доктор для девушек-монстров<vote>6⭐</vote></li>
-<li data-shiki-id="33475" data-wa-id="8834" data-id="1432" data-vote='7'>Тирания вооруженных девушек<vote>7⭐</vote></li>
-<li data-shiki-id="35314" data-wa-id="9222" data-id="1431" data-vote='5'>Тирания вооруженных девушек — OVA<vote>5⭐</vote></li>
-<li data-shiki-id="54595" data-wa-id="11659" data-id="10619" data-vote='7'>Восхождение в тени! 2<vote>7⭐</vote></li>
-<li data-shiki-id="48316" data-wa-id="10824" data-id="4644" data-vote='7'>Восхождение в тени!<vote>7⭐</vote></li>
-<li data-shiki-id="46352" data-wa-id="10751" data-id="412" data-vote='6'>Голубой период<vote>6⭐</vote></li>
-<li data-shiki-id="57892" data-wa-id="11992" data-id="11769" data-vote='6'>Я стал самым сильным с провальным навыком «ненормальное состояние», я разрушу всё<vote>6⭐</vote></li>
-<li data-shiki-id="36699" data-wa-id="11583" data-id="10533" data-vote='7'>Мальчик и птица<vote>7⭐</vote></li>
-<li data-shiki-id="53924" data-wa-id="11606" data-id="10910" data-vote='5'>Туалетный мальчик Ханако 2<vote>5⭐</vote></li>
-<li data-shiki-id="39534" data-wa-id="10144" data-id="4846" data-vote='6'>Туалетный мальчик Ханако<vote>6⭐</vote></li>
-<li data-shiki-id="60157" data-wa-id="12263" data-id="15575" data-vote='6'>Соседнему королевству продали святую, помолвку которой разорвали из-за того, что она стала слишком совершенной<vote>6⭐</vote></li>
-<li data-shiki-id="39326" data-wa-id="9992" data-id="436" data-vote='7'>Готов ли ты влюбиться в извращенку до тех пор, пока она милая?<vote>7⭐</vote></li>
-<li data-shiki-id="53626" data-wa-id="11548" data-id="11643" data-vote='5'>Пока-пока, Земля<vote>5⭐</vote></li>
-<li data-shiki-id="14199" data-wa-id="1032" data-id="8985" data-vote='4'>Мой «комплекс братика» морали не остановить!<vote>4⭐</vote></li>
-<li data-shiki-id="8861" data-wa-id="7844" data-id="8017" data-vote='5'>Одиночество на двоих<vote>5⭐</vote></li>
-<li data-shiki-id="12549" data-wa-id="656" data-id="439" data-vote='5'>Говорю же, у меня не встаёт<vote>5⭐</vote></li>
-<li data-shiki-id="38778" data-wa-id="9904" data-id="1097" data-vote='5'>Похотливая Ао-чан не может учиться<vote>5⭐</vote></li>
-<li data-shiki-id="33949" data-wa-id="8909" data-id="6255" data-vote='4'>Расскажи нам, Гяруко! Неужто летние каникулы?<vote>4⭐</vote></li>
-<li data-shiki-id="32013" data-wa-id="8535" data-id="5595" data-vote='4'>Расскажи нам, Гяруко!<vote>4⭐</vote></li>
-<li data-shiki-id="37021" data-wa-id="9680" data-id="6308" data-vote='4'>Изобрази отвращение и покажи трусики<vote>4⭐</vote></li>
-<li data-shiki-id="38759" data-wa-id="9902" data-id="946" data-vote='6'>Заботливая 800-летняя жена!<vote>6⭐</vote></li>
-<li data-shiki-id="31404" data-wa-id="8431" data-id="3" data-vote='6'>А ты думал, что твоя жена в онлайн-игре на самом деле не девушка?<vote>6⭐</vote></li>
-<li data-shiki-id="22859" data-wa-id="0" data-id="10395" data-vote='7'>Чудачество любви не помеха: Movie Lite<vote>7⭐</vote></li>
-<li data-shiki-id="19021" data-wa-id="1612" data-id="5199" data-vote='7'>Чудачество любви не помеха: фильм о двух влюбленных<vote>7⭐</vote></li>
-<li data-shiki-id="18671" data-wa-id="1616" data-id="7001" data-vote='7'>Чудачество любви не помеха 2<vote>7⭐</vote></li>
-<li data-shiki-id="14741" data-wa-id="789" data-id="5793" data-vote='7'>Чудачество любви не помеха<vote>7⭐</vote></li>
-<li data-shiki-id="38483" data-wa-id="9848" data-id="5398" data-vote='7'>Ты единственная, кто любит Великого Меня?!<vote>7⭐</vote></li>
-<li data-shiki-id="38790" data-wa-id="10185" data-id="5254" data-vote='5'>Не люблю боль, поэтому собираюсь вложить всё в защиту<vote>5⭐</vote></li>
-<li data-shiki-id="44037" data-wa-id="10685" data-id="836" data-vote='6'>Меня выгнали из гильдии героев, потому что я был плохим компаньоном, поэтому я решил неспешно жить в глуши<vote>6⭐</vote></li>
-<li data-shiki-id="33502" data-wa-id="9042" data-id="6783" data-vote='8'>Если будешь не занят, спасёшь меня от апокалипсиса?<vote>8⭐</vote></li>
-<li data-shiki-id="50273" data-wa-id="11122" data-id="5488" data-vote='5'>Игра друзей<vote>5⭐</vote></li>
-<li data-shiki-id="14967" data-wa-id="1113" data-id="5252" data-vote='6'>У меня мало друзей: Продолжение<vote>6⭐</vote></li>
-<li data-shiki-id="10719" data-wa-id="6785" data-id="5253" data-vote='6'>У меня мало друзей<vote>6⭐</vote></li>
-<li data-shiki-id="31798" data-wa-id="8505" data-id="1410" data-vote='8'>Кизнайвер<vote>8⭐</vote></li>
-<li data-shiki-id="6489" data-wa-id="0" data-id="1095" data-vote='4'>Подручный Луизы-Нулизы 3: Хоровод трёх принцесс — Театр любви на ярмарке<vote>4⭐</vote></li>
-<li data-shiki-id="5764" data-wa-id="0" data-id="11437" data-vote='4'>Подручный Луизы-Нулизы: Хоровод трёх принцесс — Спецвыпуск<vote>4⭐</vote></li>
-<li data-shiki-id="11319" data-wa-id="132" data-id="1096" data-vote='4'>Подручный Луизы-Нулизы 4: Финал<vote>4⭐</vote></li>
-<li data-shiki-id="3712" data-wa-id="6891" data-id="9069" data-vote='4'>Подручный Луизы-Нулизы 3: Хоровод трёх принцесс<vote>4⭐</vote></li>
-<li data-shiki-id="1840" data-wa-id="6277" data-id="1094" data-vote='4'>Подручный Луизы-Нулизы 2: Рыцари двух лун<vote>4⭐</vote></li>
-<li data-shiki-id="1195" data-wa-id="5803" data-id="1093" data-vote='6'>Подручный Луизы-Нулизы<vote>6⭐</vote></li>
-<li data-shiki-id="36049" data-wa-id="9360" data-id="10214" data-vote='6'>Магазинчик сладостей 2<vote>6⭐</vote></li>
-<li data-shiki-id="31636" data-wa-id="8476" data-id="4891" data-vote='6'>Магазинчик сладостей<vote>6⭐</vote></li>
-<li data-shiki-id="31442" data-wa-id="8513" data-id="5687" data-vote='7'>Призрачный мир мириады цветов<vote>7⭐</vote></li>
-<li data-shiki-id="32951" data-wa-id="8987" data-id="482" data-vote='7'>Хроники Акаши — худшего магического преподавателя<vote>7⭐</vote></li>
-<li data-shiki-id="30749" data-wa-id="8319" data-id="7231" data-vote='6'>Хроники непобежденного Бахамута<vote>6⭐</vote></li>
-<li data-shiki-id="10622" data-wa-id="0" data-id="6172" data-vote='7'>Гуррен-Лаганн: Мой Гуррен сияет!!<vote>7⭐</vote></li>
-<li data-shiki-id="18679" data-wa-id="1690" data-id="659" data-vote='8'>Убей или умри<vote>8⭐</vote></li>
-<li data-shiki-id="4565" data-wa-id="7157" data-id="466" data-vote='7'>Гуррен-Лаганн: Звёздный свет<vote>7⭐</vote></li>
-<li data-shiki-id="37719" data-wa-id="999999" data-id="216" data-vote='7'>Демоны старшей школы 4 — Эпизод 0<vote>7⭐</vote></li>
-<li data-shiki-id="31326" data-wa-id="8678" data-id="214" data-vote='7'>Демоны старшей школы 3 — Спецвыпуски<vote>7⭐</vote></li>
-<li data-shiki-id="30300" data-wa-id="8329" data-id="212" data-vote='7'>Демоны старшей школы 2 — OVA<vote>7⭐</vote></li>
-<li data-shiki-id="12729" data-wa-id="1812" data-id="5714" data-vote='7'>Демоны старшей школы — OVA<vote>7⭐</vote></li>
-<li data-shiki-id="13357" data-wa-id="0" data-id="209" data-vote='7'>Демоны старшей школы — Спецвыпуски<vote>7⭐</vote></li>
-<li data-shiki-id="34281" data-wa-id="9440" data-id="217" data-vote='8'>Демоны старшей школы 4<vote>8⭐</vote></li>
-<li data-shiki-id="24703" data-wa-id="6390" data-id="213" data-vote='8'>Демоны старшей школы 3<vote>8⭐</vote></li>
-<li data-shiki-id="15451" data-wa-id="2782" data-id="211" data-vote='8'>Демоны старшей школы 2<vote>8⭐</vote></li>
-<li data-shiki-id="11617" data-wa-id="1871" data-id="208" data-vote='8'>Демоны старшей школы<vote>8⭐</vote></li>
-<li data-shiki-id="10620" data-wa-id="900" data-id="240" data-vote='7'>Дневник будущего<vote>7⭐</vote></li>
-<li data-shiki-id="28825" data-wa-id="8287" data-id="4716" data-vote='5'>Двуличная сестрёнка Умару<vote>5⭐</vote></li>
-<li data-shiki-id="36848" data-wa-id="76863" data-id="8723" data-vote='7'>Шоколад Купидона 2<vote>7⭐</vote></li>
-<li data-shiki-id="32323" data-wa-id="67936" data-id="9117" data-vote='7'>Шоколад Купидона<vote>7⭐</vote></li>
-<li data-shiki-id="37451" data-wa-id="9608" data-id="152" data-vote='7'>Бугипоп никогда не смеётся (2019)<vote>7⭐</vote></li>
-<li data-shiki-id="40483" data-wa-id="10305" data-id="7015" data-vote='6'>Добро пожаловать в Сэтон<vote>6⭐</vote></li>
-<li data-shiki-id="31737" data-wa-id="8496" data-id="96" data-vote='7'>Боевая академия города Астериск 2<vote>7⭐</vote></li>
-<li data-shiki-id="30544" data-wa-id="6780" data-id="95" data-vote='7'>Боевая академия города Астериск<vote>7⭐</vote></li>
-<li data-shiki-id="16700" data-wa-id="1489" data-id="5140" data-vote='7'>Когда плачут цикады: Вспышка<vote>7⭐</vote></li>
-<li data-shiki-id="3652" data-wa-id="5052" data-id="7029" data-vote='7'>Когда плачут цикады: Благодарность<vote>7⭐</vote></li>
-<li data-shiki-id="48488" data-wa-id="10859" data-id="626" data-vote='7'>Когда плачут цикады: Выпускной<vote>7⭐</vote></li>
-<li data-shiki-id="41006" data-wa-id="10436" data-id="618" data-vote='7'>Когда плачут цикады: Карма<vote>7⭐</vote></li>
-<li data-shiki-id="1889" data-wa-id="6268" data-id="620" data-vote='7'>Когда плачут цикады: Разгадки<vote>7⭐</vote></li>
-<li data-shiki-id="934" data-wa-id="5076" data-id="619" data-vote='7'>Когда плачут цикады<vote>7⭐</vote></li>
-<li data-shiki-id="42340" data-wa-id="10538" data-id="6194" data-vote='8'>Тяжкий труд в подземелье<vote>8⭐</vote></li>
-<li data-shiki-id="44524" data-wa-id="10712" data-id="5408" data-vote='4'>Гарем рабов в лабиринте другого мира<vote>4⭐</vote></li>
-<li data-shiki-id="29093" data-wa-id="8195" data-id="460" data-vote='6'>Лабиринт в серых тонах<vote>6⭐</vote></li>
-<li data-shiki-id="15565" data-wa-id="1093" data-id="7976" data-vote='7'>Не проиграю! 2<vote>7⭐</vote></li>
-<li data-shiki-id="9936" data-wa-id="796" data-id="8721" data-vote='7'>Не проиграю!<vote>7⭐</vote></li>
-<li data-shiki-id="11209" data-wa-id="2003" data-id="8704" data-vote='6'>Не проиграю! — OVA<vote>6⭐</vote></li>
-<li data-shiki-id="22147" data-wa-id="2112" data-id="5256" data-vote='7'>Великолепный парк Амаги<vote>7⭐</vote></li>
-<li data-shiki-id="32937" data-wa-id="8833" data-id="106" data-vote='6'>Богиня благословляет этот прекрасный мир 2<vote>6⭐</vote></li>
-<li data-shiki-id="30831" data-wa-id="8345" data-id="107" data-vote='6'>Богиня благословляет этот прекрасный мир<vote>6⭐</vote></li>
-<li data-shiki-id="51958" data-wa-id="10987" data-id="10344" data-vote='7'>Одаривая этот замечательный мир взрывами!<vote>7⭐</vote></li>
-<li data-shiki-id="38659" data-wa-id="10086" data-id="7516" data-vote='7'>Этот герой неуязвим, но очень осторожен<vote>7⭐</vote></li>
-<li data-shiki-id="54835" data-wa-id="11712" data-id="10771" data-vote='4'>Этот мир слишком несовершенен<vote>4⭐</vote></li>
-<li data-shiki-id="37450" data-wa-id="9610" data-id="357" data-vote='8'>Этот глупый свин не понимает мечту девочки-зайки<vote>8⭐</vote></li>
-<li data-shiki-id="0" data-wa-id="86823" data-id="10576" data-vote='7'>Ведьмак: Кошмар волка<vote>7⭐</vote></li>
-<li data-shiki-id="52816" data-wa-id="11442" data-id="10801" data-vote='8'>Ведьма и чудовище<vote>8⭐</vote></li>
-<li data-shiki-id="21085" data-wa-id="1241" data-id="8025" data-vote='6'>Ведьма за работой<vote>6⭐</vote></li>
-<li data-shiki-id="22117" data-wa-id="2116" data-id="5193" data-vote='4'>Ведьма за работой: Такамия-кун и трюк его сестры<vote>4⭐</vote></li>
-<li data-shiki-id="24531" data-wa-id="2357" data-id="9928" data-vote='4'>Журнал сестры<vote>4⭐</vote></li>
-<li data-shiki-id="53129" data-wa-id="11483" data-id="358" data-vote='6'>Этот глупый свин не понимает мечту сестры на прогулке<vote>6⭐</vote></li>
-<li data-shiki-id="39480" data-wa-id="0" data-id="16083" data-vote='7'>По велению адской сестры: Секретное видео Марии<vote>7⭐</vote></li>
-<li data-shiki-id="32409" data-wa-id="0" data-id="16043" data-vote='7'>По велению адской сестры: Взрыв — Спецвыпуски<vote>7⭐</vote></li>
-<li data-shiki-id="30464" data-wa-id="0" data-id="12671" data-vote='7'>По велению адской сестры — Спецвыпуски<vote>7⭐</vote></li>
-<li data-shiki-id="36688" data-wa-id="9450" data-id="5149" data-vote='7'>По велению адской сестры: Отбытие<vote>7⭐</vote></li>
-<li data-shiki-id="30365" data-wa-id="8648" data-id="1003" data-vote='7'>По велению адской сестры: Взрыв<vote>7⭐</vote></li>
-<li data-shiki-id="29027" data-wa-id="8191" data-id="1004" data-vote='7'>По велению адской сестры — OVA<vote>7⭐</vote></li>
-<li data-shiki-id="30363" data-wa-id="8299" data-id="5776" data-vote='8'>По велению адской сестры 2<vote>8⭐</vote></li>
-<li data-shiki-id="23233" data-wa-id="2680" data-id="1000" data-vote='8'>По велению адской сестры<vote>8⭐</vote></li>
-<li data-shiki-id="31756" data-wa-id="0" data-id="1158" data-vote='6'>Последний Серафим: Начало конца<vote>6⭐</vote></li>
-<li data-shiki-id="28927" data-wa-id="8174" data-id="1156" data-vote='8'>Последний Серафим: Битва в Нагое<vote>8⭐</vote></li>
-<li data-shiki-id="26243" data-wa-id="3799" data-id="1154" data-vote='8'>Последний Серафим<vote>8⭐</vote></li>
-<li data-shiki-id="31553" data-wa-id="8185" data-id="1328" data-vote='6'>Шарлотта: Сильные люди<vote>6⭐</vote></li>
-<li data-shiki-id="28999" data-wa-id="8185" data-id="1327" data-vote='9'>Шарлотта<vote>9⭐</vote></li>
-<li data-shiki-id="33834" data-wa-id="8872" data-id="6393" data-vote='4'>Прегрешение: Семь смертных грехов<vote>4⭐</vote></li>
-<li data-shiki-id="41491" data-wa-id="10443" data-id="1316" data-vote='5'>Семь смертных грехов: Яростное правосудие<vote>5⭐</vote></li>
-<li data-shiki-id="39701" data-wa-id="10076" data-id="1314" data-vote='6'>Семь смертных грехов: Гнев богов<vote>6⭐</vote></li>
-<li data-shiki-id="34577" data-wa-id="8964" data-id="1311" data-vote='7'>Семь смертных грехов: Возрождение заповедей<vote>7⭐</vote></li>
-<li data-shiki-id="23755" data-wa-id="4065" data-id="1309" data-vote='7'>Семь смертных грехов<vote>7⭐</vote></li>
-<li data-shiki-id="28677" data-wa-id="6777" data-id="4999" data-vote='4'>Ямада и семь ведьм<vote>4⭐</vote></li>
-<li data-shiki-id="15119" data-wa-id="1551" data-id="7978" data-vote='4'>Сэнран Кагура<vote>4⭐</vote></li>
-<li data-shiki-id="17895" data-wa-id="1622" data-id="1701" data-vote='6'>Золотая пора<vote>6⭐</vote></li>
-<li data-shiki-id="4898" data-wa-id="7007" data-id="1421" data-vote='6'>Тёмный Дворецкий<vote>6⭐</vote></li>
-<li data-shiki-id="55855" data-wa-id="11814" data-id="10657" data-vote='7'>Тёмный дворецкий: Школа-интернат<vote>7⭐</vote></li>
-<li data-shiki-id="20449" data-wa-id="1744" data-id="9128" data-vote='6'>Не моя вина, что я не популярна! Эпизод 13<vote>6⭐</vote></li>
-<li data-shiki-id="16742" data-wa-id="1333" data-id="8024" data-vote='6'>Не моя вина, что я не популярна!<vote>6⭐</vote></li>
-<li data-shiki-id="6880" data-wa-id="7925" data-id="8048" data-vote='6'>Страна чудес смертников<vote>6⭐</vote></li>
-<li data-shiki-id="11553" data-wa-id="0" data-id="11669" data-vote='6'>Торадора! Секрет приготовления бэнто<vote>6⭐</vote></li>
-<li data-shiki-id="10810" data-wa-id="0" data-id="14221" data-vote='6'>Пукка 2<vote>6⭐</vote></li>
-<li data-shiki-id="6609" data-wa-id="0" data-id="14222" data-vote='6'>Пукка<vote>6⭐</vote></li>
-<li data-shiki-id="7593" data-wa-id="7764" data-id="1088" data-vote='6'>Поцелуй сестёр<vote>6⭐</vote></li>
-<li data-shiki-id="60108" data-wa-id="0" data-id="15421" data-vote='8'>Ван-Пис: Остров Рыболюдей<vote>8⭐</vote></li>
-<li data-shiki-id="21" data-wa-id="803" data-id="1512" data-vote='8'>Ван-Пис<vote>8⭐</vote></li>
-<li data-shiki-id="4177" data-wa-id="6974" data-id="7066" data-vote='6'>КсамД: Позабывший невзгоды<vote>6⭐</vote></li>
-<li data-shiki-id="50307" data-wa-id="11127" data-id="1488" data-vote='6'>Унеси меня на Луну 2<vote>6⭐</vote></li>
-<li data-shiki-id="41389" data-wa-id="10412" data-id="1487" data-vote='6'>Унеси меня на Луну<vote>6⭐</vote></li>
-<li data-shiki-id="55651" data-wa-id="11785" data-id="10562" data-vote='6'>Унеси меня на Луну: Дни старшей школы<vote>6⭐</vote></li>
-<li data-shiki-id="60489" data-wa-id="12304" data-id="16740" data-vote='5'>Первородный грех Такопи<vote>5⭐</vote></li>
-<li data-shiki-id="0" data-wa-id="547" data-id="10818" data-vote='9'>Аватар: Легенда об Аанге<vote>9⭐</vote></li>
-<li data-shiki-id="42310" data-wa-id="10534" data-id="4887" data-vote='10'>Киберпанк: Бегущие по краю<vote>10⭐</vote></li>
-<li data-shiki-id="48548" data-wa-id="10866" data-id="4753" data-vote='7'>Пять невест — Фильм<vote>7⭐</vote></li>
-<li data-shiki-id="35608" data-wa-id="9266" data-id="2054" data-vote='7'>Чудачество любви не помеха: Положись на меня<vote>7⭐</vote></li>
-<li data-shiki-id="34161" data-wa-id="8960" data-id="1165" data-vote='7'>Повелитель: Бессмертный король<vote>7⭐</vote></li>
-<li data-shiki-id="54591" data-wa-id="0" data-id="10580" data-vote='8'>Клинок, рассекающий демонов: Собрание высших лун и деревня кузнецов<vote>8⭐</vote></li>
-<li data-shiki-id="54870" data-wa-id="11653" data-id="10962" data-vote='6'>Этот глупый свин не понимает мечту девушки с рюкзаком<vote>6⭐</vote></li>
-<li data-shiki-id="16662" data-wa-id="6286" data-id="2102" data-vote='8'>Ветер крепчает<vote>8⭐</vote></li>
-<li data-shiki-id="50593" data-wa-id="11170" data-id="10179" data-vote='10'>Тоннель в лето, выход прощаний<vote>10⭐</vote></li>
-<li data-shiki-id="513" data-wa-id="51" data-id="5187" data-vote='8'>Небесный замок Лапута<vote>8⭐</vote></li>
-<li data-shiki-id="38329" data-wa-id="9824" data-id="359" data-vote='6'>Этот глупый свин не понимает мечту девочки-мечтательницы<vote>6⭐</vote></li>
-<li data-shiki-id="512" data-wa-id="50" data-id="1558" data-vote='8'>Ведьмина служба доставки<vote>8⭐</vote></li>
-<li data-shiki-id="523" data-wa-id="62" data-id="859" data-vote='8'>Мой сосед Тоторо<vote>8⭐</vote></li>
-<li data-shiki-id="35851" data-wa-id="9309" data-id="2051" data-vote='3'>Укрась прощальное утро цветами обещания<vote>3⭐</vote></li>
-<li data-shiki-id="59192" data-wa-id="12156" data-id="13270" data-vote='8'>Клинок, рассекающий демонов: Бесконечный замок<vote>8⭐</vote></li>
-<li data-shiki-id="28851" data-wa-id="8517" data-id="2020" data-vote='9'>Форма голоса<vote>9⭐</vote></li>
-<li data-shiki-id="431" data-wa-id="2495" data-id="481" data-vote='9'>Ходячий замок<vote>9⭐</vote></li>
-<li data-shiki-id="199" data-wa-id="87" data-id="1486" data-vote='9'>Унесенные призраками<vote>9⭐</vote></li>
-<li data-shiki-id="43608" data-wa-id="10646" data-id="434" data-vote='6'>Госпожа Кагуя: В любви как на войне 3<vote>6⭐</vote></li>
-<li data-shiki-id="40591" data-wa-id="10261" data-id="432" data-vote='6'>Госпожа Кагуя: В любви как на войне 2<vote>6⭐</vote></li>
-<li data-shiki-id="37999" data-wa-id="9704" data-id="431" data-vote='7'>Госпожа Кагуя: в любви как на войне<vote>7⭐</vote></li>
-<li data-shiki-id="55690" data-wa-id="11788" data-id="10572" data-vote='7'>Опасность в моём сердце 2<vote>7⭐</vote></li>
-<li data-shiki-id="56948" data-wa-id="0" data-id="11531" data-vote='7'>Опасность в моём сердце: Дополнительное время<vote>7⭐</vote></li>
-<li data-shiki-id="52578" data-wa-id="11418" data-id="10322" data-vote='7'>Опасность в моём сердце<vote>7⭐</vote></li>
-<li data-shiki-id="41488" data-wa-id="10440" data-id="1016" data-vote='7'>Дневник слизи-попаданца<vote>7⭐</vote></li>
-<li data-shiki-id="54565" data-wa-id="11658" data-id="10625" data-vote='8'>О моём перерождении в слизь: Мечта Колеуса<vote>8⭐</vote></li>
-<li data-shiki-id="58592" data-wa-id="0" data-id="12682" data-vote='6'>О моём перерождении в слизь 3: Дневник Диабло<vote>6⭐</vote></li>
-<li data-shiki-id="45753" data-wa-id="0" data-id="1012" data-vote='6'>О моём перерождении в слизь: Хината Сакагучи<vote>6⭐</vote></li>
-<li data-shiki-id="38793" data-wa-id="9926" data-id="7064" data-vote='7'>О моём перерождении в слизь — OVA<vote>7⭐</vote></li>
-<li data-shiki-id="49877" data-wa-id="11056" data-id="10204" data-vote='7'>О моём перерождении в слизь: Алые узы<vote>7⭐</vote></li>
-<li data-shiki-id="53580" data-wa-id="11538" data-id="10628" data-vote='9'>О моём перерождении в слизь 3<vote>9⭐</vote></li>
-<li data-shiki-id="41487" data-wa-id="10439" data-id="1015" data-vote='9'>О моём перерождении в слизь 2 | Часть 2<vote>9⭐</vote></li>
-<li data-shiki-id="39551" data-wa-id="10064" data-id="1013" data-vote='9'>О моём перерождении в слизь 2<vote>9⭐</vote></li>
-<li data-shiki-id="49318" data-wa-id="999999999" data-id="1014" data-vote='7'>О моём перерождении в слизь 2: Дневник Вельдоры 2<vote>7⭐</vote></li>
-<li data-shiki-id="39607" data-wa-id="0" data-id="1010" data-vote='7'>О моём перерождении в слизь: Дневник Вельдоры<vote>7⭐</vote></li>
-<li data-shiki-id="37430" data-wa-id="9598" data-id="1009" data-vote='9'>О моём перерождении в слизь<vote>9⭐</vote></li>
-<li data-shiki-id="34662" data-wa-id="9092" data-id="282" data-vote='7'>Судьба/Апокриф<vote>7⭐</vote></li>
-<li data-shiki-id="11741" data-wa-id="287" data-id="270" data-vote='6'>Судьба/Начало 2<vote>6⭐</vote></li>
-<li data-shiki-id="10087" data-wa-id="8131" data-id="269" data-vote='8'>Судьба/Начало<vote>8⭐</vote></li>
-<li data-shiki-id="28701" data-wa-id="6445" data-id="264" data-vote='6'>Судьба/Ночь схватки: Бесконечный мир клинков 2<vote>6⭐</vote></li>
-<li data-shiki-id="22297" data-wa-id="2222" data-id="263" data-vote='6'>Судьба/Ночь схватки: Бесконечный мир клинков<vote>6⭐</vote></li>
-<li data-shiki-id="356" data-wa-id="4953" data-id="260" data-vote='6'>Судьба/Ночь схватки<vote>6⭐</vote></li>
-<li data-shiki-id="42205" data-wa-id="10520" data-id="1326" data-vote='7'>Король шаманов (2021)<vote>7⭐</vote></li>
-<li data-shiki-id="154" data-wa-id="2953" data-id="639" data-vote='6'>Король шаманов<vote>6⭐</vote></li>
-<li data-shiki-id="44983" data-wa-id="0" data-id="6376" data-vote='6'>Может, я встречу тебя в горячих источниках Орарио? Бог горячих источников навсегда<vote>6⭐</vote></li>
-<li data-shiki-id="40453" data-wa-id="0" data-id="12038" data-vote='6'>Может, я встречу тебя в подземелье? 2 OVA<vote>6⭐</vote></li>
-<li data-shiki-id="57066" data-wa-id="11920" data-id="12028" data-vote='9'>Может, я встречу тебя в подземелье? 5<vote>9⭐</vote></li>
-<li data-shiki-id="53111" data-wa-id="11493" data-id="4651" data-vote='10'>Может, я встречу тебя в подземелье? 4 | Часть 2<vote>10⭐</vote></li>
-<li data-shiki-id="47164" data-wa-id="10776" data-id="4902" data-vote='7'>Может, я встречу тебя в подземелье? 4<vote>7⭐</vote></li>
-<li data-shiki-id="37347" data-wa-id="9578" data-id="1499" data-vote='6'>Может, я встречу тебя в подземелье? 2<vote>6⭐</vote></li>
-<li data-shiki-id="40454" data-wa-id="10230" data-id="1501" data-vote='8'>Может, я встречу тебя в подземелье? 3<vote>8⭐</vote></li>
-<li data-shiki-id="28121" data-wa-id="6588" data-id="895" data-vote='8'>Может, я встречу тебя в подземелье?<vote>8⭐</vote></li>
-<li data-shiki-id="31658" data-wa-id="8870" data-id="62" data-vote='5'>Баскетбол Куроко: Последняя игра<vote>5⭐</vote></li>
-<li data-shiki-id="24415" data-wa-id="2355" data-id="59" data-vote='7'>Баскетбол Куроко 3<vote>7⭐</vote></li>
-<li data-shiki-id="16894" data-wa-id="1375" data-id="57" data-vote='7'>Баскетбол Куроко 2<vote>7⭐</vote></li>
-<li data-shiki-id="11771" data-wa-id="1775" data-id="56" data-vote='7'>Баскетбол Куроко<vote>7⭐</vote></li>
-<li data-shiki-id="49709" data-wa-id="11026" data-id="4642" data-vote='9'>Для тебя, Бессмертный 2<vote>9⭐</vote></li>
-<li data-shiki-id="41025" data-wa-id="10361" data-id="4717" data-vote='9'>Для тебя, Бессмертный<vote>9⭐</vote></li>
-<li data-shiki-id="46569" data-wa-id="10766" data-id="10323" data-vote='8'>Адский рай<vote>8⭐</vote></li>
-<li data-shiki-id="44511" data-wa-id="10713" data-id="166" data-vote='7'>Человек-бензопила<vote>7⭐</vote></li>
-<li data-shiki-id="39617" data-wa-id="10068" data-id="1025" data-vote='3'>Обещанный Неверленд 2<vote>3⭐</vote></li>
-<li data-shiki-id="37779" data-wa-id="9699" data-id="1024" data-vote='8'>Обещанный Неверленд<vote>8⭐</vote></li>
-<li data-shiki-id="58572" data-wa-id="12080" data-id="12255" data-vote='8'>Рубеж Шангри-Ла: Любитель игрошлака бросает вызов топ-игре 2<vote>8⭐</vote></li>
-<li data-shiki-id="52347" data-wa-id="11397" data-id="10733" data-vote='8'>Рубеж Шангри-Ла: Любитель игрошлака бросает вызов топ-игре<vote>8⭐</vote></li>
-<li data-shiki-id="527" data-wa-id="322" data-id="1099" data-vote='6'>Покемон: Лига Индиго<vote>6⭐</vote></li>
-<li data-shiki-id="52588" data-wa-id="11419" data-id="10596" data-vote='6'>Кайдзю номер восемь<vote>6⭐</vote></li>
-<li data-shiki-id="14719" data-wa-id="1075" data-id="4700" data-vote='6'>Невероятные приключения ДжоДжо<vote>6⭐</vote></li>
-<li data-shiki-id="48561" data-wa-id="10870" data-id="4958" data-vote='7'>Магическая битва 0<vote>7⭐</vote></li>
-<li data-shiki-id="51009" data-wa-id="11240" data-id="10529" data-vote='7'>Магическая битва 2<vote>7⭐</vote></li>
-<li data-shiki-id="40748" data-wa-id="10296" data-id="771" data-vote='8'>Магическая битва<vote>8⭐</vote></li>
-<li data-shiki-id="59654" data-wa-id="12213" data-id="14284" data-vote='7'>Магическая битва: Тайная проверка/Преждевременная смерть<vote>7⭐</vote></li>
-<li data-shiki-id="11111" data-wa-id="127" data-id="516" data-vote='7'>Иная<vote>7⭐</vote></li>
-<li data-shiki-id="41623" data-wa-id="10466" data-id="6701" data-vote='7'>Повелитель тьмы: Другая история мира 2<vote>7⭐</vote></li>
-<li data-shiki-id="37210" data-wa-id="9552" data-id="1171" data-vote='7'>Повелитель тьмы: Другая история мира<vote>7⭐</vote></li>
-<li data-shiki-id="57876" data-wa-id="11991" data-id="11746" data-vote='4'>Самый сильный волшебник армии повелителя демонов оказался человеком<vote>4⭐</vote></li>
-<li data-shiki-id="54837" data-wa-id="11713" data-id="10868" data-vote='6'>Злодейка девяносто девятого уровня: «Я босс, но не король демонов»<vote>6⭐</vote></li>
-<li data-shiki-id="49778" data-wa-id="11931" data-id="10921" data-vote='7'>Хроники людей и демонов<vote>7⭐</vote></li>
-<li data-shiki-id="10845" data-wa-id="0" data-id="12681" data-vote='7'>Клинок Маню: Спецвыпуски<vote>7⭐</vote></li>
-<li data-shiki-id="48418" data-wa-id="11899" data-id="10648" data-vote='4'>Непризнанный школой владыка демонов 2 | Часть 2<vote>4⭐</vote></li>
-<li data-shiki-id="10465" data-wa-id="2462" data-id="8707" data-vote='8'>Клинок Маню<vote>8⭐</vote></li>
-<li data-shiki-id="48417" data-wa-id="10833" data-id="4630" data-vote='4'>Непризнанный школой владыка демонов 2<vote>4⭐</vote></li>
-<li data-shiki-id="40496" data-wa-id="10239" data-id="7035" data-vote='6'>Непризнанный школой владыка демонов<vote>6⭐</vote></li>
-<li data-shiki-id="40456" data-wa-id="10265" data-id="596" data-vote='8'>Клинок, рассекающий демонов: Бесконечный поезд — Фильм<vote>8⭐</vote></li>
-<li data-shiki-id="55701" data-wa-id="11789" data-id="10605" data-vote='8'>Клинок, рассекающий демонов: Тренировка столпов<vote>8⭐</vote></li>
-<li data-shiki-id="51019" data-wa-id="11241" data-id="10203" data-vote='8'>Клинок, рассекающий демонов: Деревня кузнецов<vote>8⭐</vote></li>
-<li data-shiki-id="47778" data-wa-id="10806" data-id="599" data-vote='8'>Клинок, рассекающий демонов: Квартал красных фонарей<vote>8⭐</vote></li>
-<li data-shiki-id="49926" data-wa-id="11063" data-id="598" data-vote='8'>Клинок, рассекающий демонов: Бесконечный поезд<vote>8⭐</vote></li>
-<li data-shiki-id="38000" data-wa-id="9708" data-id="595" data-vote='8'>Клинок, рассекающий демонов<vote>8⭐</vote></li>
-<li data-shiki-id="269" data-wa-id="2656" data-id="90" data-vote='5'>Блич<vote>5⭐</vote></li>
-<li data-shiki-id="31043" data-wa-id="8362" data-id="418" data-vote='9'>Город, в котором меня нет<vote>9⭐</vote></li>
-<li data-shiki-id="22535" data-wa-id="2110" data-id="1058" data-vote='6'>Паразит - Учение о жизни<vote>6⭐</vote></li>
-<li data-shiki-id="55791" data-wa-id="11801" data-id="10602" data-vote='7'>Звёздное дитя 2<vote>7⭐</vote></li>
-<li data-shiki-id="52034" data-wa-id="11362" data-id="10387" data-vote='7'>Звёздное дитя<vote>7⭐</vote></li>
-<li data-shiki-id="60058" data-wa-id="12250" data-id="15269" data-vote='7'>Звёздное дитя 3<vote>7⭐</vote></li>
-<li data-shiki-id="53887" data-wa-id="11599" data-id="10483" data-vote='5'>Семья шпиона 2<vote>5⭐</vote></li>
-<li data-shiki-id="50602" data-wa-id="11307" data-id="4702" data-vote='5'>Семья шпиона | Часть 2<vote>5⭐</vote></li>
-<li data-shiki-id="50265" data-wa-id="11119" data-id="4951" data-vote='6'>Семья шпиона<vote>6⭐</vote></li>
-<li data-shiki-id="38691" data-wa-id="9879" data-id="247" data-vote='7'>Доктор Стоун<vote>7⭐</vote></li>
-<li data-shiki-id="55644" data-wa-id="11786" data-id="10557" data-vote='6'>Доктор Стоун: Новый мир | Часть 2<vote>6⭐</vote></li>
-<li data-shiki-id="226" data-wa-id="2746" data-id="353" data-vote='6'>Эльфийская песнь<vote>6⭐</vote></li>
-<li data-shiki-id="58390" data-wa-id="12043" data-id="12047" data-vote='7'>Песнь ночных сов 2<vote>7⭐</vote></li>
-<li data-shiki-id="50346" data-wa-id="11136" data-id="4921" data-vote='7'>Песнь ночных сов<vote>7⭐</vote></li>
-<li data-shiki-id="52807" data-wa-id="11440" data-id="10551" data-vote='5'>Ванпанчмен 3<vote>5⭐</vote></li>
-<li data-shiki-id="34134" data-wa-id="8946" data-id="1554" data-vote='7'>Ванпанчмен 2<vote>7⭐</vote></li>
-<li data-shiki-id="30276" data-wa-id="8281" data-id="4981" data-vote='7'>Ванпанчмен<vote>7⭐</vote></li>
-<li data-shiki-id="28755" data-wa-id="8187" data-id="110" data-vote='7'>Боруто: Фильм Наруто<vote>7⭐</vote></li>
-<li data-shiki-id="16870" data-wa-id="2585" data-id="131" data-vote='9'>Наруто: Последний фильм<vote>9⭐</vote></li>
-<li data-shiki-id="1735" data-wa-id="6223" data-id="119" data-vote='10'>Наруто: Ураганные хроники<vote>10⭐</vote></li>
-<li data-shiki-id="20" data-wa-id="262" data-id="111" data-vote='10'>Наруто<vote>10⭐</vote></li>
-<li data-shiki-id="56196" data-wa-id="11853" data-id="11712" data-vote='4'>Моя геройская академия: Ты следующий<vote>4⭐</vote></li>
-<li data-shiki-id="44200" data-wa-id="10696" data-id="876" data-vote='6'>Моя геройская академия: Миссия мировых героев<vote>6⭐</vote></li>
-<li data-shiki-id="39565" data-wa-id="10057" data-id="873" data-vote='6'>Моя геройская академия: Восхождение героев<vote>6⭐</vote></li>
-<li data-shiki-id="36896" data-wa-id="9513" data-id="870" data-vote='6'>Моя геройская академия: Два героя<vote>6⭐</vote></li>
-<li data-shiki-id="60098" data-wa-id="12254" data-id="15395" data-vote='8'>Моя геройская академия 8<vote>8⭐</vote></li>
-<li data-shiki-id="60593" data-wa-id="12326" data-id="17058" data-vote='6'>Моя геройская академия: Вне закона<vote>6⭐</vote></li>
-<li data-shiki-id="54789" data-wa-id="11719" data-id="10702" data-vote='8'>Моя геройская академия 7<vote>8⭐</vote></li>
-<li data-shiki-id="49918" data-wa-id="11061" data-id="878" data-vote='8'>Моя геройская академия 6<vote>8⭐</vote></li>
-<li data-shiki-id="41587" data-wa-id="10457" data-id="877" data-vote='7'>Моя геройская академия 5<vote>7⭐</vote></li>
-<li data-shiki-id="38408" data-wa-id="9917" data-id="872" data-vote='8'>Моя геройская академия 4<vote>8⭐</vote></li>
-<li data-shiki-id="36456" data-wa-id="9410" data-id="869" data-vote='8'>Моя геройская академия 3<vote>8⭐</vote></li>
-<li data-shiki-id="33486" data-wa-id="8837" data-id="867" data-vote='7'>Моя геройская академия 2<vote>7⭐</vote></li>
-<li data-shiki-id="31964" data-wa-id="8530" data-id="866" data-vote='7'>Моя геройская академия<vote>7⭐</vote></li>
-<li data-shiki-id="37492" data-wa-id="0" data-id="11864" data-vote='5'>Врата Штейна 0: Валентинов кристаллический полиморфизм с горько-сладкой начинкой<vote>5⭐</vote></li>
-<li data-shiki-id="32188" data-wa-id="0" data-id="1622" data-vote='4'>Врата Штейна: Найти недостающее звено - Деление на ноль<vote>4⭐</vote></li>
-<li data-shiki-id="10863" data-wa-id="999999999" data-id="1621" data-vote='4'>Врата Штейна: Эгоистичная пориомания<vote>4⭐</vote></li>
-<li data-shiki-id="11577" data-wa-id="1875" data-id="1623" data-vote='7'>Врата Штейна: Дежавю<vote>7⭐</vote></li>
-<li data-shiki-id="30484" data-wa-id="9340" data-id="1625" data-vote='8'>Врата Штейна 0<vote>8⭐</vote></li>
-<li data-shiki-id="9253" data-wa-id="8026" data-id="1620" data-vote='9'>Врата Штейна<vote>9⭐</vote></li>
-<li data-shiki-id="27957" data-wa-id="5285" data-id="1624" data-vote='5'>Врата Штейна: Великая мудрость когнитивного компьютера<vote>5⭐</vote></li>
-<li data-shiki-id="58224" data-wa-id="0" data-id="11973" data-vote='6'>Поднятие уровня в одиночку: Как стать сильнее<vote>6⭐</vote></li>
-<li data-shiki-id="59841" data-wa-id="0" data-id="14768" data-vote='6'>Поднятие уровня в одиночку: Повторное пробуждение — Рекап<vote>6⭐</vote></li>
-<li data-shiki-id="52299" data-wa-id="11392" data-id="10374" data-vote='7'>Поднятие уровня в одиночку<vote>7⭐</vote></li>
-<li data-shiki-id="58567" data-wa-id="12079" data-id="12249" data-vote='7'>Поднятие уровня в одиночку 2: Восстаньте из тени<vote>7⭐</vote></li>
-<li data-shiki-id="49235" data-wa-id="10428" data-id="12054" data-vote='6'>Восемьдесят шесть — Рекап<vote>6⭐</vote></li>
-<li data-shiki-id="41457" data-wa-id="10428" data-id="4633" data-vote='8'>Восемьдесят шесть<vote>8⭐</vote></li>
-<li data-shiki-id="48569" data-wa-id="10964" data-id="5759" data-vote='8'>Восемьдесят шесть 2<vote>8⭐</vote></li>
-<li data-shiki-id="11061" data-wa-id="126" data-id="468" data-vote='8'>Хантер х Хантер (2011)<vote>8⭐</vote></li>
-<li data-shiki-id="1535" data-wa-id="5891" data-id="1426" data-vote='8'>Тетрадь Смерти<vote>8⭐</vote></li>
-<li data-shiki-id="121" data-wa-id="2368" data-id="1383" data-vote='10'>Стальной Алхимик<vote>10⭐</vote></li>
-<li data-shiki-id="5114" data-wa-id="7116" data-id="1386" data-vote='6'>Стальной Алхимик: Братство<vote>6⭐</vote></li>
-<li data-shiki-id="2001" data-wa-id="5959" data-id="463" data-vote='8'>Гуррен-Лаганн<vote>8⭐</vote></li>
-<li data-shiki-id="49387" data-wa-id="10978" data-id="4655" data-vote='10'>Сага о Винланде 2<vote>10⭐</vote></li>
-<li data-shiki-id="37521" data-wa-id="9636" data-id="1274" data-vote='10'>Сага о Винланде<vote>10⭐</vote></li>
-<li data-shiki-id="32698" data-wa-id="8677" data-id="5026" data-vote='6'>Повседневная жизнь с девушкой-монстром — Бонус<vote>6⭐</vote></li>
-<li data-shiki-id="30307" data-wa-id="8284" data-id="5098" data-vote='7'>Повседневная жизнь с девушкой-монстром<vote>7⭐</vote></li>
-<li data-shiki-id="31121" data-wa-id="0" data-id="6719" data-vote='7'>Повседневная жизнь с девушкой-монстром — Спецвыпуски<vote>7⭐</vote></li>
-<li data-shiki-id="42423" data-wa-id="10437" data-id="1222" data-vote='4'>Рандеву с пулей: Кошмар или королева<vote>4⭐</vote></li>
-<li data-shiki-id="22961" data-wa-id="2217" data-id="1226" data-vote='4'>Рандеву с жизнью 2: Куруми на фестивале звёзд<vote>4⭐</vote></li>
-<li data-shiki-id="19163" data-wa-id="1640" data-id="1225" data-vote='7'>Рандеву с жизнью 2<vote>7⭐</vote></li>
-<li data-shiki-id="36633" data-wa-id="9858" data-id="1228" data-vote='7'>Рандеву с жизнью 3<vote>7⭐</vote></li>
-<li data-shiki-id="15583" data-wa-id="1176" data-id="1223" data-vote='7'>Рандеву с жизнью<vote>7⭐</vote></li>
-<li data-shiki-id="24655" data-wa-id="8170" data-id="1227" data-vote='5'>Рандеву с Жизнью — Фильм: Суд Маюри<vote>5⭐</vote></li>
-<li data-shiki-id="33674" data-wa-id="8860" data-id="509" data-vote='6'>Нет игры — нет жизни: Начало<vote>6⭐</vote></li>
-<li data-shiki-id="19815" data-wa-id="1715" data-id="508" data-vote='8'>Нет игры — нет жизни<vote>8⭐</vote></li>
-<li data-shiki-id="39547" data-wa-id="10033" data-id="1272" data-vote='7'>Как и ожидал, моя школьная романтическая жизнь не удалась 3<vote>7⭐</vote></li>
-<li data-shiki-id="23847" data-wa-id="4755" data-id="1270" data-vote='7'>Как и ожидал, моя школьная романтическая жизнь не удалась 2<vote>7⭐</vote></li>
-<li data-shiki-id="14813" data-wa-id="1159" data-id="1268" data-vote='7'>Как и ожидал, моя школьная романтическая жизнь не удалась<vote>7⭐</vote></li>
-<li data-shiki-id="58359" data-wa-id="12042" data-id="12029" data-vote='6'>Гениальный целитель, который исцелял в одно мгновение, но был изгнан как бесполезный, теперь наслаждается жизнью в качестве тёмного целителя<vote>6⭐</vote></li>
-<li data-shiki-id="51693" data-wa-id="11322" data-id="10345" data-vote='7'>Деятельность Бога в мире без богов<vote>7⭐</vote></li>
-<li data-shiki-id="37517" data-wa-id="9633" data-id="7757" data-vote='6'>Сладкая жизнь<vote>6⭐</vote></li>
-<li data-shiki-id="46471" data-wa-id="10757" data-id="4843" data-vote='6'>Детектив уже мёртв<vote>6⭐</vote></li>
-<li data-shiki-id="44276" data-wa-id="10701" data-id="4811" data-vote='7'>Что, если чрезвычайно развитая ролевая игра с полным погружением вызывает большее привыкание, чем реальность<vote>7⭐</vote></li>
-<li data-shiki-id="42962" data-wa-id="10619" data-id="1497" data-vote='7'>Удзаки хочет тусоваться! 2<vote>7⭐</vote></li>
-<li data-shiki-id="41226" data-wa-id="10386" data-id="1496" data-vote='7'>Удзаки хочет тусоваться!<vote>7⭐</vote></li>
-<li data-shiki-id="52995" data-wa-id="11464" data-id="10658" data-vote='4'>Арифурэта: Сильнейший ремесленник в мире 3<vote>4⭐</vote></li>
-<li data-shiki-id="40507" data-wa-id="10241" data-id="35" data-vote='6'>Арифурэта: Сильнейший ремесленник в мире 2<vote>6⭐</vote></li>
-<li data-shiki-id="36882" data-wa-id="9490" data-id="36" data-vote='7'>Арифурэта: Сильнейший ремесленник в мире<vote>7⭐</vote></li>
-<li data-shiki-id="48760" data-wa-id="10897" data-id="5259" data-vote='6'>Рыцарь-скелет в ином мире<vote>6⭐</vote></li>
-<li data-shiki-id="60012" data-wa-id="0" data-id="15175" data-vote='4'>Re:Zero. Перерыв с нуля 3<vote>4⭐</vote></li>
-<li data-shiki-id="42364" data-wa-id="0" data-id="1698" data-vote='4'>Re:Zero. Перерыв с нуля 2<vote>4⭐</vote></li>
-<li data-shiki-id="33142" data-wa-id="0" data-id="1696" data-vote='4'>Re:Zero. Перерыв с нуля<vote>4⭐</vote></li>
-<li data-shiki-id="50461" data-wa-id="11152" data-id="5349" data-vote='6'>Мир отомэ-игр — это тяжёлый мир для мобов<vote>6⭐</vote></li>
-<li data-shiki-id="49889" data-wa-id="11057" data-id="10705" data-vote='8'>Лунное путешествие приведёт к новому миру 2<vote>8⭐</vote></li>
-<li data-shiki-id="43523" data-wa-id="10641" data-id="6388" data-vote='8'>Лунное путешествие приведёт к новому миру<vote>8⭐</vote></li>
-<li data-shiki-id="33569" data-wa-id="0" data-id="1697" data-vote='4'>Re:Zero. Перерыв с нуля: жизнь с малого в альтернативном мире<vote>4⭐</vote></li>
-<li data-shiki-id="41590" data-wa-id="0" data-id="11924" data-vote='4'>Re:Zero. Жизнь с нуля в альтернативном мире: Замороженные узы — Урок хороших манер<vote>4⭐</vote></li>
-<li data-shiki-id="38414" data-wa-id="9600" data-id="1247" data-vote='6'>Re:Zero. Жизнь с нуля в альтернативном мире: Замороженные узы<vote>6⭐</vote></li>
-<li data-shiki-id="56923" data-wa-id="11912" data-id="11368" data-vote='6'>Непринуждённая жизнь в другом мире экс-кандидата в герои, оказавшегося читером со 2 уровня<vote>6⭐</vote></li>
-<li data-shiki-id="31240" data-wa-id="8388" data-id="1249" data-vote='6'>Re:Zero. Жизнь с нуля в альтернативном мире: Режиссерская версия<vote>6⭐</vote></li>
-<li data-shiki-id="39921" data-wa-id="0" data-id="11925" data-vote='4'>Re:Zero. Жизнь с нуля в альтернативном мире: Снежные воспоминания — Обучающий фильм<vote>4⭐</vote></li>
-<li data-shiki-id="36286" data-wa-id="9600" data-id="1250" data-vote='7'>Re:Zero. Жизнь с нуля в альтернативном мире: Снежные воспоминания<vote>7⭐</vote></li>
-<li data-shiki-id="12581" data-wa-id="1070" data-id="5162" data-vote='4'>Утренние занятия Чу!<vote>4⭐</vote></li>
-<li data-shiki-id="26449" data-wa-id="0" data-id="11608" data-vote='6'>Убийца Акамэ! Рекап<vote>6⭐</vote></li>
-<li data-shiki-id="35849" data-wa-id="9308" data-id="848" data-vote='8'>Милый во Франксе<vote>8⭐</vote></li>
-<li data-shiki-id="47160" data-wa-id="10771" data-id="10697" data-vote='7'>Убийца гоблинов 2<vote>7⭐</vote></li>
-<li data-shiki-id="39576" data-wa-id="10058" data-id="5249" data-vote='5'>Убийца гоблинов: Корона гоблина<vote>5⭐</vote></li>
-<li data-shiki-id="47790" data-wa-id="10808" data-id="690" data-vote='6'>Лучший в мире ассасин, переродившийся в другом мире как аристократ<vote>6⭐</vote></li>
-<li data-shiki-id="37349" data-wa-id="9577" data-id="5216" data-vote='7'>Убийца гоблинов<vote>7⭐</vote></li>
-<li data-shiki-id="22199" data-wa-id="2184" data-id="1468" data-vote='10'>Убийца Акамэ!<vote>10⭐</vote></li>
-<li data-shiki-id="38572" data-wa-id="10096" data-id="414" data-vote='5'>Гордость убийцы<vote>5⭐</vote></li>
-<li data-shiki-id="30654" data-wa-id="8477" data-id="585" data-vote='7'>Класс убийц 2<vote>7⭐</vote></li>
-<li data-shiki-id="24833" data-wa-id="2325" data-id="583" data-vote='7'>Класс убийц<vote>7⭐</vote></li>
-<li data-shiki-id="51180" data-wa-id="11258" data-id="10199" data-vote='7'>Добро пожаловать в класс превосходства 3<vote>7⭐</vote></li>
-<li data-shiki-id="51096" data-wa-id="11245" data-id="4909" data-vote='8'>Добро пожаловать в класс превосходства 2<vote>8⭐</vote></li>
-<li data-shiki-id="35507" data-wa-id="9249" data-id="244" data-vote='8'>Добро пожаловать в класс превосходства<vote>8⭐</vote></li>
-<li data-shiki-id="42091" data-wa-id="10514" data-id="7125" data-vote='6'>Атака титанов: Хроника — Рекап<vote>6⭐</vote></li>
-<li data-shiki-id="5231" data-wa-id="7050" data-id="1035" data-vote='6'>Одиннадцать молний<vote>6⭐</vote></li>
-<li data-shiki-id="50197" data-wa-id="11103" data-id="4616" data-vote='6'>Не издевайся, Нагаторо: Вторая атака<vote>6⭐</vote></li>
-<li data-shiki-id="25781" data-wa-id="2686" data-id="47" data-vote='4'>Атака титанов: Выбор без сожалений<vote>4⭐</vote></li>
-<li data-shiki-id="18397" data-wa-id="1468" data-id="46" data-vote='4'>Атака титанов: Дневник Илзе<vote>4⭐</vote></li>
-<li data-shiki-id="59571" data-wa-id="12199" data-id="14071" data-vote='5'>Атака титанов: Заключительная глава — Последняя атака (Рекап)<vote>5⭐</vote></li>
-<li data-shiki-id="16498" data-wa-id="1245" data-id="45" data-vote='10'>Атака титанов<vote>10⭐</vote></li>
-<li data-shiki-id="23777" data-wa-id="2316" data-id="6090" data-vote='6'>Атака титанов: Крылья свободы — Рекап<vote>6⭐</vote></li>
-<li data-shiki-id="23775" data-wa-id="2316" data-id="11687" data-vote='6'>Атака титанов: Багровые луки и стрелы<vote>6⭐</vote></li>
-<li data-shiki-id="38524" data-wa-id="9850" data-id="5826" data-vote='10'>Атака титанов 3 | Часть 2<vote>10⭐</vote></li>
-<li data-shiki-id="35760" data-wa-id="9292" data-id="44" data-vote='10'>Атака титанов 3<vote>10⭐</vote></li>
-<li data-shiki-id="25777" data-wa-id="8849" data-id="49" data-vote='10'>Атака титанов 2<vote>10⭐</vote></li>
-<li data-shiki-id="31297" data-wa-id="8358" data-id="10639" data-vote='4'>Токийский Гуль: «Пинто»<vote>4⭐</vote></li>
-<li data-shiki-id="30458" data-wa-id="8358" data-id="1438" data-vote='4'>Токийский Гуль: Джек<vote>4⭐</vote></li>
-<li data-shiki-id="37799" data-wa-id="9678" data-id="1440" data-vote='6'>Токийский Гуль: Перерождение 2<vote>6⭐</vote></li>
-<li data-shiki-id="36511" data-wa-id="9420" data-id="8019" data-vote='6'>Токийский Гуль: Перерождение<vote>6⭐</vote></li>
-<li data-shiki-id="27899" data-wa-id="4177" data-id="1437" data-vote='10'>Токийский Гуль √A<vote>10⭐</vote></li>
-<li data-shiki-id="22319" data-wa-id="2300" data-id="1436" data-vote='10'>Токийский Гуль<vote>10⭐</vote></li>
-<li data-shiki-id="30503" data-wa-id="8315" data-id="79" data-vote='6'>Бездомный Бог: Арагото<vote>6⭐</vote></li>
-<li data-shiki-id="20507" data-wa-id="1666" data-id="5627" data-vote='6'>Бездомный Бог<vote>6⭐</vote></li>
-<li data-shiki-id="40787" data-wa-id="10304" data-id="1700" data-vote='10'>Жозе, тигр и рыба<vote>10⭐</vote></li>
-<li data-shiki-id="1689" data-wa-id="5956" data-id="2" data-vote='6'>5 сантиметров в секунду<vote>6⭐</vote></li>
-<li data-shiki-id="16782" data-wa-id="5790" data-id="2034" data-vote='7'>Сад изящных слов<vote>7⭐</vote></li>
-<li data-shiki-id="34437" data-wa-id="9040" data-id="7506" data-vote='10'>Код Гиас: Лелуш Воскресший<vote>10⭐</vote></li>
-<li data-shiki-id="34440" data-wa-id="9038" data-id="14501" data-vote='6'>Код Гиас: Восставший Лелуш — Император<vote>6⭐</vote></li>
-<li data-shiki-id="34439" data-wa-id="9038" data-id="614" data-vote='6'>Код Гиасс: Восстание Лелуша — Восстание<vote>6⭐</vote></li>
-<li data-shiki-id="34438" data-wa-id="9038" data-id="613" data-vote='6'>Код Гиасс: Восстание Лелуша — Пробуждение<vote>6⭐</vote></li>
-<li data-shiki-id="2904" data-wa-id="6804" data-id="610" data-vote='10'>Код Гиасс: Восстание Лелуша 2<vote>10⭐</vote></li>
-<li data-shiki-id="1575" data-wa-id="5921" data-id="608" data-vote='10'>Код Гиасс: Восстание Лелуша<vote>10⭐</vote></li>
-<li data-shiki-id="55818" data-wa-id="99999999" data-id="11493" data-vote='6'>Реинкарнация безработного: История о приключениях в другом мире 2 — Маг-хранитель Фитц<vote>6⭐</vote></li>
-<li data-shiki-id="50360" data-wa-id="0" data-id="5768" data-vote='6'>Реинкарнация безработного: История о приключениях в другом мире. Эрис — убийца гоблинов<vote>6⭐</vote></li>
-<li data-shiki-id="51179" data-wa-id="11257" data-id="10227" data-vote='7'>Реинкарнация безработного: История о приключениях в другом мире 2<vote>7⭐</vote></li>
-<li data-shiki-id="55888" data-wa-id="11819" data-id="10708" data-vote='9'>Реинкарнация безработного: История о приключениях в другом мире 2 | Часть 2<vote>9⭐</vote></li>
-<li data-shiki-id="45576" data-wa-id="10795" data-id="1256" data-vote='10'>Реинкарнация безработного: История о приключениях в другом мире | Часть 2<vote>10⭐</vote></li>
-<li data-shiki-id="39535" data-wa-id="10260" data-id="1255" data-vote='10'>Реинкарнация безработного: История о приключениях в другом мире<vote>10⭐</vote></li>
-<li data-shiki-id="41341" data-wa-id="0" data-id="13995" data-vote='6'>Мастера Меча Онлайн: Алисизация — Война в Подмирье. Рекап<vote>6⭐</vote></li>
-<li data-shiki-id="40489" data-wa-id="0" data-id="23589" data-vote='6'>Мастера Меча Онлайн: Алисизация — Война в Подмирье. Отражение<vote>6⭐</vote></li>
-<li data-shiki-id="39239" data-wa-id="0" data-id="14000" data-vote='6'>Мастера Меча Онлайн: Алисизация — Рекап<vote>6⭐</vote></li>
-<li data-shiki-id="37831" data-wa-id="0" data-id="14636" data-vote='4'>Мастера Меча Онлайн: Альтернативная «Призрачная пуля» — Рекап<vote>4⭐</vote></li>
-<li data-shiki-id="27891" data-wa-id="0" data-id="13903" data-vote='5'>Мастера Меча Онлайн 2: Расследование<vote>5⭐</vote></li>
-<li data-shiki-id="20021" data-wa-id="1766" data-id="793" data-vote='5'>Мастера Меча Онлайн: Дополнительное издание<vote>5⭐</vote></li>
-<li data-shiki-id="31765" data-wa-id="8500" data-id="796" data-vote='6'>Мастера Меча Онлайн: Порядковый ранг<vote>6⭐</vote></li>
-<li data-shiki-id="40540" data-wa-id="10254" data-id="801" data-vote='9'>Мастера Меча Онлайн: Алисизация - Война в Подмирье 2<vote>9⭐</vote></li>
-<li data-shiki-id="39597" data-wa-id="10069" data-id="800" data-vote='10'>Мастера Меча Онлайн: Алисизация - Война в Подмирье<vote>10⭐</vote></li>
-<li data-shiki-id="36474" data-wa-id="9417" data-id="799" data-vote='10'>Мастера Меча Онлайн: Алисизация<vote>10⭐</vote></li>
-<li data-shiki-id="21881" data-wa-id="2333" data-id="794" data-vote='6'>Мастера Меча Онлайн 2<vote>6⭐</vote></li>
-<li data-shiki-id="36475" data-wa-id="9418" data-id="798" data-vote='4'>Мастера Меча Онлайн: Альтернативная «Призрачная пуля»<vote>4⭐</vote></li>
-<li data-shiki-id="11757" data-wa-id="1299" data-id="792" data-vote='10'>Мастера Меча Онлайн<vote>10⭐</vote></li>
-<li data-shiki-id="31859" data-wa-id="8512" data-id="457" data-vote='8'>Гримгар из пепла и иллюзий<vote>8⭐</vote></li>
-<li data-shiki-id="57555" data-wa-id="11955" data-id="11541" data-vote='9'>Человек-бензопила: История Резе<vote>9⭐</vote></li>
-<li data-shiki-id="759" data-wa-id="232" data-id="4892" data-vote='9'>Крестные отцы Токио<vote>9⭐</vote></li>
-<li data-shiki-id="369" data-wa-id="333" data-id="10051" data-vote='5'>Бугипоп никогда не смеётся<vote>5⭐</vote></li>
-<li data-shiki-id="28675" data-wa-id="6097" data-id="1664" data-vote='6'>За гранью: Я буду рядом - Будущее<vote>6⭐</vote></li>
-<li data-shiki-id="25015" data-wa-id="2490" data-id="4979" data-vote='7'>За гранью: Я буду рядом — Прошлое<vote>7⭐</vote></li>
-<li data-shiki-id="18153" data-wa-id="1254" data-id="1662" data-vote='7'>За гранью<vote>7⭐</vote></li>
-<li data-shiki-id="59267" data-wa-id="12162" data-id="13404" data-vote='7'>Санда<vote>7⭐</vote></li>
-<li data-shiki-id="59062" data-wa-id="12126" data-id="13004" data-vote='7'>Гачиакута<vote>7⭐</vote></li>
-<li data-shiki-id="51818" data-wa-id="11346" data-id="10875" data-vote='7'>Пламенная бригада пожарных 3<vote>7⭐</vote></li>
-<li data-shiki-id="32281" data-wa-id="8593" data-id="1463" data-vote='10'>Твоё имя<vote>10⭐</vote></li>
-<li data-shiki-id="38826" data-wa-id="9911" data-id="5144" data-vote='10'>Дитя погоды<vote>10⭐</vote></li>
-                </ul>
-                    <div class="list-stats" style="margin-top: 10px; font-size: 0.85rem; color: var(--text-muted); padding: 5px; border-top: 1px solid var(--border-color);">
-                        <span class="count"></span> | <span class="avg"></span>
-                    </div>
-                    
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-                    <td data-list-id="3">
-                <h3>Брошено</h3>
-                <ul>
-<li data-shiki-id="63619" data-wa-id="0" data-id="27014" data-vote='2'>История о том, как Сомэя из моего семинара оказалась порноактрисой<vote>2⭐</vote></li>
-<li data-shiki-id="52505" data-wa-id="11415" data-id="10559" data-vote='3'>Тёмное собрание<vote>3⭐</vote></li>
-<li data-shiki-id="12445" data-wa-id="290" data-id="7193" data-vote='4'>Сумеречная дева и амнезия<vote>4⭐</vote></li>
-<li data-shiki-id="38480" data-wa-id="9846" data-id="954" data-vote='4'>Некий научный Акселератор<vote>4⭐</vote></li>
-<li data-shiki-id="51837" data-wa-id="11347" data-id="4911" data-vote='3'>Моя новая горничная очень подозрительна<vote>3⭐</vote></li>
-<li data-shiki-id="57944" data-wa-id="11998" data-id="11791" data-vote='3'>Целитель, которого исключили из группы, оказался сильнейшим!<vote>3⭐</vote></li>
-<li data-shiki-id="48492" data-wa-id="10858" data-id="31" data-vote='4'>Алый Нексус<vote>4⭐</vote></li>
-<li data-shiki-id="12467" data-wa-id="3945" data-id="6890" data-vote='2'>Загадочная девушка Х<vote>2⭐</vote></li>
-<li data-shiki-id="41946" data-wa-id="10502" data-id="1445" data-vote='3'>Тотальный гарем<vote>3⭐</vote></li>
-<li data-shiki-id="62405" data-wa-id="12605" data-id="23148" data-vote='3'>Тацуки Фудзимото: С семнадцати до двадцати шести<vote>3⭐</vote></li>
-<li data-shiki-id="55996" data-wa-id="11832" data-id="10808" data-vote='2'>Любовь неделима между близнецами<vote>2⭐</vote></li>
-<li data-shiki-id="11761" data-wa-id="970" data-id="8460" data-vote='5'>Ящик предложений Мэдаки<vote>5⭐</vote></li>
-<li data-shiki-id="34964" data-wa-id="9406" data-id="8029" data-vote='5'>Смертельный укус<vote>5⭐</vote></li>
-<li data-shiki-id="26443" data-wa-id="3647" data-id="8650" data-vote='5'>Искусственный отбор<vote>5⭐</vote></li>
-<li data-shiki-id="62391" data-wa-id="12602" data-id="23113" data-vote='5'>Убивая юность<vote>5⭐</vote></li>
-<li data-shiki-id="63019" data-wa-id="12701" data-id="25209" data-vote='4'>Призматическое рондо<vote>4⭐</vote></li>
-<li data-shiki-id="6746" data-wa-id="7334" data-id="6398" data-vote='4'>Дюрарара!!<vote>4⭐</vote></li>
-<li data-shiki-id="4901" data-wa-id="6368" data-id="1082" data-vote='4'>Пираты «Чёрной лагуны»: Кровавая тропа Роберты<vote>4⭐</vote></li>
-<li data-shiki-id="8440" data-wa-id="0" data-id="6871" data-vote='1'>Пираты «Чёрной лагуны»: Омакэ<vote>1⭐</vote></li>
-<li data-shiki-id="63375" data-wa-id="12775" data-id="26342" data-vote='5'>Троецарствие Японии<vote>5⭐</vote></li>
-<li data-shiki-id="61443" data-wa-id="12457" data-id="20021" data-vote='5'>Агенты четырёх сезонов: Весенний танец<vote>5⭐</vote></li>
-<li data-shiki-id="52741" data-wa-id="11446" data-id="10677" data-vote='3'>Нежить и неудача<vote>3⭐</vote></li>
-<li data-shiki-id="62825" data-wa-id="12665" data-id="24394" data-vote='4'>Похоже, сильнейшая профессия — это не герой или мудрец, а (временный) инспектор?<vote>4⭐</vote></li>
-<li data-shiki-id="14227" data-wa-id="1059" data-id="860" data-vote='1'>Монстр за соседней партой<vote>1⭐</vote></li>
-<li data-shiki-id="44408" data-wa-id="90650" data-id="5018" data-vote='3'>Дракон Раджа<vote>3⭐</vote></li>
-<li data-shiki-id="15227" data-wa-id="1127" data-id="5051" data-vote='4'>В этом уголке мира<vote>4⭐</vote></li>
-<li data-shiki-id="61192" data-wa-id="12404" data-id="19271" data-vote='5'>Всё, что тебе нужно, — это убивать<vote>5⭐</vote></li>
-<li data-shiki-id="61501" data-wa-id="12465" data-id="20146" data-vote='5'>Канан до чёртиков проста<vote>5⭐</vote></li>
-<li data-shiki-id="28907" data-wa-id="8173" data-id="1627" data-vote='4'>Врата: Там бьются наши воины<vote>4⭐</vote></li>
-<li data-shiki-id="14669" data-wa-id="1068" data-id="8241" data-vote='5'>Аура: Последняя битва Клыка Света<vote>5⭐</vote></li>
-<li data-shiki-id="60028" data-wa-id="12249" data-id="15209" data-vote='5'>Принцесса-рыцарь — невеста варвара<vote>5⭐</vote></li>
-<li data-shiki-id="2025" data-wa-id="6258" data-id="1418" data-vote='5'>Темнее черного<vote>5⭐</vote></li>
-<li data-shiki-id="34279" data-wa-id="9271" data-id="677" data-vote='4'>Легенда о Гранкресте<vote>4⭐</vote></li>
-<li data-shiki-id="42625" data-wa-id="10575" data-id="6367" data-vote='6'>Божества Идатэн в мирном поколении<vote>6⭐</vote></li>
-<li data-shiki-id="62331" data-wa-id="12594" data-id="22955" data-vote='4'>Игра лжецов<vote>4⭐</vote></li>
-<li data-shiki-id="62601" data-wa-id="12644" data-id="23849" data-vote='4'>Брачный токсин<vote>4⭐</vote></li>
-<li data-shiki-id="60444" data-wa-id="12684" data-id="16619" data-vote='5'>Учитель Ёваёва<vote>5⭐</vote></li>
-<li data-shiki-id="61425" data-wa-id="12774" data-id="19965" data-vote='3'>Бесполезный дежурный и школьница со слишком короткой юбкой<vote>3⭐</vote></li>
-<li data-shiki-id="62964" data-wa-id="12691" data-id="24987" data-vote='4'>Вас снова убили, мистер детектив<vote>4⭐</vote></li>
-<li data-shiki-id="63304" data-wa-id="12760" data-id="26107" data-vote='3'>Авантюрист, пожирающий демонов: Я единственный, кто становится сильнее, пожирая монстров<vote>3⭐</vote></li>
-<li data-shiki-id="19" data-wa-id="932" data-id="6134" data-vote='5'>Монстр<vote>5⭐</vote></li>
-<li data-shiki-id="4548" data-wa-id="7023" data-id="6880" data-vote='4'>Вишневый Квартет<vote>4⭐</vote></li>
-<li data-shiki-id="57334" data-wa-id="11934" data-id="11371" data-vote='3'>Дандадан<vote>3⭐</vote></li>
-<li data-shiki-id="58913" data-wa-id="12291" data-id="16445" data-vote='4'>Лето, когда погас свет<vote>4⭐</vote></li>
-<li data-shiki-id="48614" data-wa-id="0" data-id="1193" data-vote='4'>Приоритет чудо-яйца: Спецвыпуск<vote>4⭐</vote></li>
-<li data-shiki-id="257" data-wa-id="2468" data-id="1331" data-vote='5'>Школьные войны<vote>5⭐</vote></li>
-<li data-shiki-id="19703" data-wa-id="1710" data-id="9806" data-vote='4'>Шутки чокнутой столицы<vote>4⭐</vote></li>
-<li data-shiki-id="55578" data-wa-id="112706" data-id="10755" data-vote='4'>Четыре рыцаря<vote>4⭐</vote></li>
-<li data-shiki-id="12413" data-wa-id="988" data-id="7147" data-vote='4'>Ёрмунганд<vote>4⭐</vote></li>
-<li data-shiki-id="44074" data-wa-id="92514" data-id="5019" data-vote='4'>Агент времени<vote>4⭐</vote></li>
-<li data-shiki-id="54697" data-wa-id="129902" data-id="24337" data-vote='3'>Террорист<vote>3⭐</vote></li>
-<li data-shiki-id="21557" data-wa-id="2060" data-id="5356" data-vote='4'>Воспоминания о Марни<vote>4⭐</vote></li>
-<li data-shiki-id="32686" data-wa-id="8664" data-id="9108" data-vote='4'>Кэйджо!!!!!!!!<vote>4⭐</vote></li>
-<li data-shiki-id="61211" data-wa-id="12406" data-id="19314" data-vote='2'>Полуночный мотив сердца<vote>2⭐</vote></li>
-<li data-shiki-id="10793" data-wa-id="1003" data-id="642" data-vote='6'>Корона грешника<vote>6⭐</vote></li>
-<li data-shiki-id="57947" data-wa-id="12001" data-id="11790" data-vote='4'>Полуночный удар<vote>4⭐</vote></li>
-<li data-shiki-id="35994" data-wa-id="9523" data-id="32" data-vote='4'>Ангел кровопролития<vote>4⭐</vote></li>
-<li data-shiki-id="40280" data-wa-id="0" data-id="971" data-vote='4'>Некий научный Акселератор: Дополнительный эпизод<vote>4⭐</vote></li>
-<li data-shiki-id="51105" data-wa-id="11247" data-id="4656" data-vote='6'>Ниер: Автомата — Версия 1.1а<vote>6⭐</vote></li>
-<li data-shiki-id="54794" data-wa-id="11705" data-id="10676" data-vote='4'>Металлическая Руж<vote>4⭐</vote></li>
-<li data-shiki-id="43299" data-wa-id="10632" data-id="1192" data-vote='4'>Приоритет чудо-яйца<vote>4⭐</vote></li>
-<li data-shiki-id="40974" data-wa-id="10359" data-id="840" data-vote='4'>Ми-ми-ми-мишка<vote>4⭐</vote></li>
-<li data-shiki-id="12291" data-wa-id="1545" data-id="8049" data-vote='4'>Там и сям<vote>4⭐</vote></li>
-<li data-shiki-id="59205" data-wa-id="12149" data-id="13304" data-vote='4'>Клеватесс: Король демонических зверей, младенец и герой-нежить<vote>4⭐</vote></li>
-<li data-shiki-id="20583" data-wa-id="1790" data-id="1600" data-vote='5'>Волейбол!!<vote>5⭐</vote></li>
-<li data-shiki-id="59711" data-wa-id="12373" data-id="14389" data-vote='4'>Смертельная игра ради еды на столе<vote>4⭐</vote></li>
-<li data-shiki-id="59853" data-wa-id="12621" data-id="23369" data-vote='3'>Тёмная луна: Кровавый алтарь<vote>3⭐</vote></li>
-<li data-shiki-id="60810" data-wa-id="12399" data-id="17808" data-vote='4'>Волшебник Кунон всё видит<vote>4⭐</vote></li>
-<li data-shiki-id="61084" data-wa-id="12384" data-id="18857" data-vote='4'>Огнеглотающая Птица: Отряд пожарных-оборванцев из Усю<vote>4⭐</vote></li>
-<li data-shiki-id="60692" data-wa-id="12339" data-id="17355" data-vote='4'>Реинкарнация аристократа: Благословенный с рождения сильнейшей силой<vote>4⭐</vote></li>
-<li data-shiki-id="58886" data-wa-id="12282" data-id="12644" data-vote='4'>Инцидент Дарвина<vote>4⭐</vote></li>
-<li data-shiki-id="58426" data-wa-id="12045" data-id="12057" data-vote='3'>Моя подруга-олениха Нокотан<vote>3⭐</vote></li>
-<li data-shiki-id="39030" data-wa-id="9956" data-id="7550" data-vote='5'>Дорога зверя<vote>5⭐</vote></li>
-<li data-shiki-id="60168" data-wa-id="12264" data-id="15936" data-vote='4'>Монстр хочет съесть меня<vote>4⭐</vote></li>
-<li data-shiki-id="60531" data-wa-id="12315" data-id="16907" data-vote='4'>Неумелый сэмпай<vote>4⭐</vote></li>
-<li data-shiki-id="54112" data-wa-id="11618" data-id="10568" data-vote='3'>Зомбиапокалипсис и список из 100 дел, что я выполню перед смертью<vote>3⭐</vote></li>
-<li data-shiki-id="59277" data-wa-id="12164" data-id="13422" data-vote='3'>Девушка на час 4<vote>3⭐</vote></li>
-<li data-shiki-id="40357" data-wa-id="11425" data-id="10375" data-vote='3'>Восхождение героя щита 3<vote>3⭐</vote></li>
-<li data-shiki-id="57611" data-wa-id="11964" data-id="11570" data-vote='6'>Ты — горничная<vote>6⭐</vote></li>
-<li data-shiki-id="45613" data-wa-id="10735" data-id="4896" data-vote='3'>Моя девушка не просто милашка<vote>3⭐</vote></li>
-<li data-shiki-id="53421" data-wa-id="11517" data-id="10656" data-vote='6'>Досанко-гяру чудо как милы<vote>6⭐</vote></li>
-<li data-shiki-id="46095" data-wa-id="10746" data-id="1578" data-vote='5'>Виви: Песнь флюоритового глаза<vote>5⭐</vote></li>
-<li data-shiki-id="16592" data-wa-id="1275" data-id="1337" data-vote='3'>Данганронпа:  Школа надежды и отчаявшиеся старшеклассники<vote>3⭐</vote></li>
-<li data-shiki-id="57433" data-wa-id="12185" data-id="11457" data-vote='5'>Этот глупый свин не понимает мечту Санта-Клауса<vote>5⭐</vote></li>
-<li data-shiki-id="59459" data-wa-id="12186" data-id="17633" data-vote='4'>Молчаливая ведьма: Тайна молчаливой колдуньи<vote>4⭐</vote></li>
-<li data-shiki-id="59228" data-wa-id="12157" data-id="13353" data-vote='4'>Тёмный дворецкий: Зелёная ведьма<vote>4⭐</vote></li>
-<li data-shiki-id="50709" data-wa-id="11205" data-id="4886" data-vote='3'>Ликорис Рикоил<vote>3⭐</vote></li>
-<li data-shiki-id="34572" data-wa-id="9074" data-id="178" data-vote='1'>Чёрный клевер<vote>1⭐</vote></li>
-<li data-shiki-id="32182" data-wa-id="8586" data-id="4831" data-vote='4'>Моб Психо 100<vote>4⭐</vote></li>
-<li data-shiki-id="59845" data-wa-id="12229" data-id="14770" data-vote='6'>Очаровательный цветок расцветает с достоинством<vote>6⭐</vote></li>
-<li data-shiki-id="935" data-wa-id="2896" data-id="8849" data-vote='4'>Клинок ведьм<vote>4⭐</vote></li>
-<li data-shiki-id="34566" data-wa-id="9070" data-id="134" data-vote='1'>Боруто: Новое Поколение<vote>1⭐</vote></li>
-<li data-shiki-id="32615" data-wa-id="8871" data-id="1584" data-vote='4'>Военная хроника маленькой девочки<vote>4⭐</vote></li>
-<li data-shiki-id="41461" data-wa-id="10430" data-id="5180" data-vote='5'>Рандеву с жизнью 4<vote>5⭐</vote></li>
-<li data-shiki-id="11843" data-wa-id="1914" data-id="5566" data-vote='4'>Повседневная жизнь старшеклассников<vote>4⭐</vote></li>
-<li data-shiki-id="52481" data-wa-id="11410" data-id="10870" data-vote='6'>Жизнь с моей сводной сестрой<vote>6⭐</vote></li>
-<li data-shiki-id="61174" data-wa-id="12397" data-id="19194" data-vote='4'>Путешествие коллекционера по другому миру<vote>4⭐</vote></li>
-<li data-shiki-id="58473" data-wa-id="12052" data-id="12078" data-vote='3'>Я монстр S-класса Бегемот, но меня перепутали с котом, и я живу у эльфийки как домашний питомец<vote>3⭐</vote></li>
-<li data-shiki-id="51252" data-wa-id="11269" data-id="4625" data-vote='3'>Шпионский класс<vote>3⭐</vote></li>
-<li data-shiki-id="55149" data-wa-id="11761" data-id="10906" data-vote='4'>Винокурня семьи Комада<vote>4⭐</vote></li>
-<li data-shiki-id="206" data-wa-id="591" data-id="7447" data-vote='4'>Летопись войн острова Лодосс<vote>4⭐</vote></li>
-<li data-shiki-id="885" data-wa-id="16" data-id="10022" data-vote='4'>Яйцо ангела<vote>4⭐</vote></li>
-                </ul>
-                    <div class="list-stats" style="margin-top: 10px; font-size: 0.85rem; color: var(--text-muted); padding: 5px; border-top: 1px solid var(--border-color);">
-                        <span class="count"></span> | <span class="avg"></span>
-                    </div>
-            </td>
-                    
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-                    <td data-list-id="4">
-                <h3>Любимые</h3>
-                <ul>
-<li data-shiki-id="61316" data-wa-id="12434" data-id="19627" data-vote='10'>Re:Zero. Жизнь с нуля в альтернативном мире 4<vote>10⭐</vote></li>
-<li data-shiki-id="59193" data-wa-id="12435" data-id="13271" data-vote='10'>Реинкарнация безработного: История о приключениях в другом мире 3<vote>10⭐</vote></li>
-<li data-shiki-id="36862" data-wa-id="9942" data-id="1380" data-vote='10'>Созданный в Бездне: Рассвет глубокой души<vote>10⭐</vote></li>
-<li data-shiki-id="34599" data-wa-id="9080" data-id="1377" data-vote='10'>Созданный в бездне<vote>10⭐</vote></li>
-<li data-shiki-id="41084" data-wa-id="10368" data-id="5029" data-vote='10'>Созданный в Бездне 2<vote>10⭐</vote></li>
-<li data-shiki-id="37987" data-wa-id="9749" data-id="1509" data-vote='8'>Вайолет Эвергарден — Фильм<vote>8⭐</vote></li>
-<li data-shiki-id="33352" data-wa-id="9268" data-id="1506" data-vote='9'>Вайолет Эвергарден<vote>9⭐</vote></li>
-<li data-shiki-id="51535" data-wa-id="11300" data-id="10225" data-vote='3'>Атака титанов: Финал – Заключительная глава<vote>3⭐</vote></li>
-<li data-shiki-id="48583" data-wa-id="10873" data-id="1634" data-vote='8'>Атака титанов: Финал | Часть 2<vote>8⭐</vote></li>
-<li data-shiki-id="40028" data-wa-id="10135" data-id="6230" data-vote='8'>Атака титанов: Финал<vote>8⭐</vote></li>
-<li data-shiki-id="54857" data-wa-id="11727" data-id="10560" data-vote='9'>Re:Zero. Жизнь с нуля в альтернативном мире 3<vote>9⭐</vote></li>
-<li data-shiki-id="42203" data-wa-id="10627" data-id="1695" data-vote='8'>Re:Zero. Жизнь с нуля в альтернативном мире 2 | Часть 2<vote>8⭐</vote></li>
-<li data-shiki-id="39587" data-wa-id="10061" data-id="1246" data-vote='8'>Re:Zero. Жизнь с нуля в альтернативном мире 2<vote>8⭐</vote></li>
-<li data-shiki-id="31240" data-wa-id="8388" data-id="1248" data-vote='9'>Re:Zero. Жизнь с нуля в альтернативном мире<vote>9⭐</vote></li>
-<li data-shiki-id="59978" data-wa-id="12242" data-id="15084" data-vote='10'>Провожающая в последний путь Фрирен 2<vote>10⭐</vote></li>
-<li data-shiki-id="52991" data-wa-id="11466" data-id="10661" data-vote='10'>Провожающая в последний путь Фрирен<vote>10⭐</vote></li>
-<li data-shiki-id="50593" data-wa-id="11170" data-id="10179" data-vote='10'>Тоннель в лето, выход прощаний<vote>10⭐</vote></li>
-<li data-shiki-id="57066" data-wa-id="11920" data-id="12028" data-vote='9'>Может, я встречу тебя в подземелье? 5<vote>9⭐</vote></li>
-<li data-shiki-id="53111" data-wa-id="11493" data-id="4651" data-vote='10'>Может, я встречу тебя в подземелье? 4 | Часть 2<vote>10⭐</vote></li>
-<li data-shiki-id="49387" data-wa-id="10978" data-id="4655" data-vote='10'>Сага о Винланде 2<vote>10⭐</vote></li>
-<li data-shiki-id="37521" data-wa-id="9636" data-id="1274" data-vote='10'>Сага о Винланде<vote>10⭐</vote></li>
-<li data-shiki-id="16498" data-wa-id="1245" data-id="45" data-vote='10'>Атака титанов<vote>10⭐</vote></li>
-<li data-shiki-id="38524" data-wa-id="9850" data-id="5826" data-vote='10'>Атака титанов 3 | Часть 2<vote>10⭐</vote></li>
-<li data-shiki-id="35760" data-wa-id="9292" data-id="44" data-vote='10'>Атака титанов 3<vote>10⭐</vote></li>
-<li data-shiki-id="25777" data-wa-id="8849" data-id="49" data-vote='10'>Атака титанов 2<vote>10⭐</vote></li>
-<li data-shiki-id="34437" data-wa-id="9040" data-id="7506" data-vote='10'>Код Гиас: Лелуш Воскресший<vote>10⭐</vote></li>
-<li data-shiki-id="2904" data-wa-id="6804" data-id="610" data-vote='10'>Код Гиасс: Восстание Лелуша 2<vote>10⭐</vote></li>
-<li data-shiki-id="1575" data-wa-id="5921" data-id="608" data-vote='10'>Код Гиасс: Восстание Лелуша<vote>10⭐</vote></li>
-<li data-shiki-id="55888" data-wa-id="11819" data-id="10708" data-vote='9'>Реинкарнация безработного: История о приключениях в другом мире 2 | Часть 2<vote>9⭐</vote></li>
-<li data-shiki-id="45576" data-wa-id="10795" data-id="1256" data-vote='10'>Реинкарнация безработного: История о приключениях в другом мире | Часть 2<vote>10⭐</vote></li>
-<li data-shiki-id="39535" data-wa-id="10260" data-id="1255" data-vote='10'>Реинкарнация безработного: История о приключениях в другом мире<vote>10⭐</vote></li>
-<li data-shiki-id="40540" data-wa-id="10254" data-id="801" data-vote='9'>Мастера Меча Онлайн: Алисизация - Война в Подмирье 2<vote>9⭐</vote></li>
-<li data-shiki-id="39597" data-wa-id="10069" data-id="800" data-vote='10'>Мастера Меча Онлайн: Алисизация - Война в Подмирье<vote>10⭐</vote></li>
-<li data-shiki-id="36474" data-wa-id="9417" data-id="799" data-vote='10'>Мастера Меча Онлайн: Алисизация<vote>10⭐</vote></li>
-<li data-shiki-id="11757" data-wa-id="1299" data-id="792" data-vote='10'>Мастера Меча Онлайн<vote>10⭐</vote></li>
-                </ul>
-                    <div class="list-stats" style="margin-top: 10px; font-size: 0.85rem; color: var(--text-muted); padding: 5px; border-top: 1px solid var(--border-color);">
-                        <span class="count"></span> | <span class="avg"></span>
-                    </div>
-            </td>
-            </tr>
-</table>
-<div id="dialogs"></div>
-<script src="../js/holidays.js" defer></script>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const lists = document.querySelectorAll('td[data-list-id]');
+    function getScoreColor(score) {
+        if (score === 0) return 'var(--text-muted)';
+        if (score >= 9) return 'var(--score-masterpiece)';
+        if (score >= 7) return 'var(--score-good)';
+        if (score >= 5) return 'var(--score-mid)';
+        return 'var(--score-bad)';
+    }
 
-    lists.forEach(list => {
-        const ul = list.querySelector('ul');
-        if (!ul) return;
+    function showToast(message) {
+        const container = document.getElementById('toast-container');
+        const toast = document.createElement('div');
+        toast.className = 'toast';
+        toast.innerHTML = `<i class='bx bx-check-circle'></i> ${message}`;
+        container.appendChild(toast);
+        setTimeout(() => {
+            toast.style.animation = 'fadeOut 0.3s ease forwards';
+            setTimeout(() => toast.remove(), 300);
+        }, 2000);
+    }
 
-        const items = Array.from(ul.querySelectorAll('li'));
-        let listSumVotes = 0;
-        let listItemsWithVotes = 0;
-
-        items.forEach(item => {
-            const vote = parseFloat(item.getAttribute('data-vote'));
-            if (!isNaN(vote) && vote > 0) {
-                listSumVotes += vote;
-                listItemsWithVotes++;
+    function renderDashboard(data) {
+        const dashboard = document.getElementById('dashboard');
+        dashboard.innerHTML = ''; 
+        
+        const grouped = { watching: [], planned: [], completed: [], dropped: [], favorites: [] };
+        
+        data.forEach(item => {
+            if (grouped[item.status]) {
+                grouped[item.status].push(item);
+            }
+            if (item.is_fav) {
+                grouped.favorites.push({...item}); 
             }
         });
 
-        items.sort((a, b) => {
-            const textA = a.textContent.trim().toLowerCase();
-            const textB = b.textContent.trim().toLowerCase();
-            return textA.localeCompare(textB, 'ru');
+        const sortedKeys = Object.keys(grouped).sort((a, b) => columnsConfig[a].order - columnsConfig[b].order);
+
+        const fragment = document.createDocumentFragment();
+
+        sortedKeys.forEach(statusKey => {
+            const items = grouped[statusKey];
+            if (items.length === 0) return;
+
+            items.sort((a, b) => a.target_title.localeCompare(b.target_title, 'ru', { numeric: true }));
+
+            const ratedItems = items.filter(i => i.score > 0);
+            const avgScore = ratedItems.length > 0 
+                ? (ratedItems.reduce((sum, i) => sum + i.score, 0) / ratedItems.length).toFixed(2) 
+                : 0;
+
+            const colDiv = document.createElement('div');
+            colDiv.className = 'list-column';
+
+            colDiv.innerHTML = `
+                <div class="column-header">
+                    <h3>${columnsConfig[statusKey].title}</h3>
+                    <span class="stats-summary" id="stats-${statusKey}">
+                        ${items.length} шт ${avgScore > 0 ? `| ${avgScore}⭐` : ''}
+                    </span>
+                </div>
+            `;
+
+            const cardsContainer = document.createElement('div');
+            cardsContainer.className = 'cards-container';
+
+            items.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'anime-card';
+                card.dataset.title = item.target_title.toLowerCase();
+
+                card.onclick = () => {
+                    navigator.clipboard.writeText(item.target_title).then(() => {
+                        showToast('Скопировано');
+                    });
+                };
+
+                const favIcon = item.is_fav ? `<i class='bx bxs-heart fav-icon'></i>` : '';
+                const scoreHtml = item.score > 0 
+                    ? `<span class="anime-score" style="color: ${getScoreColor(item.score)}">${item.score}⭐</span>` 
+                    : '';
+
+                card.innerHTML = `
+                    <div class="anime-info">
+                        ${favIcon}
+                        <span class="anime-title">${item.target_title}</span>
+                    </div>
+                    ${scoreHtml}
+                `;
+                cardsContainer.appendChild(card);
+            });
+
+            colDiv.appendChild(cardsContainer);
+            fragment.appendChild(colDiv);
         });
 
-        ul.innerHTML = '';
-        items.forEach(item => ul.appendChild(item));
+        dashboard.appendChild(fragment);
+    }
 
-        const countBox = list.querySelector('.list-stats .count');
-        const avgBox = list.querySelector('.list-stats .avg');
+    const searchInput = document.getElementById('animeSearch');
+    const clearBtn = document.getElementById('clearSearch');
+
+    function filterCards() {
+        const query = searchInput.value.toLowerCase().trim();
+        const columns = document.querySelectorAll('.list-column');
         
-        if (countBox && avgBox) {
-            countBox.textContent = `\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Кол-во: ${items.length}`;
-            const avg = listItemsWithVotes > 0 ? (listSumVotes / listItemsWithVotes).toFixed(2) : '0.00';
-            avgBox.textContent = `Средняя: ${avg}⭐`;
-        }
+        clearBtn.style.display = query.length > 0 ? 'block' : 'none';
+
+        columns.forEach(col => {
+            const cards = col.querySelectorAll('.anime-card');
+            let visibleCount = 0;
+            let sumScore = 0;
+            let ratedCount = 0;
+
+            cards.forEach(card => {
+                if (card.dataset.title.includes(query)) {
+                    card.style.display = 'flex';
+                    visibleCount++;
+                    
+                    const scoreSpan = card.querySelector('.anime-score');
+                    if (scoreSpan) {
+                        const score = parseFloat(scoreSpan.textContent);
+                        if (!isNaN(score) && score > 0) {
+                            sumScore += score;
+                            ratedCount++;
+                        }
+                    }
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            const statsSpan = col.querySelector('.stats-summary');
+            if (statsSpan) {
+                const avgScore = ratedCount > 0 ? (sumScore / ratedCount).toFixed(2) : 0;
+                statsSpan.textContent = `${visibleCount} шт ${avgScore > 0 ? '| ' + avgScore + '⭐' : ''}`;
+            }
+
+            col.style.display = visibleCount > 0 ? 'flex' : 'none';
+        });
+    }
+
+    searchInput.addEventListener('input', filterCards);
+    
+    clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        filterCards();
+        searchInput.focus();
     });
-});
+
+    document.addEventListener('DOMContentLoaded', () => {
+
+        fetch('../data/anime-list.json')
+            .then(response => {
+                if (!response.ok) throw new Error('Ошибка сети');
+                return response.json();
+            })
+            .then(data => {
+                renderDashboard(data);
+            })
+            .catch(error => {
+                console.error(error);
+                document.getElementById('dashboard').innerHTML = 
+                    '<p style="text-align:center; grid-column: 1/-1; color: var(--score-bad);">Ошибка! Убедитесь, что JSON загружен по пути ../data/anime-list.json</p>';
+            });
+    });
 </script>
 </body>
 </html>

@@ -110,7 +110,26 @@ async function processQueue() {
 }
 
 function finishLoading() {
-    document.getElementById('progressContainer').innerHTML = '<p style="color: #22c55e; font-weight: 600;"><i class="bx bx-check-circle"></i> Анализ завершён!</p>';
+    const progressContainer = document.getElementById('progressContainer');
+    const progressSection = document.querySelector('.api-progress-section');
+
+    if (progressContainer) {
+        progressContainer.innerHTML = '<p style="color: #22c55e; font-weight: 600;"><i class="bx bx-check-circle"></i> Анализ завершён!</p>';
+    }
+
+    if (progressSection) {
+        progressSection.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        
+        setTimeout(() => {
+            progressSection.style.opacity = '0';
+            progressSection.style.transform = 'translateY(-10px)';
+            
+            setTimeout(() => {
+                progressSection.style.display = 'none';
+            }, 600);
+        }, 3000);
+    }
+
     calculateStats();
     renderExplorer();
 }
@@ -300,7 +319,7 @@ async function openGameModal(localItem, cachedData) {
     let gotSteamDesc = false;
 
     const dev = cachedData?.developers?.length > 0 ? cachedData.developers[0] : 'Неизвестно';
-    const img = cachedData?.img ? cachedData.img : (localItem.img ? `../img/${localItem.img}` : '');
+    const img = localItem.img ? `../img/${localItem.img}` : (cachedData?.img ? cachedData.img : '');
 
     if (steamAppId) {
         try {

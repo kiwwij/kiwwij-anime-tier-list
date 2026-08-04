@@ -69,11 +69,11 @@
                         <i class='bx bx-time-five' style="font-size: 1.8rem; color: #6366f1;"></i>
                     </div>
                     <div style="text-align: left;">
-                        <p style="margin: 0; font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;">Потрачено на просмотр</p>
-                        <h3 style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 1.8rem; font-weight: 800; line-height: 1.1;">
-                            3970 <span style="font-size: 1rem; font-weight: 600; color: var(--text-muted);">часа ≈ 165 дней</span>
-                        </h3>
-                    </div>
+                    <p style="margin: 0; font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;">Потрачено на просмотр</p>
+                    <h3 id="timeContainer" style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 1.8rem; font-weight: 800; line-height: 1.1;">
+                    0 <span style="font-size: 1rem; font-weight: 600; color: var(--text-muted);">часов</span>
+                </h3>
+                </div>
                 </div>
             </div>
 
@@ -132,8 +132,8 @@
         </div>
     </footer>
 
-    <script src="../data/yummyanime-data.js"></script>
     <script src="../data/anime-data.js"></script>
+    <script src="../data/anime-data-2.js" defer></script>
     <script src="../js/stats.js"></script>
     <script src="../js/holidays.js" defer></script>
     <script>
@@ -159,12 +159,6 @@
                 }
             });
         });
-    </script>
-    <script>
-        const yearElement = document.getElementById('current-year');
-        if (yearElement) {
-            yearElement.textContent = new Date().getFullYear();
-        }
     </script>
 </body>
 </html>

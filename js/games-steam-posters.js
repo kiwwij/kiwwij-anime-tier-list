@@ -15,8 +15,8 @@ const LOCAL_ONLY_GAMES = [
     "Hitler is My Crush: Love and Fascism",
     "Slender: The Eight Pages",
     "Hades II",
-    // "",
-    // "",
+    "League of Legends",
+    "Evil School",
     // "",
 ];
 
@@ -32,15 +32,14 @@ loadCardContent = async function(card, item, query, type) {
     }
 
     let data = apiCache[query];
-
     if (!data || !data.imgSmall) {
         data = await addRequestToQueue(query, type);
     }
 
-    if (data && data.imgSmall) {
-        applyImageToCard(card, data.imgSmall, item, data.imgLarge, data);
-    } else if (item && item.img) {
+    if (item && item.img) {
         applyImageToCard(card, `img/${item.img}`, item, `img/${item.img}`, data);
+    } else if (data && data.imgSmall) {
+        applyImageToCard(card, data.imgSmall, item, data.imgLarge, data);
     } else {
         card.onclick = () => openModal(item, null, data);
     }
@@ -158,15 +157,14 @@ loadSearchImage = async function(container, item, query, type) {
     }
 
     let data = apiCache[query];
-
     if (!data || !data.imgSmall) {
         data = await addRequestToQueue(query, type);
     }
 
-    if (data && data.imgSmall) {
-        applyImg(container, data.imgSmall, data.fallbackImg, item);
-    } else if (item && item.img) {
+    if (item && item.img) {
         applyImg(container, `img/${item.img}`, null, item);
+    } else if (data && data.imgSmall) {
+        applyImg(container, data.imgSmall, data.fallbackImg, item);
     } else {
         const loader = container.querySelector('.card-loader');
         if (loader) loader.textContent = "Нет фото";

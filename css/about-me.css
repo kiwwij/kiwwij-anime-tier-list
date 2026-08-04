@@ -377,20 +377,24 @@ body.flipped {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
     color: #ffffff;
-    font-size: 2.5rem;
-    background: rgba(0, 0, 0, 0.5);
+    font-size: 3.5rem;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     width: 70px;
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 2;
     pointer-events: none;
+}
+
+.yt-play-icon i {
+    margin-left: 6px; 
 }
 
 .yt-preview-link:hover .yt-preview-img {
@@ -439,4 +443,28 @@ body.flipped {
     display: flex;
     gap: 15px;
     overflow-x: auto;
+}
+
+#tg-post-container {
+    max-height: 310px;
+    overflow-y: auto;
+    border-radius: 8px;
+    padding-right: 5px;
+}
+
+#tg-post-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+#tg-post-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#tg-post-container::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 4px;
+}
+
+#tg-post-container::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
 }

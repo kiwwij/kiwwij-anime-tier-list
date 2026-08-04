@@ -62,8 +62,24 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     setTimeout(() => {
-        if (typeof tierListData !== 'undefined') startAnalysis();
+        if (typeof tierListData !== 'undefined') {
+            if (typeof tierListData2 !== 'undefined') {
+                Object.assign(tierListData, tierListData2);
+            }
+            startAnalysis();
+        }
     }, 100);
+
+    const timeContainer = document.getElementById('timeContainer');
+    if (timeContainer) {
+        const hours = 4018; 
+        const days = Math.round(hours / 24);
+        
+        const hourWord = declOfNum(hours, ['час', 'часа', 'часов']);
+        const dayWord = declOfNum(days, ['день', 'дня', 'дней']);
+        
+        timeContainer.innerHTML = `${hours} <span style="font-size: 1rem; font-weight: 600; color: var(--text-muted);">${hourWord} ≈ ${days} ${dayWord}</span>`;
+    }
 });
 
 function initTheme() {
@@ -408,4 +424,12 @@ if (typeof tabButtons !== 'undefined') {
     });
 }
 
-setTimeout(maybeSpawnZoro, 1000);
+const yearElement = document.getElementById('current-year');
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+    }
+
+function declOfNum(number, titles) {
+    const cases = [2, 0, 1, 1, 1, 2];
+    return titles[(number % 100 > 4 && number % 100 < 20) ? 2 : cases[(number % 10 < 5) ? number % 10 : 5]];
+}
