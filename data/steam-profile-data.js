@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/1297e4bb539badaf2d4e54feb659ae9f7137c03e_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107",
+        "status": "Online",
+        "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.5
     },
@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 56.4,
+            "playtime_2weeks": 55.8,
             "hours": 3616.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 32.8,
+            "playtime_2weeks": 31.3,
             "hours": 69.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
@@ -60,6 +60,14 @@ const steamData = {
             "hours": 1.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2674810/header.jpg",
             "url": "https://store.steampowered.com/app/2674810"
+        },
+        {
+            "appid": 979690,
+            "name": "The Ascent",
+            "playtime_2weeks": 0.7,
+            "hours": 0.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/979690/header.jpg",
+            "url": "https://store.steampowered.com/app/979690"
         },
         {
             "appid": 4258630,
