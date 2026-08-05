@@ -4,13 +4,13 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/1297e4bb539badaf2d4e54feb659ae9f7137c03e_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.5
     },
     "stats": {
-        "total_games": 294
+        "total_games": 295
     },
     "recent_games": [
         {
@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 36.2,
+            "playtime_2weeks": 34.5,
             "hours": 69.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
@@ -36,6 +36,14 @@ const steamData = {
             "hours": 278.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
+        },
+        {
+            "appid": 4711740,
+            "name": "Mortal Shell II - Open Beta",
+            "playtime_2weeks": 1.4,
+            "hours": 1.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4711740/header.jpg",
+            "url": "https://store.steampowered.com/app/4711740"
         },
         {
             "appid": 1222140,
