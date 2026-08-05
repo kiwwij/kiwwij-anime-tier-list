@@ -40,7 +40,7 @@ const steamData = {
         {
             "appid": 1222140,
             "name": "Detroit: Become Human",
-            "playtime_2weeks": 2.0,
+            "playtime_2weeks": 1.2,
             "hours": 3.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222140/header.jpg",
             "url": "https://store.steampowered.com/app/1222140"
@@ -54,20 +54,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2674810"
         },
         {
+            "appid": 4258630,
+            "name": "Evil School Demo",
+            "playtime_2weeks": 0.7,
+            "hours": 0.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4258630/header.jpg",
+            "url": "https://store.steampowered.com/app/4258630"
+        },
+        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.4,
             "hours": 23.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 4258630,
-            "name": "Evil School Demo",
-            "playtime_2weeks": 0.2,
-            "hours": 0.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4258630/header.jpg",
-            "url": "https://store.steampowered.com/app/4258630"
         },
         {
             "appid": 1905180,
