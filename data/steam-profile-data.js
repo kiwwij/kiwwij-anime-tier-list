@@ -4,13 +4,13 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/1297e4bb539badaf2d4e54feb659ae9f7137c03e_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
-        "statusColor": "#4CAF50",
+        "status": "Away",
+        "statusColor": "#FFC107",
         "level": 41,
         "age": 6.5
     },
     "stats": {
-        "total_games": 295
+        "total_games": 297
     },
     "recent_games": [
         {
@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 34.5,
+            "playtime_2weeks": 32.8,
             "hours": 69.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
@@ -72,7 +72,7 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.4,
+            "playtime_2weeks": 0.3,
             "hours": 23.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
