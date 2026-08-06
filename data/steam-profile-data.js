@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/1297e4bb539badaf2d4e54feb659ae9f7137c03e_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E",
+        "status": "In Game",
+        "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.5
     },
@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 29.1,
+            "playtime_2weeks": 27.1,
             "hours": 69.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
@@ -46,20 +46,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/4711740"
         },
         {
-            "appid": 1222140,
-            "name": "Detroit: Become Human",
-            "playtime_2weeks": 0.8,
-            "hours": 3.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222140/header.jpg",
-            "url": "https://store.steampowered.com/app/1222140"
-        },
-        {
             "appid": 2674810,
             "name": "Dragon's Dogma 2 Character Creator & Storage",
             "playtime_2weeks": 0.8,
             "hours": 1.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2674810/header.jpg",
             "url": "https://store.steampowered.com/app/2674810"
+        },
+        {
+            "appid": 1222140,
+            "name": "Detroit: Become Human",
+            "playtime_2weeks": 0.8,
+            "hours": 3.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222140/header.jpg",
+            "url": "https://store.steampowered.com/app/1222140"
         },
         {
             "appid": 979690,
@@ -88,7 +88,7 @@ const steamData = {
         {
             "appid": 1905180,
             "name": "OBS Studio",
-            "playtime_2weeks": 0.1,
+            "playtime_2weeks": 0.0,
             "hours": 191.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
