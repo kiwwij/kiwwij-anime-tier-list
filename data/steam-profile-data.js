@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/1297e4bb539badaf2d4e54feb659ae9f7137c03e_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.5
@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 54.1,
+            "playtime_2weeks": 54.2,
             "hours": 3616.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 27.1,
+            "playtime_2weeks": 24.9,
             "hours": 69.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
@@ -36,6 +36,14 @@ const steamData = {
             "hours": 278.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620"
+        },
+        {
+            "appid": 1169040,
+            "name": "Necesse",
+            "playtime_2weeks": 1.8,
+            "hours": 67.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
+            "url": "https://store.steampowered.com/app/1169040"
         },
         {
             "appid": 4711740,
@@ -52,14 +60,6 @@ const steamData = {
             "hours": 1.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2674810/header.jpg",
             "url": "https://store.steampowered.com/app/2674810"
-        },
-        {
-            "appid": 1222140,
-            "name": "Detroit: Become Human",
-            "playtime_2weeks": 0.8,
-            "hours": 3.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222140/header.jpg",
-            "url": "https://store.steampowered.com/app/1222140"
         },
         {
             "appid": 979690,
@@ -311,13 +311,15 @@ const steamData = {
             ]
         },
         {
-            "appid": 626690,
-            "name": "Sword Art Online: Fatal Bullet",
-            "hours": 65.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/626690/header.jpg",
-            "url": "https://store.steampowered.com/app/626690",
+            "appid": 1169040,
+            "name": "Necesse",
+            "hours": 67.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
+            "url": "https://store.steampowered.com/app/1169040",
             "tags": [
                 "Экшены",
+                "Приключенческие игры",
+                "Инди",
                 "Ролевые игры"
             ]
         }
