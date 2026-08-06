@@ -10,13 +10,13 @@ const steamData = {
         "age": 6.5
     },
     "stats": {
-        "total_games": 296
+        "total_games": 295
     },
     "recent_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 54.2,
+            "playtime_2weeks": 52.2,
             "hours": 3616.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 24.9,
+            "playtime_2weeks": 22.6,
             "hours": 69.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340"
@@ -38,20 +38,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1245620"
         },
         {
+            "appid": 4711740,
+            "name": "Mortal Shell II - Open Beta",
+            "playtime_2weeks": 2.0,
+            "hours": 2.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4711740/header.jpg",
+            "url": "https://store.steampowered.com/app/4711740"
+        },
+        {
             "appid": 1169040,
             "name": "Necesse",
             "playtime_2weeks": 1.8,
             "hours": 67.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
             "url": "https://store.steampowered.com/app/1169040"
-        },
-        {
-            "appid": 4711740,
-            "name": "Mortal Shell II - Open Beta",
-            "playtime_2weeks": 1.4,
-            "hours": 1.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4711740/header.jpg",
-            "url": "https://store.steampowered.com/app/4711740"
         },
         {
             "appid": 2674810,
