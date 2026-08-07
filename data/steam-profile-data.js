@@ -70,14 +70,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/4258630"
         },
         {
-            "appid": 1903340,
-            "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 0.3,
-            "hours": 69.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
-            "url": "https://store.steampowered.com/app/1903340"
-        },
-        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.2,
