@@ -46,14 +46,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1245620"
         },
         {
-            "appid": 1903340,
-            "name": "Clair Obscur: Expedition 33",
-            "playtime_2weeks": 1.1,
-            "hours": 69.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
-            "url": "https://store.steampowered.com/app/1903340"
-        },
-        {
             "appid": 2674810,
             "name": "Dragon's Dogma 2 Character Creator & Storage",
             "playtime_2weeks": 0.8,
@@ -76,6 +68,14 @@ const steamData = {
             "hours": 0.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4258630/header.jpg",
             "url": "https://store.steampowered.com/app/4258630"
+        },
+        {
+            "appid": 1903340,
+            "name": "Clair Obscur: Expedition 33",
+            "playtime_2weeks": 0.3,
+            "hours": 69.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
+            "url": "https://store.steampowered.com/app/1903340"
         },
         {
             "appid": 431960,
@@ -161,7 +161,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Бесплатные"
             ]
         },
         {
