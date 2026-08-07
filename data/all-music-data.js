@@ -3837,8 +3837,8 @@ const musicData = [
         "durationSeconds": 178
     },
     {
-        "title": "Нервы - Батареи",
-        "artist": "StarPro",
+        "title": "Батареи",
+        "artist": "Nervy",
         "playlist": "Dead inside",
         "duration": "2:53",
         "durationSeconds": 173
@@ -4019,8 +4019,8 @@ const musicData = [
         "durationSeconds": 267
     },
     {
-        "title": "Кошка (Что ей снится, когда слезы на ее ресницах) - Рычаги Машин - Koshka / Cat",
-        "artist": "Рычаги Машин",
+        "title": "Кошка (feat. Ольга Артуровна)",
+        "artist": "Rychagy Mashin",
         "playlist": "Dead inside",
         "duration": "3:52",
         "durationSeconds": 232
@@ -4040,8 +4040,8 @@ const musicData = [
         "durationSeconds": 107
     },
     {
-        "title": "ПОЛМАТЕРИ, нексюша - счастливы вместе",
-        "artist": "нексюша",
+        "title": "счастливы вместе",
+        "artist": "плм, нексюша",
         "playlist": "Dead inside",
         "duration": "2:50",
         "durationSeconds": 170
@@ -4061,8 +4061,8 @@ const musicData = [
         "durationSeconds": 102
     },
     {
-        "title": "СТИНТ - Даша (альбом Такова жизнь, 2024)",
-        "artist": "Stintik ",
+        "title": "Даша",
+        "artist": "СТИНТ",
         "playlist": "Dead inside",
         "duration": "2:40",
         "durationSeconds": 160
@@ -4159,7 +4159,7 @@ const musicData = [
         "durationSeconds": 164
     },
     {
-        "title": "Какая Разница - Рассвет (Премьера 2021)",
+        "title": "Рассвет",
         "artist": "Какая Разница",
         "playlist": "Dead inside",
         "duration": "2:01",
@@ -4194,8 +4194,8 @@ const musicData = [
         "durationSeconds": 120
     },
     {
-        "title": "asteria - w4ste away (feat. Black Kray) (Official Visualizer)",
-        "artist": "asteria",
+        "title": "w4ste away (w/ Sickboyrari)",
+        "artist": "asteria, Black Kray",
         "playlist": "Dead inside",
         "duration": "2:57",
         "durationSeconds": 177
@@ -4209,7 +4209,7 @@ const musicData = [
     },
     {
         "title": "Дуэт Принцессы и Трубадура",
-        "artist": "Release - Topic",
+        "artist": "Тихон Жизневский, Валентина Ляпина, & Дмитрий Венгеров",
         "playlist": "Dead inside",
         "duration": "1:17",
         "durationSeconds": 77
@@ -4377,7 +4377,7 @@ const musicData = [
     },
     {
         "title": "Самый лучший день",
-        "artist": "Kishlak - Topic",
+        "artist": "Кишлак",
         "playlist": "Dead inside",
         "duration": "1:34",
         "durationSeconds": 94
@@ -8002,18 +8002,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNja2NMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3ntPetVTFe_CkjRcHqapCr8FsAJow"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CM3q2NMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mcH7gAoP2-yxAG5r-W6dhLFa7Hog"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNna2NMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3k0cAs-KxY_USmPeySQBIvJ8b5RdA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CM3q2NMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3l1t_LZzjQe93DsE0vZP0EgQdvOPA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNna2NMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mwLJqHWlPp3T4bL6rLOPZoYAvJDQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CM7q2NMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nJa7OI3TOVnX-gFSlH1ulHpHCgUg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CN_a2NMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3ne3VI2ZS3DS_anvb5QBdqH0kUXlg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNLq2NMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mMtQloIrncCA2UgVewDtoLI5Nb-A"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CODa2NMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3njczNQuQfGjvzmb_NvfQYxmhDkUw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNPq2NMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3ljIAIboLdG0AU-VdeOqApDImne_Q"
     }
 };
