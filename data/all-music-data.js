@@ -6980,6 +6980,293 @@ const musicData = [
         "durationSeconds": 237
     },
     {
+        "title": "穏ヤカナ眠リ - Peaceful Sleep",
+        "artist": "Keiichi Okabe",
+        "playlist": "Game OSTs",
+        "duration": "6:51",
+        "durationSeconds": 411
+    },
+    {
+        "title": "遊園施設 - Amusement Park",
+        "artist": "Keigo Hoashi",
+        "playlist": "Game OSTs",
+        "duration": "6:20",
+        "durationSeconds": 380
+    },
+    {
+        "title": "Everlasting Summer",
+        "artist": "Sergey Eybog",
+        "playlist": "Game OSTs",
+        "duration": "2:04",
+        "durationSeconds": 124
+    },
+    {
+        "title": "C418 - Subwoofer Lullaby - Minecraft Volume Alpha",
+        "artist": "SMORT",
+        "playlist": "Game OSTs",
+        "duration": "3:29",
+        "durationSeconds": 209
+    },
+    {
+        "title": "エミール/犠牲 - Emil / Sacrifice",
+        "artist": "MONACA",
+        "playlist": "Game OSTs",
+        "duration": "3:28",
+        "durationSeconds": 208
+    },
+    {
+        "title": "Weight of the World/Nouveau-FR Version - Weight of the World Nouveau - FR Version - Emi Evans",
+        "artist": "Keiichi Okabe",
+        "playlist": "Game OSTs",
+        "duration": "5:48",
+        "durationSeconds": 348
+    },
+    {
+        "title": "エミール/ショップ - Emil's Shop",
+        "artist": "Kuniyuki Takahashi, Kakeru Ishihama",
+        "playlist": "Game OSTs",
+        "duration": "5:29",
+        "durationSeconds": 329
+    },
+    {
+        "title": "Weight of the World/壊レタ世界ノ歌 - Weight of the World Kowaretasekainouta - Marina Kawano",
+        "artist": "Keiichi Okabe",
+        "playlist": "Game OSTs",
+        "duration": "5:45",
+        "durationSeconds": 345
+    },
+    {
+        "title": "イニシエノウタ/デボル - Song of the Ancients / Devola",
+        "artist": "MONACA",
+        "playlist": "Game OSTs",
+        "duration": "3:05",
+        "durationSeconds": 185
+    },
+    {
+        "title": "イニシエノウタ/ポポル - Song of the Ancients / Popola",
+        "artist": "MONACA",
+        "playlist": "Game OSTs",
+        "duration": "3:05",
+        "durationSeconds": 185
+    },
+    {
+        "title": "イニシエノウタ/運命 - Song of the Ancients / Fate",
+        "artist": "MONACA",
+        "playlist": "Game OSTs",
+        "duration": "5:18",
+        "durationSeconds": 318
+    },
+    {
+        "title": "Silent Street (Type A)",
+        "artist": "Hyunmin Cho, seibin, Youngkyoung Choi, and SHIFT UP",
+        "playlist": "Game OSTs",
+        "duration": "6:11",
+        "durationSeconds": 371
+    },
+    {
+        "title": "Silent Street (Type B)",
+        "artist": "Hyunmin Cho, seibin, Youngkyoung Choi, and SHIFT UP",
+        "playlist": "Game OSTs",
+        "duration": "5:50",
+        "durationSeconds": 350
+    },
+    {
+        "title": "Lily",
+        "artist": "seibin, Youngjee Lee, & SHIFT UP",
+        "playlist": "Game OSTs",
+        "duration": "5:05",
+        "durationSeconds": 305
+    },
+    {
+        "title": "Beyond Fate",
+        "artist": "Youngjee Lee & SHIFT UP",
+        "playlist": "Game OSTs",
+        "duration": "2:03",
+        "durationSeconds": 123
+    },
+    {
+        "title": "Arisa",
+        "artist": "Keita Inoue",
+        "playlist": "Game OSTs",
+        "duration": "5:32",
+        "durationSeconds": 332
+    },
+    {
+        "title": "The Dawn of EVE",
+        "artist": "Keita Inoue",
+        "playlist": "Game OSTs",
+        "duration": "4:54",
+        "durationSeconds": 294
+    },
+    {
+        "title": "FINAL FANTASY XIII ～誓い～ - FINAL FANTASY XIII - The Promise",
+        "artist": "Masashi Hamauzu",
+        "playlist": "Game OSTs",
+        "duration": "1:33",
+        "durationSeconds": 93
+    },
+    {
+        "title": "逃げてもいいの - Face It Later",
+        "artist": "Masashi Hamauzu",
+        "playlist": "Game OSTs",
+        "duration": "0:55",
+        "durationSeconds": 55
+    },
+    {
+        "title": "Eternal Love(Short Version)",
+        "artist": "Sayuri Sugawara",
+        "playlist": "Game OSTs",
+        "duration": "3:27",
+        "durationSeconds": 207
+    },
+    {
+        "title": "サンレス水郷 - The Sunleth Waterscape",
+        "artist": "Masashi Hamauzu",
+        "playlist": "Game OSTs",
+        "duration": "3:47",
+        "durationSeconds": 227
+    },
+    {
+        "title": "コクーンdeチョコボ～夢をみようよⅡ～ - Chocobos of Cocoon - Chasing Dreams",
+        "artist": "Masashi Hamauzu",
+        "playlist": "Game OSTs",
+        "duration": "2:58",
+        "durationSeconds": 178
+    },
+    {
+        "title": "君がいるから(Long Version) - Kimi ga Irukara(Long Version)",
+        "artist": "Sayuri Sugawara",
+        "playlist": "Game OSTs",
+        "duration": "6:23",
+        "durationSeconds": 383
+    },
+    {
+        "title": "Noel's Theme",
+        "artist": "Naoshi Mizuta",
+        "playlist": "Game OSTs",
+        "duration": "4:21",
+        "durationSeconds": 261
+    },
+    {
+        "title": "ネオ・ボーダム - New Bodhum",
+        "artist": "ORIGA",
+        "playlist": "Game OSTs",
+        "duration": "5:40",
+        "durationSeconds": 340
+    },
+    {
+        "title": "ノエルのテーマ 〜最後の旅〜 - Noel's Theme - Final Journey -",
+        "artist": "KOKIA",
+        "playlist": "Game OSTs",
+        "duration": "4:21",
+        "durationSeconds": 261
+    },
+    {
+        "title": "Noel's Theme - The Shadow Hunter -",
+        "artist": "Naoshi Mizuta",
+        "playlist": "Game OSTs",
+        "duration": "2:53",
+        "durationSeconds": 173
+    },
+    {
+        "title": "ノエルとユール ～光の約束～ - Noel and Yeul - The Promise -",
+        "artist": "Naoshi Mizuta",
+        "playlist": "Game OSTs",
+        "duration": "4:26",
+        "durationSeconds": 266
+    },
+    {
+        "title": "Who's Ready for Tomorrow",
+        "artist": "RAT BOY & IBDY",
+        "playlist": "Game OSTs",
+        "duration": "1:57",
+        "durationSeconds": 117
+    },
+    {
+        "title": "Clair Obscur: Expedition 33 (Original Soundtrack) 01 - Alicia",
+        "artist": "Sandfall Interactive",
+        "playlist": "Game OSTs",
+        "duration": "2:51",
+        "durationSeconds": 171
+    },
+    {
+        "title": "Lumière",
+        "artist": "Lorien Testard, Alice Duport-Percier",
+        "playlist": "Game OSTs",
+        "duration": "3:42",
+        "durationSeconds": 222
+    },
+    {
+        "title": "Lumière - The Departure",
+        "artist": "Lorien Testard, Alice Duport-Percier",
+        "playlist": "Game OSTs",
+        "duration": "4:04",
+        "durationSeconds": 244
+    },
+    {
+        "title": "Spring Meadows - Linen and Cotton",
+        "artist": "Lorien Testard, Alice Duport-Percier",
+        "playlist": "Game OSTs",
+        "duration": "3:47",
+        "durationSeconds": 227
+    },
+    {
+        "title": "Lune",
+        "artist": "Lorien Testard, Alice Duport-Percier",
+        "playlist": "Game OSTs",
+        "duration": "3:21",
+        "durationSeconds": 201
+    },
+    {
+        "title": "World Map - Taking Down the Paintress",
+        "artist": "Lorien Testard, Alice Duport-Percier",
+        "playlist": "Game OSTs",
+        "duration": "2:43",
+        "durationSeconds": 163
+    },
+    {
+        "title": "Ancient Sanctuary - Megabot#33",
+        "artist": "Lorien Testard",
+        "playlist": "Game OSTs",
+        "duration": "4:12",
+        "durationSeconds": 252
+    },
+    {
+        "title": "Sirène - Robe de Jour",
+        "artist": "Lorien Testard, Alice Duport-Percier",
+        "playlist": "Game OSTs",
+        "duration": "2:21",
+        "durationSeconds": 141
+    },
+    {
+        "title": "Sirène - Rouge d'Iris",
+        "artist": "Lorien Testard, Alice Duport-Percier",
+        "playlist": "Game OSTs",
+        "duration": "3:19",
+        "durationSeconds": 199
+    },
+    {
+        "title": "Clair-Obscur",
+        "artist": "Lorien Testard, Alice Duport-Percier",
+        "playlist": "Game OSTs",
+        "duration": "3:39",
+        "durationSeconds": 219
+    },
+    {
+        "title": "Maelle",
+        "artist": "Lorien Testard, Alice Duport-Percier",
+        "playlist": "Game OSTs",
+        "duration": "2:50",
+        "durationSeconds": 170
+    },
+    {
+        "title": "Weight of the World/the End of YoRHa - Weight of the World the End of YoRHa",
+        "artist": "Keiichi Okabe",
+        "playlist": "Game OSTs",
+        "duration": "5:40",
+        "durationSeconds": 340
+    },
+    {
         "title": "Luciferians",
         "artist": "Sewerslvt",
         "playlist": "Sewerslvt",
@@ -7709,21 +7996,24 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 690,
-    "totalDurationSec": 188337,
+    "totalViews": 912,
+    "totalDurationSec": 198264,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJW32dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nbas-tKX1EDco9lhjavaq1GNVdrw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIHC2dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mY2G7vHTO0vpGwE4Ype3uZqvTS0w"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJa32dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mmW_sf-VFilpo9q4nNRyDI5WXeRA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CILC2dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lGTnYcJvBRKmerxBxhxsfOd1SS1g"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJa32dMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3l7sejvLMBzo1nd0jvDHzm_3t9WdQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CILC2dMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lRJVH-V-7zzbqf4kF-LRF-JIWvJA"
+    },
+    "Game OSTs": {
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIfC2dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3n9DnPnC-XsOfB01L5bxUq8wTyw6w"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKO32dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mI5SIVw90gli2Vx_cJZZ2d5r7BMQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIfC2dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lIRDdQ_LQTK-6bo11-oIn0-VeXGA"
     }
 };
