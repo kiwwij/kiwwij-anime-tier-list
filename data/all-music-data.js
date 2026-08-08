@@ -5217,7 +5217,7 @@ const musicData = [
     },
     {
         "title": "СИЛУЕТИ (Апатія Remix)",
-        "artist": "СТРУКТУРА ЩАСТЯ, SadSvit",
+        "artist": "СТРУКТУРА ЩАСТЯ - Topic",
         "playlist": "Dead inside",
         "duration": "2:43",
         "durationSeconds": 163
@@ -5301,7 +5301,7 @@ const musicData = [
     },
     {
         "title": "Даже если",
-        "artist": "5opka, EVEN CUTE",
+        "artist": "5opka - Topic",
         "playlist": "Dead inside",
         "duration": "2:27",
         "durationSeconds": 147
@@ -5441,7 +5441,7 @@ const musicData = [
     },
     {
         "title": "Наталія Валевська – Палала [official video]",
-        "artist": "Наталія Валевська",
+        "artist": "Наталія Валевська VALEVSKA",
         "playlist": "Dead inside",
         "duration": "3:44",
         "durationSeconds": 224
@@ -5476,7 +5476,7 @@ const musicData = [
     },
     {
         "title": "Мы с севера",
-        "artist": "G Sound",
+        "artist": "G Sound - Topic",
         "playlist": "Dead inside",
         "duration": "2:00",
         "durationSeconds": 120
@@ -5553,7 +5553,7 @@ const musicData = [
     },
     {
         "title": "Кінець фільму",
-        "artist": "BaWN, badactress",
+        "artist": "BaWN - Topic",
         "playlist": "Dead inside",
         "duration": "2:59",
         "durationSeconds": 179
@@ -5602,7 +5602,7 @@ const musicData = [
     },
     {
         "title": "интернет любовь",
-        "artist": "fallen777angel",
+        "artist": "fallen777angel - Topic",
         "playlist": "Dead inside",
         "duration": "1:56",
         "durationSeconds": 116
@@ -5637,7 +5637,7 @@ const musicData = [
     },
     {
         "title": "Демон",
-        "artist": "Чучело",
+        "artist": "Чучело - Topic",
         "playlist": "Dead inside",
         "duration": "2:38",
         "durationSeconds": 158
@@ -5791,7 +5791,7 @@ const musicData = [
     },
     {
         "title": "sleep",
-        "artist": "auratoshi",
+        "artist": "auratoshi - Topic",
         "playlist": "Dead inside",
         "duration": "1:45",
         "durationSeconds": 105
@@ -5819,7 +5819,7 @@ const musicData = [
     },
     {
         "title": "грустинка",
-        "artist": "onokami",
+        "artist": "onokami - Topic",
         "playlist": "Dead inside",
         "duration": "1:47",
         "durationSeconds": 107
@@ -5910,7 +5910,7 @@ const musicData = [
     },
     {
         "title": "europa fm",
-        "artist": "The pAura",
+        "artist": "The pAura - Topic",
         "playlist": "Dead inside",
         "duration": "1:53",
         "durationSeconds": 113
@@ -8002,18 +8002,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CI733NMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mpCkdFtwFsnN-_9k77fzfyUg-leQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMiA3dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mzALLq-_fmX6A6kVXzFlS55k8Buw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CI733NMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3n5HP3EqHMH3gJg5iIJoOrpGfbAJA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMmA3dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lkWLSm8-93aeiKQ8kj3zp0PqwR_A"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CI_33NMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3n8MQKvs3cBzeTQAq4fakJIwNaW_Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMmA3dMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mokPIW6x1VYyudY3TP1YYX8m-HuA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJP33NMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3l0ZoQx1gPJeuJlKrzxS03MF8aCWg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CM6A3dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mebjHi8KzgZogNboHvdSMUgIUkcg"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJP33NMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lLVW-vET3fei5It4qYCvvXSAs9MQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CM-A3dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nVjg70LrNL2svAbYP0nG1iEsT4NQ"
     }
 };
