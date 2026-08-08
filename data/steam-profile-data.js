@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 49.6,
+            "playtime_2weeks": 49.4,
             "hours": 3624.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -38,6 +38,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1169040"
         },
         {
+            "appid": 1277510,
+            "name": "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
+            "playtime_2weeks": 1.0,
+            "hours": 3.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
+            "url": "https://store.steampowered.com/app/1277510"
+        },
+        {
             "appid": 979690,
             "name": "The Ascent",
             "playtime_2weeks": 0.7,
@@ -52,14 +60,6 @@ const steamData = {
             "hours": 0.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4258630/header.jpg",
             "url": "https://store.steampowered.com/app/4258630"
-        },
-        {
-            "appid": 1277510,
-            "name": "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
-            "playtime_2weeks": 0.5,
-            "hours": 2.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
-            "url": "https://store.steampowered.com/app/1277510"
         },
         {
             "appid": 431960,
@@ -255,7 +255,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры"
             ]
         },
         {
