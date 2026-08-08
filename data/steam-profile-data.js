@@ -62,14 +62,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/4258630"
         },
         {
-            "appid": 2674810,
-            "name": "Dragon's Dogma 2 Character Creator & Storage",
-            "playtime_2weeks": 0.7,
-            "hours": 1.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2674810/header.jpg",
-            "url": "https://store.steampowered.com/app/2674810"
-        },
-        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.2,
