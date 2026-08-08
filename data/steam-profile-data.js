@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/1297e4bb539badaf2d4e54feb659ae9f7137c03e_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E",
+        "status": "Online",
+        "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.5
     },
@@ -46,14 +46,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1245620"
         },
         {
-            "appid": 2674810,
-            "name": "Dragon's Dogma 2 Character Creator & Storage",
-            "playtime_2weeks": 0.8,
-            "hours": 1.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2674810/header.jpg",
-            "url": "https://store.steampowered.com/app/2674810"
-        },
-        {
             "appid": 979690,
             "name": "The Ascent",
             "playtime_2weeks": 0.7,
@@ -68,6 +60,14 @@ const steamData = {
             "hours": 0.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4258630/header.jpg",
             "url": "https://store.steampowered.com/app/4258630"
+        },
+        {
+            "appid": 2674810,
+            "name": "Dragon's Dogma 2 Character Creator & Storage",
+            "playtime_2weeks": 0.7,
+            "hours": 1.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2674810/header.jpg",
+            "url": "https://store.steampowered.com/app/2674810"
         },
         {
             "appid": 431960,
