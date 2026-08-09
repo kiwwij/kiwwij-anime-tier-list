@@ -255,7 +255,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры"
             ]
         },
         {
