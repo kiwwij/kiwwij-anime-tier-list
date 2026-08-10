@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 51.0,
+            "playtime_2weeks": 50.1,
             "hours": 3632.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -38,20 +38,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/4711740"
         },
         {
+            "appid": 745740,
+            "name": "Reflex",
+            "playtime_2weeks": 1.9,
+            "hours": 1.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/745740/header.jpg",
+            "url": "https://store.steampowered.com/app/745740"
+        },
+        {
             "appid": 1169040,
             "name": "Necesse",
             "playtime_2weeks": 1.8,
             "hours": 67.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
             "url": "https://store.steampowered.com/app/1169040"
-        },
-        {
-            "appid": 745740,
-            "name": "Reflex",
-            "playtime_2weeks": 0.8,
-            "hours": 0.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/745740/header.jpg",
-            "url": "https://store.steampowered.com/app/745740"
         },
         {
             "appid": 979690,
