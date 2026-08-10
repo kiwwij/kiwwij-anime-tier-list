@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/1297e4bb539badaf2d4e54feb659ae9f7137c03e_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.5
@@ -30,20 +30,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1277510"
         },
         {
+            "appid": 745740,
+            "name": "Reflex",
+            "playtime_2weeks": 2.8,
+            "hours": 2.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/745740/header.jpg",
+            "url": "https://store.steampowered.com/app/745740"
+        },
+        {
             "appid": 4711740,
             "name": "Mortal Shell II - Open Beta",
             "playtime_2weeks": 2.0,
             "hours": 2.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4711740/header.jpg",
             "url": "https://store.steampowered.com/app/4711740"
-        },
-        {
-            "appid": 745740,
-            "name": "Reflex",
-            "playtime_2weeks": 1.9,
-            "hours": 1.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/745740/header.jpg",
-            "url": "https://store.steampowered.com/app/745740"
         },
         {
             "appid": 1169040,
