@@ -1129,7 +1129,7 @@ const musicData = [
     },
     {
         "title": "hyperpop luv",
-        "artist": "whyalive & Denya8",
+        "artist": "whyalive, Denya8",
         "playlist": "Dead inside",
         "duration": "1:26",
         "durationSeconds": 86
@@ -1793,8 +1793,8 @@ const musicData = [
         "durationSeconds": 169
     },
     {
-        "title": "Khrystyna Soloviy - Trymai (official video)",
-        "artist": "Христина Соловій",
+        "title": "Trymai",
+        "artist": "Khrystyna Soloviy",
         "playlist": "Dead inside",
         "duration": "3:28",
         "durationSeconds": 208
@@ -1920,7 +1920,7 @@ const musicData = [
     },
     {
         "title": "Звезда упала",
-        "artist": "Sqwore - Topic",
+        "artist": "Sqwore",
         "playlist": "Dead inside",
         "duration": "1:36",
         "durationSeconds": 96
@@ -1996,7 +1996,7 @@ const musicData = [
         "durationSeconds": 220
     },
     {
-        "title": "билборды - скучно",
+        "title": "Скучно",
         "artist": "билборды",
         "playlist": "Dead inside",
         "duration": "2:36",
@@ -2235,7 +2235,7 @@ const musicData = [
     },
     {
         "title": "раздевайся",
-        "artist": "семьсот семь - Topic",
+        "artist": "семьсот семь, Кишлак",
         "playlist": "Dead inside",
         "duration": "2:41",
         "durationSeconds": 161
@@ -8009,18 +8009,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJaj7dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kkHFa8650oHAwqOq9U_E_D9uZyFw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CM7A7dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lxmYWs3GwtXw6DEY5eYLv69M9fsw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJaj7dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3n3RhVBZDEqnDXy8_Y-axy0pqqbKA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CM7A7dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mik159PIEyy0slLnkIYgE58TjkHA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJej7dMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nsyH_gBo34TeAW1FazmgWO0bUVZQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CM7A7dMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mPaJF9TnYUVJOmTAI4KbePtf1saQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJ2j7dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lbHc4MA1L_xujvWuR0dnkwFIXW5w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNPA7dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mXL0oSVL3Us02MeFGfNzfQnsCr6Q"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJ2j7dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mFU_K5z6xKRxcYj3mq9wz2xZRTSg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNPA7dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lh3NALQh8LltuD2Im_6b6NwC8ukQ"
     }
 };
