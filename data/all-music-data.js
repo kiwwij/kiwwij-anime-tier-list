@@ -1038,7 +1038,7 @@ const musicData = [
     },
     {
         "title": "Код",
-        "artist": "whyalive, HOROSHIYAGNI",
+        "artist": "whyalive - Topic",
         "playlist": "Dead inside",
         "duration": "2:14",
         "durationSeconds": 134
@@ -1052,21 +1052,21 @@ const musicData = [
     },
     {
         "title": "Четыре тридцать",
-        "artist": "Violetta Sokolova",
+        "artist": "violetta sokolova - Topic",
         "playlist": "Dead inside",
         "duration": "2:14",
         "durationSeconds": 134
     },
     {
         "title": "1000-7",
-        "artist": "fem.love",
+        "artist": "fem.love - Topic",
         "playlist": "Dead inside",
         "duration": "1:58",
         "durationSeconds": 118
     },
     {
         "title": "astral step",
-        "artist": "shadowraze",
+        "artist": "shadowraze - Topic",
         "playlist": "Dead inside",
         "duration": "2:02",
         "durationSeconds": 122
@@ -1164,7 +1164,7 @@ const musicData = [
     },
     {
         "title": "Live Another Day",
-        "artist": "Kordhell",
+        "artist": "Kordhell - Topic",
         "playlist": "Dead inside",
         "duration": "2:14",
         "durationSeconds": 134
@@ -1338,8 +1338,8 @@ const musicData = [
         "durationSeconds": 288
     },
     {
-        "title": "Герой из аниме",
-        "artist": "Twinky, nowkie, Kirkiimad",
+        "title": "Twinky, kirkiimad, nowkie - Герой из аниме prod.LLIIEEDD",
+        "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:48",
         "durationSeconds": 168
@@ -1528,7 +1528,7 @@ const musicData = [
     },
     {
         "title": "финала не будет",
-        "artist": "конец солнечных дней",
+        "artist": "конец солнечных дней - Topic",
         "playlist": "Dead inside",
         "duration": "4:06",
         "durationSeconds": 246
@@ -1668,7 +1668,7 @@ const musicData = [
     },
     {
         "title": "Tenderlybae - Игрушка (Премьера клипа)",
-        "artist": "Tenderlybae",
+        "artist": "Tenderlybae каждый день",
         "playlist": "Dead inside",
         "duration": "2:02",
         "durationSeconds": 122
@@ -8016,18 +8016,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNSw89MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3k_Bysc7FALDnErrJqDceGJbuDvYQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLO889MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lqUAPG-2fkLDvHLLkuoFS7g0eHFQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNWw89MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3k5mbwrVx0aQRwFpwOT3MCA78iG5g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLO889MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lrrXQfw_upkGOhSfC6_lI2UVKteg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNWw89MG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3n7Yl1i2LpLY8x35oGhOGju9H1i-w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CLS889MG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lnf7H9bgPjTMMUfj1SbPo9Q1Gpwg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNqw89MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nvzZPILi8bugoNmivK0synl4USpg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLi889MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3k6nFcTWPUukgYJqaKcAI3DDjK2FQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNqw89MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nri2pdQ73ynt1JkXzLxy4pn_S4wA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLi889MG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mpD3QjNpMdIbxxqYUo1jZPTTRXzQ"
     }
 };
