@@ -17,6 +17,10 @@ const LOCAL_ONLY_GAMES = [
     "Hades II",
     "League of Legends",
     "Evil School",
+    "The Song of Saya",
+    "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
+    // "",
+    // "",
     // "",
 ];
 

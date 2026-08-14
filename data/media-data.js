@@ -65,7 +65,7 @@ const mediaData = [
     { "title": "Molodoy chelovek", "ruTitle": "Молодой Человек", "year": "2022", "myRating": 5, "imdbRating": 6.5, "imdbLink": "https://www.imdb.com/title/tt21031650/" },
     { "title": "House of the Dragon", "ruTitle": "Дом Дракона", "year": "2022", "myRating": 9, "imdbRating": 8.3, "imdbLink": "https://www.imdb.com/title/tt11198330/" },
     { "title": "Deadpool & Wolverine", "ruTitle": "Дэдпул и Росомаха", "year": "2024", "myRating": 4, "imdbRating": 7.5, "imdbLink": "https://www.imdb.com/title/tt6263850/" },
-    // { "title": "Parasite in Love", "ruTitle": "Влюблённый паразит", "year": "2021", "myRating": 0, "imdbRating": 6.0, "imdbLink": "https://www.imdb.com/title/tt16059146/" },
+    { "title": "Parasite in Love", "ruTitle": "Влюблённый паразит", "year": "2021", "myRating": 4, "imdbRating": 6.0, "imdbLink": "https://www.imdb.com/title/tt16059146/" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
