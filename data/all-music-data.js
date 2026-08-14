@@ -1108,7 +1108,7 @@ const musicData = [
     },
     {
         "title": "showdown",
-        "artist": "shadowraze - Topic",
+        "artist": "shadowraze",
         "playlist": "Dead inside",
         "duration": "2:01",
         "durationSeconds": 121
@@ -1122,7 +1122,7 @@ const musicData = [
     },
     {
         "title": "toxin",
-        "artist": "Benedixhion - Topic",
+        "artist": "Benedixhion",
         "playlist": "Dead inside",
         "duration": "2:11",
         "durationSeconds": 131
@@ -1304,7 +1304,7 @@ const musicData = [
     },
     {
         "title": "Лесбиянство (не) модно",
-        "artist": "СТРУКТУРА ЩАСТЯ - Topic",
+        "artist": "СТРУКТУРА ЩАСТЯ",
         "playlist": "Dead inside",
         "duration": "2:17",
         "durationSeconds": 137
@@ -1408,8 +1408,8 @@ const musicData = [
         "durationSeconds": 147
     },
     {
-        "title": "INSTASAMKA - КАК MOMMY (prod. realmoneyken)",
-        "artist": "INSTASAMKA",
+        "title": "КАК MOMMY",
+        "artist": "Instasamka",
         "playlist": "Dead inside",
         "duration": "2:10",
         "durationSeconds": 130
@@ -1555,7 +1555,7 @@ const musicData = [
         "durationSeconds": 225
     },
     {
-        "title": "Twinky - Кинь мне крест",
+        "title": "Кинь мне крест",
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:28",
@@ -1569,8 +1569,8 @@ const musicData = [
         "durationSeconds": 149
     },
     {
-        "title": "CYGO - Panda E (Premiere 2018)",
-        "artist": "StarPro",
+        "title": "Panda E",
+        "artist": "CYGO",
         "playlist": "Dead inside",
         "duration": "4:21",
         "durationSeconds": 261
@@ -1717,7 +1717,7 @@ const musicData = [
     },
     {
         "title": "Baby Detroit",
-        "artist": "Baby Cute - Topic",
+        "artist": "Baby Cute",
         "playlist": "Dead inside",
         "duration": "2:13",
         "durationSeconds": 133
@@ -2605,7 +2605,7 @@ const musicData = [
         "durationSeconds": 51
     },
     {
-        "title": "SPIT IN MY FACE! - ThxSoMch | FLCL ",
+        "title": "SPIT IN MY FACE! - ThxSoMch | FLCL | AMV",
         "artist": "plz",
         "playlist": "Dead inside",
         "duration": "2:30",
@@ -2843,7 +2843,7 @@ const musicData = [
         "durationSeconds": 221
     },
     {
-        "title": "Liza Evans - Ревную (Премьера трека)",
+        "title": "Ревную",
         "artist": "Liza Evans",
         "playlist": "Dead inside",
         "duration": "2:52",
@@ -3110,7 +3110,7 @@ const musicData = [
     },
     {
         "title": "Тело",
-        "artist": "MARSIAGA - Topic",
+        "artist": "MARSIAGA",
         "playlist": "Dead inside",
         "duration": "3:43",
         "durationSeconds": 223
@@ -8016,18 +8016,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKKx-dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3l4NU6eQoV9oS02n-_87wJgjNIx0A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPX--dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kGPd-DQkHfzq7YS-Ane1eNRtUaHw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKKx-dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3k_cjQTl83hNvRBxaMKCUu8XTcY6Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPb--dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3muDsmtJGGz3a4vA816NIk9Cmqllw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKOx-dMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3n6QhcpG9ITcm7Y-XTRqVyPuVs88w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CPb--dMG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mHrSwJtSIRqC-3et2EQZTq3rfhIw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKix-dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lzOgPOLnmd5qhSSAS0goaW_FIlwg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CPv--dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mRdCCalRzG5Zv2_lmQzG5WbnhvUA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKmx-dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nKM08n06NrsnY8uS7U0jlLYPOP-g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CPv--dMG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3n7IzfhHp925cciGqCO64bumuFV-Q"
     }
 };
