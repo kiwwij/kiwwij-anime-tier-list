@@ -256,8 +256,8 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "VILLIAN, madk1d - ДИНАСТИЯ (official music video)",
-        "artist": "VILLIAN",
+        "title": "ДИНАСТИЯ",
+        "artist": "madk1d",
         "playlist": "Main"
     },
     {
