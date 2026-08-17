@@ -153,7 +153,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Бесплатные"
             ]
         },
         {
