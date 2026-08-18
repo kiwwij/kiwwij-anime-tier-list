@@ -164,7 +164,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/489830/header.jpg",
             "url": "https://store.steampowered.com/app/489830",
             "tags": [
-                "Ролевые игры"
+                "Без жанра"
             ]
         },
         {
