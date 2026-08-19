@@ -46,20 +46,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1169040"
         },
         {
-            "appid": 4711740,
-            "name": "Mortal Shell II - Open Beta",
-            "playtime_2weeks": 1.0,
-            "hours": 2.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4711740/header.jpg",
-            "url": "https://store.steampowered.com/app/4711740"
-        },
-        {
             "appid": 979690,
             "name": "The Ascent",
             "playtime_2weeks": 0.7,
             "hours": 0.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/979690/header.jpg",
             "url": "https://store.steampowered.com/app/979690"
+        },
+        {
+            "appid": 4711740,
+            "name": "Mortal Shell II - Open Beta",
+            "playtime_2weeks": 0.6,
+            "hours": 2.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4711740/header.jpg",
+            "url": "https://store.steampowered.com/app/4711740"
         },
         {
             "appid": 1905180,
