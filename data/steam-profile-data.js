@@ -48,7 +48,7 @@ const steamData = {
         {
             "appid": 4711740,
             "name": "Mortal Shell II - Open Beta",
-            "playtime_2weeks": 1.4,
+            "playtime_2weeks": 1.0,
             "hours": 2.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4711740/header.jpg",
             "url": "https://store.steampowered.com/app/4711740"
