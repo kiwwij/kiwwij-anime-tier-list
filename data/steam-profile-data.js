@@ -16,8 +16,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 40.3,
-            "hours": 3656.4,
+            "playtime_2weeks": 40.8,
+            "hours": 3656.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -54,14 +54,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1905180"
         },
         {
-            "appid": 1169040,
-            "name": "Necesse",
-            "playtime_2weeks": 0.1,
-            "hours": 67.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
-            "url": "https://store.steampowered.com/app/1169040"
-        },
-        {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.1,
@@ -74,7 +66,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3656.4,
+            "hours": 3656.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
