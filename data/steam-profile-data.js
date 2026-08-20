@@ -7,7 +7,7 @@ const steamData = {
         "status": "In Game",
         "statusColor": "#4CAF50",
         "level": 41,
-        "age": 6.5
+        "age": 6.6
     },
     "stats": {
         "total_games": 297
@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 40.8,
+            "playtime_2weeks": 40.9,
             "hours": 3656.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -36,14 +36,6 @@ const steamData = {
             "hours": 2.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/745740/header.jpg",
             "url": "https://store.steampowered.com/app/745740"
-        },
-        {
-            "appid": 4711740,
-            "name": "Mortal Shell II - Open Beta",
-            "playtime_2weeks": 0.6,
-            "hours": 2.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4711740/header.jpg",
-            "url": "https://store.steampowered.com/app/4711740"
         },
         {
             "appid": 1905180,
