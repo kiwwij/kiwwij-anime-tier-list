@@ -16,8 +16,8 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 42.5,
-            "hours": 3660.8,
+            "playtime_2weeks": 42.6,
+            "hours": 3661.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -58,7 +58,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3660.8,
+            "hours": 3661.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
@@ -231,8 +231,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Экшены",
-                "Приключенческие игры"
+                "Без жанра"
             ]
         },
         {
