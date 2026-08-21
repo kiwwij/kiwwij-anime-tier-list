@@ -264,9 +264,19 @@ const musicData = [
         "title": "9mice, K - Нет Тебя (music video)",
         "artist": "9mice",
         "playlist": "Main"
+    },
+    {
+        "title": "Целоваться (Hardtekk)",
+        "artist": "lightprey",
+        "playlist": "Main"
+    },
+    {
+        "title": "альтушка",
+        "artist": "onokami",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 21,
-    "totalDurationSec": 7234
+    "totalDurationSec": 7439
 };
