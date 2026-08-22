@@ -269,14 +269,9 @@ const musicData = [
         "title": "Целоваться (Hardtekk)",
         "artist": "lightprey",
         "playlist": "Main"
-    },
-    {
-        "title": "альтушка",
-        "artist": "onokami",
-        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 21,
-    "totalDurationSec": 7439
+    "totalDurationSec": 7347
 };
