@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 1277510,
             "name": "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
-            "playtime_2weeks": 23.0,
+            "playtime_2weeks": 22.6,
             "hours": 27.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
             "url": "https://store.steampowered.com/app/1277510"
