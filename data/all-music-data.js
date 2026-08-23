@@ -883,27 +883,6 @@ const musicData = [
         "durationSeconds": 294
     },
     {
-        "title": "Меланхолия Харухи Судзумии - OP1 (Русский Вокал)",
-        "artist": "Аниме в России",
-        "playlist": "Off Screen",
-        "duration": "1:30",
-        "durationSeconds": 90
-    },
-    {
-        "title": "Меланхолия Харухи Судзумии - ED1 (Русский Вокал)",
-        "artist": "Аниме в России",
-        "playlist": "Off Screen",
-        "duration": "1:06",
-        "durationSeconds": 66
-    },
-    {
-        "title": "Меланхолия Харухи Судзумии - OP2 (Русский Вокал)",
-        "artist": "Аниме в России",
-        "playlist": "Off Screen",
-        "duration": "1:31",
-        "durationSeconds": 91
-    },
-    {
         "title": "The Melancholy of Haruhi Suzumiya - Opening 2 【Super Driver】 4K 60FPS Creditless | CC",
         "artist": "Neobrane",
         "playlist": "Off Screen",
@@ -8074,23 +8053,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 912,
-    "totalDurationSec": 199749,
+    "totalDurationSec": 199502,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CO_Jq9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nR1RhlCDbHr8oWFasqDfkDc44DHA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJjcq9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lVM7z8oe6alg1unOx8_snoexWw2A"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CO_Jq9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kMiaTIvP1Ux5wZpBM2YXrOlZPhlw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJjcq9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nuxGOsVVAo82pS35uDwurdVIlwJg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CO_Jq9QG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kpJAhsVag46A2Ik9oDCBmBFfYU_A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJncq9QG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nBWYiiFbd0bDefdjUM7DVwmJr4sQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CPTJq9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nFMl9Wm1UTVgUwwUGQuJHEGQM_2g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJ3cq9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kF7lwkrA9-mNfxWFBf7ZDgT5WXnw"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CPTJq9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nrPW494n6BCuuzjQukT4bv8Dkjnw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJ3cq9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mW3PxMFhsRClRFjIrIfQb0oZZ95g"
     }
 };
