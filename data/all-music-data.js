@@ -883,13 +883,6 @@ const musicData = [
         "durationSeconds": 294
     },
     {
-        "title": "Меланхолия Харухи Судзумии - OP1 (Русский Вокал)",
-        "artist": "Аниме в России",
-        "playlist": "Off Screen",
-        "duration": "1:30",
-        "durationSeconds": 90
-    },
-    {
         "title": "The Melancholy of Haruhi Suzumiya - Opening 2 【Super Driver】 4K 60FPS Creditless | CC",
         "artist": "Neobrane",
         "playlist": "Off Screen",
@@ -8060,23 +8053,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 912,
-    "totalDurationSec": 199592,
+    "totalDurationSec": 199502,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CN7_q9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mVw1rCnzO6E-yORV87zuW0i1L-dA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CK-JrNQG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3krcX9Kxjf6M5m_0th3AwHYlSowBA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CN7_q9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nwOTfBqKjKeWVigGL9Vo47sEyPCw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CK-JrNQG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3l2ACcjKMPmu50sttplv_uCwPgYtQ"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CN__q9QG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kZNcAXpDhu8_ow-B6yZLxtUQKMxw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CLCJrNQG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lfndRdyttG7T1FKF6bDQlyvtieJg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COP_q9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3n16LZw8zkTzUt-elj-Z1HW3BndYw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLWJrNQG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3km-mQ2euj0nVyLXnG8SZ7kXISa8A"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COP_q9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3l0ANlYQpLc2EhasEcb1vicMDFcNg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLWJrNQG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3klZ5K1_S9HRBVurLA4dFTcbHubng"
     }
 };
