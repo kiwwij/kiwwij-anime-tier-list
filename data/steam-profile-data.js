@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 1277510,
             "name": "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
-            "playtime_2weeks": 9.5,
+            "playtime_2weeks": 9.1,
             "hours": 27.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
             "url": "https://store.steampowered.com/app/1277510"
@@ -40,8 +40,8 @@ const steamData = {
         {
             "appid": 1608070,
             "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
-            "playtime_2weeks": 1.7,
-            "hours": 4.7,
+            "playtime_2weeks": 2.2,
+            "hours": 5.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
             "url": "https://store.steampowered.com/app/1608070"
         },
