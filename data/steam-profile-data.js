@@ -24,8 +24,8 @@ const steamData = {
         {
             "appid": 1608070,
             "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
-            "playtime_2weeks": 16.1,
-            "hours": 19.1,
+            "playtime_2weeks": 17.6,
+            "hours": 20.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
             "url": "https://store.steampowered.com/app/1608070"
         },
@@ -36,14 +36,6 @@ const steamData = {
             "hours": 0.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4508340/header.jpg",
             "url": "https://store.steampowered.com/app/4508340"
-        },
-        {
-            "appid": 1905180,
-            "name": "OBS Studio",
-            "playtime_2weeks": 0.4,
-            "hours": 192.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
-            "url": "https://store.steampowered.com/app/1905180"
         },
         {
             "appid": 431960,
