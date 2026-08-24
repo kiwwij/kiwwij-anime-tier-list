@@ -16,26 +16,26 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 37.1,
-            "hours": 3666.2,
+            "playtime_2weeks": 37.6,
+            "hours": 3666.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
+            "appid": 1608070,
+            "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
+            "playtime_2weeks": 6.1,
+            "hours": 8.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
+            "url": "https://store.steampowered.com/app/1608070"
+        },
+        {
             "appid": 1277510,
             "name": "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
-            "playtime_2weeks": 5.5,
+            "playtime_2weeks": 4.8,
             "hours": 27.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
             "url": "https://store.steampowered.com/app/1277510"
-        },
-        {
-            "appid": 1608070,
-            "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
-            "playtime_2weeks": 5.4,
-            "hours": 7.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
-            "url": "https://store.steampowered.com/app/1608070"
         },
         {
             "appid": 745740,
@@ -66,7 +66,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3666.2,
+            "hours": 3666.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
@@ -129,7 +129,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Бесплатные"
             ]
         },
         {
