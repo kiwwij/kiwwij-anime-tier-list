@@ -10,13 +10,13 @@ const steamData = {
         "age": 6.6
     },
     "stats": {
-        "total_games": 297
+        "total_games": 298
     },
     "recent_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 36.7,
+            "playtime_2weeks": 35.8,
             "hours": 3667.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -24,8 +24,8 @@ const steamData = {
         {
             "appid": 1608070,
             "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
-            "playtime_2weeks": 8.6,
-            "hours": 11.5,
+            "playtime_2weeks": 9.1,
+            "hours": 12.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
             "url": "https://store.steampowered.com/app/1608070"
         },
@@ -40,10 +40,18 @@ const steamData = {
         {
             "appid": 1277510,
             "name": "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
-            "playtime_2weeks": 2.4,
+            "playtime_2weeks": 1.4,
             "hours": 27.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
             "url": "https://store.steampowered.com/app/1277510"
+        },
+        {
+            "appid": 4508340,
+            "name": "NTE: Neverness to Everness",
+            "playtime_2weeks": 0.5,
+            "hours": 0.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4508340/header.jpg",
+            "url": "https://store.steampowered.com/app/4508340"
         },
         {
             "appid": 1905180,
@@ -129,7 +137,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Бесплатные"
             ]
         },
         {
@@ -139,7 +148,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/489830/header.jpg",
             "url": "https://store.steampowered.com/app/489830",
             "tags": [
-                "Без жанра"
+                "Ролевые игры"
             ]
         },
         {
@@ -216,7 +225,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Без жанра"
+                "Ролевые игры"
             ]
         },
         {
