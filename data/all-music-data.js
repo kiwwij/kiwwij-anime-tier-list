@@ -3284,7 +3284,7 @@ const musicData = [
         "durationSeconds": 210
     },
     {
-        "title": "Катя Лель - Мой мармеладный",
+        "title": "Katya Lel – My Marmeladny (Official Music Video, 2004)",
         "artist": "MAXIM FADEEV",
         "playlist": "Dead inside",
         "duration": "3:21",
@@ -3299,7 +3299,7 @@ const musicData = [
     },
     {
         "title": "Prekrasnoe Dalyoko",
-        "artist": "PARTICLES, кошечка, & Atomic Heart",
+        "artist": "PARTICLES - Topic",
         "playlist": "Dead inside",
         "duration": "2:01",
         "durationSeconds": 121
@@ -3383,7 +3383,7 @@ const musicData = [
     },
     {
         "title": "ee nado x)",
-        "artist": "dj trippie flameboy",
+        "artist": "dj trippie flameboy - Topic",
         "playlist": "Dead inside",
         "duration": "1:45",
         "durationSeconds": 105
@@ -3543,7 +3543,7 @@ const musicData = [
         "durationSeconds": 322
     },
     {
-        "title": "Зараза",
+        "title": "«ЗАРАЗА» (видеоклип) – Николай Басков",
         "artist": "Nikolay Baskov",
         "playlist": "Dead inside",
         "duration": "5:39",
@@ -3628,14 +3628,14 @@ const musicData = [
     },
     {
         "title": "На стол",
-        "artist": "LonelyStash, Готлиб",
+        "artist": "LonelyStash - Topic",
         "playlist": "Dead inside",
         "duration": "2:14",
         "durationSeconds": 134
     },
     {
         "title": "Всё решено",
-        "artist": "Валентин Стрыкало",
+        "artist": "Valentin Strykalo - Topic",
         "playlist": "Dead inside",
         "duration": "3:12",
         "durationSeconds": 192
@@ -3725,7 +3725,7 @@ const musicData = [
         "durationSeconds": 150
     },
     {
-        "title": "DIE FOR YOU",
+        "title": "asteria - DIE FOR YOU (Official Visualizer)",
         "artist": "asteria",
         "playlist": "Dead inside",
         "duration": "2:03",
@@ -8107,18 +8107,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMKEs9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nO0elPCFFRq1dbPrC7GwI4bJxRZQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKiPs9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nq4tx9qxbGu-P3CQi2YDkwAmYr8g"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMOEs9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kayKURwpW4aC8hdWUZ0a4wcWIozg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKmPs9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3m_YqcqKJbvQ6hykCM421_fq-KQTw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMOEs9QG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lRttsc2_zyLfxaQqZpEtRbVPoocw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKmPs9QG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3meN3WVwjnD0IDXl1VS_GvPQN9SCQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMeEs9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3neVrk8Pdy6GzUQXSlJv9awkPj2Cw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CK6Ps9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mHV0qAFAWfBW0Zk8izh0bJh3vZXA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMiEs9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mLcqCwPwkvtaJVjRjBfV0y1i7Q_A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CK-Ps9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kM0JI-lOFyP-HPeKgsT4nNWQRr6A"
     }
 };
