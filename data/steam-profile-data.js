@@ -16,23 +16,23 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 36.1,
-            "hours": 3668.5,
+            "playtime_2weeks": 36.8,
+            "hours": 3669.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1608070,
             "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
-            "playtime_2weeks": 10.6,
-            "hours": 13.5,
+            "playtime_2weeks": 11.6,
+            "hours": 14.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
             "url": "https://store.steampowered.com/app/1608070"
         },
         {
             "appid": 745740,
             "name": "Reflex",
-            "playtime_2weeks": 2.8,
+            "playtime_2weeks": 2.2,
             "hours": 2.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/745740/header.jpg",
             "url": "https://store.steampowered.com/app/745740"
@@ -60,21 +60,13 @@ const steamData = {
             "hours": 23.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 1277510,
-            "name": "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
-            "playtime_2weeks": 0.1,
-            "hours": 27.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
-            "url": "https://store.steampowered.com/app/1277510"
         }
     ],
     "top_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3668.5,
+            "hours": 3669.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
