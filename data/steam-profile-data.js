@@ -24,15 +24,15 @@ const steamData = {
         {
             "appid": 1608070,
             "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
-            "playtime_2weeks": 12.1,
-            "hours": 15.1,
+            "playtime_2weeks": 12.6,
+            "hours": 15.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
             "url": "https://store.steampowered.com/app/1608070"
         },
         {
             "appid": 745740,
             "name": "Reflex",
-            "playtime_2weeks": 1.5,
+            "playtime_2weeks": 0.9,
             "hours": 2.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/745740/header.jpg",
             "url": "https://store.steampowered.com/app/745740"
