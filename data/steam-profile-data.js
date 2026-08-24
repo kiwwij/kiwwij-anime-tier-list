@@ -10,13 +10,13 @@ const steamData = {
         "age": 6.6
     },
     "stats": {
-        "total_games": 298
+        "total_games": 299
     },
     "recent_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 36.8,
+            "playtime_2weeks": 36.6,
             "hours": 3669.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -24,8 +24,8 @@ const steamData = {
         {
             "appid": 1608070,
             "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
-            "playtime_2weeks": 14.1,
-            "hours": 17.1,
+            "playtime_2weeks": 14.6,
+            "hours": 17.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
             "url": "https://store.steampowered.com/app/1608070"
         },
@@ -48,8 +48,8 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.2,
-            "hours": 23.7,
+            "playtime_2weeks": 0.3,
+            "hours": 23.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
         }
