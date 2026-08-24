@@ -24,8 +24,8 @@ const steamData = {
         {
             "appid": 1608070,
             "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
-            "playtime_2weeks": 13.6,
-            "hours": 16.6,
+            "playtime_2weeks": 14.1,
+            "hours": 17.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
             "url": "https://store.steampowered.com/app/1608070"
         },
@@ -52,14 +52,6 @@ const steamData = {
             "hours": 23.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 745740,
-            "name": "Reflex",
-            "playtime_2weeks": 0.1,
-            "hours": 2.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/745740/header.jpg",
-            "url": "https://store.steampowered.com/app/745740"
         }
     ],
     "top_games": [
@@ -129,8 +121,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Экшены",
-                "Бесплатные"
+                "Без жанра"
             ]
         },
         {
