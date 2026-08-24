@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 37.6,
+            "playtime_2weeks": 36.7,
             "hours": 3667.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -24,18 +24,10 @@ const steamData = {
         {
             "appid": 1608070,
             "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
-            "playtime_2weeks": 7.6,
-            "hours": 10.5,
+            "playtime_2weeks": 8.6,
+            "hours": 11.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
             "url": "https://store.steampowered.com/app/1608070"
-        },
-        {
-            "appid": 1277510,
-            "name": "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
-            "playtime_2weeks": 3.3,
-            "hours": 27.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
-            "url": "https://store.steampowered.com/app/1277510"
         },
         {
             "appid": 745740,
@@ -44,6 +36,14 @@ const steamData = {
             "hours": 2.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/745740/header.jpg",
             "url": "https://store.steampowered.com/app/745740"
+        },
+        {
+            "appid": 1277510,
+            "name": "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
+            "playtime_2weeks": 2.4,
+            "hours": 27.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
+            "url": "https://store.steampowered.com/app/1277510"
         },
         {
             "appid": 1905180,
@@ -129,8 +129,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Экшены",
-                "Бесплатные"
+                "Без жанра"
             ]
         },
         {
