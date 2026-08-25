@@ -4558,8 +4558,8 @@ const musicData = [
         "durationSeconds": 156
     },
     {
-        "title": "Гроза Лесных Крипов",
-        "artist": "AICOVERGIRL",
+        "title": "Гроза лесных крипов",
+        "artist": "youraifu",
         "playlist": "Dead inside",
         "duration": "2:37",
         "durationSeconds": 157
@@ -4720,7 +4720,7 @@ const musicData = [
     },
     {
         "title": "(не) уходи",
-        "artist": "fallen777angel & mapt0v",
+        "artist": "fallen777angel, mapt0v",
         "playlist": "Dead inside",
         "duration": "1:58",
         "durationSeconds": 118
@@ -5259,7 +5259,7 @@ const musicData = [
     },
     {
         "title": "Ствол 2",
-        "artist": "Sharingan - Topic",
+        "artist": "Sharingan",
         "playlist": "Dead inside",
         "duration": "1:06",
         "durationSeconds": 66
@@ -5273,7 +5273,7 @@ const musicData = [
     },
     {
         "title": "шрамы",
-        "artist": "violetta sokolova - Topic",
+        "artist": "Violetta Sokolova",
         "playlist": "Dead inside",
         "duration": "2:55",
         "durationSeconds": 175
@@ -5315,7 +5315,7 @@ const musicData = [
     },
     {
         "title": "я не собираюсь мешать",
-        "artist": "KRISTIEE - Topic",
+        "artist": "KRISTIEE",
         "playlist": "Dead inside",
         "duration": "2:08",
         "durationSeconds": 128
@@ -5336,7 +5336,7 @@ const musicData = [
     },
     {
         "title": "1-800",
-        "artist": "bbno$ - Topic",
+        "artist": "bbno$, Ironmouse",
         "playlist": "Dead inside",
         "duration": "3:28",
         "durationSeconds": 208
@@ -5406,7 +5406,7 @@ const musicData = [
     },
     {
         "title": "fake ur face",
-        "artist": "s0rrow - Topic",
+        "artist": "s0rrow",
         "playlist": "Dead inside",
         "duration": "1:55",
         "durationSeconds": 115
@@ -5427,7 +5427,7 @@ const musicData = [
     },
     {
         "title": "больше не будет",
-        "artist": "кариолемма - Topic",
+        "artist": "кариолемма",
         "playlist": "Dead inside",
         "duration": "2:41",
         "durationSeconds": 161
@@ -5532,7 +5532,7 @@ const musicData = [
     },
     {
         "title": "Тупой",
-        "artist": "Юпи - Topic",
+        "artist": "Юпи & boogshi",
         "playlist": "Dead inside",
         "duration": "1:50",
         "durationSeconds": 110
@@ -5574,7 +5574,7 @@ const musicData = [
     },
     {
         "title": "Turbo (Majestic)",
-        "artist": "Big Baby Tape - Topic",
+        "artist": "Big Baby Tape",
         "playlist": "Dead inside",
         "duration": "2:56",
         "durationSeconds": 176
@@ -5644,7 +5644,7 @@ const musicData = [
     },
     {
         "title": "Болею тобой",
-        "artist": "Kishlak - Topic",
+        "artist": "Кишлак, семьсот семь",
         "playlist": "Dead inside",
         "duration": "2:23",
         "durationSeconds": 143
@@ -5847,7 +5847,7 @@ const musicData = [
     },
     {
         "title": "SIDEL ODIN HARDSTYLE",
-        "artist": "Riversmelt - Topic",
+        "artist": "Riversmelt, XP.UFX.",
         "playlist": "Dead inside",
         "duration": "1:44",
         "durationSeconds": 104
@@ -8114,18 +8114,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKbXt9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3k9sRFAPv1eFCZZGY6LmwIEgUTLqQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKzft9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nLLo_RmtbMSFNwnqzYBGgu0pahWw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKfXt9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nuerJIFXbACQb_VWG12LluiDHaTg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CK3ft9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nXCSl_jtQNm_8-2WHJMwwt_4j-pQ"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKjXt9QG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nRKw7NjPtB1LXPa4Xu6FvXgcld4w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CK3ft9QG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kYCDGxZrv8ceOmyByb939eIwGZqg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CK7Xt9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nCb_DyN3NFOjha9Kdvdc9qWrxf_w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLHft9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nKe4sXpqmkFh0SoLyMzyhqWKPNag"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CK7Xt9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lrV97MRKBZP4FM2b16QZlEfgEc0Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLLft9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nNRNYJbYtHnPKpof1k8y3pnCyntw"
     }
 };
