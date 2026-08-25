@@ -92,10 +92,6 @@ if (typeof tierListData !== 'undefined') {
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/335300/",
                 },
                 {
-                    title: "CRISIS CORE –FINAL FANTASY VII– REUNION",
-                    review: "Прошёл ради того, чтобы узнать предысторию Зака и закрыть гештальн по играм 7-ой финалки. Ревью - ",
-                },
-                {
                     title: "Hollow Knight: Silksong",
                     review: "Ревью - https://steamcommunity.com/id/serhiosergey/recommended/1030300/",
                 },
@@ -321,6 +317,10 @@ if (typeof tierListData !== 'undefined') {
                 {
                     title: "Portal 2",
                     review: "Кайфовая игрушка, но не более. Финальная песня кайф.",
+                },
+                {
+                    title: "CRISIS CORE –FINAL FANTASY VII– REUNION",
+                    review: "Прошёл ради того, чтобы узнать предысторию Зака и закрыть гештальн по играм 7-ой финалки. Ожидал большего. Даже ревью делать не хочу.",
                 },
                 {
                     title: "The Quarry",

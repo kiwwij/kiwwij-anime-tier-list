@@ -286,6 +286,16 @@ if (typeof tierListData !== 'undefined') {
                 review: "Перечёркивание всех стараний героев. Возвращение к началу.",
                 img: "rezero/43.webp"
             },
+            { 
+                title: "Re:Zero Ранобэ Том 44", 
+                review: "Новая кандидатка на выборах. Излечение Круш и её изменения.",
+                img: "rezero/44.webp"
+            },
+            { 
+                title: "Re:Zero Ранобэ Том 45", 
+                review: "Полный идиотизм от Рейнхарда (теперь это мой самый нелюбимый персонаж). Переписаания история игры из стима. Побег Круш и Субару + проблемы у лагеря Эмилии. Побег, даже 2, нет, джае 3.",
+                img: "rezero/45.webp"
+            },
             ],
         'D': [
             { 
@@ -302,14 +312,9 @@ if (typeof tierListData !== 'undefined') {
                 img: "rezero/10.png"
             },
             { 
-                title: "Re:Zero Ранобэ Том 44", 
+                title: "Re:Zero Ранобэ Том 46", 
                 review: "",
-                img: "rezero/44.webp"
-            },
-            { 
-                title: "Re:Zero Ранобэ Том 45", 
-                review: "",
-                img: "rezero/45.webp"
+                img: "rezero/46.webp"
             },
             ]
     };
