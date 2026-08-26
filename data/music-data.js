@@ -269,9 +269,14 @@ const musicData = [
         "title": "Целоваться (Hardtekk)",
         "artist": "lightprey",
         "playlist": "Main"
+    },
+    {
+        "title": "целоваться",
+        "artist": "lightprey",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 21,
-    "totalDurationSec": 7347
+    "totalDurationSec": 7462
 };
