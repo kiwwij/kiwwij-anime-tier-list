@@ -3347,8 +3347,8 @@ const musicData = [
         "durationSeconds": 246
     },
     {
-        "title": "Belly Dancer",
-        "artist": "Imanbek, BYOR",
+        "title": "Imanbek & BYOR - Belly Dancer (Official Audio)",
+        "artist": "Spinnin' Records",
         "playlist": "Dead inside",
         "duration": "2:35",
         "durationSeconds": 155
@@ -3774,7 +3774,7 @@ const musicData = [
         "durationSeconds": 316
     },
     {
-        "title": "чайлдфри (Live) (feat. Monetochka)",
+        "title": "Noize MC - Чайлдфри (feat. монеточка)",
         "artist": "Noize MC",
         "playlist": "Dead inside",
         "duration": "4:21",
@@ -3795,8 +3795,8 @@ const musicData = [
         "durationSeconds": 80
     },
     {
-        "title": "I WANNA BE YOUR SLAVE (Official Video)",
-        "artist": "Måneskin",
+        "title": "Måneskin - I WANNA BE YOUR SLAVE (Official Video)",
+        "artist": "ManeskinVEVO",
         "playlist": "Dead inside",
         "duration": "2:53",
         "durationSeconds": 173
@@ -3845,7 +3845,7 @@ const musicData = [
     },
     {
         "title": "Кабанчик",
-        "artist": "В'ячеслав Кукоба",
+        "artist": "В'ячеслав Кукоба - Topic",
         "playlist": "Dead inside",
         "duration": "3:21",
         "durationSeconds": 201
@@ -8114,18 +8114,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CODKx9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kD0YYuFqTctKcoFSDA1uQELb39wQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CN2KydQG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mQcgZSjhGrJFnEzOqn_NNQ8kF-8w"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CODKx9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3koGOp9nQbLSQSrpg6k8UNkNdWkkg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CN2KydQG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lmqnCkRpUN4VsaeDjuMYg0wrMc_Q"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=COHKx9QG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nCSuEftSFvoyX2zI3OunY4ln_r9Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CN6KydQG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kSvRVHHFOpyxyxZu9JbBobNyEbSw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CObKx9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mLMEKbBTSkNZUPUq8u5nP2Krh-9A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COOKydQG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lUPSXMDQEiNzyv2nuJp6prX4Jiww"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CObKx9QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mBXjnlbzONDddPIpKYv7xnWWUh7w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COOKydQG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3m5iCISMjzUpv7vMxW4cfJCupvKcg"
     }
 };
