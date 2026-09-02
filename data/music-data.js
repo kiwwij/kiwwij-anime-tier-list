@@ -269,14 +269,9 @@ const musicData = [
         "title": "целоваться",
         "artist": "lightprey",
         "playlist": "Main"
-    },
-    {
-        "title": "Toy-Box - E.T. (Official Audio)",
-        "artist": "Toy-Box",
-        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 21,
-    "totalDurationSec": 7571
+    "totalDurationSec": 7349
 };
