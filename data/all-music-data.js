@@ -6778,7 +6778,7 @@ const musicData = [
     },
     {
         "title": "детская травма",
-        "artist": "CUPSIZE - Topic",
+        "artist": "CUPSIZE",
         "playlist": "Dead inside",
         "duration": "2:13",
         "durationSeconds": 133
@@ -6813,7 +6813,7 @@ const musicData = [
     },
     {
         "title": "розовая могила",
-        "artist": "CUPSIZE - Topic",
+        "artist": "CUPSIZE",
         "playlist": "Dead inside",
         "duration": "3:23",
         "durationSeconds": 203
@@ -6827,7 +6827,7 @@ const musicData = [
     },
     {
         "title": "попал",
-        "artist": "tewiq - Topic",
+        "artist": "tewiq",
         "playlist": "Dead inside",
         "duration": "1:47",
         "durationSeconds": 107
@@ -6876,7 +6876,7 @@ const musicData = [
     },
     {
         "title": "DIOR SAUVAGE",
-        "artist": "Дмитрий Уткин - Topic",
+        "artist": "дмитрий уткин, 2nd.gf",
         "playlist": "Dead inside",
         "duration": "2:04",
         "durationSeconds": 124
@@ -6890,7 +6890,7 @@ const musicData = [
     },
     {
         "title": "Сан Ларан",
-        "artist": "Платина - Topic",
+        "artist": "Платина, Дора",
         "playlist": "Dead inside",
         "duration": "3:26",
         "durationSeconds": 206
@@ -8093,18 +8093,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMmI49QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kpwDoA61WDEwf2A9E4lp-uaiPGBA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKno49QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nTz541RgGtCqEtCV1igCCbtNPonw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMqI49QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nsAQnWf66B6phNEemMT5E_AS4DlA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKno49QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nwdG6d6u-GMpbeV_wVPX-T0NuzPA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMuI49QG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nkKyMxxAqo6PhcpLOXItllt4z6ZA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKro49QG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nXW25Ult-y-NG8DDEPKeuT66-k2Q"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNCI49QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lNMlwgRM9pxUaI0nLgue3K4ZkmIA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CK3o49QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kt6uCk8QONSvYVDSjsXT-eTG7RvA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNGI49QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nosE7aSYbmixTXqah5MdXFsu_kpw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CK7o49QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lz5A7T00TV62q2jhIwXtMnESSxtQ"
     }
 };
