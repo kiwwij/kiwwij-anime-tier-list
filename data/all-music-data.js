@@ -183,13 +183,6 @@ const musicData = [
         "durationSeconds": 91
     },
     {
-        "title": "ivycraft — люблю москву но снится london",
-        "artist": "Russian SoundCloud",
-        "playlist": "Main",
-        "duration": "1:33",
-        "durationSeconds": 93
-    },
-    {
         "title": "SIDEL ODIN HARDSTYLE",
         "artist": "Riversmelt, XP.UFX.",
         "playlist": "Main",
@@ -5916,13 +5909,6 @@ const musicData = [
         "durationSeconds": 82
     },
     {
-        "title": "ivycraft — люблю москву но снится london",
-        "artist": "Russian SoundCloud",
-        "playlist": "Dead inside",
-        "duration": "1:33",
-        "durationSeconds": 93
-    },
-    {
         "title": "распять",
         "artist": "greyrock, tewiq, & madk1d",
         "playlist": "Dead inside",
@@ -6357,13 +6343,6 @@ const musicData = [
         "durationSeconds": 91
     },
     {
-        "title": "ivycraft — люблю москву но снится london",
-        "artist": "Russian SoundCloud",
-        "playlist": "Dead inside",
-        "duration": "1:33",
-        "durationSeconds": 93
-    },
-    {
         "title": "SIDEL ODIN HARDSTYLE",
         "artist": "Riversmelt, XP.UFX.",
         "playlist": "Dead inside",
@@ -6728,13 +6707,6 @@ const musicData = [
         "durationSeconds": 91
     },
     {
-        "title": "ivycraft — люблю москву но снится london",
-        "artist": "Russian SoundCloud",
-        "playlist": "Dead inside",
-        "duration": "1:33",
-        "durationSeconds": 93
-    },
-    {
         "title": "SIDEL ODIN HARDSTYLE",
         "artist": "Riversmelt, XP.UFX.",
         "playlist": "Dead inside",
@@ -6806,7 +6778,7 @@ const musicData = [
     },
     {
         "title": "детская травма",
-        "artist": "CUPSIZE",
+        "artist": "CUPSIZE - Topic",
         "playlist": "Dead inside",
         "duration": "2:13",
         "durationSeconds": 133
@@ -6841,7 +6813,7 @@ const musicData = [
     },
     {
         "title": "розовая могила",
-        "artist": "CUPSIZE",
+        "artist": "CUPSIZE - Topic",
         "playlist": "Dead inside",
         "duration": "3:23",
         "durationSeconds": 203
@@ -6855,7 +6827,7 @@ const musicData = [
     },
     {
         "title": "попал",
-        "artist": "tewiq",
+        "artist": "tewiq - Topic",
         "playlist": "Dead inside",
         "duration": "1:47",
         "durationSeconds": 107
@@ -6904,7 +6876,7 @@ const musicData = [
     },
     {
         "title": "DIOR SAUVAGE",
-        "artist": "дмитрий уткин, 2nd.gf",
+        "artist": "Дмитрий Уткин - Topic",
         "playlist": "Dead inside",
         "duration": "2:04",
         "durationSeconds": 124
@@ -6918,7 +6890,7 @@ const musicData = [
     },
     {
         "title": "Сан Ларан",
-        "artist": "Платина, Дора",
+        "artist": "Платина - Topic",
         "playlist": "Dead inside",
         "duration": "3:26",
         "durationSeconds": 206
@@ -8116,23 +8088,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 955,
-    "totalDurationSec": 201378,
+    "totalDurationSec": 201006,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COax4tQG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mlwJgehbGyoxt607LVNYwe1PTo2Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMmI49QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kpwDoA61WDEwf2A9E4lp-uaiPGBA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COax4tQG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mtbgpf_GcF4_pF38XzBZrU7oA_Cw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMqI49QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nsAQnWf66B6phNEemMT5E_AS4DlA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=COex4tQG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mSukFahS2s2ycqtus3FQbf8jk-Yg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMuI49QG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nkKyMxxAqo6PhcpLOXItllt4z6ZA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CO2x4tQG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kvcHLbYb3nS1cTAthRchtLZSU6ew"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNCI49QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lNMlwgRM9pxUaI0nLgue3K4ZkmIA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CO2x4tQG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nQfdx9NWO-qf_J7CJUH8_ZADj2og"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNGI49QG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nosE7aSYbmixTXqah5MdXFsu_kpw"
     }
 };
