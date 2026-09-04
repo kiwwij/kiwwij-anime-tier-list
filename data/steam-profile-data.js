@@ -25,7 +25,7 @@ const steamData = {
             "appid": 570,
             "name": "Dota 2",
             "playtime_2weeks": 34.9,
-            "hours": 3693.5,
+            "hours": 3693.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -44,13 +44,21 @@ const steamData = {
             "hours": 23.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 4880100,
+            "name": "Stupid Never Dies: First Bite Demo",
+            "playtime_2weeks": 0.2,
+            "hours": 0.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4880100/header.jpg",
+            "url": "https://store.steampowered.com/app/4880100"
         }
     ],
     "top_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3693.5,
+            "hours": 3693.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
