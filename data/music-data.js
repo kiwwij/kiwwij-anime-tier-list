@@ -121,11 +121,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "норман грейсон - таролог",
-        "artist": "fiveclown",
-        "playlist": "Main"
-    },
-    {
         "title": "распять (folk remix)",
         "artist": "stel11a",
         "playlist": "Main"
@@ -264,9 +259,19 @@ const musicData = [
         "title": "целоваться",
         "artist": "lightprey",
         "playlist": "Main"
+    },
+    {
+        "title": "прощай",
+        "artist": "k0vertessence",
+        "playlist": "Main"
+    },
+    {
+        "title": "моё июльское остинато",
+        "artist": "#небеснаякараIV",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 21,
-    "totalDurationSec": 7256
+    "totalDurationSec": 7391
 };
