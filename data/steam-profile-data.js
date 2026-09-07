@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 33.2,
+            "playtime_2weeks": 32.3,
             "hours": 3701.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 1608070,
             "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
-            "playtime_2weeks": 30.4,
+            "playtime_2weeks": 26.5,
             "hours": 43.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
             "url": "https://store.steampowered.com/app/1608070"
