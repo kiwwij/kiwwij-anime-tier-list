@@ -251,7 +251,7 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "9mice, K - Нет Тебя (music video)",
+        "title": "Нет Тебя",
         "artist": "9mice",
         "playlist": "Main"
     },
