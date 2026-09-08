@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 30.6,
+            "playtime_2weeks": 29.1,
             "hours": 3701.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 1608070,
             "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
-            "playtime_2weeks": 15.9,
+            "playtime_2weeks": 12.0,
             "hours": 43.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608070/header.jpg",
             "url": "https://store.steampowered.com/app/1608070"
@@ -113,8 +113,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Экшены",
-                "Бесплатные"
+                "Без жанра"
             ]
         },
         {
@@ -201,7 +200,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Ролевые игры"
+                "Без жанра"
             ]
         },
         {
