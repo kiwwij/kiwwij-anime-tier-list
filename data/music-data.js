@@ -137,7 +137,7 @@ const musicData = [
     },
     {
         "title": "что тебя гложет",
-        "artist": "k0vertessence",
+        "artist": "k0vertessence & B4YLUm",
         "playlist": "Main"
     },
     {
@@ -269,9 +269,14 @@ const musicData = [
         "title": "моё июльское остинато",
         "artist": "#небеснаякараIV",
         "playlist": "Main"
+    },
+    {
+        "title": "револьвер",
+        "artist": "DJ ZUP RAlii",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 21,
-    "totalDurationSec": 7391
+    "totalDurationSec": 7464
 };
