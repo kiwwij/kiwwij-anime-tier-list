@@ -1065,6 +1065,13 @@ const musicData = [
         "durationSeconds": 203
     },
     {
+        "title": "Island Song (Come Along with Me) (feat. Ashley Eriksson)",
+        "artist": "Adventure Time",
+        "playlist": "Off Screen",
+        "duration": "1:49",
+        "durationSeconds": 109
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO, LXNER",
         "playlist": "Dead inside",
@@ -3865,6 +3872,3576 @@ const musicData = [
         "durationSeconds": 201
     },
     {
+        "title": "Courtesy Call",
+        "artist": "Thousand Foot Krutch",
+        "playlist": "Dead inside",
+        "duration": "3:57",
+        "durationSeconds": 237
+    },
+    {
+        "title": "Пацан молодой,она молодая ♛ Бродяга",
+        "artist": "LeGiiiON Official",
+        "playlist": "Dead inside",
+        "duration": "4:25",
+        "durationSeconds": 265
+    },
+    {
+        "title": "Самое грустное лето",
+        "artist": "Чучело",
+        "playlist": "Dead inside",
+        "duration": "2:58",
+        "durationSeconds": 178
+    },
+    {
+        "title": "Батареи",
+        "artist": "Nervy",
+        "playlist": "Dead inside",
+        "duration": "2:53",
+        "durationSeconds": 173
+    },
+    {
+        "title": "Были танцы",
+        "artist": "Bianka",
+        "playlist": "Dead inside",
+        "duration": "3:02",
+        "durationSeconds": 182
+    },
+    {
+        "title": "Ой, хто п'є, тому наливайте",
+        "artist": "Борис Сичевський",
+        "playlist": "Dead inside",
+        "duration": "3:06",
+        "durationSeconds": 186
+    },
+    {
+        "title": "Мне хорошо",
+        "artist": "MellSher",
+        "playlist": "Dead inside",
+        "duration": "2:40",
+        "durationSeconds": 160
+    },
+    {
+        "title": "succubus",
+        "artist": "rizza",
+        "playlist": "Dead inside",
+        "duration": "1:38",
+        "durationSeconds": 98
+    },
+    {
+        "title": "catharsis",
+        "artist": "MZLFF, CMH",
+        "playlist": "Dead inside",
+        "duration": "2:30",
+        "durationSeconds": 150
+    },
+    {
+        "title": "Juice WRLD - Lucid Dreams (Official Music Video)",
+        "artist": "Lyrical Lemonade",
+        "playlist": "Dead inside",
+        "duration": "3:51",
+        "durationSeconds": 231
+    },
+    {
+        "title": "11:11",
+        "artist": "Кишлак",
+        "playlist": "Dead inside",
+        "duration": "3:02",
+        "durationSeconds": 182
+    },
+    {
+        "title": "MellSher, 5opka - Лонг Айленд (SUPERNOVA, альбом 2024)",
+        "artist": "ФУГА TV",
+        "playlist": "Dead inside",
+        "duration": "3:09",
+        "durationSeconds": 189
+    },
+    {
+        "title": "5opka, MellSher - Клеопатра (SUPERNOVA, альбом 2024)",
+        "artist": "ФУГА TV",
+        "playlist": "Dead inside",
+        "duration": "2:38",
+        "durationSeconds": 158
+    },
+    {
+        "title": "5opka, MellSher - Глаза львицы (SUPERNOVA, альбом 2024)",
+        "artist": "ФУГА TV",
+        "playlist": "Dead inside",
+        "duration": "3:05",
+        "durationSeconds": 185
+    },
+    {
+        "title": "MellSher, 5opka - Пятнистый ягуар (SUPERNOVA, альбом 2024)",
+        "artist": "ФУГА TV",
+        "playlist": "Dead inside",
+        "duration": "2:16",
+        "durationSeconds": 136
+    },
+    {
+        "title": "5opka, MellSher - Мерси (SUPERNOVA, альбом 2024)",
+        "artist": "ФУГА TV",
+        "playlist": "Dead inside",
+        "duration": "2:26",
+        "durationSeconds": 146
+    },
+    {
+        "title": "полина",
+        "artist": "плм",
+        "playlist": "Dead inside",
+        "duration": "2:31",
+        "durationSeconds": 151
+    },
+    {
+        "title": "Katy Perry - Hot N Cold (Lyrics)",
+        "artist": "bemu",
+        "playlist": "Dead inside",
+        "duration": "3:39",
+        "durationSeconds": 219
+    },
+    {
+        "title": "Caramella Girls - Caramelldansen (Official English Version)",
+        "artist": "Caramella Girls",
+        "playlist": "Dead inside",
+        "duration": "2:59",
+        "durationSeconds": 179
+    },
+    {
+        "title": "Я буду",
+        "artist": "5sta Family",
+        "playlist": "Dead inside",
+        "duration": "3:07",
+        "durationSeconds": 187
+    },
+    {
+        "title": "GONE.Fludd — Не Одиноко",
+        "artist": "GONE.Fludd",
+        "playlist": "Dead inside",
+        "duration": "2:36",
+        "durationSeconds": 156
+    },
+    {
+        "title": "GONE.Fludd, LOVV66 — Лунный Лик",
+        "artist": "GONE.Fludd",
+        "playlist": "Dead inside",
+        "duration": "2:56",
+        "durationSeconds": 176
+    },
+    {
+        "title": "Plants vs Zombies Music Video",
+        "artist": "Plants vs. Zombies",
+        "playlist": "Dead inside",
+        "duration": "2:47",
+        "durationSeconds": 167
+    },
+    {
+        "title": "наколки",
+        "artist": "Zhanulka",
+        "playlist": "Dead inside",
+        "duration": "2:03",
+        "durationSeconds": 123
+    },
+    {
+        "title": "Мама удалила роблокс (feat. Gulyashik & Qurorr)",
+        "artist": "Lemaier",
+        "playlist": "Dead inside",
+        "duration": "3:04",
+        "durationSeconds": 184
+    },
+    {
+        "title": "Surf Curse - Freaks [Official Audio]",
+        "artist": "Surf Curse",
+        "playlist": "Dead inside",
+        "duration": "2:28",
+        "durationSeconds": 148
+    },
+    {
+        "title": "asteria - FBM (Official Visualizer) (feat. asteria, kets4eki & Britney Manson)",
+        "artist": "Anarchist Sanctuary",
+        "playlist": "Dead inside",
+        "duration": "2:35",
+        "durationSeconds": 155
+    },
+    {
+        "title": "i watch the moon",
+        "artist": "junesfall",
+        "playlist": "Dead inside",
+        "duration": "0:47",
+        "durationSeconds": 47
+    },
+    {
+        "title": "понад хмарами - tartak (feat. katia chill) (текст пісні)",
+        "artist": "душа, що шукає щастя ",
+        "playlist": "Dead inside",
+        "duration": "4:27",
+        "durationSeconds": 267
+    },
+    {
+        "title": "Кошка (feat. Ольга Артуровна)",
+        "artist": "Rychagy Mashin",
+        "playlist": "Dead inside",
+        "duration": "3:52",
+        "durationSeconds": 232
+    },
+    {
+        "title": "мы",
+        "artist": "Dimma Urih",
+        "playlist": "Dead inside",
+        "duration": "2:28",
+        "durationSeconds": 148
+    },
+    {
+        "title": "enveel - 2:00 (SPEED UP)",
+        "artist": "alone but not lonely",
+        "playlist": "Dead inside",
+        "duration": "1:47",
+        "durationSeconds": 107
+    },
+    {
+        "title": "счастливы вместе",
+        "artist": "нексюша, плм",
+        "playlist": "Dead inside",
+        "duration": "2:50",
+        "durationSeconds": 170
+    },
+    {
+        "title": "Краски - Оранжевое солнце (Hardstyle Remix) (OUT ON ALL PLATFORMS)",
+        "artist": "BRZ",
+        "playlist": "Dead inside",
+        "duration": "3:04",
+        "durationSeconds": 184
+    },
+    {
+        "title": "КУЗЯ - ШНЯГА ШНЯЖНАЯ (REMIX) by.Painit",
+        "artist": "MyinWo music",
+        "playlist": "Dead inside",
+        "duration": "1:42",
+        "durationSeconds": 102
+    },
+    {
+        "title": "Даша",
+        "artist": "СТИНТ",
+        "playlist": "Dead inside",
+        "duration": "2:40",
+        "durationSeconds": 160
+    },
+    {
+        "title": "Фото со звездой",
+        "artist": "Lida",
+        "playlist": "Dead inside",
+        "duration": "2:03",
+        "durationSeconds": 123
+    },
+    {
+        "title": "5opka, MellSher - Gde mama? (Клип)",
+        "artist": "ФУГА TV",
+        "playlist": "Dead inside",
+        "duration": "2:35",
+        "durationSeconds": 155
+    },
+    {
+        "title": "Ёлка - Прованс (yayaheart hardstyle remix)",
+        "artist": "antrxct",
+        "playlist": "Dead inside",
+        "duration": "2:00",
+        "durationSeconds": 120
+    },
+    {
+        "title": "right here (feat. Horse Head)",
+        "artist": "Lil Peep",
+        "playlist": "Dead inside",
+        "duration": "2:57",
+        "durationSeconds": 177
+    },
+    {
+        "title": "гладиатор/рыцарь",
+        "artist": "fallen777angel",
+        "playlist": "Dead inside",
+        "duration": "1:45",
+        "durationSeconds": 105
+    },
+    {
+        "title": "сладкая боль",
+        "artist": "5mewmet",
+        "playlist": "Dead inside",
+        "duration": "2:19",
+        "durationSeconds": 139
+    },
+    {
+        "title": "Прованс",
+        "artist": "Elka",
+        "playlist": "Dead inside",
+        "duration": "3:26",
+        "durationSeconds": 206
+    },
+    {
+        "title": "Анор Лондо",
+        "artist": "дамир",
+        "playlist": "Dead inside",
+        "duration": "1:39",
+        "durationSeconds": 99
+    },
+    {
+        "title": "カチューシャ",
+        "artist": "杨柳",
+        "playlist": "Dead inside",
+        "duration": "1:30",
+        "durationSeconds": 90
+    },
+    {
+        "title": "Я никогда не стану феминисткой",
+        "artist": "Nodahsa",
+        "playlist": "Dead inside",
+        "duration": "2:28",
+        "durationSeconds": 148
+    },
+    {
+        "title": "My Demons (Official Music Video)",
+        "artist": "STARSET",
+        "playlist": "Dead inside",
+        "duration": "3:43",
+        "durationSeconds": 223
+    },
+    {
+        "title": "Animal I Have Become",
+        "artist": "Three Days Grace",
+        "playlist": "Dead inside",
+        "duration": "3:51",
+        "durationSeconds": 231
+    },
+    {
+        "title": "Ути-пусечка",
+        "artist": "Oleh Kenzov",
+        "playlist": "Dead inside",
+        "duration": "2:44",
+        "durationSeconds": 164
+    },
+    {
+        "title": "Какая Разница - Рассвет (Премьера 2021)",
+        "artist": "Какая Разница",
+        "playlist": "Dead inside",
+        "duration": "2:01",
+        "durationSeconds": 121
+    },
+    {
+        "title": "I Like the Way You Kiss Me",
+        "artist": "WHITE DRAGON, Anastasia Zatoliuk",
+        "playlist": "Dead inside",
+        "duration": "2:25",
+        "durationSeconds": 145
+    },
+    {
+        "title": "CUPSIZE -  Ты любишь танцевать",
+        "artist": "CupsizeArchive",
+        "playlist": "Dead inside",
+        "duration": "2:23",
+        "durationSeconds": 143
+    },
+    {
+        "title": "zhanulka - ты пропал тебя нет (sixnite remix) full track",
+        "artist": "blade",
+        "playlist": "Dead inside",
+        "duration": "1:53",
+        "durationSeconds": 113
+    },
+    {
+        "title": "пускают стрелы",
+        "artist": "fallen777angel",
+        "playlist": "Dead inside",
+        "duration": "2:00",
+        "durationSeconds": 120
+    },
+    {
+        "title": "w4ste away (w/ Sickboyrari)",
+        "artist": "asteria, Black Kray",
+        "playlist": "Dead inside",
+        "duration": "2:57",
+        "durationSeconds": 177
+    },
+    {
+        "title": "Заводская",
+        "artist": "нексюша",
+        "playlist": "Dead inside",
+        "duration": "3:09",
+        "durationSeconds": 189
+    },
+    {
+        "title": "Дуэт Принцессы и Трубадура",
+        "artist": "Тихон Жизневский, Валентина Ляпина, & Дмитрий Венгеров",
+        "playlist": "Dead inside",
+        "duration": "1:17",
+        "durationSeconds": 77
+    },
+    {
+        "title": "RPG - ТЫ МНЕ ДАШЬ",
+        "artist": "CMH",
+        "playlist": "Dead inside",
+        "duration": "3:01",
+        "durationSeconds": 181
+    },
+    {
+        "title": "Танцуй или умри",
+        "artist": "Lida",
+        "playlist": "Dead inside",
+        "duration": "2:18",
+        "durationSeconds": 138
+    },
+    {
+        "title": "Cassette - Remix",
+        "artist": "Walras, SadSvit",
+        "playlist": "Dead inside",
+        "duration": "2:25",
+        "durationSeconds": 145
+    },
+    {
+        "title": "типичная ситуация",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "2:11",
+        "durationSeconds": 131
+    },
+    {
+        "title": "Я ночью плачу",
+        "artist": "Матис, СТИНТ",
+        "playlist": "Dead inside",
+        "duration": "2:34",
+        "durationSeconds": 154
+    },
+    {
+        "title": "ELCOFFF - KISS KISS MALCHIK (HARDSTYLE REMIX) FULL",
+        "artist": "Elcofff",
+        "playlist": "Dead inside",
+        "duration": "1:30",
+        "durationSeconds": 90
+    },
+    {
+        "title": "Силуети",
+        "artist": "СТРУКТУРА ЩАСТЯ, SadSvit",
+        "playlist": "Dead inside",
+        "duration": "3:08",
+        "durationSeconds": 188
+    },
+    {
+        "title": "Psycho Dreams",
+        "artist": "Kill Eva, ENCASSATOR",
+        "playlist": "Dead inside",
+        "duration": "2:15",
+        "durationSeconds": 135
+    },
+    {
+        "title": "Каремат - Настя Ш...",
+        "artist": "Каремат",
+        "playlist": "Dead inside",
+        "duration": "1:39",
+        "durationSeconds": 99
+    },
+    {
+        "title": "Я схожу с ума",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "3:08",
+        "durationSeconds": 188
+    },
+    {
+        "title": "верните в моду любовь × (hardstyle remix by danya hooligan)",
+        "artist": "K0DEIN ",
+        "playlist": "Dead inside",
+        "duration": "1:39",
+        "durationSeconds": 99
+    },
+    {
+        "title": "zhanulka - наколки hardstyle remix",
+        "artist": "uverture",
+        "playlist": "Dead inside",
+        "duration": "1:55",
+        "durationSeconds": 115
+    },
+    {
+        "title": "Kill Eva, ENCASSATOR - Psycho Dreams (FORBIDDEN Hardstyle Remix) (New Version)",
+        "artist": "FORBIDDEN",
+        "playlist": "Dead inside",
+        "duration": "1:49",
+        "durationSeconds": 109
+    },
+    {
+        "title": "однополярности",
+        "artist": "MZLFF, STED.D",
+        "playlist": "Dead inside",
+        "duration": "2:51",
+        "durationSeconds": 171
+    },
+    {
+        "title": "Sunday",
+        "artist": "The Cranberries",
+        "playlist": "Dead inside",
+        "duration": "3:31",
+        "durationSeconds": 211
+    },
+    {
+        "title": "Акула - Позвони (hardstyle remix)",
+        "artist": "antrxct",
+        "playlist": "Dead inside",
+        "duration": "2:08",
+        "durationSeconds": 128
+    },
+    {
+        "title": "Get Jinxed (ft. Djerv) | Official Music Video - League of Legends",
+        "artist": "League of Legends",
+        "playlist": "Dead inside",
+        "duration": "2:52",
+        "durationSeconds": 172
+    },
+    {
+        "title": "Лиза",
+        "artist": "Матис, KSB muzic",
+        "playlist": "Dead inside",
+        "duration": "1:54",
+        "durationSeconds": 114
+    },
+    {
+        "title": "CUPSIZE - ты любишь танцевать (sicksoul HARDSTYLE remix)",
+        "artist": "sicksoul",
+        "playlist": "Dead inside",
+        "duration": "1:40",
+        "durationSeconds": 100
+    },
+    {
+        "title": "[Vocaloid на русском] PoPiPo [Onsa Media]",
+        "artist": "Onsa Media",
+        "playlist": "Dead inside",
+        "duration": "3:21",
+        "durationSeconds": 201
+    },
+    {
+        "title": "youraifu - Луз за Лузом",
+        "artist": "youraifu",
+        "playlist": "Dead inside",
+        "duration": "2:36",
+        "durationSeconds": 156
+    },
+    {
+        "title": "KARNA.VAL - Частушка (HARDSTYLE REMIX)",
+        "artist": "RoseSenpai",
+        "playlist": "Dead inside",
+        "duration": "2:44",
+        "durationSeconds": 164
+    },
+    {
+        "title": "Leanyx - SadSvit - Структура Щастя Силуети - (Hardstyle Remix - SLOWED - REVERB) 2024",
+        "artist": "Thunder",
+        "playlist": "Dead inside",
+        "duration": "1:48",
+        "durationSeconds": 108
+    },
+    {
+        "title": "Самый лучший день",
+        "artist": "Кишлак",
+        "playlist": "Dead inside",
+        "duration": "1:34",
+        "durationSeconds": 94
+    },
+    {
+        "title": "Грязный Кайф",
+        "artist": "Kishlak",
+        "playlist": "Dead inside",
+        "duration": "2:47",
+        "durationSeconds": 167
+    },
+    {
+        "title": "ПЛАНКА - На грани болевого порога (Hardstyle Remix)",
+        "artist": "Proof Nation",
+        "playlist": "Dead inside",
+        "duration": "2:33",
+        "durationSeconds": 153
+    },
+    {
+        "title": "Мефистофель",
+        "artist": "5mewmet",
+        "playlist": "Dead inside",
+        "duration": "1:27",
+        "durationSeconds": 87
+    },
+    {
+        "title": "Lumi Athena - SMOKE IT OFF! ft. jnhygs",
+        "artist": "Lumi Athena",
+        "playlist": "Dead inside",
+        "duration": "2:00",
+        "durationSeconds": 120
+    },
+    {
+        "title": "билборды - рисую кровью (Hardstyle Frenchcore Remix)",
+        "artist": "BRZ, BXZX",
+        "playlist": "Dead inside",
+        "duration": "2:20",
+        "durationSeconds": 140
+    },
+    {
+        "title": "Всего 15 лет (BRZ Hardstyle Remix)",
+        "artist": "BRZ",
+        "playlist": "Dead inside",
+        "duration": "2:58",
+        "durationSeconds": 178
+    },
+    {
+        "title": "DRIFT",
+        "artist": "asteria, Vyzer, Lytra",
+        "playlist": "Dead inside",
+        "duration": "1:57",
+        "durationSeconds": 117
+    },
+    {
+        "title": "shock",
+        "artist": "Baby Cute, OG Buda",
+        "playlist": "Dead inside",
+        "duration": "2:25",
+        "durationSeconds": 145
+    },
+    {
+        "title": "5opka - Спасибо Босс (Клип)",
+        "artist": "нчгранд",
+        "playlist": "Dead inside",
+        "duration": "1:56",
+        "durationSeconds": 116
+    },
+    {
+        "title": "We Fell Apart (Slowed)",
+        "artist": "ANGUISH, AmbVsh, & ily",
+        "playlist": "Dead inside",
+        "duration": "2:36",
+        "durationSeconds": 156
+    },
+    {
+        "title": "Зайчик шнуфель   Послушай",
+        "artist": "stippi stippi",
+        "playlist": "Dead inside",
+        "duration": "2:50",
+        "durationSeconds": 170
+    },
+    {
+        "title": "ФРЭНК - Саня (Анимационный Клип)",
+        "artist": "ФРЭНК",
+        "playlist": "Dead inside",
+        "duration": "1:50",
+        "durationSeconds": 110
+    },
+    {
+        "title": "Equestria Girls (Cafeteria Song)",
+        "artist": "🎸ɢʟᴀᴍʀᴏᴄᴋ ʙᴏɴɴɪᴇ🎳",
+        "playlist": "Dead inside",
+        "duration": "2:54",
+        "durationSeconds": 174
+    },
+    {
+        "title": "раковая выхухоль - страшный сон (hardstyle remix) | plague prod.",
+        "artist": "dj plague",
+        "playlist": "Dead inside",
+        "duration": "1:39",
+        "durationSeconds": 99
+    },
+    {
+        "title": "питер паркер",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "2:00",
+        "durationSeconds": 120
+    },
+    {
+        "title": "санкции",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "1:39",
+        "durationSeconds": 99
+    },
+    {
+        "title": "madk1d - питер паркер(unrelease mood video)",
+        "artist": "ньюген",
+        "playlist": "Dead inside",
+        "duration": "2:17",
+        "durationSeconds": 137
+    },
+    {
+        "title": "Золотые купола",
+        "artist": "NORMAN",
+        "playlist": "Dead inside",
+        "duration": "2:36",
+        "durationSeconds": 156
+    },
+    {
+        "title": "Луз за лузом",
+        "artist": "youraifu",
+        "playlist": "Dead inside",
+        "duration": "2:36",
+        "durationSeconds": 156
+    },
+    {
+        "title": "Гроза лесных крипов",
+        "artist": "youraifu",
+        "playlist": "Dead inside",
+        "duration": "2:37",
+        "durationSeconds": 157
+    },
+    {
+        "title": "Белочка с Армлетом (ROCK VERSION)",
+        "artist": "youraifu",
+        "playlist": "Dead inside",
+        "duration": "1:55",
+        "durationSeconds": 115
+    },
+    {
+        "title": "Я не понимаю слов или не хочу их знать #fallen777angel #kristiee #shorts",
+        "artist": "Рейн",
+        "playlist": "Dead inside",
+        "duration": "0:22",
+        "durationSeconds": 22
+    },
+    {
+        "title": "Малышка в Uniqlo",
+        "artist": "nessqchai, usedbefore",
+        "playlist": "Dead inside",
+        "duration": "1:39",
+        "durationSeconds": 99
+    },
+    {
+        "title": "Ochame Kinou/Fukkireta (Zandsu Jerk Remix)",
+        "artist": "Zandsu",
+        "playlist": "Dead inside",
+        "duration": "1:31",
+        "durationSeconds": 91
+    },
+    {
+        "title": "SPIT IN MY FACE!",
+        "artist": "ThxSoMch",
+        "playlist": "Dead inside",
+        "duration": "2:28",
+        "durationSeconds": 148
+    },
+    {
+        "title": "Закричу на весь мир",
+        "artist": "ТРАВМА",
+        "playlist": "Dead inside",
+        "duration": "2:38",
+        "durationSeconds": 158
+    },
+    {
+        "title": "Юность-89",
+        "artist": "ATL",
+        "playlist": "Dead inside",
+        "duration": "4:02",
+        "durationSeconds": 242
+    },
+    {
+        "title": "Zandsu - Ochame kinou/fukkireta (jerk remix)",
+        "artist": "tpemlg",
+        "playlist": "Dead inside",
+        "duration": "1:31",
+        "durationSeconds": 91
+    },
+    {
+        "title": "Pretty Scene Girl!",
+        "artist": "Clover!",
+        "playlist": "Dead inside",
+        "duration": "2:13",
+        "durationSeconds": 133
+    },
+    {
+        "title": "рехаб",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "1:32",
+        "durationSeconds": 92
+    },
+    {
+        "title": "Робот",
+        "artist": "t.A.T.u.",
+        "playlist": "Dead inside",
+        "duration": "3:52",
+        "durationSeconds": 232
+    },
+    {
+        "title": "Сова – Сериал / Sova – Serial (official audio)",
+        "artist": "Группа Сова / Band Sova",
+        "playlist": "Dead inside",
+        "duration": "2:38",
+        "durationSeconds": 158
+    },
+    {
+        "title": "буду космонавтом",
+        "artist": "кариолемма",
+        "playlist": "Dead inside",
+        "duration": "1:32",
+        "durationSeconds": 92
+    },
+    {
+        "title": "держаться за руки",
+        "artist": "кариолемма",
+        "playlist": "Dead inside",
+        "duration": "1:34",
+        "durationSeconds": 94
+    },
+    {
+        "title": "НАВЕРНОЕ ПОЭТ, ЯКОРЪ, EVEN CUTE, 5opka - СИСЯМБЫ",
+        "artist": "ФУГА TV",
+        "playlist": "Dead inside",
+        "duration": "1:44",
+        "durationSeconds": 104
+    },
+    {
+        "title": "Baby Jane - Eternal Embrace (Sped Up)",
+        "artist": "Baby Jane",
+        "playlist": "Dead inside",
+        "duration": "2:17",
+        "durationSeconds": 137
+    },
+    {
+        "title": "молчи",
+        "artist": "kyNZai",
+        "playlist": "Dead inside",
+        "duration": "1:54",
+        "durationSeconds": 114
+    },
+    {
+        "title": "забери",
+        "artist": "MADAMA",
+        "playlist": "Dead inside",
+        "duration": "1:52",
+        "durationSeconds": 112
+    },
+    {
+        "title": "ты че обиделась",
+        "artist": "madk1d, тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:30",
+        "durationSeconds": 90
+    },
+    {
+        "title": "улыбка",
+        "artist": "volhey",
+        "playlist": "Dead inside",
+        "duration": "1:50",
+        "durationSeconds": 110
+    },
+    {
+        "title": "На руках",
+        "artist": "БРЕДИШЬ",
+        "playlist": "Dead inside",
+        "duration": "1:27",
+        "durationSeconds": 87
+    },
+    {
+        "title": "Монеточка :: Мама, я не зигую",
+        "artist": "Fizzika NET",
+        "playlist": "Dead inside",
+        "duration": "1:22",
+        "durationSeconds": 82
+    },
+    {
+        "title": "(не) уходи",
+        "artist": "fallen777angel, mapt0v",
+        "playlist": "Dead inside",
+        "duration": "1:58",
+        "durationSeconds": 118
+    },
+    {
+        "title": "SLAY",
+        "artist": "Neverlove, b3brina",
+        "playlist": "Dead inside",
+        "duration": "2:56",
+        "durationSeconds": 176
+    },
+    {
+        "title": "возьму гитару",
+        "artist": "schastlivj, fallen777angel",
+        "playlist": "Dead inside",
+        "duration": "2:14",
+        "durationSeconds": 134
+    },
+    {
+        "title": "wildrussianboy - wildrussianboy",
+        "artist": "wildrussianboy",
+        "playlist": "Dead inside",
+        "duration": "2:18",
+        "durationSeconds": 138
+    },
+    {
+        "title": "Nope your too late i already died",
+        "artist": "wifiskeleton, i wanna be a jack-o-lantern",
+        "playlist": "Dead inside",
+        "duration": "1:31",
+        "durationSeconds": 91
+    },
+    {
+        "title": "Скучно",
+        "artist": "билборды",
+        "playlist": "Dead inside",
+        "duration": "2:36",
+        "durationSeconds": 156
+    },
+    {
+        "title": "Cupsize - люби меня алина",
+        "artist": "Hikxdfe",
+        "playlist": "Dead inside",
+        "duration": "1:38",
+        "durationSeconds": 98
+    },
+    {
+        "title": "общага",
+        "artist": "диссоциативное расстройство",
+        "playlist": "Dead inside",
+        "duration": "1:48",
+        "durationSeconds": 108
+    },
+    {
+        "title": "Пых-Пых",
+        "artist": "SQWOZ BAB",
+        "playlist": "Dead inside",
+        "duration": "2:31",
+        "durationSeconds": 151
+    },
+    {
+        "title": "MiatriSs - Твёрдый Знак (Ъ!) [Original Song by MiaRissyTV]",
+        "artist": "Rissy [MiaRissyTV]",
+        "playlist": "Dead inside",
+        "duration": "2:15",
+        "durationSeconds": 135
+    },
+    {
+        "title": "The Love I Lost",
+        "artist": "Fried By Fluoride",
+        "playlist": "Dead inside",
+        "duration": "1:53",
+        "durationSeconds": 113
+    },
+    {
+        "title": "What's New Scooby-Doo?",
+        "artist": "Simple Plan",
+        "playlist": "Dead inside",
+        "duration": "1:09",
+        "durationSeconds": 69
+    },
+    {
+        "title": "НЕ СКУЧАЙ",
+        "artist": "ТРОЕТОЧИЕ",
+        "playlist": "Dead inside",
+        "duration": "2:26",
+        "durationSeconds": 146
+    },
+    {
+        "title": "Сломана",
+        "artist": "Baby Melo & FADE031",
+        "playlist": "Dead inside",
+        "duration": "2:24",
+        "durationSeconds": 144
+    },
+    {
+        "title": "SLAVA MARLOW — МАНИЯ ⊃｡•́‿•̀｡⊃━✿✿✿✿✿✿_ [ЭЛЬФ 1]",
+        "artist": "Slava KPSS, SLAVA MARLOW",
+        "playlist": "Dead inside",
+        "duration": "2:48",
+        "durationSeconds": 168
+    },
+    {
+        "title": "tewiq + greyrock + madk1d - распять (ALT VER)",
+        "artist": "suenushka",
+        "playlist": "Dead inside",
+        "duration": "1:52",
+        "durationSeconds": 112
+    },
+    {
+        "title": "Экзотик-мама не узнает",
+        "artist": "EKB_BASED",
+        "playlist": "Dead inside",
+        "duration": "1:21",
+        "durationSeconds": 81
+    },
+    {
+        "title": "Распять на баяне(madk1d + tewiq + stel11a)",
+        "artist": "Пользователь120",
+        "playlist": "Dead inside",
+        "duration": "1:31",
+        "durationSeconds": 91
+    },
+    {
+        "title": "I Don't Know (Radio Mix)",
+        "artist": "Erika",
+        "playlist": "Dead inside",
+        "duration": "3:17",
+        "durationSeconds": 197
+    },
+    {
+        "title": "Правило 34",
+        "artist": "Denks",
+        "playlist": "Dead inside",
+        "duration": "3:32",
+        "durationSeconds": 212
+    },
+    {
+        "title": "Моя любовь на пятом этаже",
+        "artist": "Группа Секрет",
+        "playlist": "Dead inside",
+        "duration": "3:01",
+        "durationSeconds": 181
+    },
+    {
+        "title": "Не переживай",
+        "artist": "О!нет",
+        "playlist": "Dead inside",
+        "duration": "3:18",
+        "durationSeconds": 198
+    },
+    {
+        "title": "1-800",
+        "artist": "​bbno$, Ironmouse",
+        "playlist": "Dead inside",
+        "duration": "3:28",
+        "durationSeconds": 208
+    },
+    {
+        "title": "Ліпший день",
+        "artist": "Апатія, СТРУКТУРА ЩАСТЯ",
+        "playlist": "Dead inside",
+        "duration": "2:37",
+        "durationSeconds": 157
+    },
+    {
+        "title": "Естафета страждань",
+        "artist": "Апатія, SadSvit",
+        "playlist": "Dead inside",
+        "duration": "3:02",
+        "durationSeconds": 182
+    },
+    {
+        "title": "Do Sliz - Ватра (Official Video)",
+        "artist": "Dosliz",
+        "playlist": "Dead inside",
+        "duration": "3:19",
+        "durationSeconds": 199
+    },
+    {
+        "title": "Do Sliz – Серцебиття (Official music video)",
+        "artist": "Dosliz",
+        "playlist": "Dead inside",
+        "duration": "3:11",
+        "durationSeconds": 191
+    },
+    {
+        "title": "адреналин",
+        "artist": "erix",
+        "playlist": "Dead inside",
+        "duration": "2:29",
+        "durationSeconds": 149
+    },
+    {
+        "title": "Кінець фільму",
+        "artist": "BaWN, badactress",
+        "playlist": "Dead inside",
+        "duration": "2:59",
+        "durationSeconds": 179
+    },
+    {
+        "title": "KSB muzic - Кент",
+        "artist": "Redish",
+        "playlist": "Dead inside",
+        "duration": "2:45",
+        "durationSeconds": 165
+    },
+    {
+        "title": "Девʼять поверхів",
+        "artist": "BaWN",
+        "playlist": "Dead inside",
+        "duration": "2:52",
+        "durationSeconds": 172
+    },
+    {
+        "title": "АНОР ЛОНДО",
+        "artist": "murasame",
+        "playlist": "Dead inside",
+        "duration": "1:35",
+        "durationSeconds": 95
+    },
+    {
+        "title": "madk1d, greyrock & tewiq — MARTINE ROSE",
+        "artist": "Eclypse_me",
+        "playlist": "Dead inside",
+        "duration": "1:51",
+        "durationSeconds": 111
+    },
+    {
+        "title": "миниюбка",
+        "artist": "emosl4t696",
+        "playlist": "Dead inside",
+        "duration": "1:19",
+        "durationSeconds": 79
+    },
+    {
+        "title": "Seventh Heaven",
+        "artist": "INOHA",
+        "playlist": "Dead inside",
+        "duration": "3:55",
+        "durationSeconds": 235
+    },
+    {
+        "title": "Ручной Рептилоид – Я хочу быть 2D",
+        "artist": "Ручной Рептилоид",
+        "playlist": "Dead inside",
+        "duration": "1:52",
+        "durationSeconds": 112
+    },
+    {
+        "title": "mirrors demo",
+        "artist": "overtonight throwaways, overtonight",
+        "playlist": "Dead inside",
+        "duration": "1:46",
+        "durationSeconds": 106
+    },
+    {
+        "title": "Правило 34",
+        "artist": "Denks",
+        "playlist": "Dead inside",
+        "duration": "3:32",
+        "durationSeconds": 212
+    },
+    {
+        "title": "со мною посиди",
+        "artist": "fallen777angel",
+        "playlist": "Dead inside",
+        "duration": "1:39",
+        "durationSeconds": 99
+    },
+    {
+        "title": "распять (folk remix)",
+        "artist": "stel11a, plateexx",
+        "playlist": "Dead inside",
+        "duration": "1:31",
+        "durationSeconds": 91
+    },
+    {
+        "title": "аромат цветов",
+        "artist": "PLUSIX, слезы ханой",
+        "playlist": "Dead inside",
+        "duration": "2:25",
+        "durationSeconds": 145
+    },
+    {
+        "title": "pony? (w/qchaan_9 & xKamysh)",
+        "artist": "nnlx",
+        "playlist": "Dead inside",
+        "duration": "2:01",
+        "durationSeconds": 121
+    },
+    {
+        "title": "Все сигареты мира",
+        "artist": "Чучело",
+        "playlist": "Dead inside",
+        "duration": "3:01",
+        "durationSeconds": 181
+    },
+    {
+        "title": "Want You Gone UKR cover by NataNao || Portal 2: End Credits Song українською",
+        "artist": "Hibikit",
+        "playlist": "Dead inside",
+        "duration": "2:30",
+        "durationSeconds": 150
+    },
+    {
+        "title": "Want you gone - Portal 2 fanmade video",
+        "artist": "Khaff3",
+        "playlist": "Dead inside",
+        "duration": "2:50",
+        "durationSeconds": 170
+    },
+    {
+        "title": "percoshket - школьное дуо",
+        "artist": "loudcrime",
+        "playlist": "Dead inside",
+        "duration": "1:17",
+        "durationSeconds": 77
+    },
+    {
+        "title": "Пятница",
+        "artist": "Дела Поважнее",
+        "playlist": "Dead inside",
+        "duration": "3:42",
+        "durationSeconds": 222
+    },
+    {
+        "title": "покажи",
+        "artist": "kurokov, dontlose",
+        "playlist": "Dead inside",
+        "duration": "2:01",
+        "durationSeconds": 121
+    },
+    {
+        "title": "Лиза",
+        "artist": "FACE",
+        "playlist": "Dead inside",
+        "duration": "3:01",
+        "durationSeconds": 181
+    },
+    {
+        "title": "Пожалуйста, только не домой",
+        "artist": "Автоспорт",
+        "playlist": "Dead inside",
+        "duration": "3:06",
+        "durationSeconds": 186
+    },
+    {
+        "title": "nonchalance (feat. XI$OW)",
+        "artist": "6YNTHMANE, влад пиво, картье",
+        "playlist": "Dead inside",
+        "duration": "1:52",
+        "durationSeconds": 112
+    },
+    {
+        "title": "Песня о привязанности",
+        "artist": "Автоспорт",
+        "playlist": "Dead inside",
+        "duration": "3:08",
+        "durationSeconds": 188
+    },
+    {
+        "title": "Нркт",
+        "artist": "досвидошь",
+        "playlist": "Dead inside",
+        "duration": "2:28",
+        "durationSeconds": 148
+    },
+    {
+        "title": "виски с молоком",
+        "artist": "снялцепи",
+        "playlist": "Dead inside",
+        "duration": "1:02",
+        "durationSeconds": 62
+    },
+    {
+        "title": "темный принц tewiq - project 1",
+        "artist": "paroxetin user",
+        "playlist": "Dead inside",
+        "duration": "1:52",
+        "durationSeconds": 112
+    },
+    {
+        "title": "комната",
+        "artist": "zhanulka, Какая Разница",
+        "playlist": "Dead inside",
+        "duration": "2:36",
+        "durationSeconds": 156
+    },
+    {
+        "title": "Дискордикс",
+        "artist": "erix",
+        "playlist": "Dead inside",
+        "duration": "1:54",
+        "durationSeconds": 114
+    },
+    {
+        "title": "Кент",
+        "artist": "KSB muzic",
+        "playlist": "Dead inside",
+        "duration": "2:45",
+        "durationSeconds": 165
+    },
+    {
+        "title": "ПЫХ-ПЫХ",
+        "artist": "SQWOZ BAB",
+        "playlist": "Dead inside",
+        "duration": "2:20",
+        "durationSeconds": 140
+    },
+    {
+        "title": "Девʼять поверхів",
+        "artist": "BaWN",
+        "playlist": "Dead inside",
+        "duration": "2:52",
+        "durationSeconds": 172
+    },
+    {
+        "title": "полина",
+        "artist": "плм",
+        "playlist": "Dead inside",
+        "duration": "2:31",
+        "durationSeconds": 151
+    },
+    {
+        "title": "Апноэ",
+        "artist": "Кишлак",
+        "playlist": "Dead inside",
+        "duration": "2:30",
+        "durationSeconds": 150
+    },
+    {
+        "title": "нарратор",
+        "artist": "lafkrat, мистер модератор, умрувмае, костик",
+        "playlist": "Dead inside",
+        "duration": "2:24",
+        "durationSeconds": 144
+    },
+    {
+        "title": "Сайт",
+        "artist": "Раковая Выхухоль",
+        "playlist": "Dead inside",
+        "duration": "2:26",
+        "durationSeconds": 146
+    },
+    {
+        "title": "Sodikken - Misery Meat",
+        "artist": "Undertow",
+        "playlist": "Dead inside",
+        "duration": "1:05",
+        "durationSeconds": 65
+    },
+    {
+        "title": "Вороны",
+        "artist": "Нервы",
+        "playlist": "Dead inside",
+        "duration": "4:01",
+        "durationSeconds": 241
+    },
+    {
+        "title": "Fly-day Chinatown",
+        "artist": "Yasuha",
+        "playlist": "Dead inside",
+        "duration": "3:31",
+        "durationSeconds": 211
+    },
+    {
+        "title": "Mushoku Tensei ED / Ending 4 - Creditless | 4K | 60fps | Lyrics",
+        "artist": "Animeke Channel",
+        "playlist": "Dead inside",
+        "duration": "2:03",
+        "durationSeconds": 123
+    },
+    {
+        "title": "Мы Ебались ПЕРВЫЙ РАЗ - Красная Плесень",
+        "artist": "The_Smile",
+        "playlist": "Dead inside",
+        "duration": "2:39",
+        "durationSeconds": 159
+    },
+    {
+        "title": "Tiny Bunny OST Episode 5 - There Is Nothing",
+        "artist": "zzz.",
+        "playlist": "Dead inside",
+        "duration": "3:16",
+        "durationSeconds": 196
+    },
+    {
+        "title": "Tiny Bunny (Зайчик) OST - Маскарад",
+        "artist": "Saikono Joker",
+        "playlist": "Dead inside",
+        "duration": "2:27",
+        "durationSeconds": 147
+    },
+    {
+        "title": "ЛАБУБУ",
+        "artist": "YUNG FIMOZ, MIGAS",
+        "playlist": "Dead inside",
+        "duration": "2:00",
+        "durationSeconds": 120
+    },
+    {
+        "title": "Stupid Never Dies - Official Reveal Trailer | The Game Awards 2025",
+        "artist": "IGN",
+        "playlist": "Dead inside",
+        "duration": "2:11",
+        "durationSeconds": 131
+    },
+    {
+        "title": "Весь этот мир",
+        "artist": "Русский Размер",
+        "playlist": "Dead inside",
+        "duration": "3:45",
+        "durationSeconds": 225
+    },
+    {
+        "title": "Отпускай",
+        "artist": "Три дня дождя",
+        "playlist": "Dead inside",
+        "duration": "3:28",
+        "durationSeconds": 208
+    },
+    {
+        "title": "Dabbackwood - Код Гиасс (случайно провалился в мир си)",
+        "artist": "Каидже",
+        "playlist": "Dead inside",
+        "duration": "2:28",
+        "durationSeconds": 148
+    },
+    {
+        "title": "По судьбе",
+        "artist": "sqaute",
+        "playlist": "Dead inside",
+        "duration": "2:04",
+        "durationSeconds": 124
+    },
+    {
+        "title": "Ствол 2",
+        "artist": "Sharingan",
+        "playlist": "Dead inside",
+        "duration": "1:06",
+        "durationSeconds": 66
+    },
+    {
+        "title": "СИЛУЕТИ (Апатія Remix)",
+        "artist": "СТРУКТУРА ЩАСТЯ, SadSvit",
+        "playlist": "Dead inside",
+        "duration": "2:43",
+        "durationSeconds": 163
+    },
+    {
+        "title": "шрамы",
+        "artist": "Violetta Sokolova",
+        "playlist": "Dead inside",
+        "duration": "2:55",
+        "durationSeconds": 175
+    },
+    {
+        "title": "гладиатор/рыцарь",
+        "artist": "fallen777angel",
+        "playlist": "Dead inside",
+        "duration": "1:45",
+        "durationSeconds": 105
+    },
+    {
+        "title": "МОЙ БАТЯ",
+        "artist": "ПОЛАРОЙД",
+        "playlist": "Dead inside",
+        "duration": "1:59",
+        "durationSeconds": 119
+    },
+    {
+        "title": "крестики-нолики",
+        "artist": "zhanulka, Какая Разница",
+        "playlist": "Dead inside",
+        "duration": "2:09",
+        "durationSeconds": 129
+    },
+    {
+        "title": "let me go",
+        "artist": "otuka",
+        "playlist": "Dead inside",
+        "duration": "2:22",
+        "durationSeconds": 142
+    },
+    {
+        "title": "Reverie",
+        "artist": "KRISTIEE",
+        "playlist": "Dead inside",
+        "duration": "2:10",
+        "durationSeconds": 130
+    },
+    {
+        "title": "я не собираюсь мешать",
+        "artist": "KRISTIEE",
+        "playlist": "Dead inside",
+        "duration": "2:08",
+        "durationSeconds": 128
+    },
+    {
+        "title": "Baby Melo, FADE031 - Сломана",
+        "artist": "SmokeSipper",
+        "playlist": "Dead inside",
+        "duration": "2:24",
+        "durationSeconds": 144
+    },
+    {
+        "title": "Не забывай",
+        "artist": "sqaute",
+        "playlist": "Dead inside",
+        "duration": "2:15",
+        "durationSeconds": 135
+    },
+    {
+        "title": "1-800",
+        "artist": "bbno$, Ironmouse",
+        "playlist": "Dead inside",
+        "duration": "3:28",
+        "durationSeconds": 208
+    },
+    {
+        "title": "From the Start",
+        "artist": "Good Kid",
+        "playlist": "Dead inside",
+        "duration": "2:31",
+        "durationSeconds": 151
+    },
+    {
+        "title": "Даже если",
+        "artist": "5opka, EVEN CUTE",
+        "playlist": "Dead inside",
+        "duration": "2:27",
+        "durationSeconds": 147
+    },
+    {
+        "title": "У моєму тихому вирі",
+        "artist": "Сметана band",
+        "playlist": "Dead inside",
+        "duration": "4:18",
+        "durationSeconds": 258
+    },
+    {
+        "title": "Але якщо ти...",
+        "artist": "Do Sliz",
+        "playlist": "Dead inside",
+        "duration": "3:14",
+        "durationSeconds": 194
+    },
+    {
+        "title": "Що з тобою",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "3:27",
+        "durationSeconds": 207
+    },
+    {
+        "title": "Невесомость",
+        "artist": "тянка",
+        "playlist": "Dead inside",
+        "duration": "2:34",
+        "durationSeconds": 154
+    },
+    {
+        "title": "twenty four",
+        "artist": "overtonight",
+        "playlist": "Dead inside",
+        "duration": "2:06",
+        "durationSeconds": 126
+    },
+    {
+        "title": "Демоны",
+        "artist": "Три дня дождя",
+        "playlist": "Dead inside",
+        "duration": "3:25",
+        "durationSeconds": 205
+    },
+    {
+        "title": "Шиншиллы",
+        "artist": "ЛСП",
+        "playlist": "Dead inside",
+        "duration": "2:30",
+        "durationSeconds": 150
+    },
+    {
+        "title": "fake ur face",
+        "artist": "s0rrow",
+        "playlist": "Dead inside",
+        "duration": "1:55",
+        "durationSeconds": 115
+    },
+    {
+        "title": "hunter eyes (slowed)",
+        "artist": "laydownrot",
+        "playlist": "Dead inside",
+        "duration": "1:46",
+        "durationSeconds": 106
+    },
+    {
+        "title": "Teenage Dirtbag",
+        "artist": "Wheatus",
+        "playlist": "Dead inside",
+        "duration": "4:02",
+        "durationSeconds": 242
+    },
+    {
+        "title": "больше не будет",
+        "artist": "кариолемма",
+        "playlist": "Dead inside",
+        "duration": "2:41",
+        "durationSeconds": 161
+    },
+    {
+        "title": "ee nado x)",
+        "artist": "dj trippie flameboy",
+        "playlist": "Dead inside",
+        "duration": "1:45",
+        "durationSeconds": 105
+    },
+    {
+        "title": "mirrors demo (funk slowed)",
+        "artist": "overtonight throwaways, overtonight, ovg!",
+        "playlist": "Dead inside",
+        "duration": "1:30",
+        "durationSeconds": 90
+    },
+    {
+        "title": "unhappy",
+        "artist": "s0rrow",
+        "playlist": "Dead inside",
+        "duration": "1:39",
+        "durationSeconds": 99
+    },
+    {
+        "title": "Не помирай",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "2:20",
+        "durationSeconds": 140
+    },
+    {
+        "title": "ALASKA PUFFER",
+        "artist": "паранойя",
+        "playlist": "Dead inside",
+        "duration": "2:02",
+        "durationSeconds": 122
+    },
+    {
+        "title": "сєрьожа//даремно",
+        "artist": "Сметана band",
+        "playlist": "Dead inside",
+        "duration": "2:22",
+        "durationSeconds": 142
+    },
+    {
+        "title": "целовал",
+        "artist": "THESCAMY",
+        "playlist": "Dead inside",
+        "duration": "1:19",
+        "durationSeconds": 79
+    },
+    {
+        "title": "На стол",
+        "artist": "LonelyStash, Готлиб",
+        "playlist": "Dead inside",
+        "duration": "2:14",
+        "durationSeconds": 134
+    },
+    {
+        "title": "Наталія Валевська – Палала [official video]",
+        "artist": "Наталія Валевська",
+        "playlist": "Dead inside",
+        "duration": "3:44",
+        "durationSeconds": 224
+    },
+    {
+        "title": "Саня",
+        "artist": "ФРЭНК",
+        "playlist": "Dead inside",
+        "duration": "1:51",
+        "durationSeconds": 111
+    },
+    {
+        "title": "MARTINE ROSE",
+        "artist": "madk1d, greyrock, tewiq",
+        "playlist": "Dead inside",
+        "duration": "3:07",
+        "durationSeconds": 187
+    },
+    {
+        "title": "I Don't Care - VIOLENT VIRA",
+        "artist": "VIOLENT VIRA",
+        "playlist": "Dead inside",
+        "duration": "3:02",
+        "durationSeconds": 182
+    },
+    {
+        "title": "Ляжки (feat. babypills)",
+        "artist": "MIGAS",
+        "playlist": "Dead inside",
+        "duration": "2:04",
+        "durationSeconds": 124
+    },
+    {
+        "title": "Мы с севера",
+        "artist": "G Sound",
+        "playlist": "Dead inside",
+        "duration": "2:00",
+        "durationSeconds": 120
+    },
+    {
+        "title": "Тупой",
+        "artist": "Юпи & boogshi",
+        "playlist": "Dead inside",
+        "duration": "1:50",
+        "durationSeconds": 110
+    },
+    {
+        "title": "TryToFriend",
+        "artist": "FORTUNA 812",
+        "playlist": "Dead inside",
+        "duration": "1:53",
+        "durationSeconds": 113
+    },
+    {
+        "title": "Никогда",
+        "artist": "Руслан Утюг",
+        "playlist": "Dead inside",
+        "duration": "2:55",
+        "durationSeconds": 175
+    },
+    {
+        "title": "Flower",
+        "artist": "MORGENSHTERN",
+        "playlist": "Dead inside",
+        "duration": "2:36",
+        "durationSeconds": 156
+    },
+    {
+        "title": "Люби меня",
+        "artist": "CMH, Рома Жёлудь",
+        "playlist": "Dead inside",
+        "duration": "2:48",
+        "durationSeconds": 168
+    },
+    {
+        "title": "Сліди Насильства",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "2:36",
+        "durationSeconds": 156
+    },
+    {
+        "title": "Turbo (Majestic)",
+        "artist": "Big Baby Tape",
+        "playlist": "Dead inside",
+        "duration": "2:56",
+        "durationSeconds": 176
+    },
+    {
+        "title": "rises the moon",
+        "artist": " pulchritudeFunk",
+        "playlist": "Dead inside",
+        "duration": "1:37",
+        "durationSeconds": 97
+    },
+    {
+        "title": "we fell in love in october",
+        "artist": "girl in red",
+        "playlist": "Dead inside",
+        "duration": "3:05",
+        "durationSeconds": 185
+    },
+    {
+        "title": "The End Has No End",
+        "artist": "The Strokes",
+        "playlist": "Dead inside",
+        "duration": "3:06",
+        "durationSeconds": 186
+    },
+    {
+        "title": "Кінець фільму",
+        "artist": "BaWN, badactress",
+        "playlist": "Dead inside",
+        "duration": "2:59",
+        "durationSeconds": 179
+    },
+    {
+        "title": "Социально болен",
+        "artist": "Ручной рептилоид",
+        "playlist": "Dead inside",
+        "duration": "2:24",
+        "durationSeconds": 144
+    },
+    {
+        "title": "Грязный Кайф",
+        "artist": "Кишлак",
+        "playlist": "Dead inside",
+        "duration": "2:46",
+        "durationSeconds": 166
+    },
+    {
+        "title": "мило материшься",
+        "artist": "volhey",
+        "playlist": "Dead inside",
+        "duration": "2:01",
+        "durationSeconds": 121
+    },
+    {
+        "title": "Вирус",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "2:30",
+        "durationSeconds": 150
+    },
+    {
+        "title": "таб***ки",
+        "artist": "голодный",
+        "playlist": "Dead inside",
+        "duration": "1:39",
+        "durationSeconds": 99
+    },
+    {
+        "title": "Болею тобой",
+        "artist": "Кишлак, семьсот семь",
+        "playlist": "Dead inside",
+        "duration": "2:23",
+        "durationSeconds": 143
+    },
+    {
+        "title": "интернет любовь",
+        "artist": "fallen777angel",
+        "playlist": "Dead inside",
+        "duration": "1:56",
+        "durationSeconds": 116
+    },
+    {
+        "title": "раздевайся",
+        "artist": "семьсот семь, Кишлак",
+        "playlist": "Dead inside",
+        "duration": "2:41",
+        "durationSeconds": 161
+    },
+    {
+        "title": "дайте выпилиться тут",
+        "artist": "лиззз",
+        "playlist": "Dead inside",
+        "duration": "3:16",
+        "durationSeconds": 196
+    },
+    {
+        "title": "бывает больно 2.0",
+        "artist": "kurokov, fallen777angel",
+        "playlist": "Dead inside",
+        "duration": "1:49",
+        "durationSeconds": 109
+    },
+    {
+        "title": "Always",
+        "artist": "madk1d, Lida",
+        "playlist": "Dead inside",
+        "duration": "2:25",
+        "durationSeconds": 145
+    },
+    {
+        "title": "Демон",
+        "artist": "Чучело",
+        "playlist": "Dead inside",
+        "duration": "2:38",
+        "durationSeconds": 158
+    },
+    {
+        "title": "Бякибуки",
+        "artist": "Чучело",
+        "playlist": "Dead inside",
+        "duration": "2:21",
+        "durationSeconds": 141
+    },
+    {
+        "title": "слова",
+        "artist": "Violetta Sokolova",
+        "playlist": "Dead inside",
+        "duration": "2:45",
+        "durationSeconds": 165
+    },
+    {
+        "title": "Ты не пришла и х с тобой",
+        "artist": "Мой Двор",
+        "playlist": "Dead inside",
+        "duration": "2:34",
+        "durationSeconds": 154
+    },
+    {
+        "title": "Останній день",
+        "artist": "SadSvit",
+        "playlist": "Dead inside",
+        "duration": "3:00",
+        "durationSeconds": 180
+    },
+    {
+        "title": "Race",
+        "artist": "Alex G",
+        "playlist": "Dead inside",
+        "duration": "3:44",
+        "durationSeconds": 224
+    },
+    {
+        "title": "таким как я",
+        "artist": "голодный",
+        "playlist": "Dead inside",
+        "duration": "1:50",
+        "durationSeconds": 110
+    },
+    {
+        "title": "ex-freundin",
+        "artist": "luu, Nosgov",
+        "playlist": "Dead inside",
+        "duration": "1:35",
+        "durationSeconds": 95
+    },
+    {
+        "title": "Колготки",
+        "artist": "trepet",
+        "playlist": "Dead inside",
+        "duration": "1:25",
+        "durationSeconds": 85
+    },
+    {
+        "title": "Вдячність",
+        "artist": "Luna Rozza, BaWN",
+        "playlist": "Dead inside",
+        "duration": "1:49",
+        "durationSeconds": 109
+    },
+    {
+        "title": "Дівчина з Порнхабу",
+        "artist": "Сусіди Стерплять",
+        "playlist": "Dead inside",
+        "duration": "2:47",
+        "durationSeconds": 167
+    },
+    {
+        "title": "67 (Six Seven)",
+        "artist": "Gazan",
+        "playlist": "Dead inside",
+        "duration": "1:24",
+        "durationSeconds": 84
+    },
+    {
+        "title": "Popipo ЖИВЧИК Parody | Ukr cover by  Sontheia",
+        "artist": "KitsuNetsu",
+        "playlist": "Dead inside",
+        "duration": "1:46",
+        "durationSeconds": 106
+    },
+    {
+        "title": "migraine",
+        "artist": "jaydes",
+        "playlist": "Dead inside",
+        "duration": "0:32",
+        "durationSeconds": 32
+    },
+    {
+        "title": "BANG BANG BANG - Chainsaw Man Song",
+        "artist": "Dark Tempo",
+        "playlist": "Dead inside",
+        "duration": "3:11",
+        "durationSeconds": 191
+    },
+    {
+        "title": "болен",
+        "artist": "dope17, mapt0v",
+        "playlist": "Dead inside",
+        "duration": "1:28",
+        "durationSeconds": 88
+    },
+    {
+        "title": "Як тебе цілував",
+        "artist": "teeNsad",
+        "playlist": "Dead inside",
+        "duration": "2:47",
+        "durationSeconds": 167
+    },
+    {
+        "title": "У батарей",
+        "artist": "nyan.mp3",
+        "playlist": "Dead inside",
+        "duration": "1:46",
+        "durationSeconds": 106
+    },
+    {
+        "title": "слон",
+        "artist": "Violetta Sokolova",
+        "playlist": "Dead inside",
+        "duration": "2:18",
+        "durationSeconds": 138
+    },
+    {
+        "title": "Ты моё сердце из чистого золота",
+        "artist": "Emily Danielyan",
+        "playlist": "Dead inside",
+        "duration": "3:54",
+        "durationSeconds": 234
+    },
+    {
+        "title": "Aqua- Mirrors demo (happy version)",
+        "artist": "Aqua ",
+        "playlist": "Dead inside",
+        "duration": "1:45",
+        "durationSeconds": 105
+    },
+    {
+        "title": "machine",
+        "artist": "auratoshi",
+        "playlist": "Dead inside",
+        "duration": "1:56",
+        "durationSeconds": 116
+    },
+    {
+        "title": "sleep",
+        "artist": "auratoshi",
+        "playlist": "Dead inside",
+        "duration": "1:45",
+        "durationSeconds": 105
+    },
+    {
+        "title": "SIDEL ODIN HARDSTYLE",
+        "artist": "Riversmelt, XP.UFX.",
+        "playlist": "Dead inside",
+        "duration": "1:44",
+        "durationSeconds": 104
+    },
+    {
+        "title": "ангелочек (alternative version)",
+        "artist": "onokami",
+        "playlist": "Dead inside",
+        "duration": "1:45",
+        "durationSeconds": 105
+    },
+    {
+        "title": "отстой",
+        "artist": "onokami",
+        "playlist": "Dead inside",
+        "duration": "1:19",
+        "durationSeconds": 79
+    },
+    {
+        "title": "грустинка",
+        "artist": "onokami",
+        "playlist": "Dead inside",
+        "duration": "1:47",
+        "durationSeconds": 107
+    },
+    {
+        "title": "Придурок",
+        "artist": "тянка",
+        "playlist": "Dead inside",
+        "duration": "2:19",
+        "durationSeconds": 139
+    },
+    {
+        "title": "с тобой",
+        "artist": "kouru, angeveils",
+        "playlist": "Dead inside",
+        "duration": "1:52",
+        "durationSeconds": 112
+    },
+    {
+        "title": "Ліпший день",
+        "artist": "Апатія, СТРУКТУРА ЩАСТЯ",
+        "playlist": "Dead inside",
+        "duration": "2:38",
+        "durationSeconds": 158
+    },
+    {
+        "title": "suk@ business class",
+        "artist": "fallen777angel, dope17",
+        "playlist": "Dead inside",
+        "duration": "1:40",
+        "durationSeconds": 100
+    },
+    {
+        "title": "Серед хаосу",
+        "artist": "BaWN",
+        "playlist": "Dead inside",
+        "duration": "2:33",
+        "durationSeconds": 153
+    },
+    {
+        "title": "откусила ноги",
+        "artist": "шизоняшка",
+        "playlist": "Dead inside",
+        "duration": "1:21",
+        "durationSeconds": 81
+    },
+    {
+        "title": "loser club",
+        "artist": "wifiskeleton, aeter",
+        "playlist": "Dead inside",
+        "duration": "1:22",
+        "durationSeconds": 82
+    },
+    {
+        "title": "распять",
+        "artist": "greyrock, tewiq, & madk1d",
+        "playlist": "Dead inside",
+        "duration": "2:00",
+        "durationSeconds": 120
+    },
+    {
+        "title": "так похуй",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "1:48",
+        "durationSeconds": 108
+    },
+    {
+        "title": "Круче чем вы (feat. CUPSIZE)",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "1:40",
+        "durationSeconds": 100
+    },
+    {
+        "title": "стало похуй",
+        "artist": "kurokov, mapt0v",
+        "playlist": "Dead inside",
+        "duration": "1:45",
+        "durationSeconds": 105
+    },
+    {
+        "title": "europa fm",
+        "artist": "The pAura",
+        "playlist": "Dead inside",
+        "duration": "1:53",
+        "durationSeconds": 113
+    },
+    {
+        "title": "web 2.0",
+        "artist": "тёмный принц & silver gloria",
+        "playlist": "Dead inside",
+        "duration": "1:24",
+        "durationSeconds": 84
+    },
+    {
+        "title": "Не прокинусь",
+        "artist": "BaWN, Апатія",
+        "playlist": "Dead inside",
+        "duration": "3:22",
+        "durationSeconds": 202
+    },
+    {
+        "title": "ELF",
+        "artist": "Violetta Sokolova, totpoc, VenesiaWorld, funeral",
+        "playlist": "Dead inside",
+        "duration": "4:10",
+        "durationSeconds": 250
+    },
+    {
+        "title": "Гештальт",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "2:40",
+        "durationSeconds": 160
+    },
+    {
+        "title": "скинь",
+        "artist": "яшенька",
+        "playlist": "Dead inside",
+        "duration": "1:53",
+        "durationSeconds": 113
+    },
+    {
+        "title": "цена",
+        "artist": "madk1d, паранойя",
+        "playlist": "Dead inside",
+        "duration": "2:19",
+        "durationSeconds": 139
+    },
+    {
+        "title": "твои пальцы",
+        "artist": "fallen777angel",
+        "playlist": "Dead inside",
+        "duration": "1:22",
+        "durationSeconds": 82
+    },
+    {
+        "title": "усну навсегда",
+        "artist": "яшенька",
+        "playlist": "Dead inside",
+        "duration": "1:28",
+        "durationSeconds": 88
+    },
+    {
+        "title": "целуй меня",
+        "artist": "cardinparis",
+        "playlist": "Dead inside",
+        "duration": "1:16",
+        "durationSeconds": 76
+    },
+    {
+        "title": "на небесах",
+        "artist": "kouru, yumixx",
+        "playlist": "Dead inside",
+        "duration": "2:29",
+        "durationSeconds": 149
+    },
+    {
+        "title": "ПАПА",
+        "artist": "тёмный принц, tewiq, FORTUNA 812",
+        "playlist": "Dead inside",
+        "duration": "1:43",
+        "durationSeconds": 103
+    },
+    {
+        "title": "СВЕТЛАНА!",
+        "artist": "NEXTIME",
+        "playlist": "Dead inside",
+        "duration": "1:36",
+        "durationSeconds": 96
+    },
+    {
+        "title": "HANAHAKI",
+        "artist": "тянка",
+        "playlist": "Dead inside",
+        "duration": "2:27",
+        "durationSeconds": 147
+    },
+    {
+        "title": "вклубе",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:40",
+        "durationSeconds": 100
+    },
+    {
+        "title": "Lost Soul",
+        "artist": "batuzane",
+        "playlist": "Dead inside",
+        "duration": "2:30",
+        "durationSeconds": 150
+    },
+    {
+        "title": "stalk ur socials",
+        "artist": "s0rrow",
+        "playlist": "Dead inside",
+        "duration": "1:19",
+        "durationSeconds": 79
+    },
+    {
+        "title": "я не приду на выпускной",
+        "artist": "ashleytears",
+        "playlist": "Dead inside",
+        "duration": "1:34",
+        "durationSeconds": 94
+    },
+    {
+        "title": "губы",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:35",
+        "durationSeconds": 95
+    },
+    {
+        "title": "отвратительный король",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:52",
+        "durationSeconds": 112
+    },
+    {
+        "title": "#ЛЯШКИВКУСНЯШКИ (prod.by Kolji)",
+        "artist": "ЯКОРЪ, НАВЕРНОЕ ПОЭТ",
+        "playlist": "Dead inside",
+        "duration": "1:40",
+        "durationSeconds": 100
+    },
+    {
+        "title": "Стань моїм вбивцею",
+        "artist": "Апатія, Do Sliz",
+        "playlist": "Dead inside",
+        "duration": "3:45",
+        "durationSeconds": 225
+    },
+    {
+        "title": "would u love me?",
+        "artist": "s0rrow",
+        "playlist": "Dead inside",
+        "duration": "2:23",
+        "durationSeconds": 143
+    },
+    {
+        "title": "свалка",
+        "artist": "тёмный принц & ashleyrossmith",
+        "playlist": "Dead inside",
+        "duration": "1:22",
+        "durationSeconds": 82
+    },
+    {
+        "title": "В РОССИИ КЛАССНО!",
+        "artist": "Лирик & st4rdust",
+        "playlist": "Dead inside",
+        "duration": "1:59",
+        "durationSeconds": 119
+    },
+    {
+        "title": "кошка",
+        "artist": "enveel",
+        "playlist": "Dead inside",
+        "duration": "1:43",
+        "durationSeconds": 103
+    },
+    {
+        "title": "странный дом",
+        "artist": "#меланхолик",
+        "playlist": "Dead inside",
+        "duration": "1:14",
+        "durationSeconds": 74
+    },
+    {
+        "title": "okay any day now",
+        "artist": "funeral",
+        "playlist": "Dead inside",
+        "duration": "2:42",
+        "durationSeconds": 162
+    },
+    {
+        "title": "Дорогу молодым",
+        "artist": "Кишлак",
+        "playlist": "Dead inside",
+        "duration": "2:24",
+        "durationSeconds": 144
+    },
+    {
+        "title": "Jane!",
+        "artist": "The Long Faces",
+        "playlist": "Dead inside",
+        "duration": "3:07",
+        "durationSeconds": 187
+    },
+    {
+        "title": "DIVE IN!",
+        "artist": "JELEEL!",
+        "playlist": "Dead inside",
+        "duration": "1:41",
+        "durationSeconds": 101
+    },
+    {
+        "title": "мы бежим, вдвоём",
+        "artist": "#меланхолик, alicecrime",
+        "playlist": "Dead inside",
+        "duration": "2:06",
+        "durationSeconds": 126
+    },
+    {
+        "title": "Дотеры всегда попадают в ад",
+        "artist": "Twinky, Norman",
+        "playlist": "Dead inside",
+        "duration": "3:04",
+        "durationSeconds": 184
+    },
+    {
+        "title": "Малышка любит бустера",
+        "artist": "NORMAN, soqql",
+        "playlist": "Dead inside",
+        "duration": "2:38",
+        "durationSeconds": 158
+    },
+    {
+        "title": "Весна (кожній тварі по парі)",
+        "artist": "Ashatana Music",
+        "playlist": "Dead inside",
+        "duration": "2:56",
+        "durationSeconds": 176
+    },
+    {
+        "title": "дырки в штанах",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "1:47",
+        "durationSeconds": 107
+    },
+    {
+        "title": "sexyswag2010",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "1:30",
+        "durationSeconds": 90
+    },
+    {
+        "title": "В реальності новій",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "2:45",
+        "durationSeconds": 165
+    },
+    {
+        "title": "нарратор",
+        "artist": "lafkrat, мистер модератор, умрувмае, костик",
+        "playlist": "Dead inside",
+        "duration": "2:24",
+        "durationSeconds": 144
+    },
+    {
+        "title": "бесконечное лето",
+        "artist": "CMH, GSPD, DEAD BLONDE",
+        "playlist": "Dead inside",
+        "duration": "2:38",
+        "durationSeconds": 158
+    },
+    {
+        "title": "чёрный шёлк",
+        "artist": "3umph, dope17",
+        "playlist": "Dead inside",
+        "duration": "1:58",
+        "durationSeconds": 118
+    },
+    {
+        "title": "овердоз",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:29",
+        "durationSeconds": 89
+    },
+    {
+        "title": "unhappy (remix)",
+        "artist": "s0rrow, Yopo",
+        "playlist": "Dead inside",
+        "duration": "2:12",
+        "durationSeconds": 132
+    },
+    {
+        "title": "шизофрения",
+        "artist": "kurokov",
+        "playlist": "Dead inside",
+        "duration": "1:19",
+        "durationSeconds": 79
+    },
+    {
+        "title": "губы",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:35",
+        "durationSeconds": 95
+    },
+    {
+        "title": "пароли",
+        "artist": "KERASINN, whitek3d",
+        "playlist": "Dead inside",
+        "duration": "1:24",
+        "durationSeconds": 84
+    },
+    {
+        "title": "она свободна (feat. морали нет)",
+        "artist": "диссоциативное расстройство",
+        "playlist": "Dead inside",
+        "duration": "1:21",
+        "durationSeconds": 81
+    },
+    {
+        "title": "Стань моїм вбивцею",
+        "artist": "Апатія, Do Sliz",
+        "playlist": "Dead inside",
+        "duration": "3:45",
+        "durationSeconds": 225
+    },
+    {
+        "title": "Тело похудело",
+        "artist": "КОРЗА",
+        "playlist": "Dead inside",
+        "duration": "2:25",
+        "durationSeconds": 145
+    },
+    {
+        "title": "сиськи",
+        "artist": "trepet",
+        "playlist": "Dead inside",
+        "duration": "1:45",
+        "durationSeconds": 105
+    },
+    {
+        "title": "MARTINE ROSE",
+        "artist": "madk1d, greyrock, tewiq",
+        "playlist": "Dead inside",
+        "duration": "3:07",
+        "durationSeconds": 187
+    },
+    {
+        "title": "Катюха",
+        "artist": "whitek3d",
+        "playlist": "Dead inside",
+        "duration": "1:18",
+        "durationSeconds": 78
+    },
+    {
+        "title": "ЛАБУБУ",
+        "artist": "YUNG FIMOZ, MIGAS",
+        "playlist": "Dead inside",
+        "duration": "2:00",
+        "durationSeconds": 120
+    },
+    {
+        "title": "Не помирай",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "2:20",
+        "durationSeconds": 140
+    },
+    {
+        "title": "Лунный Лик",
+        "artist": "GONE.Fludd, LOVV66",
+        "playlist": "Dead inside",
+        "duration": "2:56",
+        "durationSeconds": 176
+    },
+    {
+        "title": "таролог",
+        "artist": "норман грейсон",
+        "playlist": "Dead inside",
+        "duration": "1:55",
+        "durationSeconds": 115
+    },
+    {
+        "title": "Kingslayer (feat. BABYMETAL)",
+        "artist": "Bring Me The Horizon",
+        "playlist": "Dead inside",
+        "duration": "3:41",
+        "durationSeconds": 221
+    },
+    {
+        "title": "распять (folk remix)",
+        "artist": "stel11a, plateexx",
+        "playlist": "Dead inside",
+        "duration": "1:31",
+        "durationSeconds": 91
+    },
+    {
+        "title": "SIDEL ODIN HARDSTYLE",
+        "artist": "Riversmelt, XP.UFX.",
+        "playlist": "Dead inside",
+        "duration": "1:44",
+        "durationSeconds": 104
+    },
+    {
+        "title": "Недоступні",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "3:03",
+        "durationSeconds": 183
+    },
+    {
+        "title": "popstar (feat. Перемотка)",
+        "artist": "Garcon Maigre",
+        "playlist": "Dead inside",
+        "duration": "1:25",
+        "durationSeconds": 85
+    },
+    {
+        "title": "что тебя гложет",
+        "artist": "k0vertessence & B4YLUm",
+        "playlist": "Dead inside",
+        "duration": "2:33",
+        "durationSeconds": 153
+    },
+    {
+        "title": "web 2.0",
+        "artist": "тёмный принц & silver gloria",
+        "playlist": "Dead inside",
+        "duration": "1:24",
+        "durationSeconds": 84
+    },
+    {
+        "title": "целуй меня",
+        "artist": "cardinparis",
+        "playlist": "Dead inside",
+        "duration": "1:16",
+        "durationSeconds": 76
+    },
+    {
+        "title": "PO PI PO HARDTEKK",
+        "artist": "Riversmelt, RXDL, & MOGGER",
+        "playlist": "Dead inside",
+        "duration": "1:13",
+        "durationSeconds": 73
+    },
+    {
+        "title": "прощай",
+        "artist": "k0vertessence",
+        "playlist": "Dead inside",
+        "duration": "1:54",
+        "durationSeconds": 114
+    },
+    {
+        "title": "разъедаешь мне нутро",
+        "artist": "конец солнечных дней",
+        "playlist": "Dead inside",
+        "duration": "3:47",
+        "durationSeconds": 227
+    },
+    {
+        "title": "призрак",
+        "artist": "greyrock",
+        "playlist": "Dead inside",
+        "duration": "1:45",
+        "durationSeconds": 105
+    },
+    {
+        "title": "ты не одна",
+        "artist": "диссоциативное расстройство",
+        "playlist": "Dead inside",
+        "duration": "1:57",
+        "durationSeconds": 117
+    },
+    {
+        "title": "общага",
+        "artist": "диссоциативное расстройство",
+        "playlist": "Dead inside",
+        "duration": "1:48",
+        "durationSeconds": 108
+    },
+    {
+        "title": "face vlone remix - salem slut",
+        "artist": "soundcloud mixtape",
+        "playlist": "Dead inside",
+        "duration": "2:11",
+        "durationSeconds": 131
+    },
+    {
+        "title": "Не Одиноко",
+        "artist": "GONE.Fludd",
+        "playlist": "Dead inside",
+        "duration": "2:36",
+        "durationSeconds": 156
+    },
+    {
+        "title": "EE NADO X💦 Сильфи [AMV/EDIT]",
+        "artist": "DRAGONATEL",
+        "playlist": "Dead inside",
+        "duration": "0:11",
+        "durationSeconds": 11
+    },
+    {
+        "title": "PARTY LIKE A ROCKSTAR 「生徒会にも穴はある!」",
+        "artist": "pef",
+        "playlist": "Dead inside",
+        "duration": "0:32",
+        "durationSeconds": 32
+    },
+    {
+        "title": "Anor Londo",
+        "artist": "Ewgesha",
+        "playlist": "Dead inside",
+        "duration": "0:46",
+        "durationSeconds": 46
+    },
+    {
+        "title": "хиросима",
+        "artist": "мистер модератор",
+        "playlist": "Dead inside",
+        "duration": "1:14",
+        "durationSeconds": 74
+    },
+    {
+        "title": "я выберу тебя",
+        "artist": "mapt0v",
+        "playlist": "Dead inside",
+        "duration": "1:14",
+        "durationSeconds": 74
+    },
+    {
+        "title": "Тупой",
+        "artist": "Юпи & boogshi",
+        "playlist": "Dead inside",
+        "duration": "1:50",
+        "durationSeconds": 110
+    },
+    {
+        "title": "снайпер",
+        "artist": "tewiq",
+        "playlist": "Dead inside",
+        "duration": "1:49",
+        "durationSeconds": 109
+    },
+    {
+        "title": "ALASKA PUFFER",
+        "artist": "паранойя",
+        "playlist": "Dead inside",
+        "duration": "2:02",
+        "durationSeconds": 122
+    },
+    {
+        "title": "Зітри (feat. Re-read)",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "3:21",
+        "durationSeconds": 201
+    },
+    {
+        "title": "ЭКСПОНАТ",
+        "artist": "MIA BOYKA",
+        "playlist": "Dead inside",
+        "duration": "1:39",
+        "durationSeconds": 99
+    },
+    {
+        "title": "Ужин",
+        "artist": "Migas",
+        "playlist": "Dead inside",
+        "duration": "2:06",
+        "durationSeconds": 126
+    },
+    {
+        "title": "тебе нравится",
+        "artist": "призрак крови, парапустяков",
+        "playlist": "Dead inside",
+        "duration": "1:57",
+        "durationSeconds": 117
+    },
+    {
+        "title": "монстр",
+        "artist": "призрак крови",
+        "playlist": "Dead inside",
+        "duration": "1:44",
+        "durationSeconds": 104
+    },
+    {
+        "title": "странный дом",
+        "artist": "#меланхолик",
+        "playlist": "Dead inside",
+        "duration": "1:14",
+        "durationSeconds": 74
+    },
+    {
+        "title": "Can You Feel My Heart",
+        "artist": "Bring Me The Horizon",
+        "playlist": "Dead inside",
+        "duration": "3:49",
+        "durationSeconds": 229
+    },
+    {
+        "title": "Так прикро",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "3:00",
+        "durationSeconds": 180
+    },
+    {
+        "title": "дырки в штанах",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "1:47",
+        "durationSeconds": 107
+    },
+    {
+        "title": "sexyswag2010",
+        "artist": "madk1d",
+        "playlist": "Dead inside",
+        "duration": "1:30",
+        "durationSeconds": 90
+    },
+    {
+        "title": "В реальності новій",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "2:45",
+        "durationSeconds": 165
+    },
+    {
+        "title": "нарратор",
+        "artist": "lafkrat, мистер модератор, умрувмае, костик",
+        "playlist": "Dead inside",
+        "duration": "2:24",
+        "durationSeconds": 144
+    },
+    {
+        "title": "бесконечное лето",
+        "artist": "CMH, GSPD, DEAD BLONDE",
+        "playlist": "Dead inside",
+        "duration": "2:38",
+        "durationSeconds": 158
+    },
+    {
+        "title": "чёрный шёлк",
+        "artist": "3umph, dope17",
+        "playlist": "Dead inside",
+        "duration": "1:58",
+        "durationSeconds": 118
+    },
+    {
+        "title": "овердоз",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:29",
+        "durationSeconds": 89
+    },
+    {
+        "title": "шизофрения",
+        "artist": "kurokov",
+        "playlist": "Dead inside",
+        "duration": "1:19",
+        "durationSeconds": 79
+    },
+    {
+        "title": "губы",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:35",
+        "durationSeconds": 95
+    },
+    {
+        "title": "пароли",
+        "artist": "KERASINN, whitek3d",
+        "playlist": "Dead inside",
+        "duration": "1:24",
+        "durationSeconds": 84
+    },
+    {
+        "title": "она свободна (feat. морали нет)",
+        "artist": "диссоциативное расстройство",
+        "playlist": "Dead inside",
+        "duration": "1:21",
+        "durationSeconds": 81
+    },
+    {
+        "title": "Стань моїм вбивцею",
+        "artist": "Апатія, Do Sliz",
+        "playlist": "Dead inside",
+        "duration": "3:45",
+        "durationSeconds": 225
+    },
+    {
+        "title": "Тело похудело",
+        "artist": "КОРЗА",
+        "playlist": "Dead inside",
+        "duration": "2:25",
+        "durationSeconds": 145
+    },
+    {
+        "title": "сиськи",
+        "artist": "trepet",
+        "playlist": "Dead inside",
+        "duration": "1:45",
+        "durationSeconds": 105
+    },
+    {
+        "title": "MARTINE ROSE",
+        "artist": "madk1d, greyrock, tewiq",
+        "playlist": "Dead inside",
+        "duration": "3:07",
+        "durationSeconds": 187
+    },
+    {
+        "title": "Катюха",
+        "artist": "whitek3d",
+        "playlist": "Dead inside",
+        "duration": "1:18",
+        "durationSeconds": 78
+    },
+    {
+        "title": "ЛАБУБУ",
+        "artist": "YUNG FIMOZ, MIGAS",
+        "playlist": "Dead inside",
+        "duration": "2:00",
+        "durationSeconds": 120
+    },
+    {
+        "title": "Не помирай",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "2:20",
+        "durationSeconds": 140
+    },
+    {
+        "title": "Лунный Лик",
+        "artist": "GONE.Fludd, LOVV66",
+        "playlist": "Dead inside",
+        "duration": "2:56",
+        "durationSeconds": 176
+    },
+    {
+        "title": "таролог",
+        "artist": "норман грейсон",
+        "playlist": "Dead inside",
+        "duration": "1:55",
+        "durationSeconds": 115
+    },
+    {
+        "title": "Kingslayer (feat. BABYMETAL)",
+        "artist": "Bring Me The Horizon",
+        "playlist": "Dead inside",
+        "duration": "3:41",
+        "durationSeconds": 221
+    },
+    {
+        "title": "распять (folk remix)",
+        "artist": "stel11a, plateexx",
+        "playlist": "Dead inside",
+        "duration": "1:31",
+        "durationSeconds": 91
+    },
+    {
+        "title": "SIDEL ODIN HARDSTYLE",
+        "artist": "Riversmelt, XP.UFX.",
+        "playlist": "Dead inside",
+        "duration": "1:44",
+        "durationSeconds": 104
+    },
+    {
+        "title": "europa fm",
+        "artist": "The pAura",
+        "playlist": "Dead inside",
+        "duration": "1:53",
+        "durationSeconds": 113
+    },
+    {
+        "title": "Vlone",
+        "artist": "FACE",
+        "playlist": "Dead inside",
+        "duration": "2:24",
+        "durationSeconds": 144
+    },
+    {
+        "title": "вклубе",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:40",
+        "durationSeconds": 100
+    },
+    {
+        "title": "Колготки",
+        "artist": "trepet",
+        "playlist": "Dead inside",
+        "duration": "1:25",
+        "durationSeconds": 85
+    },
+    {
+        "title": "popstar (feat. Перемотка)",
+        "artist": "Garcon Maigre",
+        "playlist": "Dead inside",
+        "duration": "1:25",
+        "durationSeconds": 85
+    },
+    {
+        "title": "что тебя гложет",
+        "artist": "k0vertessence & B4YLUm",
+        "playlist": "Dead inside",
+        "duration": "2:33",
+        "durationSeconds": 153
+    },
+    {
+        "title": "мориарти",
+        "artist": "k1n1ch, itzice, 2late",
+        "playlist": "Dead inside",
+        "duration": "1:15",
+        "durationSeconds": 75
+    },
+    {
+        "title": "8 миля",
+        "artist": "madk1d, VILLIAN",
+        "playlist": "Dead inside",
+        "duration": "1:56",
+        "durationSeconds": 116
+    },
+    {
+        "title": "тебе нравится",
+        "artist": "призрак крови, парапустяков",
+        "playlist": "Dead inside",
+        "duration": "1:57",
+        "durationSeconds": 117
+    },
+    {
+        "title": "детская травма",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "2:13",
+        "durationSeconds": 133
+    },
+    {
+        "title": "вся моя жизнь говно",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "2:51",
+        "durationSeconds": 171
+    },
+    {
+        "title": "следак",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "2:18",
+        "durationSeconds": 138
+    },
+    {
+        "title": "Champions",
+        "artist": "iShowSpeed",
+        "playlist": "Dead inside",
+        "duration": "4:59",
+        "durationSeconds": 299
+    },
+    {
+        "title": "семнадцать ножевых",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "2:25",
+        "durationSeconds": 145
+    },
+    {
+        "title": "розовая могила",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "3:23",
+        "durationSeconds": 203
+    },
+    {
+        "title": "будка",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "4:09",
+        "durationSeconds": 249
+    },
+    {
+        "title": "попал",
+        "artist": "tewiq",
+        "playlist": "Dead inside",
+        "duration": "1:47",
+        "durationSeconds": 107
+    },
+    {
+        "title": "10М ОТ ДОМА",
+        "artist": "LOVV66",
+        "playlist": "Dead inside",
+        "duration": "2:15",
+        "durationSeconds": 135
+    },
+    {
+        "title": "Могилки",
+        "artist": "дмитрий уткин",
+        "playlist": "Dead inside",
+        "duration": "2:42",
+        "durationSeconds": 162
+    },
+    {
+        "title": "наше последнее лето - с высоты (сниппет)",
+        "artist": "наше последнее лето",
+        "playlist": "Dead inside",
+        "duration": "0:26",
+        "durationSeconds": 26
+    },
+    {
+        "title": "Дорога в ад",
+        "artist": "Чучело",
+        "playlist": "Dead inside",
+        "duration": "3:16",
+        "durationSeconds": 196
+    },
+    {
+        "title": "murder",
+        "artist": "tewiq",
+        "playlist": "Dead inside",
+        "duration": "2:08",
+        "durationSeconds": 128
+    },
+    {
+        "title": "Моя квітнева розгубленість",
+        "artist": "Re-read",
+        "playlist": "Dead inside",
+        "duration": "4:24",
+        "durationSeconds": 264
+    },
+    {
+        "title": "DIOR SAUVAGE",
+        "artist": "дмитрий уткин, 2nd.gf",
+        "playlist": "Dead inside",
+        "duration": "2:04",
+        "durationSeconds": 124
+    },
+    {
+        "title": "misery.",
+        "artist": "pupsies",
+        "playlist": "Dead inside",
+        "duration": "2:47",
+        "durationSeconds": 167
+    },
+    {
+        "title": "Сан Ларан",
+        "artist": "Платина, Дора",
+        "playlist": "Dead inside",
+        "duration": "3:26",
+        "durationSeconds": 206
+    },
+    {
+        "title": "демоница",
+        "artist": "onokami",
+        "playlist": "Dead inside",
+        "duration": "2:01",
+        "durationSeconds": 121
+    },
+    {
+        "title": "искры хрома",
+        "artist": "metaego",
+        "playlist": "Dead inside",
+        "duration": "2:17",
+        "durationSeconds": 137
+    },
+    {
+        "title": "Hello Juliet",
+        "artist": "Clarion",
+        "playlist": "Dead inside",
+        "duration": "3:28",
+        "durationSeconds": 208
+    },
+    {
+        "title": "Отпусти меня",
+        "artist": "ЯРЧЕ СОЛНЦА",
+        "playlist": "Dead inside",
+        "duration": "3:22",
+        "durationSeconds": 202
+    },
+    {
+        "title": "Кащенко, whyfall, Крайп, ФОРТИ - Рыжая давалка | 2025",
+        "artist": "SILK",
+        "playlist": "Dead inside",
+        "duration": "1:37",
+        "durationSeconds": 97
+    },
+    {
+        "title": "Илюша - Как же хочется альтушку (Официальная премьера трека)",
+        "artist": "soyuzmusic",
+        "playlist": "Dead inside",
+        "duration": "2:46",
+        "durationSeconds": 166
+    },
+    {
+        "title": "Рома",
+        "artist": "ЕБАНЬКО, Бизюлька",
+        "playlist": "Dead inside",
+        "duration": "3:36",
+        "durationSeconds": 216
+    },
+    {
+        "title": "Любовь и Дота 2",
+        "artist": "Twinky",
+        "playlist": "Dead inside",
+        "duration": "2:10",
+        "durationSeconds": 130
+    },
+    {
+        "title": "ДИНАСТИЯ",
+        "artist": "madk1d, VILLIAN",
+        "playlist": "Dead inside",
+        "duration": "2:45",
+        "durationSeconds": 165
+    },
+    {
+        "title": "В твоих снах",
+        "artist": "Violetta Sokolova",
+        "playlist": "Dead inside",
+        "duration": "1:44",
+        "durationSeconds": 104
+    },
+    {
+        "title": "Mushoku Tensei 90s Retro Anime Style",
+        "artist": "Mirai no Past",
+        "playlist": "Dead inside",
+        "duration": "1:54",
+        "durationSeconds": 114
+    },
+    {
+        "title": "...Baby One More Time (Official Video)",
+        "artist": "Britney Spears",
+        "playlist": "Dead inside",
+        "duration": "3:57",
+        "durationSeconds": 237
+    },
+    {
+        "title": "kme_dota — Джентльмены   | Официальный клип",
+        "artist": "kme_dota",
+        "playlist": "Dead inside",
+        "duration": "2:06",
+        "durationSeconds": 126
+    },
+    {
+        "title": "Яблоко",
+        "artist": "Velvet Music",
+        "playlist": "Dead inside",
+        "duration": "3:04",
+        "durationSeconds": 184
+    },
+    {
+        "title": "глупыйсвин",
+        "artist": "ева киллер, мая койка, ника кабина",
+        "playlist": "Dead inside",
+        "duration": "1:50",
+        "durationSeconds": 110
+    },
+    {
+        "title": "альтушка",
+        "artist": "onokami",
+        "playlist": "Dead inside",
+        "duration": "1:32",
+        "durationSeconds": 92
+    },
+    {
+        "title": "СЕРЕГА ПИРАТ - TEAM SPIRIT",
+        "artist": "Team Spirit",
+        "playlist": "Dead inside",
+        "duration": "2:37",
+        "durationSeconds": 157
+    },
+    {
+        "title": "Целоваться (Hardtekk)",
+        "artist": "lightprey, влад пиво, qwzbtw0",
+        "playlist": "Dead inside",
+        "duration": "1:53",
+        "durationSeconds": 113
+    },
+    {
+        "title": "INSTASAMKA,ОЛЬГА БУЗОВА - Я ХОЧУ(I WANT HARDTEK)",
+        "artist": "Dmytro Krasnokhod",
+        "playlist": "Dead inside",
+        "duration": "1:43",
+        "durationSeconds": 103
+    },
+    {
+        "title": "E.T.",
+        "artist": "Toy-Box",
+        "playlist": "Dead inside",
+        "duration": "3:42",
+        "durationSeconds": 222
+    },
+    {
+        "title": "MARTINE ROSE",
+        "artist": "madk1d, greyrock, tewiq",
+        "playlist": "Dead inside",
+        "duration": "3:07",
+        "durationSeconds": 187
+    },
+    {
+        "title": "Катюха",
+        "artist": "whitek3d",
+        "playlist": "Dead inside",
+        "duration": "1:18",
+        "durationSeconds": 78
+    },
+    {
+        "title": "ЛАБУБУ",
+        "artist": "YUNG FIMOZ, MIGAS",
+        "playlist": "Dead inside",
+        "duration": "2:00",
+        "durationSeconds": 120
+    },
+    {
+        "title": "Не помирай",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "2:20",
+        "durationSeconds": 140
+    },
+    {
+        "title": "Лунный Лик",
+        "artist": "GONE.Fludd, LOVV66",
+        "playlist": "Dead inside",
+        "duration": "2:56",
+        "durationSeconds": 176
+    },
+    {
+        "title": "таролог",
+        "artist": "норман грейсон",
+        "playlist": "Dead inside",
+        "duration": "1:55",
+        "durationSeconds": 115
+    },
+    {
+        "title": "распять (folk remix)",
+        "artist": "stel11a, plateexx",
+        "playlist": "Dead inside",
+        "duration": "1:31",
+        "durationSeconds": 91
+    },
+    {
+        "title": "SIDEL ODIN HARDSTYLE",
+        "artist": "Riversmelt, XP.UFX.",
+        "playlist": "Dead inside",
+        "duration": "1:44",
+        "durationSeconds": 104
+    },
+    {
+        "title": "popstar (feat. Перемотка)",
+        "artist": "Garcon Maigre",
+        "playlist": "Dead inside",
+        "duration": "1:25",
+        "durationSeconds": 85
+    },
+    {
+        "title": "что тебя гложет",
+        "artist": "k0vertessence & B4YLUm",
+        "playlist": "Dead inside",
+        "duration": "2:33",
+        "durationSeconds": 153
+    },
+    {
+        "title": "мориарти",
+        "artist": "k1n1ch, itzice, 2late",
+        "playlist": "Dead inside",
+        "duration": "1:15",
+        "durationSeconds": 75
+    },
+    {
+        "title": "europa fm",
+        "artist": "The pAura",
+        "playlist": "Dead inside",
+        "duration": "1:53",
+        "durationSeconds": 113
+    },
+    {
+        "title": "Vlone",
+        "artist": "FACE",
+        "playlist": "Dead inside",
+        "duration": "2:24",
+        "durationSeconds": 144
+    },
+    {
+        "title": "8 миля",
+        "artist": "madk1d, VILLIAN",
+        "playlist": "Dead inside",
+        "duration": "1:56",
+        "durationSeconds": 116
+    },
+    {
+        "title": "вклубе",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:40",
+        "durationSeconds": 100
+    },
+    {
+        "title": "тебе нравится",
+        "artist": "призрак крови, парапустяков",
+        "playlist": "Dead inside",
+        "duration": "1:57",
+        "durationSeconds": 117
+    },
+    {
+        "title": "Колготки",
+        "artist": "trepet",
+        "playlist": "Dead inside",
+        "duration": "1:25",
+        "durationSeconds": 85
+    },
+    {
+        "title": "Цветок",
+        "artist": "MORGENSHTERN",
+        "playlist": "Dead inside",
+        "duration": "2:36",
+        "durationSeconds": 156
+    },
+    {
+        "title": "вся моя жизнь говно",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "2:51",
+        "durationSeconds": 171
+    },
+    {
+        "title": "детская травма",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "2:13",
+        "durationSeconds": 133
+    },
+    {
+        "title": "семнадцать ножевых",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "2:25",
+        "durationSeconds": 145
+    },
+    {
+        "title": "будка",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "4:09",
+        "durationSeconds": 249
+    },
+    {
+        "title": "следак",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "2:18",
+        "durationSeconds": 138
+    },
+    {
+        "title": "ЗППП",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "2:30",
+        "durationSeconds": 150
+    },
+    {
+        "title": "Sk8er Boi",
+        "artist": "Avril Lavigne",
+        "playlist": "Dead inside",
+        "duration": "3:24",
+        "durationSeconds": 204
+    },
+    {
+        "title": "Тысячи этажей",
+        "artist": "Лоло, #ребенокискусства",
+        "playlist": "Dead inside",
+        "duration": "1:07",
+        "durationSeconds": 67
+    },
+    {
+        "title": "Моя квітнева розгубленість",
+        "artist": "Re-read",
+        "playlist": "Dead inside",
+        "duration": "4:24",
+        "durationSeconds": 264
+    },
+    {
+        "title": "ты не одна",
+        "artist": "диссоциативное расстройство",
+        "playlist": "Dead inside",
+        "duration": "1:57",
+        "durationSeconds": 117
+    },
+    {
+        "title": "Отпусти меня",
+        "artist": "ЯРЧЕ СОЛНЦА",
+        "playlist": "Dead inside",
+        "duration": "3:22",
+        "durationSeconds": 202
+    },
+    {
+        "title": "прости я не знаю",
+        "artist": "Серега Пират",
+        "playlist": "Dead inside",
+        "duration": "2:16",
+        "durationSeconds": 136
+    },
+    {
+        "title": "misery.",
+        "artist": "pupsies",
+        "playlist": "Dead inside",
+        "duration": "2:47",
+        "durationSeconds": 167
+    },
+    {
+        "title": "Нет Тебя",
+        "artist": "9mice, K",
+        "playlist": "Dead inside",
+        "duration": "3:38",
+        "durationSeconds": 218
+    },
+    {
+        "title": "ДИНАСТИЯ",
+        "artist": "VILLIAN, madk1d",
+        "playlist": "Dead inside",
+        "duration": "2:31",
+        "durationSeconds": 151
+    },
+    {
+        "title": "целоваться",
+        "artist": "lightprey",
+        "playlist": "Dead inside",
+        "duration": "1:55",
+        "durationSeconds": 115
+    },
+    {
+        "title": "Котята (feat. 5mewmet)",
+        "artist": "Violetta Sokolova",
+        "playlist": "Dead inside",
+        "duration": "2:52",
+        "durationSeconds": 172
+    },
+    {
+        "title": "где",
+        "artist": "zxcursed, dabbackwood",
+        "playlist": "Dead inside",
+        "duration": "1:47",
+        "durationSeconds": 107
+    },
+    {
+        "title": "прыгай, дура!",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "1:59",
+        "durationSeconds": 119
+    },
+    {
+        "title": "мило материшься",
+        "artist": "volhey",
+        "playlist": "Dead inside",
+        "duration": "2:01",
+        "durationSeconds": 121
+    },
+    {
+        "title": "не нужен",
+        "artist": "LXNER, mapt0v",
+        "playlist": "Dead inside",
+        "duration": "2:03",
+        "durationSeconds": 123
+    },
+    {
+        "title": "Ти моє щастя",
+        "artist": "BaWN",
+        "playlist": "Dead inside",
+        "duration": "2:28",
+        "durationSeconds": 148
+    },
+    {
+        "title": "прощай",
+        "artist": "k0vertessence",
+        "playlist": "Dead inside",
+        "duration": "1:54",
+        "durationSeconds": 114
+    },
+    {
+        "title": "pedobear›⩊‹",
+        "artist": "тёмный принц",
+        "playlist": "Dead inside",
+        "duration": "1:24",
+        "durationSeconds": 84
+    },
+    {
+        "title": "за кордоном",
+        "artist": "alekkksa",
+        "playlist": "Dead inside",
+        "duration": "2:00",
+        "durationSeconds": 120
+    },
+    {
+        "title": "агентство насилия™",
+        "artist": "gotlibgotlibgotlib, SABU",
+        "playlist": "Dead inside",
+        "duration": "2:15",
+        "durationSeconds": 135
+    },
+    {
+        "title": "kazantip70rus",
+        "artist": "диссоциативное расстройство",
+        "playlist": "Dead inside",
+        "duration": "2:18",
+        "durationSeconds": 138
+    },
+    {
+        "title": "У батарей",
+        "artist": "nyan.mp3",
+        "playlist": "Dead inside",
+        "duration": "1:46",
+        "durationSeconds": 106
+    },
+    {
+        "title": "stalkers",
+        "artist": "tewiq, alicecrime, ak0",
+        "playlist": "Dead inside",
+        "duration": "2:27",
+        "durationSeconds": 147
+    },
+    {
+        "title": "Монстры под кроватью",
+        "artist": "ЯРЧЕ СОЛНЦА",
+        "playlist": "Dead inside",
+        "duration": "2:34",
+        "durationSeconds": 154
+    },
+    {
+        "title": "Гештальт",
+        "artist": "Апатія",
+        "playlist": "Dead inside",
+        "duration": "2:40",
+        "durationSeconds": 160
+    },
+    {
+        "title": "Boom!",
+        "artist": "whitek3d",
+        "playlist": "Dead inside",
+        "duration": "1:37",
+        "durationSeconds": 97
+    },
+    {
+        "title": "TryToFriend",
+        "artist": "FORTUNA 812",
+        "playlist": "Dead inside",
+        "duration": "1:53",
+        "durationSeconds": 113
+    },
+    {
+        "title": "синий сок",
+        "artist": "филмайфейс, dope17",
+        "playlist": "Dead inside",
+        "duration": "1:39",
+        "durationSeconds": 99
+    },
+    {
+        "title": "черновик",
+        "artist": "CUPSIZE",
+        "playlist": "Dead inside",
+        "duration": "2:29",
+        "durationSeconds": 149
+    },
+    {
+        "title": "我真的特别爱你（为什么你会流泪）",
+        "artist": "pop",
+        "playlist": "Dead inside",
+        "duration": "2:39",
+        "durationSeconds": 159
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -4924,23 +8501,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 979,
-    "totalDurationSec": 137929,
+    "totalDurationSec": 209020,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPatpNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lSEoOnUHG0w2N_DDTsA8wBFDhmAg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNqdpdUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kfV7ihp25Fmhla-xwfK-m4EjW2ig"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPatpNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nwEEs8L2qeXIsm0sCKNREHs0kJsA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNudpdUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lB5TBehwZjN7kALx16D3urHO4IQw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CPetpNUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mFv-h6480uvGRm3iAff6ItQk2g6A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNydpdUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mjA8Z9e4XKy4RmjZqc-dnDK2UJsw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CPqtpNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lcrJm9jAVFHxJ3lzuDkbrzEJTQ_w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COGdpdUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3khTGe98R_QsT385uhmtlJw4o43RA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CPqtpNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lYSsJWkORqkReMLTXe_SWObG3Jlw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COGdpdUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mCr3b4LMvNik_PEInDDmqGCe-xew"
     }
 };
