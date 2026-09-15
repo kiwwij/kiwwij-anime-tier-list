@@ -274,9 +274,14 @@ const musicData = [
         "title": "револьвер",
         "artist": "DJ ZUP RAlii",
         "playlist": "Main"
+    },
+    {
+        "title": "пока-пока",
+        "artist": "CUPSIZE",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 21,
-    "totalDurationSec": 7464
+    "totalDurationSec": 7637
 };
