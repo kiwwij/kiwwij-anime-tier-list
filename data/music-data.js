@@ -279,9 +279,14 @@ const musicData = [
         "title": "пока-пока",
         "artist": "CUPSIZE",
         "playlist": "Main"
+    },
+    {
+        "title": "Meant To Be - Cuntsniffer (Lyrics)",
+        "artist": "𝕁𝕒𝕔𝕜",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 21,
-    "totalDurationSec": 7637
+    "totalDurationSec": 7798
 };
