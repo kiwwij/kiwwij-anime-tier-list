@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/0e31f7849a4bc6519471c91e10ccb539633c1691_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
-        "statusColor": "#4CAF50",
+        "status": "Offline",
+        "statusColor": "#9E9E9E",
         "level": 41,
         "age": 6.6
     },
@@ -30,20 +30,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2344520"
         },
         {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.2,
-            "hours": 24.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
-        },
-        {
             "appid": 4880100,
             "name": "Stupid Never Dies: First Bite Demo",
             "playtime_2weeks": 0.2,
             "hours": 0.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4880100/header.jpg",
             "url": "https://store.steampowered.com/app/4880100"
+        },
+        {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.2,
+            "hours": 24.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
