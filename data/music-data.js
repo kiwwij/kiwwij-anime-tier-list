@@ -137,7 +137,7 @@ const musicData = [
     },
     {
         "title": "что тебя гложет",
-        "artist": "k0vertessence",
+        "artist": "k0vertessence & B4YLUm",
         "playlist": "Main"
     },
     {
