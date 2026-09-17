@@ -191,7 +191,7 @@ const musicData = [
     },
     {
         "title": "что тебя гложет",
-        "artist": "k0vertessence, B4YLUm",
+        "artist": "k0vertessence & B4YLUm",
         "playlist": "Main",
         "duration": "2:33",
         "durationSeconds": 153
@@ -3320,7 +3320,7 @@ const musicData = [
     },
     {
         "title": "Prekrasnoe Dalyoko",
-        "artist": "PARTICLES, кошечка, Atomic Heart",
+        "artist": "PARTICLES, кошечка, & Atomic Heart",
         "playlist": "Dead inside",
         "duration": "2:01",
         "durationSeconds": 121
@@ -4265,7 +4265,7 @@ const musicData = [
     },
     {
         "title": "Дуэт Принцессы и Трубадура",
-        "artist": "Тихон Жизневский, Валентина Ляпина, Дмитрий Венгеров",
+        "artist": "Тихон Жизневский, Валентина Ляпина, & Дмитрий Венгеров",
         "playlist": "Dead inside",
         "duration": "1:17",
         "durationSeconds": 77
@@ -4503,7 +4503,7 @@ const musicData = [
     },
     {
         "title": "We Fell Apart (Slowed)",
-        "artist": "ANGUISH, AmbVsh, ily",
+        "artist": "ANGUISH, AmbVsh, & ily",
         "playlist": "Dead inside",
         "duration": "2:36",
         "durationSeconds": 156
@@ -4825,7 +4825,7 @@ const musicData = [
     },
     {
         "title": "Сломана",
-        "artist": "Baby Melo, FADE031",
+        "artist": "Baby Melo & FADE031",
         "playlist": "Dead inside",
         "duration": "2:24",
         "durationSeconds": 144
@@ -5546,7 +5546,7 @@ const musicData = [
     },
     {
         "title": "Тупой",
-        "artist": "Юпи, boogshi",
+        "artist": "Юпи & boogshi",
         "playlist": "Dead inside",
         "duration": "1:50",
         "durationSeconds": 110
@@ -5938,7 +5938,7 @@ const musicData = [
     },
     {
         "title": "распять",
-        "artist": "greyrock, tewiq, madk1d",
+        "artist": "greyrock, tewiq, & madk1d",
         "playlist": "Dead inside",
         "duration": "2:00",
         "durationSeconds": 120
@@ -5973,7 +5973,7 @@ const musicData = [
     },
     {
         "title": "web 2.0",
-        "artist": "тёмный принц, silver gloria",
+        "artist": "тёмный принц & silver gloria",
         "playlist": "Dead inside",
         "duration": "1:24",
         "durationSeconds": 84
@@ -6127,14 +6127,14 @@ const musicData = [
     },
     {
         "title": "свалка",
-        "artist": "тёмный принц, ashleyrossmith",
+        "artist": "тёмный принц & ashleyrossmith",
         "playlist": "Dead inside",
         "duration": "1:22",
         "durationSeconds": 82
     },
     {
         "title": "В РОССИИ КЛАССНО!",
-        "artist": "Лирик, st4rdust",
+        "artist": "Лирик & st4rdust",
         "playlist": "Dead inside",
         "duration": "1:59",
         "durationSeconds": 119
@@ -6393,14 +6393,14 @@ const musicData = [
     },
     {
         "title": "что тебя гложет",
-        "artist": "k0vertessence, B4YLUm",
+        "artist": "k0vertessence & B4YLUm",
         "playlist": "Dead inside",
         "duration": "2:33",
         "durationSeconds": 153
     },
     {
         "title": "web 2.0",
-        "artist": "тёмный принц, silver gloria",
+        "artist": "тёмный принц & silver gloria",
         "playlist": "Dead inside",
         "duration": "1:24",
         "durationSeconds": 84
@@ -6414,7 +6414,7 @@ const musicData = [
     },
     {
         "title": "PO PI PO HARDTEKK",
-        "artist": "Riversmelt, RXDL, MOGGER",
+        "artist": "Riversmelt, RXDL, & MOGGER",
         "playlist": "Dead inside",
         "duration": "1:13",
         "durationSeconds": 73
@@ -6505,7 +6505,7 @@ const musicData = [
     },
     {
         "title": "Тупой",
-        "artist": "Юпи, boogshi",
+        "artist": "Юпи & boogshi",
         "playlist": "Dead inside",
         "duration": "1:50",
         "durationSeconds": 110
@@ -6778,7 +6778,7 @@ const musicData = [
     },
     {
         "title": "что тебя гложет",
-        "artist": "k0vertessence, B4YLUm",
+        "artist": "k0vertessence & B4YLUm",
         "playlist": "Dead inside",
         "duration": "2:33",
         "durationSeconds": 153
@@ -7128,7 +7128,7 @@ const musicData = [
     },
     {
         "title": "что тебя гложет",
-        "artist": "k0vertessence, B4YLUm",
+        "artist": "k0vertessence & B4YLUm",
         "playlist": "Dead inside",
         "duration": "2:33",
         "durationSeconds": 153
@@ -7520,28 +7520,28 @@ const musicData = [
     },
     {
         "title": "Silent Street (Type A)",
-        "artist": "Hyunmin Cho, seibin, Youngkyoung Choi, SHIFT UP",
+        "artist": "Hyunmin Cho, seibin, Youngkyoung Choi, and SHIFT UP",
         "playlist": "Game OSTs",
         "duration": "6:11",
         "durationSeconds": 371
     },
     {
         "title": "Silent Street (Type B)",
-        "artist": "Hyunmin Cho, seibin, Youngkyoung Choi, SHIFT UP",
+        "artist": "Hyunmin Cho, seibin, Youngkyoung Choi, and SHIFT UP",
         "playlist": "Game OSTs",
         "duration": "5:50",
         "durationSeconds": 350
     },
     {
         "title": "Lily",
-        "artist": "seibin, Youngjee Lee, SHIFT UP",
+        "artist": "seibin, Youngjee Lee, & SHIFT UP",
         "playlist": "Game OSTs",
         "duration": "5:05",
         "durationSeconds": 305
     },
     {
         "title": "Beyond Fate",
-        "artist": "Youngjee Lee, SHIFT UP",
+        "artist": "Youngjee Lee & SHIFT UP",
         "playlist": "Game OSTs",
         "duration": "2:03",
         "durationSeconds": 123
@@ -7639,7 +7639,7 @@ const musicData = [
     },
     {
         "title": "Who's Ready for Tomorrow",
-        "artist": "RAT BOY, IBDY",
+        "artist": "RAT BOY & IBDY",
         "playlist": "Game OSTs",
         "duration": "1:57",
         "durationSeconds": 117
@@ -8506,18 +8506,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPP_rNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kxaHgdxTRTPRREU-PqHykl2yWEFA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COGcrdUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mLrCt8xUi7aKDtD45keZSZW-aa5Q"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPT_rNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lhTedNlv-mREMv7Q-o31JJXaWeWw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COKcrdUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nQW8ZgwjZmKZXdvPOrVphviEDHOw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CPX_rNUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kpQkhlK6pNk2FULWm0KooUSHXJvg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=COKcrdUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nlG--4qmhoIEbJ_PEDuLEilXp0Dw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CPn_rNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kkMvEsaLUbTvn5pW8FAhbmonQJIA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COacrdUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mehq8mjOli5xF4VUEdMC9VUfMPGw"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CPr_rNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nzoT2lCp8KmyXcYN6nSspWJv7VDg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COacrdUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mq_GylMlxzxGNuO68Zv7zbVv0Pcg"
     }
 };
