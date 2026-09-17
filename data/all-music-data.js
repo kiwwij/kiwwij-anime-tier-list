@@ -393,6 +393,13 @@ const musicData = [
         "durationSeconds": 173
     },
     {
+        "title": "Meant To Be - Cuntsniffer (Lyrics)",
+        "artist": "𝕁𝕒𝕔𝕜",
+        "playlist": "Main",
+        "duration": "2:41",
+        "durationSeconds": 161
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -8501,23 +8508,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 979,
-    "totalDurationSec": 209020,
+    "totalDurationSec": 209181,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKvir9UG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mLtSF8orKdMxJN4qwKGRrkDTodnA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COrQsNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3llumlMF73buvANd10LxbEgku6Hmw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKvir9UG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3meQvp-4pwwtlSieoWELw1jfbed7w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COrQsNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3n4WfgHRexpZfqfjp2Boce9Zl5f6w"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKzir9UG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3l7AvLThmkqcf5clON3r6U5SD1eWQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=COrQsNUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nj9vi_WghnKRqDoN_U54D5BtpBYg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLDir9UG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lPz-QiE-8u1OMGHCl6ec1zRE2T8Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CO7QsNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nebTqT3ReiRgLb36gVxLHFC2hpLg"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLHir9UG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nvFagDlJy93NxW9qtS16RWZRjZWg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CO_QsNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3l7Avr8gIFxIm-nkZcChkQ5d_clJA"
     }
 };
