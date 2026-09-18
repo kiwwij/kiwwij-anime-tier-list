@@ -3179,8 +3179,8 @@ const musicData = [
         "durationSeconds": 148
     },
     {
-        "title": "Днями-ночами",
-        "artist": "МУККА, pyrokinesis",
+        "title": "PYROKINESIS,МУККА- Днями-ночами",
+        "artist": "МУККА",
         "playlist": "Dead inside",
         "duration": "3:18",
         "durationSeconds": 198
@@ -3320,7 +3320,7 @@ const musicData = [
     },
     {
         "title": "Prekrasnoe Dalyoko",
-        "artist": "PARTICLES, кошечка, Atomic Heart",
+        "artist": "PARTICLES - Topic",
         "playlist": "Dead inside",
         "duration": "2:01",
         "durationSeconds": 121
@@ -3361,15 +3361,15 @@ const musicData = [
         "durationSeconds": 188
     },
     {
-        "title": "ТЫ НИЧЕГО НЕ ПОНЯЛА",
-        "artist": "Dzhizus",
+        "title": "Джизус — ТЫ НИЧЕГО НЕ ПОНЯЛА",
+        "artist": "Джизус",
         "playlist": "Dead inside",
         "duration": "4:06",
         "durationSeconds": 246
     },
     {
-        "title": "Belly Dancer",
-        "artist": "Imanbek, BYOR",
+        "title": "Imanbek & BYOR - Belly Dancer (Official Audio)",
+        "artist": "Spinnin' Records",
         "playlist": "Dead inside",
         "duration": "2:35",
         "durationSeconds": 155
@@ -3396,8 +3396,8 @@ const musicData = [
         "durationSeconds": 165
     },
     {
-        "title": "Скинь Котиков (Slowed + Reverb)",
-        "artist": "Mirèle",
+        "title": "Mirèle - Скинь котиков",
+        "artist": "MIRÈLE",
         "playlist": "Dead inside",
         "duration": "2:41",
         "durationSeconds": 161
@@ -3417,8 +3417,8 @@ const musicData = [
         "durationSeconds": 107
     },
     {
-        "title": "Можно я с тобой",
-        "artist": "AP$ENT",
+        "title": "AP$ENT - Можно я с тобой?",
+        "artist": "ApSent",
         "playlist": "Dead inside",
         "duration": "2:14",
         "durationSeconds": 134
@@ -3523,7 +3523,7 @@ const musicData = [
     },
     {
         "title": "Кайто омежка",
-        "artist": "JERRY",
+        "artist": "JERRY - Topic",
         "playlist": "Dead inside",
         "duration": "2:29",
         "durationSeconds": 149
@@ -3536,8 +3536,8 @@ const musicData = [
         "durationSeconds": 217
     },
     {
-        "title": "дисс на некоглая",
-        "artist": "MZLFF, СТИНТ",
+        "title": "ДИСС НА НЕКОГЛАЯ / MZLFF, STINT",
+        "artist": "MZLFF",
         "playlist": "Dead inside",
         "duration": "2:55",
         "durationSeconds": 175
@@ -3732,8 +3732,8 @@ const musicData = [
         "durationSeconds": 216
     },
     {
-        "title": "Kingslayer (Lyric Video) (feat. BABYMETAL)",
-        "artist": "Bring Me The Horizon",
+        "title": "Bring Me The Horizon - Kingslayer (Lyric Video) ft. BABYMETAL",
+        "artist": "BMTHOfficialVEVO",
         "playlist": "Dead inside",
         "duration": "3:41",
         "durationSeconds": 221
@@ -3753,7 +3753,7 @@ const musicData = [
         "durationSeconds": 123
     },
     {
-        "title": "Утро",
+        "title": "Дайте танк (!) - Утро",
         "artist": "Дайте танк (!)",
         "playlist": "Dead inside",
         "duration": "2:41",
@@ -6757,14 +6757,14 @@ const musicData = [
     },
     {
         "title": "Колготки",
-        "artist": "trepet",
+        "artist": "trepet - Topic",
         "playlist": "Dead inside",
         "duration": "1:25",
         "durationSeconds": 85
     },
     {
-        "title": "popstar (feat. Перемотка)",
-        "artist": "Garcon Maigre",
+        "title": "popstar",
+        "artist": "Garcon Maigre - Topic",
         "playlist": "Dead inside",
         "duration": "1:25",
         "durationSeconds": 85
@@ -6890,7 +6890,7 @@ const musicData = [
     },
     {
         "title": "Моя квітнева розгубленість",
-        "artist": "Re-read",
+        "artist": "Re-read - Topic",
         "playlist": "Dead inside",
         "duration": "4:24",
         "durationSeconds": 264
@@ -6938,7 +6938,7 @@ const musicData = [
         "durationSeconds": 208
     },
     {
-        "title": "Отпусти меня",
+        "title": "ЯРЧЕ СОЛНЦА — ОТПУСТИ МЕНЯ (lyric video)",
         "artist": "ЯРЧЕ СОЛНЦА",
         "playlist": "Dead inside",
         "duration": "3:22",
@@ -7113,8 +7113,8 @@ const musicData = [
         "durationSeconds": 104
     },
     {
-        "title": "popstar (feat. Перемотка)",
-        "artist": "Garcon Maigre",
+        "title": "popstar",
+        "artist": "Garcon Maigre - Topic",
         "playlist": "Dead inside",
         "duration": "1:25",
         "durationSeconds": 85
@@ -7163,7 +7163,7 @@ const musicData = [
     },
     {
         "title": "Колготки",
-        "artist": "trepet",
+        "artist": "trepet - Topic",
         "playlist": "Dead inside",
         "duration": "1:25",
         "durationSeconds": 85
@@ -7212,7 +7212,7 @@ const musicData = [
     },
     {
         "title": "ЗППП",
-        "artist": "CUPSIZE",
+        "artist": "CUPSIZE - Topic",
         "playlist": "Dead inside",
         "duration": "2:30",
         "durationSeconds": 150
@@ -7233,7 +7233,7 @@ const musicData = [
     },
     {
         "title": "Моя квітнева розгубленість",
-        "artist": "Re-read",
+        "artist": "Re-read - Topic",
         "playlist": "Dead inside",
         "duration": "4:24",
         "durationSeconds": 264
@@ -7282,7 +7282,7 @@ const musicData = [
     },
     {
         "title": "целоваться",
-        "artist": "lightprey",
+        "artist": "lightprey - Topic",
         "playlist": "Dead inside",
         "duration": "1:55",
         "durationSeconds": 115
@@ -7310,7 +7310,7 @@ const musicData = [
     },
     {
         "title": "мило материшься",
-        "artist": "volhey",
+        "artist": "volhey - Topic",
         "playlist": "Dead inside",
         "duration": "2:01",
         "durationSeconds": 121
@@ -7331,7 +7331,7 @@ const musicData = [
     },
     {
         "title": "прощай",
-        "artist": "k0vertessence",
+        "artist": "k0vertessence - Topic",
         "playlist": "Dead inside",
         "duration": "1:54",
         "durationSeconds": 114
@@ -8492,18 +8492,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COCBttUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kZhkMN_smDtBaAoIan0NoKfWiw2g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLWcttUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lSa2nBRzE4YU5uq1lE-LMGnoDKgQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COGBttUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lQ8NrgVwjKAxyBT9YU-q9yBMWe2w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLWcttUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kwkcd66iaKcMiuupYBAOC2aIgqsw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=COGBttUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nnbBeBW8oKVT1nGUTBhOw5CqzYZA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CLacttUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kbR9dbFRbEr2XZwhZlpUKFV30T2g"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COeBttUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kbjswpfuPgtEM9ijSCOiDNleIRyw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLycttUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kgyaxDCvhLt4YgKP1-U88OzjYgkA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COeBttUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mt6NDNnnD6VXqT1Lw_y0_b9BGkPQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLycttUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mE9eSb5P7i26AldHFDgP5UXTDt7g"
     }
 };
