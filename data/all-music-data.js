@@ -3179,8 +3179,8 @@ const musicData = [
         "durationSeconds": 148
     },
     {
-        "title": "PYROKINESIS,МУККА- Днями-ночами",
-        "artist": "МУККА",
+        "title": "Днями-ночами",
+        "artist": "МУККА, pyrokinesis",
         "playlist": "Dead inside",
         "duration": "3:18",
         "durationSeconds": 198
@@ -3320,7 +3320,7 @@ const musicData = [
     },
     {
         "title": "Prekrasnoe Dalyoko",
-        "artist": "PARTICLES - Topic",
+        "artist": "PARTICLES, кошечка, Atomic Heart",
         "playlist": "Dead inside",
         "duration": "2:01",
         "durationSeconds": 121
@@ -3361,15 +3361,15 @@ const musicData = [
         "durationSeconds": 188
     },
     {
-        "title": "Джизус — ТЫ НИЧЕГО НЕ ПОНЯЛА",
-        "artist": "Джизус",
+        "title": "ТЫ НИЧЕГО НЕ ПОНЯЛА",
+        "artist": "Dzhizus",
         "playlist": "Dead inside",
         "duration": "4:06",
         "durationSeconds": 246
     },
     {
-        "title": "Imanbek & BYOR - Belly Dancer (Official Audio)",
-        "artist": "Spinnin' Records",
+        "title": "Belly Dancer",
+        "artist": "Imanbek, BYOR",
         "playlist": "Dead inside",
         "duration": "2:35",
         "durationSeconds": 155
@@ -3396,8 +3396,8 @@ const musicData = [
         "durationSeconds": 165
     },
     {
-        "title": "Mirèle - Скинь котиков",
-        "artist": "MIRÈLE",
+        "title": "Скинь Котиков (Slowed + Reverb)",
+        "artist": "Mirèle",
         "playlist": "Dead inside",
         "duration": "2:41",
         "durationSeconds": 161
@@ -3417,8 +3417,8 @@ const musicData = [
         "durationSeconds": 107
     },
     {
-        "title": "AP$ENT - Можно я с тобой?",
-        "artist": "ApSent",
+        "title": "Можно я с тобой",
+        "artist": "AP$ENT",
         "playlist": "Dead inside",
         "duration": "2:14",
         "durationSeconds": 134
@@ -3523,7 +3523,7 @@ const musicData = [
     },
     {
         "title": "Кайто омежка",
-        "artist": "JERRY - Topic",
+        "artist": "JERRY",
         "playlist": "Dead inside",
         "duration": "2:29",
         "durationSeconds": 149
@@ -3536,8 +3536,8 @@ const musicData = [
         "durationSeconds": 217
     },
     {
-        "title": "ДИСС НА НЕКОГЛАЯ / MZLFF, STINT",
-        "artist": "MZLFF",
+        "title": "дисс на некоглая",
+        "artist": "MZLFF, СТИНТ",
         "playlist": "Dead inside",
         "duration": "2:55",
         "durationSeconds": 175
@@ -3732,8 +3732,8 @@ const musicData = [
         "durationSeconds": 216
     },
     {
-        "title": "Bring Me The Horizon - Kingslayer (Lyric Video) ft. BABYMETAL",
-        "artist": "BMTHOfficialVEVO",
+        "title": "Kingslayer (Lyric Video) (feat. BABYMETAL)",
+        "artist": "Bring Me The Horizon",
         "playlist": "Dead inside",
         "duration": "3:41",
         "durationSeconds": 221
@@ -3753,7 +3753,7 @@ const musicData = [
         "durationSeconds": 123
     },
     {
-        "title": "Дайте танк (!) - Утро",
+        "title": "Утро",
         "artist": "Дайте танк (!)",
         "playlist": "Dead inside",
         "duration": "2:41",
@@ -6757,14 +6757,14 @@ const musicData = [
     },
     {
         "title": "Колготки",
-        "artist": "trepet - Topic",
+        "artist": "trepet",
         "playlist": "Dead inside",
         "duration": "1:25",
         "durationSeconds": 85
     },
     {
-        "title": "popstar",
-        "artist": "Garcon Maigre - Topic",
+        "title": "popstar (feat. Перемотка)",
+        "artist": "Garcon Maigre",
         "playlist": "Dead inside",
         "duration": "1:25",
         "durationSeconds": 85
@@ -6890,7 +6890,7 @@ const musicData = [
     },
     {
         "title": "Моя квітнева розгубленість",
-        "artist": "Re-read - Topic",
+        "artist": "Re-read",
         "playlist": "Dead inside",
         "duration": "4:24",
         "durationSeconds": 264
@@ -6938,7 +6938,7 @@ const musicData = [
         "durationSeconds": 208
     },
     {
-        "title": "ЯРЧЕ СОЛНЦА — ОТПУСТИ МЕНЯ (lyric video)",
+        "title": "Отпусти меня",
         "artist": "ЯРЧЕ СОЛНЦА",
         "playlist": "Dead inside",
         "duration": "3:22",
@@ -7113,8 +7113,8 @@ const musicData = [
         "durationSeconds": 104
     },
     {
-        "title": "popstar",
-        "artist": "Garcon Maigre - Topic",
+        "title": "popstar (feat. Перемотка)",
+        "artist": "Garcon Maigre",
         "playlist": "Dead inside",
         "duration": "1:25",
         "durationSeconds": 85
@@ -7163,7 +7163,7 @@ const musicData = [
     },
     {
         "title": "Колготки",
-        "artist": "trepet - Topic",
+        "artist": "trepet",
         "playlist": "Dead inside",
         "duration": "1:25",
         "durationSeconds": 85
@@ -7212,7 +7212,7 @@ const musicData = [
     },
     {
         "title": "ЗППП",
-        "artist": "CUPSIZE - Topic",
+        "artist": "CUPSIZE",
         "playlist": "Dead inside",
         "duration": "2:30",
         "durationSeconds": 150
@@ -7233,7 +7233,7 @@ const musicData = [
     },
     {
         "title": "Моя квітнева розгубленість",
-        "artist": "Re-read - Topic",
+        "artist": "Re-read",
         "playlist": "Dead inside",
         "duration": "4:24",
         "durationSeconds": 264
@@ -7282,7 +7282,7 @@ const musicData = [
     },
     {
         "title": "целоваться",
-        "artist": "lightprey - Topic",
+        "artist": "lightprey",
         "playlist": "Dead inside",
         "duration": "1:55",
         "durationSeconds": 115
@@ -7310,7 +7310,7 @@ const musicData = [
     },
     {
         "title": "мило материшься",
-        "artist": "volhey - Topic",
+        "artist": "volhey",
         "playlist": "Dead inside",
         "duration": "2:01",
         "durationSeconds": 121
@@ -7331,7 +7331,7 @@ const musicData = [
     },
     {
         "title": "прощай",
-        "artist": "k0vertessence - Topic",
+        "artist": "k0vertessence",
         "playlist": "Dead inside",
         "duration": "1:54",
         "durationSeconds": 114
@@ -7426,6 +7426,20 @@ const musicData = [
         "playlist": "Dead inside",
         "duration": "2:39",
         "durationSeconds": 159
+    },
+    {
+        "title": "Мне нужна другая ты",
+        "artist": "КОМНАТА",
+        "playlist": "Dead inside",
+        "duration": "4:43",
+        "durationSeconds": 283
+    },
+    {
+        "title": "Сентябрь",
+        "artist": "Stigmata",
+        "playlist": "Dead inside",
+        "duration": "3:47",
+        "durationSeconds": 227
     },
     {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
@@ -8487,23 +8501,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 979,
-    "totalDurationSec": 208749,
+    "totalDurationSec": 209259,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLWcttUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lSa2nBRzE4YU5uq1lE-LMGnoDKgQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMbdttUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3keu7ozgxkMgsPtH-CqQ6gd3sFhlQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLWcttUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kwkcd66iaKcMiuupYBAOC2aIgqsw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMfdttUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nCzZXqk8dSEcJkLwVjlkRkOLNxDw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CLacttUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kbR9dbFRbEr2XZwhZlpUKFV30T2g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMjdttUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kALpbB-V3ontJj78jp3-1D8hxWTA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLycttUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kgyaxDCvhLt4YgKP1-U88OzjYgkA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CM7dttUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mahwMtXf3aCf3Iq4US_thBuO32dA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLycttUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mE9eSb5P7i26AldHFDgP5UXTDt7g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CM7dttUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3n_LfQXOUVjqO-1eN92AvMydi11Tw"
     }
 };
