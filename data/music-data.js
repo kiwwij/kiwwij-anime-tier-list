@@ -151,11 +151,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Vlone",
-        "artist": "FACE",
-        "playlist": "Main"
-    },
-    {
         "title": "8 миля",
         "artist": "madk1d",
         "playlist": "Main"
@@ -288,5 +283,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 21,
-    "totalDurationSec": 7798
+    "totalDurationSec": 7654
 };
