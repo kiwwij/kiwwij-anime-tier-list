@@ -211,13 +211,6 @@ const musicData = [
         "durationSeconds": 113
     },
     {
-        "title": "Vlone",
-        "artist": "FACE",
-        "playlist": "Main",
-        "duration": "2:24",
-        "durationSeconds": 144
-    },
-    {
         "title": "8 миля",
         "artist": "madk1d, VILLIAN",
         "playlist": "Main",
@@ -6756,13 +6749,6 @@ const musicData = [
         "durationSeconds": 113
     },
     {
-        "title": "Vlone",
-        "artist": "FACE",
-        "playlist": "Dead inside",
-        "duration": "2:24",
-        "durationSeconds": 144
-    },
-    {
         "title": "вклубе",
         "artist": "тёмный принц",
         "playlist": "Dead inside",
@@ -7153,13 +7139,6 @@ const musicData = [
         "playlist": "Dead inside",
         "duration": "1:53",
         "durationSeconds": 113
-    },
-    {
-        "title": "Vlone",
-        "artist": "FACE",
-        "playlist": "Dead inside",
-        "duration": "2:24",
-        "durationSeconds": 144
     },
     {
         "title": "8 миля",
@@ -8508,23 +8487,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 979,
-    "totalDurationSec": 209181,
+    "totalDurationSec": 208749,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMfosdUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mwyOFHcUOvvOuPl76ce5Ynjrq3Ig"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CI7_stUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lOBG3n5hAbVB1cqbVTj6Lr8Yi6GA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMfosdUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3n0hC18yiieEZ-eOkp1kFuMTe4XVQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CI7_stUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3l3riu2aMouXkLCscIjIScCh882cg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMjosdUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mdbJ4aI6P3EsOAoZsdAw5uHAl2eg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CI7_stUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mg-YIdR0q3LyZSa2dFKUno2AcOCQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CM3osdUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nAQYZFD5_AgBXpzhz9VAlpdrktdg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJL_stUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kZEeUwlL-fjH5-Cf3BjCQwQFQ80Q"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CM3osdUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3n8WBhYuYWxwL9Tmea53gC_r1MEfg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJP_stUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3l8fB2gKF5JLAmLvKS32ByZ29KcMQ"
     }
 };
