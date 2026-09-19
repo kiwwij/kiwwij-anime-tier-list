@@ -256,3 +256,32 @@ body.light-theme .modal-review-box a:hover {
         order: -1;
     }
 }
+
+.btn-link.spotify-btn {
+    background: rgba(30, 215, 96, 0.05);
+    border-color: #1ed760;
+    color: #1ed760;
+    box-shadow: 0 0 10px rgba(30, 215, 96, 0.2);
+}
+
+.btn-link.spotify-btn i {
+    font-size: 1.2rem;
+}
+
+.btn-link.spotify-btn:hover {
+    background: #1ed760;
+    color: #000;
+    border-color: #1ed760;
+    box-shadow: 0 0 20px rgba(30, 215, 96, 0.5);
+    transform: translateY(-2px);
+}
+
+body.light-theme .btn-link.spotify-btn {
+    background: #1ed760;
+    color: #fff;
+    border-color: #1ed760;
+}
+body.light-theme .btn-link.spotify-btn:hover {
+    background: #1db954;
+    color: #fff;
+}

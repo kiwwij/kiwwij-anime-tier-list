@@ -314,7 +314,7 @@ if (typeof tierListData !== 'undefined') {
             { 
                 title: "Re:Zero Ранобэ Том 46", 
                 review: "",
-                img: "rezero/46.webp"
+                img: "rezero/46.jpg"
             },
             ]
     };

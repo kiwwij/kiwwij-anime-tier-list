@@ -256,6 +256,10 @@ if (typeof tierListData !== 'undefined') {
                     review: "Отличная графика, атмосфера, музыка, но после середины стало скучно играть, хз почему.",
                 },
                 {
+                    title: "Diablo IV",
+                    review: "",
+                },
+                {
                     title: "Bioshock Infinite",
                     review: "Хорошая игра, но я её так и не прошёл до конца, но когда-нибудь пройду!",
                 },
@@ -585,7 +589,7 @@ if (typeof tierListData !== 'undefined') {
             'F': [
                 {
                     title: "Dota 2",
-                    review: "Это не игра, а кусок кала, в который я наиграл 4к часов. Install League of Legends.exe",
+                    review: "кал",
                 },
                 {
                     title: "Detroit: Become Human",
