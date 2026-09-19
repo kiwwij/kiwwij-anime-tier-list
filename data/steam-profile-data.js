@@ -17,15 +17,15 @@ const steamData = {
             "appid": 570,
             "name": "Dota 2",
             "playtime_2weeks": 19.8,
-            "hours": 3717.0,
+            "hours": 3718.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 2344520,
             "name": "Diablo® IV",
-            "playtime_2weeks": 4.8,
-            "hours": 4.8,
+            "playtime_2weeks": 5.1,
+            "hours": 5.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/header.jpg",
             "url": "https://store.steampowered.com/app/2344520"
         },
@@ -42,7 +42,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3717.0,
+            "hours": 3718.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
