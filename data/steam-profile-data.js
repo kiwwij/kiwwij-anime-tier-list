@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/0e31f7849a4bc6519471c91e10ccb539633c1691_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
-        "statusColor": "#4CAF50",
+        "status": "Away",
+        "statusColor": "#FFC107",
         "level": 41,
         "age": 6.6
     },
@@ -24,8 +24,8 @@ const steamData = {
         {
             "appid": 2344520,
             "name": "Diablo® IV",
-            "playtime_2weeks": 5.1,
-            "hours": 5.1,
+            "playtime_2weeks": 5.2,
+            "hours": 5.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/header.jpg",
             "url": "https://store.steampowered.com/app/2344520"
         },
@@ -36,6 +36,14 @@ const steamData = {
             "hours": 24.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 920490,
+            "name": "Driver Booster for Steam",
+            "playtime_2weeks": 0.1,
+            "hours": 17.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
+            "url": "https://store.steampowered.com/app/920490"
         }
     ],
     "top_games": [
