@@ -79,7 +79,7 @@ const musicData = [
     },
     {
         "title": "чёрный шёлк",
-        "artist": "3umph, dope17",
+        "artist": "3umph - Topic",
         "playlist": "Main",
         "duration": "1:58",
         "durationSeconds": 118
@@ -93,7 +93,7 @@ const musicData = [
     },
     {
         "title": "губы",
-        "artist": "тёмный принц",
+        "artist": "тёмный принц - Topic",
         "playlist": "Main",
         "duration": "1:35",
         "durationSeconds": 95
@@ -156,7 +156,7 @@ const musicData = [
     },
     {
         "title": "Не помирай",
-        "artist": "Апатія",
+        "artist": "Апатія - Topic",
         "playlist": "Main",
         "duration": "2:20",
         "durationSeconds": 140
@@ -169,8 +169,8 @@ const musicData = [
         "durationSeconds": 176
     },
     {
-        "title": "распять (folk remix)",
-        "artist": "stel11a, plateexx",
+        "title": "распять (folk Remix)",
+        "artist": "stel11a - Topic",
         "playlist": "Main",
         "duration": "1:31",
         "durationSeconds": 91
@@ -212,14 +212,14 @@ const musicData = [
     },
     {
         "title": "8 миля",
-        "artist": "madk1d, VILLIAN",
+        "artist": "madk1d - Topic",
         "playlist": "Main",
         "duration": "1:56",
         "durationSeconds": 116
     },
     {
         "title": "вклубе",
-        "artist": "тёмный принц",
+        "artist": "тёмный принц - Topic",
         "playlist": "Main",
         "duration": "1:40",
         "durationSeconds": 100
@@ -316,7 +316,7 @@ const musicData = [
         "durationSeconds": 117
     },
     {
-        "title": "Отпусти меня",
+        "title": "ЯРЧЕ СОЛНЦА — ОТПУСТИ МЕНЯ (lyric video)",
         "artist": "ЯРЧЕ СОЛНЦА",
         "playlist": "Main",
         "duration": "3:22",
@@ -337,15 +337,15 @@ const musicData = [
         "durationSeconds": 167
     },
     {
-        "title": "ДИНАСТИЯ",
-        "artist": "madk1d, VILLIAN",
+        "title": "VILLIAN, madk1d - ДИНАСТИЯ (official music video)",
+        "artist": "VILLIAN",
         "playlist": "Main",
         "duration": "2:45",
         "durationSeconds": 165
     },
     {
-        "title": "Нет Тебя",
-        "artist": "9mice, KATERINA",
+        "title": "9mice, K - Нет Тебя (music video)",
+        "artist": "9mice",
         "playlist": "Main",
         "duration": "3:41",
         "durationSeconds": 221
@@ -380,7 +380,7 @@ const musicData = [
     },
     {
         "title": "пока-пока",
-        "artist": "CUPSIZE",
+        "artist": "CUPSIZE - Topic",
         "playlist": "Main",
         "duration": "2:53",
         "durationSeconds": 173
@@ -401,7 +401,7 @@ const musicData = [
     },
     {
         "title": "Unravel",
-        "artist": "TK from Ling tosite sigure",
+        "artist": "TK from Ling tosite sigure - Topic",
         "playlist": "Off Screen",
         "duration": "3:59",
         "durationSeconds": 239
@@ -442,8 +442,8 @@ const musicData = [
         "durationSeconds": 91
     },
     {
-        "title": "Haruka Kanata",
-        "artist": "ASIAN KUNG-FU GENERATION",
+        "title": "ASIAN KUNG-FU GENERATION - Haruka Kanata",
+        "artist": "akgVEVO",
         "playlist": "Off Screen",
         "duration": "4:07",
         "durationSeconds": 247
@@ -597,14 +597,14 @@ const musicData = [
     },
     {
         "title": "Wishing",
-        "artist": "レム（CV:水瀬いのり）",
+        "artist": "Release - Topic",
         "playlist": "Off Screen",
         "duration": "6:01",
         "durationSeconds": 361
     },
     {
         "title": "Wasteland (from the series Arcane League of Legends)",
-        "artist": "Royal & the Serpent",
+        "artist": "Royal & the Serpent - Topic",
         "playlist": "Off Screen",
         "duration": "2:42",
         "durationSeconds": 162
@@ -617,8 +617,8 @@ const musicData = [
         "durationSeconds": 231
     },
     {
-        "title": "マシュマロ - Marshmallow",
-        "artist": "DECO*27",
+        "title": "マシュマロ",
+        "artist": "DECO*27 - Topic",
         "playlist": "Off Screen",
         "duration": "2:52",
         "durationSeconds": 172
@@ -646,7 +646,7 @@ const musicData = [
     },
     {
         "title": "NOX LUX",
-        "artist": "MYTH & ROID",
+        "artist": "MYTH & ROID - Topic",
         "playlist": "Off Screen",
         "duration": "4:34",
         "durationSeconds": 274
@@ -729,8 +729,8 @@ const musicData = [
         "durationSeconds": 50
     },
     {
-        "title": "ループザルーム (feat. Hatsune Miku)",
-        "artist": "rusino",
+        "title": "rusino - Looping the Rooms (ループザルーム) feat. Hatsune Miku",
+        "artist": "rusino / ルシノ",
         "playlist": "Off Screen",
         "duration": "2:15",
         "durationSeconds": 135
@@ -779,7 +779,7 @@ const musicData = [
     },
     {
         "title": "TRUE「Sincerely」 MV Full Size 『ヴァイオレット・エヴァーガーデン』OP主題歌/\"violet-evergarden\" Opning Theme「Sincerely」",
-        "artist": "TRUE",
+        "artist": "Lantis Channel",
         "playlist": "Off Screen",
         "duration": "4:43",
         "durationSeconds": 283
@@ -1073,7 +1073,7 @@ const musicData = [
     },
     {
         "title": "Лёд",
-        "artist": "WENARO, LXNER",
+        "artist": "WENARO - Topic",
         "playlist": "Dead inside",
         "duration": "2:33",
         "durationSeconds": 153
@@ -1213,7 +1213,7 @@ const musicData = [
     },
     {
         "title": "Live Another Day",
-        "artist": "Kordhell",
+        "artist": "Kordhell - Topic",
         "playlist": "Dead inside",
         "duration": "2:14",
         "durationSeconds": 134
@@ -1338,7 +1338,7 @@ const musicData = [
         "durationSeconds": 151
     },
     {
-        "title": "Hypnodancer",
+        "title": "LITTLE BIG - HYPNODANCER (Official Music Video)",
         "artist": "Little Big",
         "playlist": "Dead inside",
         "duration": "4:36",
@@ -1429,7 +1429,7 @@ const musicData = [
         "durationSeconds": 170
     },
     {
-        "title": "Life Goes On",
+        "title": "Oliver Tree - Life Goes On [Music Video]",
         "artist": "Oliver Tree",
         "playlist": "Dead inside",
         "duration": "3:27",
@@ -1493,7 +1493,7 @@ const musicData = [
     },
     {
         "title": "Дурак и молния",
-        "artist": "Король и Шут",
+        "artist": "Король и Шут - Topic",
         "playlist": "Dead inside",
         "duration": "1:55",
         "durationSeconds": 115
@@ -1527,8 +1527,8 @@ const musicData = [
         "durationSeconds": 198
     },
     {
-        "title": "молчи",
-        "artist": "Кис-Кис",
+        "title": "кис-кис - молчи",
+        "artist": "кис-кис",
         "playlist": "Dead inside",
         "duration": "3:18",
         "durationSeconds": 198
@@ -1577,7 +1577,7 @@ const musicData = [
     },
     {
         "title": "финала не будет",
-        "artist": "конец солнечных дней",
+        "artist": "конец солнечных дней - Topic",
         "playlist": "Dead inside",
         "duration": "4:06",
         "durationSeconds": 246
@@ -1639,8 +1639,8 @@ const musicData = [
         "durationSeconds": 179
     },
     {
-        "title": "я не боюсь ошибаться",
-        "artist": "MZLFF, СЕРЕГА ПИРАТ",
+        "title": "Серега Пират, mzlff - я не боюсь ошибаться (prod. Living Puff)",
+        "artist": "СЕРЕГА ПИРАТ",
         "playlist": "Dead inside",
         "duration": "2:53",
         "durationSeconds": 173
@@ -1716,15 +1716,15 @@ const musicData = [
         "durationSeconds": 134
     },
     {
-        "title": "Я урод",
-        "artist": "Tenderlybae",
+        "title": "Tenderlybae - Я урод #яуродчеллендж",
+        "artist": "Tenderlybae каждый день",
         "playlist": "Dead inside",
         "duration": "1:53",
         "durationSeconds": 113
     },
     {
         "title": "Tenderlybae - Игрушка (Премьера клипа)",
-        "artist": "Tenderlybae",
+        "artist": "Tenderlybae каждый день",
         "playlist": "Dead inside",
         "duration": "2:02",
         "durationSeconds": 122
@@ -1766,7 +1766,7 @@ const musicData = [
     },
     {
         "title": "Трахаца",
-        "artist": "ЛЯЛЬКА",
+        "artist": "ЛЯЛЬКА - Topic",
         "playlist": "Dead inside",
         "duration": "2:28",
         "durationSeconds": 148
@@ -2556,14 +2556,14 @@ const musicData = [
         "durationSeconds": 265
     },
     {
-        "title": "Имя 505",
+        "title": "Время и Стекло - Имя 505",
         "artist": "Время и Стекло",
         "playlist": "Dead inside",
         "duration": "3:38",
         "durationSeconds": 218
     },
     {
-        "title": "На cтиле",
+        "title": "Время и Стекло - На Стиле",
         "artist": "Время и Стекло",
         "playlist": "Dead inside",
         "duration": "3:56",
@@ -2683,7 +2683,7 @@ const musicData = [
     },
     {
         "title": "верните в моду любовь",
-        "artist": "две тысячи ярдов",
+        "artist": "две тысячи ярдов - Topic",
         "playlist": "Dead inside",
         "duration": "2:12",
         "durationSeconds": 132
@@ -2732,7 +2732,7 @@ const musicData = [
     },
     {
         "title": "Салют, Вера",
-        "artist": "Валерий Меладзе и Константин Меладзе",
+        "artist": "Valery Meladze - Topic",
         "playlist": "Dead inside",
         "duration": "3:44",
         "durationSeconds": 224
@@ -2794,8 +2794,8 @@ const musicData = [
         "durationSeconds": 262
     },
     {
-        "title": "Не отдам",
-        "artist": "Maksim",
+        "title": "МакSим - Не отдам | Official Video",
+        "artist": "WOW TV",
         "playlist": "Dead inside",
         "duration": "3:22",
         "durationSeconds": 202
@@ -2955,7 +2955,7 @@ const musicData = [
         "durationSeconds": 120
     },
     {
-        "title": "Царица",
+        "title": "ANNA ASTI - ЦАРИЦА ( Премьера клипа 2023 )",
         "artist": "ANNA ASTI",
         "playlist": "Dead inside",
         "duration": "4:02",
@@ -3026,7 +3026,7 @@ const musicData = [
     },
     {
         "title": "Первый снег",
-        "artist": "Сова",
+        "artist": "Сова - Topic",
         "playlist": "Dead inside",
         "duration": "2:59",
         "durationSeconds": 179
@@ -3117,7 +3117,7 @@ const musicData = [
     },
     {
         "title": "Новогодние игрушки (Remix)",
-        "artist": "Аркадий Хоралов",
+        "artist": "Аркадий Хоралов - Topic",
         "playlist": "Dead inside",
         "duration": "3:41",
         "durationSeconds": 221
@@ -3179,8 +3179,8 @@ const musicData = [
         "durationSeconds": 148
     },
     {
-        "title": "Днями-ночами",
-        "artist": "МУККА, pyrokinesis",
+        "title": "PYROKINESIS,МУККА- Днями-ночами",
+        "artist": "МУККА",
         "playlist": "Dead inside",
         "duration": "3:18",
         "durationSeconds": 198
@@ -3235,7 +3235,7 @@ const musicData = [
         "durationSeconds": 122
     },
     {
-        "title": "жизненная",
+        "title": "mzlff - жизненная / холода ветра ЕР",
         "artist": "MZLFF",
         "playlist": "Dead inside",
         "duration": "2:33",
@@ -3445,7 +3445,7 @@ const musicData = [
         "durationSeconds": 152
     },
     {
-        "title": "Последняя Любовь (Acoustic Live)",
+        "title": "MORGENSHTERN - Последняя Любовь (ПРЕМЬЕРА! 2024)",
         "artist": "MORGENSHTERN",
         "playlist": "Dead inside",
         "duration": "2:41",
@@ -3586,7 +3586,7 @@ const musicData = [
     },
     {
         "title": "i kissed",
-        "artist": "yungalligator",
+        "artist": "yungalligator - Topic",
         "playlist": "Dead inside",
         "duration": "2:43",
         "durationSeconds": 163
@@ -4299,8 +4299,8 @@ const musicData = [
         "durationSeconds": 131
     },
     {
-        "title": "Я ночью плачу",
-        "artist": "Матис, СТИНТ",
+        "title": "СТИНТ, Матис - Я ночью плачу (премьера трека, 2024)",
+        "artist": "Stintik ",
         "playlist": "Dead inside",
         "duration": "2:34",
         "durationSeconds": 154
@@ -4370,7 +4370,7 @@ const musicData = [
     },
     {
         "title": "Sunday",
-        "artist": "The Cranberries",
+        "artist": "The Cranberries - Topic",
         "playlist": "Dead inside",
         "duration": "3:31",
         "durationSeconds": 211
@@ -4391,7 +4391,7 @@ const musicData = [
     },
     {
         "title": "Лиза",
-        "artist": "Матис, KSB muzic",
+        "artist": "Матис - Topic",
         "playlist": "Dead inside",
         "duration": "1:54",
         "durationSeconds": 114
@@ -4558,7 +4558,7 @@ const musicData = [
         "durationSeconds": 137
     },
     {
-        "title": "Золотые купола",
+        "title": "NORMAN - ЗОЛОТЫЕ КУПОЛА (ОФИЦИАЛЬНЫЙ КЛИП)",
         "artist": "NORMAN",
         "playlist": "Dead inside",
         "duration": "2:36",
@@ -4566,7 +4566,7 @@ const musicData = [
     },
     {
         "title": "Луз за лузом",
-        "artist": "youraifu",
+        "artist": "youraifu - Topic",
         "playlist": "Dead inside",
         "duration": "2:36",
         "durationSeconds": 156
@@ -6694,7 +6694,7 @@ const musicData = [
     },
     {
         "title": "ЛАБУБУ",
-        "artist": "YUNG FIMOZ, MIGAS",
+        "artist": "YUNG FIMOZ - Topic",
         "playlist": "Dead inside",
         "duration": "2:00",
         "durationSeconds": 120
@@ -6715,7 +6715,7 @@ const musicData = [
     },
     {
         "title": "таролог",
-        "artist": "норман грейсон",
+        "artist": "норман грейсон - Topic",
         "playlist": "Dead inside",
         "duration": "1:55",
         "durationSeconds": 115
@@ -6736,7 +6736,7 @@ const musicData = [
     },
     {
         "title": "SIDEL ODIN HARDSTYLE",
-        "artist": "Riversmelt, XP.UFX.",
+        "artist": "Riversmelt - Topic",
         "playlist": "Dead inside",
         "duration": "1:44",
         "durationSeconds": 104
@@ -6771,7 +6771,7 @@ const musicData = [
     },
     {
         "title": "что тебя гложет",
-        "artist": "k0vertessence, B4YLUm",
+        "artist": "k0vertessence - Topic",
         "playlist": "Dead inside",
         "duration": "2:33",
         "durationSeconds": 153
@@ -6792,7 +6792,7 @@ const musicData = [
     },
     {
         "title": "тебе нравится",
-        "artist": "призрак крови, парапустяков",
+        "artist": "призрак крови - Topic",
         "playlist": "Dead inside",
         "duration": "1:57",
         "durationSeconds": 117
@@ -6813,7 +6813,7 @@ const musicData = [
     },
     {
         "title": "следак",
-        "artist": "CUPSIZE",
+        "artist": "CUPSIZE - Topic",
         "playlist": "Dead inside",
         "duration": "2:18",
         "durationSeconds": 138
@@ -6827,7 +6827,7 @@ const musicData = [
     },
     {
         "title": "семнадцать ножевых",
-        "artist": "CUPSIZE",
+        "artist": "CUPSIZE - Topic",
         "playlist": "Dead inside",
         "duration": "2:25",
         "durationSeconds": 145
@@ -6883,7 +6883,7 @@ const musicData = [
     },
     {
         "title": "murder",
-        "artist": "tewiq",
+        "artist": "tewiq - Topic",
         "playlist": "Dead inside",
         "duration": "2:08",
         "durationSeconds": 128
@@ -6904,7 +6904,7 @@ const musicData = [
     },
     {
         "title": "misery.",
-        "artist": "pupsies",
+        "artist": "pupsies - Topic",
         "playlist": "Dead inside",
         "duration": "2:47",
         "durationSeconds": 167
@@ -6966,22 +6966,22 @@ const musicData = [
         "durationSeconds": 216
     },
     {
-        "title": "Любовь и Дота 2",
+        "title": "Twinky - Love and Dota 2",
         "artist": "Twinky",
         "playlist": "Dead inside",
         "duration": "2:10",
         "durationSeconds": 130
     },
     {
-        "title": "ДИНАСТИЯ",
-        "artist": "madk1d, VILLIAN",
+        "title": "VILLIAN, madk1d - ДИНАСТИЯ (official music video)",
+        "artist": "VILLIAN",
         "playlist": "Dead inside",
         "duration": "2:45",
         "durationSeconds": 165
     },
     {
         "title": "В твоих снах",
-        "artist": "Violetta Sokolova",
+        "artist": "Release - Topic",
         "playlist": "Dead inside",
         "duration": "1:44",
         "durationSeconds": 104
@@ -7016,7 +7016,7 @@ const musicData = [
     },
     {
         "title": "глупыйсвин",
-        "artist": "ева киллер, мая койка, ника кабина",
+        "artist": "ева киллер - Topic",
         "playlist": "Dead inside",
         "duration": "1:50",
         "durationSeconds": 110
@@ -7072,7 +7072,7 @@ const musicData = [
     },
     {
         "title": "ЛАБУБУ",
-        "artist": "YUNG FIMOZ, MIGAS",
+        "artist": "YUNG FIMOZ - Topic",
         "playlist": "Dead inside",
         "duration": "2:00",
         "durationSeconds": 120
@@ -7093,7 +7093,7 @@ const musicData = [
     },
     {
         "title": "таролог",
-        "artist": "норман грейсон",
+        "artist": "норман грейсон - Topic",
         "playlist": "Dead inside",
         "duration": "1:55",
         "durationSeconds": 115
@@ -7107,7 +7107,7 @@ const musicData = [
     },
     {
         "title": "SIDEL ODIN HARDSTYLE",
-        "artist": "Riversmelt, XP.UFX.",
+        "artist": "Riversmelt - Topic",
         "playlist": "Dead inside",
         "duration": "1:44",
         "durationSeconds": 104
@@ -7121,7 +7121,7 @@ const musicData = [
     },
     {
         "title": "что тебя гложет",
-        "artist": "k0vertessence, B4YLUm",
+        "artist": "k0vertessence - Topic",
         "playlist": "Dead inside",
         "duration": "2:33",
         "durationSeconds": 153
@@ -7156,7 +7156,7 @@ const musicData = [
     },
     {
         "title": "тебе нравится",
-        "artist": "призрак крови, парапустяков",
+        "artist": "призрак крови - Topic",
         "playlist": "Dead inside",
         "duration": "1:57",
         "durationSeconds": 117
@@ -7170,7 +7170,7 @@ const musicData = [
     },
     {
         "title": "Цветок",
-        "artist": "MORGENSHTERN",
+        "artist": "MORGENSHTERN - Topic",
         "playlist": "Dead inside",
         "duration": "2:36",
         "durationSeconds": 156
@@ -7191,7 +7191,7 @@ const musicData = [
     },
     {
         "title": "семнадцать ножевых",
-        "artist": "CUPSIZE",
+        "artist": "CUPSIZE - Topic",
         "playlist": "Dead inside",
         "duration": "2:25",
         "durationSeconds": 145
@@ -7205,7 +7205,7 @@ const musicData = [
     },
     {
         "title": "следак",
-        "artist": "CUPSIZE",
+        "artist": "CUPSIZE - Topic",
         "playlist": "Dead inside",
         "duration": "2:18",
         "durationSeconds": 138
@@ -7240,7 +7240,7 @@ const musicData = [
     },
     {
         "title": "ты не одна",
-        "artist": "диссоциативное расстройство",
+        "artist": "диссоциативное расстройство - Topic",
         "playlist": "Dead inside",
         "duration": "1:57",
         "durationSeconds": 117
@@ -7261,7 +7261,7 @@ const musicData = [
     },
     {
         "title": "misery.",
-        "artist": "pupsies",
+        "artist": "pupsies - Topic",
         "playlist": "Dead inside",
         "duration": "2:47",
         "durationSeconds": 167
@@ -7296,7 +7296,7 @@ const musicData = [
     },
     {
         "title": "где",
-        "artist": "zxcursed, dabbackwood",
+        "artist": "zxcursed - Topic",
         "playlist": "Dead inside",
         "duration": "1:47",
         "durationSeconds": 107
@@ -7317,7 +7317,7 @@ const musicData = [
     },
     {
         "title": "не нужен",
-        "artist": "LXNER, mapt0v",
+        "artist": "LXNER - Topic",
         "playlist": "Dead inside",
         "duration": "2:03",
         "durationSeconds": 123
@@ -7345,7 +7345,7 @@ const musicData = [
     },
     {
         "title": "за кордоном",
-        "artist": "alekkksa",
+        "artist": "alekkksa - Topic",
         "playlist": "Dead inside",
         "duration": "2:00",
         "durationSeconds": 120
@@ -8506,18 +8506,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJiJvNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3k5h6ptTXGrHQSF8eTLXtQ7ZUEqhw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLKlvNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3n8pmuyJOg51CUYtzUwSZ-OVYtK9Q"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJmJvNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3ltl_2JX_VtvRRFlkdWY5iByfe-aA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLKlvNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lIMEh2KgqeDlyOSAHYuP9wT7Dfow"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJqJvNUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lEQr3m6mn5SiajBOu-_ptFJXMaYA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CLOlvNUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nux2XUFqsRPvyfDAa1nGfzJfGYwQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJ6JvNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nUaNy6W8ZVeCyYjQg_YTWpJMX-SQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLilvNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mjU5W9P1QA_oOTZGZjK9NyFPPXFg"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJ6JvNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nRr6Boo5f1bu3mjsaiiBzuPV8COA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLilvNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kacCTZsXbwozS075UaI-VcHquQOQ"
     }
 };
