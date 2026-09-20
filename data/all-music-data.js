@@ -6001,7 +6001,7 @@ const musicData = [
     },
     {
         "title": "скинь",
-        "artist": "яшенька",
+        "artist": "яшенька - Topic",
         "playlist": "Dead inside",
         "duration": "1:53",
         "durationSeconds": 113
@@ -6036,7 +6036,7 @@ const musicData = [
     },
     {
         "title": "на небесах",
-        "artist": "kouru, yumixx",
+        "artist": "kouru - Topic",
         "playlist": "Dead inside",
         "duration": "2:29",
         "durationSeconds": 149
@@ -6078,14 +6078,14 @@ const musicData = [
     },
     {
         "title": "stalk ur socials",
-        "artist": "s0rrow",
+        "artist": "s0rrow - Topic",
         "playlist": "Dead inside",
         "duration": "1:19",
         "durationSeconds": 79
     },
     {
         "title": "я не приду на выпускной",
-        "artist": "ashleytears",
+        "artist": "ashleytears - Topic",
         "playlist": "Dead inside",
         "duration": "1:34",
         "durationSeconds": 94
@@ -6246,7 +6246,7 @@ const musicData = [
     },
     {
         "title": "чёрный шёлк",
-        "artist": "3umph, dope17",
+        "artist": "3umph - Topic",
         "playlist": "Dead inside",
         "duration": "1:58",
         "durationSeconds": 118
@@ -6260,7 +6260,7 @@ const musicData = [
     },
     {
         "title": "unhappy (remix)",
-        "artist": "s0rrow, Yopo",
+        "artist": "s0rrow - Topic",
         "playlist": "Dead inside",
         "duration": "2:12",
         "durationSeconds": 132
@@ -6287,8 +6287,8 @@ const musicData = [
         "durationSeconds": 84
     },
     {
-        "title": "она свободна (feat. морали нет)",
-        "artist": "диссоциативное расстройство",
+        "title": "она свободна",
+        "artist": "диссоциативное расстройство - Topic",
         "playlist": "Dead inside",
         "duration": "1:21",
         "durationSeconds": 81
@@ -6491,7 +6491,7 @@ const musicData = [
     },
     {
         "title": "хиросима",
-        "artist": "мистер модератор",
+        "artist": "мистер модератор - Topic",
         "playlist": "Dead inside",
         "duration": "1:14",
         "durationSeconds": 74
@@ -6554,7 +6554,7 @@ const musicData = [
     },
     {
         "title": "монстр",
-        "artist": "призрак крови",
+        "artist": "призрак крови - Topic",
         "playlist": "Dead inside",
         "duration": "1:44",
         "durationSeconds": 104
@@ -6617,7 +6617,7 @@ const musicData = [
     },
     {
         "title": "чёрный шёлк",
-        "artist": "3umph, dope17",
+        "artist": "3umph - Topic",
         "playlist": "Dead inside",
         "duration": "1:58",
         "durationSeconds": 118
@@ -6651,8 +6651,8 @@ const musicData = [
         "durationSeconds": 84
     },
     {
-        "title": "она свободна (feat. морали нет)",
-        "artist": "диссоциативное расстройство",
+        "title": "она свободна",
+        "artist": "диссоциативное расстройство - Topic",
         "playlist": "Dead inside",
         "duration": "1:21",
         "durationSeconds": 81
@@ -8506,18 +8506,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNC9vNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nNXZ_C4vhB_bikW-BJ810TmiGCZg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIvgvNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3njE0Kt2LDGoY281TZRKvXJgZ2bKA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNC9vNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nGtzIwMgwzW1fiEQ0npuNS5X00sQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CIzgvNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mvgDB_Mtn6OwJvwfQWZy-uWkjOMA"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNG9vNUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3njzQ96hOtCsCQyzgxLtoeve_lq1Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CIzgvNUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lrvDD93ztC_hkbcGc0dTNnIos_xA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNW9vNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kWexnfciM0R6eNjKXtZ1hafto2WA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJHgvNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nsivu0rXuLGV31ZeOQfPVpgFIYyA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNa9vNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mii7rzHCcAzvetCBnC5N52D9j8iA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJLgvNUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mM0rXOm-a7C7tn7BmChVadxqu3Yg"
     }
 };
