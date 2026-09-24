@@ -8490,27 +8490,55 @@ const musicData = [
         "playlist": "Sewerslvt",
         "duration": "2:50",
         "durationSeconds": 170
+    },
+    {
+        "title": "De Kieru",
+        "artist": "Rory in early 20s",
+        "playlist": "Sewerslvt",
+        "duration": "1:25",
+        "durationSeconds": 85
+    },
+    {
+        "title": "Various Types Of Ads",
+        "artist": "Rory in early 20s",
+        "playlist": "Sewerslvt",
+        "duration": "1:53",
+        "durationSeconds": 113
+    },
+    {
+        "title": "Subete no mono no owari wa sugu ni yattekuru.7",
+        "artist": "Rory in early 20s",
+        "playlist": "Sewerslvt",
+        "duration": "2:01",
+        "durationSeconds": 121
+    },
+    {
+        "title": "Tashi Mi Yo Ni",
+        "artist": "Rory in early 20s",
+        "playlist": "Sewerslvt",
+        "duration": "3:39",
+        "durationSeconds": 219
     }
 ];
 const musicStats = {
     "totalViews": 1035,
-    "totalDurationSec": 209146,
+    "totalDurationSec": 209684,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKD01NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3m0PE-ta_V8Mx4MI52WTZnfQcHBUA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMW31tUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mGh0Gur93u0dcdgsO3g0FfSKTmug"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKH01NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mp321NNFD0_20fzr8zNwsezW48oA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMa31tUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3m8gJT9sMdlKX6mV1bB4Q37L1rBOQ"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKH01NUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kzG5rljrGjH-L8jXo37KLQ1Xz5AA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMa31tUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nBx57TyCvQAXF8z85-7JEPTqXG0A"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKj01NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lgKt6hM0F3QR9_uWc1sP5JPCtslg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMu31tUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3ljKj1sHfji1HcQm1kxBDHRD6r3vQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKj01NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3n-ZgesmTgImUSdW4DaoKIYKF3YGA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMu31tUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nK3zERuJB9z_FkPHBbbkOHr4ZVMg"
     }
 };
