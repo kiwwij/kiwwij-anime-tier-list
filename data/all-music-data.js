@@ -1262,7 +1262,7 @@ const musicData = [
     },
     {
         "title": "Tokyo Ghoul OP  / Опенинг Токийский Гуль cover by Ai Mori",
-        "artist": "Ai Mori",
+        "artist": "АйMori",
         "playlist": "Dead inside",
         "duration": "4:13",
         "durationSeconds": 253
@@ -2855,13 +2855,6 @@ const musicData = [
         "playlist": "Dead inside",
         "duration": "2:40",
         "durationSeconds": 160
-    },
-    {
-        "title": "Island Song (Come Along with Me) (Lyrics) - Ashley Eriksson (Adventure Time)",
-        "artist": "All As One",
-        "playlist": "Dead inside",
-        "duration": "1:50",
-        "durationSeconds": 110
     },
     {
         "title": "Цветы",
@@ -8522,23 +8515,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1035,
-    "totalDurationSec": 209684,
+    "totalDurationSec": 209574,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COGP2NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mlro0t4WqqSeS11T2pk7TmcJnjHA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNHK2NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lclQsgrinP-5ZSYLRKMZa-yzZbDw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COGP2NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mLS_5ECPJz7synM1ntlX8k-ZJJmg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNHK2NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3ncvCCTKoehTTGFafD2-QZIU9_5gw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=COKP2NUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3n5UcLWoeKsHLG4W_NBmd7UC4h8qA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNHK2NUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kyNV3QAuxa3YoBAiqXuw_Q-K_Vuw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COaP2NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mFBnZXdyefJR02awaEmzCJyd1Fog"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNbK2NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lKVeL0ijaWmvZvVFTtZdelCrJq6w"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COaP2NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nNuoNncdkNnLOKD7cRx-ExgjyAQQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNbK2NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3n2EvxNNesj2iGECBFx0EuGolF4Lw"
     }
 };
