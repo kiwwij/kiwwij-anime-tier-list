@@ -7,7 +7,7 @@ const steamData = {
         "status": "Offline",
         "statusColor": "#9E9E9E",
         "level": 41,
-        "age": 6.6
+        "age": 6.7
     },
     "stats": {
         "total_games": 300
