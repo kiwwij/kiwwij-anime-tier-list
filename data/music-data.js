@@ -279,9 +279,14 @@ const musicData = [
         "title": "Meant To Be - Cuntsniffer (Lyrics)",
         "artist": "𝕁𝕒𝕔𝕜",
         "playlist": "Main"
+    },
+    {
+        "title": "murder",
+        "artist": "tewiq",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 22,
-    "totalDurationSec": 7654
+    "totalDurationSec": 7782
 };
