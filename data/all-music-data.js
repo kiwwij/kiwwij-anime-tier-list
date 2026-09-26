@@ -746,8 +746,8 @@ const musicData = [
         "title": "よふかしのうた - Yofukashino Uta",
         "artist": "Creepy Nuts",
         "playlist": "Off Screen",
-        "duration": "3:58",
-        "durationSeconds": 238
+        "duration": "4:00",
+        "durationSeconds": 240
     },
     {
         "title": "逆様 - SAKASAMA",
@@ -3620,8 +3620,8 @@ const musicData = [
         "durationSeconds": 139
     },
     {
-        "title": "Как тебя покорить",
-        "artist": "Перемотка",
+        "title": "Перемотка – Как тебя покорить (Official Video) / Peremotka – Kak Tebia Pokorit",
+        "artist": "Перемотка / Peremotka",
         "playlist": "Dead inside",
         "duration": "3:13",
         "durationSeconds": 193
@@ -8522,23 +8522,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1047,
-    "totalDurationSec": 209702,
+    "totalDurationSec": 209704,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CK744NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3noXGLzCsEdEREPdsKRjVrsQx9duw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIGU4dUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mSrlIN9TKLsfcDMW-9tWuaeiRA8w"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CK744NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3laEY_oUZo1xn-UM_ZWBWUEWyWTCA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CIKU4dUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mmW7p53rKsLVXVoUgyaQ6bORrhsQ"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CK_44NUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kFfZnSVw6JI6RsW4j1-chKsIzvdg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CIKU4dUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nMH8s_AvAz6665m7uExXBBLRwCUw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLL44NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3m2ZIW1LmXeK8VWF8laDQQu7f16SA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIeU4dUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3klU-ZCtqJ5es3pQNthSk9utf3nfQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLP44NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nXOFePaG6x8YjRyopu4FI5UK-5MQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIeU4dUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3le-sKC70iTIZTPmDCUoluLNS5hTg"
     }
 };
