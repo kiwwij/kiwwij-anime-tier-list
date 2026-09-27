@@ -746,8 +746,8 @@ const musicData = [
         "title": "よふかしのうた - Yofukashino Uta",
         "artist": "Creepy Nuts",
         "playlist": "Off Screen",
-        "duration": "4:00",
-        "durationSeconds": 240
+        "duration": "3:58",
+        "durationSeconds": 238
     },
     {
         "title": "逆様 - SAKASAMA",
@@ -6176,7 +6176,7 @@ const musicData = [
     },
     {
         "title": "Малышка любит бустера",
-        "artist": "NORMAN, soqql",
+        "artist": "Norman, soqql",
         "playlist": "Dead inside",
         "duration": "2:38",
         "durationSeconds": 158
@@ -8522,23 +8522,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1047,
-    "totalDurationSec": 209704,
+    "totalDurationSec": 209702,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIGU4dUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mSrlIN9TKLsfcDMW-9tWuaeiRA8w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMPe4dUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3n3vFNIhMlp9e3SVu-Rq5nPbs8cEA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CIKU4dUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mmW7p53rKsLVXVoUgyaQ6bORrhsQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMPe4dUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3na9yRaDUurGP0llfAIQyPRhUpLiw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CIKU4dUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nMH8s_AvAz6665m7uExXBBLRwCUw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CMTe4dUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lWbaEaLsd-aWKfFuxvD-Ou1e-aCQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIeU4dUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3klU-ZCtqJ5es3pQNthSk9utf3nfQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMje4dUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kLwqmD6_i_wDleyiy6YzQRQJRoqQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIeU4dUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3le-sKC70iTIZTPmDCUoluLNS5hTg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMne4dUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mFMUhfWOsIIYvvcsfDUN75XHW9ow"
     }
 };
