@@ -5392,7 +5392,7 @@ const musicData = [
     },
     {
         "title": "Шиншиллы",
-        "artist": "ЛСП",
+        "artist": "LSP - Topic",
         "playlist": "Dead inside",
         "duration": "2:30",
         "durationSeconds": 150
@@ -5539,7 +5539,7 @@ const musicData = [
     },
     {
         "title": "Никогда",
-        "artist": "Руслан Утюг",
+        "artist": "Руслан Утюг - Topic",
         "playlist": "Dead inside",
         "duration": "2:55",
         "durationSeconds": 175
@@ -5560,14 +5560,14 @@ const musicData = [
     },
     {
         "title": "Сліди Насильства",
-        "artist": "Апатія",
+        "artist": "Апатія - Topic",
         "playlist": "Dead inside",
         "duration": "2:36",
         "durationSeconds": 156
     },
     {
         "title": "Turbo (Majestic)",
-        "artist": "Big Baby Tape",
+        "artist": "Big Baby Tape - Topic",
         "playlist": "Dead inside",
         "duration": "2:56",
         "durationSeconds": 176
@@ -5700,7 +5700,7 @@ const musicData = [
     },
     {
         "title": "Ты не пришла и х с тобой",
-        "artist": "Мой Двор",
+        "artist": "Мой Двор   - Topic",
         "playlist": "Dead inside",
         "duration": "2:34",
         "durationSeconds": 154
@@ -5742,7 +5742,7 @@ const musicData = [
     },
     {
         "title": "Вдячність",
-        "artist": "Luna Rozza, BaWN",
+        "artist": "Luna Rozza - Topic",
         "playlist": "Dead inside",
         "duration": "1:49",
         "durationSeconds": 109
@@ -5854,7 +5854,7 @@ const musicData = [
     },
     {
         "title": "отстой",
-        "artist": "onokami",
+        "artist": "onokami - Topic",
         "playlist": "Dead inside",
         "duration": "1:19",
         "durationSeconds": 79
@@ -5882,7 +5882,7 @@ const musicData = [
     },
     {
         "title": "Ліпший день",
-        "artist": "Апатія, СТРУКТУРА ЩАСТЯ",
+        "artist": "Апатія - Topic",
         "playlist": "Dead inside",
         "duration": "2:38",
         "durationSeconds": 158
@@ -5959,7 +5959,7 @@ const musicData = [
     },
     {
         "title": "Не прокинусь",
-        "artist": "BaWN, Апатія",
+        "artist": "BaWN - Topic",
         "playlist": "Dead inside",
         "duration": "3:22",
         "durationSeconds": 202
@@ -8527,18 +8527,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMyk6tUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kgC33QQG2_C0DUnGusVgwvY7VNCw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPPC69UG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kyEorSU44TKb07nhBZM_WQ0QYFUQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMyk6tUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3ma0WyUYukIbnafaPgDUmHB9yaTZw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPPC69UG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nhieDzo1GKBJFrPRkiuuVctsdTaw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CM2k6tUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lOcpIRjeE6KPqJ6Nth8g1oJIIV5g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CPTC69UG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nhRIWgB9ohHh2b6CRCLxJWC9wLwA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNKk6tUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lTidP1BKYYJBWuOHYPyaETC70R4A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CPvC69UG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3n2UeZe5801eHZxKGyksJE9Rce5HQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNKk6tUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kMn2-dSo_bqQzjTJSj60Gghs9lKw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CPvC69UG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3n-UOHBnhNfs8i3jiLFMqzePvC81A"
     }
 };
