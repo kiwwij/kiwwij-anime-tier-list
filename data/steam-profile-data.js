@@ -54,7 +54,9 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Стратегии",
+                "Бесплатные"
             ]
         },
         {
@@ -64,7 +66,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg",
             "url": "https://store.steampowered.com/app/730",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Бесплатные"
             ]
         },
         {
@@ -74,7 +77,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
             "url": "https://store.steampowered.com/app/1245620",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Ролевые игры"
             ]
         },
         {
@@ -84,7 +88,9 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg",
             "url": "https://store.steampowered.com/app/1086940",
             "tags": [
-                "Без жанра"
+                "Приключенческие игры",
+                "Ролевые игры",
+                "Стратегии"
             ]
         },
         {
@@ -94,7 +100,10 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
             "url": "https://store.steampowered.com/app/105600",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры",
+                "Инди",
+                "Ролевые игры"
             ]
         },
         {
@@ -114,7 +123,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/489830/header.jpg",
             "url": "https://store.steampowered.com/app/489830",
             "tags": [
-                "Без жанра"
+                "Ролевые игры"
             ]
         },
         {
@@ -124,7 +133,9 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/header.jpg",
             "url": "https://store.steampowered.com/app/2909400",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры",
+                "Ролевые игры"
             ]
         },
         {
@@ -145,7 +156,9 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1009290/header.jpg",
             "url": "https://store.steampowered.com/app/1009290",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры",
+                "Ролевые игры"
             ]
         },
         {
@@ -155,7 +168,9 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1627720/header.jpg",
             "url": "https://store.steampowered.com/app/1627720",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры",
+                "Ролевые игры"
             ]
         },
         {
@@ -165,7 +180,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/header.jpg",
             "url": "https://store.steampowered.com/app/374320",
             "tags": [
-                "Без жанра"
+                "Экшены"
             ]
         },
         {
@@ -195,7 +210,9 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1030300/header.jpg",
             "url": "https://store.steampowered.com/app/1030300",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры",
+                "Инди"
             ]
         },
         {
@@ -205,7 +222,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры"
             ]
         },
         {
@@ -215,7 +233,9 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1462040/header.jpg",
             "url": "https://store.steampowered.com/app/1462040",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры",
+                "Ролевые игры"
             ]
         },
         {
@@ -225,7 +245,9 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg",
             "url": "https://store.steampowered.com/app/367520",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры",
+                "Инди"
             ]
         },
         {
@@ -235,7 +257,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
             "url": "https://store.steampowered.com/app/1903340",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Ролевые игры"
             ]
         },
         {
@@ -245,7 +268,10 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
             "url": "https://store.steampowered.com/app/1169040",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры",
+                "Инди",
+                "Ролевые игры"
             ]
         }
     ]
