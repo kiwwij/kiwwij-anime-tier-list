@@ -296,7 +296,7 @@ const musicData = [
     },
     {
         "title": "Тысячи этажей",
-        "artist": "Лоло, #ребенокискусства",
+        "artist": "Лоло, ребенокискусства",
         "playlist": "Main",
         "duration": "1:07",
         "durationSeconds": 67
@@ -3098,8 +3098,8 @@ const musicData = [
         "title": "Новогодние игрушки (Remix)",
         "artist": "Аркадий Хоралов",
         "playlist": "Dead inside",
-        "duration": "3:41",
-        "durationSeconds": 221
+        "duration": "3:42",
+        "durationSeconds": 222
     },
     {
         "title": "Ногу свело! - Наши Юные Смешные Голоса | speed up/nightcore",
@@ -4481,11 +4481,11 @@ const musicData = [
         "durationSeconds": 116
     },
     {
-        "title": "We Fell Apart (Slowed)",
+        "title": "Bubblegum Bitch (Slowed)",
         "artist": "ANGUISH, AmbVsh, ily",
         "playlist": "Dead inside",
-        "duration": "2:36",
-        "durationSeconds": 156
+        "duration": "2:38",
+        "durationSeconds": 158
     },
     {
         "title": "Зайчик шнуфель   Послушай",
@@ -4628,7 +4628,7 @@ const musicData = [
         "durationSeconds": 92
     },
     {
-        "title": "Робот",
+        "title": "Robot",
         "artist": "t.A.T.u.",
         "playlist": "Dead inside",
         "duration": "3:52",
@@ -5405,11 +5405,11 @@ const musicData = [
         "durationSeconds": 115
     },
     {
-        "title": "hunter eyes (slowed)",
+        "title": "Look me in my hunter eyes (Slowed & Reverbed)",
         "artist": "laydownrot",
         "playlist": "Dead inside",
-        "duration": "1:46",
-        "durationSeconds": 106
+        "duration": "1:43",
+        "durationSeconds": 103
     },
     {
         "title": "Teenage Dirtbag",
@@ -7205,7 +7205,7 @@ const musicData = [
     },
     {
         "title": "Тысячи этажей",
-        "artist": "Лоло, #ребенокискусства",
+        "artist": "Лоло, ребенокискусства",
         "playlist": "Dead inside",
         "duration": "1:07",
         "durationSeconds": 67
@@ -8527,18 +8527,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNy66NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lzNvu7QoJOqTSSGHzuUAnSuHboIA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPWK6tUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lk0egwoZXLH_3L8l808Kwah8m5OA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNy66NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3n3_D9yxvtuacg21NPYudWqkdzRfQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPWK6tUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nwvcV70Tb8t8WTJo3enGPNzE199g"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CN266NUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nTy1gy7tsjsKbfcznVXiuEhyGQ1Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CPaK6tUG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3krXBCsEHlvnge9MHNdtvjRWvyPtg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COC66NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3m_FqbX-zcA1FItrObg4mxCo9PrLg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CPuK6tUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kKkYafvm8HJ-mnBpL6NdKVwa7IAw"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COC66NUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nTS5XiCjAmAvDW9yTmGISUlCT-Nw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CPuK6tUG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mG2f4W_-iJVt4YwSHQKERzUHqCzA"
     }
 };
