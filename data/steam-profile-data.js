@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 2344520,
             "name": "Diablo® IV",
-            "playtime_2weeks": 3.0,
+            "playtime_2weeks": 1.7,
             "hours": 6.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/header.jpg",
             "url": "https://store.steampowered.com/app/2344520"
@@ -200,7 +200,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Ролевые игры"
+                "Без жанра"
             ]
         },
         {
