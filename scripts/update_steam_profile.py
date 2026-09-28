@@ -3,7 +3,6 @@ import os
 import requests
 import time
 
-# --- НАСТРОЙКИ ---
 STEAM_API_KEY = os.environ.get('STEAM_API_KEY')
 STEAM_ID = os.environ.get('STEAM_ID')
 
@@ -37,7 +36,6 @@ def get_profile_data():
         status_text = status_map.get(current_state_id, 'Offline')
         status_color = status_colors.get(current_state_id, '#9E9E9E')
 
-        # Вычисляем возраст аккаунта (в годах)
         timecreated = data.get('timecreated')
         age = round((time.time() - timecreated) / 31536000, 1) if timecreated else "??"
 
@@ -108,7 +106,6 @@ def main():
     if not profile:
         return
 
-    # Автодобавление Dota 2
     dota_in_recent = next((game for game in recent_games if game['appid'] == 570), None)
     if dota_in_recent and not any(g['appid'] == 570 for g in all_games):
         all_games.append({
@@ -119,19 +116,38 @@ def main():
     all_games.sort(key=lambda x: x.get('hours', 0), reverse=True)
     top_20 = all_games[:20]
 
-    print("🏷️ Получаем жанры для Топ-20 игр (занимает ~12 сек)...")
+    print("🏷️ Получаем жанры для Топ-20 игр...")
     for game in top_20:
         try:
-            # АПИ магазина не требует ключа, берем русские названия жанров
             store_url = f"https://store.steampowered.com/api/appdetails?appids={game['appid']}&l=russian"
-            res = requests.get(store_url).json()
-            if res and str(game['appid']) in res and res[str(game['appid'])]['success']:
-                genres = res[str(game['appid'])]['data'].get('genres', [])
-                game['tags'] = [g['description'] for g in genres]
+            res_api = requests.get(store_url)
+
+            if res_api.status_code == 429:
+                print(f"⚠️ Steam ограничил запросы (Rate Limit). Ждем 10 секунд...")
+                time.sleep(10)
+                res_api = requests.get(store_url)
+
+            if res_api.status_code == 200:
+                res = res_api.json()
+                app_id_str = str(game['appid'])
+                
+                if res and app_id_str in res and res[app_id_str]['success']:
+                    genres = res[app_id_str]['data'].get('genres', [])
+                    if genres:
+                        game['tags'] = [g['description'] for g in genres]
+                    else:
+                        game['tags'] = ["Жанр не указан"]
+                else:
+                    print(f"ℹ️ Нет данных в магазине для: {game['name']} (ID: {game['appid']})")
+                    game['tags'] = ["Без жанра"]
             else:
-                game['tags'] = ["Без жанра"]
-            time.sleep(0.6) # Защита от блокировки IP (Rate Limit)
-        except Exception:
+                print(f"❌ Ошибка API {res_api.status_code} для игры {game['name']}")
+                game['tags'] = ["Ошибка"]
+
+            time.sleep(1.5) 
+            
+        except Exception as e:
+            print(f"❌ Ошибка обработки игры {game['name']}: {e}")
             game['tags'] = ["Без жанра"]
 
     steam_data = {

@@ -71,9 +71,9 @@ const mediaData = [
     { "title": "The Legend of Timm Thaler or The Boy Who Sold His Laughter", "ruTitle": "Тимм Талер, или Проданый смех", "year": "2017", "myRating": 4, "imdbRating": 6.1, "imdbLink": "https://www.imdb.com/title/tt4578050/" },
     { "title": "The Truman Show", "ruTitle": "Шоу Трумана", "year": "1992", "myRating": 6, "imdbRating": 8.2, "imdbLink": "https://www.imdb.com/title/tt0120382/" },
     { "title": "Moana Movie", "ruTitle": "Моана Фильм", "year": "2026", "myRating": 5, "imdbRating": 5.8, "imdbLink": "https://www.imdb.com/title/tt27419466/" },
-    // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
-    // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
-    // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
+    { "title": "Unabomber", "ruTitle": "Унабомбер", "year": "2026", "myRating": 6, "imdbRating": 6.2, "imdbLink": "https://www.imdb.com/title/tt6933238/" },
+    { "title": "Brothers", "ruTitle": "Братья", "year": "2009", "myRating": 7, "imdbRating": 7.1, "imdbLink": "https://www.imdb.com/title/tt0765010/" },
+    { "title": "Na derevnyu dedushke", "ruTitle": "На деревню дедушке", "year": "2025", "myRating": 5, "imdbRating": 5.5, "imdbLink": "https://www.imdb.com/title/tt34322117/" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
 ];

@@ -254,11 +254,11 @@
     </main>
 
     <div id="lightbox" class="lightbox" onclick="closeLightbox()">
-        <button class="nav-btn prev" onclick="event.stopPropagation(); changeImage(1)">
+        <button class="nav-btn prev" onclick="event.stopPropagation(); changeImage(-1)">
             <i class='bx bx-chevron-left'></i>
         </button>
         <img id="lightbox-img" src="" onclick="event.stopPropagation()">
-        <button class="nav-btn next" onclick="event.stopPropagation(); changeImage(-1)">
+        <button class="nav-btn next" onclick="event.stopPropagation(); changeImage(1)">
             <i class='bx bx-chevron-right'></i>
         </button>
         <div id="lightbox-caption"></div>

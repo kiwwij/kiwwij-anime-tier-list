@@ -119,6 +119,11 @@ if (typeof tierListData !== 'undefined') {
                 review: "Прикольный арбузный вкус с мятным послевкусием.", 
                 img: "energydrink/Non Stop Zoom.webp"
             },
+            { 
+                title: "Non Stop Stalker Red Limited Edition", 
+                review: "Барбариска со сладким послевкусием.", 
+                img: "energydrink/Non Stop Stalker Red Limited Edition.png"
+            },
             ],
         'C': [
             { 

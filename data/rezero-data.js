@@ -296,6 +296,11 @@ if (typeof tierListData !== 'undefined') {
                 review: "Полный идиотизм от Рейнхарда (теперь это мой самый нелюбимый персонаж). Переписаания история игры из стима. Побег Круш и Субару + проблемы у лагеря Эмилии. Побег, даже 2, нет, джае 3.",
                 img: "rezero/45.webp"
             },
+            { 
+                title: "Re:Zero Ранобэ Том 46", 
+                review: "Побег с замка. Новая фракция Капеллы, её учасники.",
+                img: "rezero/46.jpg"
+            },
             ],
         'D': [
             { 
@@ -307,14 +312,14 @@ if (typeof tierListData !== 'undefined') {
         'E': [],
         'F': [
             { 
+                title: "Re:Zero Ранобэ Том 47", 
+                review: "",
+                img: "rezero/47.jpg"
+            },
+            { 
                 title: "Arc 10 – The Land of the Lion Kings", 
                 review: "10-ая арка...", 
                 img: "rezero/10.png"
-            },
-            { 
-                title: "Re:Zero Ранобэ Том 46", 
-                review: "",
-                img: "rezero/46.jpg"
             },
             ]
     };
