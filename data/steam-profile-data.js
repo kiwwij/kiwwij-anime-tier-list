@@ -22,20 +22,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/570"
         },
         {
+            "appid": 292030,
+            "name": "The Witcher 3: Wild Hunt — Remastered",
+            "playtime_2weeks": 3.1,
+            "hours": 8.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
+            "url": "https://store.steampowered.com/app/292030"
+        },
+        {
             "appid": 2344520,
             "name": "Diablo® IV",
             "playtime_2weeks": 1.7,
             "hours": 6.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/header.jpg",
             "url": "https://store.steampowered.com/app/2344520"
-        },
-        {
-            "appid": 292030,
-            "name": "The Witcher 3: Wild Hunt — Remastered",
-            "playtime_2weeks": 1.6,
-            "hours": 7.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
-            "url": "https://store.steampowered.com/app/292030"
         },
         {
             "appid": 920490,
@@ -48,7 +48,7 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.1,
+            "playtime_2weeks": 0.2,
             "hours": 24.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
@@ -230,7 +230,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры"
             ]
         },
         {
