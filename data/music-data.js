@@ -284,9 +284,14 @@ const musicData = [
         "title": "murder",
         "artist": "tewiq",
         "playlist": "Main"
+    },
+    {
+        "title": "Луна",
+        "artist": "Violetta Sokolova",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 22,
-    "totalDurationSec": 7782
+    "totalDurationSec": 7921
 };
