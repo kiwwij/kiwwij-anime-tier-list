@@ -3999,7 +3999,7 @@ const musicData = [
     },
     {
         "title": "Я буду",
-        "artist": "5sta Family - Topic",
+        "artist": "5sta Family",
         "playlist": "Dead inside",
         "duration": "3:07",
         "durationSeconds": 187
@@ -4033,8 +4033,8 @@ const musicData = [
         "durationSeconds": 123
     },
     {
-        "title": "Мама удалила роблокс",
-        "artist": "Lemaier - Topic",
+        "title": "Мама удалила роблокс (feat. Gulyashik & Qurorr)",
+        "artist": "Lemaier",
         "playlist": "Dead inside",
         "duration": "3:04",
         "durationSeconds": 184
@@ -4243,8 +4243,8 @@ const musicData = [
         "durationSeconds": 120
     },
     {
-        "title": "asteria - w4ste away (feat. Black Kray) (Official Visualizer)",
-        "artist": "asteria",
+        "title": "w4ste away (w/ Sickboyrari)",
+        "artist": "asteria, Black Kray",
         "playlist": "Dead inside",
         "duration": "2:57",
         "durationSeconds": 177
@@ -4306,8 +4306,8 @@ const musicData = [
         "durationSeconds": 90
     },
     {
-        "title": "SadSvit - Silhouettes (feat. СТРУКТУРА ЩАСТЯ) Lyric video",
-        "artist": "SadSvit",
+        "title": "Силуети",
+        "artist": "СТРУКТУРА ЩАСТЯ, SadSvit",
         "playlist": "Dead inside",
         "duration": "3:08",
         "durationSeconds": 188
@@ -4467,7 +4467,7 @@ const musicData = [
         "durationSeconds": 140
     },
     {
-        "title": "Краски - всего 15 лет (Hardstyle Remix) (OUT ON ALL PLATFORMS)",
+        "title": "Всего 15 лет (BRZ Hardstyle Remix)",
         "artist": "BRZ",
         "playlist": "Dead inside",
         "duration": "2:58",
@@ -8548,18 +8548,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPr3i9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mP1QGS9KCt_XXO_-N_90cip-O73g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJCTjdYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lsAgudknqQiPPWYf6vnwG2UiNHOA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPv3i9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3k1igvuCdSqXa-aiPRKoaXwPYTEBA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJCTjdYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mxjZ0IS_e_zUknPtv3dHvthiBhZg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CPv3i9YG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lylNHs75_8zATWOlzH3XDm02tInQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJGTjdYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mrqyHX4_UN5bp49UStb0qR1E7BCQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIH4i9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lJr8wWBdfSMGRsMUK2FAKBgFchiA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJWTjdYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3n17b_8R7ItBYueMRL0ZWqH7D29uw"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIH4i9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lA9OlXt60gIKCoNalXsYGqri5dXg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJWTjdYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3ns4jP_uaXqhSTB8RGlpuaMOiuUYg"
     }
 };
