@@ -4,19 +4,19 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/f2081237d233374a1897ff24160d0fc516aa7ccb_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107",
+        "status": "In Game",
+        "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.7
     },
     "stats": {
-        "total_games": 301
+        "total_games": 302
     },
     "recent_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 17.8,
+            "playtime_2weeks": 17.4,
             "hours": 3739.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -24,8 +24,8 @@ const steamData = {
         {
             "appid": 292030,
             "name": "The Witcher 3: Wild Hunt — Remastered",
-            "playtime_2weeks": 7.1,
-            "hours": 12.9,
+            "playtime_2weeks": 8.1,
+            "hours": 14.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
             "url": "https://store.steampowered.com/app/292030"
         },
@@ -121,14 +121,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Экшены",
-                "Приключенческие игры",
-                "Казуальные игры",
-                "Многопользовательские игры",
-                "Гонки",
-                "Ролевые игры",
-                "Стратегии",
-                "Бесплатные"
+                "Без жанра"
             ]
         },
         {
@@ -237,7 +230,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры"
             ]
         },
         {
