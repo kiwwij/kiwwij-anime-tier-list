@@ -289,14 +289,9 @@ const musicData = [
         "title": "Луна",
         "artist": "Violetta Sokolova",
         "playlist": "Main"
-    },
-    {
-        "title": "VØDI4KA PUZIRKI - ПО ТРУБАМ",
-        "artist": "memka",
-        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 22,
-    "totalDurationSec": 8056
+    "totalDurationSec": 7921
 };
