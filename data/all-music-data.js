@@ -1982,14 +1982,14 @@ const musicData = [
         "durationSeconds": 245
     },
     {
-        "title": "нексюша – Когда ты умрешь",
+        "title": "Когда ты умрешь",
         "artist": "нексюша",
         "playlist": "Dead inside",
         "duration": "3:01",
         "durationSeconds": 181
     },
     {
-        "title": "The Limba - Секрет (Lyric video)",
+        "title": "Секрет",
         "artist": "The Limba",
         "playlist": "Dead inside",
         "duration": "2:48",
@@ -2080,7 +2080,7 @@ const musicData = [
         "durationSeconds": 98
     },
     {
-        "title": "Lover - ТАНЦУЙ (Official Lyrics Video)",
+        "title": "Танцуй",
         "artist": "Lover",
         "playlist": "Dead inside",
         "duration": "2:26",
@@ -2178,7 +2178,7 @@ const musicData = [
         "durationSeconds": 224
     },
     {
-        "title": "GONE.Fludd - Реквием Играет Тихо [prod. by MURDFLEX]",
+        "title": "Реквием Играет Тихо",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "2:34",
@@ -2206,14 +2206,14 @@ const musicData = [
         "durationSeconds": 220
     },
     {
-        "title": "GONE.Fludd - ДРИПСЭТ [prod. by LEEZEY]",
+        "title": "ДРИПСЭТ",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "2:48",
         "durationSeconds": 168
     },
     {
-        "title": "GONE.Fludd - САХАРНЫЙ ЧЕЛОВЕК [prod. by SWIFTNESS2H]",
+        "title": "САХАРНЫЙ ЧЕЛОВЕК",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "2:46",
@@ -2395,8 +2395,8 @@ const musicData = [
         "durationSeconds": 79
     },
     {
-        "title": "Kali Uchis - Moonlight (Official Music Video)",
-        "artist": "KaliUchisVEVO",
+        "title": "Moonlight (Official Music Video)",
+        "artist": "Kali Uchis",
         "playlist": "Dead inside",
         "duration": "3:08",
         "durationSeconds": 188
@@ -3040,7 +3040,7 @@ const musicData = [
     },
     {
         "title": "Бесприданница",
-        "artist": "DEAD BLONDE",
+        "artist": "DEAD BLONDE - Topic",
         "playlist": "Dead inside",
         "duration": "3:01",
         "durationSeconds": 181
@@ -3095,8 +3095,8 @@ const musicData = [
         "durationSeconds": 82
     },
     {
-        "title": "I Was Made For Lovin' You",
-        "artist": "Kiss",
+        "title": "Kiss - I Was Made For Lovin' You",
+        "artist": "KissVEVO",
         "playlist": "Dead inside",
         "duration": "3:59",
         "durationSeconds": 239
@@ -3105,8 +3105,8 @@ const musicData = [
         "title": "Новогодние игрушки (Remix)",
         "artist": "Аркадий Хоралов",
         "playlist": "Dead inside",
-        "duration": "3:41",
-        "durationSeconds": 221
+        "duration": "3:42",
+        "durationSeconds": 222
     },
     {
         "title": "Ногу свело! - Наши Юные Смешные Голоса | speed up/nightcore",
@@ -3152,7 +3152,7 @@ const musicData = [
     },
     {
         "title": "Тело",
-        "artist": "MARSIAGA",
+        "artist": "MARSIAGA - Topic",
         "playlist": "Dead inside",
         "duration": "3:43",
         "durationSeconds": 223
@@ -4488,11 +4488,11 @@ const musicData = [
         "durationSeconds": 116
     },
     {
-        "title": "We Fell Apart (Slowed)",
+        "title": "Bubblegum Bitch (Slowed)",
         "artist": "ANGUISH, AmbVsh, ily",
         "playlist": "Dead inside",
-        "duration": "2:36",
-        "durationSeconds": 156
+        "duration": "2:38",
+        "durationSeconds": 158
     },
     {
         "title": "Зайчик шнуфель   Послушай",
@@ -4635,7 +4635,7 @@ const musicData = [
         "durationSeconds": 92
     },
     {
-        "title": "Робот",
+        "title": "Robot",
         "artist": "t.A.T.u.",
         "playlist": "Dead inside",
         "duration": "3:52",
@@ -5405,11 +5405,11 @@ const musicData = [
         "durationSeconds": 115
     },
     {
-        "title": "hunter eyes (slowed)",
+        "title": "Look me in my hunter eyes (Slowed & Reverbed)",
         "artist": "laydownrot",
         "playlist": "Dead inside",
-        "duration": "1:46",
-        "durationSeconds": 106
+        "duration": "1:43",
+        "durationSeconds": 103
     },
     {
         "title": "Teenage Dirtbag",
@@ -8555,18 +8555,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CN_IntYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nmOIMJLFt2eatRkrw2caTTN3mPDQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPuGn9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3k3NXzTiaOePP2k8klJiv9dSgNc6w"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CODIntYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kUiUG1LZjWnPZJyzxkc5b1vrX2Dw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPyGn9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3ldaFvEziSFEjYS7NbYzroVx40saw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CODIntYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nUejJ0g1vJtl4-qZx_a9Wmpep5_g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CPyGn9YG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3m1GDauk-y-xe_mheRcSX-8Gmn0DA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CObIntYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mwxbwnTxT8qB-NdSSxxcDPrxdusg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIGHn9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3myKONMWUQ-BMLs3E7_xTYU7bh27g"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CObIntYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3k5_c4-647kjlEfi7f2JUE7NTRDsw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIKHn9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kk8Xgq35_hvZnRuqQxzo9_LBAuIg"
     }
 };
