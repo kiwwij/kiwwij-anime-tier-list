@@ -1982,14 +1982,14 @@ const musicData = [
         "durationSeconds": 245
     },
     {
-        "title": "Когда ты умрешь",
+        "title": "нексюша – Когда ты умрешь",
         "artist": "нексюша",
         "playlist": "Dead inside",
         "duration": "3:01",
         "durationSeconds": 181
     },
     {
-        "title": "Секрет",
+        "title": "The Limba - Секрет (Lyric video)",
         "artist": "The Limba",
         "playlist": "Dead inside",
         "duration": "2:48",
@@ -2080,7 +2080,7 @@ const musicData = [
         "durationSeconds": 98
     },
     {
-        "title": "Танцуй",
+        "title": "Lover - ТАНЦУЙ (Official Lyrics Video)",
         "artist": "Lover",
         "playlist": "Dead inside",
         "duration": "2:26",
@@ -2178,7 +2178,7 @@ const musicData = [
         "durationSeconds": 224
     },
     {
-        "title": "Реквием Играет Тихо",
+        "title": "GONE.Fludd - Реквием Играет Тихо [prod. by MURDFLEX]",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "2:34",
@@ -2206,14 +2206,14 @@ const musicData = [
         "durationSeconds": 220
     },
     {
-        "title": "ДРИПСЭТ",
+        "title": "GONE.Fludd - ДРИПСЭТ [prod. by LEEZEY]",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "2:48",
         "durationSeconds": 168
     },
     {
-        "title": "САХАРНЫЙ ЧЕЛОВЕК",
+        "title": "GONE.Fludd - САХАРНЫЙ ЧЕЛОВЕК [prod. by SWIFTNESS2H]",
         "artist": "GONE.Fludd",
         "playlist": "Dead inside",
         "duration": "2:46",
@@ -2395,8 +2395,8 @@ const musicData = [
         "durationSeconds": 79
     },
     {
-        "title": "Moonlight (Official Music Video)",
-        "artist": "Kali Uchis",
+        "title": "Kali Uchis - Moonlight (Official Music Video)",
+        "artist": "KaliUchisVEVO",
         "playlist": "Dead inside",
         "duration": "3:08",
         "durationSeconds": 188
@@ -8555,18 +8555,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLyyndYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3k5IbFIqz7TFKFTYEw_qs37i7f8TQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CN_IntYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nmOIMJLFt2eatRkrw2caTTN3mPDQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLyyndYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3n4PhuLAscqJOqyUDF5wsIqYCPn1w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CODIntYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kUiUG1LZjWnPZJyzxkc5b1vrX2Dw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CL2yndYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lc-O6H3JHApJlBbqvnB85lTZ7DVQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CODIntYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nUejJ0g1vJtl4-qZx_a9Wmpep5_g"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMGyndYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3neGISmKFRY2Yrte83da4RuQQspew"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CObIntYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mwxbwnTxT8qB-NdSSxxcDPrxdusg"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMGyndYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nlcGF6t1NWOCNgpXmo2kW6iVt8tg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CObIntYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3k5_c4-647kjlEfi7f2JUE7NTRDsw"
     }
 };
