@@ -3040,7 +3040,7 @@ const musicData = [
     },
     {
         "title": "Бесприданница",
-        "artist": "DEAD BLONDE - Topic",
+        "artist": "DEAD BLONDE",
         "playlist": "Dead inside",
         "duration": "3:01",
         "durationSeconds": 181
@@ -3095,8 +3095,8 @@ const musicData = [
         "durationSeconds": 82
     },
     {
-        "title": "Kiss - I Was Made For Lovin' You",
-        "artist": "KissVEVO",
+        "title": "I Was Made For Lovin' You",
+        "artist": "Kiss",
         "playlist": "Dead inside",
         "duration": "3:59",
         "durationSeconds": 239
@@ -3105,8 +3105,8 @@ const musicData = [
         "title": "Новогодние игрушки (Remix)",
         "artist": "Аркадий Хоралов",
         "playlist": "Dead inside",
-        "duration": "3:42",
-        "durationSeconds": 222
+        "duration": "3:41",
+        "durationSeconds": 221
     },
     {
         "title": "Ногу свело! - Наши Юные Смешные Голоса | speed up/nightcore",
@@ -3152,7 +3152,7 @@ const musicData = [
     },
     {
         "title": "Тело",
-        "artist": "MARSIAGA - Topic",
+        "artist": "MARSIAGA",
         "playlist": "Dead inside",
         "duration": "3:43",
         "durationSeconds": 223
@@ -4488,11 +4488,11 @@ const musicData = [
         "durationSeconds": 116
     },
     {
-        "title": "Bubblegum Bitch (Slowed)",
+        "title": "We Fell Apart (Slowed)",
         "artist": "ANGUISH, AmbVsh, ily",
         "playlist": "Dead inside",
-        "duration": "2:38",
-        "durationSeconds": 158
+        "duration": "2:36",
+        "durationSeconds": 156
     },
     {
         "title": "Зайчик шнуфель   Послушай",
@@ -4635,7 +4635,7 @@ const musicData = [
         "durationSeconds": 92
     },
     {
-        "title": "Robot",
+        "title": "Робот",
         "artist": "t.A.T.u.",
         "playlist": "Dead inside",
         "duration": "3:52",
@@ -5405,11 +5405,11 @@ const musicData = [
         "durationSeconds": 115
     },
     {
-        "title": "Look me in my hunter eyes (Slowed & Reverbed)",
+        "title": "hunter eyes (slowed)",
         "artist": "laydownrot",
         "playlist": "Dead inside",
-        "duration": "1:43",
-        "durationSeconds": 103
+        "duration": "1:46",
+        "durationSeconds": 106
     },
     {
         "title": "Teenage Dirtbag",
@@ -8555,18 +8555,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPuGn9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3k3NXzTiaOePP2k8klJiv9dSgNc6w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPL1n9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nYKKc59ZTWYNWafp5qZD8V4WHX5Q"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPyGn9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3ldaFvEziSFEjYS7NbYzroVx40saw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPL1n9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lUEGfBrYsUaOavY__VZgnNxE4xZQ"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CPyGn9YG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3m1GDauk-y-xe_mheRcSX-8Gmn0DA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CPP1n9YG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nFiNJ0q9UpfgvckEP8lc_tjKKDpw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIGHn9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3myKONMWUQ-BMLs3E7_xTYU7bh27g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CPf1n9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kz_JlVx3SAmJE45uXpUJ-NqoF5wQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIKHn9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kk8Xgq35_hvZnRuqQxzo9_LBAuIg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CPf1n9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kpi2kqQhjDE1TiwvAYKdmR50Y_Yw"
     }
 };
