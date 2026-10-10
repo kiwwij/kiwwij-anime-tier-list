@@ -8546,27 +8546,55 @@ const musicData = [
         "playlist": "Sewerslvt",
         "duration": "10:56",
         "durationSeconds": 656
+    },
+    {
+        "title": "pragmatica",
+        "artist": "mindvacy",
+        "playlist": "Sewerslvt",
+        "duration": "5:21",
+        "durationSeconds": 321
+    },
+    {
+        "title": "deficit",
+        "artist": "mindvacy",
+        "playlist": "Sewerslvt",
+        "duration": "3:24",
+        "durationSeconds": 204
+    },
+    {
+        "title": "self. immolate. isolate.",
+        "artist": "mindvacy",
+        "playlist": "Sewerslvt",
+        "duration": "7:04",
+        "durationSeconds": 424
+    },
+    {
+        "title": "i close my eyes, but i can still see their broken faces",
+        "artist": "mindvacy",
+        "playlist": "Sewerslvt",
+        "duration": "7:37",
+        "durationSeconds": 457
     }
 ];
 const musicStats = {
     "totalViews": 1128,
-    "totalDurationSec": 210880,
+    "totalDurationSec": 212286,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CP7Dp9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3m0GEWMiJ3-cYwHtttrTeRiItsYlw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNGfqNYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mYd3gHZD24zGNJwjZWxaW8Oa5FUA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CP_Dp9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3l_C-x3ul0vwmhnU0-HTASKLaksoQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNGfqNYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nID3hy01hgBWu1KRkRPLvC4Dn3TQ"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CP_Dp9YG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lQolfT_DAEkPB4K4uxCDH6qK6u8A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNKfqNYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lTQnsqeqQ1YMCHSY6M8vcZO2AQZg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIPEp9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lg3d312IaBgM3Rc2qmy6CXeXw6_w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNWfqNYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lkDgP0ymJvnz3ZDQdfh_-TfEW_ig"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIPEp9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lrnIirMvPHK0KjPkGnfqg1l3AEfQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNafqNYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lYKvghYwpoHh-AZZdJ0ExgKCV_Pw"
     }
 };
