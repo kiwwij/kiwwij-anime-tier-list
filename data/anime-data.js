@@ -2747,6 +2747,21 @@ const tierListData = {
                 ruTitle: "Досье лорда Эль-Меллоя II — Спешл",
                 review: "Ммм... неплохой фильм. Опять же только для фанатов фейт, в целом пропустив его ничего в основной сюжетной линии не упустите. Ах да, все беді из-за женщин."
             },
+            {
+                title: "Rascal Does Not Dream of Santa Claus",
+                ruTitle: "Этот глупый свин не понимает мечту Санта-Клауса",
+                review: "Это аниме всё скучнее и скучнее с каждым сезоном и фильмом. Так я думал, когда дропнул этот сезон. Но по итогу досмотрел и мне понравилось, всё также как я прошлые сезоны."
+            },
+            {
+                title: "Romantic Killer",
+                ruTitle: "Романтический убийца",
+                review: "Крнжовая романтика, но кринж не такой уж и плохой. Вообщем, терпимо."
+            },
+            {
+                title: "The Witcher: Sirens of the Deep",
+                ruTitle: "Ведьмак: Зов морской бездны",
+                review: "Ну нормально, но не более."
+            },
         ],
         'D': [
             {
@@ -2858,14 +2873,59 @@ const tierListData = {
             },
         ],
         'F': [
+            {
+                title: "A Wild Last Boss Appeared! Season 2",
+                ruTitle: "Шальной последний босс явился! 2",
+                review: ""
+            },
+            {
+                title: "The Ramparts of Ice Season 2",
+                ruTitle: "Ледяная стена 2",
+                review: ""
+            },
+            {
+                title: "Magical★Explorer: Eroge no Yuujin Chara ni Tensei Shitakedo, Game Chishiki Tsukatte Jiyuu ni Ikiru",
+                ruTitle: "Магический исследователь: Переродившись в друга главного героя эроге, я буду жить свободно, используя мои знания эроге",
+                review: ""
+            },
+            {
+                title: "Seitokai ni mo Ana wa Aru!",
+                ruTitle: "Даже у студсовета есть косяки!",
+                review: ""
+            },
+            {
+                title: "Romelia Senki",
+                ruTitle: "Военная хроника Ромелии",
+                review: ""
+            },
+            {
+                title: "Doumo, Suki na Hito ni Horegusuri wo Irai sareta Majo desu.",
+                ruTitle: "Я ведьма, которую возлюбленный попросил создать любовное зелье",
+                review: ""
+            },
+            {
+                title: "Chii Fuyo",
+                ruTitle: "Изгнанный читер-чародей наслаждается беззаботной второй жизнью: Я могу накладывать «очки усиления» не только на оружие, но и на что угодно, в любой момент отменяя эффект по собственной воле, а с теми, кто остался, всё нормально?",
+                review: ""
+            },
+            {
+                title: "Psyren",
+                ruTitle: "Псайрен",
+                review: ""
+            },
+            {
+                title: "Tantei wa Mou, Shindeiru. Season 2",
+                ruTitle: "Детектив уже мертв 2",
+                review: ""
+            },
+            {
+                title: "Hotaru no Yomeiri",
+                ruTitle: "Свадьба светлячков",
+                review: ""
+            },
             // {
-            //     title: "A Wild Last Boss Appeared! Season 2",
-            //     ruTitle: "Шальной последний босс явился! 2",
-            //     review: ""
-            // },
-            // {
-            //     title: "Naze Boku no Sekai wo Daremo Oboeteinai no ka?",
-            //     ruTitle: "Почему все забыли мой мир?",
+            //     title: "",
+            //     ruTitle: "",
             //     review: ""
             // },
         ]

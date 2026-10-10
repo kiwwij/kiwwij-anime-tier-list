@@ -19,7 +19,7 @@ const LOCAL_ONLY_GAMES = [
     "Evil School",
     "The Song of Saya",
     "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
-    // "",
+    "AION 2",
     // "",
     // "",
 ];

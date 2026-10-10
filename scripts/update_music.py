@@ -35,24 +35,33 @@ for pl in playlists:
         total_playlist_views += clean_views
         print(f"Плейлист {pl['name']}: {clean_views} (сырые данные: {raw_views})")
 
-        for track in response['tracks']:
-            if track.get('title') and track.get('artists'):
-                seconds = track.get('duration_seconds')
-                if not seconds and 'duration' in track:
-                    parts = track['duration'].split(':')
-                    if len(parts) == 2:
-                        seconds = int(parts[0]) * 60 + int(parts[1])
-                    elif len(parts) == 3:
-                        seconds = int(parts[0]) * 3600 + int(parts[1]) * 60 + int(parts[2])
-                
-                if seconds:
-                    total_duration_seconds += seconds
+        for track in response.get('tracks', []):
+            try:
+                if track.get('title'):
+                    artists_data = track.get('artists') or []
+                    artist_name = artists_data[0]['name'] if artists_data and 'name' in artists_data[0] else "Unknown"
+                    
+                    duration_str = track.get('duration')
+                    seconds = track.get('duration_seconds')
+                    
+                    if not seconds and duration_str:
+                        parts = duration_str.split(':')
+                        if len(parts) == 2:
+                            seconds = int(parts[0]) * 60 + int(parts[1])
+                        elif len(parts) == 3:
+                            seconds = int(parts[0]) * 3600 + int(parts[1]) * 60 + int(parts[2])
+                    
+                    if seconds:
+                        total_duration_seconds += seconds
 
-                all_tracks.append({
-                    "title": track['title'],
-                    "artist": track['artists'][0]['name'],
-                    "playlist": pl["name"]
-                })
+                    all_tracks.append({
+                        "title": track['title'],
+                        "artist": artist_name,
+                        "playlist": pl["name"]
+                    })
+            except Exception as e:
+                print(f"⚠️ Пропущен трек в плейлисте {pl['name']} из-за ошибки: {e}")
+                
     except Exception as e:
         print(f"Ошибка с плейлистом {pl['name']}: {e}")
 

@@ -74,6 +74,11 @@ const mediaData = [
     { "title": "Unabomber", "ruTitle": "Унабомбер", "year": "2026", "myRating": 6, "imdbRating": 6.2, "imdbLink": "https://www.imdb.com/title/tt6933238/" },
     { "title": "Brothers", "ruTitle": "Братья", "year": "2009", "myRating": 7, "imdbRating": 7.1, "imdbLink": "https://www.imdb.com/title/tt0765010/" },
     { "title": "Na derevnyu dedushke", "ruTitle": "На деревню дедушке", "year": "2025", "myRating": 5, "imdbRating": 5.5, "imdbLink": "https://www.imdb.com/title/tt34322117/" },
+    { "title": "Offlayn", "ruTitle": "Оффлайн", "year": "2022", "myRating": 7, "imdbRating": 7.1, "imdbLink": "https://www.imdb.com/title/tt15866282/" },
+    { "title": "Onslaught", "ruTitle": "Натиск", "year": "2026", "myRating": 6, "imdbRating": 6.0, "imdbLink": "https://www.imdb.com/title/tt32268691/" },
+    // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
+    // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
+    // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
 ];

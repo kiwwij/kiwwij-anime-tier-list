@@ -62,28 +62,34 @@ def main():
             total_playlist_views += clean_views
             
             for track in response.get('tracks', []):
-                if not track.get('title'): 
-                    continue
+                try:
+                    if not track.get('title'): 
+                        continue
 
-                seconds = track.get('duration_seconds')
-                if not seconds and track.get('duration'):
-                    seconds = parse_duration(track['duration'])
-                
-                if seconds: 
-                    total_duration_seconds += seconds
+                    duration_str = track.get('duration')
+                    seconds = track.get('duration_seconds')
+                    
+                    if not seconds and duration_str:
+                        seconds = parse_duration(duration_str)
+                    
+                    if seconds: 
+                        total_duration_seconds += seconds
 
-                artists_data = track.get('artists', [])
-                artists_names = [artist['name'] for artist in artists_data if 'name' in artist]
-                
-                final_artist_string = ", ".join(artists_names) if artists_names else "Unknown"
+                    artists_data = track.get('artists') or []
+                    artists_names = [artist['name'] for artist in artists_data if artist and 'name' in artist]
+                    
+                    final_artist_string = ", ".join(artists_names) if artists_names else "Unknown"
 
-                all_tracks.append({
-                    "title": track['title'],
-                    "artist": final_artist_string,
-                    "playlist": pl["name"],
-                    "duration": track.get('duration', '0:00'),
-                    "durationSeconds": seconds or 0
-                })
+                    all_tracks.append({
+                        "title": track['title'],
+                        "artist": final_artist_string,
+                        "playlist": pl["name"],
+                        "duration": duration_str or "0:00",
+                        "durationSeconds": seconds or 0
+                    })
+                except Exception as e:
+                    print(f"⚠️ Пропущен трек в плейлисте {pl['name']} из-за ошибки: {e}")
+                    
         except Exception as e:
             print(f"❌ ОШИБКА с плейлистом {pl['name']}: {e}")
 
