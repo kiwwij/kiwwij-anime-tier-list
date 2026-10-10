@@ -3105,8 +3105,8 @@ const musicData = [
         "title": "Новогодние игрушки (Remix)",
         "artist": "Аркадий Хоралов",
         "playlist": "Dead inside",
-        "duration": "3:42",
-        "durationSeconds": 222
+        "duration": "3:41",
+        "durationSeconds": 221
     },
     {
         "title": "Ногу свело! - Наши Юные Смешные Голоса | speed up/nightcore",
@@ -4488,11 +4488,11 @@ const musicData = [
         "durationSeconds": 116
     },
     {
-        "title": "Bubblegum Bitch (Slowed)",
+        "title": "We Fell Apart (Slowed)",
         "artist": "ANGUISH, AmbVsh, ily",
         "playlist": "Dead inside",
-        "duration": "2:38",
-        "durationSeconds": 158
+        "duration": "2:36",
+        "durationSeconds": 156
     },
     {
         "title": "Зайчик шнуфель   Послушай",
@@ -4635,7 +4635,7 @@ const musicData = [
         "durationSeconds": 92
     },
     {
-        "title": "Robot",
+        "title": "Робот",
         "artist": "t.A.T.u.",
         "playlist": "Dead inside",
         "duration": "3:52",
@@ -5405,11 +5405,11 @@ const musicData = [
         "durationSeconds": 115
     },
     {
-        "title": "Look me in my hunter eyes (Slowed & Reverbed)",
+        "title": "hunter eyes (slowed)",
         "artist": "laydownrot",
         "playlist": "Dead inside",
-        "duration": "1:43",
-        "durationSeconds": 103
+        "duration": "1:46",
+        "durationSeconds": 106
     },
     {
         "title": "Teenage Dirtbag",
@@ -8555,18 +8555,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CP_2pdYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lVaoI9gMKvHLqkcmVsIXUqDA2cGg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJSUptYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3moi0GzAKAccOMi7Mf_1uUwnwxdYw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CP_2pdYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mNmsC601zK0xRtB_Z3S6yz3iy0aA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJSUptYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3leIdxpgrDqyMRjs3Ae4yEdpNK3fg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CID3pdYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3k8XkcTRsZt4UgdzHSaKkCW9kB_8A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJWUptYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kUbOY8x_UmpXGFBt48ddqWmrWTCg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIP3pdYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lRWCC1_0R3oGD510d6XPRipUHPBg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJmUptYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nv7T_J3EYY_lQktKZQUO258CUaRw"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIP3pdYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mpp9YE6llR15d5v-ZivQp6QgnAgw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJqUptYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kGqo47ec-Ioul5TV-K2e78w0Z8Eg"
     }
 };
