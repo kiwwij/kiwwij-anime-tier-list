@@ -561,13 +561,6 @@ const musicData = [
         "durationSeconds": 255
     },
     {
-        "title": "Fullmetal Alchemist: Brotherhood - Opening 1 [4K 60FPS | Creditless | CC]",
-        "artist": "Neobrane",
-        "playlist": "Off Screen",
-        "duration": "2:03",
-        "durationSeconds": 123
-    },
-    {
         "title": "Волчица и пряности - Opening (Русский дубляж)",
         "artist": "Anton Kalashnikov",
         "playlist": "Off Screen",
@@ -897,13 +890,6 @@ const musicData = [
         "durationSeconds": 294
     },
     {
-        "title": "The Melancholy of Haruhi Suzumiya - Opening 2 【Super Driver】 4K 60FPS Creditless | CC",
-        "artist": "Neobrane",
-        "playlist": "Off Screen",
-        "duration": "2:06",
-        "durationSeconds": 126
-    },
-    {
         "title": "DARAKENA",
         "artist": "Iori Nomizu",
         "playlist": "Off Screen",
@@ -1017,20 +1003,6 @@ const musicData = [
     },
     {
         "title": "Bakemonogatari - Opening 1 【staple stable】 4K 60FPS Creditless | CC",
-        "artist": "Neobrane",
-        "playlist": "Off Screen",
-        "duration": "2:06",
-        "durationSeconds": 126
-    },
-    {
-        "title": "Bakemonogatari - Opening 2 【Kaerimichi】 4K 60FPS Creditless | CC",
-        "artist": "Neobrane",
-        "playlist": "Off Screen",
-        "duration": "2:06",
-        "durationSeconds": 126
-    },
-    {
-        "title": "Bakemonogatari - Opening 3 【ambivalent world】 4K 60FPS Creditless | CC",
         "artist": "Neobrane",
         "playlist": "Off Screen",
         "duration": "2:06",
@@ -3105,8 +3077,8 @@ const musicData = [
         "title": "Новогодние игрушки (Remix)",
         "artist": "Аркадий Хоралов",
         "playlist": "Dead inside",
-        "duration": "3:42",
-        "durationSeconds": 222
+        "duration": "3:41",
+        "durationSeconds": 221
     },
     {
         "title": "Ногу свело! - Наши Юные Смешные Голоса | speed up/nightcore",
@@ -4488,11 +4460,11 @@ const musicData = [
         "durationSeconds": 116
     },
     {
-        "title": "Bubblegum Bitch (Slowed)",
+        "title": "We Fell Apart (Slowed)",
         "artist": "ANGUISH, AmbVsh, ily",
         "playlist": "Dead inside",
-        "duration": "2:38",
-        "durationSeconds": 158
+        "duration": "2:36",
+        "durationSeconds": 156
     },
     {
         "title": "Зайчик шнуфель   Послушай",
@@ -4635,7 +4607,7 @@ const musicData = [
         "durationSeconds": 92
     },
     {
-        "title": "Robot",
+        "title": "Робот",
         "artist": "t.A.T.u.",
         "playlist": "Dead inside",
         "duration": "3:52",
@@ -5405,11 +5377,11 @@ const musicData = [
         "durationSeconds": 115
     },
     {
-        "title": "Look me in my hunter eyes (Slowed & Reverbed)",
+        "title": "hunter eyes (slowed)",
         "artist": "laydownrot",
         "playlist": "Dead inside",
-        "duration": "1:43",
-        "durationSeconds": 103
+        "duration": "1:46",
+        "durationSeconds": 106
     },
     {
         "title": "Teenage Dirtbag",
@@ -8578,23 +8550,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1128,
-    "totalDurationSec": 212286,
+    "totalDurationSec": 211785,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPj2qtYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lv52Pmv5Qua-S1GJzgEoMGxpbMNQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNTVq9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3l7Cr2QsNnDJXpi5VCpax1YVeguzw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPn2qtYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3n1Q3YHzXh2Sxyk1hck7C-wNYXVdw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNTVq9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3me6_aO166lEzpEmCwJAxdAxCpgzw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CPn2qtYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lsardq7kiHW5lFh_WgZsFPBddmrA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CNXVq9YG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lUFxkAn5oAMC5AX1-e_CzTxa2RcA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CP72qtYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3k4VNS1po7ib63dwVQYoMC8hcOPbQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNnVq9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lqxkgtuf0cW-sFV5wdqFRf1W8EOQ"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CP72qtYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3k25zkJFnUXsNyz1p0utmgb_Lz2WQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNnVq9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nigMXuuT_DJUxkQyMPguOj1_CITA"
     }
 };
