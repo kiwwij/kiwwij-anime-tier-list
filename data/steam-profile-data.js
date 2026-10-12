@@ -38,20 +38,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/3393110"
         },
         {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.4,
+            "hours": 24.6,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
+        },
+        {
             "appid": 4147820,
             "name": "Your Mom",
             "playtime_2weeks": 0.4,
             "hours": 8.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4147820/header.jpg",
             "url": "https://store.steampowered.com/app/4147820"
-        },
-        {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.4,
-            "hours": 24.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
         },
         {
             "appid": 920490,
@@ -129,14 +129,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Экшены",
-                "Приключенческие игры",
-                "Казуальные игры",
-                "Многопользовательские игры",
-                "Гонки",
-                "Ролевые игры",
-                "Стратегии",
-                "Бесплатные"
+                "Без жанра"
             ]
         },
         {
@@ -245,7 +238,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры"
             ]
         },
         {
