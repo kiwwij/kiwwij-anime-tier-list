@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/f2081237d233374a1897ff24160d0fc516aa7ccb_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E",
+        "status": "Away",
+        "statusColor": "#FFC107",
         "level": 41,
         "age": 6.7
     },
@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 292030,
             "name": "The Witcher 3: Wild Hunt — Remastered",
-            "playtime_2weeks": 13.4,
+            "playtime_2weeks": 11.9,
             "hours": 19.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
             "url": "https://store.steampowered.com/app/292030"
@@ -56,7 +56,7 @@ const steamData = {
         {
             "appid": 920490,
             "name": "Driver Booster for Steam",
-            "playtime_2weeks": 0.3,
+            "playtime_2weeks": 0.1,
             "hours": 17.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
             "url": "https://store.steampowered.com/app/920490"
@@ -238,7 +238,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры"
             ]
         },
         {
