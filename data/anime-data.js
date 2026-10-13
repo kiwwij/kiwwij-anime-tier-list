@@ -2923,6 +2923,36 @@ const tierListData = {
                 ruTitle: "Свадьба светлячков",
                 review: ""
             },
+            {
+                title: "The Vermilion Mask",
+                ruTitle: "Маска вермильона",
+                review: ""
+            },
+            {
+                title: "Kyoufu Collector",
+                ruTitle: "Коллекционер ужасов",
+                review: ""
+            },
+            {
+                title: "Lent Magic Point Is Forcibly Collected by Revolving Payment",
+                ruTitle: "Одолженная мной магия будет принудительно изъята посредством возобновляемого кредита",
+                review: ""
+            },
+            {
+                title: "Seishun Buta Yarou wa Dear Friend no Yume wo Minai",
+                ruTitle: "Этот глупый свин не понимает мечту дорогого друга",
+                review: ""
+            },
+            {
+                title: "Cyberpunk: Edgerunners 2",
+                ruTitle: "Киберпанк: Бегущие по краю 2",
+                review: ""
+            },
+            {
+                title: "Made in Abyss: Mezameru Shinpi",
+                ruTitle: "Созданный в Бездне: Тайна пробуждения",
+                review: ""
+            },
             // {
             //     title: "",
             //     ruTitle: "",

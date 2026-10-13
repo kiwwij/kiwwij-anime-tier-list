@@ -76,7 +76,7 @@ const mediaData = [
     { "title": "Na derevnyu dedushke", "ruTitle": "На деревню дедушке", "year": "2025", "myRating": 5, "imdbRating": 5.5, "imdbLink": "https://www.imdb.com/title/tt34322117/" },
     { "title": "Offlayn", "ruTitle": "Оффлайн", "year": "2022", "myRating": 7, "imdbRating": 7.1, "imdbLink": "https://www.imdb.com/title/tt15866282/" },
     { "title": "Onslaught", "ruTitle": "Натиск", "year": "2026", "myRating": 6, "imdbRating": 6.0, "imdbLink": "https://www.imdb.com/title/tt32268691/" },
-    // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
+    { "title": "Spider-Man: Brand New Day", "ruTitle": "Человек-паук: Новый день", "year": "2026", "myRating": 8, "imdbRating": 7.9, "imdbLink": "https://www.imdb.com/title/tt22084616/" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
     // { "title": "", "ruTitle": "", "year": "", "myRating": 0, "imdbRating": 0.0, "imdbLink": "" },
