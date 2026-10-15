@@ -8567,27 +8567,76 @@ const musicData = [
         "playlist": "Sewerslvt",
         "duration": "3:38",
         "durationSeconds": 218
+    },
+    {
+        "title": "amnesia.",
+        "artist": "mindvacy",
+        "playlist": "Sewerslvt",
+        "duration": "2:45",
+        "durationSeconds": 165
+    },
+    {
+        "title": "recall.",
+        "artist": "mindvacy",
+        "playlist": "Sewerslvt",
+        "duration": "2:18",
+        "durationSeconds": 138
+    },
+    {
+        "title": "lament.",
+        "artist": "mindvacy",
+        "playlist": "Sewerslvt",
+        "duration": "5:08",
+        "durationSeconds": 308
+    },
+    {
+        "title": "null.",
+        "artist": "mindvacy",
+        "playlist": "Sewerslvt",
+        "duration": "6:10",
+        "durationSeconds": 370
+    },
+    {
+        "title": "social failure.",
+        "artist": "mindvacy",
+        "playlist": "Sewerslvt",
+        "duration": "5:45",
+        "durationSeconds": 345
+    },
+    {
+        "title": "chromatic overflow.",
+        "artist": "mindvacy",
+        "playlist": "Sewerslvt",
+        "duration": "4:07",
+        "durationSeconds": 247
+    },
+    {
+        "title": "microcosm",
+        "artist": "mindvacy",
+        "playlist": "Sewerslvt",
+        "duration": "3:40",
+        "durationSeconds": 220
     }
 ];
 const musicStats = {
     "totalViews": 1183,
-    "totalDurationSec": 212987,
+    "totalDurationSec": 214780,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CI7rwdYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3k7tgocQP-1Jub4vwm_NAFBUxAh-w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKfCwtYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3n8fnoVAVhhAIZFNS8ApNuv9FuK8w"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CI7rwdYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3ktGxS4o77SLQeKUZ0xBIzrak1nfw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKfCwtYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mYsFvuRjQkYcaMgJ-uSp3KoAqGDg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CI_rwdYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nJQTtFpZ350gilIJckgcHE-e-6KQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKfCwtYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3m9d_AIB-Gu4G-7hXx54BHl4hlz5g"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJPrwdYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3knEwEeOm-q8DEu5MPqVH5883QtzA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKvCwtYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3m2FZMsEK7_6Oxrar7wFJm2WAt2YA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJPrwdYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nDZrtLaln890eT7FuABoYb-1Z07Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKvCwtYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mBi_QiS24V4DLcD1GvTN5_XJx6LQ"
     }
 };
