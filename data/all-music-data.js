@@ -407,6 +407,13 @@ const musicData = [
         "durationSeconds": 139
     },
     {
+        "title": "ДАЛЬШЕ БОГА НЕТ",
+        "artist": "ТРОЕТОЧИЕ, Поколено",
+        "playlist": "Main",
+        "duration": "2:27",
+        "durationSeconds": 147
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -8317,13 +8324,6 @@ const musicData = [
         "durationSeconds": 475
     },
     {
-        "title": "02. Sewerslvt - U.nfortunate, but what can you do about it? [gin$engtrillshit]",
-        "artist": "Sewerslvt Archive",
-        "playlist": "Sewerslvt",
-        "duration": "2:47",
-        "durationSeconds": 167
-    },
-    {
         "title": "04. Sewerslvt - Pretty Cvnt",
         "artist": "Sewerslvt Archive",
         "playlist": "Sewerslvt",
@@ -8620,23 +8620,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1194,
-    "totalDurationSec": 214780,
+    "totalDurationSec": 214760,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIX0xtYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kapHrLZy9Y2f6W0xn6gbum5YwzLw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPmox9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3ma2RxVDnfuTblP8OBo1pW_Qb9Eog"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CIX0xtYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nWrdVrk6HD5RqU8EzIP8YaVlgH5Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPmox9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kdgOOzciRctk0_RnpTj2GH2TW67A"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CIX0xtYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3lRgSA1m5pweOpZIp4BpChOX8yyxQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CPqox9YG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nWtiCIFS3u7_gscLp4kVqtBgYRIA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIn0xtYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kECyB58ztzYD-LtPT3X6ToGDnXRw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CP2ox9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3khWIpNOUqgg3NECbceV1tO50xATA"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIr0xtYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lOPyRIKvi6Gbf966f6AXA9SIAR7A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CP6ox9YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kiSpz9EIdF2P1ZPKsygkT9eTka7Q"
     }
 };
