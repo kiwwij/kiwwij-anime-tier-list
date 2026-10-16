@@ -289,9 +289,19 @@ const musicData = [
         "title": "Луна",
         "artist": "Violetta Sokolova",
         "playlist": "Main"
+    },
+    {
+        "title": "ДАЛЬШЕ БОГА НЕТ",
+        "artist": "ТРОЕТОЧИЕ",
+        "playlist": "Main"
+    },
+    {
+        "title": "собакам тут не место",
+        "artist": "ева киллер",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 22,
-    "totalDurationSec": 7921
+    "totalDurationSec": 8178
 };
