@@ -414,6 +414,13 @@ const musicData = [
         "durationSeconds": 147
     },
     {
+        "title": "собакам тут не место",
+        "artist": "ева киллер, мая койка, ника кабина",
+        "playlist": "Main",
+        "duration": "1:50",
+        "durationSeconds": 110
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -1042,6 +1049,13 @@ const musicData = [
         "playlist": "Off Screen",
         "duration": "1:49",
         "durationSeconds": 109
+    },
+    {
+        "title": "呪わしてね？ - Of course I'll curse you, right?",
+        "artist": "Uketsu",
+        "playlist": "Off Screen",
+        "duration": "3:31",
+        "durationSeconds": 211
     },
     {
         "title": "Лёд",
@@ -7414,6 +7428,13 @@ const musicData = [
         "durationSeconds": 135
     },
     {
+        "title": "собакам тут не место",
+        "artist": "ева киллер, мая койка, ника кабина",
+        "playlist": "Dead inside",
+        "duration": "1:50",
+        "durationSeconds": 110
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -8620,23 +8641,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1194,
-    "totalDurationSec": 214760,
+    "totalDurationSec": 215191,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COy6yNYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kT7CA2Yl4oMC45SqzCxE1fBQ3XFA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIejydYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nHXweuDiE1GDYm68jrmOUcUo5PiQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CO26yNYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nnrWJ40R2BVeNtSMvYCA8PC21Cpw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CIejydYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nesUnSaWjxYdLmywUyh1gsrhhDvw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CO26yNYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3mCgu_KHOSRYYPhPWeAKyRMblN1xA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CIijydYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3k1OiJcLiTDQDBfPgRxczziqihfIg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CPK6yNYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mNgc_Bn3pVNpkg3yrpTjdodWXCPQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIyjydYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kU3YN6a-hpba3Me2Fmutq5o4Wt2A"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CPK6yNYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mPqgqJA2mN46SUisHt2eDEbUvqMA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIyjydYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3l-IoIA3t85L7_tTWUjArElmBrQFg"
     }
 };
