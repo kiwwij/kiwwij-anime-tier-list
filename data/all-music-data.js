@@ -8646,18 +8646,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COO1zNYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3noHV3KN_1ePbzJu41e5gaSGn1Pvg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIbCzNYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kYodRfSB4H1HcDnNhDCXeu7XuYsQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COS1zNYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kAazS_i53Sui9cWHjS5NAi-QMiSA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CIbCzNYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3k7SFKN2qIvvtn4lPeUF1JeGcLabg"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=COS1zNYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kjmBPHS8f2MgrJAbFD3-TVnLORow"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CIfCzNYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kgD-P34Qxw5whPxLxwfoBQuSWxtw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COi1zNYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3k8vlCGL9Xe6UN5lAFhpJJHa_W8Qw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIrCzNYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kujlAAr53ZccvIHj5i9owmItBXFw"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COi1zNYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kkXNcyenRZIw9gpG7GvtXBqX8KOw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIvCzNYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kVfTg6j47YmhcB3HhGWSkX_OK0pg"
     }
 };
