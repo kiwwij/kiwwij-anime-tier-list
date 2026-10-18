@@ -16,16 +16,16 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 22.2,
-            "hours": 3759.5,
+            "playtime_2weeks": 23.2,
+            "hours": 3761.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 292030,
             "name": "The Witcher 3: Wild Hunt — Remastered",
-            "playtime_2weeks": 11.8,
-            "hours": 23.1,
+            "playtime_2weeks": 13.3,
+            "hours": 24.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
             "url": "https://store.steampowered.com/app/292030"
         },
@@ -66,7 +66,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3759.5,
+            "hours": 3761.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
