@@ -291,11 +291,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "ДАЛЬШЕ БОГА НЕТ",
-        "artist": "ТРОЕТОЧИЕ",
-        "playlist": "Main"
-    },
-    {
         "title": "собакам тут не место",
         "artist": "ева киллер",
         "playlist": "Main"
@@ -303,5 +298,5 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 22,
-    "totalDurationSec": 8178
+    "totalDurationSec": 8031
 };
