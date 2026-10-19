@@ -30,14 +30,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/292030"
         },
         {
-            "appid": 3393110,
-            "name": "AION 2",
-            "playtime_2weeks": 0.9,
-            "hours": 0.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3393110/header.jpg",
-            "url": "https://store.steampowered.com/app/3393110"
-        },
-        {
             "appid": 4147820,
             "name": "Your Mom",
             "playtime_2weeks": 0.4,
@@ -48,7 +40,7 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.4,
+            "playtime_2weeks": 0.2,
             "hours": 24.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
