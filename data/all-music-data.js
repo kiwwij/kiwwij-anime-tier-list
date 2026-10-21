@@ -414,6 +414,230 @@ const musicData = [
         "durationSeconds": 110
     },
     {
+        "title": "вклубе",
+        "artist": "тёмный принц",
+        "playlist": "Main",
+        "duration": "1:40",
+        "durationSeconds": 100
+    },
+    {
+        "title": "тебе нравится",
+        "artist": "призрак крови, парапустяков",
+        "playlist": "Main",
+        "duration": "1:57",
+        "durationSeconds": 117
+    },
+    {
+        "title": "Колготки",
+        "artist": "trepet",
+        "playlist": "Main",
+        "duration": "1:25",
+        "durationSeconds": 85
+    },
+    {
+        "title": "Цветок",
+        "artist": "MORGENSHTERN",
+        "playlist": "Main",
+        "duration": "2:36",
+        "durationSeconds": 156
+    },
+    {
+        "title": "вся моя жизнь говно",
+        "artist": "CUPSIZE",
+        "playlist": "Main",
+        "duration": "2:51",
+        "durationSeconds": 171
+    },
+    {
+        "title": "детская травма",
+        "artist": "CUPSIZE",
+        "playlist": "Main",
+        "duration": "2:13",
+        "durationSeconds": 133
+    },
+    {
+        "title": "семнадцать ножевых",
+        "artist": "CUPSIZE",
+        "playlist": "Main",
+        "duration": "2:25",
+        "durationSeconds": 145
+    },
+    {
+        "title": "будка",
+        "artist": "CUPSIZE",
+        "playlist": "Main",
+        "duration": "4:09",
+        "durationSeconds": 249
+    },
+    {
+        "title": "следак",
+        "artist": "CUPSIZE",
+        "playlist": "Main",
+        "duration": "2:18",
+        "durationSeconds": 138
+    },
+    {
+        "title": "ЗППП",
+        "artist": "CUPSIZE",
+        "playlist": "Main",
+        "duration": "2:30",
+        "durationSeconds": 150
+    },
+    {
+        "title": "Sk8er Boi",
+        "artist": "Avril Lavigne",
+        "playlist": "Main",
+        "duration": "3:24",
+        "durationSeconds": 204
+    },
+    {
+        "title": "Тысячи этажей",
+        "artist": "Лоло, ребенокискусства",
+        "playlist": "Main",
+        "duration": "1:07",
+        "durationSeconds": 67
+    },
+    {
+        "title": "Моя квітнева розгубленість",
+        "artist": "Re-read",
+        "playlist": "Main",
+        "duration": "4:24",
+        "durationSeconds": 264
+    },
+    {
+        "title": "ты не одна",
+        "artist": "диссоциативное расстройство",
+        "playlist": "Main",
+        "duration": "1:57",
+        "durationSeconds": 117
+    },
+    {
+        "title": "Отпусти меня",
+        "artist": "ЯРЧЕ СОЛНЦА",
+        "playlist": "Main",
+        "duration": "3:22",
+        "durationSeconds": 202
+    },
+    {
+        "title": "прости я не знаю",
+        "artist": "Серега Пират",
+        "playlist": "Main",
+        "duration": "2:16",
+        "durationSeconds": 136
+    },
+    {
+        "title": "misery.",
+        "artist": "pupsies",
+        "playlist": "Main",
+        "duration": "2:47",
+        "durationSeconds": 167
+    },
+    {
+        "title": "ДИНАСТИЯ",
+        "artist": "VILLIAN, madk1d",
+        "playlist": "Main",
+        "duration": "2:31",
+        "durationSeconds": 151
+    },
+    {
+        "title": "Нет Тебя",
+        "artist": "9mice, K",
+        "playlist": "Main",
+        "duration": "3:38",
+        "durationSeconds": 218
+    },
+    {
+        "title": "целоваться",
+        "artist": "lightprey",
+        "playlist": "Main",
+        "duration": "1:55",
+        "durationSeconds": 115
+    },
+    {
+        "title": "прощай",
+        "artist": "k0vertessence",
+        "playlist": "Main",
+        "duration": "1:54",
+        "durationSeconds": 114
+    },
+    {
+        "title": "моё июльское остинато",
+        "artist": "#небеснаякараIV",
+        "playlist": "Main",
+        "duration": "2:16",
+        "durationSeconds": 136
+    },
+    {
+        "title": "револьвер",
+        "artist": "DJ ZUP RAlii",
+        "playlist": "Main",
+        "duration": "1:13",
+        "durationSeconds": 73
+    },
+    {
+        "title": "пока-пока",
+        "artist": "CUPSIZE",
+        "playlist": "Main",
+        "duration": "2:53",
+        "durationSeconds": 173
+    },
+    {
+        "title": "Meant To Be",
+        "artist": "Cuntsniffer, Broken Toy Airplanes",
+        "playlist": "Main",
+        "duration": "2:41",
+        "durationSeconds": 161
+    },
+    {
+        "title": "murder",
+        "artist": "tewiq",
+        "playlist": "Main",
+        "duration": "2:08",
+        "durationSeconds": 128
+    },
+    {
+        "title": "Луна",
+        "artist": "Violetta Sokolova",
+        "playlist": "Main",
+        "duration": "2:19",
+        "durationSeconds": 139
+    },
+    {
+        "title": "собакам тут не место",
+        "artist": "ева киллер, мая койка, ника кабина",
+        "playlist": "Main",
+        "duration": "1:50",
+        "durationSeconds": 110
+    },
+    {
+        "title": "прыгай, дура!",
+        "artist": "CUPSIZE",
+        "playlist": "Main",
+        "duration": "1:59",
+        "durationSeconds": 119
+    },
+    {
+        "title": "попал",
+        "artist": "tewiq",
+        "playlist": "Main",
+        "duration": "1:47",
+        "durationSeconds": 107
+    },
+    {
+        "title": "Общество Мертвых Поэтов",
+        "artist": "VILLIAN, Aarne",
+        "playlist": "Main",
+        "duration": "2:07",
+        "durationSeconds": 127
+    },
+    {
+        "title": "JETLAG",
+        "artist": "Violetta Sokolova",
+        "playlist": "Main",
+        "duration": "1:45",
+        "durationSeconds": 105
+    },
+    {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
         "artist": "AlexTheSchutz",
         "playlist": "Off Screen",
@@ -8669,23 +8893,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1250,
-    "totalDurationSec": 215656,
+    "totalDurationSec": 220233,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKPT4dYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lTP93FpF8sPG_d_LkRU4xF6Is4zg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIfi4tYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lFwOk6fl5d2FFIzQBEuCrfeY2qqg"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKTT4dYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lvVv4dR1D9n38NKIJE5Zhy3DH91A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CIfi4tYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3miEgBtL1GG8V0Zw94umBw2nrYIKQ"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CKTT4dYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3l6EaC2rvPUwjJOPNj6y2-FWx7bpQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CIfi4tYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3nzfaPKFEmRFiQyPjeWsl0TnRBBvQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKjT4dYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3n9PCJyOzGIVbXXEvRtDVWuoogIdg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIzi4tYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kyWxR3ZoBR-YDCq-dWkW2XCQUm1A"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKjT4dYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3knYGFdHL8wXm_oJ0hLIASQc2ALOA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIzi4tYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nOjcz4Bw158jeUgAeQVMZaF7MeKQ"
     }
 };
