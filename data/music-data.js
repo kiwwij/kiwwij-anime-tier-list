@@ -294,9 +294,169 @@ const musicData = [
         "title": "собакам тут не место",
         "artist": "ева киллер",
         "playlist": "Main"
+    },
+    {
+        "title": "вклубе",
+        "artist": "тёмный принц",
+        "playlist": "Main"
+    },
+    {
+        "title": "тебе нравится",
+        "artist": "призрак крови",
+        "playlist": "Main"
+    },
+    {
+        "title": "Колготки",
+        "artist": "trepet",
+        "playlist": "Main"
+    },
+    {
+        "title": "Цветок",
+        "artist": "MORGENSHTERN",
+        "playlist": "Main"
+    },
+    {
+        "title": "вся моя жизнь говно",
+        "artist": "CUPSIZE",
+        "playlist": "Main"
+    },
+    {
+        "title": "детская травма",
+        "artist": "CUPSIZE",
+        "playlist": "Main"
+    },
+    {
+        "title": "семнадцать ножевых",
+        "artist": "CUPSIZE",
+        "playlist": "Main"
+    },
+    {
+        "title": "будка",
+        "artist": "CUPSIZE",
+        "playlist": "Main"
+    },
+    {
+        "title": "следак",
+        "artist": "CUPSIZE",
+        "playlist": "Main"
+    },
+    {
+        "title": "ЗППП",
+        "artist": "CUPSIZE",
+        "playlist": "Main"
+    },
+    {
+        "title": "Sk8er Boi",
+        "artist": "Avril Lavigne",
+        "playlist": "Main"
+    },
+    {
+        "title": "Тысячи этажей",
+        "artist": "Лоло",
+        "playlist": "Main"
+    },
+    {
+        "title": "Моя квітнева розгубленість",
+        "artist": "Re-read",
+        "playlist": "Main"
+    },
+    {
+        "title": "ты не одна",
+        "artist": "диссоциативное расстройство",
+        "playlist": "Main"
+    },
+    {
+        "title": "Отпусти меня",
+        "artist": "ЯРЧЕ СОЛНЦА",
+        "playlist": "Main"
+    },
+    {
+        "title": "прости я не знаю",
+        "artist": "Серега Пират",
+        "playlist": "Main"
+    },
+    {
+        "title": "misery.",
+        "artist": "pupsies",
+        "playlist": "Main"
+    },
+    {
+        "title": "ДИНАСТИЯ",
+        "artist": "VILLIAN",
+        "playlist": "Main"
+    },
+    {
+        "title": "Нет Тебя",
+        "artist": "9mice",
+        "playlist": "Main"
+    },
+    {
+        "title": "целоваться",
+        "artist": "lightprey",
+        "playlist": "Main"
+    },
+    {
+        "title": "прощай",
+        "artist": "k0vertessence",
+        "playlist": "Main"
+    },
+    {
+        "title": "моё июльское остинато",
+        "artist": "#небеснаякараIV",
+        "playlist": "Main"
+    },
+    {
+        "title": "револьвер",
+        "artist": "DJ ZUP RAlii",
+        "playlist": "Main"
+    },
+    {
+        "title": "пока-пока",
+        "artist": "CUPSIZE",
+        "playlist": "Main"
+    },
+    {
+        "title": "Meant To Be",
+        "artist": "Cuntsniffer",
+        "playlist": "Main"
+    },
+    {
+        "title": "murder",
+        "artist": "tewiq",
+        "playlist": "Main"
+    },
+    {
+        "title": "Луна",
+        "artist": "Violetta Sokolova",
+        "playlist": "Main"
+    },
+    {
+        "title": "собакам тут не место",
+        "artist": "ева киллер",
+        "playlist": "Main"
+    },
+    {
+        "title": "прыгай, дура!",
+        "artist": "CUPSIZE",
+        "playlist": "Main"
+    },
+    {
+        "title": "попал",
+        "artist": "tewiq",
+        "playlist": "Main"
+    },
+    {
+        "title": "Общество Мертвых Поэтов",
+        "artist": "VILLIAN",
+        "playlist": "Main"
+    },
+    {
+        "title": "JETLAG",
+        "artist": "Violetta Sokolova",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 22,
-    "totalDurationSec": 8031
+    "totalDurationSec": 12608
 };
