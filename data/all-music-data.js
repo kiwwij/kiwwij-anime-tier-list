@@ -1079,6 +1079,27 @@ const musicData = [
         "durationSeconds": 100
     },
     {
+        "title": "In Love With Myself | Cyberpunk: Edgerunners 2 (Original Series Soundtrack)",
+        "artist": "Kalman Chodakiewitz, Eli Shiffman, Petite Meller",
+        "playlist": "Off Screen",
+        "duration": "2:55",
+        "durationSeconds": 175
+    },
+    {
+        "title": "Watson (feat. Oslo Green)",
+        "artist": "Petite Meller",
+        "playlist": "Off Screen",
+        "duration": "3:23",
+        "durationSeconds": 203
+    },
+    {
+        "title": "Leaving the City",
+        "artist": "Tsuneo Imahori",
+        "playlist": "Off Screen",
+        "duration": "2:37",
+        "durationSeconds": 157
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO, LXNER",
         "playlist": "Dead inside",
@@ -2122,13 +2143,6 @@ const musicData = [
         "durationSeconds": 96
     },
     {
-        "title": "ℂ𝕙𝕒𝕚𝕟𝕤𝕒𝕨 𝕄𝕒𝕟 𝔾𝕚𝕣𝕝𝕤 [ 𝟰𝗸 ] ℝ𝕖𝕒𝕝 𝕃𝕚𝕗𝕖 𝕍𝕖𝕣𝕤𝕚𝕠𝕟",
-        "artist": "Modelli AI",
-        "playlist": "Dead inside",
-        "duration": "2:15",
-        "durationSeconds": 135
-    },
-    {
         "title": "Little Dark Age (Official Video)",
         "artist": "MGMT",
         "playlist": "Dead inside",
@@ -2325,13 +2339,6 @@ const musicData = [
         "durationSeconds": 95
     },
     {
-        "title": "скинь котиков - кошечки хорошие лишнего не скажут🤍😺 (speed up)",
-        "artist": "twix1",
-        "playlist": "Dead inside",
-        "duration": "2:10",
-        "durationSeconds": 130
-    },
-    {
         "title": "[AMV]   Little Dark Age「Neon Genesis Evangelion」",
         "artist": "Václav Tomeš",
         "playlist": "Dead inside",
@@ -2479,13 +2486,6 @@ const musicData = [
         "durationSeconds": 174
     },
     {
-        "title": "Lalis Dream - Последний день лета",
-        "artist": "Aug 30, 2020",
-        "playlist": "Dead inside",
-        "duration": "2:30",
-        "durationSeconds": 150
-    },
-    {
         "title": "баночка с окурками",
         "artist": "КОСМОНАВТОВ НЕТ",
         "playlist": "Dead inside",
@@ -2512,20 +2512,6 @@ const musicData = [
         "playlist": "Dead inside",
         "duration": "1:49",
         "durationSeconds": 109
-    },
-    {
-        "title": "🖇💞Мы-Возможно (speed ap )💞🖇",
-        "artist": "…meоnikа…",
-        "playlist": "Dead inside",
-        "duration": "1:42",
-        "durationSeconds": 102
-    },
-    {
-        "title": "найтивыход - спектрофобия",
-        "artist": "Farrys Faresno",
-        "playlist": "Dead inside",
-        "duration": "4:08",
-        "durationSeconds": 248
     },
     {
         "title": "Lida & mzlff – КАК ДЕЛА (prod. by DK)",
@@ -4082,13 +4068,6 @@ const musicData = [
         "durationSeconds": 148
     },
     {
-        "title": "enveel - 2:00 (SPEED UP)",
-        "artist": "alone but not lonely",
-        "playlist": "Dead inside",
-        "duration": "1:47",
-        "durationSeconds": 107
-    },
-    {
         "title": "счастливы вместе",
         "artist": "нексюша, плм",
         "playlist": "Dead inside",
@@ -4374,13 +4353,6 @@ const musicData = [
         "playlist": "Dead inside",
         "duration": "2:08",
         "durationSeconds": 128
-    },
-    {
-        "title": "Get Jinxed (ft. Djerv) | Official Music Video - League of Legends",
-        "artist": "League of Legends",
-        "playlist": "Dead inside",
-        "duration": "2:52",
-        "durationSeconds": 172
     },
     {
         "title": "Лиза",
@@ -5844,13 +5816,6 @@ const musicData = [
         "playlist": "Dead inside",
         "duration": "1:45",
         "durationSeconds": 105
-    },
-    {
-        "title": "SIDEL ODIN HARDSTYLE",
-        "artist": "Riversmelt, XP.UFX.",
-        "playlist": "Dead inside",
-        "duration": "1:44",
-        "durationSeconds": 104
     },
     {
         "title": "ангелочек (alternative version)",
@@ -7463,6 +7428,20 @@ const musicData = [
         "durationSeconds": 99
     },
     {
+        "title": "You Can't Run From Me",
+        "artist": "Rico Nasty",
+        "playlist": "Dead inside",
+        "duration": "3:55",
+        "durationSeconds": 235
+    },
+    {
+        "title": "Out of Bounds",
+        "artist": "Tsuneo Imahori",
+        "playlist": "Dead inside",
+        "duration": "3:04",
+        "durationSeconds": 184
+    },
+    {
         "title": "穏ヤカナ眠リ - Peaceful Sleep",
         "artist": "Keiichi Okabe",
         "playlist": "Game OSTs",
@@ -7804,6 +7783,13 @@ const musicData = [
         "playlist": "Game OSTs",
         "duration": "3:25",
         "durationSeconds": 205
+    },
+    {
+        "title": "Get Jinxed",
+        "artist": "League of Legends, Djerv",
+        "playlist": "Game OSTs",
+        "duration": "2:35",
+        "durationSeconds": 155
     },
     {
         "title": "Luciferians",
@@ -8676,23 +8662,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1250,
-    "totalDurationSec": 215761,
+    "totalDurationSec": 215722,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "Main": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJP25tYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3no_ocsK0WZAnypqtRhcwnBNyF1ow"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COOl6NYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nybFcud6kXeNjPLYrLclot5G2M0Q"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJT25tYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mpGYlzoPB8dbE2jLPUnMx7UYRNIQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COSl6NYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nzmRe6hdwyyuXMwr3Dyf86Tk49gw"
     },
     "Dead inside": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=CJT25tYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kdh__vWZ2dmNtHit5Am_UgQOkR7g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2/generated_thumbnail.jpg?sqp=COSl6NYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYIm6WHtgY&rs=AMzJL3kW1eUNtTDGFzEbcyJLSiUUz2DQRA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJj25tYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3m38HB6z2N_qTRrLVZEdSpZfW4Czg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COml6NYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lwyE3xc6lAGaAT9VXWJ3Cu85XoSg"
     },
     "Sewerslvt": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJj25tYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mCBGPDTWaiLQbdZYCc2KjHTbgPmA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COml6NYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3neKWnLO979DnJoyiWZ8cCBpthdOQ"
     }
 };
