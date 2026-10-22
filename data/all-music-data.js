@@ -4012,13 +4012,6 @@ const musicData = [
         "durationSeconds": 176
     },
     {
-        "title": "Plants vs Zombies Music Video",
-        "artist": "Plants vs. Zombies",
-        "playlist": "grave 2.0",
-        "duration": "2:47",
-        "durationSeconds": 167
-    },
-    {
         "title": "наколки",
         "artist": "Zhanulka",
         "playlist": "grave 2.0",
@@ -5039,13 +5032,6 @@ const musicData = [
         "playlist": "grave 2.0",
         "duration": "2:01",
         "durationSeconds": 121
-    },
-    {
-        "title": "Лиза",
-        "artist": "FACE",
-        "playlist": "grave 2.0",
-        "duration": "3:01",
-        "durationSeconds": 181
     },
     {
         "title": "Пожалуйста, только не домой",
@@ -8179,23 +8165,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1240,
-    "totalDurationSec": 207056,
+    "totalDurationSec": 206708,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKip6NYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3m6VuWZqwHTFQl-gJVmLTlpPNG_Kg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COez6NYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mjFg-uqGn_WpbmL3g_ymgYL0ODhw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKip6NYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mZwzj0fZexfOgjGqjcwXHpS6c20Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COez6NYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lgMao_-yFzzocEMdDEBP-dt2MF1Q"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CKmp6NYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3kuuRYY-SNwkBmM8Mtqe9Fr4hcnZw"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=COiz6NYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3nFlQ1wHK2jo7eYL1DwL1zOzBS-5w"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CK2p6NYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3m5MRS92n0L3HJAXEqnm6bs1-IfVw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COuz6NYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nSO8wOqt2TPVAZUDoWNGTT5u6MfQ"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CK2p6NYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3l3cW0qQPHmmIUpEDkh7ESUU5R-Yg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COuz6NYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mLFESQgJML9Aoa6fESQafgCFUo4w"
     }
 };
