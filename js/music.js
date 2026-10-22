@@ -218,11 +218,11 @@ function loadMoreSongs() {
         let plBadge = '';
         if (song.playlist) {
             let badgeColor = '#9ca3af'; 
-            if (song.playlist === 'Main') badgeColor = '#ef4444';
+            if (song.playlist === 'annoying noise') badgeColor = '#ef4444';
             else if (song.playlist === 'Off Screen') badgeColor = '#f472b6';
             else if (song.playlist === 'Game OSTs') badgeColor = '#3b82f6';
-            else if (song.playlist === 'Sewerslvt') badgeColor = '#a78bfa';
-            else if (song.playlist === 'Dead inside') badgeColor = '#64748b';
+            else if (song.playlist === 'breakcore') badgeColor = '#a78bfa';
+            else if (song.playlist === 'grave 2.0') badgeColor = '#64748b';
 
             plBadge = `<span class="playlist-badge" style="font-size:0.7em; opacity:0.6; margin-left:8px; color: ${badgeColor};">${song.playlist}</span>`;
         }

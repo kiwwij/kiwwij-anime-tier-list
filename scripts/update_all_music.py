@@ -9,11 +9,11 @@ project_root = os.path.dirname(script_dir)
 output_path = os.path.join(project_root, 'data', 'all-music-data.js')
 
 playlists = [
-    {"id": "PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C", "name": "Main"},
+    {"id": "PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C", "name": "annoying noise"},
     {"id": "PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ", "name": "Off Screen"},
-    {"id": "PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2", "name": "Dead inside"},
+    {"id": "PLJEQq6rpQoyE", "name": "grave 2.0"},
     {"id": "PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ", "name": "Game OSTs"},
-    {"id": "PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk", "name": "Sewerslvt"}
+    {"id": "PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk", "name": "breakcore"}
 ]
 
 def parse_views(view_text):

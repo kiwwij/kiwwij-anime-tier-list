@@ -82,6 +82,11 @@ if (typeof tierListData !== 'undefined') {
                 review: "Скажем так, этот монстр куда вкуснее того, что с коффе 3Х. Монстр с карамелью тоже желательно пить тёплым или горячим. Если бы не его цена в 200грн по скидке, то я бы его каждый день пил бы. Ну реально вкусно.", 
                 img: "energydrink/Monster Energy Salted Caramel.png"
             },
+            { 
+                title: "Buy Monster Energy Viking Berry", 
+                review: "Вкусный ягодный микс с соком яблока (концетратом). Немного сладковатый, но в целом норм. Вот только цена в 390 грн, конечно, да...", 
+                img: "energydrink/Buy Monster Energy Viking Berry.png"
+            },
         ],
         'B': [
             { 

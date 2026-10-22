@@ -1,17 +1,17 @@
 const CACHE_KEY = 'anime_stats_cache_v4';
-const BATCH_SIZE = 50; 
-const BATCH_DELAY = 450; 
+const BATCH_SIZE = 50;
+const BATCH_DELAY = 450;
 
 const genreTranslations = {
     "Action": "Экшен", "Adventure": "Приключения", "Comedy": "Комедия", "Drama": "Драма",
     "Fantasy": "Фэнтези", "Sci-Fi": "Научная фантастика", "Slice of Life": "Повседневность",
     "Romance": "Романтика", "Supernatural": "Сверхъестественное", "Mystery": "Детектив",
-    "Horror": "Ужасы", "Psychological": "Психология", "Thriller": "Триллер", 
-    "Mecha": "Меха", "Music": "Музыка", "Sports": "Спорт", "School": "Школа", 
-    "Isekai": "Исекай", "Shounen": "Сёнен", "Seinen": "Сэйнэн", "Shoujo": "Сёдзё", 
-    "Josei": "Дзёсэй", "Harem": "Гарем", "Ecchi": "Этти", "Martial Arts": "Боевые искусства", 
-    "Game": "Игры", "Vampire": "Вампиры", "Magic": "Магия", "Friendship": "Дружба", 
-    "Military": "Военное", "Political": "Политика", "Super Power": "Супер сила", 
+    "Horror": "Ужасы", "Psychological": "Психология", "Thriller": "Триллер",
+    "Mecha": "Меха", "Music": "Музыка", "Sports": "Спорт", "School": "Школа",
+    "Isekai": "Исекай", "Shounen": "Сёнен", "Seinen": "Сэйнэн", "Shoujo": "Сёдзё",
+    "Josei": "Дзёсэй", "Harem": "Гарем", "Ecchi": "Этти", "Martial Arts": "Боевые искусства",
+    "Game": "Игры", "Vampire": "Вампиры", "Magic": "Магия", "Friendship": "Дружба",
+    "Military": "Военное", "Political": "Политика", "Super Power": "Супер сила",
     "Demons": "Демоны", "Historical": "Историческое", "Samurai": "Самураи", "Space": "Космос", "Police": "Полиция", "Dementia": "Безумие", "Kids": "Дети", "Gore": "Гуро", "Parody": "Пародия", "Hentai": "Хентай", "Family": "Семья"
 };
 
@@ -37,10 +37,10 @@ const elements = {
 };
 
 let showAllGenres = false;
-let uniqueTitles = new Set(); 
+let uniqueTitles = new Set();
 let uniqueAnimeTiers = {};
 let genreCounts = {};
-let animeByYear = {}; 
+let animeByYear = {};
 let myChart = null;
 let tiersChart = null;
 let apiCache = JSON.parse(localStorage.getItem(CACHE_KEY) || '{}');
@@ -53,14 +53,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (elements.toggleGenresBtn) {
         elements.toggleGenresBtn.addEventListener('click', () => {
             showAllGenres = !showAllGenres;
-            
+
             elements.toggleGenresBtn.textContent = showAllGenres ? "Показать Топ-15" : "Показать всё";
             elements.genresTitle.textContent = showAllGenres ? "Все жанры" : "Топ-15 Жанров";
-        
+
             updateChart();
         });
     }
-    
+
     setTimeout(() => {
         if (typeof tierListData !== 'undefined') {
             if (typeof tierListData2 !== 'undefined') {
@@ -72,12 +72,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const timeContainer = document.getElementById('timeContainer');
     if (timeContainer) {
-        const hours = 4174; 
+        const hours = 4220;
         const days = Math.round(hours / 24);
-        
+
         const hourWord = declOfNum(hours, ['час', 'часа', 'часов']);
         const dayWord = declOfNum(days, ['день', 'дня', 'дней']);
-        
+
         timeContainer.innerHTML = `${hours} <span style="font-size: 1rem; font-weight: 600; color: var(--text-muted);">${hourWord} ≈ ${days} ${dayWord}</span>`;
     }
 });
@@ -91,7 +91,7 @@ function initTheme() {
         const isDark = elements.themeToggle.checked;
         document.body.classList.toggle('light-theme', !isDark);
         localStorage.setItem('theme', isDark ? 'dark' : 'light');
-        
+
         if (myChart) {
             myChart.options.plugins.legend.labels.color = isDark ? '#f3f4f6' : '#000000';
             myChart.update();
@@ -125,7 +125,7 @@ function setupChartToggles() {
         elements.tiersChartCanvas.style.display = 'none';
         elements.toggleGenresBtn.style.display = 'inline-flex';
         elements.genresTitle.textContent = showAllGenres ? "Все жанры" : "Топ-15 Жанров";
-        
+
         elements.showGenresBtn.classList.add('active');
         elements.showTiersBtn.classList.remove('active');
     });
@@ -135,7 +135,7 @@ function setupChartToggles() {
         elements.tiersChartCanvas.style.display = 'block';
         elements.toggleGenresBtn.style.display = 'none';
         elements.genresTitle.textContent = "Распределение по тирам без дубликатов";
-        
+
         elements.showTiersBtn.classList.add('active');
         elements.showGenresBtn.classList.remove('active');
     });
@@ -144,7 +144,7 @@ function setupChartToggles() {
 function openYearModal(year) {
     elements.modalTitle.textContent = `${year} год`;
     elements.modalList.innerHTML = '';
-    
+
     (animeByYear[year] || []).forEach(anime => {
         const imgSrc = anime.image || 'https://via.placeholder.com/150x220/1f2937/9ca3af?text=Loading...';
         const card = document.createElement('div');
@@ -159,7 +159,7 @@ function openYearModal(year) {
 }
 
 async function startAnalysis() {
-    genreCounts = {}; 
+    genreCounts = {};
     collectUniqueTitles();
     mapAnimeToUserYears();
     elements.totalCount.textContent = totalEntriesCount;
@@ -167,7 +167,7 @@ async function startAnalysis() {
 
     initChart();
     initTiersChart();
-    
+
     const titles = Array.from(uniqueTitles);
     let processed = 0;
 
@@ -184,7 +184,7 @@ async function startAnalysis() {
     for (let i = 0; i < toFetch.length; i += BATCH_SIZE) {
         const batch = toFetch.slice(i, i + BATCH_SIZE);
         await Promise.all(batch.map(fetchStatsForTitle));
-        
+
         processed += batch.length;
         updateUI(processed, titles.length);
         saveCache();
@@ -209,10 +209,10 @@ async function fetchStatsForTitle(title) {
     try {
         const res = await fetch(`https://kitsu.io/api/edge/anime?filter[text]=${encodeURIComponent(title)}&include=genres&page[limit]=1`);
         if (!res.ok) return;
-        
+
         const json = await res.json();
         const data = json.data?.[0];
-        
+
         const stats = {
             image: data?.attributes?.posterImage?.small || null,
             genres: json.included?.filter(i => i.type === 'genres').map(i => i.attributes.name) || []
@@ -316,7 +316,7 @@ function initTiersChart() {
 function generateColors(count) {
     const colors = [];
     for (let i = 0; i < count; i++) {
-        const hue = (i * 137.5) % 360; 
+        const hue = (i * 137.5) % 360;
         colors.push(`hsl(${hue}, 70%, 55%)`);
     }
     return colors;
@@ -324,24 +324,24 @@ function generateColors(count) {
 
 function updateChart() {
     if (!myChart) return;
-    
-    let sorted = Object.entries(genreCounts).sort((a, b) => b[1] - a[1]); 
-    
+
+    let sorted = Object.entries(genreCounts).sort((a, b) => b[1] - a[1]);
+
     if (!showAllGenres) {
         sorted = sorted.slice(0, 15);
     }
-    
+
     myChart.data.labels = sorted.map(i => i[0]);
     myChart.data.datasets[0].data = sorted.map(i => i[1]);
     myChart.data.datasets[0].backgroundColor = generateColors(sorted.length);
-    
+
     myChart.update();
 }
 
 function collectUniqueTitles() {
     uniqueTitles.clear();
     totalEntriesCount = 0;
-    uniqueAnimeTiers = {}; 
+    uniqueAnimeTiers = {};
 
     const seen = new Set();
 
@@ -391,21 +391,21 @@ document.addEventListener('keydown', (e) => {
 function activateGlitchMode() {
     document.body.style.filter = 'invert(1) hue-rotate(180deg)';
     document.body.style.transition = 'all 0.5s ease';
-    
+
     setTimeout(() => {
         document.body.style.filter = 'none';
     }, 5000);
 }
 
 function maybeSpawnZoro() {
-    if (Math.random() > 0.05) return; 
+    if (Math.random() > 0.05) return;
 
     if (document.querySelector('.zoro-lost')) return;
 
     console.log("⚔️ Zoro is lost again...");
 
     const zoro = document.createElement('img');
-    zoro.src = (window.location.pathname.includes('/pages/') || window.location.pathname.includes('/extra/')) ? '../img/roronoa_zoro.png' : 'img/roronoa_zoro.png'; 
+    zoro.src = (window.location.pathname.includes('/pages/') || window.location.pathname.includes('/extra/')) ? '../img/roronoa_zoro.png' : 'img/roronoa_zoro.png';
     zoro.className = 'zoro-lost';
     document.body.appendChild(zoro);
 
@@ -425,9 +425,9 @@ if (typeof tabButtons !== 'undefined') {
 }
 
 const yearElement = document.getElementById('current-year');
-    if (yearElement) {
-        yearElement.textContent = new Date().getFullYear();
-    }
+if (yearElement) {
+    yearElement.textContent = new Date().getFullYear();
+}
 
 function declOfNum(number, titles) {
     const cases = [2, 0, 1, 1, 1, 2];
