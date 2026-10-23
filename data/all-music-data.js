@@ -1,6 +1,13 @@
 // Этот файл сгенерирован автоматически скриптом update_all_music.py
 const musicData = [
     {
+        "title": "глупыйсвин",
+        "artist": "ева киллер, мая койка, ника кабина",
+        "playlist": "annoying noise",
+        "duration": "1:50",
+        "durationSeconds": 110
+    },
+    {
         "title": "JETLAG",
         "artist": "Violetta Sokolova",
         "playlist": "annoying noise",
@@ -2879,7 +2886,7 @@ const musicData = [
     },
     {
         "title": "Зима в сердце",
-        "artist": "Moya Mishel",
+        "artist": "Моя Мишель",
         "playlist": "grave 2.0",
         "duration": "3:41",
         "durationSeconds": 221
@@ -8165,23 +8172,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1240,
-    "totalDurationSec": 206708,
+    "totalDurationSec": 206818,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPzu6tYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3m7h34mxwXTQHKjkatStG0qi6ZkFg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMqD7NYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kjTjVBJxgfxwuyc3nHx5sE73VhSQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CP3u6tYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lC2a7YwgI9QiAMH6OMg2zle9P3nA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMqD7NYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3m03KMdVWYThibtLoPBww3kTTSoZg"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CP3u6tYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3mJoYEsYLVQdFvHz334yJaLYAyduw"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CMuD7NYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3kJT8fiWDRf6S5H68wdaM5Y-qbGlQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIHv6tYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3n6fufxOg4-O5SeaAHObfF-hYpOVg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CM6D7NYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nCCZqJTQtx3i74WrZCiGZXtzGhWQ"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CIHv6tYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lGOGE33JeJZH4WYkOkzf-N0vXgiA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CM-D7NYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nUFcXlmXSijkQasZTIbY86icT2yw"
     }
 };
