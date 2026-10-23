@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/f2081237d233374a1897ff24160d0fc516aa7ccb_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.7
@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 17.1,
+            "playtime_2weeks": 15.5,
             "hours": 3763.3,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -24,10 +24,18 @@ const steamData = {
         {
             "appid": 292030,
             "name": "The Witcher 3: Wild Hunt — Remastered",
-            "playtime_2weeks": 12.3,
-            "hours": 27.9,
+            "playtime_2weeks": 12.8,
+            "hours": 28.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
             "url": "https://store.steampowered.com/app/292030"
+        },
+        {
+            "appid": 4474710,
+            "name": "FINAL FANTASY RESONANCE DEMO",
+            "playtime_2weeks": 0.4,
+            "hours": 0.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4474710/header.jpg",
+            "url": "https://store.steampowered.com/app/4474710"
         },
         {
             "appid": 3746300,
@@ -41,7 +49,7 @@ const steamData = {
             "appid": 431960,
             "name": "Wallpaper Engine",
             "playtime_2weeks": 0.2,
-            "hours": 24.7,
+            "hours": 24.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
         },
