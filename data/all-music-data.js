@@ -1107,6 +1107,27 @@ const musicData = [
         "durationSeconds": 157
     },
     {
+        "title": "Bimbo Doll",
+        "artist": "Tila Tsoli, BJ Lips",
+        "playlist": "grave 2.0",
+        "duration": "2:38",
+        "durationSeconds": 158
+    },
+    {
+        "title": "Run Rabbit",
+        "artist": "Mollie Elizabeth",
+        "playlist": "grave 2.0",
+        "duration": "3:10",
+        "durationSeconds": 190
+    },
+    {
+        "title": "Pretty Little Baby (Linda Muchachita) (Spanish Version)",
+        "artist": "Connie Francis",
+        "playlist": "grave 2.0",
+        "duration": "2:19",
+        "durationSeconds": 139
+    },
+    {
         "title": "Лёд",
         "artist": "WENARO, LXNER",
         "playlist": "grave 2.0",
@@ -8158,23 +8179,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1240,
-    "totalDurationSec": 206584,
+    "totalDurationSec": 207071,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJvI7tYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mEXqmhUzcX37wsrrKljSmRcE_AYw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLKP79YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nK2eUUUWEy61QYhljg_Cg6XzxYRA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJvI7tYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mMB-D37R5xY4OTnt-Or4j0D1775A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLOP79YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3muKFchghwQRf9WxhjpopFXyNHELg"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CJzI7tYG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3mZ19kTKm30xbMsoGgakcSO9DYhQA"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CLOP79YG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3k4wQLqz7ZTHcTpfgToZ5qqycCF3A"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJ_I7tYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nIlGf5bk-51qm2Cg_bgmskk6FGGw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLeP79YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lvUxOw2ON5Y7bsf1ui17-jhiiUbA"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKDI7tYG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3l0mWE_90IZ8G95cMNCG5aRacfMjg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLiP79YG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nLfLQ314eFa9enF1zVRi8T1xRNEA"
     }
 };
