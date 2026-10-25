@@ -52,14 +52,6 @@ const steamData = {
             "hours": 24.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
-        },
-        {
-            "appid": 920490,
-            "name": "Driver Booster for Steam",
-            "playtime_2weeks": 0.1,
-            "hours": 17.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/920490/header.jpg",
-            "url": "https://store.steampowered.com/app/920490"
         }
     ],
     "top_games": [
@@ -216,7 +208,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Ролевые игры"
+                "Без жанра"
             ]
         },
         {
