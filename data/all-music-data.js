@@ -1107,6 +1107,13 @@ const musicData = [
         "durationSeconds": 157
     },
     {
+        "title": "High Forever (Marlon Hoffstadt Remix)",
+        "artist": "Petite Meller, Marlon Hoffstadt",
+        "playlist": "Off Screen",
+        "duration": "3:50",
+        "durationSeconds": 230
+    },
+    {
         "title": "отвратительно",
         "artist": "яшенька",
         "playlist": "grave 2.0",
@@ -8186,23 +8193,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1322,
-    "totalDurationSec": 207180,
+    "totalDurationSec": 207410,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLKrgdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3ltZ5efXVMaa-8I7vuwtFhim1sgzg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COrmgtcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mf7Jwr430tPb5zqvJTvg1pNEFZjQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLOrgdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nDX0Jt53HTjBQa5EbQVCKsq7qKYQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COvmgtcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mhLOaaMOrcqTs1DZiaR4w1k4uBIA"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CLOrgdcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3nEIJKWRi3Pv-WG-VzaTpjq58pVXw"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=COvmgtcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3mq8UtNkVbf07hiylO9npQFpx-A0A"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLargdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3ncUWiZjnLhIW0-zUDLHkIBpVa8aQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CO_mgtcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3loX2gexIzbiTz5T8yJc__thgICIA"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLargdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nlrypfxs_b0_QA43yc6_4cvecDww"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CO_mgtcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3l6yEunoXAYJqkVTGgnzLE6VH71PQ"
     }
 };
