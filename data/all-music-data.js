@@ -379,13 +379,6 @@ const musicData = [
         "durationSeconds": 73
     },
     {
-        "title": "пока-пока",
-        "artist": "CUPSIZE",
-        "playlist": "annoying noise",
-        "duration": "2:53",
-        "durationSeconds": 173
-    },
-    {
         "title": "Meant To Be - Cuntsniffer (Lyrics)",
         "artist": "𝕁𝕒𝕔𝕜",
         "playlist": "annoying noise",
@@ -426,6 +419,13 @@ const musicData = [
         "playlist": "annoying noise",
         "duration": "1:50",
         "durationSeconds": 110
+    },
+    {
+        "title": "Вишенка",
+        "artist": "ssshhhiiittt!",
+        "playlist": "annoying noise",
+        "duration": "4:36",
+        "durationSeconds": 276
     },
     {
         "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
@@ -1112,6 +1112,27 @@ const musicData = [
         "playlist": "Off Screen",
         "duration": "3:50",
         "durationSeconds": 230
+    },
+    {
+        "title": "Lucky Number 3",
+        "artist": "Broken Toy Airplanes",
+        "playlist": "grave 2.0",
+        "duration": "3:02",
+        "durationSeconds": 182
+    },
+    {
+        "title": "i wanna kill myself",
+        "artist": "Razors, imar",
+        "playlist": "grave 2.0",
+        "duration": "2:03",
+        "durationSeconds": 123
+    },
+    {
+        "title": "урал страдает бля",
+        "artist": "itzice, k1n1ch",
+        "playlist": "grave 2.0",
+        "duration": "2:02",
+        "durationSeconds": 122
     },
     {
         "title": "отвратительно",
@@ -3319,8 +3340,8 @@ const musicData = [
         "durationSeconds": 210
     },
     {
-        "title": "Катя Лель - Мой мармеладный",
-        "artist": "MAXIM FADEEV",
+        "title": "Мой мармеладный",
+        "artist": "Катя Лель",
         "playlist": "grave 2.0",
         "duration": "3:21",
         "durationSeconds": 201
@@ -4979,7 +5000,7 @@ const musicData = [
     },
     {
         "title": "mirrors demo",
-        "artist": "overtonight throwaways, overtonight",
+        "artist": "overtonight throwaways",
         "playlist": "grave 2.0",
         "duration": "1:46",
         "durationSeconds": 106
@@ -5434,7 +5455,7 @@ const musicData = [
     },
     {
         "title": "mirrors demo (funk slowed)",
-        "artist": "overtonight throwaways, overtonight, ovg!",
+        "artist": "overtonight throwaways, ovg!",
         "playlist": "grave 2.0",
         "duration": "1:30",
         "durationSeconds": 90
@@ -8192,24 +8213,24 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 1322,
-    "totalDurationSec": 207410,
+    "totalViews": 1342,
+    "totalDurationSec": 207940,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJyPhtcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3ncJyalavjOzTU0v-B4zkSZa5UH9A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMClidcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nBsTCK1qdnfxthNLfVK8mi_JWQ-g"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJ2PhtcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kUwEWQsGKd7PGxme1bIha_qARMsw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMClidcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3m0iQC2PBbDSqtQcfp25OKigCoqkQ"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CJ2PhtcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3lChHgFFTZbTAUAqtalkBl8fCCNjA"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CMClidcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3kd0IEENHlN4N7kKIopR3C-6EdPMA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKCPhtcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lt5K9kR7QP513c45Cx9aWl17u5sg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMWlidcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nvpp7qOe_LT72LAI6eA8G6wQtTmQ"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKGPhtcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3l5q5YuxxJUJ-YCBK5U7QQa0O_onw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMWlidcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nLHjhbgMT6w1N5yDxo6uZBcvRZXA"
     }
 };

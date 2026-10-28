@@ -271,11 +271,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "пока-пока",
-        "artist": "CUPSIZE",
-        "playlist": "Main"
-    },
-    {
         "title": "Meant To Be - Cuntsniffer (Lyrics)",
         "artist": "𝕁𝕒𝕔𝕜",
         "playlist": "Main"
@@ -304,9 +299,14 @@ const musicData = [
         "title": "глупыйсвин",
         "artist": "ева киллер",
         "playlist": "Main"
+    },
+    {
+        "title": "Вишенка",
+        "artist": "ssshhhiiittt!",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 22,
-    "totalDurationSec": 8246
+    "totalDurationSec": 8349
 };
