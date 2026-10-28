@@ -2,15 +2,11 @@ name: Update Music Data
 
 on:
   schedule:
-    # update_music.py — каждый час (в 00 минут)
     - cron: "0 * * * *"
-    # update_all_music.py — каждый час + 10 минут
     - cron: "10 * * * *"
-  
-  # Возможность запустить вручную кнопку
+
   workflow_dispatch:
 
-# Даем права на запись в репозиторий
 permissions:
   contents: write
 
@@ -25,26 +21,23 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: "3.x"
 
       - name: Install dependencies
-        # Устанавливаем ytmusicapi напрямую, чтобы не зависеть от наличия файла requirements.txt
         run: |
           pip install ytmusicapi
 
       - name: Run scrapers
         run: |
-          # Получаем текущую минуту
           CURRENT_MINUTE=$(date -u +%1M) 
-          # %1M убирает ведущий ноль (например, "05" станет "5"), чтобы bash не думал, что это восьмеричная система
-          
+
           echo "Triggered at $(date -u). Current minute: $CURRENT_MINUTE"
-          
+
           if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
             echo "Manual trigger: Running BOTH scripts"
             python scripts/update_music.py
             python scripts/update_all_music.py
-          
+
           elif [ "$CURRENT_MINUTE" -lt 9 ]; then
             echo "Schedule match (approx 00): Running update_music.py"
             python scripts/update_music.py
@@ -59,11 +52,8 @@ jobs:
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
 
-          # Добавляем все измененные JS файлы
           git add data/*.js
 
-          # Если изменений нет, git commit вернет ошибку. 
-          # Конструкция "|| echo..." предотвращает падение скрипта, если обновлять нечего.
           git commit -m "Auto-update music playlists" || echo "No changes to commit"
-          
+
           git push
