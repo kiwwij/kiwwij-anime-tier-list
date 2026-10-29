@@ -3,8 +3,8 @@ const socialData = {
     "youtube": {
         "handle": "@serhiosergey",
         "channelId": "UCmP39V7iqh8v7j8mWgAlXQQ",
-        "lastVideoId": null,
-        "thumbnailUrl": null
+        "lastVideoId": "PyfY2lwndlo",
+        "thumbnailUrl": "https://img.youtube.com/vi/PyfY2lwndlo/hqdefault.jpg"
     },
     "telegram": {
         "channelName": "kiwwijs",
