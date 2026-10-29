@@ -10,13 +10,13 @@ const steamData = {
         "age": 6.7
     },
     "stats": {
-        "total_games": 305
+        "total_games": 306
     },
     "recent_games": [
         {
             "appid": 292030,
             "name": "The Witcher 3: Wild Hunt — Remastered",
-            "playtime_2weeks": 23.6,
+            "playtime_2weeks": 21.2,
             "hours": 42.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
             "url": "https://store.steampowered.com/app/292030"
@@ -121,14 +121,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Экшены",
-                "Приключенческие игры",
-                "Казуальные игры",
-                "Многопользовательские игры",
-                "Гонки",
-                "Ролевые игры",
-                "Стратегии",
-                "Бесплатные"
+                "Без жанра"
             ]
         },
         {
