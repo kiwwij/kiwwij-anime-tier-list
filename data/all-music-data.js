@@ -1114,6 +1114,13 @@ const musicData = [
         "durationSeconds": 230
     },
     {
+        "title": "Out of Bounds",
+        "artist": "Tsuneo Imahori",
+        "playlist": "Off Screen",
+        "duration": "3:04",
+        "durationSeconds": 184
+    },
+    {
         "title": "HEAVY METAL 3",
         "artist": "ФУГА TV",
         "playlist": "grave 2.0",
@@ -4404,13 +4411,6 @@ const musicData = [
         "durationSeconds": 211
     },
     {
-        "title": "Акула - Позвони (hardstyle remix)",
-        "artist": "antrxct",
-        "playlist": "grave 2.0",
-        "duration": "2:08",
-        "durationSeconds": 128
-    },
-    {
         "title": "Лиза",
         "artist": "Матис, KSB muzic",
         "playlist": "grave 2.0",
@@ -4857,13 +4857,6 @@ const musicData = [
         "playlist": "grave 2.0",
         "duration": "2:48",
         "durationSeconds": 168
-    },
-    {
-        "title": "tewiq + greyrock + madk1d - распять (ALT VER)",
-        "artist": "suenushka",
-        "playlist": "grave 2.0",
-        "duration": "1:52",
-        "durationSeconds": 112
     },
     {
         "title": "Экзотик-мама не узнает",
@@ -6980,13 +6973,6 @@ const musicData = [
         "durationSeconds": 235
     },
     {
-        "title": "Out of Bounds",
-        "artist": "Tsuneo Imahori",
-        "playlist": "grave 2.0",
-        "duration": "3:04",
-        "durationSeconds": 184
-    },
-    {
         "title": "сигареты",
         "artist": "CUPSIZE",
         "playlist": "grave 2.0",
@@ -8214,23 +8200,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1363,
-    "totalDurationSec": 208270,
+    "totalDurationSec": 208030,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLnkkdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lcepKp9oMG8klEaIeXREiQn1ytnA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJH5ktcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mB3U6irrber7JOn0gqZ-FJBStcFg"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLnkkdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nFZWbMA4t-zCERu6PzF3JfwhuP3A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJH5ktcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lFbluid51Lx4W99geRZ6krslgHKA"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CLrkkdcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3lzuuw145oSbUBYLPaK39m6UX9G7A"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CJL5ktcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3knDLtpUCsPLfk_IzTboTrHg26lIA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CL3kkdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3m1frkwc4dy-BPUCfiUWix-Xqiqeg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJX5ktcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lDWx2qiiyKW3O6isl5gTHXXauoJg"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CL3kkdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nxAMSJzTkrUG5gYYhJti0ULnyEOQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJb5ktcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nD8VFSz9KZxr_BLJM47RNKJ-5Jgg"
     }
 };
