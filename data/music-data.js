@@ -1,11 +1,6 @@
 // Этот файл сгенерирован автоматически скриптом update_music.py
 const musicData = [
     {
-        "title": "madk1d - питер паркер(unrelease mood video)",
-        "artist": "ньюген",
-        "playlist": "Main"
-    },
-    {
         "title": "ты че обиделась",
         "artist": "madk1d",
         "playlist": "Main"
@@ -13,11 +8,6 @@ const musicData = [
     {
         "title": "общага",
         "artist": "диссоциативное расстройство",
-        "playlist": "Main"
-    },
-    {
-        "title": "Естафета страждань",
-        "artist": "Апатія",
         "playlist": "Main"
     },
     {
@@ -33,11 +23,6 @@ const musicData = [
     {
         "title": "Так прикро",
         "artist": "Апатія",
-        "playlist": "Main"
-    },
-    {
-        "title": "дырки в штанах",
-        "artist": "madk1d",
         "playlist": "Main"
     },
     {
@@ -226,11 +211,6 @@ const musicData = [
         "playlist": "Main"
     },
     {
-        "title": "Отпусти меня",
-        "artist": "ЯРЧЕ СОЛНЦА",
-        "playlist": "Main"
-    },
-    {
         "title": "прости я не знаю",
         "artist": "СЕРЕГА ПИРАТ",
         "playlist": "Main"
@@ -238,16 +218,6 @@ const musicData = [
     {
         "title": "misery.",
         "artist": "pupsies",
-        "playlist": "Main"
-    },
-    {
-        "title": "ДИНАСТИЯ",
-        "artist": "madk1d",
-        "playlist": "Main"
-    },
-    {
-        "title": "Нет Тебя",
-        "artist": "9mice",
         "playlist": "Main"
     },
     {
@@ -268,11 +238,6 @@ const musicData = [
     {
         "title": "револьвер",
         "artist": "DJ ZUP RAlii",
-        "playlist": "Main"
-    },
-    {
-        "title": "Meant To Be - Cuntsniffer (Lyrics)",
-        "artist": "𝕁𝕒𝕔𝕜",
         "playlist": "Main"
     },
     {
@@ -304,9 +269,44 @@ const musicData = [
         "title": "Вишенка",
         "artist": "ssshhhiiittt!",
         "playlist": "Main"
+    },
+    {
+        "title": "Отпусти меня",
+        "artist": "ЯРЧЕ СОЛНЦА",
+        "playlist": "Main"
+    },
+    {
+        "title": "ДИНАСТИЯ",
+        "artist": "VILLIAN",
+        "playlist": "Main"
+    },
+    {
+        "title": "Нет Тебя",
+        "artist": "9mice",
+        "playlist": "Main"
+    },
+    {
+        "title": "Meant To Be",
+        "artist": "Cuntsniffer",
+        "playlist": "Main"
+    },
+    {
+        "title": "питер паркер",
+        "artist": "madk1d",
+        "playlist": "Main"
+    },
+    {
+        "title": "Естафета страждань",
+        "artist": "Апатія",
+        "playlist": "Main"
+    },
+    {
+        "title": "дырки в штанах",
+        "artist": "madk1d",
+        "playlist": "Main"
     }
 ];
 const musicStats = {
     "totalViews": 22,
-    "totalDurationSec": 8349
+    "totalDurationSec": 8304
 };

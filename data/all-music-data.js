@@ -1,13 +1,6 @@
 // Этот файл сгенерирован автоматически скриптом update_all_music.py
 const musicData = [
     {
-        "title": "madk1d - питер паркер(unrelease mood video)",
-        "artist": "ньюген",
-        "playlist": "annoying noise",
-        "duration": "2:17",
-        "durationSeconds": 137
-    },
-    {
         "title": "ты че обиделась",
         "artist": "madk1d, тёмный принц",
         "playlist": "annoying noise",
@@ -20,13 +13,6 @@ const musicData = [
         "playlist": "annoying noise",
         "duration": "1:48",
         "durationSeconds": 108
-    },
-    {
-        "title": "Естафета страждань",
-        "artist": "Апатія, SadSvit",
-        "playlist": "annoying noise",
-        "duration": "3:02",
-        "durationSeconds": 182
     },
     {
         "title": "Деревья, сгнившие до ствола",
@@ -48,13 +34,6 @@ const musicData = [
         "playlist": "annoying noise",
         "duration": "3:00",
         "durationSeconds": 180
-    },
-    {
-        "title": "дырки в штанах",
-        "artist": "madk1d",
-        "playlist": "annoying noise",
-        "duration": "1:49",
-        "durationSeconds": 109
     },
     {
         "title": "sexyswag2010",
@@ -316,13 +295,6 @@ const musicData = [
         "durationSeconds": 117
     },
     {
-        "title": "Отпусти меня",
-        "artist": "ЯРЧЕ СОЛНЦА",
-        "playlist": "annoying noise",
-        "duration": "3:22",
-        "durationSeconds": 202
-    },
-    {
         "title": "прости я не знаю",
         "artist": "СЕРЕГА ПИРАТ",
         "playlist": "annoying noise",
@@ -335,20 +307,6 @@ const musicData = [
         "playlist": "annoying noise",
         "duration": "2:47",
         "durationSeconds": 167
-    },
-    {
-        "title": "ДИНАСТИЯ",
-        "artist": "madk1d, VILLIAN",
-        "playlist": "annoying noise",
-        "duration": "2:45",
-        "durationSeconds": 165
-    },
-    {
-        "title": "Нет Тебя",
-        "artist": "9mice, KATERINA",
-        "playlist": "annoying noise",
-        "duration": "3:41",
-        "durationSeconds": 221
     },
     {
         "title": "целоваться",
@@ -377,13 +335,6 @@ const musicData = [
         "playlist": "annoying noise",
         "duration": "1:13",
         "durationSeconds": 73
-    },
-    {
-        "title": "Meant To Be - Cuntsniffer (Lyrics)",
-        "artist": "𝕁𝕒𝕔𝕜",
-        "playlist": "annoying noise",
-        "duration": "2:41",
-        "durationSeconds": 161
     },
     {
         "title": "murder",
@@ -428,11 +379,53 @@ const musicData = [
         "durationSeconds": 276
     },
     {
-        "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
-        "artist": "AlexTheSchutz",
-        "playlist": "Off Screen",
-        "duration": "4:23",
-        "durationSeconds": 263
+        "title": "Отпусти меня",
+        "artist": "ЯРЧЕ СОЛНЦА",
+        "playlist": "annoying noise",
+        "duration": "3:22",
+        "durationSeconds": 202
+    },
+    {
+        "title": "ДИНАСТИЯ",
+        "artist": "VILLIAN, madk1d",
+        "playlist": "annoying noise",
+        "duration": "2:31",
+        "durationSeconds": 151
+    },
+    {
+        "title": "Нет Тебя",
+        "artist": "9mice, K",
+        "playlist": "annoying noise",
+        "duration": "3:38",
+        "durationSeconds": 218
+    },
+    {
+        "title": "Meant To Be",
+        "artist": "Cuntsniffer, Broken Toy Airplanes",
+        "playlist": "annoying noise",
+        "duration": "2:41",
+        "durationSeconds": 161
+    },
+    {
+        "title": "питер паркер",
+        "artist": "madk1d",
+        "playlist": "annoying noise",
+        "duration": "2:00",
+        "durationSeconds": 120
+    },
+    {
+        "title": "Естафета страждань",
+        "artist": "Апатія, SadSvit",
+        "playlist": "annoying noise",
+        "duration": "2:53",
+        "durationSeconds": 173
+    },
+    {
+        "title": "дырки в штанах",
+        "artist": "madk1d",
+        "playlist": "annoying noise",
+        "duration": "1:47",
+        "durationSeconds": 107
     },
     {
         "title": "Unravel",
@@ -449,53 +442,11 @@ const musicData = [
         "durationSeconds": 240
     },
     {
-        "title": "DARLING in the FRANXX Opening 1 | KISS OF DEATH",
-        "artist": "Crunchyroll",
-        "playlist": "Off Screen",
-        "duration": "1:30",
-        "durationSeconds": 90
-    },
-    {
-        "title": "Shangri-la Frontier Season 2 Ending 2 | RealitYhurts",
-        "artist": "Crunchyroll",
-        "playlist": "Off Screen",
-        "duration": "1:41",
-        "durationSeconds": 101
-    },
-    {
-        "title": "インフェルノ - Inferno",
-        "artist": "Mrs. GREEN APPLE",
-        "playlist": "Off Screen",
-        "duration": "3:42",
-        "durationSeconds": 222
-    },
-    {
-        "title": "Naruto - Opening 4 (v2) (HD - 60 fps)",
-        "artist": "Anime Guy",
-        "playlist": "Off Screen",
-        "duration": "1:31",
-        "durationSeconds": 91
-    },
-    {
-        "title": "Haruka Kanata",
-        "artist": "ASIAN KUNG-FU GENERATION",
-        "playlist": "Off Screen",
-        "duration": "4:07",
-        "durationSeconds": 247
-    },
-    {
         "title": "光るなら-TV size- - Hikarunara TV Size",
         "artist": "Goose house",
         "playlist": "Off Screen",
         "duration": "1:33",
         "durationSeconds": 93
-    },
-    {
-        "title": "Black Catcher",
-        "artist": "VK Blanka",
-        "playlist": "Off Screen",
-        "duration": "3:19",
-        "durationSeconds": 199
     },
     {
         "title": "Stay Alive",
@@ -526,13 +477,6 @@ const musicData = [
         "durationSeconds": 258
     },
     {
-        "title": "ろん -「おちゃめ機能」FUKKIRETA 【HD.256k.Kara】",
-        "artist": "tripflag",
-        "playlist": "Off Screen",
-        "duration": "1:31",
-        "durationSeconds": 91
-    },
-    {
         "title": "Ｏ2 - O2",
         "artist": "ORANGE RANGE",
         "playlist": "Off Screen",
@@ -559,13 +503,6 @@ const musicData = [
         "playlist": "Off Screen",
         "duration": "4:09",
         "durationSeconds": 249
-    },
-    {
-        "title": "ユニバースキップ/Flower&初音ミク",
-        "artist": "aoiro code",
-        "playlist": "Off Screen",
-        "duration": "3:13",
-        "durationSeconds": 193
     },
     {
         "title": "Стальной алхимик - Братья (милая мама)",
@@ -603,13 +540,6 @@ const musicData = [
         "durationSeconds": 131
     },
     {
-        "title": "ルル (Live At さいたまスーパーアリーナ, 2025) - RuLe (Live At Saitama Super Arena, 2025)",
-        "artist": "Ado",
-        "playlist": "Off Screen",
-        "duration": "3:19",
-        "durationSeconds": 199
-    },
-    {
         "title": "ぼうやの夢よ",
         "artist": "エミリア（CV:高橋李依）",
         "playlist": "Off Screen",
@@ -636,13 +566,6 @@ const musicData = [
         "playlist": "Off Screen",
         "duration": "3:51",
         "durationSeconds": 231
-    },
-    {
-        "title": "マシュマロ - Marshmallow",
-        "artist": "DECO*27",
-        "playlist": "Off Screen",
-        "duration": "2:52",
-        "durationSeconds": 172
     },
     {
         "title": "Believe in you",
@@ -673,13 +596,6 @@ const musicData = [
         "durationSeconds": 274
     },
     {
-        "title": "アニメ「コードギアス 反逆のルルーシュ」オープニング／FLOW「COLORS」（Another ver.）",
-        "artist": "コードギアスチャンネル CODEGEASS Channel",
-        "playlist": "Off Screen",
-        "duration": "1:31",
-        "durationSeconds": 91
-    },
-    {
         "title": "Re:Re: (Anime Size)",
         "artist": "ASIAN KUNG-FU GENERATION",
         "playlist": "Off Screen",
@@ -692,27 +608,6 @@ const musicData = [
         "playlist": "Off Screen",
         "duration": "3:20",
         "durationSeconds": 200
-    },
-    {
-        "title": "アニメ「負けヒロインが多すぎる！」オープニング映像【毎週土曜24:30~放送/配信中】",
-        "artist": "アニプレックス チャンネル",
-        "playlist": "Off Screen",
-        "duration": "1:30",
-        "durationSeconds": 90
-    },
-    {
-        "title": "Akame ga Kill! Opening 2 | Liar Mask by Rika Mayama",
-        "artist": "Crunchyroll",
-        "playlist": "Off Screen",
-        "duration": "1:41",
-        "durationSeconds": 101
-    },
-    {
-        "title": "LiSA「crossing field」／「ソードアート・オンライン」第1期1stクール ノンクレジットOP",
-        "artist": "アニプレックス チャンネル",
-        "playlist": "Off Screen",
-        "duration": "1:31",
-        "durationSeconds": 91
     },
     {
         "title": "sun will rise",
@@ -734,20 +629,6 @@ const musicData = [
         "playlist": "Off Screen",
         "duration": "5:52",
         "durationSeconds": 352
-    },
-    {
-        "title": "ステップ！に合わせて本田未央ちゃんがぽよぽよするやつ",
-        "artist": "hemoglosso",
-        "playlist": "Off Screen",
-        "duration": "0:50",
-        "durationSeconds": 50
-    },
-    {
-        "title": "ループザルーム (feat. Hatsune Miku)",
-        "artist": "rusino",
-        "playlist": "Off Screen",
-        "duration": "2:15",
-        "durationSeconds": 135
     },
     {
         "title": "Duvet",
@@ -785,20 +666,6 @@ const musicData = [
         "durationSeconds": 590
     },
     {
-        "title": "茅原実里「みちしるべ」 MV  Full Size 『ヴァイオレット・エヴァーガーデン』ED主題歌 / \"violet-evergarden\" Ending Theme Michishirube",
-        "artist": "Minori Chihara",
-        "playlist": "Off Screen",
-        "duration": "4:50",
-        "durationSeconds": 290
-    },
-    {
-        "title": "TRUE「Sincerely」 MV Full Size 『ヴァイオレット・エヴァーガーデン』OP主題歌/\"violet-evergarden\" Opning Theme「Sincerely」",
-        "artist": "TRUE",
-        "playlist": "Off Screen",
-        "duration": "4:43",
-        "durationSeconds": 283
-    },
-    {
         "title": "シルエット - Silhouette",
         "artist": "KANA-BOON",
         "playlist": "Off Screen",
@@ -811,13 +678,6 @@ const musicData = [
         "playlist": "Off Screen",
         "duration": "3:14",
         "durationSeconds": 194
-    },
-    {
-        "title": "インフェルノ - Inferno",
-        "artist": "Mrs. GREEN APPLE",
-        "playlist": "Off Screen",
-        "duration": "3:33",
-        "durationSeconds": 213
     },
     {
         "title": "ホタルノヒカリ - Hotarunohikari",
@@ -853,13 +713,6 @@ const musicData = [
         "playlist": "Off Screen",
         "duration": "3:55",
         "durationSeconds": 235
-    },
-    {
-        "title": "遥か彼方 - Haruka Kanata",
-        "artist": "ASIAN KUNG-FU GENERATION",
-        "playlist": "Off Screen",
-        "duration": "4:03",
-        "durationSeconds": 243
     },
     {
         "title": "残酷な天使のテーゼ - Zankoku na Tenshi no Thesis",
@@ -981,20 +834,6 @@ const musicData = [
         "durationSeconds": 241
     },
     {
-        "title": "Spider-Man: Across the Spider-Verse | \"Calling\" by Metro Boomin x Nav x A Boogie with Swae Lee",
-        "artist": "Sony Pictures Animation",
-        "playlist": "Off Screen",
-        "duration": "2:00",
-        "durationSeconds": 120
-    },
-    {
-        "title": "Clannad Opening (Blu-ray 1080p HD)",
-        "artist": "90sCartoonIntros",
-        "playlist": "Off Screen",
-        "duration": "1:33",
-        "durationSeconds": 93
-    },
-    {
         "title": "Ми-мистическая Микуру-рун",
         "artist": "NesiHime",
         "playlist": "Off Screen",
@@ -1009,39 +848,11 @@ const musicData = [
         "durationSeconds": 115
     },
     {
-        "title": "Clannad Ending w/ Subtitles",
-        "artist": "hannah (old)",
-        "playlist": "Off Screen",
-        "duration": "1:31",
-        "durationSeconds": 91
-    },
-    {
-        "title": "The Ancient Magus' Bride Opening 1 | Here by JUNNA",
-        "artist": "Crunchyroll",
-        "playlist": "Off Screen",
-        "duration": "1:30",
-        "durationSeconds": 90
-    },
-    {
-        "title": "Bakemonogatari  - Ending ( kimi no Shiranai) - Creditless 1080p",
-        "artist": "M1GE",
-        "playlist": "Off Screen",
-        "duration": "1:31",
-        "durationSeconds": 91
-    },
-    {
         "title": "白金ディスコ　 - Platinum Disco",
         "artist": "MONOGATARI Series",
         "playlist": "Off Screen",
         "duration": "4:17",
         "durationSeconds": 257
-    },
-    {
-        "title": "KONOSUBA - An Explosion on This Wonderful World! - Ending | Jump In",
-        "artist": "Crunchyroll",
-        "playlist": "Off Screen",
-        "duration": "1:40",
-        "durationSeconds": 100
     },
     {
         "title": "Florence + the Machine - Jenny of Oldstones (Lyric Video) | Season 8 | Game of Thrones (HBO)",
@@ -1065,32 +876,11 @@ const musicData = [
         "durationSeconds": 211
     },
     {
-        "title": "芹澤優 / 「デビきゅー」-Music Video-",
-        "artist": "avex",
-        "playlist": "Off Screen",
-        "duration": "3:36",
-        "durationSeconds": 216
-    },
-    {
         "title": "クララランド～奇跡のちゅちゅちゅ～ - Claraland Kisekinochuchuchu",
         "artist": "Nakayoshi Mantan! Valac Ikka (All CV:Asai Ayaka)",
         "playlist": "Off Screen",
         "duration": "1:56",
         "durationSeconds": 116
-    },
-    {
-        "title": "Welcome to Demon School! Iruma-kun Season 2 - Ending | Kokoro Show Time",
-        "artist": "Crunchyroll",
-        "playlist": "Off Screen",
-        "duration": "1:40",
-        "durationSeconds": 100
-    },
-    {
-        "title": "In Love With Myself | Cyberpunk: Edgerunners 2 (Original Series Soundtrack)",
-        "artist": "Petite Meller, Kalman Chodakiewitz, Eli Shiffman",
-        "playlist": "Off Screen",
-        "duration": "2:55",
-        "durationSeconds": 175
     },
     {
         "title": "Watson (feat. Oslo Green)",
@@ -1119,6 +909,202 @@ const musicData = [
         "playlist": "Off Screen",
         "duration": "3:04",
         "durationSeconds": 184
+    },
+    {
+        "title": "Nightfall (feat. Maika Loubté)",
+        "artist": "KOHTA YAMAMOTO",
+        "playlist": "Off Screen",
+        "duration": "3:45",
+        "durationSeconds": 225
+    },
+    {
+        "title": "KISS OF DEATH（Produced by HYDE） - Kiss of Death",
+        "artist": "Mika Nakashima",
+        "playlist": "Off Screen",
+        "duration": "4:10",
+        "durationSeconds": 250
+    },
+    {
+        "title": "realitYhurts.",
+        "artist": "CVLTE",
+        "playlist": "Off Screen",
+        "duration": "2:33",
+        "durationSeconds": 153
+    },
+    {
+        "title": "インフェルノ - Inferno",
+        "artist": "Mrs. GREEN APPLE",
+        "playlist": "Off Screen",
+        "duration": "3:33",
+        "durationSeconds": 213
+    },
+    {
+        "title": "GO!!! 〜NARUTO OPENING MIX〜 - Go!!! (Naruto Opening Mix)",
+        "artist": "FLOW",
+        "playlist": "Off Screen",
+        "duration": "1:34",
+        "durationSeconds": 94
+    },
+    {
+        "title": "遥か彼方 - Haruka Kanata",
+        "artist": "ASIAN KUNG-FU GENERATION",
+        "playlist": "Off Screen",
+        "duration": "4:03",
+        "durationSeconds": 243
+    },
+    {
+        "title": "Black Catcher",
+        "artist": "VK Blanka",
+        "playlist": "Off Screen",
+        "duration": "3:17",
+        "durationSeconds": 197
+    },
+    {
+        "title": "COLORS -CODE GEASS OPENING MIX-",
+        "artist": "FLOW",
+        "playlist": "Off Screen",
+        "duration": "1:34",
+        "durationSeconds": 94
+    },
+    {
+        "title": "つよがるガール (Anime Edit) - TSUYOGARU GIRL (Anime Edit) (feat. Mossa)",
+        "artist": "BotchiBoromaru",
+        "playlist": "Off Screen",
+        "duration": "1:31",
+        "durationSeconds": 91
+    },
+    {
+        "title": "Liar Mask",
+        "artist": "Rika Mayama",
+        "playlist": "Off Screen",
+        "duration": "4:54",
+        "durationSeconds": 294
+    },
+    {
+        "title": "Crossing Field",
+        "artist": "LiSA",
+        "playlist": "Off Screen",
+        "duration": "4:10",
+        "durationSeconds": 250
+    },
+    {
+        "title": "みちしるべ",
+        "artist": "茅原実里",
+        "playlist": "Off Screen",
+        "duration": "4:47",
+        "durationSeconds": 287
+    },
+    {
+        "title": "Sincerely",
+        "artist": "TRUE",
+        "playlist": "Off Screen",
+        "duration": "4:37",
+        "durationSeconds": 277
+    },
+    {
+        "title": "Calling (Spider-Man: Across the Spider-Verse) (feat. A Boogie wit da Hoodie)",
+        "artist": "Metro Boomin, Swae Lee, NAV",
+        "playlist": "Off Screen",
+        "duration": "3:40",
+        "durationSeconds": 220
+    },
+    {
+        "title": "メグメル (cuckool Mix 2007) - Megumeru (cuckool Mix 2007)",
+        "artist": "riya, VISUAL ARTS / Key",
+        "playlist": "Off Screen",
+        "duration": "4:42",
+        "durationSeconds": 282
+    },
+    {
+        "title": "だんご大家族 - Dango Dai Kazoku",
+        "artist": "Chata, VISUAL ARTS / Key",
+        "playlist": "Off Screen",
+        "duration": "4:33",
+        "durationSeconds": 273
+    },
+    {
+        "title": "Here",
+        "artist": "JUNNA",
+        "playlist": "Off Screen",
+        "duration": "4:24",
+        "durationSeconds": 264
+    },
+    {
+        "title": "君の知らない物語 - Kimino Shiranai Monogatari",
+        "artist": "ClariS",
+        "playlist": "Off Screen",
+        "duration": "5:42",
+        "durationSeconds": 342
+    },
+    {
+        "title": "JUMP IN (ゆんゆん ver.) - Jump In (Yunyun Ver.)",
+        "artist": "Yunyun (CV: Aki Toyosaki)",
+        "playlist": "Off Screen",
+        "duration": "3:19",
+        "durationSeconds": 199
+    },
+    {
+        "title": "デビきゅー - Devikyu",
+        "artist": "芹澤 優",
+        "playlist": "Off Screen",
+        "duration": "3:37",
+        "durationSeconds": 217
+    },
+    {
+        "title": "ココロショータイム - Kokoro Showtime",
+        "artist": "Amatsuki",
+        "playlist": "Off Screen",
+        "duration": "4:23",
+        "durationSeconds": 263
+    },
+    {
+        "title": "In Love With Myself (from Cyberpunk: Edgerunners 2)",
+        "artist": "Petite Meller, Kalman Chodakiewitz, Eli Shiffman",
+        "playlist": "Off Screen",
+        "duration": "2:53",
+        "durationSeconds": 173
+    },
+    {
+        "title": "マシュマロ - Marshmallow",
+        "artist": "DECO*27",
+        "playlist": "grave 2.0",
+        "duration": "2:52",
+        "durationSeconds": 172
+    },
+    {
+        "title": "ループザルーム (feat. Hatsune Miku)",
+        "artist": "rusino",
+        "playlist": "grave 2.0",
+        "duration": "2:15",
+        "durationSeconds": 135
+    },
+    {
+        "title": "ルル (Live At さいたまスーパーアリーナ, 2025) - RuLe (Live At Saitama Super Arena, 2025)",
+        "artist": "Ado",
+        "playlist": "grave 2.0",
+        "duration": "3:19",
+        "durationSeconds": 199
+    },
+    {
+        "title": "ユニバースキップ/Flower&初音ミク",
+        "artist": "aoiro code",
+        "playlist": "grave 2.0",
+        "duration": "3:13",
+        "durationSeconds": 193
+    },
+    {
+        "title": "ろん -「おちゃめ機能」FUKKIRETA 【HD.256k.Kara】",
+        "artist": "tripflag",
+        "playlist": "grave 2.0",
+        "duration": "1:31",
+        "durationSeconds": 91
+    },
+    {
+        "title": "I CAN'T STOP THE LONELINESS 悲しいがとまらない   Anri (Animation)",
+        "artist": "AlexTheSchutz",
+        "playlist": "grave 2.0",
+        "duration": "4:23",
+        "durationSeconds": 263
     },
     {
         "title": "По трубам",
@@ -8200,23 +8186,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1459,
-    "totalDurationSec": 208009,
+    "totalDurationSec": 209387,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COjAntcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3m666kbAWgpoL7rhzATWFFv-2wA8Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLrwntcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3ki6-_2uMBsgj5nGBKM2vfIfDtmbA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COjAntcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3n8qlNmekea2Cld3wDW4Purf183BA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLrwntcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mFbBL53mD0wr_LFT3Vs5Ozk_Y9Sg"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=COnAntcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3m9LCPKwXiprTlHItwv_Je-n5CYEw"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CLvwntcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3lbaxPp85UYl_wpwK8QKEmM-V89GA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CO3AntcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nbhotqJab7yXENAvQdFH0ZW2NO0Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CL7wntcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lcEShE72VNYkAx2_G6Ef40hlCH4w"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CO3AntcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nFyCJa0fqhcGih1nGCpXa3t3UPOA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CL7wntcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3m76g8DnbMt0EIfN8OAxdexfF5A2g"
     }
 };
