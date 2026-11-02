@@ -1065,6 +1065,20 @@ const musicData = [
         "durationSeconds": 173
     },
     {
+        "title": "ロールプレイングライフ - Role-Playing Life",
+        "artist": "Luov",
+        "playlist": "Off Screen",
+        "duration": "3:36",
+        "durationSeconds": 216
+    },
+    {
+        "title": "Equestria Girls (Cafeteria Song)",
+        "artist": "🎸ɢʟᴀᴍʀᴏᴄᴋ ʙᴏɴɴɪᴇ🎳",
+        "playlist": "Off Screen",
+        "duration": "2:54",
+        "durationSeconds": 174
+    },
+    {
         "title": "マシュマロ - Marshmallow",
         "artist": "DECO*27",
         "playlist": "grave 2.0",
@@ -4528,13 +4542,6 @@ const musicData = [
         "playlist": "grave 2.0",
         "duration": "1:50",
         "durationSeconds": 110
-    },
-    {
-        "title": "Equestria Girls (Cafeteria Song)",
-        "artist": "🎸ɢʟᴀᴍʀᴏᴄᴋ ʙᴏɴɴɪᴇ🎳",
-        "playlist": "grave 2.0",
-        "duration": "2:54",
-        "durationSeconds": 174
     },
     {
         "title": "раковая выхухоль - страшный сон (hardstyle remix) | plague prod.",
@@ -8186,23 +8193,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1487,
-    "totalDurationSec": 209387,
+    "totalDurationSec": 209603,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CL_6oNcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3k3fr15mXGHBVsnqgOLhBORrPuW_w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPrwodcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nXwjRmkJlP7vyx9QGkrXIlyBQ7xA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CL_6oNcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3k3QCAhE_06ZArNyOxYd5m6w0qJ-w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPrwodcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nm34WxIrCZ5bZA-_DpbPx5cLYAtA"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CL_6oNcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3nE2SmDSGoQjlV-J2DUt8l0yB7E-w"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CPvwodcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3kv0OvpC18tnrEOkb-CegZA5Gu_iw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CML6oNcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3ltdxWpskQI0J5zFamS4QNXSo-svg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CP7wodcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3ndJQe8IzcNWZirimYBDyE4mlaEWA"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMP6oNcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3npJXC-MljAKpEETOVKaPFzHdi6kA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CP7wodcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mGis1y11BwZ3Bp4bbGrmWdStWypQ"
     }
 };
