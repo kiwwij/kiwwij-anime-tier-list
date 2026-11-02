@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/f2081237d233374a1897ff24160d0fc516aa7ccb_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E",
+        "status": "Online",
+        "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.8
     },
@@ -16,26 +16,18 @@ const steamData = {
         {
             "appid": 292030,
             "name": "The Witcher 3: Wild Hunt — Remastered",
-            "playtime_2weeks": 21.8,
-            "hours": 47.0,
+            "playtime_2weeks": 23.0,
+            "hours": 48.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
             "url": "https://store.steampowered.com/app/292030"
         },
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 14.8,
-            "hours": 3775.8,
+            "playtime_2weeks": 16.6,
+            "hours": 3777.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
-        },
-        {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.4,
-            "hours": 25.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
         },
         {
             "appid": 4474710,
@@ -44,6 +36,14 @@ const steamData = {
             "hours": 0.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4474710/header.jpg",
             "url": "https://store.steampowered.com/app/4474710"
+        },
+        {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.4,
+            "hours": 25.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
         },
         {
             "appid": 3746300,
@@ -66,7 +66,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3775.8,
+            "hours": 3777.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
