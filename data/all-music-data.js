@@ -1079,6 +1079,48 @@ const musicData = [
         "durationSeconds": 174
     },
     {
+        "title": "RRage Bite",
+        "artist": "5opka, MellSher",
+        "playlist": "grave 2.0",
+        "duration": "1:47",
+        "durationSeconds": 107
+    },
+    {
+        "title": "Ozempic ASS",
+        "artist": "5opka, MellSher",
+        "playlist": "grave 2.0",
+        "duration": "2:15",
+        "durationSeconds": 135
+    },
+    {
+        "title": "Imbalance",
+        "artist": "5opka, MellSher",
+        "playlist": "grave 2.0",
+        "duration": "1:58",
+        "durationSeconds": 118
+    },
+    {
+        "title": "КОД ГИАС",
+        "artist": "GONE.Fludd",
+        "playlist": "grave 2.0",
+        "duration": "2:05",
+        "durationSeconds": 125
+    },
+    {
+        "title": "У теплі літніх днів",
+        "artist": "Re-read",
+        "playlist": "grave 2.0",
+        "duration": "4:08",
+        "durationSeconds": 248
+    },
+    {
+        "title": "Bang Bang Bang",
+        "artist": "BBpanzu",
+        "playlist": "grave 2.0",
+        "duration": "3:01",
+        "durationSeconds": 181
+    },
+    {
         "title": "マシュマロ - Marshmallow",
         "artist": "DECO*27",
         "playlist": "grave 2.0",
@@ -1126,13 +1168,6 @@ const musicData = [
         "playlist": "grave 2.0",
         "duration": "2:09",
         "durationSeconds": 129
-    },
-    {
-        "title": "HEAVY METAL 3",
-        "artist": "ФУГА TV",
-        "playlist": "grave 2.0",
-        "duration": "5:56",
-        "durationSeconds": 356
     },
     {
         "title": "Lucky Number 3",
@@ -8189,27 +8224,34 @@ const musicData = [
         "playlist": "breakcore",
         "duration": "1:21",
         "durationSeconds": 81
+    },
+    {
+        "title": "Tortvred Lesbians Ripped Apart",
+        "artist": "Sewerslvt",
+        "playlist": "breakcore",
+        "duration": "22:24",
+        "durationSeconds": 1344
     }
 ];
 const musicStats = {
     "totalViews": 1499,
-    "totalDurationSec": 209603,
+    "totalDurationSec": 211505,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CIefr9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kX7YyAZaYhGqFqFtW3qYh0PZ6u9w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CITOr9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nWJHzJQtPsz3a-I8LVVHa4DmZkSg"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CIifr9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3koArBu-swAMdJzzrS-crgEeuNw4Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CITOr9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kE_-U0sdO647JW4jVT46Qc26lPeA"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CIifr9cG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3kamGaS5KiUajjsAh4BjH5N37MP0g"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CIXOr9cG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3kblD4TfcmqlCXt8w73_YXT0TU1qw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CI2fr9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3k_m2d8EEcdbaln3Xxzc1Hn4FfClQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CIjOr9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mc94MBgV3alAp-oOZlOIBvIDLjRg"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CI2fr9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kRPzyadu3Vc8jpHExJbSZAUrmnRg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CInOr9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kwcigT1SpnhusjM7NvkFPS4xC-OA"
     }
 };
