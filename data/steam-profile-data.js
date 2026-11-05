@@ -16,8 +16,8 @@ const steamData = {
         {
             "appid": 292030,
             "name": "The Witcher 3: Wild Hunt — Remastered",
-            "playtime_2weeks": 20.2,
-            "hours": 48.2,
+            "playtime_2weeks": 22.1,
+            "hours": 50.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
             "url": "https://store.steampowered.com/app/292030"
         },
