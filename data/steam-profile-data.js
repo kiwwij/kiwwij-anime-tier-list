@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/f2081237d233374a1897ff24160d0fc516aa7ccb_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
+        "status": "Online",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.8
@@ -30,6 +30,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/570"
         },
         {
+            "appid": 5375200,
+            "name": "WINNIE-THE-POOH: Honey Distortion Demo",
+            "playtime_2weeks": 0.5,
+            "hours": 0.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/5375200/header.jpg",
+            "url": "https://store.steampowered.com/app/5375200"
+        },
+        {
             "appid": 4474710,
             "name": "FINAL FANTASY RESONANCE DEMO",
             "playtime_2weeks": 0.4,
@@ -44,6 +52,14 @@ const steamData = {
             "hours": 25.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
+        },
+        {
+            "appid": 2462490,
+            "name": "Wicked Island Demo",
+            "playtime_2weeks": 0.1,
+            "hours": 0.1,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2462490/header.jpg",
+            "url": "https://store.steampowered.com/app/2462490"
         },
         {
             "appid": 2976910,
@@ -230,8 +246,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Экшены",
-                "Приключенческие игры"
+                "Без жанра"
             ]
         },
         {
