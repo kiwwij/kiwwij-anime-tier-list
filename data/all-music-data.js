@@ -1079,6 +1079,27 @@ const musicData = [
         "durationSeconds": 174
     },
     {
+        "title": "Неактуально",
+        "artist": "Baby Cute",
+        "playlist": "grave 2.0",
+        "duration": "2:20",
+        "durationSeconds": 140
+    },
+    {
+        "title": "Сброшу секреты на ветер",
+        "artist": "Twinky",
+        "playlist": "grave 2.0",
+        "duration": "1:46",
+        "durationSeconds": 106
+    },
+    {
+        "title": "ИНТЕЛЛЕКТ (feat. IROH, GONE.Fludd, CAKEBOY & Flipper Floyd)",
+        "artist": "GLAM GO!",
+        "playlist": "grave 2.0",
+        "duration": "3:29",
+        "durationSeconds": 209
+    },
+    {
         "title": "RRage Bite",
         "artist": "5opka, MellSher",
         "playlist": "grave 2.0",
@@ -2521,8 +2542,8 @@ const musicData = [
         "durationSeconds": 79
     },
     {
-        "title": "Kali Uchis - Moonlight (Official Music Video)",
-        "artist": "KaliUchisVEVO",
+        "title": "Moonlight (Official Music Video)",
+        "artist": "Kali Uchis",
         "playlist": "grave 2.0",
         "duration": "3:08",
         "durationSeconds": 188
@@ -2619,8 +2640,8 @@ const musicData = [
         "durationSeconds": 83
     },
     {
-        "title": "NEKOGLAI - CUMBACK (Премьера 2022)",
-        "artist": "nekoglai",
+        "title": "Cumback",
+        "artist": "Nekoglai",
         "playlist": "grave 2.0",
         "duration": "1:49",
         "durationSeconds": 109
@@ -2942,7 +2963,7 @@ const musicData = [
     },
     {
         "title": "АФТЕРПАТИ (feat. xxxmanera)",
-        "artist": "uniqe - Topic",
+        "artist": "uniqe, nkeeei, ARTEM SHILOVETS",
         "playlist": "grave 2.0",
         "duration": "3:19",
         "durationSeconds": 199
@@ -2955,7 +2976,7 @@ const musicData = [
         "durationSeconds": 267
     },
     {
-        "title": "Ace of Base - Happy Nation (Official Music Video)",
+        "title": "Happy Nation",
         "artist": "Ace of Base",
         "playlist": "grave 2.0",
         "duration": "3:32",
@@ -3158,7 +3179,7 @@ const musicData = [
         "durationSeconds": 131
     },
     {
-        "title": "SQWOZ BAB – GENDER (Official video)",
+        "title": "GENDER",
         "artist": "SQWOZ BAB",
         "playlist": "grave 2.0",
         "duration": "2:57",
@@ -4633,13 +4654,6 @@ const musicData = [
         "playlist": "grave 2.0",
         "duration": "1:55",
         "durationSeconds": 115
-    },
-    {
-        "title": "Я не понимаю слов или не хочу их знать #fallen777angel #kristiee #shorts",
-        "artist": "Рейн",
-        "playlist": "grave 2.0",
-        "duration": "0:22",
-        "durationSeconds": 22
     },
     {
         "title": "Малышка в Uniqlo",
@@ -8235,23 +8249,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1535,
-    "totalDurationSec": 211505,
+    "totalDurationSec": 211938,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLGmttcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mEivHC_kjLYu6Q8J73T6cUO56HLw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKXVt9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mc1rcYPsbOV2ODiLJGKY69FTp8LQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLGmttcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kqSJIkGxs8qugdZluDlNRUzennVw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKbVt9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mrZvyVI366TC7PrrdtOSzzDlCnSQ"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CLGmttcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3kqgD03z8_MVCyJP1NxH3wm-Y_3wA"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CKbVt9cG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3ku3aUZ5riUsen-X5Rpsg1Iqwudpg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLWmttcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nxXWDOAH134fLIvXgakbyir1ZQPg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKvVt9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3m98gabB0jsv10TY86bOPdcEGwpCg"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLamttcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3k1k1pLxeMb_Qug1jVu9xnOilt9qw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKvVt9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nVh-h5l7PGG_OAj-eu84rPsluZJg"
     }
 };
