@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/f2081237d233374a1897ff24160d0fc516aa7ccb_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107",
+        "status": "Offline",
+        "statusColor": "#9E9E9E",
         "level": 41,
         "age": 6.8
     },
@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 292030,
             "name": "The Witcher 3: Wild Hunt — Remastered",
-            "playtime_2weeks": 22.1,
+            "playtime_2weeks": 20.2,
             "hours": 50.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
             "url": "https://store.steampowered.com/app/292030"
@@ -36,14 +36,6 @@ const steamData = {
             "hours": 0.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/5375200/header.jpg",
             "url": "https://store.steampowered.com/app/5375200"
-        },
-        {
-            "appid": 4474710,
-            "name": "FINAL FANTASY RESONANCE DEMO",
-            "playtime_2weeks": 0.4,
-            "hours": 0.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4474710/header.jpg",
-            "url": "https://store.steampowered.com/app/4474710"
         },
         {
             "appid": 431960,
@@ -224,7 +216,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Ролевые игры"
+                "Без жанра"
             ]
         },
         {
