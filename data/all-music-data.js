@@ -2521,8 +2521,8 @@ const musicData = [
         "durationSeconds": 79
     },
     {
-        "title": "Moonlight (Official Music Video)",
-        "artist": "Kali Uchis",
+        "title": "Kali Uchis - Moonlight (Official Music Video)",
+        "artist": "KaliUchisVEVO",
         "playlist": "grave 2.0",
         "duration": "3:08",
         "durationSeconds": 188
@@ -2619,8 +2619,8 @@ const musicData = [
         "durationSeconds": 83
     },
     {
-        "title": "Cumback",
-        "artist": "Nekoglai",
+        "title": "NEKOGLAI - CUMBACK (Премьера 2022)",
+        "artist": "nekoglai",
         "playlist": "grave 2.0",
         "duration": "1:49",
         "durationSeconds": 109
@@ -2942,7 +2942,7 @@ const musicData = [
     },
     {
         "title": "АФТЕРПАТИ (feat. xxxmanera)",
-        "artist": "uniqe, nkeeei, ARTEM SHILOVETS",
+        "artist": "uniqe - Topic",
         "playlist": "grave 2.0",
         "duration": "3:19",
         "durationSeconds": 199
@@ -2955,7 +2955,7 @@ const musicData = [
         "durationSeconds": 267
     },
     {
-        "title": "Happy Nation",
+        "title": "Ace of Base - Happy Nation (Official Music Video)",
         "artist": "Ace of Base",
         "playlist": "grave 2.0",
         "duration": "3:32",
@@ -3158,7 +3158,7 @@ const musicData = [
         "durationSeconds": 131
     },
     {
-        "title": "GENDER",
+        "title": "SQWOZ BAB – GENDER (Official video)",
         "artist": "SQWOZ BAB",
         "playlist": "grave 2.0",
         "duration": "2:57",
@@ -8240,18 +8240,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNXmtdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mcGLAfyowMBVDBcvTQVm9m51v_kA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLGmttcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mEivHC_kjLYu6Q8J73T6cUO56HLw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNbmtdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3k1vlYc0YTkJ2WackA-2vfr0zCMYw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLGmttcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kqSJIkGxs8qugdZluDlNRUzennVw"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CNbmtdcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3mo2JIQSLVvJEaD5zuX15tgG9TNcw"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CLGmttcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3kqgD03z8_MVCyJP1NxH3wm-Y_3wA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNrmtdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3m8wc68np9l-yYhq0SP35iO3RHTJA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLWmttcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nxXWDOAH134fLIvXgakbyir1ZQPg"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNrmtdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3n80H4yQ6iRYZU3X49E8PAsQdwaVg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLamttcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3k1k1pLxeMb_Qug1jVu9xnOilt9qw"
     }
 };
