@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const timeContainer = document.getElementById('timeContainer');
     if (timeContainer) {
-        const hours = 4220;
+        const hours = 4273;
         const days = Math.round(hours / 24);
 
         const hourWord = declOfNum(hours, ['час', 'часа', 'часов']);

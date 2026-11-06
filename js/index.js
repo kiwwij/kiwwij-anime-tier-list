@@ -166,7 +166,9 @@ function renderTierList() {
     const categoryData = tierListData[category];
     if (!categoryData) return;
 
-    const type = categoryData.type || 'anime';
+    let type = categoryData.type || 'anime';
+    if (category === 'Энергетики') type = 'energy';
+
     const searchContainer = document.querySelector('.search-container');
     const searchInput = document.getElementById('animeSearch');
     const clearBtn = document.getElementById('clearSearch');
@@ -280,6 +282,109 @@ function renderTierList() {
             animeDisclaimer.style.display = 'none';
             localStorage.setItem('animeSortDisclaimerClosed', 'true');
         });
+    }
+    
+    if (category === 'Энергетики') {
+        if (!localStorage.getItem('energyDisclaimerClosed')) {
+            const energyDisclaimer = document.createElement('div');
+            energyDisclaimer.className = 'modal-review-box';
+            energyDisclaimer.style.margin = '0 auto 25px';
+            energyDisclaimer.style.maxWidth = '800px';
+            energyDisclaimer.style.textAlign = 'center';
+            energyDisclaimer.style.borderLeftColor = '#3b82f6';
+            energyDisclaimer.style.position = 'relative';
+            energyDisclaimer.style.paddingRight = '30px';
+
+            energyDisclaimer.innerHTML = `
+                <button id="closeEnergyDisclaimer" style="position: absolute; top: 10px; right: 10px; background: none; border: none; font-size: 1.5rem; line-height: 1; cursor: pointer; color: var(--text-muted); transition: 0.2s;" onmouseover="this.style.color='var(--text-main)'" onmouseout="this.style.color='var(--text-muted)'">&times;</button>
+                <strong>О энергетиках:</strong> Покупка — оверхайп и пустая трата денег (уже потратил ~3к+ грн на коллекцию банок). У меня эффекта бодрости почти не было, а куча сахара даёт энергию «взаймы», после чего становится только хуже и хочется спать. Не советую пить на постоянной основе.
+            `;
+            
+            tierListContainer.appendChild(energyDisclaimer);
+
+            document.getElementById('closeEnergyDisclaimer').addEventListener('click', () => {
+                energyDisclaimer.style.display = 'none';
+                localStorage.setItem('energyDisclaimerClosed', 'true');
+            });
+        }
+
+        let counts = { 'Monster Energy': 0, 'Burn': 0, 'Non Stop': 0, 'Другие': 0 };
+        dataKeys.forEach(tier => {
+            const items = categoryData.data ? categoryData.data[tier] : (categoryData[tier] || []);
+            items.forEach(item => {
+                const titleLower = item.title.toLowerCase();
+                if (titleLower.includes('monster')) counts['Monster Energy']++;
+                else if (titleLower.includes('burn')) counts['Burn']++;
+                else if (titleLower.includes('non stop')) counts['Non Stop']++;
+                else counts['Другие']++;
+            });
+        });
+
+        const filterContainer = document.createElement('div');
+        filterContainer.className = 'brand-filters-container';
+        filterContainer.innerHTML = `
+            <div class="brand-filters">
+                <button class="brand-btn" data-brand="monster">
+                    <img src="img/energydrink/monster.png" alt="Monster" class="brand-img-icon" style="mix-blend-mode: screen; filter: drop-shadow(0 0 2px rgba(144, 197, 63, 0.5));">
+                    Monster <span class="brand-count">${counts['Monster Energy']}</span>
+                </button>
+                <button class="brand-btn" data-brand="burn">
+                    <img src="img/energydrink/burn.png" alt="Burn" class="brand-img-icon" style="mix-blend-mode: screen; filter: drop-shadow(0 0 2px rgba(255, 102, 0, 0.5));">
+                    Burn <span class="brand-count">${counts['Burn']}</span>
+                </button>
+                <button class="brand-btn" data-brand="non stop">
+                    <img src="img/energydrink/non stop.png" alt="Non Stop" class="brand-img-icon" style="filter: drop-shadow(0 0 2px rgba(34, 197, 94, 0.5)) invert(1) brightness(2) sepia(1) hue-rotate(80deg) saturate(3);">
+                    Non Stop <span class="brand-count">${counts['Non Stop']}</span>
+                </button>
+                <button class="brand-btn" data-brand="другие">
+                    <i class='bx bx-category brand-icon' style="color: #a855f7; filter: drop-shadow(0 0 2px rgba(168, 85, 247, 0.5)); font-size: 1.4rem;"></i>
+                    Другие <span class="brand-count">${counts['Другие']}</span>
+                </button>
+            </div>
+        `;
+        tierListContainer.appendChild(filterContainer);
+
+        const brandBtns = filterContainer.querySelectorAll('.brand-btn');
+        let activeBrand = null;
+
+        brandBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const brand = btn.dataset.brand;
+                if (activeBrand === brand) {
+                    activeBrand = null;
+                    brandBtns.forEach(b => b.classList.remove('active'));
+                    filterEnergyDrinks(null);
+                } else {
+                    activeBrand = brand;
+                    brandBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    filterEnergyDrinks(brand);
+                }
+            });
+        });
+
+        function filterEnergyDrinks(brand) {
+            const cards = tierListContainer.querySelectorAll('.card');
+            cards.forEach(card => {
+                const query = card.dataset.query.toLowerCase();
+                
+                if (!brand) {
+                    card.classList.remove('dimmed-card');
+                } else if (brand === 'другие') {
+                    if (!query.includes('monster') && !query.includes('burn') && !query.includes('non stop')) {
+                        card.classList.remove('dimmed-card');
+                    } else {
+                        card.classList.add('dimmed-card');
+                    }
+                } else {
+                    if (query.includes(brand)) {
+                        card.classList.remove('dimmed-card');
+                    } else {
+                        card.classList.add('dimmed-card');
+                    }
+                }
+            });
+        }
     }
 
     scales.forEach((scale, idx) => {

@@ -116,8 +116,8 @@ function initMusicStats() {
             let artistName = a.trim();
             if (!artistName) return;
 
-            if (artistName.toLowerCase() === 'projekt melody' && (song.playlist === 'Sewerslvt' || song.playlist === 'ABSOLUTE SLVTCORE')) {
-                artistName = 'Sewerslvt Archive';
+            if (artistName.toLowerCase() === 'projekt melody' || artistName.toLowerCase() === 'sewerslvt archive') {
+                artistName = 'Sewerslvt';
             }
 
             artistCounts[artistName] = (artistCounts[artistName] || 0) + 1;

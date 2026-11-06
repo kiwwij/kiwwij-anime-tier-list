@@ -10,7 +10,7 @@ output_path = os.path.join(project_root, 'data', 'music-data.js')
 yt = YTMusic(language='en')
 
 playlists = [
-    {"id": "PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C", "name": "Main"},
+    {"id": "PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C", "name": "annoying noise"},
     # {"id": "PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ", "name": "Japan"}
     # {"id": "PLov5IgTS5pqktJQvn8Qsd9tMlrR1XNnu2", "name": "Dead inside"}
     # {"id": "PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ", "name": "chill"}
