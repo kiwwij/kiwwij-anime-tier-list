@@ -4663,13 +4663,6 @@ const musicData = [
         "durationSeconds": 115
     },
     {
-        "title": "Я не понимаю слов или не хочу их знать #fallen777angel #kristiee #shorts",
-        "artist": "Рейн",
-        "playlist": "grave 2.0",
-        "duration": "0:22",
-        "durationSeconds": 22
-    },
-    {
         "title": "Малышка в Uniqlo",
         "artist": "nessqchai, usedbefore",
         "playlist": "grave 2.0",
@@ -7386,6 +7379,34 @@ const musicData = [
         "durationSeconds": 155
     },
     {
+        "title": "Awake",
+        "artist": "Jeremy Soule, The Elder Scrolls",
+        "playlist": "Game OSTs",
+        "duration": "1:33",
+        "durationSeconds": 93
+    },
+    {
+        "title": "Secunda",
+        "artist": "Jeremy Soule, The Elder Scrolls",
+        "playlist": "Game OSTs",
+        "duration": "2:04",
+        "durationSeconds": 124
+    },
+    {
+        "title": "The Streets of Whiterun",
+        "artist": "Jeremy Soule, The Elder Scrolls",
+        "playlist": "Game OSTs",
+        "duration": "4:05",
+        "durationSeconds": 245
+    },
+    {
+        "title": "Sovngarde",
+        "artist": "Jeremy Soule, The Elder Scrolls",
+        "playlist": "Game OSTs",
+        "duration": "3:37",
+        "durationSeconds": 217
+    },
+    {
         "title": "Luciferians",
         "artist": "Sewerslvt",
         "playlist": "breakcore",
@@ -8263,23 +8284,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1546,
-    "totalDurationSec": 212228,
+    "totalDurationSec": 212885,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJK0u9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3k21tdikg9HZd4-apyzO4TpjPPhmw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKjbvNcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3ntz9cKZzIJxDbEZH2XHTIC4pHU7g"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJK0u9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3le8jOSxIqcRyUGq9HXvPk7GvYbmA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKjbvNcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3n_JO-10kg0uo1Dm2MrgP4eLDzwRg"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CJO0u9cG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3krqtlPMRH34s1Jix7nTgNcVoG08Q"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CKnbvNcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3my2ickNdM7JAhWymfKDgb9yB8H6w"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJa0u9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3my2rlWV88ygyqG7w_7Z4NGSsVQ0A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CK3bvNcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3keqpR-IpQl070ZxsCWvui9Cgb4HQ"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJa0u9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3klmdqcWIUdBKG-juXV3aCyfR-Tiw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CK3bvNcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kiT74j8KBmzE8mlvQ8-x-0kp-qDQ"
     }
 };
