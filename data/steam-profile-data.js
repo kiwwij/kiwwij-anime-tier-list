@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/f2081237d233374a1897ff24160d0fc516aa7ccb_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
-        "statusColor": "#4CAF50",
+        "status": "Offline",
+        "statusColor": "#9E9E9E",
         "level": 41,
         "age": 6.8
     },
@@ -16,18 +16,26 @@ const steamData = {
         {
             "appid": 292030,
             "name": "The Witcher 3: Wild Hunt — Remastered",
-            "playtime_2weeks": 19.1,
-            "hours": 50.0,
+            "playtime_2weeks": 19.0,
+            "hours": 52.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
             "url": "https://store.steampowered.com/app/292030"
         },
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 15.2,
+            "playtime_2weeks": 13.5,
             "hours": 3778.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
+        },
+        {
+            "appid": 1283400,
+            "name": "Steelrising",
+            "playtime_2weeks": 2.6,
+            "hours": 10.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
+            "url": "https://store.steampowered.com/app/1283400"
         },
         {
             "appid": 5375200,
@@ -223,7 +231,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Без жанра"
+                "Ролевые игры"
             ]
         },
         {
@@ -245,7 +253,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры"
             ]
         },
         {
