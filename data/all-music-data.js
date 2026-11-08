@@ -7407,6 +7407,20 @@ const musicData = [
         "durationSeconds": 217
     },
     {
+        "title": "SABBATH",
+        "artist": "川越　好博",
+        "playlist": "Game OSTs",
+        "duration": "2:21",
+        "durationSeconds": 141
+    },
+    {
+        "title": "SPOOKY SCAPE",
+        "artist": "川越　好博",
+        "playlist": "Game OSTs",
+        "duration": "2:22",
+        "durationSeconds": 142
+    },
+    {
         "title": "Luciferians",
         "artist": "Sewerslvt",
         "playlist": "breakcore",
@@ -8283,24 +8297,24 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 1546,
-    "totalDurationSec": 212885,
+    "totalViews": 1560,
+    "totalDurationSec": 213168,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COPSv9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mo6pf0u7FByPlrPt8rVOYXZAF1oQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNyUwdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3ntDbyyiCusvtI5Ni2NnLCC1HTCsA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COPSv9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kgeldzu0Lzljwf4IG5rIvDkp4bTw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNyUwdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3n8pEdP_Zeieo4kg52kpYad5I1Fxg"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=COTSv9cG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3lEYk_bRuW8zzBK7APPU7nVx3CkfQ"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CN2UwdcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3nlaiJY4fLjYDLw_i2CDgCM6dWjiQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COfSv9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mRkUZGtCMDS1BtKacQE-tg3WyQAA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COCUwdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kyiQWoSo_RAhPSnvUqRxzt2DNNMA"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COjSv9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3m5_5lNT8NaJkXnQlVG6tpcwV1IzA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COCUwdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mTpqf2w9DZpC712wbrUfkMpll-5w"
     }
 };
