@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/eaa8e63a078d8b68c1868be2e89309326522f784_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50",
+        "status": "Offline",
+        "statusColor": "#9E9E9E",
         "level": 41,
         "age": 6.8
     },
@@ -16,15 +16,15 @@ const steamData = {
         {
             "appid": 1283400,
             "name": "Steelrising",
-            "playtime_2weeks": 20.3,
-            "hours": 28.3,
+            "playtime_2weeks": 23.2,
+            "hours": 31.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
             "url": "https://store.steampowered.com/app/1283400"
         },
         {
             "appid": 292030,
             "name": "The Witcher 3: Wild Hunt — Remastered",
-            "playtime_2weeks": 14.2,
+            "playtime_2weeks": 14.1,
             "hours": 54.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
             "url": "https://store.steampowered.com/app/292030"
@@ -48,7 +48,7 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.3,
+            "playtime_2weeks": 0.4,
             "hours": 25.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
