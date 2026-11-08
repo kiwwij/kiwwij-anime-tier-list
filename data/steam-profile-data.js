@@ -14,25 +14,25 @@ const steamData = {
     },
     "recent_games": [
         {
+            "appid": 1283400,
+            "name": "Steelrising",
+            "playtime_2weeks": 20.3,
+            "hours": 28.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
+            "url": "https://store.steampowered.com/app/1283400"
+        },
+        {
             "appid": 292030,
             "name": "The Witcher 3: Wild Hunt — Remastered",
-            "playtime_2weeks": 16.5,
+            "playtime_2weeks": 14.2,
             "hours": 54.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
             "url": "https://store.steampowered.com/app/292030"
         },
         {
-            "appid": 1283400,
-            "name": "Steelrising",
-            "playtime_2weeks": 15.8,
-            "hours": 23.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
-            "url": "https://store.steampowered.com/app/1283400"
-        },
-        {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 13.6,
+            "playtime_2weeks": 12.1,
             "hours": 3779.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -145,7 +145,14 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры",
+                "Казуальные игры",
+                "Многопользовательские игры",
+                "Гонки",
+                "Ролевые игры",
+                "Стратегии",
+                "Бесплатные"
             ]
         },
         {
@@ -232,7 +239,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Без жанра"
+                "Ролевые игры"
             ]
         },
         {
@@ -254,7 +261,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры"
             ]
         },
         {
