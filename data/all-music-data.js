@@ -1086,6 +1086,34 @@ const musicData = [
         "durationSeconds": 268
     },
     {
+        "title": "\"Song of DEMETER\" | HELLSING ULTIMATE OST BLACK DOG",
+        "artist": "Yohanan524",
+        "playlist": "Off Screen",
+        "duration": "2:06",
+        "durationSeconds": 126
+    },
+    {
+        "title": "\"Der Freischütz Nr.9 Terzett\" | HELLSING ULTIMATE OST I~V Blu-ray BOX Bonus CD",
+        "artist": "Yohanan524",
+        "playlist": "Off Screen",
+        "duration": "6:53",
+        "durationSeconds": 413
+    },
+    {
+        "title": "\"Eikoku Shingunka\" | HELLSING ULTIMATE OST I~V Blu-ray BOX Bonus CD",
+        "artist": "Yohanan524",
+        "playlist": "Off Screen",
+        "duration": "1:48",
+        "durationSeconds": 108
+    },
+    {
+        "title": "\"Flowing World became the Death River\" | HELLSING ULTIMATE OST VI~X Blu-ray Bonus CD",
+        "artist": "Yohanan524",
+        "playlist": "Off Screen",
+        "duration": "2:24",
+        "durationSeconds": 144
+    },
+    {
         "title": "Неактуально",
         "artist": "Baby Cute",
         "playlist": "grave 2.0",
@@ -4661,13 +4689,6 @@ const musicData = [
         "playlist": "grave 2.0",
         "duration": "1:55",
         "durationSeconds": 115
-    },
-    {
-        "title": "Я не понимаю слов или не хочу их знать #fallen777angel #kristiee #shorts",
-        "artist": "Рейн",
-        "playlist": "grave 2.0",
-        "duration": "0:22",
-        "durationSeconds": 22
     },
     {
         "title": "Малышка в Uniqlo",
@@ -8305,23 +8326,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1560,
-    "totalDurationSec": 213190,
+    "totalDurationSec": 213959,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMPQwtcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3luxqavHfeKym1DnY04xat5OFGnFA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CPHBw9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3knbDRbUqSzVP83I_aDEurbUAsVpw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMPQwtcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3k2tub0GS2Mg5IUIJH2BNgfGD9Rmg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CPLBw9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nV8hCPSeezf-nJBHGdOHPMh7l3cw"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CMPQwtcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3nPfdMqrp-WFylVYWEe7FLaPLjFTA"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CPLBw9cG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3nBNklA14qtU4trRtWrI6h4Bgz3Qg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMfQwtcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3l5-ugWGfxn9BNF3L8z3oOzZ_DvMQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CPbBw9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kKrXmD5afo2gl1IqMSse-BIUdZUQ"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMfQwtcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3l5LJdONf53j6vU5DbK3dgYcGQ-Bw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CPbBw9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3ltnYCNmQKthIAnJJTyWgqy2J5K_w"
     }
 };
