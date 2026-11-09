@@ -16,8 +16,8 @@ const steamData = {
         {
             "appid": 1283400,
             "name": "Steelrising",
-            "playtime_2weeks": 23.2,
-            "hours": 31.2,
+            "playtime_2weeks": 24.9,
+            "hours": 33.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
             "url": "https://store.steampowered.com/app/1283400"
         },
@@ -36,6 +36,14 @@ const steamData = {
             "hours": 3779.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
+        },
+        {
+            "appid": 1501750,
+            "name": "Lords of the Fallen",
+            "playtime_2weeks": 1.0,
+            "hours": 20.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
+            "url": "https://store.steampowered.com/app/1501750"
         },
         {
             "appid": 5375200,
@@ -60,6 +68,14 @@ const steamData = {
             "hours": 3.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
             "url": "https://store.steampowered.com/app/2623190"
+        },
+        {
+            "appid": 1643320,
+            "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+            "playtime_2weeks": 0.2,
+            "hours": 2.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1643320/header.jpg",
+            "url": "https://store.steampowered.com/app/1643320"
         },
         {
             "appid": 2462490,
@@ -145,14 +161,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Экшены",
-                "Приключенческие игры",
-                "Казуальные игры",
-                "Многопользовательские игры",
-                "Гонки",
-                "Ролевые игры",
-                "Стратегии",
-                "Бесплатные"
+                "Без жанра"
             ]
         },
         {
