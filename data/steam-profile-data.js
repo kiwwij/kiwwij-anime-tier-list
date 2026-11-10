@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/eaa8e63a078d8b68c1868be2e89309326522f784_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E",
+        "status": "In Game",
+        "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.8
     },
@@ -24,16 +24,16 @@ const steamData = {
         {
             "appid": 1501750,
             "name": "Lords of the Fallen",
-            "playtime_2weeks": 14.3,
-            "hours": 33.9,
+            "playtime_2weeks": 19.0,
+            "hours": 38.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
             "url": "https://store.steampowered.com/app/1501750"
         },
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 12.1,
-            "hours": 3779.8,
+            "playtime_2weeks": 13.0,
+            "hours": 3780.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -52,6 +52,14 @@ const steamData = {
             "hours": 4.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1643320/header.jpg",
             "url": "https://store.steampowered.com/app/1643320"
+        },
+        {
+            "appid": 1905180,
+            "name": "OBS Studio",
+            "playtime_2weeks": 1.8,
+            "hours": 194.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
+            "url": "https://store.steampowered.com/app/1905180"
         },
         {
             "appid": 5375200,
@@ -84,21 +92,13 @@ const steamData = {
             "hours": 0.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2462490/header.jpg",
             "url": "https://store.steampowered.com/app/2462490"
-        },
-        {
-            "appid": 2976910,
-            "name": "Burger",
-            "playtime_2weeks": 0.0,
-            "hours": 0.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2976910/header.jpg",
-            "url": "https://store.steampowered.com/app/2976910"
         }
     ],
     "top_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3779.8,
+            "hours": 3780.7,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
