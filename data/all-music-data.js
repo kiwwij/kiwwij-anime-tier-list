@@ -4691,6 +4691,13 @@ const musicData = [
         "durationSeconds": 115
     },
     {
+        "title": "Я не понимаю слов или не хочу их знать #fallen777angel #kristiee #shorts",
+        "artist": "Рейн",
+        "playlist": "grave 2.0",
+        "duration": "0:22",
+        "durationSeconds": 22
+    },
+    {
         "title": "Малышка в Uniqlo",
         "artist": "nessqchai, usedbefore",
         "playlist": "grave 2.0",
@@ -7183,7 +7190,7 @@ const musicData = [
         "durationSeconds": 93
     },
     {
-        "title": "逃げてもいいの - Face It Later",
+        "title": "Face It Later",
         "artist": "Masashi Hamauzu",
         "playlist": "Game OSTs",
         "duration": "0:55",
@@ -8184,18 +8191,18 @@ const musicData = [
         "durationSeconds": 85
     },
     {
-        "title": "Various Types Of Ads",
-        "artist": "Rory in early 20s",
-        "playlist": "breakcore",
-        "duration": "1:53",
-        "durationSeconds": 113
-    },
-    {
         "title": "Subete no mono no owari wa sugu ni yattekuru.7",
         "artist": "Rory in early 20s",
         "playlist": "breakcore",
         "duration": "2:01",
         "durationSeconds": 121
+    },
+    {
+        "title": "Various Types Of Ads",
+        "artist": "Rory in early 20s",
+        "playlist": "breakcore",
+        "duration": "1:53",
+        "durationSeconds": 113
     },
     {
         "title": "Tashi Mi Yo Ni",
@@ -8326,23 +8333,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1561,
-    "totalDurationSec": 213997,
+    "totalDurationSec": 214019,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CL-uzdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nvn2QJi_l6CwhdChqv_dPZtv4RHQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CM_IztcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lUdxX3n5CV49YZY_uzElMNytRMHQ"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMCuzdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mhPF-mMxFgSTiAJZ1PO844ZahUIA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNDIztcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nxWr-bOxYCYHoW3BcwuTIh-nWUgw"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CMCuzdcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3kAXDbalKFwYL9zEM0oDY5u5I1Img"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CNDIztcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3mSqzBvUvDbK3GNTp74pj1ZwmNVig"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMSuzdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lcpTUgpkRMG4ZW7gGeQUX8eXU3dA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNTIztcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lMV06Z6Ak5IiapzLz1TGAOqqu2GA"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMWuzdcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3kcqcyVA3K-EOGwuNR9GQ1SOglKWQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNTIztcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3l4k_BSjyBOFE4JxU7QezrqHFsVCg"
     }
 };
