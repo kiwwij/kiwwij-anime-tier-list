@@ -1149,13 +1149,6 @@ const musicData = [
         "durationSeconds": 135
     },
     {
-        "title": "Imbalance",
-        "artist": "5opka, MellSher",
-        "playlist": "grave 2.0",
-        "duration": "1:58",
-        "durationSeconds": 118
-    },
-    {
         "title": "КОД ГИАС",
         "artist": "GONE.Fludd",
         "playlist": "grave 2.0",
@@ -4689,13 +4682,6 @@ const musicData = [
         "playlist": "grave 2.0",
         "duration": "1:55",
         "durationSeconds": 115
-    },
-    {
-        "title": "Я не понимаю слов или не хочу их знать #fallen777angel #kristiee #shorts",
-        "artist": "Рейн",
-        "playlist": "grave 2.0",
-        "duration": "0:22",
-        "durationSeconds": 22
     },
     {
         "title": "Малышка в Uniqlo",
@@ -8332,24 +8318,24 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 1560,
-    "totalDurationSec": 213981,
+    "totalViews": 1561,
+    "totalDurationSec": 213841,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COH0ydcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lMYNSKrBTpfTG0CjIq-XE2qeMJFQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJ24y9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3m4lpZwPX3E-eEp9hLG70Nx7bfZ1Q"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COH0ydcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3n8Pj-HpqBZJFRIl-jmWBDSK-gUeA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJ24y9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kzVyAL0N62fLSd5pSCnrNfTFs1ow"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=COL0ydcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3k4Ysm3xeCy9A9C_KS7QAXzhdFFgg"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CJ24y9cG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3lT6kZVuh--A_dSDDkf5_UR5hUzKA"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COX0ydcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kCRPLMuKPvpjOmFNBSFXvjYD6WsQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKG4y9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lLEm1E1vpPBLRQVG4EaKckKNCQjg"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COb0ydcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nXK-tu2s9oDF6M2UOy2tyWk-9JhA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKG4y9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nGqtuS0LXCue34ffKgB8DjEvJE8w"
     }
 };
