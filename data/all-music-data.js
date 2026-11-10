@@ -4684,6 +4684,13 @@ const musicData = [
         "durationSeconds": 115
     },
     {
+        "title": "Я не понимаю слов или не хочу их знать #fallen777angel #kristiee #shorts",
+        "artist": "Рейн",
+        "playlist": "grave 2.0",
+        "duration": "0:22",
+        "durationSeconds": 22
+    },
+    {
         "title": "Малышка в Uniqlo",
         "artist": "nessqchai, usedbefore",
         "playlist": "grave 2.0",
@@ -8319,23 +8326,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1561,
-    "totalDurationSec": 213841,
+    "totalDurationSec": 213863,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJ24y9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3m4lpZwPX3E-eEp9hLG70Nx7bfZ1Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJzMy9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nPI0fkUeHCGOcforHkR3uZ2dOiiA"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJ24y9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kzVyAL0N62fLSd5pSCnrNfTFs1ow"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJzMy9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lj_7-ZFA-Wnq9B5s2x1irURdCCyA"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CJ24y9cG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3lT6kZVuh--A_dSDDkf5_UR5hUzKA"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CJ3My9cG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3krQ8XrymdRb9emEe1LYC6pIQd-5A"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKG4y9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lLEm1E1vpPBLRQVG4EaKckKNCQjg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKDMy9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lfmGpdECR9Dp9P63xM2R5RNKxRAQ"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKG4y9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nGqtuS0LXCue34ffKgB8DjEvJE8w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKDMy9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mMOko5NtTyp63n8-EVzlRKk4KV1w"
     }
 };
