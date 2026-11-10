@@ -22,6 +22,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1283400"
         },
         {
+            "appid": 1501750,
+            "name": "Lords of the Fallen",
+            "playtime_2weeks": 14.3,
+            "hours": 33.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
+            "url": "https://store.steampowered.com/app/1501750"
+        },
+        {
             "appid": 570,
             "name": "Dota 2",
             "playtime_2weeks": 12.1,
@@ -36,14 +44,6 @@ const steamData = {
             "hours": 54.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
             "url": "https://store.steampowered.com/app/292030"
-        },
-        {
-            "appid": 1501750,
-            "name": "Lords of the Fallen",
-            "playtime_2weeks": 10.3,
-            "hours": 30.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
-            "url": "https://store.steampowered.com/app/1501750"
         },
         {
             "appid": 1643320,
@@ -248,7 +248,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Ролевые игры"
+                "Без жанра"
             ]
         },
         {
