@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/eaa8e63a078d8b68c1868be2e89309326522f784_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.8
@@ -14,6 +14,14 @@ const steamData = {
     },
     "recent_games": [
         {
+            "appid": 1501750,
+            "name": "Lords of the Fallen",
+            "playtime_2weeks": 29.9,
+            "hours": 49.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
+            "url": "https://store.steampowered.com/app/1501750"
+        },
+        {
             "appid": 1283400,
             "name": "Steelrising",
             "playtime_2weeks": 24.9,
@@ -22,18 +30,10 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1283400"
         },
         {
-            "appid": 1501750,
-            "name": "Lords of the Fallen",
-            "playtime_2weeks": 22.9,
-            "hours": 42.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
-            "url": "https://store.steampowered.com/app/1501750"
-        },
-        {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 13.0,
-            "hours": 3780.7,
+            "playtime_2weeks": 14.8,
+            "hours": 3782.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
@@ -78,27 +78,27 @@ const steamData = {
             "url": "https://store.steampowered.com/app/5375200"
         },
         {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.3,
-            "hours": 25.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
-        },
-        {
             "appid": 2623190,
             "name": "The Elder Scrolls IV: Oblivion Remastered",
             "playtime_2weeks": 0.3,
             "hours": 3.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
             "url": "https://store.steampowered.com/app/2623190"
+        },
+        {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.1,
+            "hours": 25.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3780.7,
+            "hours": 3782.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
