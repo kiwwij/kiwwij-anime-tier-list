@@ -24,8 +24,8 @@ const steamData = {
         {
             "appid": 1501750,
             "name": "Lords of the Fallen",
-            "playtime_2weeks": 19.0,
-            "hours": 38.7,
+            "playtime_2weeks": 22.4,
+            "hours": 42.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
             "url": "https://store.steampowered.com/app/1501750"
         },
@@ -62,6 +62,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1905180"
         },
         {
+            "appid": 2344520,
+            "name": "Diablo® IV",
+            "playtime_2weeks": 0.6,
+            "hours": 7.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/header.jpg",
+            "url": "https://store.steampowered.com/app/2344520"
+        },
+        {
             "appid": 5375200,
             "name": "WINNIE-THE-POOH: Honey Distortion Demo",
             "playtime_2weeks": 0.5,
@@ -72,7 +80,7 @@ const steamData = {
         {
             "appid": 431960,
             "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.4,
+            "playtime_2weeks": 0.3,
             "hours": 25.1,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
             "url": "https://store.steampowered.com/app/431960"
@@ -84,14 +92,6 @@ const steamData = {
             "hours": 3.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
             "url": "https://store.steampowered.com/app/2623190"
-        },
-        {
-            "appid": 2462490,
-            "name": "Wicked Island Demo",
-            "playtime_2weeks": 0.1,
-            "hours": 0.1,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2462490/header.jpg",
-            "url": "https://store.steampowered.com/app/2462490"
         }
     ],
     "top_games": [
@@ -248,7 +248,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Без жанра"
+                "Ролевые игры"
             ]
         },
         {
@@ -270,7 +270,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры"
             ]
         },
         {
