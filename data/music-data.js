@@ -304,19 +304,9 @@ const musicData = [
         "title": "дырки в штанах",
         "artist": "madk1d",
         "playlist": "annoying noise"
-    },
-    {
-        "title": "Звёзды",
-        "artist": "зайчий кайф",
-        "playlist": "annoying noise"
-    },
-    {
-        "title": "САМАЯ ЖУТКАЯ ЦИВИЛИЗАЦИЯ // ВАНДР",
-        "artist": "ВАНДР",
-        "playlist": "annoying noise"
     }
 ];
 const musicStats = {
     "totalViews": 22,
-    "totalDurationSec": 11301
+    "totalDurationSec": 8304
 };
