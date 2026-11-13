@@ -16,8 +16,8 @@ const steamData = {
         {
             "appid": 1501750,
             "name": "Lords of the Fallen",
-            "playtime_2weeks": 58.6,
-            "hours": 78.2,
+            "playtime_2weeks": 62.5,
+            "hours": 82.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
             "url": "https://store.steampowered.com/app/1501750"
         },
@@ -32,7 +32,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 15.3,
+            "playtime_2weeks": 14.1,
             "hours": 3784.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -40,7 +40,7 @@ const steamData = {
         {
             "appid": 292030,
             "name": "The Witcher 3: Wild Hunt — Remastered",
-            "playtime_2weeks": 12.0,
+            "playtime_2weeks": 10.2,
             "hours": 54.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
             "url": "https://store.steampowered.com/app/292030"
@@ -161,7 +161,14 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры",
+                "Казуальные игры",
+                "Многопользовательские игры",
+                "Гонки",
+                "Ролевые игры",
+                "Стратегии",
+                "Бесплатные"
             ]
         },
         {
@@ -248,7 +255,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Без жанра"
+                "Ролевые игры"
             ]
         },
         {
@@ -270,13 +277,14 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры"
             ]
         },
         {
             "appid": 1501750,
             "name": "Lords of the Fallen",
-            "hours": 78.2,
+            "hours": 82.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
             "url": "https://store.steampowered.com/app/1501750",
             "tags": [
