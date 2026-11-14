@@ -46,6 +46,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/292030"
         },
         {
+            "appid": 814380,
+            "name": "Sekiro™: Shadows Die Twice",
+            "playtime_2weeks": 5.9,
+            "hours": 26.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg",
+            "url": "https://store.steampowered.com/app/814380"
+        },
+        {
             "appid": 1643320,
             "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
             "playtime_2weeks": 2.5,
@@ -60,14 +68,6 @@ const steamData = {
             "hours": 194.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
-        },
-        {
-            "appid": 814380,
-            "name": "Sekiro™: Shadows Die Twice",
-            "playtime_2weeks": 1.8,
-            "hours": 22.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg",
-            "url": "https://store.steampowered.com/app/814380"
         },
         {
             "appid": 2344520,
@@ -161,14 +161,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Экшены",
-                "Приключенческие игры",
-                "Казуальные игры",
-                "Многопользовательские игры",
-                "Гонки",
-                "Ролевые игры",
-                "Стратегии",
-                "Бесплатные"
+                "Без жанра"
             ]
         },
         {
@@ -255,7 +248,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Без жанра"
+                "Ролевые игры"
             ]
         },
         {
@@ -289,8 +282,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Экшены",
-                "Приключенческие игры"
+                "Без жанра"
             ]
         },
         {
