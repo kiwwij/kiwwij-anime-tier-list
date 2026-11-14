@@ -16,8 +16,8 @@ const steamData = {
         {
             "appid": 1501750,
             "name": "Lords of the Fallen",
-            "playtime_2weeks": 69.2,
-            "hours": 88.7,
+            "playtime_2weeks": 70.4,
+            "hours": 90.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
             "url": "https://store.steampowered.com/app/1501750"
         },
@@ -62,6 +62,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1905180"
         },
         {
+            "appid": 814380,
+            "name": "Sekiro™: Shadows Die Twice",
+            "playtime_2weeks": 1.8,
+            "hours": 22.7,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg",
+            "url": "https://store.steampowered.com/app/814380"
+        },
+        {
             "appid": 2344520,
             "name": "Diablo® IV",
             "playtime_2weeks": 0.6,
@@ -84,14 +92,6 @@ const steamData = {
             "hours": 3.4,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
             "url": "https://store.steampowered.com/app/2623190"
-        },
-        {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "playtime_2weeks": 0.2,
-            "hours": 25.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
-            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
@@ -161,7 +161,14 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры",
+                "Казуальные игры",
+                "Многопользовательские игры",
+                "Гонки",
+                "Ролевые игры",
+                "Стратегии",
+                "Бесплатные"
             ]
         },
         {
@@ -266,7 +273,7 @@ const steamData = {
         {
             "appid": 1501750,
             "name": "Lords of the Fallen",
-            "hours": 88.7,
+            "hours": 90.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
             "url": "https://store.steampowered.com/app/1501750",
             "tags": [
