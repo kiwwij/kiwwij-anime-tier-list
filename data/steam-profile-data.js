@@ -4,13 +4,13 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/eaa8e63a078d8b68c1868be2e89309326522f784_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E",
+        "status": "In Game",
+        "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.8
     },
     "stats": {
-        "total_games": 307
+        "total_games": 308
     },
     "recent_games": [
         {
@@ -40,7 +40,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 10.7,
+            "playtime_2weeks": 10.0,
             "hours": 3785.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -70,6 +70,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1905180"
         },
         {
+            "appid": 3419430,
+            "name": "Bongo Cat",
+            "playtime_2weeks": 1.3,
+            "hours": 1.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3419430/header.jpg",
+            "url": "https://store.steampowered.com/app/3419430"
+        },
+        {
             "appid": 2344520,
             "name": "Diablo® IV",
             "playtime_2weeks": 0.6,
@@ -84,14 +92,6 @@ const steamData = {
             "hours": 0.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/5375200/header.jpg",
             "url": "https://store.steampowered.com/app/5375200"
-        },
-        {
-            "appid": 2623190,
-            "name": "The Elder Scrolls IV: Oblivion Remastered",
-            "playtime_2weeks": 0.3,
-            "hours": 3.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
-            "url": "https://store.steampowered.com/app/2623190"
         }
     ],
     "top_games": [
@@ -282,8 +282,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Экшены",
-                "Приключенческие игры"
+                "Без жанра"
             ]
         },
         {
