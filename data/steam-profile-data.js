@@ -30,9 +30,17 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1283400"
         },
         {
+            "appid": 814380,
+            "name": "Sekiro™: Shadows Die Twice",
+            "playtime_2weeks": 15.5,
+            "hours": 36.5,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg",
+            "url": "https://store.steampowered.com/app/814380"
+        },
+        {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 12.0,
+            "playtime_2weeks": 11.0,
             "hours": 3784.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
@@ -44,14 +52,6 @@ const steamData = {
             "hours": 54.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
             "url": "https://store.steampowered.com/app/292030"
-        },
-        {
-            "appid": 814380,
-            "name": "Sekiro™: Shadows Die Twice",
-            "playtime_2weeks": 9.3,
-            "hours": 30.2,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg",
-            "url": "https://store.steampowered.com/app/814380"
         },
         {
             "appid": 1643320,
@@ -255,7 +255,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Ролевые игры"
+                "Без жанра"
             ]
         },
         {
