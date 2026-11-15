@@ -1275,11 +1275,11 @@ const musicData = [
         "durationSeconds": 190
     },
     {
-        "title": "Pretty Little Baby (Linda Muchachita) (Spanish Version)",
+        "title": "Linda Muchachita",
         "artist": "Connie Francis",
         "playlist": "grave 2.0",
-        "duration": "2:19",
-        "durationSeconds": 139
+        "duration": "2:18",
+        "durationSeconds": 138
     },
     {
         "title": "Лёд",
@@ -4696,6 +4696,13 @@ const musicData = [
         "playlist": "grave 2.0",
         "duration": "1:55",
         "durationSeconds": 115
+    },
+    {
+        "title": "Я не понимаю слов или не хочу их знать #fallen777angel #kristiee #shorts",
+        "artist": "Рейн",
+        "playlist": "grave 2.0",
+        "duration": "0:22",
+        "durationSeconds": 22
     },
     {
         "title": "Малышка в Uniqlo",
@@ -8332,24 +8339,24 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 1571,
-    "totalDurationSec": 214080,
+    "totalViews": 1682,
+    "totalDurationSec": 214101,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNXq59cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kOrJ7lkNGZZ4lQ4flgLJJyBXakcQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COLN6NcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kAtN3VeyjFNhTB14sdXFx6nPIUjg"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNbq59cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kzerqVeypvBCZoWHmhqVkDzJEcLw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COLN6NcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3nJXLfBS0SoT9xB-bFXD5eiMCdaIQ"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CNbq59cG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3m978GYtmo_GkuFWM9IkS6-dPLeSg"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=COPN6NcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3kvseMds2a7JlVmyGOvDOBFfnYkUw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNvq59cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lRlyihlPwcyF9FB1hIi_bRAHixiQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COfN6NcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3lyMAitr4v3iEFQnKoxtjuftuYkug"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNvq59cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lyYDtyjt09qSgpUiRoGSCIxLJpqQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COfN6NcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nhMJcfSHCdS9exE-Ojwbk-R8Bmvg"
     }
 };
