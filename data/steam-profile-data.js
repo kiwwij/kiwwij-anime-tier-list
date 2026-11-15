@@ -48,8 +48,8 @@ const steamData = {
         {
             "appid": 814380,
             "name": "Sekiro™: Shadows Die Twice",
-            "playtime_2weeks": 5.9,
-            "hours": 26.8,
+            "playtime_2weeks": 9.3,
+            "hours": 30.2,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg",
             "url": "https://store.steampowered.com/app/814380"
         },
@@ -161,7 +161,14 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры",
+                "Казуальные игры",
+                "Многопользовательские игры",
+                "Гонки",
+                "Ролевые игры",
+                "Стратегии",
+                "Бесплатные"
             ]
         },
         {
@@ -282,7 +289,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры"
             ]
         },
         {
