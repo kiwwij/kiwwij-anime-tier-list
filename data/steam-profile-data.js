@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/eaa8e63a078d8b68c1868be2e89309326522f784_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50",
+        "status": "Offline",
+        "statusColor": "#9E9E9E",
         "level": 41,
         "age": 6.8
     },
@@ -62,20 +62,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1643320"
         },
         {
+            "appid": 3419430,
+            "name": "Bongo Cat",
+            "playtime_2weeks": 1.9,
+            "hours": 1.9,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3419430/header.jpg",
+            "url": "https://store.steampowered.com/app/3419430"
+        },
+        {
             "appid": 1905180,
             "name": "OBS Studio",
             "playtime_2weeks": 1.8,
             "hours": 194.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
-        },
-        {
-            "appid": 3419430,
-            "name": "Bongo Cat",
-            "playtime_2weeks": 1.3,
-            "hours": 1.3,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3419430/header.jpg",
-            "url": "https://store.steampowered.com/app/3419430"
         },
         {
             "appid": 2344520,
@@ -161,7 +161,14 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
             "url": "https://store.steampowered.com/app/2767030",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры",
+                "Казуальные игры",
+                "Многопользовательские игры",
+                "Гонки",
+                "Ролевые игры",
+                "Стратегии",
+                "Бесплатные"
             ]
         },
         {
@@ -282,7 +289,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры"
             ]
         },
         {
