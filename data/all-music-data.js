@@ -1128,6 +1128,13 @@ const musicData = [
         "durationSeconds": 245
     },
     {
+        "title": "Lilium",
+        "artist": "Maryan MG",
+        "playlist": "Off Screen",
+        "duration": "3:01",
+        "durationSeconds": 181
+    },
+    {
         "title": "MadSh1r — За Дипинса! (Премьера 2026)",
         "artist": "MellSher",
         "playlist": "grave 2.0",
@@ -8343,27 +8350,34 @@ const musicData = [
         "playlist": "breakcore",
         "duration": "22:24",
         "durationSeconds": 1344
+    },
+    {
+        "title": "BiOMECHANICAL",
+        "artist": "Cynthoni",
+        "playlist": "breakcore",
+        "duration": "5:28",
+        "durationSeconds": 328
     }
 ];
 const musicStats = {
     "totalViews": 1704,
-    "totalDurationSec": 214347,
+    "totalDurationSec": 214856,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMa679cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lIjjisGrLtNbcjtlThMIHIbHH3SA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNC68dcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nCJtnBPcvOIZLs2mZ4t5Rgm3Mt7g"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMa679cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kzn5cHhqt4O6g7BKrkUhNPjU2PsQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNC68dcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3l_lCIUy2v33Xfkl1sFL5xDWPXxKw"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CMa679cG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3kEFYDeMhE3-bCdzADTfbvomgVNSQ"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CNG68dcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3n0HnT9nO09dsYjUQcljpvLMbZ6Gg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMq679cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3n4hIR-uEPUuAOA8b3UxPE6LTqTiQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CNW68dcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nDVrQTxxuAD5OvHcDVfQHySvPOwA"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMq679cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3m94I5sktYZuwL8wiDggR9RBrbMlQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CNa68dcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nsnPCY40om4TCq4L7dlyGd5M8Tbw"
     }
 };
