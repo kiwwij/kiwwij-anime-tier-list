@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/eaa8e63a078d8b68c1868be2e89309326522f784_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E",
+        "status": "Away",
+        "statusColor": "#FFC107",
         "level": 41,
         "age": 6.8
     },
@@ -78,20 +78,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1905180"
         },
         {
+            "appid": 4255580,
+            "name": "Mouse X",
+            "playtime_2weeks": 1.2,
+            "hours": 1.2,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4255580/header.jpg",
+            "url": "https://store.steampowered.com/app/4255580"
+        },
+        {
             "appid": 2344520,
             "name": "Diablo® IV",
             "playtime_2weeks": 0.6,
             "hours": 7.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/header.jpg",
             "url": "https://store.steampowered.com/app/2344520"
-        },
-        {
-            "appid": 5375200,
-            "name": "WINNIE-THE-POOH: Honey Distortion Demo",
-            "playtime_2weeks": 0.5,
-            "hours": 0.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/5375200/header.jpg",
-            "url": "https://store.steampowered.com/app/5375200"
         }
     ],
     "top_games": [
