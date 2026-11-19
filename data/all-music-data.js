@@ -3333,8 +3333,8 @@ const musicData = [
         "durationSeconds": 223
     },
     {
-        "title": "EBAN'KO, Ksenon - Зима-холода (Remix) Премьера зимней сказки, 2024  ❄️",
-        "artist": "Ksenon",
+        "title": "Зима-холода (Remix)",
+        "artist": "Ksenon, ЕБАНЬКО",
         "playlist": "grave 2.0",
         "duration": "2:28",
         "durationSeconds": 148
@@ -4710,6 +4710,13 @@ const musicData = [
         "playlist": "grave 2.0",
         "duration": "1:55",
         "durationSeconds": 115
+    },
+    {
+        "title": "Я не понимаю слов или не хочу их знать #fallen777angel #kristiee #shorts",
+        "artist": "Рейн",
+        "playlist": "grave 2.0",
+        "duration": "0:22",
+        "durationSeconds": 22
     },
     {
         "title": "Малышка в Uniqlo",
@@ -8361,23 +8368,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1704,
-    "totalDurationSec": 215020,
+    "totalDurationSec": 215042,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CNrh-9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mZ0HKMmdr8ONxOlfJ8-Na-FSmH1g"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJqV_dcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3nljfEhWWjNmKhDbKR9MrF8U6SiIw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CNrh-9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kwQD9Ib-o2XZqbjwkPDOX2E91WKQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJuV_dcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3lNV3raaeKt_hDboZ4mp6p2UWfSXQ"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CNvh-9cG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3klK-a0Fe-Ij-eCFrNAEL0s1lX62A"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CJuV_dcG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3lryPgfX8_ioMo9COreqZBvc2xmSQ"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CN7h-9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3n40lujYAn7oAqBTKfH8S_UBOGR1w"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKCV_dcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nsLU7d-grxywkYuHj9jedmAvrjYw"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CN_h-9cG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3ky-TFnwI4PArTAQk1mjO4R8urpSg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKCV_dcG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mUXPc8o5Ren4hD1j-8NNVs_wZkiw"
     }
 };
