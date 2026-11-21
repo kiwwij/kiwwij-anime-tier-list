@@ -4,7 +4,7 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/eaa8e63a078d8b68c1868be2e89309326522f784_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Online",
+        "status": "In Game",
         "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.8
@@ -22,14 +22,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1501750"
         },
         {
-            "appid": 1283400,
-            "name": "Steelrising",
-            "playtime_2weeks": 21.1,
-            "hours": 33.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
-            "url": "https://store.steampowered.com/app/1283400"
-        },
-        {
             "appid": 814380,
             "name": "Sekiro™: Shadows Die Twice",
             "playtime_2weeks": 19.8,
@@ -38,28 +30,28 @@ const steamData = {
             "url": "https://store.steampowered.com/app/814380"
         },
         {
+            "appid": 1283400,
+            "name": "Steelrising",
+            "playtime_2weeks": 18.8,
+            "hours": 33.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
+            "url": "https://store.steampowered.com/app/1283400"
+        },
+        {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 16.3,
-            "hours": 3794.8,
+            "playtime_2weeks": 18.1,
+            "hours": 3796.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 1643320,
             "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-            "playtime_2weeks": 4.7,
-            "hours": 7.0,
+            "playtime_2weeks": 5.3,
+            "hours": 7.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1643320/header.jpg",
             "url": "https://store.steampowered.com/app/1643320"
-        },
-        {
-            "appid": 292030,
-            "name": "The Witcher 3: Wild Hunt — Remastered",
-            "playtime_2weeks": 2.2,
-            "hours": 54.9,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
-            "url": "https://store.steampowered.com/app/292030"
         },
         {
             "appid": 3419430,
@@ -92,13 +84,21 @@ const steamData = {
             "hours": 7.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/header.jpg",
             "url": "https://store.steampowered.com/app/2344520"
+        },
+        {
+            "appid": 2623190,
+            "name": "The Elder Scrolls IV: Oblivion Remastered",
+            "playtime_2weeks": 0.3,
+            "hours": 3.4,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
+            "url": "https://store.steampowered.com/app/2623190"
         }
     ],
     "top_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3794.8,
+            "hours": 3796.6,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
@@ -248,7 +248,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Ролевые игры"
+                "Без жанра"
             ]
         },
         {
