@@ -212,7 +212,7 @@ const musicData = [
     },
     {
         "title": "прости я не знаю",
-        "artist": "СЕРЕГА ПИРАТ",
+        "artist": "Серега Пират",
         "playlist": "annoying noise"
     },
     {
