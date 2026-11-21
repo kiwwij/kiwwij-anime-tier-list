@@ -296,7 +296,7 @@ const musicData = [
     },
     {
         "title": "прости я не знаю",
-        "artist": "СЕРЕГА ПИРАТ",
+        "artist": "Серега Пират",
         "playlist": "annoying noise",
         "duration": "2:16",
         "durationSeconds": 136
@@ -1135,6 +1135,41 @@ const musicData = [
         "durationSeconds": 181
     },
     {
+        "title": "Growing Up",
+        "artist": "Machico",
+        "playlist": "Off Screen",
+        "duration": "3:50",
+        "durationSeconds": 230
+    },
+    {
+        "title": "ちいさな冒険者 (ダクネス ver.) - Chiisana Boukensya (Darkness Ver.)",
+        "artist": "Darkness (CV: Ai Kayano)",
+        "playlist": "Off Screen",
+        "duration": "3:19",
+        "durationSeconds": 199
+    },
+    {
+        "title": "おうちに帰りたい - Ouchi Ni Kaeritai",
+        "artist": "Aqua (CV: Sora Amamiya), Megumin (CV: Rie Takahashi), Darkness (CV: Ai Kayano)",
+        "playlist": "Off Screen",
+        "duration": "3:21",
+        "durationSeconds": 201
+    },
+    {
+        "title": "Jump In",
+        "artist": "Megumin (CV: Rie Takahashi), Yunyun (CV: Aki Toyosaki)",
+        "playlist": "Off Screen",
+        "duration": "3:19",
+        "durationSeconds": 199
+    },
+    {
+        "title": "ЗНАК",
+        "artist": "Toxi$, Дора",
+        "playlist": "grave 2.0",
+        "duration": "3:36",
+        "durationSeconds": 216
+    },
+    {
         "title": "Там, где нас нет",
         "artist": "Автостопом по фазе сна",
         "playlist": "grave 2.0",
@@ -1626,7 +1661,7 @@ const musicData = [
     },
     {
         "title": "Тп на аме",
-        "artist": "СЕРЕГА ПИРАТ",
+        "artist": "Серега Пират",
         "playlist": "grave 2.0",
         "duration": "2:40",
         "durationSeconds": 160
@@ -1668,7 +1703,7 @@ const musicData = [
     },
     {
         "title": "Шизоид",
-        "artist": "СЕРЕГА ПИРАТ",
+        "artist": "Серега Пират",
         "playlist": "grave 2.0",
         "duration": "2:35",
         "durationSeconds": 155
@@ -1857,7 +1892,7 @@ const musicData = [
     },
     {
         "title": "я не боюсь ошибаться",
-        "artist": "MZLFF, СЕРЕГА ПИРАТ",
+        "artist": "MZLFF, Серега Пират",
         "playlist": "grave 2.0",
         "duration": "2:53",
         "durationSeconds": 173
@@ -8367,24 +8402,24 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 1704,
-    "totalDurationSec": 215179,
+    "totalViews": 1717,
+    "totalDurationSec": 216224,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKblg9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3n3B4uRSTy0OsJ9YPtf-_FnRJb7yA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CLiahdgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kNCRKa03A8fxGL_QT_1Hupaygnjw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKflg9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3n0rLsgCPGMVuFaly12OBCo7jZdRA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CLiahdgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3llLxVzUln-MYiwdENxd6unlydzJg"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CKflg9gG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3lPzW2h8tl9aniZlPTI_l9fxm4aSg"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CLmahdgG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3kMTu-0nz-WPH-8NrTemGBZpsyG7g"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKvlg9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mkDk3HAByjQj1s7ElcKF3RFi7I6Q"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CL2ahdgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3l2YxEczRiJgd-uLOMjeVSfpLHEyg"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKvlg9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nQF7bVb1Ubc9nHzFjg9wrc9qo8ug"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CL2ahdgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3mld1Wu1YxrUz8C58Qurkz7Maj_rw"
     }
 };
