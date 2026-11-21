@@ -24,7 +24,7 @@ const steamData = {
         {
             "appid": 1283400,
             "name": "Steelrising",
-            "playtime_2weeks": 24.9,
+            "playtime_2weeks": 21.1,
             "hours": 33.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
             "url": "https://store.steampowered.com/app/1283400"
@@ -40,26 +40,26 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 15.6,
-            "hours": 3794.1,
+            "playtime_2weeks": 16.3,
+            "hours": 3794.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
+            "appid": 1643320,
+            "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+            "playtime_2weeks": 4.7,
+            "hours": 7.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1643320/header.jpg",
+            "url": "https://store.steampowered.com/app/1643320"
+        },
+        {
             "appid": 292030,
             "name": "The Witcher 3: Wild Hunt — Remastered",
-            "playtime_2weeks": 3.4,
+            "playtime_2weeks": 2.2,
             "hours": 54.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
             "url": "https://store.steampowered.com/app/292030"
-        },
-        {
-            "appid": 1643320,
-            "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-            "playtime_2weeks": 2.5,
-            "hours": 4.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1643320/header.jpg",
-            "url": "https://store.steampowered.com/app/1643320"
         },
         {
             "appid": 3419430,
@@ -98,7 +98,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3794.1,
+            "hours": 3794.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
@@ -248,7 +248,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Без жанра"
+                "Ролевые игры"
             ]
         },
         {
