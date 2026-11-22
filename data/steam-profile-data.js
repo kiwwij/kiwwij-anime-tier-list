@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/eaa8e63a078d8b68c1868be2e89309326522f784_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Away",
-        "statusColor": "#FFC107",
+        "status": "Online",
+        "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.8
     },
@@ -32,26 +32,26 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 18.1,
-            "hours": 3796.6,
+            "playtime_2weeks": 18.9,
+            "hours": 3798.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
+            "appid": 1643320,
+            "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+            "playtime_2weeks": 7.5,
+            "hours": 9.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1643320/header.jpg",
+            "url": "https://store.steampowered.com/app/1643320"
+        },
+        {
             "appid": 1283400,
             "name": "Steelrising",
-            "playtime_2weeks": 14.0,
+            "playtime_2weeks": 6.4,
             "hours": 33.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
             "url": "https://store.steampowered.com/app/1283400"
-        },
-        {
-            "appid": 1643320,
-            "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-            "playtime_2weeks": 6.2,
-            "hours": 8.5,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1643320/header.jpg",
-            "url": "https://store.steampowered.com/app/1643320"
         },
         {
             "appid": 3419430,
@@ -86,19 +86,19 @@ const steamData = {
             "url": "https://store.steampowered.com/app/2344520"
         },
         {
-            "appid": 2623190,
-            "name": "The Elder Scrolls IV: Oblivion Remastered",
-            "playtime_2weeks": 0.3,
-            "hours": 3.4,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2623190/header.jpg",
-            "url": "https://store.steampowered.com/app/2623190"
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "playtime_2weeks": 0.2,
+            "hours": 25.3,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+            "url": "https://store.steampowered.com/app/431960"
         }
     ],
     "top_games": [
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3796.6,
+            "hours": 3798.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
