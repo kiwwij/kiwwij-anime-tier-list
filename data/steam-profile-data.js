@@ -22,6 +22,14 @@ const steamData = {
             "url": "https://store.steampowered.com/app/1501750"
         },
         {
+            "appid": 570,
+            "name": "Dota 2",
+            "playtime_2weeks": 20.2,
+            "hours": 3800.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
+            "url": "https://store.steampowered.com/app/570"
+        },
+        {
             "appid": 814380,
             "name": "Sekiro™: Shadows Die Twice",
             "playtime_2weeks": 19.8,
@@ -30,28 +38,12 @@ const steamData = {
             "url": "https://store.steampowered.com/app/814380"
         },
         {
-            "appid": 570,
-            "name": "Dota 2",
-            "playtime_2weeks": 18.9,
-            "hours": 3798.8,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
-            "url": "https://store.steampowered.com/app/570"
-        },
-        {
             "appid": 1643320,
             "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
             "playtime_2weeks": 7.5,
             "hours": 9.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1643320/header.jpg",
             "url": "https://store.steampowered.com/app/1643320"
-        },
-        {
-            "appid": 1283400,
-            "name": "Steelrising",
-            "playtime_2weeks": 6.4,
-            "hours": 33.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
-            "url": "https://store.steampowered.com/app/1283400"
         },
         {
             "appid": 3419430,
@@ -68,6 +60,14 @@ const steamData = {
             "hours": 194.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
+        },
+        {
+            "appid": 1283400,
+            "name": "Steelrising",
+            "playtime_2weeks": 1.8,
+            "hours": 33.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
+            "url": "https://store.steampowered.com/app/1283400"
         },
         {
             "appid": 4255580,
@@ -98,7 +98,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3798.8,
+            "hours": 3800.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
