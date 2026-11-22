@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/eaa8e63a078d8b68c1868be2e89309326522f784_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50",
+        "status": "Offline",
+        "statusColor": "#9E9E9E",
         "level": 41,
         "age": 6.8
     },
@@ -30,14 +30,6 @@ const steamData = {
             "url": "https://store.steampowered.com/app/814380"
         },
         {
-            "appid": 1283400,
-            "name": "Steelrising",
-            "playtime_2weeks": 18.8,
-            "hours": 33.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
-            "url": "https://store.steampowered.com/app/1283400"
-        },
-        {
             "appid": 570,
             "name": "Dota 2",
             "playtime_2weeks": 18.1,
@@ -46,10 +38,18 @@ const steamData = {
             "url": "https://store.steampowered.com/app/570"
         },
         {
+            "appid": 1283400,
+            "name": "Steelrising",
+            "playtime_2weeks": 15.7,
+            "hours": 33.0,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
+            "url": "https://store.steampowered.com/app/1283400"
+        },
+        {
             "appid": 1643320,
             "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-            "playtime_2weeks": 5.3,
-            "hours": 7.6,
+            "playtime_2weeks": 6.2,
+            "hours": 8.5,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1643320/header.jpg",
             "url": "https://store.steampowered.com/app/1643320"
         },
