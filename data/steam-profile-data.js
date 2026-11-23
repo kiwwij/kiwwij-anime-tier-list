@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/eaa8e63a078d8b68c1868be2e89309326522f784_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E",
+        "status": "Away",
+        "statusColor": "#FFC107",
         "level": 41,
         "age": 6.8
     },
@@ -16,7 +16,7 @@ const steamData = {
         {
             "appid": 1501750,
             "name": "Lords of the Fallen",
-            "playtime_2weeks": 70.4,
+            "playtime_2weeks": 68.2,
             "hours": 90.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
             "url": "https://store.steampowered.com/app/1501750"
@@ -40,7 +40,7 @@ const steamData = {
         {
             "appid": 1643320,
             "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-            "playtime_2weeks": 7.5,
+            "playtime_2weeks": 6.3,
             "hours": 9.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1643320/header.jpg",
             "url": "https://store.steampowered.com/app/1643320"
@@ -60,14 +60,6 @@ const steamData = {
             "hours": 194.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905180/header.jpg",
             "url": "https://store.steampowered.com/app/1905180"
-        },
-        {
-            "appid": 1283400,
-            "name": "Steelrising",
-            "playtime_2weeks": 1.8,
-            "hours": 33.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
-            "url": "https://store.steampowered.com/app/1283400"
         },
         {
             "appid": 4255580,
@@ -248,7 +240,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Ролевые игры"
+                "Без жанра"
             ]
         },
         {
