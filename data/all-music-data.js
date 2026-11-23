@@ -1,6 +1,440 @@
 // Этот файл сгенерирован автоматически скриптом update_all_music.py
 const musicData = [
     {
+        "title": "ты че обиделась",
+        "artist": "madk1d, тёмный принц",
+        "playlist": "annoying noise",
+        "duration": "1:30",
+        "durationSeconds": 90
+    },
+    {
+        "title": "общага",
+        "artist": "диссоциативное расстройство",
+        "playlist": "annoying noise",
+        "duration": "1:48",
+        "durationSeconds": 108
+    },
+    {
+        "title": "Деревья, сгнившие до ствола",
+        "artist": "Violetta Sokolova",
+        "playlist": "annoying noise",
+        "duration": "2:11",
+        "durationSeconds": 131
+    },
+    {
+        "title": "Виріжу очі",
+        "artist": "Апатія, Crushglad",
+        "playlist": "annoying noise",
+        "duration": "3:03",
+        "durationSeconds": 183
+    },
+    {
+        "title": "Так прикро",
+        "artist": "Апатія",
+        "playlist": "annoying noise",
+        "duration": "3:00",
+        "durationSeconds": 180
+    },
+    {
+        "title": "sexyswag2010",
+        "artist": "madk1d",
+        "playlist": "annoying noise",
+        "duration": "1:30",
+        "durationSeconds": 90
+    },
+    {
+        "title": "В реальності новій",
+        "artist": "Апатія",
+        "playlist": "annoying noise",
+        "duration": "2:45",
+        "durationSeconds": 165
+    },
+    {
+        "title": "нарратор",
+        "artist": "lafkrat, мистер модератор, умрувмае, костик",
+        "playlist": "annoying noise",
+        "duration": "2:24",
+        "durationSeconds": 144
+    },
+    {
+        "title": "чёрный шёлк",
+        "artist": "3umph, dope17",
+        "playlist": "annoying noise",
+        "duration": "1:58",
+        "durationSeconds": 118
+    },
+    {
+        "title": "шизофрения",
+        "artist": "kurokov",
+        "playlist": "annoying noise",
+        "duration": "1:19",
+        "durationSeconds": 79
+    },
+    {
+        "title": "губы",
+        "artist": "тёмный принц",
+        "playlist": "annoying noise",
+        "duration": "1:35",
+        "durationSeconds": 95
+    },
+    {
+        "title": "пароли",
+        "artist": "KERASINN, whitek3d",
+        "playlist": "annoying noise",
+        "duration": "1:24",
+        "durationSeconds": 84
+    },
+    {
+        "title": "она свободна (feat. морали нет)",
+        "artist": "диссоциативное расстройство",
+        "playlist": "annoying noise",
+        "duration": "1:21",
+        "durationSeconds": 81
+    },
+    {
+        "title": "Стань моїм вбивцею",
+        "artist": "Апатія, Do Sliz",
+        "playlist": "annoying noise",
+        "duration": "3:45",
+        "durationSeconds": 225
+    },
+    {
+        "title": "Тело похудело",
+        "artist": "КОРЗА",
+        "playlist": "annoying noise",
+        "duration": "2:25",
+        "durationSeconds": 145
+    },
+    {
+        "title": "сиськи",
+        "artist": "trepet",
+        "playlist": "annoying noise",
+        "duration": "1:45",
+        "durationSeconds": 105
+    },
+    {
+        "title": "MARTINE ROSE",
+        "artist": "madk1d, greyrock, tewiq",
+        "playlist": "annoying noise",
+        "duration": "3:07",
+        "durationSeconds": 187
+    },
+    {
+        "title": "Катюха",
+        "artist": "whitek3d",
+        "playlist": "annoying noise",
+        "duration": "1:18",
+        "durationSeconds": 78
+    },
+    {
+        "title": "ЛАБУБУ",
+        "artist": "YUNG FIMOZ, MIGAS",
+        "playlist": "annoying noise",
+        "duration": "2:00",
+        "durationSeconds": 120
+    },
+    {
+        "title": "Не помирай",
+        "artist": "Апатія",
+        "playlist": "annoying noise",
+        "duration": "2:20",
+        "durationSeconds": 140
+    },
+    {
+        "title": "Лунный Лик",
+        "artist": "GONE.Fludd, LOVV66",
+        "playlist": "annoying noise",
+        "duration": "2:56",
+        "durationSeconds": 176
+    },
+    {
+        "title": "распять (folk remix)",
+        "artist": "stel11a, plateexx",
+        "playlist": "annoying noise",
+        "duration": "1:31",
+        "durationSeconds": 91
+    },
+    {
+        "title": "SIDEL ODIN HARDSTYLE",
+        "artist": "Riversmelt, XP.UFX.",
+        "playlist": "annoying noise",
+        "duration": "1:44",
+        "durationSeconds": 104
+    },
+    {
+        "title": "Garcon Maigre - ☆popstar☆",
+        "artist": "odium",
+        "playlist": "annoying noise",
+        "duration": "1:31",
+        "durationSeconds": 91
+    },
+    {
+        "title": "что тебя гложет",
+        "artist": "k0vertessence, B4YLUm",
+        "playlist": "annoying noise",
+        "duration": "2:33",
+        "durationSeconds": 153
+    },
+    {
+        "title": "мориарти",
+        "artist": "k1n1ch, itzice, 2late",
+        "playlist": "annoying noise",
+        "duration": "1:15",
+        "durationSeconds": 75
+    },
+    {
+        "title": "europa fm",
+        "artist": "The pAura",
+        "playlist": "annoying noise",
+        "duration": "1:53",
+        "durationSeconds": 113
+    },
+    {
+        "title": "8 миля",
+        "artist": "madk1d, VILLIAN",
+        "playlist": "annoying noise",
+        "duration": "1:56",
+        "durationSeconds": 116
+    },
+    {
+        "title": "вклубе",
+        "artist": "тёмный принц",
+        "playlist": "annoying noise",
+        "duration": "1:40",
+        "durationSeconds": 100
+    },
+    {
+        "title": "тебе нравится",
+        "artist": "призрак крови, парапустяков",
+        "playlist": "annoying noise",
+        "duration": "1:57",
+        "durationSeconds": 117
+    },
+    {
+        "title": "Колготки",
+        "artist": "trepet",
+        "playlist": "annoying noise",
+        "duration": "1:25",
+        "durationSeconds": 85
+    },
+    {
+        "title": "Цветок",
+        "artist": "MORGENSHTERN",
+        "playlist": "annoying noise",
+        "duration": "2:36",
+        "durationSeconds": 156
+    },
+    {
+        "title": "вся моя жизнь говно",
+        "artist": "CUPSIZE",
+        "playlist": "annoying noise",
+        "duration": "2:51",
+        "durationSeconds": 171
+    },
+    {
+        "title": "детская травма",
+        "artist": "CUPSIZE",
+        "playlist": "annoying noise",
+        "duration": "2:13",
+        "durationSeconds": 133
+    },
+    {
+        "title": "семнадцать ножевых",
+        "artist": "CUPSIZE",
+        "playlist": "annoying noise",
+        "duration": "2:25",
+        "durationSeconds": 145
+    },
+    {
+        "title": "будка",
+        "artist": "CUPSIZE",
+        "playlist": "annoying noise",
+        "duration": "4:09",
+        "durationSeconds": 249
+    },
+    {
+        "title": "следак",
+        "artist": "CUPSIZE",
+        "playlist": "annoying noise",
+        "duration": "2:18",
+        "durationSeconds": 138
+    },
+    {
+        "title": "ЗППП",
+        "artist": "CUPSIZE",
+        "playlist": "annoying noise",
+        "duration": "2:30",
+        "durationSeconds": 150
+    },
+    {
+        "title": "Sk8er Boi",
+        "artist": "Avril Lavigne",
+        "playlist": "annoying noise",
+        "duration": "3:24",
+        "durationSeconds": 204
+    },
+    {
+        "title": "Тысячи этажей",
+        "artist": "Лоло, ребенокискусства",
+        "playlist": "annoying noise",
+        "duration": "1:07",
+        "durationSeconds": 67
+    },
+    {
+        "title": "Моя квітнева розгубленість",
+        "artist": "Re-read",
+        "playlist": "annoying noise",
+        "duration": "4:24",
+        "durationSeconds": 264
+    },
+    {
+        "title": "ты не одна",
+        "artist": "диссоциативное расстройство",
+        "playlist": "annoying noise",
+        "duration": "1:57",
+        "durationSeconds": 117
+    },
+    {
+        "title": "прости я не знаю",
+        "artist": "Серега Пират",
+        "playlist": "annoying noise",
+        "duration": "2:16",
+        "durationSeconds": 136
+    },
+    {
+        "title": "misery.",
+        "artist": "pupsies",
+        "playlist": "annoying noise",
+        "duration": "2:47",
+        "durationSeconds": 167
+    },
+    {
+        "title": "целоваться",
+        "artist": "lightprey",
+        "playlist": "annoying noise",
+        "duration": "1:55",
+        "durationSeconds": 115
+    },
+    {
+        "title": "прощай",
+        "artist": "k0vertessence",
+        "playlist": "annoying noise",
+        "duration": "1:54",
+        "durationSeconds": 114
+    },
+    {
+        "title": "моё июльское остинато",
+        "artist": "#небеснаякараIV",
+        "playlist": "annoying noise",
+        "duration": "2:16",
+        "durationSeconds": 136
+    },
+    {
+        "title": "револьвер",
+        "artist": "DJ ZUP RAlii",
+        "playlist": "annoying noise",
+        "duration": "1:13",
+        "durationSeconds": 73
+    },
+    {
+        "title": "murder",
+        "artist": "tewiq",
+        "playlist": "annoying noise",
+        "duration": "2:08",
+        "durationSeconds": 128
+    },
+    {
+        "title": "Луна",
+        "artist": "Violetta Sokolova",
+        "playlist": "annoying noise",
+        "duration": "2:19",
+        "durationSeconds": 139
+    },
+    {
+        "title": "собакам тут не место",
+        "artist": "ева киллер, мая койка, ника кабина",
+        "playlist": "annoying noise",
+        "duration": "1:50",
+        "durationSeconds": 110
+    },
+    {
+        "title": "JETLAG",
+        "artist": "Violetta Sokolova",
+        "playlist": "annoying noise",
+        "duration": "1:45",
+        "durationSeconds": 105
+    },
+    {
+        "title": "глупыйсвин",
+        "artist": "ева киллер, мая койка, ника кабина",
+        "playlist": "annoying noise",
+        "duration": "1:50",
+        "durationSeconds": 110
+    },
+    {
+        "title": "Вишенка",
+        "artist": "ssshhhiiittt!",
+        "playlist": "annoying noise",
+        "duration": "4:36",
+        "durationSeconds": 276
+    },
+    {
+        "title": "Отпусти меня",
+        "artist": "ЯРЧЕ СОЛНЦА",
+        "playlist": "annoying noise",
+        "duration": "3:22",
+        "durationSeconds": 202
+    },
+    {
+        "title": "ДИНАСТИЯ",
+        "artist": "VILLIAN, madk1d",
+        "playlist": "annoying noise",
+        "duration": "2:31",
+        "durationSeconds": 151
+    },
+    {
+        "title": "Нет Тебя",
+        "artist": "9mice, K",
+        "playlist": "annoying noise",
+        "duration": "3:38",
+        "durationSeconds": 218
+    },
+    {
+        "title": "Meant To Be",
+        "artist": "Cuntsniffer, Broken Toy Airplanes",
+        "playlist": "annoying noise",
+        "duration": "2:41",
+        "durationSeconds": 161
+    },
+    {
+        "title": "питер паркер",
+        "artist": "madk1d",
+        "playlist": "annoying noise",
+        "duration": "2:00",
+        "durationSeconds": 120
+    },
+    {
+        "title": "Естафета страждань",
+        "artist": "Апатія, SadSvit",
+        "playlist": "annoying noise",
+        "duration": "2:53",
+        "durationSeconds": 173
+    },
+    {
+        "title": "дырки в штанах",
+        "artist": "madk1d",
+        "playlist": "annoying noise",
+        "duration": "1:47",
+        "durationSeconds": 107
+    },
+    {
+        "title": "Весь этот мир",
+        "artist": "NEMIGA, Дорогой Дневник",
+        "playlist": "annoying noise",
+        "duration": "2:26",
+        "durationSeconds": 146
+    },
+    {
         "title": "Unravel",
         "artist": "TK from Ling tosite sigure",
         "playlist": "Off Screen",
@@ -4334,6 +4768,13 @@ const musicData = [
         "durationSeconds": 115
     },
     {
+        "title": "Я не понимаю слов или не хочу их знать #fallen777angel #kristiee #shorts",
+        "artist": "Рейн",
+        "playlist": "grave 2.0",
+        "duration": "0:22",
+        "durationSeconds": 22
+    },
+    {
         "title": "Малышка в Uniqlo",
         "artist": "nessqchai, usedbefore",
         "playlist": "grave 2.0",
@@ -7982,21 +8423,24 @@ const musicData = [
     }
 ];
 const musicStats = {
-    "totalViews": 1715,
-    "totalDurationSec": 208143,
+    "totalViews": 1737,
+    "totalDurationSec": 216615,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
+    "annoying noise": {
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COP-j9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3l7hBUYEvGkdd4N_H3Bkr9o4bfHTw"
+    },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COLjjtgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kjdHKOiPDN2fz-NYNmHmNyXascUg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COP-j9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mHl_naowpU3NV1fLxaJlQcog_c_g"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=COLjjtgG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3lLKCGkgiUVxUwrAL2csr30gNK0DQ"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=COT-j9gG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3kCS_6KrniC1cTTluT_ou53fN5cYg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CObjjtgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3mYrdQ-xeNbcXzGfgTZoqR3d5Pkmg"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=COf-j9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3n48bU53NnBykSfufr_pOZU67AmTA"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CObjjtgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nh2bhXgJqApH_b54hbjqNgV1_QzQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=COf-j9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3niSR-4MTPVHJ9FQuMGJmtCg3wGTw"
     }
 };
