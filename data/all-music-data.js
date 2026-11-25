@@ -1675,7 +1675,7 @@ const musicData = [
     },
     {
         "title": "Герой из аниме",
-        "artist": "Twinky, nowkie, Kirkiimad",
+        "artist": "Twinky, nowkie, kirkiimad",
         "playlist": "grave 2.0",
         "duration": "2:48",
         "durationSeconds": 168
@@ -1815,7 +1815,7 @@ const musicData = [
     },
     {
         "title": "молчи",
-        "artist": "Кис-Кис",
+        "artist": "кис-кис",
         "playlist": "grave 2.0",
         "duration": "3:18",
         "durationSeconds": 198
@@ -2123,7 +2123,7 @@ const musicData = [
     },
     {
         "title": "Trymai",
-        "artist": "Христина Соловій",
+        "artist": "Khrystyna Soloviy",
         "playlist": "grave 2.0",
         "duration": "3:28",
         "durationSeconds": 208
@@ -8436,18 +8436,18 @@ const musicStats = {
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CK-tm9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3mCi01-YfbV1rOGIAeceOEb7JPGnA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMPAndgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kWH4Rqr_CAuFZ2eGqWxa0yUKxEiw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CK-tm9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mc7_pvVg0v2zelzig-8m3FVxmpGw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMPAndgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mfLoN7_yF7X3I7wfhmnjla2Uk8UQ"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CLCtm9gG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3nwSWlyggBpT4kCE9QLNBEtb9foHA"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CMTAndgG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3nHpq9Lpamj0qv5cHRl4Kt6gtpM2A"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CLOtm9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kgFj7FvXfR0nr1esan7ne7doyuaw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMfAndgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3n7wc_RiH0M4VqWo0obfWjkBXEvYA"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CLStm9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3nAqeuPcDOcpaUzY5cQXCRq9wHTSw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMjAndgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lc2vnVJO-b4AG1M3vxy3922F16vw"
     }
 };
