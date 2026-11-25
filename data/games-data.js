@@ -536,7 +536,7 @@ if (typeof tierListData !== 'undefined') {
                 },
                 {
                     title: "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-                    review: "На минимальных 30 фпс. Пытался пройти. Оценки нет, поэтому и внизу топа.",
+                    review: "Ревью - ",
                 },
             ],
             'E': [

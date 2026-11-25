@@ -48,6 +48,11 @@ if (typeof tierListData !== 'undefined') {
                 review: "Хоть это и не энергетик, но зато это вкусная химозная херня.", 
                 img: "energydrink/Mojo м'ята-лайм.png"
             }, */
+            { 
+                title: "Monster Energy Ultra Black", 
+                review: "Можно покупать только ради оформления этой баночки. Ну а вкус хороший, написано что с вишней, но её очень слабо слышно, тут ягод больше, и небольшая кислинка есть. Почти не сладки, короче идеальный.",
+                img: "energydrink/Monster Energy Ultra Black.png"
+            },
         ],
         'A': [
             { 
