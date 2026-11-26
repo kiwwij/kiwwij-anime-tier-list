@@ -1177,6 +1177,13 @@ const musicData = [
         "durationSeconds": 223
     },
     {
+        "title": "назад в кресты",
+        "artist": "dabbackwood",
+        "playlist": "grave 2.0",
+        "duration": "1:30",
+        "durationSeconds": 90
+    },
+    {
         "title": "ЖЕРТВА ИНЦ*СТА (КАВЕР на The Aura Farmer - Horror Skunx (official song) COVER)",
         "artist": "НЕ ЗАПОМИНАЙ",
         "playlist": "grave 2.0",
@@ -3355,7 +3362,7 @@ const musicData = [
     },
     {
         "title": "Девочка-керри",
-        "artist": "NORMAN",
+        "artist": "Norman",
         "playlist": "grave 2.0",
         "duration": "2:41",
         "durationSeconds": 161
@@ -3600,7 +3607,7 @@ const musicData = [
     },
     {
         "title": "Единственный зритель",
-        "artist": "NORMAN",
+        "artist": "Norman",
         "playlist": "grave 2.0",
         "duration": "2:41",
         "durationSeconds": 161
@@ -4748,7 +4755,7 @@ const musicData = [
     },
     {
         "title": "Золотые купола",
-        "artist": "NORMAN",
+        "artist": "Norman",
         "playlist": "grave 2.0",
         "duration": "2:36",
         "durationSeconds": 156
@@ -6351,7 +6358,7 @@ const musicData = [
     },
     {
         "title": "Малышка любит бустера",
-        "artist": "Norman, soqql",
+        "artist": "soqql, Norman",
         "playlist": "grave 2.0",
         "duration": "2:38",
         "durationSeconds": 158
@@ -6617,7 +6624,7 @@ const musicData = [
     },
     {
         "title": "Ужин",
-        "artist": "Migas",
+        "artist": "MIGAS",
         "playlist": "grave 2.0",
         "duration": "2:06",
         "durationSeconds": 126
@@ -8431,23 +8438,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1818,
-    "totalDurationSec": 216996,
+    "totalDurationSec": 217086,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CMauodgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3lcrK39w_Kc1D2i6adGRdOUlP8AhQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=COyIo9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3kFrRUMmvMr1VVsj6PNrE_Nb0hJDw"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CMeuodgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kSoaJ6iVja0-dyQahnYqGFWUloAw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=COyIo9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mtXOjx32bgEoDgHT6RTDCKEBkjcg"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CMiuodgG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3l5TPkomu8I5qPmbcxaJH6fYcKe9Q"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CO2Io9gG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3kiKnO4TRmWRKQoKe_ygl0jdm6QBw"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CMyuodgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3n8qz32M4667Ek9IWQCye3HL4xOwQ"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CPGIo9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3kLEw_gBkMwfJlgQUBSVlDeGBJwOQ"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CMyuodgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lFDCFE6jxHZW_iWNDCZdZQPXSQvw"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CPKIo9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3l6QBEqZmZ3Z8CP3JnIKsDdjVLbXA"
     }
 };
