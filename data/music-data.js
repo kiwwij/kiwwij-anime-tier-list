@@ -304,14 +304,9 @@ const musicData = [
         "title": "дырки в штанах",
         "artist": "madk1d",
         "playlist": "annoying noise"
-    },
-    {
-        "title": "Весь этот мир",
-        "artist": "NEMIGA",
-        "playlist": "annoying noise"
     }
 ];
 const musicStats = {
     "totalViews": 22,
-    "totalDurationSec": 8450
+    "totalDurationSec": 8304
 };
