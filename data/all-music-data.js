@@ -428,13 +428,6 @@ const musicData = [
         "durationSeconds": 107
     },
     {
-        "title": "Весь этот мир",
-        "artist": "NEMIGA, Дорогой Дневник",
-        "playlist": "annoying noise",
-        "duration": "2:26",
-        "durationSeconds": 146
-    },
-    {
         "title": "Unravel",
         "artist": "TK from Ling tosite sigure",
         "playlist": "Off Screen",
@@ -1177,6 +1170,27 @@ const musicData = [
         "durationSeconds": 223
     },
     {
+        "title": "Life and Legacy",
+        "artist": "Evan Call",
+        "playlist": "Off Screen",
+        "duration": "2:48",
+        "durationSeconds": 168
+    },
+    {
+        "title": "Beyond the Journey's End",
+        "artist": "Evan Call",
+        "playlist": "Off Screen",
+        "duration": "5:41",
+        "durationSeconds": 341
+    },
+    {
+        "title": "Весь этот мир",
+        "artist": "NEMIGA, Дорогой Дневник",
+        "playlist": "grave 2.0",
+        "duration": "2:26",
+        "durationSeconds": 146
+    },
+    {
         "title": "назад в кресты",
         "artist": "dabbackwood",
         "playlist": "grave 2.0",
@@ -1268,8 +1282,8 @@ const musicData = [
         "durationSeconds": 181
     },
     {
-        "title": "マシュマロ - Marshmallow",
-        "artist": "DECO*27",
+        "title": "マシュマロ - Marshmallow (feat. Hatsune Miku)",
+        "artist": "DECO*27, Hatsune Miku",
         "playlist": "grave 2.0",
         "duration": "2:52",
         "durationSeconds": 172
@@ -8438,23 +8452,23 @@ const musicData = [
 ];
 const musicStats = {
     "totalViews": 1846,
-    "totalDurationSec": 217086,
+    "totalDurationSec": 217595,
     "lastUpdated": "Auto-generated"
 };
 const playlistsMeta = {
     "annoying noise": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CJKUpdgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3m5uDDAbko3CR28q6-Cug2Cwo1Hig"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqlgCtFnLEi7x7uFdu6mQj-C/studio_square_thumbnail.jpg?sqp=CKKtp9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgj_uJTTBg&rs=AMzJL3ndD_HhFQUmLsKiQZ4OX9zABoxL_w"
     },
     "Off Screen": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CJOUpdgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3kdFrcHoiv9ji6fmmUTqd1Uo5Ax-A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqmmF8hmlVcQXWpUBai2C7EZ/studio_square_thumbnail.jpg?sqp=CKKtp9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiux7TOBg&rs=AMzJL3mtrGFNa35sNlT54PxZ4ns5dlCSjg"
     },
     "grave 2.0": {
-        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CJOUpdgG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3mxCxaXubwm17I8UzVuFSmUfSrjFA"
+        "poster": "https://i.ytimg.com/pl_c/PLJEQq6rpQoyE/generated_thumbnail.jpg?sqp=CKOtp9gG-oaymwEUCKAEEKAEIABIWvqriqkDBBoCCAGi85f_AwYI1qLo1gY&rs=AMzJL3nth9LwKlcgXPwZgCOdRuPW9xSUgg"
     },
     "Game OSTs": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CJeUpdgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nHJblbSMO20CCTSKhMQ_EO-rHulA"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqkDuC__SDej4G0zxH4KKTCJ/studio_square_thumbnail.jpg?sqp=CKetp9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgimiOHNBg&rs=AMzJL3nFhHhekMHV3yjQRlyka5Le82T7xQ"
     },
     "breakcore": {
-        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CJeUpdgG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3krn4oxVh53PrMUoN8IP-y2evdr_A"
+        "poster": "https://i.ytimg.com/pl_c/PLov5IgTS5pqnkO9-TBA6AJOF9-2tvdvXk/studio_square_thumbnail.jpg?sqp=CKetp9gG-oaymwEKCKAEEKAEIABIWqLzl_8DBgiCu5HQBg&rs=AMzJL3lV6bpJJQRPeh7bZOGgj-ZlW0w5CA"
     }
 };
