@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/eaa8e63a078d8b68c1868be2e89309326522f784_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "In Game",
-        "statusColor": "#4CAF50",
+        "status": "Offline",
+        "statusColor": "#9E9E9E",
         "level": 41,
         "age": 6.8
     },
@@ -16,15 +16,15 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "playtime_2weeks": 22.0,
-            "hours": 3806.9,
+            "playtime_2weeks": 23.1,
+            "hours": 3807.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570"
         },
         {
             "appid": 814380,
             "name": "Sekiro™: Shadows Die Twice",
-            "playtime_2weeks": 19.8,
+            "playtime_2weeks": 18.3,
             "hours": 40.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg",
             "url": "https://store.steampowered.com/app/814380"
@@ -36,14 +36,6 @@ const steamData = {
             "hours": 14.8,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1643320/header.jpg",
             "url": "https://store.steampowered.com/app/1643320"
-        },
-        {
-            "appid": 1501750,
-            "name": "Lords of the Fallen",
-            "playtime_2weeks": 5.0,
-            "hours": 90.0,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
-            "url": "https://store.steampowered.com/app/1501750"
         },
         {
             "appid": 3419430,
@@ -74,7 +66,7 @@ const steamData = {
         {
             "appid": 570,
             "name": "Dota 2",
-            "hours": 3806.9,
+            "hours": 3807.9,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
             "url": "https://store.steampowered.com/app/570",
             "tags": [
@@ -258,7 +250,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры"
             ]
         },
         {
