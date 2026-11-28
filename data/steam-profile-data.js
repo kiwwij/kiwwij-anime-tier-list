@@ -4,8 +4,8 @@ const steamData = {
         "nickname": "kiwwij",
         "avatar": "https://avatars.steamstatic.com/eaa8e63a078d8b68c1868be2e89309326522f784_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/serhiosergey/",
-        "status": "Offline",
-        "statusColor": "#9E9E9E",
+        "status": "Online",
+        "statusColor": "#4CAF50",
         "level": 41,
         "age": 6.8
     },
@@ -30,20 +30,20 @@ const steamData = {
             "url": "https://store.steampowered.com/app/814380"
         },
         {
+            "appid": 1643320,
+            "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+            "playtime_2weeks": 10.0,
+            "hours": 14.8,
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1643320/header.jpg",
+            "url": "https://store.steampowered.com/app/1643320"
+        },
+        {
             "appid": 1501750,
             "name": "Lords of the Fallen",
-            "playtime_2weeks": 11.9,
+            "playtime_2weeks": 7.4,
             "hours": 90.0,
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/header.jpg",
             "url": "https://store.steampowered.com/app/1501750"
-        },
-        {
-            "appid": 1643320,
-            "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-            "playtime_2weeks": 7.9,
-            "hours": 12.7,
-            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1643320/header.jpg",
-            "url": "https://store.steampowered.com/app/1643320"
         },
         {
             "appid": 3419430,
@@ -224,7 +224,7 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
             "url": "https://store.steampowered.com/app/1091500",
             "tags": [
-                "Без жанра"
+                "Ролевые игры"
             ]
         },
         {
@@ -258,7 +258,8 @@ const steamData = {
             "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
             "url": "https://store.steampowered.com/app/1172620",
             "tags": [
-                "Без жанра"
+                "Экшены",
+                "Приключенческие игры"
             ]
         },
         {
